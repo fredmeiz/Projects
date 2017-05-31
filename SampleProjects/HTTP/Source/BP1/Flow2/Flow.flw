@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Flow>
+
+  <Properties>
+    <ID>2</ID>
+    <Order>2</Order>
+    <Name>Method</Name>
+    <isInactive>false</isInactive>
+    <isDisabled>false</isDisabled>
+    <isTwoPhase>false</isTwoPhase>
+    <isAutoStart>false</isAutoStart>
+    <MaxInstances>0</MaxInstances>
+    <isAutoRepeat>false</isAutoRepeat>
+    <TimeoutPolicy>6</TimeoutPolicy>
+    <TimeOutVal>0</TimeOutVal>
+    <RecoveryPolicy>6</RecoveryPolicy>
+  </Properties>
+
+  <DrawProperties>
+    <RootStepID>2</RootStepID>
+    <HasTrigger>false</HasTrigger>
+  </DrawProperties>
+
+  <Steps>
+    <row_Step>
+      <Properties>
+        <isGoTo>false</isGoTo>
+        <ParentStepID>2</ParentStepID>
+        <SortOrder>1</SortOrder>
+        <ID>1</ID>
+        <Name>HTTP GET</Name>
+        <IFCDefinition>110</IFCDefinition>
+        <ProcessMode>1</ProcessMode>
+        <isTwoPhase>false</isTwoPhase>
+        <isWait4Comp>false</isWait4Comp>
+        <isSavePoint>false</isSavePoint>
+        <CallLogicFlow>false</CallLogicFlow>
+        <isTrigger>false</isTrigger>
+      </Properties>
+      <LoggingInfo>
+        <Scope>1</Scope>
+        <Option>2</Option>
+        <MSGDetails>
+          <MSGString>
+            <ExpressionVal>J091dHB1dCByZXR1cm5lZCBmcm9tIFVSTCA6ICc=</ExpressionVal>
+            <ExpectedType>A</ExpectedType>
+            <Direction>I</Direction>
+          </MSGString>
+          <MSGBLOB>
+            <ExpressionVal>PCMhJUAkPmdldFZhck5hbWUoMiwnMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDA3JywwLDApPCMhJUAkPg==</ExpressionVal>
+            <ExpectedType>B</ExpectedType>
+            <Direction>I</Direction>
+          </MSGBLOB>
+          <BLOBExtn>html</BLOBExtn>
+        </MSGDetails>
+      </LoggingInfo>
+      <ResourceInfo>
+        <isDynamic>false</isDynamic>
+        <ResSerName>GetHTTP</ResSerName>
+      </ResourceInfo>
+      <ConfigInfo>
+        <Interface>2</Interface>
+        <InvokeComp>%ifclib%http\httpifc.ecf</InvokeComp>
+        <ActivationBLOB>PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIiA/Pg0KPERBTV9BY3RpdmF0aW9uQkxPQj4NCg0KICA8TWV0aG9kcz4NCiAgICA8UmVjb3JkSVNOPjE8L1JlY29yZElTTj4NCiAgICA8T3JkZXJObz4xPC9PcmRlck5vPg0KICAgIDxNZXRob2RDb2RlPjE8L01ldGhvZENvZGU+DQogICAgPFB1YmxpY05hbWU+R2V0PC9QdWJsaWNOYW1lPg0KICAgIDxQYXJhbWV0ZXJzPg0KICAgICAgPFBhcmFtZXRlcklEPjI8L1BhcmFtZXRlcklEPg0KICAgICAgPFBhcmFtZXRlclR5cGU+QTwvUGFyYW1ldGVyVHlwZT4NCiAgICAgIDxQYXJhbWV0ZXJQaWN0dXJlPjI2MDwvUGFyYW1ldGVyUGljdHVyZT4NCiAgICAgIDxEaXJlY3Rpb24+SW48L0RpcmVjdGlvbj4NCiAgICAgIDxYU0RFbGVtZW50TmFtZT5TdGFydFRleHQ8L1hTREVsZW1lbnROYW1lPg0KICAgICAgPERpc3BsYXlTZXF1ZW5jZUlEPjE8L0Rpc3BsYXlTZXF1ZW5jZUlEPg0KICAgICAgPFZpc2liaWxpdHk+MDwvVmlzaWJpbGl0eT4NCiAgICAgIDxNYW5kYXRvcnk+MDwvTWFuZGF0b3J5Pg0KICAgIDwvUGFyYW1ldGVycz4NCiAgICA8UGFyYW1ldGVycz4NCiAgICAgIDxQYXJhbWV0ZXJJRD4zPC9QYXJhbWV0ZXJJRD4NCiAgICAgIDxQYXJhbWV0ZXJUeXBlPkE8L1BhcmFtZXRlclR5cGU+DQogICAgICA8UGFyYW1ldGVyUGljdHVyZT4yNjA8L1BhcmFtZXRlclBpY3R1cmU+DQogICAgICA8RGlyZWN0aW9uPkluPC9EaXJlY3Rpb24+DQogICAgICA8WFNERWxlbWVudE5hbWU+RW5kVGV4dDwvWFNERWxlbWVudE5hbWU+DQogICAgICA8RGlzcGxheVNlcXVlbmNlSUQ+MjwvRGlzcGxheVNlcXVlbmNlSUQ+DQogICAgICA8VmlzaWJpbGl0eT4wPC9WaXNpYmlsaXR5Pg0KICAgICAgPE1hbmRhdG9yeT4wPC9NYW5kYXRvcnk+DQogICAgPC9QYXJhbWV0ZXJzPg0KICAgIDxQYXJhbWV0ZXJzPg0KICAgICAgPFBhcmFtZXRlcklEPjQ8L1BhcmFtZXRlcklEPg0KICAgICAgPFBhcmFtZXRlclR5cGU+QTwvUGFyYW1ldGVyVHlwZT4NCiAgICAgIDxQYXJhbWV0ZXJQaWN0dXJlPjEwMDA8L1BhcmFtZXRlclBpY3R1cmU+DQogICAgICA8RGlyZWN0aW9uPkluPC9EaXJlY3Rpb24+DQogICAgICA8WFNERWxlbWVudE5hbWU+SGVhZGVySW5mb3JtYXRpb248L1hTREVsZW1lbnROYW1lPg0KICAgICAgPERpc3BsYXlTZXF1ZW5jZUlEPjM8L0Rpc3BsYXlTZXF1ZW5jZUlEPg0KICAgICAgPFZpc2liaWxpdHk+MDwvVmlzaWJpbGl0eT4NCiAgICAgIDxNYW5kYXRvcnk+MDwvTWFuZGF0b3J5Pg0KICAgIDwvUGFyYW1ldGVycz4NCiAgICA8UGFyYW1ldGVycz4NCiAgICAgIDxQYXJhbWV0ZXJJRD41PC9QYXJhbWV0ZXJJRD4NCiAgICAgIDxQYXJhbWV0ZXJUeXBlPkI8L1BhcmFtZXRlclR5cGU+DQogICAgICA8UGFyYW1ldGVyUGljdHVyZS8+DQogICAgICA8RGlyZWN0aW9uPk91dDwvRGlyZWN0aW9uPg0KICAgICAgPE91dF9FeHByZXNzaW9uPg0KICAgICAgICA8RXhwcmVzc2lvblZhbD5QQ01oSlVBa1BtZGxkRlpoY2s1aGJXVW9NaXduTURBd01EQXdNREF3TURBd01EQXdNREF3TURBd01EQXdNREF3TURBd01EQXdNREF3TURBM0p5d3dMREFwUENNaEpVQWtQZz09PC9FeHByZXNzaW9uVmFsPg0KICAgICAgICA8RXhwZWN0ZWRUeXBlPkI8L0V4cGVjdGVkVHlwZT4NCiAgICAgICAgPERpcmVjdGlvbj5PPC9EaXJlY3Rpb24+DQogICAgICA8L091dF9FeHByZXNzaW9uPg0KICAgICAgPFhTREVsZW1lbnROYW1lPk91dHB1dEJMT0I8L1hTREVsZW1lbnROYW1lPg0KICAgICAgPERpc3BsYXlTZXF1ZW5jZUlEPjU8L0Rpc3BsYXlTZXF1ZW5jZUlEPg0KICAgICAgPFZpc2liaWxpdHk+MDwvVmlzaWJpbGl0eT4NCiAgICAgIDxNYW5kYXRvcnk+MDwvTWFuZGF0b3J5Pg0KICAgIDwvUGFyYW1ldGVycz4NCiAgICA8UGFyYW1ldGVycz4NCiAgICAgIDxQYXJhbWV0ZXJJRD42PC9QYXJhbWV0ZXJJRD4NCiAgICAgIDxQYXJhbWV0ZXJUeXBlPk48L1BhcmFtZXRlclR5cGU+DQogICAgICA8UGFyYW1ldGVyUGljdHVyZT4xMjwvUGFyYW1ldGVyUGljdHVyZT4NCiAgICAgIDxEaXJlY3Rpb24+T3V0PC9EaXJlY3Rpb24+DQogICAgICA8T3V0X0V4cHJlc3Npb24+DQogICAgICAgIDxFeHByZXNzaW9uVmFsPlBDTWhKVUFrUG1kbGRGWmhjazVoYldVb01pd25NREF3TURBd01EQXdNREF3TURBd01EQXdNREF3TURBd01EQXdNREF3TURBd01EQXdNREEySnl3d0xEQXBQQ01oSlVBa1BnPT08L0V4cHJlc3Npb25WYWw+DQogICAgICAgIDxFeHBlY3RlZFR5cGU+TjwvRXhwZWN0ZWRUeXBlPg0KICAgICAgICA8RGlyZWN0aW9uPk88L0RpcmVjdGlvbj4NCiAgICAgIDwvT3V0X0V4cHJlc3Npb24+DQogICAgICA8WFNERWxlbWVudE5hbWU+RXJyb3JDb2RlPC9YU0RFbGVtZW50TmFtZT4NCiAgICAgIDxEaXNwbGF5U2VxdWVuY2VJRD43PC9EaXNwbGF5U2VxdWVuY2VJRD4NCiAgICAgIDxWaXNpYmlsaXR5PjA8L1Zpc2liaWxpdHk+DQogICAgICA8TWFuZGF0b3J5PjA8L01hbmRhdG9yeT4NCiAgICA8L1BhcmFtZXRlcnM+DQogICAgPFBhcmFtZXRlcnM+DQogICAgICA8UGFyYW1ldGVySUQ+NzwvUGFyYW1ldGVySUQ+DQogICAgICA8UGFyYW1ldGVyVHlwZT5BPC9QYXJhbWV0ZXJUeXBlPg0KICAgICAgPFBhcmFtZXRlclBpY3R1cmU+MTAwMDwvUGFyYW1ldGVyUGljdHVyZT4NCiAgICAgIDxEaXJlY3Rpb24+SW48L0RpcmVjdGlvbj4NCiAgICAgIDxYU0RFbGVtZW50TmFtZT5IZWFkZXJTZXQ8L1hTREVsZW1lbnROYW1lPg0KICAgICAgPERpc3BsYXlTZXF1ZW5jZUlEPjQ8L0Rpc3BsYXlTZXF1ZW5jZUlEPg0KICAgICAgPFZpc2liaWxpdHk+MDwvVmlzaWJpbGl0eT4NCiAgICAgIDxNYW5kYXRvcnk+MDwvTWFuZGF0b3J5Pg0KICAgIDwvUGFyYW1ldGVycz4NCiAgICA8UGFyYW1ldGVycz4NCiAgICAgIDxQYXJhbWV0ZXJJRD44PC9QYXJhbWV0ZXJJRD4NCiAgICAgIDxQYXJhbWV0ZXJUeXBlPkE8L1BhcmFtZXRlclR5cGU+DQogICAgICA8UGFyYW1ldGVyUGljdHVyZT4xMDAwPC9QYXJhbWV0ZXJQaWN0dXJlPg0KICAgICAgPERpcmVjdGlvbj5PdXQ8L0RpcmVjdGlvbj4NCiAgICAgIDxPdXRfRXhwcmVzc2lvbj4NCiAgICAgICAgPEV4cHJlc3Npb25WYWw+UENNaEpVQWtQbWRsZEZaaGNrNWhiV1VvTWl3bk1EQXdNREF3TURBd01EQXdNREF3TURBd01EQXdNREF3TURBd01EQXdNREF3TURBd01EQTFKeXd3TERBcFBDTWhKVUFrUGc9PTwvRXhwcmVzc2lvblZhbD4NCiAgICAgICAgPEV4cGVjdGVkVHlwZT5BPC9FeHBlY3RlZFR5cGU+DQogICAgICAgIDxEaXJlY3Rpb24+TzwvRGlyZWN0aW9uPg0KICAgICAgPC9PdXRfRXhwcmVzc2lvbj4NCiAgICAgIDxYU0RFbGVtZW50TmFtZT5PdXRwdXRIZWFkZXI8L1hTREVsZW1lbnROYW1lPg0KICAgICAgPERpc3BsYXlTZXF1ZW5jZUlEPjY8L0Rpc3BsYXlTZXF1ZW5jZUlEPg0KICAgICAgPFZpc2liaWxpdHk+MDwvVmlzaWJpbGl0eT4NCiAgICAgIDxNYW5kYXRvcnk+MDwvTWFuZGF0b3J5Pg0KICAgIDwvUGFyYW1ldGVycz4NCiAgPC9NZXRob2RzPg0KDQo8L0RBTV9BY3RpdmF0aW9uQkxPQj4NCg==</ActivationBLOB>
+      </ConfigInfo>
+    </row_Step>
+    <row_Step>
+      <Properties>
+        <isGoTo>false</isGoTo>
+        <ParentStepID>0</ParentStepID>
+        <SortOrder>0</SortOrder>
+        <ID>2</ID>
+        <Name>NOP</Name>
+        <Description>This flow shows HTTP Get using Method interface</Description>
+        <IFCDefinition>22</IFCDefinition>
+        <ProcessMode>1</ProcessMode>
+        <isTwoPhase>false</isTwoPhase>
+        <isWait4Comp>false</isWait4Comp>
+        <isSavePoint>false</isSavePoint>
+        <CallLogicFlow>false</CallLogicFlow>
+        <isTrigger>false</isTrigger>
+      </Properties>
+      <LoggingInfo>
+        <Scope>0</Scope>
+      </LoggingInfo>
+      <iBoltService/>
+    </row_Step>
+  </Steps>
+
+  <TextElements>
+    <row_Element>
+      <ID>1</ID>
+      <Description>This flow shows how to use the HTTP component's Method interface.</Description>
+      <TextLocation>Left</TextLocation>
+      <Font>1</Font>
+      <Color>12713983</Color>
+      <BorderStyle>1</BorderStyle>
+    </row_Element>
+    <row_Element>
+      <ID>2</ID>
+      <Description>Before using the HTTP component's Get Method, you need to create an HTTP resource in the Resource Repository. Here you should specify the HTTP's URL.</Description>
+      <TextLocation>Left</TextLocation>
+      <Font>2</Font>
+      <Color>12713983</Color>
+      <BorderStyle>1</BorderStyle>
+    </row_Element>
+  </TextElements>
+
+</Flow>

@@ -1,0 +1,37 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://systinet.com/wsdl/com/magicsoftware/magicxpi/amiedubamagic/JDE/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="magentoCreateOrder">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element type="xs:string" name="orderId"/>
+        <xs:element type="xs:date" name="createdAt"/>
+        <xs:element type="xs:date" name="updatedAt"/>
+        <xs:element type="xs:decimal" name="shippingAmount"/>
+        <xs:element type="xs:decimal" name="taxAmount"/>
+        <xs:element type="xs:string" name="shippingId"/>
+        <xs:element type="xs:string" name="shippingTo"/>
+        <xs:element type="xs:string" name="billingId"/>
+        <xs:element type="xs:string" name="billingTo"/>
+
+        <xs:element type="xs:decimal" name="discountAmount"/>
+        <xs:element type="xs:decimal" name="subTotal"/>
+        <xs:element type="xs:decimal" name="grandTotal"/>
+
+        <xs:element type="xs:string" name="status"/>
+        <xs:element type="xs:string" name="state"/>
+	    <xs:element type="xs:string" name="orderCurrencyCode"/>
+        <xs:element type="xs:string" name="customerEmail"/>
+        <xs:element type="xs:string" name="purchaseOrder"/>
+        <xs:element name="orderItems" maxOccurs="unbounded" minOccurs="0">
+	      <xs:complexType>
+            <xs:sequence>
+                    <xs:element type="xs:string" name="sku"/>
+                    <xs:element type="xs:decimal" name="qty"/>
+                    <xs:element type="xs:decimal" name="tax"/>
+                    <xs:element type="xs:decimal" name="price"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

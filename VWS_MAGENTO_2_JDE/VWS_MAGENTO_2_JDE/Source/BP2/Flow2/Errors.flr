@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FlowErrors>
+
+	<row d2p1:type="FlowErrorRepositoryItem" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance">
+	<Order>1</Order>
+	<ComponentID>25</ComponentID>
+	<FromErrID>550</FromErrID>
+	<ToErrID>550</ToErrID>
+			<Description>WebService Error</Description>
+		<ErrorPolicy>5</ErrorPolicy>
+			<StepID>27</StepID>
+		<Notification>No action</Notification>
+	</row>
+ </FlowErrors>

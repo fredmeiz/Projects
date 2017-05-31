@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Flow>
+
+  <Properties>
+    <ID>1</ID>
+    <Order>4</Order>
+    <Name>XML</Name>
+    <isInactive>false</isInactive>
+    <isDisabled>false</isDisabled>
+    <isTwoPhase>false</isTwoPhase>
+    <isAutoStart>false</isAutoStart>
+    <MaxInstances>0</MaxInstances>
+    <isAutoRepeat>false</isAutoRepeat>
+    <TimeoutPolicy>6</TimeoutPolicy>
+    <TimeOutVal>0</TimeOutVal>
+    <RecoveryPolicy>6</RecoveryPolicy>
+    <Enablement>
+      <ResourceInfo>
+        <isDynamic>false</isDynamic>
+        <ResSerName/>
+      </ResourceInfo>
+    </Enablement>
+  </Properties>
+
+  <DrawProperties>
+    <RootStepID>3</RootStepID>
+    <HasTrigger>false</HasTrigger>
+  </DrawProperties>
+
+  <Steps>
+    <row_Step>
+      <Properties>
+        <isGoTo>false</isGoTo>
+        <ParentStepID>4</ParentStepID>
+        <SortOrder>1</SortOrder>
+        <ID>2</ID>
+        <Name>Show Message</Name>
+        <IFCDefinition>6</IFCDefinition>
+        <ProcessMode>1</ProcessMode>
+        <isTwoPhase>false</isTwoPhase>
+        <isWait4Comp>false</isWait4Comp>
+        <isSavePoint>false</isSavePoint>
+        <CallLogicFlow>false</CallLogicFlow>
+        <StepCondition>
+          <ExpressionVal>PCMhJUAkPmdldFZhck5hbWUoMiwnMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDA2JywwLDApPCMhJUAkPiA9IDA=</ExpressionVal>
+          <ExpectedType>L</ExpectedType>
+          <Direction>I</Direction>
+        </StepCondition>
+        <isTrigger>false</isTrigger>
+      </Properties>
+      <LoggingInfo>
+        <Scope>0</Scope>
+      </LoggingInfo>
+      <iBoltService>
+        <SaveMSG>
+          <MSGString>
+            <ExpressionVal>J1F1aWNrIFNlbmQgb3BlcmF0aW9uIGlzIHN1Y2Nlc3NmdWwn</ExpressionVal>
+            <ExpectedType>A</ExpectedType>
+            <Direction>I</Direction>
+          </MSGString>
+        </SaveMSG>
+      </iBoltService>
+    </row_Step>
+    <row_Step>
+      <Properties>
+        <isGoTo>false</isGoTo>
+        <ParentStepID>0</ParentStepID>
+        <SortOrder>0</SortOrder>
+        <ID>3</ID>
+        <Name>Show Method name to execute</Name>
+        <IFCDefinition>6</IFCDefinition>
+        <ProcessMode>1</ProcessMode>
+        <isTwoPhase>false</isTwoPhase>
+        <isWait4Comp>false</isWait4Comp>
+        <isSavePoint>false</isSavePoint>
+        <CallLogicFlow>false</CallLogicFlow>
+        <isTrigger>false</isTrigger>
+      </Properties>
+      <LoggingInfo>
+        <Scope>0</Scope>
+      </LoggingInfo>
+      <iBoltService>
+        <SaveMSG>
+          <MSGString>
+            <ExpressionVal>J1hNTCBJbnRlcmZhY2Un</ExpressionVal>
+            <ExpectedType>A</ExpectedType>
+            <Direction>I</Direction>
+          </MSGString>
+        </SaveMSG>
+      </iBoltService>
+    </row_Step>
+    <row_Step>
+      <Properties>
+        <isGoTo>false</isGoTo>
+        <ParentStepID>3</ParentStepID>
+        <SortOrder>1</SortOrder>
+        <ID>4</ID>
+        <Name>Quick Send</Name>
+        <IFCDefinition>118</IFCDefinition>
+        <ProcessMode>1</ProcessMode>
+        <isTwoPhase>false</isTwoPhase>
+        <isWait4Comp>false</isWait4Comp>
+        <isSavePoint>false</isSavePoint>
+        <CallLogicFlow>false</CallLogicFlow>
+        <isTrigger>false</isTrigger>
+      </Properties>
+      <LoggingInfo>
+        <Scope>0</Scope>
+        <Option>1</Option>
+      </LoggingInfo>
+      <ResourceInfo>
+        <isDynamic>false</isDynamic>
+        <ResSerName>Direct Access Type</ResSerName>
+      </ResourceInfo>
+      <ConfigInfo>
+        <Interface>1</Interface>
+        <InvokeComp>%ifclib%msmq\msmqifc.ecf</InvokeComp>
+      </ConfigInfo>
+    </row_Step>
+  </Steps>
+
+  <TextElements>
+    <row_Element>
+      <ID>1</ID>
+      <Description>This flow shows how to use the MSMQ component's XML interface.&#xD;&#xA;Only the Quick Send method is shown.</Description>
+      <TextLocation>Left</TextLocation>
+      <Font>1</Font>
+      <Color>8454143</Color>
+      <BorderStyle>1</BorderStyle>
+    </row_Element>
+  </TextElements>
+
+</Flow>

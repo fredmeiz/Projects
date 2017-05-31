@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" version="1.0">
+<xsd:element name="B4200310.F4211ClearWorkFile">
+<xsd:complexType>
+<xsd:sequence>
+<xsd:element name="Data">
+<xsd:complexType>
+<xsd:sequence>
+<xsd:element name="row">
+<xsd:complexType>
+<xsd:sequence maxOccurs="unbounded">
+<xsd:element name="mnJobNo">
+<xsd:annotation>
+<xsd:documentation>Required=YES</xsd:documentation>
+</xsd:annotation>
+<xsd:simpleType>
+<xsd:restriction base="xsd:string">
+<xsd:maxLength value="32"/>
+</xsd:restriction>
+</xsd:simpleType>
+</xsd:element>
+<xsd:element name="szComputerID">
+<xsd:annotation>
+<xsd:documentation>Required=NO</xsd:documentation>
+</xsd:annotation>
+<xsd:simpleType>
+<xsd:restriction base="xsd:string">
+<xsd:maxLength value="16"/>
+</xsd:restriction>
+</xsd:simpleType>
+</xsd:element>
+<xsd:element name="mnFromLineNo">
+<xsd:annotation>
+<xsd:documentation>Required=YES</xsd:documentation>
+</xsd:annotation>
+<xsd:simpleType>
+<xsd:restriction base="xsd:string">
+<xsd:maxLength value="32"/>
+</xsd:restriction>
+</xsd:simpleType>
+</xsd:element>
+<xsd:element name="mnThruLineNo">
+<xsd:annotation>
+<xsd:documentation>Required=YES</xsd:documentation>
+</xsd:annotation>
+<xsd:simpleType>
+<xsd:restriction base="xsd:string">
+<xsd:maxLength value="32"/>
+</xsd:restriction>
+</xsd:simpleType>
+</xsd:element>
+<xsd:element name="cClearHeaderWF">
+<xsd:annotation>
+<xsd:documentation>Required=YES</xsd:documentation>
+</xsd:annotation>
+<xsd:simpleType>
+<xsd:restriction base="xsd:string">
+<xsd:maxLength value="1"/>
+</xsd:restriction>
+</xsd:simpleType>
+</xsd:element>
+<xsd:element name="cClearDetailWF">
+<xsd:annotation>
+<xsd:documentation>Required=YES</xsd:documentation>
+</xsd:annotation>
+<xsd:simpleType>
+<xsd:restriction base="xsd:string">
+<xsd:maxLength value="1"/>
+</xsd:restriction>
+</xsd:simpleType>
+</xsd:element>
+<xsd:element name="szProgramID">
+<xsd:annotation>
+<xsd:documentation>Required=YES</xsd:documentation>
+</xsd:annotation>
+<xsd:simpleType>
+<xsd:restriction base="xsd:string">
+<xsd:maxLength value="11"/>
+</xsd:restriction>
+</xsd:simpleType>
+</xsd:element>
+<xsd:element name="mnWKRelatedOrderProcess">
+<xsd:annotation>
+<xsd:documentation>Required=YES</xsd:documentation>
+</xsd:annotation>
+<xsd:simpleType>
+<xsd:restriction base="xsd:string">
+<xsd:maxLength value="32"/>
+</xsd:restriction>
+</xsd:simpleType>
+</xsd:element>
+<xsd:element name="szCMVersion">
+<xsd:annotation>
+<xsd:documentation>Required=YES</xsd:documentation>
+</xsd:annotation>
+<xsd:simpleType>
+<xsd:restriction base="xsd:string">
+<xsd:maxLength value="11"/>
+</xsd:restriction>
+</xsd:simpleType>
+</xsd:element>
+<xsd:element name="cGenericChar1_EV01">
+<xsd:annotation>
+<xsd:documentation>Required=YES</xsd:documentation>
+</xsd:annotation>
+<xsd:simpleType>
+<xsd:restriction base="xsd:string">
+<xsd:maxLength value="1"/>
+</xsd:restriction>
+</xsd:simpleType>
+</xsd:element>
+<xsd:element name="cGenericChar2_EV02">
+<xsd:annotation>
+<xsd:documentation>Required=YES</xsd:documentation>
+</xsd:annotation>
+<xsd:simpleType>
+<xsd:restriction base="xsd:string">
+<xsd:maxLength value="1"/>
+</xsd:restriction>
+</xsd:simpleType>
+</xsd:element>
+<xsd:element name="szGenericString1_DL01">
+<xsd:annotation>
+<xsd:documentation>Required=YES</xsd:documentation>
+</xsd:annotation>
+<xsd:simpleType>
+<xsd:restriction base="xsd:string">
+<xsd:maxLength value="31"/>
+</xsd:restriction>
+</xsd:simpleType>
+</xsd:element>
+<xsd:element name="mnSODRelatedJobNumber">
+<xsd:annotation>
+<xsd:documentation>Required=YES</xsd:documentation>
+</xsd:annotation>
+<xsd:simpleType>
+<xsd:restriction base="xsd:string">
+<xsd:maxLength value="32"/>
+</xsd:restriction>
+</xsd:simpleType>
+</xsd:element>
+<xsd:element name="mnProcessID">
+<xsd:annotation>
+<xsd:documentation>Required=YES</xsd:documentation>
+</xsd:annotation>
+<xsd:simpleType>
+<xsd:restriction base="xsd:string">
+<xsd:maxLength value="32"/>
+</xsd:restriction>
+</xsd:simpleType>
+</xsd:element>
+<xsd:element name="mnTransactionID">
+<xsd:annotation>
+<xsd:documentation>Required=YES</xsd:documentation>
+</xsd:annotation>
+<xsd:simpleType>
+<xsd:restriction base="xsd:string">
+<xsd:maxLength value="32"/>
+</xsd:restriction>
+</xsd:simpleType>
+</xsd:element>
+</xsd:sequence>
+</xsd:complexType>
+</xsd:element>
+</xsd:sequence>
+</xsd:complexType>
+</xsd:element>
+<xsd:element name="Messages">
+<xsd:annotation>
+<xsd:documentation>Return errors/warnings messages</xsd:documentation>
+</xsd:annotation>
+<xsd:complexType>
+<xsd:sequence minOccurs="0">
+<xsd:element name="row" maxOccurs="unbounded">
+<xsd:complexType>
+<xsd:sequence>
+<xsd:element name="Level" type="xsd:integer"/>
+<xsd:element name="ID" type="xsd:integer"/>
+<xsd:element name="DDItem" type="xsd:string"/>
+<xsd:element name="Description" type="xsd:string"/>
+<xsd:element name="SubText" type="xsd:string"/>
+</xsd:sequence>
+</xsd:complexType>
+</xsd:element>
+</xsd:sequence>
+</xsd:complexType>
+</xsd:element>
+</xsd:sequence>
+</xsd:complexType>
+</xsd:element>
+</xsd:schema>

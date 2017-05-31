@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Magicxpi_Startup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Projects>
+    <Project Name="MGXPI_Back_Office" ProjectsDirPath="C:\Users\Administrator\Documents\Magic\Projects\MGXPI_Back_Office\">
+      <Servers>
+        <Server host="MAGICXPI" alternateHosts="">
+          <ProjectsDirPath>
+          </ProjectsDirPath>
+          <NumberOfWorkers>10</NumberOfWorkers>
+          <NumberOfInstances>1</NumberOfInstances>
+          <Triggers load="true">
+            <Trigger BP_ID="1" Flow_ID="3" Name="Directory Scanner" Trigger_ID="5" />
+          </Triggers>
+          <Scheduler load="true" />
+          <AutoStart load="true" />
+        </Server>
+      </Servers>
+    </Project>
+  </Projects>
+</Magicxpi_Startup>

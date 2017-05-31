@@ -1,0 +1,395 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>4.0</SchemaVersion>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>POC_VEOLIA_MAGENTO</RootNamespace>
+    <AssemblyName>POC_VEOLIA_MAGENTO</AssemblyName>
+    <Name>POC_VEOLIA_MAGENTO</Name>
+	<ProjectGuid>{b9d0ee7c-6475-4265-bc00-d29c4d97f40d}</ProjectGuid>
+    <ServerPath></ServerPath>
+    <PackagePath></PackagePath>
+  </PropertyGroup>
+
+
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Debug\</OutputPath>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Release\</OutputPath>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    	<Content Include="Source\BP2\BP.bp">
+      <SubType>BP Node</SubType>
+    </Content>
+    <Content Include="Source\BP2\BPVariables.bpr" >
+      <DependentUpon>Source\BP2\BP.bp</DependentUpon>
+      <SubType>BP Variable</SubType>
+    </Content>
+	        <Content Include="Source\BP2\Flow1\Flow.flw">
+	  <DependentUpon>Source\BP2\BP.bp</DependentUpon>
+      <SubType>BP-Flow Node</SubType>
+    </Content>
+	<Content Include="Source\BP2\Flow1\Variables.flr">
+	  <DependentUpon>Source\BP2\Flow1\Flow.flw</DependentUpon>
+      <SubType>BP-Flow Dependent</SubType>
+    </Content>
+	<Content Include="Source\BP2\Flow1\Errors.flr">
+	  <DependentUpon>Source\BP2\Flow1\Flow.flw</DependentUpon>
+      <SubType>BP-Flow Dependent</SubType>
+    </Content>
+			<Content Include="Source\BP2\Flow1\Mapper_60.mpr">
+	  <DependentUpon>Source\BP2\Flow1\Flow.flw</DependentUpon>
+      <SubType>BP-Flow Dependent</SubType>
+    </Content>
+				<Content Include="Source\BP2\Flow1\Mapper_88.mpr">
+	  <DependentUpon>Source\BP2\Flow1\Flow.flw</DependentUpon>
+      <SubType>BP-Flow Dependent</SubType>
+    </Content>
+				<Content Include="Source\BP2\Flow1\Mapper_89.mpr">
+	  <DependentUpon>Source\BP2\Flow1\Flow.flw</DependentUpon>
+      <SubType>BP-Flow Dependent</SubType>
+    </Content>
+				<Content Include="Source\BP2\Flow1\Mapper_90.mpr">
+	  <DependentUpon>Source\BP2\Flow1\Flow.flw</DependentUpon>
+      <SubType>BP-Flow Dependent</SubType>
+    </Content>
+				<Content Include="Source\BP2\Flow1\Mapper_94.mpr">
+	  <DependentUpon>Source\BP2\Flow1\Flow.flw</DependentUpon>
+      <SubType>BP-Flow Dependent</SubType>
+    </Content>
+				<Content Include="Source\BP2\Flow1\Mapper_119.mpr">
+	  <DependentUpon>Source\BP2\Flow1\Flow.flw</DependentUpon>
+      <SubType>BP-Flow Dependent</SubType>
+    </Content>
+				<Content Include="Source\BP2\Flow1\Mapper_131.mpr">
+	  <DependentUpon>Source\BP2\Flow1\Flow.flw</DependentUpon>
+      <SubType>BP-Flow Dependent</SubType>
+    </Content>
+		            <Content Include="Source\BP2\Flow2\Flow.flw">
+	  <DependentUpon>Source\BP2\BP.bp</DependentUpon>
+      <SubType>BP-Flow Node</SubType>
+    </Content>
+	<Content Include="Source\BP2\Flow2\Variables.flr">
+	  <DependentUpon>Source\BP2\Flow2\Flow.flw</DependentUpon>
+      <SubType>BP-Flow Dependent</SubType>
+    </Content>
+	<Content Include="Source\BP2\Flow2\Errors.flr">
+	  <DependentUpon>Source\BP2\Flow2\Flow.flw</DependentUpon>
+      <SubType>BP-Flow Dependent</SubType>
+    </Content>
+			<Content Include="Source\BP2\Flow2\Mapper_1.mpr">
+	  <DependentUpon>Source\BP2\Flow2\Flow.flw</DependentUpon>
+      <SubType>BP-Flow Dependent</SubType>
+    </Content>
+				<Content Include="Source\BP2\Flow2\Mapper_3.mpr">
+	  <DependentUpon>Source\BP2\Flow2\Flow.flw</DependentUpon>
+      <SubType>BP-Flow Dependent</SubType>
+    </Content>
+		            <Content Include="Source\BP2\Flow3\Flow.flw">
+	  <DependentUpon>Source\BP2\BP.bp</DependentUpon>
+      <SubType>BP-Flow Node</SubType>
+    </Content>
+	<Content Include="Source\BP2\Flow3\Variables.flr">
+	  <DependentUpon>Source\BP2\Flow3\Flow.flw</DependentUpon>
+      <SubType>BP-Flow Dependent</SubType>
+    </Content>
+	<Content Include="Source\BP2\Flow3\Errors.flr">
+	  <DependentUpon>Source\BP2\Flow3\Flow.flw</DependentUpon>
+      <SubType>BP-Flow Dependent</SubType>
+    </Content>
+			<Content Include="Source\BP2\Flow3\Mapper_17.mpr">
+	  <DependentUpon>Source\BP2\Flow3\Flow.flw</DependentUpon>
+      <SubType>BP-Flow Dependent</SubType>
+    </Content>
+				<Content Include="Source\BP2\Flow3\Mapper_19.mpr">
+	  <DependentUpon>Source\BP2\Flow3\Flow.flw</DependentUpon>
+      <SubType>BP-Flow Dependent</SubType>
+    </Content>
+		            <Content Include="Source\BP2\Flow4\Flow.flw">
+	  <DependentUpon>Source\BP2\BP.bp</DependentUpon>
+      <SubType>BP-Flow Node</SubType>
+    </Content>
+	<Content Include="Source\BP2\Flow4\Variables.flr">
+	  <DependentUpon>Source\BP2\Flow4\Flow.flw</DependentUpon>
+      <SubType>BP-Flow Dependent</SubType>
+    </Content>
+	<Content Include="Source\BP2\Flow4\Errors.flr">
+	  <DependentUpon>Source\BP2\Flow4\Flow.flw</DependentUpon>
+      <SubType>BP-Flow Dependent</SubType>
+    </Content>
+			<Content Include="Source\BP2\Flow4\Mapper_2.mpr">
+	  <DependentUpon>Source\BP2\Flow4\Flow.flw</DependentUpon>
+      <SubType>BP-Flow Dependent</SubType>
+    </Content>
+		            <Content Include="Source\BP2\Flow5\Flow.flw">
+	  <DependentUpon>Source\BP2\BP.bp</DependentUpon>
+      <SubType>BP-Flow Node</SubType>
+    </Content>
+	<Content Include="Source\BP2\Flow5\Variables.flr">
+	  <DependentUpon>Source\BP2\Flow5\Flow.flw</DependentUpon>
+      <SubType>BP-Flow Dependent</SubType>
+    </Content>
+	<Content Include="Source\BP2\Flow5\Errors.flr">
+	  <DependentUpon>Source\BP2\Flow5\Flow.flw</DependentUpon>
+      <SubType>BP-Flow Dependent</SubType>
+    </Content>
+			<Content Include="Source\BP2\Flow5\Mapper_1.mpr">
+	  <DependentUpon>Source\BP2\Flow5\Flow.flw</DependentUpon>
+      <SubType>BP-Flow Dependent</SubType>
+    </Content>
+		            <Content Include="Source\BP2\Flow6\Flow.flw">
+	  <DependentUpon>Source\BP2\BP.bp</DependentUpon>
+      <SubType>BP-Flow Node</SubType>
+    </Content>
+	<Content Include="Source\BP2\Flow6\Variables.flr">
+	  <DependentUpon>Source\BP2\Flow6\Flow.flw</DependentUpon>
+      <SubType>BP-Flow Dependent</SubType>
+    </Content>
+	<Content Include="Source\BP2\Flow6\Errors.flr">
+	  <DependentUpon>Source\BP2\Flow6\Flow.flw</DependentUpon>
+      <SubType>BP-Flow Dependent</SubType>
+    </Content>
+	            <Content Include="Source\BP2\Flow7\Flow.flw">
+	  <DependentUpon>Source\BP2\BP.bp</DependentUpon>
+      <SubType>BP-Flow Node</SubType>
+    </Content>
+	<Content Include="Source\BP2\Flow7\Variables.flr">
+	  <DependentUpon>Source\BP2\Flow7\Flow.flw</DependentUpon>
+      <SubType>BP-Flow Dependent</SubType>
+    </Content>
+	<Content Include="Source\BP2\Flow7\Errors.flr">
+	  <DependentUpon>Source\BP2\Flow7\Flow.flw</DependentUpon>
+      <SubType>BP-Flow Dependent</SubType>
+    </Content>
+	            <Content Include="Source\BP2\Flow8\Flow.flw">
+	  <DependentUpon>Source\BP2\BP.bp</DependentUpon>
+      <SubType>BP-Flow Node</SubType>
+    </Content>
+	<Content Include="Source\BP2\Flow8\Variables.flr">
+	  <DependentUpon>Source\BP2\Flow8\Flow.flw</DependentUpon>
+      <SubType>BP-Flow Dependent</SubType>
+    </Content>
+	<Content Include="Source\BP2\Flow8\Errors.flr">
+	  <DependentUpon>Source\BP2\Flow8\Flow.flw</DependentUpon>
+      <SubType>BP-Flow Dependent</SubType>
+    </Content>
+	            <Content Include="Source\BP2\Flow9\Flow.flw">
+	  <DependentUpon>Source\BP2\BP.bp</DependentUpon>
+      <SubType>BP-Flow Node</SubType>
+    </Content>
+	<Content Include="Source\BP2\Flow9\Variables.flr">
+	  <DependentUpon>Source\BP2\Flow9\Flow.flw</DependentUpon>
+      <SubType>BP-Flow Dependent</SubType>
+    </Content>
+	<Content Include="Source\BP2\Flow9\Errors.flr">
+	  <DependentUpon>Source\BP2\Flow9\Flow.flw</DependentUpon>
+      <SubType>BP-Flow Dependent</SubType>
+    </Content>
+			<Content Include="Source\BP2\Flow9\Mapper_5.mpr">
+	  <DependentUpon>Source\BP2\Flow9\Flow.flw</DependentUpon>
+      <SubType>BP-Flow Dependent</SubType>
+    </Content>
+		            <Content Include="Source\BP2\Flow10\Flow.flw">
+	  <DependentUpon>Source\BP2\BP.bp</DependentUpon>
+      <SubType>BP-Flow Node</SubType>
+    </Content>
+	<Content Include="Source\BP2\Flow10\Variables.flr">
+	  <DependentUpon>Source\BP2\Flow10\Flow.flw</DependentUpon>
+      <SubType>BP-Flow Dependent</SubType>
+    </Content>
+	<Content Include="Source\BP2\Flow10\Errors.flr">
+	  <DependentUpon>Source\BP2\Flow10\Flow.flw</DependentUpon>
+      <SubType>BP-Flow Dependent</SubType>
+    </Content>
+			<Content Include="Source\BP2\Flow10\Mapper_15.mpr">
+	  <DependentUpon>Source\BP2\Flow10\Flow.flw</DependentUpon>
+      <SubType>BP-Flow Dependent</SubType>
+    </Content>
+				<Content Include="Source\BP2\Flow10\Mapper_18.mpr">
+	  <DependentUpon>Source\BP2\Flow10\Flow.flw</DependentUpon>
+      <SubType>BP-Flow Dependent</SubType>
+    </Content>
+				<Content Include="Source\BP2\Flow10\Mapper_22.mpr">
+	  <DependentUpon>Source\BP2\Flow10\Flow.flw</DependentUpon>
+      <SubType>BP-Flow Dependent</SubType>
+    </Content>
+		            <Content Include="Source\BP2\Flow11\Flow.flw">
+	  <DependentUpon>Source\BP2\BP.bp</DependentUpon>
+      <SubType>BP-Flow Node</SubType>
+    </Content>
+	<Content Include="Source\BP2\Flow11\Variables.flr">
+	  <DependentUpon>Source\BP2\Flow11\Flow.flw</DependentUpon>
+      <SubType>BP-Flow Dependent</SubType>
+    </Content>
+	<Content Include="Source\BP2\Flow11\Errors.flr">
+	  <DependentUpon>Source\BP2\Flow11\Flow.flw</DependentUpon>
+      <SubType>BP-Flow Dependent</SubType>
+    </Content>
+			<Content Include="Source\BP2\Flow11\Mapper_2.mpr">
+	  <DependentUpon>Source\BP2\Flow11\Flow.flw</DependentUpon>
+      <SubType>BP-Flow Dependent</SubType>
+    </Content>
+				<Content Include="Source\BP2\Flow11\Mapper_4.mpr">
+	  <DependentUpon>Source\BP2\Flow11\Flow.flw</DependentUpon>
+      <SubType>BP-Flow Dependent</SubType>
+    </Content>
+				<Content Include="Source\BP2\Flow11\Mapper_9.mpr">
+	  <DependentUpon>Source\BP2\Flow11\Flow.flw</DependentUpon>
+      <SubType>BP-Flow Dependent</SubType>
+    </Content>
+				<Content Include="Source\BP2\Flow11\Mapper_10.mpr">
+	  <DependentUpon>Source\BP2\Flow11\Flow.flw</DependentUpon>
+      <SubType>BP-Flow Dependent</SubType>
+    </Content>
+		            <Content Include="Source\BP2\Flow12\Flow.flw">
+	  <DependentUpon>Source\BP2\BP.bp</DependentUpon>
+      <SubType>BP-Flow Node</SubType>
+    </Content>
+	<Content Include="Source\BP2\Flow12\Variables.flr">
+	  <DependentUpon>Source\BP2\Flow12\Flow.flw</DependentUpon>
+      <SubType>BP-Flow Dependent</SubType>
+    </Content>
+	<Content Include="Source\BP2\Flow12\Errors.flr">
+	  <DependentUpon>Source\BP2\Flow12\Flow.flw</DependentUpon>
+      <SubType>BP-Flow Dependent</SubType>
+    </Content>
+			<Content Include="Source\BP2\Flow12\Mapper_24.mpr">
+	  <DependentUpon>Source\BP2\Flow12\Flow.flw</DependentUpon>
+      <SubType>BP-Flow Dependent</SubType>
+    </Content>
+		            <Content Include="Source\BP2\Flow13\Flow.flw">
+	  <DependentUpon>Source\BP2\BP.bp</DependentUpon>
+      <SubType>BP-Flow Node</SubType>
+    </Content>
+	<Content Include="Source\BP2\Flow13\Variables.flr">
+	  <DependentUpon>Source\BP2\Flow13\Flow.flw</DependentUpon>
+      <SubType>BP-Flow Dependent</SubType>
+    </Content>
+	<Content Include="Source\BP2\Flow13\Errors.flr">
+	  <DependentUpon>Source\BP2\Flow13\Flow.flw</DependentUpon>
+      <SubType>BP-Flow Dependent</SubType>
+    </Content>
+			<Content Include="Source\BP2\Flow13\Mapper_44.mpr">
+	  <DependentUpon>Source\BP2\Flow13\Flow.flw</DependentUpon>
+      <SubType>BP-Flow Dependent</SubType>
+    </Content>
+				<Content Include="Source\BP2\Flow13\Mapper_62.mpr">
+	  <DependentUpon>Source\BP2\Flow13\Flow.flw</DependentUpon>
+      <SubType>BP-Flow Dependent</SubType>
+    </Content>
+				<Content Include="Source\BP2\Flow13\Mapper_63.mpr">
+	  <DependentUpon>Source\BP2\Flow13\Flow.flw</DependentUpon>
+      <SubType>BP-Flow Dependent</SubType>
+    </Content>
+				<Content Include="Source\BP2\Flow13\Mapper_65.mpr">
+	  <DependentUpon>Source\BP2\Flow13\Flow.flw</DependentUpon>
+      <SubType>BP-Flow Dependent</SubType>
+    </Content>
+				<Content Include="Source\BP2\Flow13\Mapper_67.mpr">
+	  <DependentUpon>Source\BP2\Flow13\Flow.flw</DependentUpon>
+      <SubType>BP-Flow Dependent</SubType>
+    </Content>
+		            <Content Include="Source\BP2\Flow14\Flow.flw">
+	  <DependentUpon>Source\BP2\BP.bp</DependentUpon>
+      <SubType>BP-Flow Node</SubType>
+    </Content>
+	<Content Include="Source\BP2\Flow14\Variables.flr">
+	  <DependentUpon>Source\BP2\Flow14\Flow.flw</DependentUpon>
+      <SubType>BP-Flow Dependent</SubType>
+    </Content>
+	<Content Include="Source\BP2\Flow14\Errors.flr">
+	  <DependentUpon>Source\BP2\Flow14\Flow.flw</DependentUpon>
+      <SubType>BP-Flow Dependent</SubType>
+    </Content>
+			<Content Include="Source\BP2\Flow14\Mapper_17.mpr">
+	  <DependentUpon>Source\BP2\Flow14\Flow.flw</DependentUpon>
+      <SubType>BP-Flow Dependent</SubType>
+    </Content>
+				<Content Include="Source\BP2\Flow14\Mapper_19.mpr">
+	  <DependentUpon>Source\BP2\Flow14\Flow.flw</DependentUpon>
+      <SubType>BP-Flow Dependent</SubType>
+    </Content>
+		            <Content Include="Source\BP2\Flow15\Flow.flw">
+	  <DependentUpon>Source\BP2\BP.bp</DependentUpon>
+      <SubType>BP-Flow Node</SubType>
+    </Content>
+	<Content Include="Source\BP2\Flow15\Variables.flr">
+	  <DependentUpon>Source\BP2\Flow15\Flow.flw</DependentUpon>
+      <SubType>BP-Flow Dependent</SubType>
+    </Content>
+	<Content Include="Source\BP2\Flow15\Errors.flr">
+	  <DependentUpon>Source\BP2\Flow15\Flow.flw</DependentUpon>
+      <SubType>BP-Flow Dependent</SubType>
+    </Content>
+			<Content Include="Source\BP2\Flow15\Mapper_1.mpr">
+	  <DependentUpon>Source\BP2\Flow15\Flow.flw</DependentUpon>
+      <SubType>BP-Flow Dependent</SubType>
+    </Content>
+		            <Content Include="Source\BP2\Flow16\Flow.flw">
+	  <DependentUpon>Source\BP2\BP.bp</DependentUpon>
+      <SubType>BP-Flow Node</SubType>
+    </Content>
+	<Content Include="Source\BP2\Flow16\Variables.flr">
+	  <DependentUpon>Source\BP2\Flow16\Flow.flw</DependentUpon>
+      <SubType>BP-Flow Dependent</SubType>
+    </Content>
+	<Content Include="Source\BP2\Flow16\Errors.flr">
+	  <DependentUpon>Source\BP2\Flow16\Flow.flw</DependentUpon>
+      <SubType>BP-Flow Dependent</SubType>
+    </Content>
+	            <Content Include="Source\BP2\Flow17\Flow.flw">
+	  <DependentUpon>Source\BP2\BP.bp</DependentUpon>
+      <SubType>BP-Flow Node</SubType>
+    </Content>
+	<Content Include="Source\BP2\Flow17\Variables.flr">
+	  <DependentUpon>Source\BP2\Flow17\Flow.flw</DependentUpon>
+      <SubType>BP-Flow Dependent</SubType>
+    </Content>
+	<Content Include="Source\BP2\Flow17\Errors.flr">
+	  <DependentUpon>Source\BP2\Flow17\Flow.flw</DependentUpon>
+      <SubType>BP-Flow Dependent</SubType>
+    </Content>
+			<Content Include="Source\BP2\Flow17\Mapper_2.mpr">
+	  <DependentUpon>Source\BP2\Flow17\Flow.flw</DependentUpon>
+      <SubType>BP-Flow Dependent</SubType>
+    </Content>
+				<Content Include="Source\BP2\Flow17\Mapper_7.mpr">
+	  <DependentUpon>Source\BP2\Flow17\Flow.flw</DependentUpon>
+      <SubType>BP-Flow Dependent</SubType>
+    </Content>
+				<Content Include="Source\BP2\Flow17\Mapper_19.mpr">
+	  <DependentUpon>Source\BP2\Flow17\Flow.flw</DependentUpon>
+      <SubType>BP-Flow Dependent</SubType>
+    </Content>
+				<Content Include="Source\BP2\Flow17\Mapper_20.mpr">
+	  <DependentUpon>Source\BP2\Flow17\Flow.flw</DependentUpon>
+      <SubType>BP-Flow Dependent</SubType>
+    </Content>
+		          
+  	<Content Include="Repositories\*.ibr">
+      <SubType>Repository Item</SubType>
+    </Content>
+    <None  Include="Repositories\Encoding.xml">
+      <SubType>Repository Item</SubType>
+      <Visible>false</Visible>
+    </None>
+    <None Include="Resources.xml">
+      <SubType>Repository Item</SubType>
+      <Visible>false</Visible>
+    </None>
+    <None Include="Services.xml">
+      <SubType>Repository Item</SubType>
+      <Visible>false</Visible>
+    </None>
+    </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Repositories\" />
+  </ItemGroup>
+	<Import Project="$([MSBuild]::GetRegistryValue('HKEY_LOCAL_MACHINE\SOFTWARE\MSE\Magic xpi', 'Magic xpi 4.5'))\iBolt.targets" />
+</Project>

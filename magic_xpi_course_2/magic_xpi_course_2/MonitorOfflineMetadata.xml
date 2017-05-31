@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProjectData projectKey="fe1d96dd-d7e3-46c6-acbb-18453bacccc5">
+  <BusinessProcess>
+    <ID>1</ID>
+    <Name>Business Process - 1</Name>
+    <Flow>
+      <ID>1</ID>
+      <Name>search for incoming files</Name>
+      <Step>
+        <ID>1</ID>
+        <Name>BAM Service</Name>
+      </Step>
+      <Step>
+        <ID>3</ID>
+        <Name>Get UDC 01/ST</Name>
+      </Step>
+      <Step>
+        <ID>4</ID>
+        <Name>File Management</Name>
+      </Step>
+      <Trigger>
+        <ID>1</ID>
+        <Name>Directory Scanner</Name>
+      </Trigger>
+      <Trigger>
+        <ID>10</ID>
+        <Name>look for new UDC files</Name>
+      </Trigger>
+    </Flow>
+  </BusinessProcess>
+</ProjectData>

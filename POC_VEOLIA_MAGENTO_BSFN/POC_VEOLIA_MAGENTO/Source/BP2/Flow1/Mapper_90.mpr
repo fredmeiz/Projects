@@ -1,0 +1,483 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mapper xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<MapperOrigin>DataMapperService</MapperOrigin>
+	
+			<ErrorFlowExpressionVal>PCMhJUAkPmdldEZsb3dOYW1lKDQpPCMhJUAkPg==</ErrorFlowExpressionVal>
+		
+		<SourceSchemas>
+		
+		
+				
+		<Schema xsi:type="XSDSchema">
+		<SchemaID>3</SchemaID>
+		<Order>1</Order>
+		<Name>S1</Name>
+				<SchemaLocation>Source</SchemaLocation>
+		<SchemaType>XSD</SchemaType>
+		
+									<Fields>
+															<Field xsi:type="XSDComplexField">
+							<Identifier>B4200310.F4211FSBeginDoc</Identifier>
+							<Description></Description>
+							<FieldName>B4200310.F4211FSBeginDoc</FieldName>
+							<NodeType>Complex</NodeType>
+							<Color>210</Color>
+							<MagicFieldType>A</MagicFieldType>
+							<MagicPicture>1000</MagicPicture>
+							<isUnicode>false</isUnicode>
+							
+														
+																												<UserPicture>1000</UserPicture>
+							<isNillable>false</isNillable>
+														<MaxInstance>1</MaxInstance>
+							<MinInstance>0</MinInstance>
+																												<LogError>False</LogError>
+																																			<From>0</From>
+							<Length>0</Length>
+							<CreateAllways>false</CreateAllways>
+														<Required>false</Required>
+							<Replication>0</Replication>
+							<AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+																											</Field>
+																					<Field xsi:type="XSDComplexField">
+							<Identifier>B4200310.F4211FSBeginDoc/Messages</Identifier>
+							<Description></Description>
+							<FieldName>Messages</FieldName>
+							<NodeType>Complex</NodeType>
+							<Color>210</Color>
+							<MagicFieldType>A</MagicFieldType>
+							<MagicPicture>1000</MagicPicture>
+							<isUnicode>false</isUnicode>
+							
+														
+																												<UserPicture>1000</UserPicture>
+							<isNillable>false</isNillable>
+														<MaxInstance>1</MaxInstance>
+							<MinInstance>0</MinInstance>
+																												<LogError>False</LogError>
+																																			<From>0</From>
+							<Length>0</Length>
+							<CreateAllways>false</CreateAllways>
+														<Required>false</Required>
+							<Replication>0</Replication>
+							<AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+																											</Field>
+																					<Field xsi:type="XSDComplexField">
+							<Identifier>B4200310.F4211FSBeginDoc/Messages/row</Identifier>
+							<Description></Description>
+							<FieldName>row</FieldName>
+							<NodeType>Complex</NodeType>
+							<Color>210</Color>
+							<MagicFieldType></MagicFieldType>
+							<MagicPicture></MagicPicture>
+							<isUnicode>false</isUnicode>
+							
+														
+																												<UserPicture></UserPicture>
+							<isNillable>false</isNillable>
+														<MaxInstance>0</MaxInstance>
+							<MinInstance>0</MinInstance>
+																												<LogError>false</LogError>
+																																			<From>0</From>
+							<Length>0</Length>
+							<CreateAllways>false</CreateAllways>
+														<Required>false</Required>
+							<Replication>0</Replication>
+							<AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+																													<Encoding>0</Encoding>
+													</Field>
+																					<Field xsi:type="SimpleXSDField">
+							<Identifier>B4200310.F4211FSBeginDoc/Messages/row/Level</Identifier>
+							<Description></Description>
+							<FieldName>Level</FieldName>
+							<NodeType>Simple</NodeType>
+							<Color>210</Color>
+							<MagicFieldType>N</MagicFieldType>
+							<MagicPicture>9</MagicPicture>
+							<isUnicode>false</isUnicode>
+							
+														
+																						<ExternalFieldType>integer</ExternalFieldType>
+																						<ExternalFieldPicture></ExternalFieldPicture>
+														<UserPicture>9</UserPicture>
+							<isNillable>false</isNillable>
+														<MaxInstance>1</MaxInstance>
+							<MinInstance>0</MinInstance>
+																												<LogError>false</LogError>
+																																			<From>0</From>
+							<Length>0</Length>
+							<CreateAllways>false</CreateAllways>
+														<Required>false</Required>
+							<Replication>0</Replication>
+							<AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+																													<Encoding>0</Encoding>
+													</Field>
+																					<Field xsi:type="SimpleXSDField">
+							<Identifier>B4200310.F4211FSBeginDoc/Messages/row/ID</Identifier>
+							<Description></Description>
+							<FieldName>ID</FieldName>
+							<NodeType>Simple</NodeType>
+							<Color>210</Color>
+							<MagicFieldType>N</MagicFieldType>
+							<MagicPicture>9</MagicPicture>
+							<isUnicode>false</isUnicode>
+							
+														
+																						<ExternalFieldType>integer</ExternalFieldType>
+																						<ExternalFieldPicture></ExternalFieldPicture>
+														<UserPicture>9</UserPicture>
+							<isNillable>false</isNillable>
+														<MaxInstance>1</MaxInstance>
+							<MinInstance>0</MinInstance>
+																												<LogError>false</LogError>
+																																			<From>0</From>
+							<Length>0</Length>
+							<CreateAllways>false</CreateAllways>
+														<Required>false</Required>
+							<Replication>0</Replication>
+							<AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+																													<Encoding>0</Encoding>
+													</Field>
+																					<Field xsi:type="SimpleXSDField">
+							<Identifier>B4200310.F4211FSBeginDoc/Messages/row/DDItem</Identifier>
+							<Description></Description>
+							<FieldName>DDItem</FieldName>
+							<NodeType>Simple</NodeType>
+							<Color>210</Color>
+							<MagicFieldType>A</MagicFieldType>
+							<MagicPicture>1000</MagicPicture>
+							<isUnicode>false</isUnicode>
+							
+														
+																						<ExternalFieldType>string</ExternalFieldType>
+																						<ExternalFieldPicture></ExternalFieldPicture>
+														<UserPicture>1000</UserPicture>
+							<isNillable>false</isNillable>
+														<MaxInstance>1</MaxInstance>
+							<MinInstance>0</MinInstance>
+																												<LogError>false</LogError>
+																																			<From>0</From>
+							<Length>0</Length>
+							<CreateAllways>false</CreateAllways>
+														<Required>false</Required>
+							<Replication>0</Replication>
+							<AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+																													<Encoding>0</Encoding>
+													</Field>
+																					<Field xsi:type="SimpleXSDField">
+							<Identifier>B4200310.F4211FSBeginDoc/Messages/row/Description</Identifier>
+							<Description></Description>
+							<FieldName>Description</FieldName>
+							<NodeType>Simple</NodeType>
+							<Color>210</Color>
+							<MagicFieldType>A</MagicFieldType>
+							<MagicPicture>1000</MagicPicture>
+							<isUnicode>false</isUnicode>
+							
+														
+																						<ExternalFieldType>string</ExternalFieldType>
+																						<ExternalFieldPicture></ExternalFieldPicture>
+														<UserPicture>1000</UserPicture>
+							<isNillable>false</isNillable>
+														<MaxInstance>1</MaxInstance>
+							<MinInstance>0</MinInstance>
+																												<LogError>false</LogError>
+																																			<From>0</From>
+							<Length>0</Length>
+							<CreateAllways>false</CreateAllways>
+														<Required>false</Required>
+							<Replication>0</Replication>
+							<AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+																													<Encoding>0</Encoding>
+													</Field>
+														</Fields>
+						
+								
+																			<XSD>
+					<XSDSubType>File</XSDSubType>
+					<IFCModel></IFCModel>
+					<XsdFileName>jdedwards\XSD\eppdent005_EPPD\B4200310.F4211FSBeginDoc.xsd</XsdFileName>
+					<RootSelected>B4200310.F4211FSBeginDoc</RootSelected>
+					<isAppend>false</isAppend>
+					<isValidation>false</isValidation>
+					<RecursionDepth>1</RecursionDepth>
+					<AlwaysCreateNodes>false</AlwaysCreateNodes>
+					<DataDestination>Variable</DataDestination>
+					<DataExp>
+						<ExpressionVal>PCMhJUAkPmdldFZhck5hbWUoMSwnezlBREJCRURGLUVBMDgtNEFERS1CQjQxLUVCMDhGRjVEQkZGRn0nLDAsMCk8IyElQCQ+</ExpressionVal>
+						<ExpectedType>B</ExpectedType>
+						<Direction>I</Direction>
+					</DataExp>
+					<UseStreamingParser>false</UseStreamingParser>
+					<xmlFileEncoding>Project Encoding</xmlFileEncoding>
+										<TargetNamespace></TargetNamespace>
+																			</XSD>
+																					
+										
+															</Schema>
+		
+				
+		
+		</SourceSchemas>
+				<DestinationSchemas>
+		
+		
+				
+		<Schema xsi:type="FlatFileSchema">
+		<SchemaID>4</SchemaID>
+		<Order>1</Order>
+		<Name>D1</Name>
+					<Description>This is the table used by JDE to return messages from the business function.</Description>
+				<SchemaLocation>Destination</SchemaLocation>
+		<SchemaType>FlatFile</SchemaType>
+		
+									<Fields>
+															<Field xsi:type="ComplexField">
+							<Identifier>4</Identifier>
+							<Description></Description>
+							<FieldName>Record</FieldName>
+							<NodeType>Complex</NodeType>
+							<Color>210</Color>
+							<MagicFieldType></MagicFieldType>
+							<MagicPicture></MagicPicture>
+							<isUnicode>false</isUnicode>
+							
+														
+																												<UserPicture></UserPicture>
+							<isNillable>false</isNillable>
+														<MaxInstance>0</MaxInstance>
+							<MinInstance>0</MinInstance>
+																												<LogError>false</LogError>
+																																			<From>0</From>
+							<Length>0</Length>
+							<CreateAllways>false</CreateAllways>
+														<Required>false</Required>
+							<Replication>0</Replication>
+							<AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+																													<Encoding>0</Encoding>
+													</Field>
+																					<Field xsi:type="FieldFlatFile">
+							<Identifier>2DC381D3-204F-47F7-AA84-3F316C0D436F</Identifier>
+							<Description></Description>
+							<FieldName>Level</FieldName>
+							<NodeType>Simple</NodeType>
+							<Color>210</Color>
+							<MagicFieldType>N</MagicFieldType>
+							<MagicPicture>3</MagicPicture>
+							<isUnicode>false</isUnicode>
+							
+														
+																						<ExternalFieldType>Numeric</ExternalFieldType>
+																					<UserPicture>3</UserPicture>
+							<isNillable>false</isNillable>
+														<MaxInstance>1</MaxInstance>
+							<MinInstance>0</MinInstance>
+																												<LogError>false</LogError>
+																																			<From>0</From>
+							<Length>30</Length>
+							<CreateAllways>false</CreateAllways>
+														<Required>false</Required>
+							<Replication>0</Replication>
+							<AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+																													<Encoding>0</Encoding>
+													</Field>
+																					<Field xsi:type="FieldFlatFile">
+							<Identifier>65FF92BB-8A94-4BA0-9D43-A900B4ED6271</Identifier>
+							<Description></Description>
+							<FieldName>Id</FieldName>
+							<NodeType>Simple</NodeType>
+							<Color>210</Color>
+							<MagicFieldType>A</MagicFieldType>
+							<MagicPicture>10</MagicPicture>
+							<isUnicode>false</isUnicode>
+							
+														
+																						<ExternalFieldType>Alpha</ExternalFieldType>
+																					<UserPicture>10</UserPicture>
+							<isNillable>false</isNillable>
+														<MaxInstance>1</MaxInstance>
+							<MinInstance>0</MinInstance>
+																												<LogError>false</LogError>
+																																			<From>0</From>
+							<Length>30</Length>
+							<CreateAllways>false</CreateAllways>
+														<Required>false</Required>
+							<Replication>0</Replication>
+							<AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+																													<Encoding>0</Encoding>
+													</Field>
+																					<Field xsi:type="FieldFlatFile">
+							<Identifier>95F5F271-44FD-483B-BD78-821ECF27B21C</Identifier>
+							<Description></Description>
+							<FieldName>DDItem</FieldName>
+							<NodeType>Simple</NodeType>
+							<Color>210</Color>
+							<MagicFieldType>A</MagicFieldType>
+							<MagicPicture>30</MagicPicture>
+							<isUnicode>false</isUnicode>
+							
+														
+																						<ExternalFieldType>Alpha</ExternalFieldType>
+																					<UserPicture>30</UserPicture>
+							<isNillable>false</isNillable>
+														<MaxInstance>1</MaxInstance>
+							<MinInstance>0</MinInstance>
+																												<LogError>false</LogError>
+																																			<From>0</From>
+							<Length>30</Length>
+							<CreateAllways>false</CreateAllways>
+														<Required>false</Required>
+							<Replication>0</Replication>
+							<AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+																													<Encoding>0</Encoding>
+													</Field>
+																					<Field xsi:type="FieldFlatFile">
+							<Identifier>3F9E373B-B56D-4197-A4D3-22372CEA2F50</Identifier>
+							<Description></Description>
+							<FieldName>Description</FieldName>
+							<NodeType>Simple</NodeType>
+							<Color>210</Color>
+							<MagicFieldType>A</MagicFieldType>
+							<MagicPicture>100</MagicPicture>
+							<isUnicode>false</isUnicode>
+							
+														
+																						<ExternalFieldType>Alpha</ExternalFieldType>
+																					<UserPicture>100</UserPicture>
+							<isNillable>false</isNillable>
+														<MaxInstance>1</MaxInstance>
+							<MinInstance>0</MinInstance>
+																												<LogError>false</LogError>
+																																			<From>0</From>
+							<Length>30</Length>
+							<CreateAllways>false</CreateAllways>
+														<Required>false</Required>
+							<Replication>0</Replication>
+							<AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+																													<Encoding>0</Encoding>
+													</Field>
+														</Fields>
+						
+								
+																	<FF>
+					<ExampleFile></ExampleFile>
+					<DataDestination>Variable</DataDestination>
+					<DataExp>
+						<ExpressionVal>PCMhJUAkPmdldFZhck5hbWUoMSwne0RFMEQyRjQ1LThDOUYtNEVEQy1CQTEwLTYzMDg5REIyREUyNH0nLDAsMCk8IyElQCQ+</ExpressionVal>
+						<ExpectedType>B</ExpectedType>
+						<Direction>O</Direction>
+					</DataExp>
+					<isUnicode>false</isUnicode>
+					<isAppend>false</isAppend>
+					<Delimited_Posi>Delimited</Delimited_Posi>
+					<Delimeter>,</Delimeter>
+										<IncludeDelimiterInData>false</IncludeDelimiterInData>
+					<Prefix></Prefix>
+					<CreateTitles>false</CreateTitles>
+					<DataEncoding>Ansi</DataEncoding>
+											<FF_Lines>
+																								<FF_Line>
+										<Order>1</Order>
+										<GUID>2DC381D3-204F-47F7-AA84-3F316C0D436F</GUID>
+										<Type>N</Type>
+										<Name>Level</Name>
+										<Picture>3</Picture>
+										<From>0</From>
+										<Length>30</Length>
+									</FF_Line>
+																																<FF_Line>
+										<Order>2</Order>
+										<GUID>65FF92BB-8A94-4BA0-9D43-A900B4ED6271</GUID>
+										<Type>A</Type>
+										<Name>Id</Name>
+										<Picture>10</Picture>
+										<From>0</From>
+										<Length>30</Length>
+									</FF_Line>
+																																<FF_Line>
+										<Order>3</Order>
+										<GUID>95F5F271-44FD-483B-BD78-821ECF27B21C</GUID>
+										<Type>A</Type>
+										<Name>DDItem</Name>
+										<Picture>30</Picture>
+										<From>0</From>
+										<Length>30</Length>
+									</FF_Line>
+																																<FF_Line>
+										<Order>4</Order>
+										<GUID>3F9E373B-B56D-4197-A4D3-22372CEA2F50</GUID>
+										<Type>A</Type>
+										<Name>Description</Name>
+										<Picture>100</Picture>
+										<From>0</From>
+										<Length>30</Length>
+									</FF_Line>
+																					</FF_Lines>
+									</FF>
+																							
+										
+															</Schema>
+		
+				
+		
+		</DestinationSchemas>
+			
+				<Connections>
+														<ConnectionData>
+						<SourceIdentifier>B4200310.F4211FSBeginDoc/Messages/row</SourceIdentifier>
+						<SourceSchemaID>3</SourceSchemaID>
+						<DestinationIdentifier>4</DestinationIdentifier>
+						<DestinationSchemaID>4</DestinationSchemaID>
+					</ConnectionData>
+																			<ConnectionData>
+						<SourceIdentifier>B4200310.F4211FSBeginDoc/Messages/row/Level</SourceIdentifier>
+						<SourceSchemaID>3</SourceSchemaID>
+						<DestinationIdentifier>2DC381D3-204F-47F7-AA84-3F316C0D436F</DestinationIdentifier>
+						<DestinationSchemaID>4</DestinationSchemaID>
+					</ConnectionData>
+																			<ConnectionData>
+						<SourceIdentifier>B4200310.F4211FSBeginDoc/Messages/row/ID</SourceIdentifier>
+						<SourceSchemaID>3</SourceSchemaID>
+						<DestinationIdentifier>65FF92BB-8A94-4BA0-9D43-A900B4ED6271</DestinationIdentifier>
+						<DestinationSchemaID>4</DestinationSchemaID>
+					</ConnectionData>
+																			<ConnectionData>
+						<SourceIdentifier>B4200310.F4211FSBeginDoc/Messages/row/DDItem</SourceIdentifier>
+						<SourceSchemaID>3</SourceSchemaID>
+						<DestinationIdentifier>95F5F271-44FD-483B-BD78-821ECF27B21C</DestinationIdentifier>
+						<DestinationSchemaID>4</DestinationSchemaID>
+					</ConnectionData>
+																			<ConnectionData>
+						<SourceIdentifier>B4200310.F4211FSBeginDoc/Messages/row/Description</SourceIdentifier>
+						<SourceSchemaID>3</SourceSchemaID>
+						<DestinationIdentifier>3F9E373B-B56D-4197-A4D3-22372CEA2F50</DestinationIdentifier>
+						<DestinationSchemaID>4</DestinationSchemaID>
+					</ConnectionData>
+												</Connections>
+	  <ColorNames>
+    <MapperColorItem>
+      <Color>203</Color>
+      <ColorDescription>Blue</ColorDescription>
+    </MapperColorItem>
+    <MapperColorItem>
+      <Color>205</Color>
+      <ColorDescription>Green</ColorDescription>
+    </MapperColorItem>
+    <MapperColorItem>
+      <Color>206</Color>
+      <ColorDescription>Purple</ColorDescription>
+    </MapperColorItem>
+    <MapperColorItem>
+      <Color>204</Color>
+      <ColorDescription>Yellow</ColorDescription>
+    </MapperColorItem>
+    <MapperColorItem>
+      <Color>202</Color>
+      <ColorDescription>Red</ColorDescription>
+    </MapperColorItem>
+    <MapperColorItem>
+      <Color>210</Color>
+      <ColorDescription>Default</ColorDescription>
+    </MapperColorItem>
+  </ColorNames>
+</Mapper>

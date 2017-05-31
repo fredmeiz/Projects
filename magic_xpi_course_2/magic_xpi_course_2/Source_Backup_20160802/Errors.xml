@@ -1,0 +1,1666 @@
+﻿<?xml version="1.0"?>
+<Struct_ErrorsList>
+	<ErrorsListComp>
+		<Subject>0</Subject>
+		<ErrorCode>11</ErrorCode>
+		<ErrorDescription>Data Mapper</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>0</Subject>
+		<ErrorCode>12</ErrorCode>
+		<ErrorDescription>Flow Data</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>0</Subject>
+		<ErrorCode>999999999998</ErrorCode>
+		<ErrorDescription>General</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>0</Subject>
+		<ErrorCode>17</ErrorCode>
+		<ErrorDescription>Java Class Connector</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>0</Subject>
+		<ErrorCode>19</ErrorCode>
+		<ErrorDescription>EJB Connector</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>0</Subject>
+		<ErrorCode>24</ErrorCode>
+		<ErrorDescription>Refresh Conversions</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>0</Subject>
+		<ErrorCode>25</ErrorCode>
+		<ErrorDescription>Web Services</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>0</Subject>
+		<ErrorCode>103</ErrorCode>
+		<ErrorDescription>Directory Scanner</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>0</Subject>
+		<ErrorCode>104</ErrorCode>
+		<ErrorDescription>Domino</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>0</Subject>
+		<ErrorCode>106</ErrorCode>
+		<ErrorDescription>Email</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>0</Subject>
+		<ErrorCode>108</ErrorCode>
+		<ErrorDescription>File Management</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>0</Subject>
+		<ErrorCode>109</ErrorCode>
+		<ErrorDescription>FTP</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>0</Subject>
+		<ErrorCode>110</ErrorCode>
+		<ErrorDescription>HTTP</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>0</Subject>
+		<ErrorCode>111</ErrorCode>
+		<ErrorDescription>System i</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>0</Subject>
+		<ErrorCode>112</ErrorCode>
+		<ErrorDescription>ItemField Connector</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>0</Subject>
+		<ErrorCode>115</ErrorCode>
+		<ErrorDescription>JMS</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>0</Subject>
+		<ErrorCode>117</ErrorCode>
+		<ErrorDescription>WebSphere MQ</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>0</Subject>
+		<ErrorCode>118</ErrorCode>
+		<ErrorDescription>MSMQ</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>0</Subject>
+		<ErrorCode>122</ErrorCode>
+		<ErrorDescription>File Archive</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>0</Subject>
+		<ErrorCode>123</ErrorCode>
+		<ErrorDescription>Encryption</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>0</Subject>
+		<ErrorCode>124</ErrorCode>
+		<ErrorDescription>File Splitter</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>0</Subject>
+		<ErrorCode>128</ErrorCode>
+		<ErrorDescription>SAPB1 2004</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>0</Subject>
+		<ErrorCode>133</ErrorCode>
+		<ErrorDescription>SAPB1 2005</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>0</Subject>
+		<ErrorCode>132</ErrorCode>
+		<ErrorDescription>XSLT</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>0</Subject>
+		<ErrorCode>134</ErrorCode>
+		<ErrorDescription>W4</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>0</Subject>
+		<ErrorCode>140</ErrorCode>
+		<ErrorDescription>SAP R/3</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>0</Subject>
+		<ErrorCode>141</ErrorCode>
+		<ErrorDescription>SAPB1 2007</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>0</Subject>
+		<ErrorCode>143</ErrorCode>
+		<ErrorDescription>Salesforce</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>0</Subject>
+		<ErrorCode>144</ErrorCode>
+		<ErrorDescription>Notes DB</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>0</Subject>
+		<ErrorCode>145</ErrorCode>
+		<ErrorDescription>JD Edwards</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>0</Subject>
+		<ErrorCode>149</ErrorCode>
+		<ErrorDescription>HL7</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>0</Subject>
+		<ErrorCode>152</ErrorCode>
+		<ErrorDescription>LDAP</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>0</Subject>
+		<ErrorCode>153</ErrorCode>
+		<ErrorDescription>SAP A1</ErrorDescription>
+	</ErrorsListComp>	
+	<ErrorsListComp>
+		<Subject>0</Subject>
+		<ErrorCode>156</ErrorCode>
+		<ErrorDescription>Dynamics CRM</ErrorDescription>
+	</ErrorsListComp>	
+	<ErrorsListComp>
+		<Subject>0</Subject>
+		<ErrorCode>157</ErrorCode>
+		<ErrorDescription>Exchange 2007</ErrorDescription>
+	</ErrorsListComp>	
+	<ErrorsListComp>
+		<Subject>0</Subject>
+		<ErrorCode>159</ErrorCode>
+		<ErrorDescription>SharePoint</ErrorDescription>
+	</ErrorsListComp>	
+	<ErrorsListComp>
+		<Subject>0</Subject>
+		<ErrorCode>160</ErrorCode>
+		<ErrorDescription>SAPB1 8.8</ErrorDescription>
+	</ErrorsListComp>	
+	<ErrorsListComp>
+		<Subject>0</Subject>
+		<ErrorCode>138</ErrorCode>
+		<ErrorDescription>Microsoft Word</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>0</Subject>
+		<ErrorCode>162</ErrorCode>
+		<ErrorDescription>Sugarcrm</ErrorDescription>
+	</ErrorsListComp>	
+	<ErrorsListComp>
+		<Subject>0</Subject>
+		<ErrorCode>139</ErrorCode>
+		<ErrorDescription>Microsoft Excel</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>0</Subject>
+		<ErrorCode>999999999999</ErrorCode>
+		<ErrorDescription>All</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>11</Subject>
+		<ErrorCode>450</ErrorCode>
+		<ErrorDescription>Invalid XML in source</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>11</Subject>
+		<ErrorCode>451</ErrorCode>
+		<ErrorDescription>Invalid XML in destination</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>11</Subject>
+		<ErrorCode>452</ErrorCode>
+		<ErrorDescription>Source XML does not match the schema</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>11</Subject>
+		<ErrorCode>453</ErrorCode>
+		<ErrorDescription>Destination XML does not match the schema</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>11</Subject>
+		<ErrorCode>454</ErrorCode>
+		<ErrorDescription>Source file does not exist</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>11</Subject>
+		<ErrorCode>455</ErrorCode>
+		<ErrorDescription>Source XML is not well formed</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>11</Subject>
+		<ErrorCode>9801</ErrorCode>
+		<ErrorDescription>Locked row</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>11</Subject>
+		<ErrorCode>9802</ErrorCode>
+		<ErrorDescription>Duplicate Index</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>11</Subject>
+		<ErrorCode>9803</ErrorCode>
+		<ErrorDescription>Constraint failure</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>11</Subject>
+		<ErrorCode>9804</ErrorCode>
+		<ErrorDescription>Insert/Update/Delete failure</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>11</Subject>
+		<ErrorCode>9805</ErrorCode>
+		<ErrorDescription>General DB error</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>12</Subject>
+		<ErrorCode>800</ErrorCode>
+		<ErrorDescription>Flow Data General Error</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>17</Subject>
+		<ErrorCode>950</ErrorCode>
+		<ErrorDescription>Java Exception</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>19</Subject>
+		<ErrorCode>950</ErrorCode>
+		<ErrorDescription>Java Exception</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>24</Subject>
+		<ErrorCode>1150</ErrorCode>
+		<ErrorDescription>Conversion Table not found</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>103</Subject>
+		<ErrorCode>250</ErrorCode>
+		<ErrorDescription>Java Exception</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>103</Subject>
+		<ErrorCode>251</ErrorCode>
+		<ErrorDescription>FTP server errors</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>103</Subject>
+		<ErrorCode>252</ErrorCode>
+		<ErrorDescription>Data validity errors</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>103</Subject>
+		<ErrorCode>253</ErrorCode>
+		<ErrorDescription>FTP(SSL) connection has failed.</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>103</Subject>
+		<ErrorCode>254</ErrorCode>
+		<ErrorDescription>Failed to load Server Certification.</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>103</Subject>
+		<ErrorCode>255</ErrorCode>
+		<ErrorDescription>Failed to load Client Certification.</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>103</Subject>
+		<ErrorCode>256</ErrorCode>
+		<ErrorDescription>Failed to load Client Password.</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>103</Subject>
+		<ErrorCode>257</ErrorCode>
+		<ErrorDescription>FTP connection has failed.</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>104</Subject>
+		<ErrorCode>300</ErrorCode>
+		<ErrorDescription>Database errors</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>104</Subject>
+		<ErrorCode>301</ErrorCode>
+		<ErrorDescription>Data validity errors</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>104</Subject>
+		<ErrorCode>302</ErrorCode>
+		<ErrorDescription>Operations errors</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>104</Subject>
+		<ErrorCode>303</ErrorCode>
+		<ErrorDescription>General errors</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>105</Subject>
+		<ErrorCode>950</ErrorCode>
+		<ErrorDescription>Java Exception</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>106</Subject>
+		<ErrorCode>100</ErrorCode>
+		<ErrorDescription>Connection error</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>106</Subject>
+		<ErrorCode>101</ErrorCode>
+		<ErrorDescription>Disconnect error</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>106</Subject>
+		<ErrorCode>102</ErrorCode>
+		<ErrorDescription>Send Mail error</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>106</Subject>
+		<ErrorCode>103</ErrorCode>
+		<ErrorDescription>Receive Mail error</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>108</Subject>
+		<ErrorCode>200</ErrorCode>
+		<ErrorDescription>Folder does not exist</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>108</Subject>
+		<ErrorCode>201</ErrorCode>
+		<ErrorDescription>Folder cannot be deleted</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>108</Subject>
+		<ErrorCode>202</ErrorCode>
+		<ErrorDescription>File not found</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>108</Subject>
+		<ErrorCode>203</ErrorCode>
+		<ErrorDescription>File cannot be copied</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>108</Subject>
+		<ErrorCode>204</ErrorCode>
+		<ErrorDescription>File cannot be renamed</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>108</Subject>
+		<ErrorCode>205</ErrorCode>
+		<ErrorDescription>File cannot be deleted</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>108</Subject>
+		<ErrorCode>206</ErrorCode>
+		<ErrorDescription>Writing into a file failed</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>108</Subject>
+		<ErrorCode>207</ErrorCode>
+		<ErrorDescription>Failed to execute command line</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>108</Subject>
+		<ErrorCode>210</ErrorCode>
+		<ErrorDescription>File cannot be created</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>108</Subject>
+		<ErrorCode>211</ErrorCode>
+		<ErrorDescription>Command Line Timeout</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>108</Subject>
+		<ErrorCode>212</ErrorCode>
+		<ErrorDescription>Invalid Source or Invalid Destination</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>108</Subject>
+		<ErrorCode>213</ErrorCode>
+		<ErrorDescription>Required parameter values are missing</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>108</Subject>
+		<ErrorCode>214</ErrorCode>
+		<ErrorDescription>Folder already exists</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>108</Subject>
+		<ErrorCode>215</ErrorCode>
+		<ErrorDescription>Java Exception</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>108</Subject>
+		<ErrorCode>216</ErrorCode>
+		<ErrorDescription>Operation Failed</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>109</Subject>
+		<ErrorCode>503</ErrorCode>
+		<ErrorDescription>File Not Found</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>109</Subject>
+		<ErrorCode>504</ErrorCode>
+		<ErrorDescription>IO Error</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>109</Subject>
+		<ErrorCode>505</ErrorCode>
+		<ErrorDescription>Operation Failed</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>109</Subject>
+		<ErrorCode>506</ErrorCode>
+		<ErrorDescription>Parse Exception</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>109</Subject>
+		<ErrorCode>507</ErrorCode>
+		<ErrorDescription>Illegal arguments</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>109</Subject>
+		<ErrorCode>508</ErrorCode>
+		<ErrorDescription>FTP Error</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>109</Subject>
+		<ErrorCode>509</ErrorCode>
+		<ErrorDescription>FTPS (SSL) connection has failed</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>109</Subject>
+		<ErrorCode>510</ErrorCode>
+		<ErrorDescription>Failed to load Server Certificate</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>109</Subject>
+		<ErrorCode>511</ErrorCode>
+		<ErrorDescription>Failed to load Client Certificate</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>109</Subject>
+		<ErrorCode>512</ErrorCode>
+		<ErrorDescription>Incorrect Client certificate password</ErrorDescription>
+	</ErrorsListComp>
+		<ErrorsListComp>
+		<Subject>109</Subject>
+		<ErrorCode>513</ErrorCode>
+		<ErrorDescription>FTP connection has failed</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>110</Subject>
+		<ErrorCode>350</ErrorCode>
+		<ErrorDescription>Error accessing URL</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>110</Subject>
+		<ErrorCode>351</ErrorCode>
+		<ErrorDescription>Trigger not Found</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>110</Subject>
+		<ErrorCode>352</ErrorCode>
+		<ErrorDescription>Access Denied</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>110</Subject>
+		<ErrorCode>353</ErrorCode>
+		<ErrorDescription>Condition Failed</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>110</Subject>
+		<ErrorCode>354</ErrorCode>
+		<ErrorDescription>Mandatory parameter is null</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>110</Subject>
+		<ErrorCode>355</ErrorCode>
+		<ErrorDescription>The parameter does not exist</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>110</Subject>
+		<ErrorCode>356</ErrorCode>
+		<ErrorDescription>Data BLOB should not be null for Post method</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>111</Subject>
+		<ErrorCode>700</ErrorCode>
+		<ErrorDescription>Error connecting to System i server</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>111</Subject>
+		<ErrorCode>701</ErrorCode>
+		<ErrorDescription>Error while creating User Space</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>111</Subject>
+		<ErrorCode>702</ErrorCode>
+		<ErrorDescription>Error while updating User Space</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>111</Subject>
+		<ErrorCode>703</ErrorCode>
+		<ErrorDescription>Error while Retrieving data from User Space</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>111</Subject>
+		<ErrorCode>704</ErrorCode>
+		<ErrorDescription>Error while Deleting User Space</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>111</Subject>
+		<ErrorCode>705</ErrorCode>
+		<ErrorDescription>Error while Creating Data Queue</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>111</Subject>
+		<ErrorCode>706</ErrorCode>
+		<ErrorDescription>Error while Sending Data to Data Queue</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>111</Subject>
+		<ErrorCode>707</ErrorCode>
+		<ErrorDescription>Error while Receiving Data from Data Queue</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>111</Subject>
+		<ErrorCode>708</ErrorCode>
+		<ErrorDescription>Error while Deleting Data Queue</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>111</Subject>
+		<ErrorCode>709</ErrorCode>
+		<ErrorDescription>Error while Clearing Data Queue</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>111</Subject>
+		<ErrorCode>710</ErrorCode>
+		<ErrorDescription>Error while Retrieving Data Queue Description</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>111</Subject>
+		<ErrorCode>711</ErrorCode>
+		<ErrorDescription>Error while retrieving Spool List</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>111</Subject>
+		<ErrorCode>712</ErrorCode>
+		<ErrorDescription>Error while retrieving Spool File</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>111</Subject>
+		<ErrorCode>713</ErrorCode>
+		<ErrorDescription>Error while Calling program</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>111</Subject>
+		<ErrorCode>714</ErrorCode>
+		<ErrorDescription>Error while Executing command</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>111</Subject>
+		<ErrorCode>715</ErrorCode>
+		<ErrorDescription>Error while Retrieving IFS directory list</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>111</Subject>
+		<ErrorCode>716</ErrorCode>
+		<ErrorDescription>Error while Retrieving stream file</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>111</Subject>
+		<ErrorCode>717</ErrorCode>
+		<ErrorDescription>Error while Creating/updating stream file</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>111</Subject>
+		<ErrorCode>718</ErrorCode>
+		<ErrorDescription>Error while using RUNQUERY command</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>112</Subject>
+		<ErrorCode>9501</ErrorCode>
+		<ErrorDescription>Operation failed</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>112</Subject>
+		<ErrorCode>9502</ErrorCode>
+		<ErrorDescription>Source File Not Found</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>112</Subject>
+		<ErrorCode>9503</ErrorCode>
+		<ErrorDescription>Target File Not Found</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>112</Subject>
+		<ErrorCode>9504</ErrorCode>
+		<ErrorDescription>ItemField Service Unknown</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>112</Subject>
+		<ErrorCode>9505</ErrorCode>
+		<ErrorDescription>Empty Output file</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>112</Subject>
+		<ErrorCode>9510</ErrorCode>
+		<ErrorDescription>ItemField Adaptor - License not found</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>115</Subject>
+		<ErrorCode>8001</ErrorCode>
+		<ErrorDescription>Error during connection time</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>115</Subject>
+		<ErrorCode>8002</ErrorCode>
+		<ErrorDescription>Error while sending\receiving</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>115</Subject>
+		<ErrorCode>8003</ErrorCode>
+		<ErrorDescription>Error during Get Data operation</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>117</Subject>
+		<ErrorCode>8001</ErrorCode>
+		<ErrorDescription>Error during connection time</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>117</Subject>
+		<ErrorCode>8002</ErrorCode>
+		<ErrorDescription>Error while sending\receiving</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>117</Subject>
+		<ErrorCode>8003</ErrorCode>
+		<ErrorDescription>Error during Get Data operation</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>118</Subject>
+		<ErrorCode>8001</ErrorCode>
+		<ErrorDescription>Error during connection time</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>118</Subject>
+		<ErrorCode>8002</ErrorCode>
+		<ErrorDescription>Error while sending\receiving</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>118</Subject>
+		<ErrorCode>8003</ErrorCode>
+		<ErrorDescription>Error during Get Data operation</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>121</Subject>
+		<ErrorCode>550</ErrorCode>
+		<ErrorDescription>Error while accessing  WSDL.</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>122</Subject>
+		<ErrorCode>601</ErrorCode>
+		<ErrorDescription>General purpose error return code</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>122</Subject>
+		<ErrorCode>602</ErrorCode>
+		<ErrorDescription>Memory allocation error</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>122</Subject>
+		<ErrorCode>603</ErrorCode>
+		<ErrorDescription>Invalid file</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>122</Subject>
+		<ErrorCode>604</ErrorCode>
+		<ErrorDescription>System error</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>122</Subject>
+		<ErrorCode>605</ErrorCode>
+		<ErrorDescription>Cannot read from the device</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>122</Subject>
+		<ErrorCode>606</ErrorCode>
+		<ErrorDescription>Cannot write from the device</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>122</Subject>
+		<ErrorCode>607</ErrorCode>
+		<ErrorDescription>Java Exception</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>123</Subject>
+		<ErrorCode>750</ErrorCode>
+		<ErrorDescription>Processing error return code</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>124</Subject>
+		<ErrorCode>9701</ErrorCode>
+		<ErrorDescription>Destination file already exists</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>124</Subject>
+		<ErrorCode>9702</ErrorCode>
+		<ErrorDescription>Control file (CRC) mismatch</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>124</Subject>
+		<ErrorCode>9703</ErrorCode>
+		<ErrorDescription>Error will be fetched from Java during deployment</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>124</Subject>
+		<ErrorCode>9705</ErrorCode>
+		<ErrorDescription>File Creation Problem</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>124</Subject>
+		<ErrorCode>9706</ErrorCode>
+		<ErrorDescription>IO Exception</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>124</Subject>
+		<ErrorCode>9707</ErrorCode>
+		<ErrorDescription>General Exception</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>124</Subject>
+		<ErrorCode>9708</ErrorCode>
+		<ErrorDescription>Java Exception (CRC_CORRUPT)</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>124</Subject>
+		<ErrorCode>9709</ErrorCode>
+		<ErrorDescription>Java Exception (JOIN_EXCEPTION_NO_SLICES)</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>124</Subject>
+		<ErrorCode>9710</ErrorCode>
+		<ErrorDescription>Java Exception (CLEANUP_EXCEPTION)</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>124</Subject>
+		<ErrorCode>9711</ErrorCode>
+		<ErrorDescription>Java Exception (SPLIT_SOURCE_FILE_INVALID)</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>128</Subject>
+		<ErrorCode>1001</ErrorCode>
+		<ErrorDescription>Connect process: Could not connect to the company database</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>128</Subject>
+		<ErrorCode>1003</ErrorCode>
+		<ErrorDescription>Disconnect process: Failed to disconnect from company database</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>128</Subject>
+		<ErrorCode>1005</ErrorCode>
+		<ErrorDescription>SAPB1 error return &lt;Err No&gt; : &lt;Err Description&gt;</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>128</Subject>
+		<ErrorCode>1006</ErrorCode>
+		<ErrorDescription>Internal error return &lt;Err No&gt; : &lt;Err Description&gt;</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>128</Subject>
+		<ErrorCode>1007</ErrorCode>
+		<ErrorDescription>Unknown\Unsupported data object: &lt;data object name&gt;</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>128</Subject>
+		<ErrorCode>1008</ErrorCode>
+		<ErrorDescription>The Magic xpi SAP Business One adaptor is not licensed</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>128</Subject>
+		<ErrorCode>1009</ErrorCode>
+		<ErrorDescription>Error retrieving mandatory parameter from XML (parameter &lt;Param Name&gt;)</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>128</Subject>
+		<ErrorCode>1010</ErrorCode>
+		<ErrorDescription>Could not find resource: &lt;resource name&gt;</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>128</Subject>
+		<ErrorCode>1011</ErrorCode>
+		<ErrorDescription>Query failure</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>128</Subject>
+		<ErrorCode>1012</ErrorCode>
+		<ErrorDescription>Magic xpi&apos;s SAP Business One connector exceeded the number of database connections permitted by your license. Can not access database &lt;Server_DBName&gt;</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>128</Subject>
+		<ErrorCode>1014</ErrorCode>
+		<ErrorDescription>There is no reference to the &apos;ibolt_notification&apos; stored procedure in the &lt;ServerName_DBName&gt; database&apos;s &apos;SBO_SP_TransactionNotification&apos; stored procedure</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>128</Subject>
+		<ErrorCode>1013</ErrorCode>
+		<ErrorDescription>The &apos;ibolt_notification&apos; stored procedure does not exist in the &lt;ServerName_DBName&gt; database</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>133</Subject>
+		<ErrorCode>1001</ErrorCode>
+		<ErrorDescription>Connect process: Could not connect to the company database</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>133</Subject>
+		<ErrorCode>1003</ErrorCode>
+		<ErrorDescription>Disconnect process: Failed to disconnect the company database</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>133</Subject>
+		<ErrorCode>1005</ErrorCode>
+		<ErrorDescription>SAPB1 Error return &lt;Err No&gt; : &lt;Err Description&gt;</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>133</Subject>
+		<ErrorCode>1006</ErrorCode>
+		<ErrorDescription>Internal error return &lt;Err No&gt; : &lt;Err Description&gt;</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>133</Subject>
+		<ErrorCode>1007</ErrorCode>
+		<ErrorDescription>Unknown\Unsupported data object: &lt;data object name&gt;</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>133</Subject>
+		<ErrorCode>1008</ErrorCode>
+		<ErrorDescription>The Magic xpi SAP Business One adaptor is not licensed</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>133</Subject>
+		<ErrorCode>1009</ErrorCode>
+		<ErrorDescription>Error retrieving mandatory parameter from XML (parameter &lt;Param Name&gt;)</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>133</Subject>
+		<ErrorCode>1010</ErrorCode>
+		<ErrorDescription>Could not find resource: &lt;resource name&gt;</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>133</Subject>
+		<ErrorCode>1011</ErrorCode>
+		<ErrorDescription>Query failure.</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>133</Subject>
+		<ErrorCode>1012</ErrorCode>
+		<ErrorDescription>Magic xpi&apos;s SAP Business One connector exceeded the number of database connections permitted by your license. Can not access database &lt;Server_DBName&gt;</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>133</Subject>
+		<ErrorCode>1014</ErrorCode>
+		<ErrorDescription>There is no reference to the &apos;ibolt_notification&apos; stored procedure in the &lt;ServerName_DBName&gt; database&apos;s &apos;SBO_SP_TransactionNotification&apos; stored procedure</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>133</Subject>
+		<ErrorCode>1013</ErrorCode>
+		<ErrorDescription>The &apos;ibolt_notification&apos;stored procedure does not exist in the &lt;ServerName_DBName&gt; database</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>140</Subject>
+		<ErrorCode>1102</ErrorCode>
+		<ErrorDescription>Connect process error: &lt;Err Description&gt;</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>140</Subject>
+		<ErrorCode>1103</ErrorCode>
+		<ErrorDescription>SAP R/3 connector error return: &lt;Err Description&gt;</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>141</Subject>
+		<ErrorCode>1001</ErrorCode>
+		<ErrorDescription>Connect process: Could not connect to the company database</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>141</Subject>
+		<ErrorCode>1003</ErrorCode>
+		<ErrorDescription>Disconnect process: Failed to disconnect the company database</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>141</Subject>
+		<ErrorCode>1005</ErrorCode>
+		<ErrorDescription>SAPB1 Error return &lt;Err No&gt; : &lt;Err Description&gt;</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>141</Subject>
+		<ErrorCode>1006</ErrorCode>
+		<ErrorDescription>Internal error return &lt;Err No&gt; : &lt;Err Description&gt;</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>141</Subject>
+		<ErrorCode>1007</ErrorCode>
+		<ErrorDescription>Unknown\Unsupported data object: &lt;data object name&gt;</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>141</Subject>
+		<ErrorCode>1008</ErrorCode>
+		<ErrorDescription>The Magic xpi SAP Business One adaptor is not licensed</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>141</Subject>
+		<ErrorCode>1009</ErrorCode>
+		<ErrorDescription>Error retrieving mandatory parameter from XML (parameter &lt;Param Name&gt;)</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>141</Subject>
+		<ErrorCode>1010</ErrorCode>
+		<ErrorDescription>Could not find resource: &lt;resource name&gt;</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>141</Subject>
+		<ErrorCode>1011</ErrorCode>
+		<ErrorDescription>Query failure.</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>141</Subject>
+		<ErrorCode>1012</ErrorCode>
+		<ErrorDescription>Magic xpi&apos;s SAP Business One connector exceeded the number of database connections permitted by your license. Can not access database &lt;Server_DBName&gt;</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>141</Subject>
+		<ErrorCode>1013</ErrorCode>
+		<ErrorDescription>The &apos;ibolt_notification&apos;stored procedure does not exist in the &lt;ServerName_DBName&gt; database</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>141</Subject>
+		<ErrorCode>1014</ErrorCode>
+		<ErrorDescription>There is no reference to the &apos;ibolt_notification&apos; stored procedure in the &lt;ServerName_DBName&gt; database&apos;s &apos;SBO_SP_TransactionNotification&apos; stored procedure</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>129</Subject>
+		<ErrorCode>650</ErrorCode>
+		<ErrorDescription>Wrong number of parameters</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>129</Subject>
+		<ErrorCode>651</ErrorCode>
+		<ErrorDescription>Internal Error</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>129</Subject>
+		<ErrorCode>652</ErrorCode>
+		<ErrorDescription>Either the property or the method does not exist for the given object.</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>129</Subject>
+		<ErrorCode>653</ErrorCode>
+		<ErrorDescription>Overflow</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>129</Subject>
+		<ErrorCode>654</ErrorCode>
+		<ErrorDescription>The wrong type of data was sent</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>129</Subject>
+		<ErrorCode>655</ErrorCode>
+		<ErrorDescription>A required parameter was missing</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>129</Subject>
+		<ErrorCode>656</ErrorCode>
+		<ErrorDescription>Internal Error</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>129</Subject>
+		<ErrorCode>657</ErrorCode>
+		<ErrorDescription>No instance of an acquired object was given.</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>129</Subject>
+		<ErrorCode>658</ErrorCode>
+		<ErrorDescription>The control name given in the ObjectLoad function was not found.</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>129</Subject>
+		<ErrorCode>659</ErrorCode>
+		<ErrorDescription>Neither a control name nor a class name was given in the ObjectLoad function.</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>130</Subject>
+		<ErrorCode>1001</ErrorCode>
+		<ErrorDescription>Connect process: Could not connect to the company database</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>130</Subject>
+		<ErrorCode>1003</ErrorCode>
+		<ErrorDescription>Disconnect process: Failed to disconnect the company database</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>130</Subject>
+		<ErrorCode>1005</ErrorCode>
+		<ErrorDescription>SAPB1 Error return &lt;Err No&gt; : &lt;Err Description&gt;</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>130</Subject>
+		<ErrorCode>1006</ErrorCode>
+		<ErrorDescription>Internal error return &lt;Err No&gt; : &lt;Err Description&gt;</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>130</Subject>
+		<ErrorCode>1007</ErrorCode>
+		<ErrorDescription>Unknown\Unsupported data object: &lt;data object name&gt;</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>130</Subject>
+		<ErrorCode>1008</ErrorCode>
+		<ErrorDescription>Magic xpi&apos;s SAP Business One adaptor is not licensed</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>130</Subject>
+		<ErrorCode>1009</ErrorCode>
+		<ErrorDescription>Error retrieving mandatory parameter from XML (parameter &lt;Param Name&gt;)</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>130</Subject>
+		<ErrorCode>1010</ErrorCode>
+		<ErrorDescription>Could not find connection: &lt;connection name&gt;</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>132</Subject>
+		<ErrorCode>8501</ErrorCode>
+		<ErrorDescription>Missing arguments</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>132</Subject>
+		<ErrorCode>8502</ErrorCode>
+		<ErrorDescription>Illegal arguments</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>132</Subject>
+		<ErrorCode>8503</ErrorCode>
+		<ErrorDescription>Operation failed</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>132</Subject>
+		<ErrorCode>8504</ErrorCode>
+		<ErrorDescription>IO Error</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>132</Subject>
+		<ErrorCode>8505</ErrorCode>
+		<ErrorDescription>File Not Found</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>132</Subject>
+		<ErrorCode>8506</ErrorCode>
+		<ErrorDescription>Transformation exception</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>132</Subject>
+		<ErrorCode>8507</ErrorCode>
+		<ErrorDescription>FO Transformation exception</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>134</Subject>
+		<ErrorCode>2001</ErrorCode>
+		<ErrorDescription>Trigger not Found</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>134</Subject>
+		<ErrorCode>2002</ErrorCode>
+		<ErrorDescription>Mandatory parameter is null</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>134</Subject>
+		<ErrorCode>2003</ErrorCode>
+		<ErrorDescription>W4 error return &lt;Err No&gt; : &lt;Err Description&gt;</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>134</Subject>
+		<ErrorCode>2004</ErrorCode>
+		<ErrorDescription>Java error return : &lt;Err Description&gt;</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>134</Subject>
+		<ErrorCode>2005</ErrorCode>
+		<ErrorDescription>Internal error return : &lt;Err Description&gt;</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>135</Subject>
+		<ErrorCode>340</ErrorCode>
+		<ErrorDescription>Trigger not found</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>135</Subject>
+		<ErrorCode>341</ErrorCode>
+		<ErrorDescription>Trigger not available</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>136</Subject>
+		<ErrorCode>900</ErrorCode>
+		<ErrorDescription>Blank Server Address</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>136</Subject>
+		<ErrorCode>901</ErrorCode>
+		<ErrorDescription>Blank Server Port</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>136</Subject>
+		<ErrorCode>902</ErrorCode>
+		<ErrorDescription>Register consumer failed</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>136</Subject>
+		<ErrorCode>903</ErrorCode>
+		<ErrorDescription>Send message failed</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>136</Subject>
+		<ErrorCode>904</ErrorCode>
+		<ErrorDescription>Connection failed</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>136</Subject>
+		<ErrorCode>905</ErrorCode>
+		<ErrorDescription>Already in transaction</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>136</Subject>
+		<ErrorCode>906</ErrorCode>
+		<ErrorDescription>There is no open transaction</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>136</Subject>
+		<ErrorCode>907</ErrorCode>
+		<ErrorDescription>Java Exception</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>136</Subject>
+		<ErrorCode>908</ErrorCode>
+		<ErrorDescription>File not found</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>136</Subject>
+		<ErrorCode>909</ErrorCode>
+		<ErrorDescription>IO Error</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>136</Subject>
+		<ErrorCode>910</ErrorCode>
+		<ErrorDescription>Operation failed</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>136</Subject>
+		<ErrorCode>911</ErrorCode>
+		<ErrorDescription>Parse exception</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>136</Subject>
+		<ErrorCode>912</ErrorCode>
+		<ErrorDescription>Missing or illegal parameters</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>138</Subject>
+		<ErrorCode>2100</ErrorCode>
+		<ErrorDescription>COM Error</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>138</Subject>
+		<ErrorCode>2101</ErrorCode>
+		<ErrorDescription>Invalid file name</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>138</Subject>
+		<ErrorCode>2102</ErrorCode>
+		<ErrorDescription>Required parameter values are missing</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>139</Subject>
+		<ErrorCode>2150</ErrorCode>
+		<ErrorDescription>COM Error</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>139</Subject>
+		<ErrorCode>2151</ErrorCode>
+		<ErrorDescription>Invalid file name</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>139</Subject>
+		<ErrorCode>2152</ErrorCode>
+		<ErrorDescription>Required parameter values are missing</ErrorDescription>
+	</ErrorsListComp>	
+	<ErrorsListComp>
+		<Subject>143</Subject>
+		<ErrorCode>1203</ErrorCode>
+		<ErrorDescription>Salesforce call error: &lt;Error Description&gt;</ErrorDescription>
+	</ErrorsListComp>	
+	<ErrorsListComp>
+		<Subject>143</Subject>
+		<ErrorCode>1207</ErrorCode>
+		<ErrorDescription>Could not find Destination database: &lt;Database Entry&gt;</ErrorDescription>
+	</ErrorsListComp>	
+	<ErrorsListComp>
+		<Subject>143</Subject>
+		<ErrorCode>1208</ErrorCode>
+		<ErrorDescription>Input mandatory parameter is empty: &lt;Param Name&gt;</ErrorDescription>
+	</ErrorsListComp>	
+	<ErrorsListComp>
+		<Subject>143</Subject>
+		<ErrorCode>1209</ErrorCode>
+		<ErrorDescription>Internal error return: &lt;Err Description&gt;</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>143</Subject>
+		<ErrorCode>1210</ErrorCode>
+		<ErrorDescription>Database error return: &lt;Err Code&gt; &lt;Err Description&gt;</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>143</Subject>
+		<ErrorCode>1211</ErrorCode>
+		<ErrorDescription>Replication terminated SFDC_TerminateReplication logical name is set to 1</ErrorDescription>
+	</ErrorsListComp>				
+	<ErrorsListComp>
+		<Subject>144</Subject>
+		<ErrorCode>1303</ErrorCode>
+		<ErrorDescription>Notes DB connector call error: &lt;Err Description&gt;</ErrorDescription>
+	</ErrorsListComp>	
+	<ErrorsListComp>
+		<Subject>145</Subject>
+		<ErrorCode>1403</ErrorCode>
+		<ErrorDescription>JD Edwards connector call error: &lt;Err Description&gt;</ErrorDescription>
+	</ErrorsListComp>	
+<ErrorsListComp>
+		<Subject>145</Subject>
+		<ErrorCode>1402</ErrorCode>
+		<ErrorDescription>Could not find connection: &lt;Err Description&gt;</ErrorDescription>
+	</ErrorsListComp>	
+	<ErrorsListComp>
+		<Subject>149</Subject>
+		<ErrorCode>1501</ErrorCode>
+		<ErrorDescription>Source message is empty</ErrorDescription>
+	</ErrorsListComp>	
+	<ErrorsListComp>
+		<Subject>149</Subject>
+		<ErrorCode>1502</ErrorCode>
+		<ErrorDescription>HL7 convert error: &lt;Err Description&gt;</ErrorDescription>
+	</ErrorsListComp>
+    <ErrorsListComp>
+			<Subject>152</Subject>
+      <ErrorCode>1601</ErrorCode>
+      <ErrorDescription>LDAP connection error: &lt;Err Description&gt;</ErrorDescription>
+    </ErrorsListComp>
+    <ErrorsListComp>
+			<Subject>152</Subject>    
+      <ErrorCode>1602</ErrorCode>
+      <ErrorDescription>LDAP disconnect error: &lt;Err Description&gt;</ErrorDescription>
+    </ErrorsListComp>
+    <ErrorsListComp>
+			<Subject>152</Subject>    
+      <ErrorCode>1603</ErrorCode>
+      <ErrorDescription>LDAP call error: &lt;Err Description&gt;</ErrorDescription>
+  </ErrorsListComp>	
+	<ErrorsListComp>
+		<Subject>153</Subject>
+		<ErrorCode>1102</ErrorCode>
+		<ErrorDescription>Connect process error: &lt;Err Description&gt;</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>153</Subject>
+		<ErrorCode>1103</ErrorCode>
+		<ErrorDescription>SAP A1 connector error return: &lt;Err Description&gt;</ErrorDescription>
+	</ErrorsListComp>  
+	<ErrorsListComp>
+		<Subject>156</Subject>
+		<ErrorCode>1250</ErrorCode>
+		<ErrorDescription>Dynamics CRM call error: &lt;Error Description&gt;</ErrorDescription>
+	</ErrorsListComp>	
+	<ErrorsListComp>
+		<Subject>157</Subject>
+		<ErrorCode>1150</ErrorCode>
+		<ErrorDescription>Exchange call error: &lt;Error Description&gt;</ErrorDescription>
+	</ErrorsListComp>	
+	<ErrorsListComp>
+		<Subject>159</Subject>
+		<ErrorCode>1350</ErrorCode>
+		<ErrorDescription>SharePoint call error: &lt;Error Description&gt;</ErrorDescription>
+	</ErrorsListComp>	
+	<ErrorsListComp>
+		<Subject>159</Subject>
+		<ErrorCode>1351</ErrorCode>
+		<ErrorDescription>Internal error return: &lt;Err Description&gt;</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>160</Subject>
+		<ErrorCode>1001</ErrorCode>
+		<ErrorDescription>Connect process: Could not connect to the company database</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>160</Subject>
+		<ErrorCode>1003</ErrorCode>
+		<ErrorDescription>Disconnect process: Failed to disconnect the company database</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>160</Subject>
+		<ErrorCode>1005</ErrorCode>
+		<ErrorDescription>SAPB1 Error return &lt;Err No&gt; : &lt;Err Description&gt;</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>160</Subject>
+		<ErrorCode>1006</ErrorCode>
+		<ErrorDescription>Internal error return &lt;Err No&gt; : &lt;Err Description&gt;</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>160</Subject>
+		<ErrorCode>1007</ErrorCode>
+		<ErrorDescription>Unknown\Unsupported data object: &lt;data object name&gt;</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>160</Subject>
+		<ErrorCode>1008</ErrorCode>
+		<ErrorDescription>The Magic xpi SAP Business One adaptor is not licensed</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>160</Subject>
+		<ErrorCode>1009</ErrorCode>
+		<ErrorDescription>Error retrieving mandatory parameter from XML (parameter &lt;Param Name&gt;)</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>160</Subject>
+		<ErrorCode>1010</ErrorCode>
+		<ErrorDescription>Could not find resource: &lt;resource name&gt;</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>160</Subject>
+		<ErrorCode>1011</ErrorCode>
+		<ErrorDescription>Query failure.</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>160</Subject>
+		<ErrorCode>1012</ErrorCode>
+		<ErrorDescription>Magic xpi&apos;s SAP Business One connector exceeded the number of database connections permitted by your license. Can not access database &lt;Server_DBName&gt;</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>160</Subject>
+		<ErrorCode>1013</ErrorCode>
+		<ErrorDescription>The &apos;ibolt_notification&apos;stored procedure does not exist in the &lt;ServerName_DBName&gt; database</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>160</Subject>
+		<ErrorCode>1014</ErrorCode>
+		<ErrorDescription>There is no reference to the &apos;ibolt_notification&apos; stored procedure in the &lt;ServerName_DBName&gt; database&apos;s &apos;SBO_SP_TransactionNotification&apos; stored procedure</ErrorDescription>
+	</ErrorsListComp>	
+	<ErrorsListComp>
+		<Subject>999999999998</Subject>
+		<ErrorCode>10</ErrorCode>
+		<ErrorDescription>UserBLOB mismatch</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>999999999998</Subject>
+		<ErrorCode>25</ErrorCode>
+		<ErrorDescription>Flow level DB transaction cannot  be opened.</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>999999999998</Subject>
+		<ErrorCode>11</ErrorCode>
+		<ErrorDescription>UserString mismatch</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>999999999998</Subject>
+		<ErrorCode>12</ErrorCode>
+		<ErrorDescription>UserXML data mismatch</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>999999999998</Subject>
+		<ErrorCode>13</ErrorCode>
+		<ErrorDescription>The max instances allowed were exceeded</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>999999999998</Subject>
+		<ErrorCode>15</ErrorCode>
+		<ErrorDescription>Flow terminated by component return action</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>999999999998</Subject>
+		<ErrorCode>16</ErrorCode>
+		<ErrorDescription>Internal Error</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>999999999998</Subject>
+		<ErrorCode>17</ErrorCode>
+		<ErrorDescription>Invalid command string</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>999999999998</Subject>
+		<ErrorCode>18</ErrorCode>
+		<ErrorDescription>Disabled flow called</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>999999999998</Subject>
+		<ErrorCode>19</ErrorCode>
+		<ErrorDescription>Server not available</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>999999999998</Subject>
+		<ErrorCode>21</ErrorCode>
+		<ErrorDescription>Java Exception</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>999999999998</Subject>
+		<ErrorCode>22</ErrorCode>
+		<ErrorDescription>Process exceeded maximum recursion depth</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>999999999998</Subject>
+		<ErrorCode>23</ErrorCode>
+		<ErrorDescription>Called flow aborted</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>999999999998</Subject>
+		<ErrorCode>24</ErrorCode>
+		<ErrorDescription>Error Code [code number] does not exist for the selected component</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>999999999998</Subject>
+		<ErrorCode>14</ErrorCode>
+		<ErrorDescription>Invoked flow BP=&lt;BPID&gt;, Flow=&lt;FlowID&gt; does not exist</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>0</Subject>
+		<ErrorCode>100</ErrorCode>
+		<ErrorDescription>User Error</ErrorDescription>
+	</ErrorsListComp>
+
+
+
+		<ErrorsListComp>
+		<Subject>0</Subject>
+		<ErrorCode>148</ErrorCode>
+		<ErrorDescription>Validation</ErrorDescription>
+	</ErrorsListComp>
+		<ErrorsListComp>
+		<Subject>148</Subject>
+		<ErrorCode>851</ErrorCode>
+		<ErrorDescription>The maximum length is less  than the minimum length</ErrorDescription>
+	</ErrorsListComp>
+			<ErrorsListComp>
+		<Subject>148</Subject>
+		<ErrorCode>852</ErrorCode>
+		<ErrorDescription>The maximum date is less than the minimum date</ErrorDescription>
+	</ErrorsListComp>
+				<ErrorsListComp>
+		<Subject>148</Subject>
+		<ErrorCode>853</ErrorCode>
+		<ErrorDescription>The Input Value must be a numeric variable</ErrorDescription>
+	</ErrorsListComp>
+					<ErrorsListComp>
+		<Subject>148</Subject>
+		<ErrorCode>854</ErrorCode>
+		<ErrorDescription>The XSD file does not exist</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>148</Subject>
+		<ErrorCode>855</ErrorCode>
+		<ErrorDescription>The numeric list contains a non-numeric variable</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>148</Subject>
+		<ErrorCode>856</ErrorCode>
+		<ErrorDescription>The maximum number is less than the minimum number</ErrorDescription>
+	</ErrorsListComp>
+<ErrorsListComp>
+		<Subject>148</Subject>
+		<ErrorCode>857</ErrorCode>
+		<ErrorDescription>The Valid Value has no value</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>0</Subject>
+		<ErrorCode>27</ErrorCode>
+		<ErrorDescription>.NET Service</ErrorDescription>
+	</ErrorsListComp>	
+	<ErrorsListComp>
+		<Subject>27</Subject>
+		<ErrorCode>777</ErrorCode>
+		<ErrorDescription>.NET Invocation Error</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>25</Subject>
+		<ErrorCode>550</ErrorCode>
+		<ErrorDescription>WebService Error</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>0</Subject>
+		<ErrorCode>151</ErrorCode>
+		<ErrorDescription>Google Calendar</ErrorDescription>
+	</ErrorsListComp>
+		<ErrorsListComp>
+		<Subject>151</Subject>
+		<ErrorCode>5000</ErrorCode>
+		<ErrorDescription>Connection Error</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>151</Subject>
+		<ErrorCode>5001</ErrorCode>
+		<ErrorDescription>Calendar Operation Error</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>151</Subject>
+		<ErrorCode>5002</ErrorCode>
+		<ErrorDescription>Calendar Event Operation Error</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>151</Subject>
+		<ErrorCode>5003</ErrorCode>
+		<ErrorDescription>Calendar Access Control Operation Error</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>151</Subject>
+		<ErrorCode>5004</ErrorCode>
+		<ErrorDescription>Calendar Subscription Operation Error</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>0</Subject>
+		<ErrorCode>154</ErrorCode>
+		<ErrorDescription>Google Docs</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>154</Subject>
+		<ErrorCode>6000</ErrorCode>
+		<ErrorDescription>Connection Error</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>154</Subject>
+		<ErrorCode>6001</ErrorCode>
+		<ErrorDescription>Documents Operation Error</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>154</Subject>
+		<ErrorCode>6002</ErrorCode>
+		<ErrorDescription>Documents AccessControl Operation Error</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>0</Subject>
+		<ErrorCode>155</ErrorCode>
+		<ErrorDescription>XML Handling</ErrorDescription>
+	</ErrorsListComp>
+		<ErrorsListComp>
+		<Subject>155</Subject>
+		<ErrorCode>101</ErrorCode>
+		<ErrorDescription> Invalid element path.</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>155</Subject>
+		<ErrorCode>102</ErrorCode>
+		<ErrorDescription> Invalid attribute name.</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>155</Subject>
+		<ErrorCode>103</ErrorCode>
+		<ErrorDescription> Attribute already defined for element.</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>155</Subject>
+		<ErrorCode>104</ErrorCode>
+		<ErrorDescription> Reference element not found.</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>155</Subject>
+		<ErrorCode>105</ErrorCode>
+		<ErrorDescription> Multiple roots not permitted.</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>155</Subject>
+		<ErrorCode>106</ErrorCode>
+		<ErrorDescription> Invalid path - Non valid index.</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>155</Subject>
+		<ErrorCode>107</ErrorCode>
+		<ErrorDescription> Alias already used.</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>155</Subject>
+		<ErrorCode>108</ErrorCode>
+		<ErrorDescription> Invalid alias, qualified name.</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>155</Subject>
+		<ErrorCode>109</ErrorCode>
+		<ErrorDescription> XML parsing failed.</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>155</Subject>
+		<ErrorCode>110</ErrorCode>
+		<ErrorDescription> Invalid XML.</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>0</Subject>
+		<ErrorCode>158</ErrorCode>
+		<ErrorDescription>TCPListener</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>158</Subject>
+		<ErrorCode>7000</ErrorCode>
+		<ErrorDescription>Connection Error.</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>158</Subject>
+		<ErrorCode>7001</ErrorCode>
+		<ErrorDescription>Timeout Failure.</ErrorDescription>
+	</ErrorsListComp>
+	<ErrorsListComp>
+		<Subject>162</Subject>
+		<ErrorCode>7500</ErrorCode>
+		<ErrorDescription>SugarCRM Internal ErrorAP A1 connector error return: &lt;Err Description&gt;</ErrorDescription>
+	</ErrorsListComp>  
+</Struct_ErrorsList>

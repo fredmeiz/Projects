@@ -1,0 +1,4155 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<Flows>
+
+ <Struct_tmp_tree>
+ <tmp_treeComp>
+  <proj_id>1</proj_id> 
+  <auto_expand>False</auto_expand> 
+  <BP_ID>2</BP_ID> 
+  <Son_ID>14</Son_ID> 
+  <fold_type>10</fold_type> 
+  <Flow_ID>18</Flow_ID> 
+  <TreeNodeName>Get Quantity Available</TreeNodeName> 
+  <description></description> 
+  <transactional>0</transactional> 
+  <auto_start>0</auto_start> 
+  <auto_restart>0</auto_restart> 
+  <max_instances>0</max_instances> 
+  <err_comp></err_comp> 
+  <err_prg></err_prg> 
+  <logic_comp></logic_comp> 
+  <logic_prg></logic_prg> 
+  <auto_repeat>0</auto_repeat> 
+  <subscribe_name></subscribe_name> 
+  <subscribe_once>0</subscribe_once> 
+  <time_out>0</time_out> 
+  <recovery_policy>6</recovery_policy> 
+  <fold_table_id>0</fold_table_id> 
+  <cleanup_comp></cleanup_comp> 
+  <cleanup_prg></cleanup_prg> 
+  <emu_err_prg></emu_err_prg> 
+  <emu_logic_prg ></emu_logic_prg> 
+  <error_flow_id>0</error_flow_id> 
+  <logic_flow_id>0</logic_flow_id> 
+  <cleanup_flow_id>0</cleanup_flow_id> 
+  <order>13</order> 
+  <Right_ID>0</Right_ID> 
+  <PSS_Index>0</PSS_Index> 
+  <secure_called_flows>0</secure_called_flows> 
+  <disable_flow>0</disable_flow> 
+  <Error_BP_ID>0</Error_BP_ID> 
+  <Logic_BP_ID>0</Logic_BP_ID> 
+  <CleanUp_BP_ID>0</CleanUp_BP_ID> 
+  <IsLoaded>1</IsLoaded> 
+  <DB_Transaction>0</DB_Transaction> 
+  <DB_Transaction_String></DB_Transaction_String> 
+  <Timeout_Policy>6</Timeout_Policy> 
+  <InactiveFlow>False</InactiveFlow> 
+ </tmp_treeComp>
+ </Struct_tmp_tree>
+
+<IFC>
+<Struct_IFCInstance>
+<IFCInstanceComp>
+<topology_id>2</topology_id>
+<flow_id>18</flow_id>
+<ifc_icon>wsifc.gif</ifc_icon>
+<step>0</step>
+<ext_internal_use>2</ext_internal_use>
+<IFCDefinitionID>25</IFCDefinitionID>
+<Description></Description>
+<NodeID>1</NodeID>
+<InvocationComponent>%currentprojectdir%service\JDE\JDE.ecf</InvocationComponent>
+<InvocationProgram>getQuantityAvailable</InvocationProgram>
+<Synchronize>1</Synchronize>
+<Transactional>0</Transactional>
+<CommitProgram></CommitProgram>
+<RollbackProgram></RollbackProgram>
+<WaitForCompletion>0</WaitForCompletion>
+<TimeOut>0</TimeOut>
+<CheckLogic>0</CheckLogic>
+<ActivationString></ActivationString>
+<ActivationBlob>PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIiA/Pg0KPFdlYlNlcnZpY2U+DQoNCiAgPFJlc291cmNlSUQ+MDwvUmVzb3VyY2VJRD4NCg0KICA8TmFtZT5KREU8L05hbWU+DQoNCiAgPE1pZ3JhdGVkUHJvamVjdD48L01pZ3JhdGVkUHJvamVjdD4NCg0KICA8T3BlcmF0aW9uPg0KICAgIDxJRD42PC9JRD4NCiAgICA8T3BlcmF0aW9uTmFtZT5nZXRRdWFudGl0eUF2YWlsYWJsZTwvT3BlcmF0aW9uTmFtZT4NCiAgICA8QXJndW1lbnQ+DQogICAgICA8QXJndW1lbnRJRD4xPC9Bcmd1bWVudElEPg0KICAgICAgPEFyZ3VtZW50TmFtZT5IZWFkZXJfSW48L0FyZ3VtZW50TmFtZT4NCiAgICAgIDxBcmd1ZW1lbnRUeXBlPjE8L0FyZ3VlbWVudFR5cGU+DQogICAgICA8RGlyZWN0aW9uPjE8L0RpcmVjdGlvbj4NCiAgICAgIDxEYXRhVHlwZT5CPC9EYXRhVHlwZT4NCiAgICAgIDxEYXRhVHlwZVBpY3R1cmU+PC9EYXRhVHlwZVBpY3R1cmU+DQogICAgICA8TWFwcGluZ0V4cElEPjA8L01hcHBpbmdFeHBJRD4NCiAgICA8L0FyZ3VtZW50Pg0KICAgIDxBcmd1bWVudD4NCiAgICAgIDxBcmd1bWVudElEPjI8L0FyZ3VtZW50SUQ+DQogICAgICA8QXJndW1lbnROYW1lPkhlYWRlcl9PdXQ8L0FyZ3VtZW50TmFtZT4NCiAgICAgIDxBcmd1ZW1lbnRUeXBlPjE8L0FyZ3VlbWVudFR5cGU+DQogICAgICA8RGlyZWN0aW9uPjI8L0RpcmVjdGlvbj4NCiAgICAgIDxEYXRhVHlwZT5CPC9EYXRhVHlwZT4NCiAgICAgIDxEYXRhVHlwZVBpY3R1cmU+PC9EYXRhVHlwZVBpY3R1cmU+DQogICAgICA8TWFwcGluZ0V4cElEPjA8L01hcHBpbmdFeHBJRD4NCiAgICA8L0FyZ3VtZW50Pg0KICAgIDxBcmd1bWVudD4NCiAgICAgIDxBcmd1bWVudElEPjM8L0FyZ3VtZW50SUQ+DQogICAgICA8QXJndW1lbnROYW1lPnF1YW50aXR5QXZhaWxhYmxlPC9Bcmd1bWVudE5hbWU+DQogICAgICA8QXJndWVtZW50VHlwZT40PC9Bcmd1ZW1lbnRUeXBlPg0KICAgICAgPERpcmVjdGlvbj4zPC9EaXJlY3Rpb24+DQogICAgICA8RGF0YVR5cGU+QTwvRGF0YVR5cGU+DQogICAgICA8RGF0YVR5cGVQaWN0dXJlPjMwPC9EYXRhVHlwZVBpY3R1cmU+DQogICAgICA8TWFwcGluZ0V4cElEPjEyNzwvTWFwcGluZ0V4cElEPg0KICAgIDwvQXJndW1lbnQ+DQogICAgPEFyZ3VtZW50Pg0KICAgICAgPEFyZ3VtZW50SUQ+NDwvQXJndW1lbnRJRD4NCiAgICAgIDxBcmd1bWVudE5hbWU+c2t1PC9Bcmd1bWVudE5hbWU+DQogICAgICA8QXJndWVtZW50VHlwZT4yPC9Bcmd1ZW1lbnRUeXBlPg0KICAgICAgPERpcmVjdGlvbj4xPC9EaXJlY3Rpb24+DQogICAgICA8RGF0YVR5cGU+QTwvRGF0YVR5cGU+DQogICAgICA8RGF0YVR5cGVQaWN0dXJlPjMwPC9EYXRhVHlwZVBpY3R1cmU+DQogICAgICA8TWFwcGluZ0V4cElEPjEzMjwvTWFwcGluZ0V4cElEPg0KICAgIDwvQXJndW1lbnQ+DQogIDwvT3BlcmF0aW9uPg0KDQogIDxQdXRBcmd1bWVudFhNTEludG9FeHBuSUQ+MDwvUHV0QXJndW1lbnRYTUxJbnRvRXhwbklEPg0KDQogIDxGYXVsdElEPjEzMzwvRmF1bHRJRD4NCg0KICA8SWRlbnRpdHk+PC9JZGVudGl0eT4NCg0KICA8SWRlbnRpdHlQYXNzd29yZD48L0lkZW50aXR5UGFzc3dvcmQ+DQoNCiAgPElkZW50aXR5RXhwSWQ+MDwvSWRlbnRpdHlFeHBJZD4NCg0KICA8SWRlbnRpdHlQYXNzRXhwSWQ+MDwvSWRlbnRpdHlQYXNzRXhwSWQ+DQoNCiAgPFJlc3BvbnNlQmxvYlR5cGU+PC9SZXNwb25zZUJsb2JUeXBlPg0KDQogIDxSZXF1ZXN0QmxvYnNUeXBlPlU8L1JlcXVlc3RCbG9ic1R5cGU+DQoNCjwvV2ViU2VydmljZT4NCg==</ActivationBlob>
+<RecoveryPolicy>A</RecoveryPolicy>
+<Istrigger>1</Istrigger>
+<Name>getQuantityAvailable</Name>
+<XXXInvokeFlow_NOT_IN_USE>0</XXXInvokeFlow_NOT_IN_USE>
+<XXXInvokeFlowID_NOT_IN_USE>0</XXXInvokeFlowID_NOT_IN_USE>
+<XXXInvokeStepNo_NOT_IN_USE>0</XXXInvokeStepNo_NOT_IN_USE>
+<Service_Type_New4Services>0</Service_Type_New4Services>
+<IsSkipUserString>False</IsSkipUserString>
+<IsSkipUserBlob>False</IsSkipUserBlob>
+<IsSkipUserCode>False</IsSkipUserCode>
+<EmulationProgram></EmulationProgram>
+<Save_Point>0</Save_Point>
+<SavePointComponent></SavePointComponent>
+<SaveDataProgram></SaveDataProgram>
+<RestoreDataProgram></RestoreDataProgram>
+<Command_line></Command_line>
+<method_name></method_name>
+<return_XML_data>0</return_XML_data>
+<interface>0</interface>
+<IsSkipUserXML>False</IsSkipUserXML>
+<xsdpath></xsdpath>
+<errorhandling>0</errorhandling>
+<LoggingScope>0</LoggingScope>
+<StepLogging>1</StepLogging>
+<LogStringMsgDev>0</LogStringMsgDev>
+<DotNetServiceArgs></DotNetServiceArgs>
+<LogBLOBDev>0</LogBLOBDev>
+<LogBLOBDeploy></LogBLOBDeploy>
+<LogBLOBFileExt></LogBLOBFileExt>
+<AppServerID>0</AppServerID>
+<SPInfoExists>False</SPInfoExists>
+<DBTransactionLevel></DBTransactionLevel>
+<Use_Resource>False</Use_Resource>
+<Resource_Name>JDE</Resource_Name>
+<Resource_ExpID>0</Resource_ExpID>
+<Load_Server_services>False</Load_Server_services>
+<Ddam_Configuration_Data></Ddam_Configuration_Data>
+<Ddam_XmlXsd></Ddam_XmlXsd>
+<Deployment_Module_Name></Deployment_Module_Name>
+<DBTransactionString></DBTransactionString>
+<MapperConversionFail>false</MapperConversionFail>
+</IFCInstanceComp>
+<IFCInstanceComp>
+<topology_id>2</topology_id>
+<flow_id>18</flow_id>
+<ifc_icon>jdeifc.gif</ifc_icon>
+<step>2</step>
+<ext_internal_use>0</ext_internal_use>
+<IFCDefinitionID>145</IFCDefinitionID>
+<Description></Description>
+<NodeID>1</NodeID>
+<InvocationComponent>%ifclib%jdedwards\jdedwardsifc.ecf</InvocationComponent>
+<InvocationProgram></InvocationProgram>
+<Synchronize>1</Synchronize>
+<Transactional>0</Transactional>
+<CommitProgram></CommitProgram>
+<RollbackProgram></RollbackProgram>
+<WaitForCompletion>0</WaitForCompletion>
+<TimeOut>0</TimeOut>
+<CheckLogic>0</CheckLogic>
+<ActivationString></ActivationString>
+<ActivationBlob></ActivationBlob>
+<RecoveryPolicy>A</RecoveryPolicy>
+<Istrigger>0</Istrigger>
+<Name>GetItemMasterBy2ndItem</Name>
+<XXXInvokeFlow_NOT_IN_USE>0</XXXInvokeFlow_NOT_IN_USE>
+<XXXInvokeFlowID_NOT_IN_USE>0</XXXInvokeFlowID_NOT_IN_USE>
+<XXXInvokeStepNo_NOT_IN_USE>0</XXXInvokeStepNo_NOT_IN_USE>
+<Service_Type_New4Services>0</Service_Type_New4Services>
+<IsSkipUserString>False</IsSkipUserString>
+<IsSkipUserBlob>False</IsSkipUserBlob>
+<IsSkipUserCode>False</IsSkipUserCode>
+<EmulationProgram></EmulationProgram>
+<Save_Point>0</Save_Point>
+<SavePointComponent></SavePointComponent>
+<SaveDataProgram></SaveDataProgram>
+<RestoreDataProgram></RestoreDataProgram>
+<Command_line></Command_line>
+<method_name></method_name>
+<return_XML_data>0</return_XML_data>
+<interface>1</interface>
+<IsSkipUserXML>False</IsSkipUserXML>
+<xsdpath>jdedwards\XSD\eppdent005_EPPD\X4101.GetItemMasterBy2ndItem.xsd</xsdpath>
+<errorhandling>0</errorhandling>
+<LoggingScope>1</LoggingScope>
+<StepLogging>2</StepLogging>
+<LogStringMsgDev>15</LogStringMsgDev>
+<DotNetServiceArgs></DotNetServiceArgs>
+<LogBLOBDev>16</LogBLOBDev>
+<LogBLOBDeploy></LogBLOBDeploy>
+<LogBLOBFileExt>xml</LogBLOBFileExt>
+<AppServerID>0</AppServerID>
+<SPInfoExists>False</SPInfoExists>
+<DBTransactionLevel></DBTransactionLevel>
+<Use_Resource>False</Use_Resource>
+<Resource_Name>JD Edwards EnterpriseOne_1</Resource_Name>
+<Resource_ExpID>0</Resource_ExpID>
+<Load_Server_services>False</Load_Server_services>
+<Ddam_Configuration_Data>PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIiA/Pg0KPEpERVN0ZXA+DQoNCiAgPENvbmZpZ3VyYXRpb24+DQogICAgPElGQ05hbWU+PC9JRkNOYW1lPg0KICAgIDxJbnRlcmZhY2U+QjwvSW50ZXJmYWNlPg0KICAgIDxNb2R1bGU+WDQxMDE8L01vZHVsZT4NCiAgICA8QlNGTj5HZXRJdGVtTWFzdGVyQnkybmRJdGVtPC9CU0ZOPg0KICAgIDxEaXNjb25uZWN0PjA8L0Rpc2Nvbm5lY3Q+DQogICAgPFJlc3VsdFRhcmdldF9Db21ibz4yPC9SZXN1bHRUYXJnZXRfQ29tYm8+DQogICAgPFJlc3VsdFRhcmdldF9FeHA+MzwvUmVzdWx0VGFyZ2V0X0V4cD4NCiAgPC9Db25maWd1cmF0aW9uPg0KDQo8L0pERVN0ZXA+DQo=</Ddam_Configuration_Data>
+<Ddam_XmlXsd>jdedwards\XSD\eppdent005_EPPD\X4101.GetItemMasterBy2ndItem.xsd</Ddam_XmlXsd>
+<Deployment_Module_Name></Deployment_Module_Name>
+<DBTransactionString></DBTransactionString>
+<MapperConversionFail>false</MapperConversionFail>
+</IFCInstanceComp>
+<IFCInstanceComp>
+<topology_id>2</topology_id>
+<flow_id>18</flow_id>
+<ifc_icon>Data_Mapper.gif</ifc_icon>
+<step>4</step>
+<ext_internal_use>0</ext_internal_use>
+<IFCDefinitionID>11</IFCDefinitionID>
+<Description>Creates a flat file that we can insert into the log for troubleshooting.</Description>
+<NodeID>1</NodeID>
+<InvocationComponent></InvocationComponent>
+<InvocationProgram></InvocationProgram>
+<Synchronize>1</Synchronize>
+<Transactional>0</Transactional>
+<CommitProgram></CommitProgram>
+<RollbackProgram></RollbackProgram>
+<WaitForCompletion>0</WaitForCompletion>
+<TimeOut>0</TimeOut>
+<CheckLogic>0</CheckLogic>
+<ActivationString>generate</ActivationString>
+<ActivationBlob></ActivationBlob>
+<RecoveryPolicy></RecoveryPolicy>
+<Istrigger>0</Istrigger>
+<Name>Map Messages of BSFN call</Name>
+<XXXInvokeFlow_NOT_IN_USE>0</XXXInvokeFlow_NOT_IN_USE>
+<XXXInvokeFlowID_NOT_IN_USE>0</XXXInvokeFlowID_NOT_IN_USE>
+<XXXInvokeStepNo_NOT_IN_USE>0</XXXInvokeStepNo_NOT_IN_USE>
+<Service_Type_New4Services>11</Service_Type_New4Services>
+<IsSkipUserString>False</IsSkipUserString>
+<IsSkipUserBlob>False</IsSkipUserBlob>
+<IsSkipUserCode>False</IsSkipUserCode>
+<EmulationProgram></EmulationProgram>
+<Save_Point>0</Save_Point>
+<SavePointComponent></SavePointComponent>
+<SaveDataProgram></SaveDataProgram>
+<RestoreDataProgram></RestoreDataProgram>
+<Command_line></Command_line>
+<method_name></method_name>
+<return_XML_data>0</return_XML_data>
+<interface>0</interface>
+<IsSkipUserXML>False</IsSkipUserXML>
+<xsdpath></xsdpath>
+<errorhandling>0</errorhandling>
+<LoggingScope>0</LoggingScope>
+<StepLogging>0</StepLogging>
+<LogStringMsgDev>0</LogStringMsgDev>
+<DotNetServiceArgs></DotNetServiceArgs>
+<LogBLOBDev>0</LogBLOBDev>
+<LogBLOBDeploy></LogBLOBDeploy>
+<LogBLOBFileExt></LogBLOBFileExt>
+<AppServerID>0</AppServerID>
+<SPInfoExists>False</SPInfoExists>
+<DBTransactionLevel>M</DBTransactionLevel>
+<Use_Resource>False</Use_Resource>
+<Resource_Name></Resource_Name>
+<Resource_ExpID>0</Resource_ExpID>
+<Load_Server_services>False</Load_Server_services>
+<Ddam_Configuration_Data></Ddam_Configuration_Data>
+<Ddam_XmlXsd></Ddam_XmlXsd>
+<Deployment_Module_Name></Deployment_Module_Name>
+<DBTransactionString></DBTransactionString>
+<MapperConversionFail>false</MapperConversionFail>
+</IFCInstanceComp>
+<IFCInstanceComp>
+<topology_id>2</topology_id>
+<flow_id>18</flow_id>
+<ifc_icon>Save_Message.gif</ifc_icon>
+<step>6</step>
+<ext_internal_use>0</ext_internal_use>
+<IFCDefinitionID>6</IFCDefinitionID>
+<Description></Description>
+<NodeID>1</NodeID>
+<InvocationComponent></InvocationComponent>
+<InvocationProgram></InvocationProgram>
+<Synchronize>1</Synchronize>
+<Transactional>0</Transactional>
+<CommitProgram></CommitProgram>
+<RollbackProgram></RollbackProgram>
+<WaitForCompletion>0</WaitForCompletion>
+<TimeOut>0</TimeOut>
+<CheckLogic>0</CheckLogic>
+<ActivationString></ActivationString>
+<ActivationBlob></ActivationBlob>
+<RecoveryPolicy></RecoveryPolicy>
+<Istrigger>0</Istrigger>
+<Name>Warning</Name>
+<XXXInvokeFlow_NOT_IN_USE>0</XXXInvokeFlow_NOT_IN_USE>
+<XXXInvokeFlowID_NOT_IN_USE>0</XXXInvokeFlowID_NOT_IN_USE>
+<XXXInvokeStepNo_NOT_IN_USE>0</XXXInvokeStepNo_NOT_IN_USE>
+<Service_Type_New4Services>6</Service_Type_New4Services>
+<IsSkipUserString>False</IsSkipUserString>
+<IsSkipUserBlob>False</IsSkipUserBlob>
+<IsSkipUserCode>False</IsSkipUserCode>
+<EmulationProgram></EmulationProgram>
+<Save_Point>0</Save_Point>
+<SavePointComponent></SavePointComponent>
+<SaveDataProgram></SaveDataProgram>
+<RestoreDataProgram></RestoreDataProgram>
+<Command_line></Command_line>
+<method_name></method_name>
+<return_XML_data>0</return_XML_data>
+<interface>0</interface>
+<IsSkipUserXML>False</IsSkipUserXML>
+<xsdpath></xsdpath>
+<errorhandling>0</errorhandling>
+<LoggingScope>0</LoggingScope>
+<StepLogging>0</StepLogging>
+<LogStringMsgDev>0</LogStringMsgDev>
+<DotNetServiceArgs></DotNetServiceArgs>
+<LogBLOBDev>0</LogBLOBDev>
+<LogBLOBDeploy></LogBLOBDeploy>
+<LogBLOBFileExt></LogBLOBFileExt>
+<AppServerID>0</AppServerID>
+<SPInfoExists>False</SPInfoExists>
+<DBTransactionLevel></DBTransactionLevel>
+<Use_Resource>False</Use_Resource>
+<Resource_Name></Resource_Name>
+<Resource_ExpID>0</Resource_ExpID>
+<Load_Server_services>False</Load_Server_services>
+<Ddam_Configuration_Data></Ddam_Configuration_Data>
+<Ddam_XmlXsd></Ddam_XmlXsd>
+<Deployment_Module_Name></Deployment_Module_Name>
+<DBTransactionString></DBTransactionString>
+<MapperConversionFail>false</MapperConversionFail>
+</IFCInstanceComp>
+<IFCInstanceComp>
+<topology_id>2</topology_id>
+<flow_id>18</flow_id>
+<ifc_icon>Save_Message.gif</ifc_icon>
+<step>8</step>
+<ext_internal_use>0</ext_internal_use>
+<IFCDefinitionID>6</IFCDefinitionID>
+<Description></Description>
+<NodeID>1</NodeID>
+<InvocationComponent></InvocationComponent>
+<InvocationProgram></InvocationProgram>
+<Synchronize>1</Synchronize>
+<Transactional>0</Transactional>
+<CommitProgram></CommitProgram>
+<RollbackProgram></RollbackProgram>
+<WaitForCompletion>0</WaitForCompletion>
+<TimeOut>0</TimeOut>
+<CheckLogic>0</CheckLogic>
+<ActivationString></ActivationString>
+<ActivationBlob></ActivationBlob>
+<RecoveryPolicy></RecoveryPolicy>
+<Istrigger>0</Istrigger>
+<Name>Sku Exists</Name>
+<XXXInvokeFlow_NOT_IN_USE>0</XXXInvokeFlow_NOT_IN_USE>
+<XXXInvokeFlowID_NOT_IN_USE>0</XXXInvokeFlowID_NOT_IN_USE>
+<XXXInvokeStepNo_NOT_IN_USE>0</XXXInvokeStepNo_NOT_IN_USE>
+<Service_Type_New4Services>6</Service_Type_New4Services>
+<IsSkipUserString>False</IsSkipUserString>
+<IsSkipUserBlob>False</IsSkipUserBlob>
+<IsSkipUserCode>False</IsSkipUserCode>
+<EmulationProgram></EmulationProgram>
+<Save_Point>0</Save_Point>
+<SavePointComponent></SavePointComponent>
+<SaveDataProgram></SaveDataProgram>
+<RestoreDataProgram></RestoreDataProgram>
+<Command_line></Command_line>
+<method_name></method_name>
+<return_XML_data>0</return_XML_data>
+<interface>0</interface>
+<IsSkipUserXML>False</IsSkipUserXML>
+<xsdpath></xsdpath>
+<errorhandling>0</errorhandling>
+<LoggingScope>0</LoggingScope>
+<StepLogging>0</StepLogging>
+<LogStringMsgDev>0</LogStringMsgDev>
+<DotNetServiceArgs></DotNetServiceArgs>
+<LogBLOBDev>0</LogBLOBDev>
+<LogBLOBDeploy></LogBLOBDeploy>
+<LogBLOBFileExt></LogBLOBFileExt>
+<AppServerID>0</AppServerID>
+<SPInfoExists>False</SPInfoExists>
+<DBTransactionLevel></DBTransactionLevel>
+<Use_Resource>False</Use_Resource>
+<Resource_Name></Resource_Name>
+<Resource_ExpID>0</Resource_ExpID>
+<Load_Server_services>False</Load_Server_services>
+<Ddam_Configuration_Data></Ddam_Configuration_Data>
+<Ddam_XmlXsd></Ddam_XmlXsd>
+<Deployment_Module_Name></Deployment_Module_Name>
+<DBTransactionString></DBTransactionString>
+<MapperConversionFail>false</MapperConversionFail>
+</IFCInstanceComp>
+<IFCInstanceComp>
+<topology_id>2</topology_id>
+<flow_id>18</flow_id>
+<ifc_icon>jdeifc.gif</ifc_icon>
+<step>9</step>
+<ext_internal_use>0</ext_internal_use>
+<IFCDefinitionID>145</IFCDefinitionID>
+<Description></Description>
+<NodeID>1</NodeID>
+<InvocationComponent>%ifclib%jdedwards\jdedwardsifc.ecf</InvocationComponent>
+<InvocationProgram></InvocationProgram>
+<Synchronize>1</Synchronize>
+<Transactional>0</Transactional>
+<CommitProgram></CommitProgram>
+<RollbackProgram></RollbackProgram>
+<WaitForCompletion>0</WaitForCompletion>
+<TimeOut>0</TimeOut>
+<CheckLogic>0</CheckLogic>
+<ActivationString></ActivationString>
+<ActivationBlob></ActivationBlob>
+<RecoveryPolicy>A</RecoveryPolicy>
+<Istrigger>0</Istrigger>
+<Name>GetJDEAvailability</Name>
+<XXXInvokeFlow_NOT_IN_USE>0</XXXInvokeFlow_NOT_IN_USE>
+<XXXInvokeFlowID_NOT_IN_USE>0</XXXInvokeFlowID_NOT_IN_USE>
+<XXXInvokeStepNo_NOT_IN_USE>0</XXXInvokeStepNo_NOT_IN_USE>
+<Service_Type_New4Services>0</Service_Type_New4Services>
+<IsSkipUserString>False</IsSkipUserString>
+<IsSkipUserBlob>False</IsSkipUserBlob>
+<IsSkipUserCode>False</IsSkipUserCode>
+<EmulationProgram></EmulationProgram>
+<Save_Point>0</Save_Point>
+<SavePointComponent></SavePointComponent>
+<SaveDataProgram></SaveDataProgram>
+<RestoreDataProgram></RestoreDataProgram>
+<Command_line></Command_line>
+<method_name></method_name>
+<return_XML_data>0</return_XML_data>
+<interface>1</interface>
+<IsSkipUserXML>False</IsSkipUserXML>
+<xsdpath>jdedwards\XSD\eppdent005_EPPD\B4101220.CalculateAvailability.xsd</xsdpath>
+<errorhandling>0</errorhandling>
+<LoggingScope>1</LoggingScope>
+<StepLogging>2</StepLogging>
+<LogStringMsgDev>17</LogStringMsgDev>
+<DotNetServiceArgs></DotNetServiceArgs>
+<LogBLOBDev>18</LogBLOBDev>
+<LogBLOBDeploy></LogBLOBDeploy>
+<LogBLOBFileExt>xml</LogBLOBFileExt>
+<AppServerID>0</AppServerID>
+<SPInfoExists>False</SPInfoExists>
+<DBTransactionLevel></DBTransactionLevel>
+<Use_Resource>False</Use_Resource>
+<Resource_Name>JD Edwards EnterpriseOne_1</Resource_Name>
+<Resource_ExpID>0</Resource_ExpID>
+<Load_Server_services>False</Load_Server_services>
+<Ddam_Configuration_Data>PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIiA/Pg0KPEpERVN0ZXA+DQoNCiAgPENvbmZpZ3VyYXRpb24+DQogICAgPElGQ05hbWU+PC9JRkNOYW1lPg0KICAgIDxJbnRlcmZhY2U+QjwvSW50ZXJmYWNlPg0KICAgIDxNb2R1bGU+QjQxMDEyMjA8L01vZHVsZT4NCiAgICA8QlNGTj5DYWxjdWxhdGVBdmFpbGFiaWxpdHk8L0JTRk4+DQogICAgPERpc2Nvbm5lY3Q+MDwvRGlzY29ubmVjdD4NCiAgICA8UmVzdWx0VGFyZ2V0X0NvbWJvPjI8L1Jlc3VsdFRhcmdldF9Db21ibz4NCiAgICA8UmVzdWx0VGFyZ2V0X0V4cD4xPC9SZXN1bHRUYXJnZXRfRXhwPg0KICA8L0NvbmZpZ3VyYXRpb24+DQoNCjwvSkRFU3RlcD4NCg==</Ddam_Configuration_Data>
+<Ddam_XmlXsd>jdedwards\XSD\eppdent005_EPPD\B4101220.CalculateAvailability.xsd</Ddam_XmlXsd>
+<Deployment_Module_Name></Deployment_Module_Name>
+<DBTransactionString></DBTransactionString>
+<MapperConversionFail>false</MapperConversionFail>
+</IFCInstanceComp>
+<IFCInstanceComp>
+<topology_id>2</topology_id>
+<flow_id>18</flow_id>
+<ifc_icon>Data_Mapper.gif</ifc_icon>
+<step>10</step>
+<ext_internal_use>0</ext_internal_use>
+<IFCDefinitionID>11</IFCDefinitionID>
+<Description></Description>
+<NodeID>1</NodeID>
+<InvocationComponent></InvocationComponent>
+<InvocationProgram></InvocationProgram>
+<Synchronize>1</Synchronize>
+<Transactional>0</Transactional>
+<CommitProgram></CommitProgram>
+<RollbackProgram></RollbackProgram>
+<WaitForCompletion>0</WaitForCompletion>
+<TimeOut>0</TimeOut>
+<CheckLogic>0</CheckLogic>
+<ActivationString>generate</ActivationString>
+<ActivationBlob></ActivationBlob>
+<RecoveryPolicy></RecoveryPolicy>
+<Istrigger>0</Istrigger>
+<Name>Map Calculate Availability</Name>
+<XXXInvokeFlow_NOT_IN_USE>0</XXXInvokeFlow_NOT_IN_USE>
+<XXXInvokeFlowID_NOT_IN_USE>0</XXXInvokeFlowID_NOT_IN_USE>
+<XXXInvokeStepNo_NOT_IN_USE>0</XXXInvokeStepNo_NOT_IN_USE>
+<Service_Type_New4Services>11</Service_Type_New4Services>
+<IsSkipUserString>False</IsSkipUserString>
+<IsSkipUserBlob>False</IsSkipUserBlob>
+<IsSkipUserCode>False</IsSkipUserCode>
+<EmulationProgram></EmulationProgram>
+<Save_Point>0</Save_Point>
+<SavePointComponent></SavePointComponent>
+<SaveDataProgram></SaveDataProgram>
+<RestoreDataProgram></RestoreDataProgram>
+<Command_line></Command_line>
+<method_name></method_name>
+<return_XML_data>0</return_XML_data>
+<interface>0</interface>
+<IsSkipUserXML>False</IsSkipUserXML>
+<xsdpath></xsdpath>
+<errorhandling>0</errorhandling>
+<LoggingScope>0</LoggingScope>
+<StepLogging>0</StepLogging>
+<LogStringMsgDev>0</LogStringMsgDev>
+<DotNetServiceArgs></DotNetServiceArgs>
+<LogBLOBDev>0</LogBLOBDev>
+<LogBLOBDeploy></LogBLOBDeploy>
+<LogBLOBFileExt></LogBLOBFileExt>
+<AppServerID>0</AppServerID>
+<SPInfoExists>False</SPInfoExists>
+<DBTransactionLevel>M</DBTransactionLevel>
+<Use_Resource>False</Use_Resource>
+<Resource_Name></Resource_Name>
+<Resource_ExpID>0</Resource_ExpID>
+<Load_Server_services>False</Load_Server_services>
+<Ddam_Configuration_Data></Ddam_Configuration_Data>
+<Ddam_XmlXsd></Ddam_XmlXsd>
+<Deployment_Module_Name></Deployment_Module_Name>
+<DBTransactionString></DBTransactionString>
+<MapperConversionFail>false</MapperConversionFail>
+</IFCInstanceComp>
+<IFCInstanceComp>
+<topology_id>2</topology_id>
+<flow_id>18</flow_id>
+<ifc_icon>Save_Message.gif</ifc_icon>
+<step>15</step>
+<ext_internal_use>0</ext_internal_use>
+<IFCDefinitionID>6</IFCDefinitionID>
+<Description></Description>
+<NodeID>1</NodeID>
+<InvocationComponent></InvocationComponent>
+<InvocationProgram></InvocationProgram>
+<Synchronize>1</Synchronize>
+<Transactional>0</Transactional>
+<CommitProgram></CommitProgram>
+<RollbackProgram></RollbackProgram>
+<WaitForCompletion>0</WaitForCompletion>
+<TimeOut>0</TimeOut>
+<CheckLogic>0</CheckLogic>
+<ActivationString></ActivationString>
+<ActivationBlob></ActivationBlob>
+<RecoveryPolicy></RecoveryPolicy>
+<Istrigger>0</Istrigger>
+<Name>Error</Name>
+<XXXInvokeFlow_NOT_IN_USE>0</XXXInvokeFlow_NOT_IN_USE>
+<XXXInvokeFlowID_NOT_IN_USE>0</XXXInvokeFlowID_NOT_IN_USE>
+<XXXInvokeStepNo_NOT_IN_USE>0</XXXInvokeStepNo_NOT_IN_USE>
+<Service_Type_New4Services>6</Service_Type_New4Services>
+<IsSkipUserString>False</IsSkipUserString>
+<IsSkipUserBlob>False</IsSkipUserBlob>
+<IsSkipUserCode>False</IsSkipUserCode>
+<EmulationProgram></EmulationProgram>
+<Save_Point>0</Save_Point>
+<SavePointComponent></SavePointComponent>
+<SaveDataProgram></SaveDataProgram>
+<RestoreDataProgram></RestoreDataProgram>
+<Command_line></Command_line>
+<method_name></method_name>
+<return_XML_data>0</return_XML_data>
+<interface>0</interface>
+<IsSkipUserXML>False</IsSkipUserXML>
+<xsdpath></xsdpath>
+<errorhandling>0</errorhandling>
+<LoggingScope>0</LoggingScope>
+<StepLogging>0</StepLogging>
+<LogStringMsgDev>0</LogStringMsgDev>
+<DotNetServiceArgs></DotNetServiceArgs>
+<LogBLOBDev>0</LogBLOBDev>
+<LogBLOBDeploy></LogBLOBDeploy>
+<LogBLOBFileExt></LogBLOBFileExt>
+<AppServerID>0</AppServerID>
+<SPInfoExists>False</SPInfoExists>
+<DBTransactionLevel></DBTransactionLevel>
+<Use_Resource>False</Use_Resource>
+<Resource_Name></Resource_Name>
+<Resource_ExpID>0</Resource_ExpID>
+<Load_Server_services>False</Load_Server_services>
+<Ddam_Configuration_Data></Ddam_Configuration_Data>
+<Ddam_XmlXsd></Ddam_XmlXsd>
+<Deployment_Module_Name></Deployment_Module_Name>
+<DBTransactionString></DBTransactionString>
+<MapperConversionFail>false</MapperConversionFail>
+</IFCInstanceComp>
+<IFCInstanceComp>
+<topology_id>2</topology_id>
+<flow_id>18</flow_id>
+<ifc_icon>Flow_Data.gif</ifc_icon>
+<step>18</step>
+<ext_internal_use>0</ext_internal_use>
+<IFCDefinitionID>12</IFCDefinitionID>
+<Description>Add Sku Error Description</Description>
+<NodeID>1</NodeID>
+<InvocationComponent></InvocationComponent>
+<InvocationProgram></InvocationProgram>
+<Synchronize>1</Synchronize>
+<Transactional>0</Transactional>
+<CommitProgram></CommitProgram>
+<RollbackProgram></RollbackProgram>
+<WaitForCompletion>0</WaitForCompletion>
+<TimeOut>0</TimeOut>
+<CheckLogic>0</CheckLogic>
+<ActivationString></ActivationString>
+<ActivationBlob></ActivationBlob>
+<RecoveryPolicy></RecoveryPolicy>
+<Istrigger>0</Istrigger>
+<Name>Return ErrorString</Name>
+<XXXInvokeFlow_NOT_IN_USE>0</XXXInvokeFlow_NOT_IN_USE>
+<XXXInvokeFlowID_NOT_IN_USE>0</XXXInvokeFlowID_NOT_IN_USE>
+<XXXInvokeStepNo_NOT_IN_USE>0</XXXInvokeStepNo_NOT_IN_USE>
+<Service_Type_New4Services>12</Service_Type_New4Services>
+<IsSkipUserString>False</IsSkipUserString>
+<IsSkipUserBlob>False</IsSkipUserBlob>
+<IsSkipUserCode>False</IsSkipUserCode>
+<EmulationProgram></EmulationProgram>
+<Save_Point>0</Save_Point>
+<SavePointComponent></SavePointComponent>
+<SaveDataProgram></SaveDataProgram>
+<RestoreDataProgram></RestoreDataProgram>
+<Command_line></Command_line>
+<method_name></method_name>
+<return_XML_data>0</return_XML_data>
+<interface>0</interface>
+<IsSkipUserXML>False</IsSkipUserXML>
+<xsdpath></xsdpath>
+<errorhandling>0</errorhandling>
+<LoggingScope>0</LoggingScope>
+<StepLogging>0</StepLogging>
+<LogStringMsgDev>0</LogStringMsgDev>
+<DotNetServiceArgs></DotNetServiceArgs>
+<LogBLOBDev>0</LogBLOBDev>
+<LogBLOBDeploy></LogBLOBDeploy>
+<LogBLOBFileExt></LogBLOBFileExt>
+<AppServerID>0</AppServerID>
+<SPInfoExists>False</SPInfoExists>
+<DBTransactionLevel></DBTransactionLevel>
+<Use_Resource>False</Use_Resource>
+<Resource_Name></Resource_Name>
+<Resource_ExpID>0</Resource_ExpID>
+<Load_Server_services>False</Load_Server_services>
+<Ddam_Configuration_Data></Ddam_Configuration_Data>
+<Ddam_XmlXsd></Ddam_XmlXsd>
+<Deployment_Module_Name></Deployment_Module_Name>
+<DBTransactionString></DBTransactionString>
+<MapperConversionFail>false</MapperConversionFail>
+</IFCInstanceComp>
+<IFCInstanceComp>
+<topology_id>2</topology_id>
+<flow_id>18</flow_id>
+<ifc_icon>Flow_Data.gif</ifc_icon>
+<step>19</step>
+<ext_internal_use>0</ext_internal_use>
+<IFCDefinitionID>12</IFCDefinitionID>
+<Description>Add Sku Error Description</Description>
+<NodeID>1</NodeID>
+<InvocationComponent></InvocationComponent>
+<InvocationProgram></InvocationProgram>
+<Synchronize>1</Synchronize>
+<Transactional>0</Transactional>
+<CommitProgram></CommitProgram>
+<RollbackProgram></RollbackProgram>
+<WaitForCompletion>0</WaitForCompletion>
+<TimeOut>0</TimeOut>
+<CheckLogic>0</CheckLogic>
+<ActivationString></ActivationString>
+<ActivationBlob></ActivationBlob>
+<RecoveryPolicy></RecoveryPolicy>
+<Istrigger>0</Istrigger>
+<Name>Return WarningString</Name>
+<XXXInvokeFlow_NOT_IN_USE>0</XXXInvokeFlow_NOT_IN_USE>
+<XXXInvokeFlowID_NOT_IN_USE>0</XXXInvokeFlowID_NOT_IN_USE>
+<XXXInvokeStepNo_NOT_IN_USE>0</XXXInvokeStepNo_NOT_IN_USE>
+<Service_Type_New4Services>12</Service_Type_New4Services>
+<IsSkipUserString>False</IsSkipUserString>
+<IsSkipUserBlob>False</IsSkipUserBlob>
+<IsSkipUserCode>False</IsSkipUserCode>
+<EmulationProgram></EmulationProgram>
+<Save_Point>0</Save_Point>
+<SavePointComponent></SavePointComponent>
+<SaveDataProgram></SaveDataProgram>
+<RestoreDataProgram></RestoreDataProgram>
+<Command_line></Command_line>
+<method_name></method_name>
+<return_XML_data>0</return_XML_data>
+<interface>0</interface>
+<IsSkipUserXML>False</IsSkipUserXML>
+<xsdpath></xsdpath>
+<errorhandling>0</errorhandling>
+<LoggingScope>0</LoggingScope>
+<StepLogging>0</StepLogging>
+<LogStringMsgDev>0</LogStringMsgDev>
+<DotNetServiceArgs></DotNetServiceArgs>
+<LogBLOBDev>0</LogBLOBDev>
+<LogBLOBDeploy></LogBLOBDeploy>
+<LogBLOBFileExt></LogBLOBFileExt>
+<AppServerID>0</AppServerID>
+<SPInfoExists>False</SPInfoExists>
+<DBTransactionLevel></DBTransactionLevel>
+<Use_Resource>False</Use_Resource>
+<Resource_Name></Resource_Name>
+<Resource_ExpID>0</Resource_ExpID>
+<Load_Server_services>False</Load_Server_services>
+<Ddam_Configuration_Data></Ddam_Configuration_Data>
+<Ddam_XmlXsd></Ddam_XmlXsd>
+<Deployment_Module_Name></Deployment_Module_Name>
+<DBTransactionString></DBTransactionString>
+<MapperConversionFail>false</MapperConversionFail>
+</IFCInstanceComp>
+<IFCInstanceComp>
+<topology_id>2</topology_id>
+<flow_id>18</flow_id>
+<ifc_icon>Save_Message.gif</ifc_icon>
+<step>22</step>
+<ext_internal_use>0</ext_internal_use>
+<IFCDefinitionID>6</IFCDefinitionID>
+<Description>We have learned that in JDE v8, there are no warning conditions as this step. Leaving here as documentation.</Description>
+<NodeID>1</NodeID>
+<InvocationComponent></InvocationComponent>
+<InvocationProgram></InvocationProgram>
+<Synchronize>1</Synchronize>
+<Transactional>0</Transactional>
+<CommitProgram></CommitProgram>
+<RollbackProgram></RollbackProgram>
+<WaitForCompletion>0</WaitForCompletion>
+<TimeOut>0</TimeOut>
+<CheckLogic>0</CheckLogic>
+<ActivationString></ActivationString>
+<ActivationBlob></ActivationBlob>
+<RecoveryPolicy></RecoveryPolicy>
+<Istrigger>0</Istrigger>
+<Name>Warning</Name>
+<XXXInvokeFlow_NOT_IN_USE>0</XXXInvokeFlow_NOT_IN_USE>
+<XXXInvokeFlowID_NOT_IN_USE>0</XXXInvokeFlowID_NOT_IN_USE>
+<XXXInvokeStepNo_NOT_IN_USE>0</XXXInvokeStepNo_NOT_IN_USE>
+<Service_Type_New4Services>6</Service_Type_New4Services>
+<IsSkipUserString>False</IsSkipUserString>
+<IsSkipUserBlob>False</IsSkipUserBlob>
+<IsSkipUserCode>False</IsSkipUserCode>
+<EmulationProgram></EmulationProgram>
+<Save_Point>0</Save_Point>
+<SavePointComponent></SavePointComponent>
+<SaveDataProgram></SaveDataProgram>
+<RestoreDataProgram></RestoreDataProgram>
+<Command_line></Command_line>
+<method_name></method_name>
+<return_XML_data>0</return_XML_data>
+<interface>0</interface>
+<IsSkipUserXML>False</IsSkipUserXML>
+<xsdpath></xsdpath>
+<errorhandling>0</errorhandling>
+<LoggingScope>0</LoggingScope>
+<StepLogging>0</StepLogging>
+<LogStringMsgDev>0</LogStringMsgDev>
+<DotNetServiceArgs></DotNetServiceArgs>
+<LogBLOBDev>0</LogBLOBDev>
+<LogBLOBDeploy></LogBLOBDeploy>
+<LogBLOBFileExt></LogBLOBFileExt>
+<AppServerID>0</AppServerID>
+<SPInfoExists>False</SPInfoExists>
+<DBTransactionLevel></DBTransactionLevel>
+<Use_Resource>False</Use_Resource>
+<Resource_Name></Resource_Name>
+<Resource_ExpID>0</Resource_ExpID>
+<Load_Server_services>False</Load_Server_services>
+<Ddam_Configuration_Data></Ddam_Configuration_Data>
+<Ddam_XmlXsd></Ddam_XmlXsd>
+<Deployment_Module_Name></Deployment_Module_Name>
+<DBTransactionString></DBTransactionString>
+<MapperConversionFail>false</MapperConversionFail>
+</IFCInstanceComp>
+<IFCInstanceComp>
+<topology_id>2</topology_id>
+<flow_id>18</flow_id>
+<ifc_icon>Flow_Data.gif</ifc_icon>
+<step>23</step>
+<ext_internal_use>0</ext_internal_use>
+<IFCDefinitionID>12</IFCDefinitionID>
+<Description>Add Sku Error Description</Description>
+<NodeID>1</NodeID>
+<InvocationComponent></InvocationComponent>
+<InvocationProgram></InvocationProgram>
+<Synchronize>1</Synchronize>
+<Transactional>0</Transactional>
+<CommitProgram></CommitProgram>
+<RollbackProgram></RollbackProgram>
+<WaitForCompletion>0</WaitForCompletion>
+<TimeOut>0</TimeOut>
+<CheckLogic>0</CheckLogic>
+<ActivationString></ActivationString>
+<ActivationBlob></ActivationBlob>
+<RecoveryPolicy></RecoveryPolicy>
+<Istrigger>0</Istrigger>
+<Name>Return WarningString</Name>
+<XXXInvokeFlow_NOT_IN_USE>0</XXXInvokeFlow_NOT_IN_USE>
+<XXXInvokeFlowID_NOT_IN_USE>0</XXXInvokeFlowID_NOT_IN_USE>
+<XXXInvokeStepNo_NOT_IN_USE>0</XXXInvokeStepNo_NOT_IN_USE>
+<Service_Type_New4Services>12</Service_Type_New4Services>
+<IsSkipUserString>False</IsSkipUserString>
+<IsSkipUserBlob>False</IsSkipUserBlob>
+<IsSkipUserCode>False</IsSkipUserCode>
+<EmulationProgram></EmulationProgram>
+<Save_Point>0</Save_Point>
+<SavePointComponent></SavePointComponent>
+<SaveDataProgram></SaveDataProgram>
+<RestoreDataProgram></RestoreDataProgram>
+<Command_line></Command_line>
+<method_name></method_name>
+<return_XML_data>0</return_XML_data>
+<interface>0</interface>
+<IsSkipUserXML>False</IsSkipUserXML>
+<xsdpath></xsdpath>
+<errorhandling>0</errorhandling>
+<LoggingScope>0</LoggingScope>
+<StepLogging>0</StepLogging>
+<LogStringMsgDev>0</LogStringMsgDev>
+<DotNetServiceArgs></DotNetServiceArgs>
+<LogBLOBDev>0</LogBLOBDev>
+<LogBLOBDeploy></LogBLOBDeploy>
+<LogBLOBFileExt></LogBLOBFileExt>
+<AppServerID>0</AppServerID>
+<SPInfoExists>False</SPInfoExists>
+<DBTransactionLevel></DBTransactionLevel>
+<Use_Resource>False</Use_Resource>
+<Resource_Name></Resource_Name>
+<Resource_ExpID>0</Resource_ExpID>
+<Load_Server_services>False</Load_Server_services>
+<Ddam_Configuration_Data></Ddam_Configuration_Data>
+<Ddam_XmlXsd></Ddam_XmlXsd>
+<Deployment_Module_Name></Deployment_Module_Name>
+<DBTransactionString></DBTransactionString>
+<MapperConversionFail>false</MapperConversionFail>
+</IFCInstanceComp>
+<IFCInstanceComp>
+<topology_id>2</topology_id>
+<flow_id>18</flow_id>
+<ifc_icon>Save_Message.gif</ifc_icon>
+<step>24</step>
+<ext_internal_use>0</ext_internal_use>
+<IFCDefinitionID>6</IFCDefinitionID>
+<Description></Description>
+<NodeID>1</NodeID>
+<InvocationComponent></InvocationComponent>
+<InvocationProgram></InvocationProgram>
+<Synchronize>1</Synchronize>
+<Transactional>0</Transactional>
+<CommitProgram></CommitProgram>
+<RollbackProgram></RollbackProgram>
+<WaitForCompletion>0</WaitForCompletion>
+<TimeOut>0</TimeOut>
+<CheckLogic>0</CheckLogic>
+<ActivationString></ActivationString>
+<ActivationBlob></ActivationBlob>
+<RecoveryPolicy></RecoveryPolicy>
+<Istrigger>0</Istrigger>
+<Name>Sku Exists</Name>
+<XXXInvokeFlow_NOT_IN_USE>0</XXXInvokeFlow_NOT_IN_USE>
+<XXXInvokeFlowID_NOT_IN_USE>0</XXXInvokeFlowID_NOT_IN_USE>
+<XXXInvokeStepNo_NOT_IN_USE>0</XXXInvokeStepNo_NOT_IN_USE>
+<Service_Type_New4Services>6</Service_Type_New4Services>
+<IsSkipUserString>False</IsSkipUserString>
+<IsSkipUserBlob>False</IsSkipUserBlob>
+<IsSkipUserCode>False</IsSkipUserCode>
+<EmulationProgram></EmulationProgram>
+<Save_Point>0</Save_Point>
+<SavePointComponent></SavePointComponent>
+<SaveDataProgram></SaveDataProgram>
+<RestoreDataProgram></RestoreDataProgram>
+<Command_line></Command_line>
+<method_name></method_name>
+<return_XML_data>0</return_XML_data>
+<interface>0</interface>
+<IsSkipUserXML>False</IsSkipUserXML>
+<xsdpath></xsdpath>
+<errorhandling>0</errorhandling>
+<LoggingScope>0</LoggingScope>
+<StepLogging>0</StepLogging>
+<LogStringMsgDev>0</LogStringMsgDev>
+<DotNetServiceArgs></DotNetServiceArgs>
+<LogBLOBDev>0</LogBLOBDev>
+<LogBLOBDeploy></LogBLOBDeploy>
+<LogBLOBFileExt></LogBLOBFileExt>
+<AppServerID>0</AppServerID>
+<SPInfoExists>False</SPInfoExists>
+<DBTransactionLevel></DBTransactionLevel>
+<Use_Resource>False</Use_Resource>
+<Resource_Name></Resource_Name>
+<Resource_ExpID>0</Resource_ExpID>
+<Load_Server_services>False</Load_Server_services>
+<Ddam_Configuration_Data></Ddam_Configuration_Data>
+<Ddam_XmlXsd></Ddam_XmlXsd>
+<Deployment_Module_Name></Deployment_Module_Name>
+<DBTransactionString></DBTransactionString>
+<MapperConversionFail>false</MapperConversionFail>
+</IFCInstanceComp>
+<IFCInstanceComp>
+<topology_id>2</topology_id>
+<flow_id>18</flow_id>
+<ifc_icon>Save_Message.gif</ifc_icon>
+<step>25</step>
+<ext_internal_use>0</ext_internal_use>
+<IFCDefinitionID>6</IFCDefinitionID>
+<Description></Description>
+<NodeID>1</NodeID>
+<InvocationComponent></InvocationComponent>
+<InvocationProgram></InvocationProgram>
+<Synchronize>1</Synchronize>
+<Transactional>0</Transactional>
+<CommitProgram></CommitProgram>
+<RollbackProgram></RollbackProgram>
+<WaitForCompletion>0</WaitForCompletion>
+<TimeOut>0</TimeOut>
+<CheckLogic>0</CheckLogic>
+<ActivationString></ActivationString>
+<ActivationBlob></ActivationBlob>
+<RecoveryPolicy></RecoveryPolicy>
+<Istrigger>0</Istrigger>
+<Name>Error</Name>
+<XXXInvokeFlow_NOT_IN_USE>0</XXXInvokeFlow_NOT_IN_USE>
+<XXXInvokeFlowID_NOT_IN_USE>0</XXXInvokeFlowID_NOT_IN_USE>
+<XXXInvokeStepNo_NOT_IN_USE>0</XXXInvokeStepNo_NOT_IN_USE>
+<Service_Type_New4Services>6</Service_Type_New4Services>
+<IsSkipUserString>False</IsSkipUserString>
+<IsSkipUserBlob>False</IsSkipUserBlob>
+<IsSkipUserCode>False</IsSkipUserCode>
+<EmulationProgram></EmulationProgram>
+<Save_Point>0</Save_Point>
+<SavePointComponent></SavePointComponent>
+<SaveDataProgram></SaveDataProgram>
+<RestoreDataProgram></RestoreDataProgram>
+<Command_line></Command_line>
+<method_name></method_name>
+<return_XML_data>0</return_XML_data>
+<interface>0</interface>
+<IsSkipUserXML>False</IsSkipUserXML>
+<xsdpath></xsdpath>
+<errorhandling>0</errorhandling>
+<LoggingScope>0</LoggingScope>
+<StepLogging>0</StepLogging>
+<LogStringMsgDev>0</LogStringMsgDev>
+<DotNetServiceArgs></DotNetServiceArgs>
+<LogBLOBDev>0</LogBLOBDev>
+<LogBLOBDeploy></LogBLOBDeploy>
+<LogBLOBFileExt></LogBLOBFileExt>
+<AppServerID>0</AppServerID>
+<SPInfoExists>False</SPInfoExists>
+<DBTransactionLevel></DBTransactionLevel>
+<Use_Resource>False</Use_Resource>
+<Resource_Name></Resource_Name>
+<Resource_ExpID>0</Resource_ExpID>
+<Load_Server_services>False</Load_Server_services>
+<Ddam_Configuration_Data></Ddam_Configuration_Data>
+<Ddam_XmlXsd></Ddam_XmlXsd>
+<Deployment_Module_Name></Deployment_Module_Name>
+<DBTransactionString></DBTransactionString>
+<MapperConversionFail>false</MapperConversionFail>
+</IFCInstanceComp>
+<IFCInstanceComp>
+<topology_id>2</topology_id>
+<flow_id>18</flow_id>
+<ifc_icon>Flow_Data.gif</ifc_icon>
+<step>26</step>
+<ext_internal_use>0</ext_internal_use>
+<IFCDefinitionID>12</IFCDefinitionID>
+<Description>Add Qty Error Description</Description>
+<NodeID>1</NodeID>
+<InvocationComponent></InvocationComponent>
+<InvocationProgram></InvocationProgram>
+<Synchronize>1</Synchronize>
+<Transactional>0</Transactional>
+<CommitProgram></CommitProgram>
+<RollbackProgram></RollbackProgram>
+<WaitForCompletion>0</WaitForCompletion>
+<TimeOut>0</TimeOut>
+<CheckLogic>0</CheckLogic>
+<ActivationString></ActivationString>
+<ActivationBlob></ActivationBlob>
+<RecoveryPolicy></RecoveryPolicy>
+<Istrigger>0</Istrigger>
+<Name>Return ErrorString</Name>
+<XXXInvokeFlow_NOT_IN_USE>0</XXXInvokeFlow_NOT_IN_USE>
+<XXXInvokeFlowID_NOT_IN_USE>0</XXXInvokeFlowID_NOT_IN_USE>
+<XXXInvokeStepNo_NOT_IN_USE>0</XXXInvokeStepNo_NOT_IN_USE>
+<Service_Type_New4Services>12</Service_Type_New4Services>
+<IsSkipUserString>False</IsSkipUserString>
+<IsSkipUserBlob>False</IsSkipUserBlob>
+<IsSkipUserCode>False</IsSkipUserCode>
+<EmulationProgram></EmulationProgram>
+<Save_Point>0</Save_Point>
+<SavePointComponent></SavePointComponent>
+<SaveDataProgram></SaveDataProgram>
+<RestoreDataProgram></RestoreDataProgram>
+<Command_line></Command_line>
+<method_name></method_name>
+<return_XML_data>0</return_XML_data>
+<interface>0</interface>
+<IsSkipUserXML>False</IsSkipUserXML>
+<xsdpath></xsdpath>
+<errorhandling>0</errorhandling>
+<LoggingScope>0</LoggingScope>
+<StepLogging>0</StepLogging>
+<LogStringMsgDev>0</LogStringMsgDev>
+<DotNetServiceArgs></DotNetServiceArgs>
+<LogBLOBDev>0</LogBLOBDev>
+<LogBLOBDeploy></LogBLOBDeploy>
+<LogBLOBFileExt></LogBLOBFileExt>
+<AppServerID>0</AppServerID>
+<SPInfoExists>False</SPInfoExists>
+<DBTransactionLevel></DBTransactionLevel>
+<Use_Resource>False</Use_Resource>
+<Resource_Name></Resource_Name>
+<Resource_ExpID>0</Resource_ExpID>
+<Load_Server_services>False</Load_Server_services>
+<Ddam_Configuration_Data></Ddam_Configuration_Data>
+<Ddam_XmlXsd></Ddam_XmlXsd>
+<Deployment_Module_Name></Deployment_Module_Name>
+<DBTransactionString></DBTransactionString>
+<MapperConversionFail>false</MapperConversionFail>
+</IFCInstanceComp>
+</Struct_IFCInstance>
+<Source_And_Destination_Object>
+<Struct_Schema_Details>
+<Schema_DetailsComp>
+<Schema_ID>3</Schema_ID>
+<Schema_Name>IFC_JD_Edwards</Schema_Name>
+<Test_file></Test_file>
+<Schema_Path>%currentprojectdir%jdedwards\XSD\JDEENT01_JPY920\X4101.GetItemMasterBy2ndItem.xsd</Schema_Path>
+<Modified_date>01/01/1901</Modified_date>
+<Modified_Time>00:00:00</Modified_Time>
+<XSD_Encoding_Internal>Unicode(UTF-16)</XSD_Encoding_Internal>
+<StartPositionPathDelmited></StartPositionPathDelmited>
+<Application_database></Application_database>
+<Read_Document_Program>False</Read_Document_Program>
+<Write_Document_Program>False</Write_Document_Program>
+<Component_Directory></Component_Directory>
+<Serial_number>3</Serial_number>
+<Expose_Models>False</Expose_Models>
+<DataType>4</DataType>
+<ValidCheck_xml_contextFarw_cf>0</ValidCheck_xml_contextFarw_cf>
+<SchemaCreationCode>1</SchemaCreationCode>
+<SchemaLeft>0</SchemaLeft>
+<SchemaHight>0</SchemaHight>
+<SchemaWidth>0</SchemaWidth>
+<SchemaType>2</SchemaType>
+<DB_sub_type>0</DB_sub_type>
+<IFC_DefinitionID>145</IFC_DefinitionID>
+<data_source_FlowId_CallFlow>2</data_source_FlowId_CallFlow>
+<file_blob_path>4</file_blob_path>
+<Direct_mapping>False</Direct_mapping>
+<TopologyId>2</TopologyId>
+<FlowId>18</FlowId>
+<StepNum>2</StepNum>
+<Delimited_Positional></Delimited_Positional>
+<Default_delimiter></Default_delimiter>
+<Record_delimiter></Record_delimiter>
+<Is_Record_in_Modify_Mode>False</Is_Record_in_Modify_Mode>
+<SchemaDisplayNumber>1</SchemaDisplayNumber>
+<Append_data_destination>0</Append_data_destination>
+<XSD_default_root>X4101.GetItemMasterBy2ndItem</XSD_default_root>
+<RecursionDepth>1</RecursionDepth>
+<isStartPositionActive_Alpha></isStartPositionActive_Alpha>
+<SchemaVersion>1</SchemaVersion>
+<ErrorFlowID>0</ErrorFlowID>
+<Schema_Description></Schema_Description>
+<UDSFlowVarDelimited></UDSFlowVarDelimited>
+<UDS_name_dev>0</UDS_name_dev>
+<UDS_name_depl></UDS_name_depl>
+<UDS_model>0</UDS_model>
+<UDS_sort>0</UDS_sort>
+<Clear_UDS>False</Clear_UDS>
+<ErrorBPID>0</ErrorBPID>
+<BPID_For_CallFlow>0</BPID_For_CallFlow>
+<DisplayFieldOrder>0</DisplayFieldOrder>
+<SchemaHasStartingPoint>False</SchemaHasStartingPoint>
+<DBDisconnect>False</DBDisconnect>
+<UnicodeSupport>0</UnicodeSupport>
+<CreateEmptyAlphaNodes>False</CreateEmptyAlphaNodes>
+<XMLInterfaceToFlatFile>false</XMLInterfaceToFlatFile>
+<CreateTitleForFlatFile>false</CreateTitleForFlatFile>
+<StructFlatFiles>
+</StructFlatFiles>
+<StructODSNodes>
+</StructODSNodes>
+<StructFlowVariablesNodes>
+</StructFlowVariablesNodes>
+<StructWizardTbl1>
+</StructWizardTbl1>
+<StructWizardTbl2>
+</StructWizardTbl2>
+<StructWizardTbl3>
+</StructWizardTbl3>
+<StructUpdateNodeDefinition>
+</StructUpdateNodeDefinition>
+<StructSchemaNameSpaceMap>
+</StructSchemaNameSpaceMap>
+<StructDB_Gen>
+</StructDB_Gen>
+<Struct_New_Default_values>
+</Struct_New_Default_values>
+<Struct_ElementReplications>
+</Struct_ElementReplications>
+</Schema_DetailsComp>
+<Schema_DetailsComp>
+<Schema_ID>3</Schema_ID>
+<Schema_Name>GetItemMasterBy2ndItemResult</Schema_Name>
+<Test_file></Test_file>
+<Schema_Path>jdedwards\XSD\eppdent005_EPPD\X4101.GetItemMasterBy2ndItem.xsd</Schema_Path>
+<Modified_date>01/01/1901</Modified_date>
+<Modified_Time>00:00:00</Modified_Time>
+<XSD_Encoding_Internal> Project Encoding</XSD_Encoding_Internal>
+<StartPositionPathDelmited></StartPositionPathDelmited>
+<Application_database>Default Database</Application_database>
+<Read_Document_Program>False</Read_Document_Program>
+<Write_Document_Program>False</Write_Document_Program>
+<Component_Directory></Component_Directory>
+<Serial_number>3</Serial_number>
+<Expose_Models>False</Expose_Models>
+<DataType>3</DataType>
+<ValidCheck_xml_contextFarw_cf>0</ValidCheck_xml_contextFarw_cf>
+<SchemaCreationCode>0</SchemaCreationCode>
+<SchemaLeft>0</SchemaLeft>
+<SchemaHight>0</SchemaHight>
+<SchemaWidth>0</SchemaWidth>
+<SchemaType>1</SchemaType>
+<DB_sub_type>0</DB_sub_type>
+<IFC_DefinitionID>0</IFC_DefinitionID>
+<data_source_FlowId_CallFlow>2</data_source_FlowId_CallFlow>
+<file_blob_path>83</file_blob_path>
+<Direct_mapping>False</Direct_mapping>
+<TopologyId>2</TopologyId>
+<FlowId>18</FlowId>
+<StepNum>4</StepNum>
+<Delimited_Positional></Delimited_Positional>
+<Default_delimiter></Default_delimiter>
+<Record_delimiter></Record_delimiter>
+<Is_Record_in_Modify_Mode>False</Is_Record_in_Modify_Mode>
+<SchemaDisplayNumber>1</SchemaDisplayNumber>
+<Append_data_destination>0</Append_data_destination>
+<XSD_default_root>X4101.GetItemMasterBy2ndItem</XSD_default_root>
+<RecursionDepth>1</RecursionDepth>
+<isStartPositionActive_Alpha></isStartPositionActive_Alpha>
+<SchemaVersion>1</SchemaVersion>
+<ErrorFlowID>0</ErrorFlowID>
+<Schema_Description></Schema_Description>
+<UDSFlowVarDelimited></UDSFlowVarDelimited>
+<UDS_name_dev>0</UDS_name_dev>
+<UDS_name_depl></UDS_name_depl>
+<UDS_model>0</UDS_model>
+<UDS_sort>0</UDS_sort>
+<Clear_UDS>False</Clear_UDS>
+<ErrorBPID>0</ErrorBPID>
+<BPID_For_CallFlow>0</BPID_For_CallFlow>
+<DisplayFieldOrder>0</DisplayFieldOrder>
+<SchemaHasStartingPoint>False</SchemaHasStartingPoint>
+<DBDisconnect>False</DBDisconnect>
+<UnicodeSupport>0</UnicodeSupport>
+<CreateEmptyAlphaNodes>False</CreateEmptyAlphaNodes>
+<XMLInterfaceToFlatFile>false</XMLInterfaceToFlatFile>
+<CreateTitleForFlatFile>false</CreateTitleForFlatFile>
+<StructFlatFiles>
+</StructFlatFiles>
+<StructODSNodes>
+</StructODSNodes>
+<StructFlowVariablesNodes>
+</StructFlowVariablesNodes>
+<StructWizardTbl1>
+</StructWizardTbl1>
+<StructWizardTbl2>
+</StructWizardTbl2>
+<StructWizardTbl3>
+</StructWizardTbl3>
+<StructUpdateNodeDefinition>
+</StructUpdateNodeDefinition>
+<StructSchemaNameSpaceMap>
+</StructSchemaNameSpaceMap>
+<StructDB_Gen>
+</StructDB_Gen>
+<Struct_New_Default_values>
+</Struct_New_Default_values>
+<Struct_ElementReplications>
+</Struct_ElementReplications>
+</Schema_DetailsComp>
+<Schema_DetailsComp>
+<Schema_ID>4</Schema_ID>
+<Schema_Name>MapFlatFile</Schema_Name>
+<Test_file></Test_file>
+<Schema_Path></Schema_Path>
+<Modified_date>01/01/1901</Modified_date>
+<Modified_Time>00:00:00</Modified_Time>
+<XSD_Encoding_Internal></XSD_Encoding_Internal>
+<StartPositionPathDelmited></StartPositionPathDelmited>
+<Application_database></Application_database>
+<Read_Document_Program>False</Read_Document_Program>
+<Write_Document_Program>False</Write_Document_Program>
+<Component_Directory></Component_Directory>
+<Serial_number>4</Serial_number>
+<Expose_Models>False</Expose_Models>
+<DataType>2</DataType>
+<ValidCheck_xml_contextFarw_cf>0</ValidCheck_xml_contextFarw_cf>
+<SchemaCreationCode>0</SchemaCreationCode>
+<SchemaLeft>0</SchemaLeft>
+<SchemaHight>0</SchemaHight>
+<SchemaWidth>0</SchemaWidth>
+<SchemaType>2</SchemaType>
+<DB_sub_type>2</DB_sub_type>
+<IFC_DefinitionID>0</IFC_DefinitionID>
+<data_source_FlowId_CallFlow>2</data_source_FlowId_CallFlow>
+<file_blob_path>84</file_blob_path>
+<Direct_mapping>False</Direct_mapping>
+<TopologyId>2</TopologyId>
+<FlowId>18</FlowId>
+<StepNum>4</StepNum>
+<Delimited_Positional>D</Delimited_Positional>
+<Default_delimiter>,</Default_delimiter>
+<Record_delimiter></Record_delimiter>
+<Is_Record_in_Modify_Mode>False</Is_Record_in_Modify_Mode>
+<SchemaDisplayNumber>1</SchemaDisplayNumber>
+<Append_data_destination>0</Append_data_destination>
+<XSD_default_root></XSD_default_root>
+<RecursionDepth>0</RecursionDepth>
+<isStartPositionActive_Alpha></isStartPositionActive_Alpha>
+<SchemaVersion>1</SchemaVersion>
+<ErrorFlowID>0</ErrorFlowID>
+<Schema_Description>This is the table used by JDE to return messages from the business function.</Schema_Description>
+<UDSFlowVarDelimited></UDSFlowVarDelimited>
+<UDS_name_dev>0</UDS_name_dev>
+<UDS_name_depl></UDS_name_depl>
+<UDS_model>0</UDS_model>
+<UDS_sort>0</UDS_sort>
+<Clear_UDS>False</Clear_UDS>
+<ErrorBPID>0</ErrorBPID>
+<BPID_For_CallFlow>0</BPID_For_CallFlow>
+<DisplayFieldOrder>0</DisplayFieldOrder>
+<SchemaHasStartingPoint>False</SchemaHasStartingPoint>
+<DBDisconnect>False</DBDisconnect>
+<UnicodeSupport>0</UnicodeSupport>
+<CreateEmptyAlphaNodes>True</CreateEmptyAlphaNodes>
+<XMLInterfaceToFlatFile>false</XMLInterfaceToFlatFile>
+<CreateTitleForFlatFile>false</CreateTitleForFlatFile>
+<StructODSNodes>
+</StructODSNodes>
+<StructFlowVariablesNodes>
+</StructFlowVariablesNodes>
+<StructWizardTbl1>
+</StructWizardTbl1>
+<StructWizardTbl2>
+</StructWizardTbl2>
+<StructWizardTbl3>
+</StructWizardTbl3>
+<StructUpdateNodeDefinition>
+</StructUpdateNodeDefinition>
+<StructSchemaNameSpaceMap>
+</StructSchemaNameSpaceMap>
+<StructDB_Gen>
+</StructDB_Gen>
+<Struct_New_Default_values>
+</Struct_New_Default_values>
+<Struct_ElementReplications>
+</Struct_ElementReplications>
+<StructFlatFiles>
+<Flat_filesComp>
+<Schema_ID>4</Schema_ID>
+<Serial_number>1</Serial_number>
+<Field_Name>Level</Field_Name>
+<Start_Position>0</Start_Position>
+<Length>30</Length>
+<DataType_A_N_D_T_L>N</DataType_A_N_D_T_L>
+<Picture>3</Picture>
+<Delimited_Positional></Delimited_Positional>
+<Delimiter></Delimiter>
+<Flat_File_Parent_ID>0</Flat_File_Parent_ID>
+<Row_Order>1</Row_Order>
+<BP_ID>2</BP_ID>
+<Flow_ID>18</Flow_ID>
+<Step_ID>4</Step_ID>
+<IncludeDelimiterInData>False</IncludeDelimiterInData>
+</Flat_filesComp>
+
+
+<Flat_filesComp>
+<Schema_ID>4</Schema_ID>
+<Serial_number>2</Serial_number>
+<Field_Name>Id</Field_Name>
+<Start_Position>0</Start_Position>
+<Length>30</Length>
+<DataType_A_N_D_T_L>A</DataType_A_N_D_T_L>
+<Picture>10</Picture>
+<Delimited_Positional></Delimited_Positional>
+<Delimiter></Delimiter>
+<Flat_File_Parent_ID>0</Flat_File_Parent_ID>
+<Row_Order>2</Row_Order>
+<BP_ID>2</BP_ID>
+<Flow_ID>18</Flow_ID>
+<Step_ID>4</Step_ID>
+<IncludeDelimiterInData>False</IncludeDelimiterInData>
+</Flat_filesComp>
+
+
+<Flat_filesComp>
+<Schema_ID>4</Schema_ID>
+<Serial_number>3</Serial_number>
+<Field_Name>DDItem</Field_Name>
+<Start_Position>0</Start_Position>
+<Length>30</Length>
+<DataType_A_N_D_T_L>A</DataType_A_N_D_T_L>
+<Picture>30</Picture>
+<Delimited_Positional></Delimited_Positional>
+<Delimiter></Delimiter>
+<Flat_File_Parent_ID>0</Flat_File_Parent_ID>
+<Row_Order>3</Row_Order>
+<BP_ID>2</BP_ID>
+<Flow_ID>18</Flow_ID>
+<Step_ID>4</Step_ID>
+<IncludeDelimiterInData>False</IncludeDelimiterInData>
+</Flat_filesComp>
+
+
+<Flat_filesComp>
+<Schema_ID>4</Schema_ID>
+<Serial_number>4</Serial_number>
+<Field_Name>Description</Field_Name>
+<Start_Position>0</Start_Position>
+<Length>30</Length>
+<DataType_A_N_D_T_L>A</DataType_A_N_D_T_L>
+<Picture>100</Picture>
+<Delimited_Positional></Delimited_Positional>
+<Delimiter></Delimiter>
+<Flat_File_Parent_ID>0</Flat_File_Parent_ID>
+<Row_Order>4</Row_Order>
+<BP_ID>2</BP_ID>
+<Flow_ID>18</Flow_ID>
+<Step_ID>4</Step_ID>
+<IncludeDelimiterInData>False</IncludeDelimiterInData>
+</Flat_filesComp>
+
+</StructFlatFiles>
+</Schema_DetailsComp>
+<Schema_DetailsComp>
+<Schema_ID>5</Schema_ID>
+<Schema_Name>MapToVars</Schema_Name>
+<Test_file></Test_file>
+<Schema_Path></Schema_Path>
+<Modified_date>01/01/1901</Modified_date>
+<Modified_Time>00:00:00</Modified_Time>
+<XSD_Encoding_Internal></XSD_Encoding_Internal>
+<StartPositionPathDelmited></StartPositionPathDelmited>
+<Application_database></Application_database>
+<Read_Document_Program>False</Read_Document_Program>
+<Write_Document_Program>False</Write_Document_Program>
+<Component_Directory></Component_Directory>
+<Serial_number>5</Serial_number>
+<Expose_Models>False</Expose_Models>
+<DataType>5</DataType>
+<ValidCheck_xml_contextFarw_cf>0</ValidCheck_xml_contextFarw_cf>
+<SchemaCreationCode>0</SchemaCreationCode>
+<SchemaLeft>0</SchemaLeft>
+<SchemaHight>0</SchemaHight>
+<SchemaWidth>0</SchemaWidth>
+<SchemaType>2</SchemaType>
+<DB_sub_type>2</DB_sub_type>
+<IFC_DefinitionID>0</IFC_DefinitionID>
+<data_source_FlowId_CallFlow>0</data_source_FlowId_CallFlow>
+<file_blob_path>105</file_blob_path>
+<Direct_mapping>False</Direct_mapping>
+<TopologyId>2</TopologyId>
+<FlowId>18</FlowId>
+<StepNum>4</StepNum>
+<Delimited_Positional></Delimited_Positional>
+<Default_delimiter></Default_delimiter>
+<Record_delimiter></Record_delimiter>
+<Is_Record_in_Modify_Mode>False</Is_Record_in_Modify_Mode>
+<SchemaDisplayNumber>2</SchemaDisplayNumber>
+<Append_data_destination>0</Append_data_destination>
+<XSD_default_root></XSD_default_root>
+<RecursionDepth>0</RecursionDepth>
+<isStartPositionActive_Alpha></isStartPositionActive_Alpha>
+<SchemaVersion>1</SchemaVersion>
+<ErrorFlowID>0</ErrorFlowID>
+<Schema_Description></Schema_Description>
+<UDSFlowVarDelimited></UDSFlowVarDelimited>
+<UDS_name_dev>0</UDS_name_dev>
+<UDS_name_depl></UDS_name_depl>
+<UDS_model>0</UDS_model>
+<UDS_sort>0</UDS_sort>
+<Clear_UDS>False</Clear_UDS>
+<ErrorBPID>0</ErrorBPID>
+<BPID_For_CallFlow>0</BPID_For_CallFlow>
+<DisplayFieldOrder>0</DisplayFieldOrder>
+<SchemaHasStartingPoint>False</SchemaHasStartingPoint>
+<DBDisconnect>False</DBDisconnect>
+<UnicodeSupport>0</UnicodeSupport>
+<CreateEmptyAlphaNodes>True</CreateEmptyAlphaNodes>
+<XMLInterfaceToFlatFile>false</XMLInterfaceToFlatFile>
+<CreateTitleForFlatFile>false</CreateTitleForFlatFile>
+<StructFlatFiles>
+</StructFlatFiles>
+<StructODSNodes>
+</StructODSNodes>
+<StructWizardTbl1>
+</StructWizardTbl1>
+<StructWizardTbl2>
+</StructWizardTbl2>
+<StructWizardTbl3>
+</StructWizardTbl3>
+<StructUpdateNodeDefinition>
+</StructUpdateNodeDefinition>
+<StructSchemaNameSpaceMap>
+</StructSchemaNameSpaceMap>
+<StructDB_Gen>
+</StructDB_Gen>
+<Struct_New_Default_values>
+</Struct_New_Default_values>
+<Struct_ElementReplications>
+</Struct_ElementReplications>
+<StructFlowVariablesNodes>
+<FlowVariablesNodes>
+<SchemaId>5</SchemaId> 
+<NodeId_Real_Parent>0</NodeId_Real_Parent> 
+<XXXVariableIndex_unique_nuse>146</XXXVariableIndex_unique_nuse> 
+<VariableName_unique>F.MessageDescSku</VariableName_unique> 
+<VariableType>1</VariableType> 
+<global>0</global> 
+<BP_ID>2</BP_ID> 
+<Flow_ID>18</Flow_ID> 
+<Step_ID>4</Step_ID> 
+</FlowVariablesNodes>
+
+
+<FlowVariablesNodes>
+<SchemaId>5</SchemaId> 
+<NodeId_Real_Parent>0</NodeId_Real_Parent> 
+<XXXVariableIndex_unique_nuse>145</XXXVariableIndex_unique_nuse> 
+<VariableName_unique>F.MessageLevelSku</VariableName_unique> 
+<VariableType>2</VariableType> 
+<global>0</global> 
+<BP_ID>2</BP_ID> 
+<Flow_ID>18</Flow_ID> 
+<Step_ID>4</Step_ID> 
+</FlowVariablesNodes>
+
+</StructFlowVariablesNodes>
+</Schema_DetailsComp>
+<Schema_DetailsComp>
+<Schema_ID>3</Schema_ID>
+<Schema_Name>IFC_JD_Edwards</Schema_Name>
+<Test_file></Test_file>
+<Schema_Path>%currentprojectdir%jdedwards\XSD\eppdent005_EPPD\B4101220.CalculateAvailability.xsd</Schema_Path>
+<Modified_date>01/01/1901</Modified_date>
+<Modified_Time>00:00:00</Modified_Time>
+<XSD_Encoding_Internal>Unicode(UTF-16)</XSD_Encoding_Internal>
+<StartPositionPathDelmited></StartPositionPathDelmited>
+<Application_database></Application_database>
+<Read_Document_Program>False</Read_Document_Program>
+<Write_Document_Program>False</Write_Document_Program>
+<Component_Directory></Component_Directory>
+<Serial_number>3</Serial_number>
+<Expose_Models>False</Expose_Models>
+<DataType>4</DataType>
+<ValidCheck_xml_contextFarw_cf>0</ValidCheck_xml_contextFarw_cf>
+<SchemaCreationCode>1</SchemaCreationCode>
+<SchemaLeft>0</SchemaLeft>
+<SchemaHight>0</SchemaHight>
+<SchemaWidth>0</SchemaWidth>
+<SchemaType>2</SchemaType>
+<DB_sub_type>0</DB_sub_type>
+<IFC_DefinitionID>145</IFC_DefinitionID>
+<data_source_FlowId_CallFlow>2</data_source_FlowId_CallFlow>
+<file_blob_path>2</file_blob_path>
+<Direct_mapping>False</Direct_mapping>
+<TopologyId>2</TopologyId>
+<FlowId>18</FlowId>
+<StepNum>9</StepNum>
+<Delimited_Positional></Delimited_Positional>
+<Default_delimiter></Default_delimiter>
+<Record_delimiter></Record_delimiter>
+<Is_Record_in_Modify_Mode>False</Is_Record_in_Modify_Mode>
+<SchemaDisplayNumber>1</SchemaDisplayNumber>
+<Append_data_destination>0</Append_data_destination>
+<XSD_default_root>B4101220.CalculateAvailability</XSD_default_root>
+<RecursionDepth>1</RecursionDepth>
+<isStartPositionActive_Alpha></isStartPositionActive_Alpha>
+<SchemaVersion>1</SchemaVersion>
+<ErrorFlowID>0</ErrorFlowID>
+<Schema_Description></Schema_Description>
+<UDSFlowVarDelimited></UDSFlowVarDelimited>
+<UDS_name_dev>0</UDS_name_dev>
+<UDS_name_depl></UDS_name_depl>
+<UDS_model>0</UDS_model>
+<UDS_sort>0</UDS_sort>
+<Clear_UDS>False</Clear_UDS>
+<ErrorBPID>0</ErrorBPID>
+<BPID_For_CallFlow>0</BPID_For_CallFlow>
+<DisplayFieldOrder>0</DisplayFieldOrder>
+<SchemaHasStartingPoint>False</SchemaHasStartingPoint>
+<DBDisconnect>False</DBDisconnect>
+<UnicodeSupport>0</UnicodeSupport>
+<CreateEmptyAlphaNodes>False</CreateEmptyAlphaNodes>
+<XMLInterfaceToFlatFile>false</XMLInterfaceToFlatFile>
+<CreateTitleForFlatFile>false</CreateTitleForFlatFile>
+<StructFlatFiles>
+</StructFlatFiles>
+<StructODSNodes>
+</StructODSNodes>
+<StructFlowVariablesNodes>
+</StructFlowVariablesNodes>
+<StructWizardTbl1>
+</StructWizardTbl1>
+<StructWizardTbl2>
+</StructWizardTbl2>
+<StructWizardTbl3>
+</StructWizardTbl3>
+<StructUpdateNodeDefinition>
+</StructUpdateNodeDefinition>
+<StructSchemaNameSpaceMap>
+</StructSchemaNameSpaceMap>
+<StructDB_Gen>
+</StructDB_Gen>
+<Struct_New_Default_values>
+</Struct_New_Default_values>
+<Struct_ElementReplications>
+</Struct_ElementReplications>
+</Schema_DetailsComp>
+<Schema_DetailsComp>
+<Schema_ID>4</Schema_ID>
+<Schema_Name>S1</Schema_Name>
+<Test_file></Test_file>
+<Schema_Path>jdedwards\XSD\eppdent005_EPPD\X4101.GetItemMasterBy2ndItem.xsd</Schema_Path>
+<Modified_date>01/01/1901</Modified_date>
+<Modified_Time>00:00:00</Modified_Time>
+<XSD_Encoding_Internal> Project Encoding</XSD_Encoding_Internal>
+<StartPositionPathDelmited></StartPositionPathDelmited>
+<Application_database>Default Database</Application_database>
+<Read_Document_Program>False</Read_Document_Program>
+<Write_Document_Program>False</Write_Document_Program>
+<Component_Directory></Component_Directory>
+<Serial_number>4</Serial_number>
+<Expose_Models>False</Expose_Models>
+<DataType>3</DataType>
+<ValidCheck_xml_contextFarw_cf>0</ValidCheck_xml_contextFarw_cf>
+<SchemaCreationCode>0</SchemaCreationCode>
+<SchemaLeft>0</SchemaLeft>
+<SchemaHight>0</SchemaHight>
+<SchemaWidth>0</SchemaWidth>
+<SchemaType>1</SchemaType>
+<DB_sub_type>0</DB_sub_type>
+<IFC_DefinitionID>0</IFC_DefinitionID>
+<data_source_FlowId_CallFlow>2</data_source_FlowId_CallFlow>
+<file_blob_path>5</file_blob_path>
+<Direct_mapping>False</Direct_mapping>
+<TopologyId>2</TopologyId>
+<FlowId>18</FlowId>
+<StepNum>9</StepNum>
+<Delimited_Positional></Delimited_Positional>
+<Default_delimiter></Default_delimiter>
+<Record_delimiter></Record_delimiter>
+<Is_Record_in_Modify_Mode>False</Is_Record_in_Modify_Mode>
+<SchemaDisplayNumber>1</SchemaDisplayNumber>
+<Append_data_destination>0</Append_data_destination>
+<XSD_default_root>X4101.GetItemMasterBy2ndItem</XSD_default_root>
+<RecursionDepth>1</RecursionDepth>
+<isStartPositionActive_Alpha></isStartPositionActive_Alpha>
+<SchemaVersion>1</SchemaVersion>
+<ErrorFlowID>0</ErrorFlowID>
+<Schema_Description></Schema_Description>
+<UDSFlowVarDelimited></UDSFlowVarDelimited>
+<UDS_name_dev>0</UDS_name_dev>
+<UDS_name_depl></UDS_name_depl>
+<UDS_model>0</UDS_model>
+<UDS_sort>0</UDS_sort>
+<Clear_UDS>False</Clear_UDS>
+<ErrorBPID>0</ErrorBPID>
+<BPID_For_CallFlow>0</BPID_For_CallFlow>
+<DisplayFieldOrder>0</DisplayFieldOrder>
+<SchemaHasStartingPoint>False</SchemaHasStartingPoint>
+<DBDisconnect>False</DBDisconnect>
+<UnicodeSupport>0</UnicodeSupport>
+<CreateEmptyAlphaNodes>False</CreateEmptyAlphaNodes>
+<XMLInterfaceToFlatFile>false</XMLInterfaceToFlatFile>
+<CreateTitleForFlatFile>false</CreateTitleForFlatFile>
+<StructFlatFiles>
+</StructFlatFiles>
+<StructODSNodes>
+</StructODSNodes>
+<StructFlowVariablesNodes>
+</StructFlowVariablesNodes>
+<StructWizardTbl1>
+</StructWizardTbl1>
+<StructWizardTbl2>
+</StructWizardTbl2>
+<StructWizardTbl3>
+</StructWizardTbl3>
+<StructUpdateNodeDefinition>
+</StructUpdateNodeDefinition>
+<StructSchemaNameSpaceMap>
+</StructSchemaNameSpaceMap>
+<StructDB_Gen>
+</StructDB_Gen>
+<Struct_New_Default_values>
+</Struct_New_Default_values>
+<Struct_ElementReplications>
+</Struct_ElementReplications>
+</Schema_DetailsComp>
+<Schema_DetailsComp>
+<Schema_ID>3</Schema_ID>
+<Schema_Name>S1</Schema_Name>
+<Test_file></Test_file>
+<Schema_Path>jdedwards\XSD\eppdent005_EPPD\B4101220.CalculateAvailability.xsd</Schema_Path>
+<Modified_date>01/01/1901</Modified_date>
+<Modified_Time>00:00:00</Modified_Time>
+<XSD_Encoding_Internal> Project Encoding</XSD_Encoding_Internal>
+<StartPositionPathDelmited></StartPositionPathDelmited>
+<Application_database>Default Database</Application_database>
+<Read_Document_Program>False</Read_Document_Program>
+<Write_Document_Program>False</Write_Document_Program>
+<Component_Directory></Component_Directory>
+<Serial_number>3</Serial_number>
+<Expose_Models>False</Expose_Models>
+<DataType>3</DataType>
+<ValidCheck_xml_contextFarw_cf>0</ValidCheck_xml_contextFarw_cf>
+<SchemaCreationCode>0</SchemaCreationCode>
+<SchemaLeft>0</SchemaLeft>
+<SchemaHight>0</SchemaHight>
+<SchemaWidth>0</SchemaWidth>
+<SchemaType>1</SchemaType>
+<DB_sub_type>0</DB_sub_type>
+<IFC_DefinitionID>0</IFC_DefinitionID>
+<data_source_FlowId_CallFlow>2</data_source_FlowId_CallFlow>
+<file_blob_path>9</file_blob_path>
+<Direct_mapping>False</Direct_mapping>
+<TopologyId>2</TopologyId>
+<FlowId>18</FlowId>
+<StepNum>10</StepNum>
+<Delimited_Positional></Delimited_Positional>
+<Default_delimiter></Default_delimiter>
+<Record_delimiter></Record_delimiter>
+<Is_Record_in_Modify_Mode>False</Is_Record_in_Modify_Mode>
+<SchemaDisplayNumber>1</SchemaDisplayNumber>
+<Append_data_destination>0</Append_data_destination>
+<XSD_default_root>B4101220.CalculateAvailability</XSD_default_root>
+<RecursionDepth>1</RecursionDepth>
+<isStartPositionActive_Alpha></isStartPositionActive_Alpha>
+<SchemaVersion>1</SchemaVersion>
+<ErrorFlowID>0</ErrorFlowID>
+<Schema_Description></Schema_Description>
+<UDSFlowVarDelimited></UDSFlowVarDelimited>
+<UDS_name_dev>0</UDS_name_dev>
+<UDS_name_depl></UDS_name_depl>
+<UDS_model>0</UDS_model>
+<UDS_sort>0</UDS_sort>
+<Clear_UDS>False</Clear_UDS>
+<ErrorBPID>0</ErrorBPID>
+<BPID_For_CallFlow>0</BPID_For_CallFlow>
+<DisplayFieldOrder>0</DisplayFieldOrder>
+<SchemaHasStartingPoint>False</SchemaHasStartingPoint>
+<DBDisconnect>False</DBDisconnect>
+<UnicodeSupport>0</UnicodeSupport>
+<CreateEmptyAlphaNodes>False</CreateEmptyAlphaNodes>
+<XMLInterfaceToFlatFile>false</XMLInterfaceToFlatFile>
+<CreateTitleForFlatFile>false</CreateTitleForFlatFile>
+<StructFlatFiles>
+</StructFlatFiles>
+<StructODSNodes>
+</StructODSNodes>
+<StructFlowVariablesNodes>
+</StructFlowVariablesNodes>
+<StructWizardTbl1>
+</StructWizardTbl1>
+<StructWizardTbl2>
+</StructWizardTbl2>
+<StructWizardTbl3>
+</StructWizardTbl3>
+<StructUpdateNodeDefinition>
+</StructUpdateNodeDefinition>
+<StructSchemaNameSpaceMap>
+</StructSchemaNameSpaceMap>
+<StructDB_Gen>
+</StructDB_Gen>
+<Struct_New_Default_values>
+</Struct_New_Default_values>
+<Struct_ElementReplications>
+</Struct_ElementReplications>
+</Schema_DetailsComp>
+<Schema_DetailsComp>
+<Schema_ID>4</Schema_ID>
+<Schema_Name>Quantity</Schema_Name>
+<Test_file></Test_file>
+<Schema_Path></Schema_Path>
+<Modified_date>01/01/1901</Modified_date>
+<Modified_Time>00:00:00</Modified_Time>
+<XSD_Encoding_Internal></XSD_Encoding_Internal>
+<StartPositionPathDelmited></StartPositionPathDelmited>
+<Application_database></Application_database>
+<Read_Document_Program>False</Read_Document_Program>
+<Write_Document_Program>False</Write_Document_Program>
+<Component_Directory></Component_Directory>
+<Serial_number>4</Serial_number>
+<Expose_Models>False</Expose_Models>
+<DataType>5</DataType>
+<ValidCheck_xml_contextFarw_cf>0</ValidCheck_xml_contextFarw_cf>
+<SchemaCreationCode>0</SchemaCreationCode>
+<SchemaLeft>0</SchemaLeft>
+<SchemaHight>0</SchemaHight>
+<SchemaWidth>0</SchemaWidth>
+<SchemaType>2</SchemaType>
+<DB_sub_type>2</DB_sub_type>
+<IFC_DefinitionID>0</IFC_DefinitionID>
+<data_source_FlowId_CallFlow>0</data_source_FlowId_CallFlow>
+<file_blob_path>11</file_blob_path>
+<Direct_mapping>False</Direct_mapping>
+<TopologyId>2</TopologyId>
+<FlowId>18</FlowId>
+<StepNum>10</StepNum>
+<Delimited_Positional></Delimited_Positional>
+<Default_delimiter></Default_delimiter>
+<Record_delimiter></Record_delimiter>
+<Is_Record_in_Modify_Mode>False</Is_Record_in_Modify_Mode>
+<SchemaDisplayNumber>1</SchemaDisplayNumber>
+<Append_data_destination>0</Append_data_destination>
+<XSD_default_root></XSD_default_root>
+<RecursionDepth>0</RecursionDepth>
+<isStartPositionActive_Alpha></isStartPositionActive_Alpha>
+<SchemaVersion>1</SchemaVersion>
+<ErrorFlowID>0</ErrorFlowID>
+<Schema_Description></Schema_Description>
+<UDSFlowVarDelimited></UDSFlowVarDelimited>
+<UDS_name_dev>0</UDS_name_dev>
+<UDS_name_depl></UDS_name_depl>
+<UDS_model>0</UDS_model>
+<UDS_sort>0</UDS_sort>
+<Clear_UDS>False</Clear_UDS>
+<ErrorBPID>0</ErrorBPID>
+<BPID_For_CallFlow>0</BPID_For_CallFlow>
+<DisplayFieldOrder>0</DisplayFieldOrder>
+<SchemaHasStartingPoint>False</SchemaHasStartingPoint>
+<DBDisconnect>False</DBDisconnect>
+<UnicodeSupport>0</UnicodeSupport>
+<CreateEmptyAlphaNodes>True</CreateEmptyAlphaNodes>
+<XMLInterfaceToFlatFile>false</XMLInterfaceToFlatFile>
+<CreateTitleForFlatFile>false</CreateTitleForFlatFile>
+<StructFlatFiles>
+</StructFlatFiles>
+<StructODSNodes>
+</StructODSNodes>
+<StructWizardTbl1>
+</StructWizardTbl1>
+<StructWizardTbl2>
+</StructWizardTbl2>
+<StructWizardTbl3>
+</StructWizardTbl3>
+<StructUpdateNodeDefinition>
+</StructUpdateNodeDefinition>
+<StructSchemaNameSpaceMap>
+</StructSchemaNameSpaceMap>
+<StructDB_Gen>
+</StructDB_Gen>
+<Struct_New_Default_values>
+</Struct_New_Default_values>
+<Struct_ElementReplications>
+</Struct_ElementReplications>
+<StructFlowVariablesNodes>
+
+<FlowVariablesNodes>
+<SchemaId>4</SchemaId> 
+<NodeId_Real_Parent>0</NodeId_Real_Parent> 
+<XXXVariableIndex_unique_nuse>0</XXXVariableIndex_unique_nuse> 
+<VariableName_unique>F.mnQuantityAvailable</VariableName_unique> 
+<VariableType>1</VariableType> 
+<global>0</global> 
+<BP_ID>2</BP_ID> 
+<Flow_ID>18</Flow_ID> 
+<Step_ID>10</Step_ID> 
+</FlowVariablesNodes>
+
+</StructFlowVariablesNodes>
+</Schema_DetailsComp>
+<Schema_DetailsComp>
+<Schema_ID>5</Schema_ID>
+<Schema_Name>QtyErrorMessages</Schema_Name>
+<Test_file></Test_file>
+<Schema_Path></Schema_Path>
+<Modified_date>01/01/1901</Modified_date>
+<Modified_Time>00:00:00</Modified_Time>
+<XSD_Encoding_Internal></XSD_Encoding_Internal>
+<StartPositionPathDelmited></StartPositionPathDelmited>
+<Application_database></Application_database>
+<Read_Document_Program>False</Read_Document_Program>
+<Write_Document_Program>False</Write_Document_Program>
+<Component_Directory></Component_Directory>
+<Serial_number>5</Serial_number>
+<Expose_Models>False</Expose_Models>
+<DataType>2</DataType>
+<ValidCheck_xml_contextFarw_cf>0</ValidCheck_xml_contextFarw_cf>
+<SchemaCreationCode>0</SchemaCreationCode>
+<SchemaLeft>0</SchemaLeft>
+<SchemaHight>0</SchemaHight>
+<SchemaWidth>0</SchemaWidth>
+<SchemaType>2</SchemaType>
+<DB_sub_type>2</DB_sub_type>
+<IFC_DefinitionID>0</IFC_DefinitionID>
+<data_source_FlowId_CallFlow>2</data_source_FlowId_CallFlow>
+<file_blob_path>136</file_blob_path>
+<Direct_mapping>False</Direct_mapping>
+<TopologyId>2</TopologyId>
+<FlowId>18</FlowId>
+<StepNum>10</StepNum>
+<Delimited_Positional>D</Delimited_Positional>
+<Default_delimiter>,</Default_delimiter>
+<Record_delimiter></Record_delimiter>
+<Is_Record_in_Modify_Mode>False</Is_Record_in_Modify_Mode>
+<SchemaDisplayNumber>2</SchemaDisplayNumber>
+<Append_data_destination>0</Append_data_destination>
+<XSD_default_root></XSD_default_root>
+<RecursionDepth>0</RecursionDepth>
+<isStartPositionActive_Alpha></isStartPositionActive_Alpha>
+<SchemaVersion>1</SchemaVersion>
+<ErrorFlowID>0</ErrorFlowID>
+<Schema_Description></Schema_Description>
+<UDSFlowVarDelimited></UDSFlowVarDelimited>
+<UDS_name_dev>0</UDS_name_dev>
+<UDS_name_depl></UDS_name_depl>
+<UDS_model>0</UDS_model>
+<UDS_sort>0</UDS_sort>
+<Clear_UDS>False</Clear_UDS>
+<ErrorBPID>0</ErrorBPID>
+<BPID_For_CallFlow>0</BPID_For_CallFlow>
+<DisplayFieldOrder>0</DisplayFieldOrder>
+<SchemaHasStartingPoint>False</SchemaHasStartingPoint>
+<DBDisconnect>False</DBDisconnect>
+<UnicodeSupport>0</UnicodeSupport>
+<CreateEmptyAlphaNodes>True</CreateEmptyAlphaNodes>
+<XMLInterfaceToFlatFile>false</XMLInterfaceToFlatFile>
+<CreateTitleForFlatFile>false</CreateTitleForFlatFile>
+<StructODSNodes>
+</StructODSNodes>
+<StructFlowVariablesNodes>
+</StructFlowVariablesNodes>
+<StructWizardTbl1>
+</StructWizardTbl1>
+<StructWizardTbl2>
+</StructWizardTbl2>
+<StructWizardTbl3>
+</StructWizardTbl3>
+<StructUpdateNodeDefinition>
+</StructUpdateNodeDefinition>
+<StructSchemaNameSpaceMap>
+</StructSchemaNameSpaceMap>
+<StructDB_Gen>
+</StructDB_Gen>
+<Struct_New_Default_values>
+</Struct_New_Default_values>
+<Struct_ElementReplications>
+</Struct_ElementReplications>
+<StructFlatFiles>
+
+<Flat_filesComp>
+<Schema_ID>5</Schema_ID>
+<Serial_number>1</Serial_number>
+<Field_Name>Level</Field_Name>
+<Start_Position>0</Start_Position>
+<Length>30</Length>
+<DataType_A_N_D_T_L>N</DataType_A_N_D_T_L>
+<Picture>3</Picture>
+<Delimited_Positional></Delimited_Positional>
+<Delimiter></Delimiter>
+<Flat_File_Parent_ID>0</Flat_File_Parent_ID>
+<Row_Order>1</Row_Order>
+<BP_ID>2</BP_ID>
+<Flow_ID>18</Flow_ID>
+<Step_ID>10</Step_ID>
+<IncludeDelimiterInData>False</IncludeDelimiterInData>
+</Flat_filesComp>
+
+
+<Flat_filesComp>
+<Schema_ID>5</Schema_ID>
+<Serial_number>2</Serial_number>
+<Field_Name>Id</Field_Name>
+<Start_Position>0</Start_Position>
+<Length>30</Length>
+<DataType_A_N_D_T_L>A</DataType_A_N_D_T_L>
+<Picture>10</Picture>
+<Delimited_Positional></Delimited_Positional>
+<Delimiter></Delimiter>
+<Flat_File_Parent_ID>0</Flat_File_Parent_ID>
+<Row_Order>2</Row_Order>
+<BP_ID>2</BP_ID>
+<Flow_ID>18</Flow_ID>
+<Step_ID>10</Step_ID>
+<IncludeDelimiterInData>False</IncludeDelimiterInData>
+</Flat_filesComp>
+
+
+<Flat_filesComp>
+<Schema_ID>5</Schema_ID>
+<Serial_number>3</Serial_number>
+<Field_Name>DDItem</Field_Name>
+<Start_Position>0</Start_Position>
+<Length>30</Length>
+<DataType_A_N_D_T_L>A</DataType_A_N_D_T_L>
+<Picture>30</Picture>
+<Delimited_Positional></Delimited_Positional>
+<Delimiter></Delimiter>
+<Flat_File_Parent_ID>0</Flat_File_Parent_ID>
+<Row_Order>3</Row_Order>
+<BP_ID>2</BP_ID>
+<Flow_ID>18</Flow_ID>
+<Step_ID>10</Step_ID>
+<IncludeDelimiterInData>False</IncludeDelimiterInData>
+</Flat_filesComp>
+
+
+<Flat_filesComp>
+<Schema_ID>5</Schema_ID>
+<Serial_number>4</Serial_number>
+<Field_Name>Description</Field_Name>
+<Start_Position>0</Start_Position>
+<Length>30</Length>
+<DataType_A_N_D_T_L>A</DataType_A_N_D_T_L>
+<Picture>100</Picture>
+<Delimited_Positional></Delimited_Positional>
+<Delimiter></Delimiter>
+<Flat_File_Parent_ID>0</Flat_File_Parent_ID>
+<Row_Order>4</Row_Order>
+<BP_ID>2</BP_ID>
+<Flow_ID>18</Flow_ID>
+<Step_ID>10</Step_ID>
+<IncludeDelimiterInData>False</IncludeDelimiterInData>
+</Flat_filesComp>
+</StructFlatFiles>
+</Schema_DetailsComp>
+<Schema_DetailsComp>
+<Schema_ID>6</Schema_ID>
+<Schema_Name>S2</Schema_Name>
+<Test_file></Test_file>
+<Schema_Path>jdedwards\XSD\eppdent005_EPPD\B4101220.CalculateAvailability.xsd</Schema_Path>
+<Modified_date>01/01/1901</Modified_date>
+<Modified_Time>00:00:00</Modified_Time>
+<XSD_Encoding_Internal> Project Encoding</XSD_Encoding_Internal>
+<StartPositionPathDelmited></StartPositionPathDelmited>
+<Application_database>Default Database</Application_database>
+<Read_Document_Program>False</Read_Document_Program>
+<Write_Document_Program>False</Write_Document_Program>
+<Component_Directory></Component_Directory>
+<Serial_number>6</Serial_number>
+<Expose_Models>False</Expose_Models>
+<DataType>3</DataType>
+<ValidCheck_xml_contextFarw_cf>0</ValidCheck_xml_contextFarw_cf>
+<SchemaCreationCode>0</SchemaCreationCode>
+<SchemaLeft>0</SchemaLeft>
+<SchemaHight>0</SchemaHight>
+<SchemaWidth>0</SchemaWidth>
+<SchemaType>1</SchemaType>
+<DB_sub_type>0</DB_sub_type>
+<IFC_DefinitionID>0</IFC_DefinitionID>
+<data_source_FlowId_CallFlow>2</data_source_FlowId_CallFlow>
+<file_blob_path>137</file_blob_path>
+<Direct_mapping>False</Direct_mapping>
+<TopologyId>2</TopologyId>
+<FlowId>18</FlowId>
+<StepNum>10</StepNum>
+<Delimited_Positional></Delimited_Positional>
+<Default_delimiter></Default_delimiter>
+<Record_delimiter></Record_delimiter>
+<Is_Record_in_Modify_Mode>False</Is_Record_in_Modify_Mode>
+<SchemaDisplayNumber>2</SchemaDisplayNumber>
+<Append_data_destination>0</Append_data_destination>
+<XSD_default_root>B4101220.CalculateAvailability</XSD_default_root>
+<RecursionDepth>1</RecursionDepth>
+<isStartPositionActive_Alpha></isStartPositionActive_Alpha>
+<SchemaVersion>1</SchemaVersion>
+<ErrorFlowID>0</ErrorFlowID>
+<Schema_Description></Schema_Description>
+<UDSFlowVarDelimited></UDSFlowVarDelimited>
+<UDS_name_dev>0</UDS_name_dev>
+<UDS_name_depl></UDS_name_depl>
+<UDS_model>0</UDS_model>
+<UDS_sort>0</UDS_sort>
+<Clear_UDS>False</Clear_UDS>
+<ErrorBPID>0</ErrorBPID>
+<BPID_For_CallFlow>0</BPID_For_CallFlow>
+<DisplayFieldOrder>0</DisplayFieldOrder>
+<SchemaHasStartingPoint>False</SchemaHasStartingPoint>
+<DBDisconnect>False</DBDisconnect>
+<UnicodeSupport>0</UnicodeSupport>
+<CreateEmptyAlphaNodes>False</CreateEmptyAlphaNodes>
+<XMLInterfaceToFlatFile>false</XMLInterfaceToFlatFile>
+<CreateTitleForFlatFile>false</CreateTitleForFlatFile>
+<StructFlatFiles>
+</StructFlatFiles>
+<StructODSNodes>
+</StructODSNodes>
+<StructFlowVariablesNodes>
+</StructFlowVariablesNodes>
+<StructWizardTbl1>
+</StructWizardTbl1>
+<StructWizardTbl2>
+</StructWizardTbl2>
+<StructWizardTbl3>
+</StructWizardTbl3>
+<StructUpdateNodeDefinition>
+</StructUpdateNodeDefinition>
+<StructSchemaNameSpaceMap>
+</StructSchemaNameSpaceMap>
+<StructDB_Gen>
+</StructDB_Gen>
+<Struct_New_Default_values>
+</Struct_New_Default_values>
+<Struct_ElementReplications>
+</Struct_ElementReplications>
+</Schema_DetailsComp>
+<Schema_DetailsComp>
+<Schema_ID>7</Schema_ID>
+<Schema_Name>MessageVariables</Schema_Name>
+<Test_file></Test_file>
+<Schema_Path></Schema_Path>
+<Modified_date>01/01/1901</Modified_date>
+<Modified_Time>00:00:00</Modified_Time>
+<XSD_Encoding_Internal></XSD_Encoding_Internal>
+<StartPositionPathDelmited></StartPositionPathDelmited>
+<Application_database></Application_database>
+<Read_Document_Program>False</Read_Document_Program>
+<Write_Document_Program>False</Write_Document_Program>
+<Component_Directory></Component_Directory>
+<Serial_number>7</Serial_number>
+<Expose_Models>False</Expose_Models>
+<DataType>5</DataType>
+<ValidCheck_xml_contextFarw_cf>0</ValidCheck_xml_contextFarw_cf>
+<SchemaCreationCode>0</SchemaCreationCode>
+<SchemaLeft>0</SchemaLeft>
+<SchemaHight>0</SchemaHight>
+<SchemaWidth>0</SchemaWidth>
+<SchemaType>2</SchemaType>
+<DB_sub_type>2</DB_sub_type>
+<IFC_DefinitionID>0</IFC_DefinitionID>
+<data_source_FlowId_CallFlow>0</data_source_FlowId_CallFlow>
+<file_blob_path>139</file_blob_path>
+<Direct_mapping>False</Direct_mapping>
+<TopologyId>2</TopologyId>
+<FlowId>18</FlowId>
+<StepNum>10</StepNum>
+<Delimited_Positional></Delimited_Positional>
+<Default_delimiter></Default_delimiter>
+<Record_delimiter></Record_delimiter>
+<Is_Record_in_Modify_Mode>False</Is_Record_in_Modify_Mode>
+<SchemaDisplayNumber>3</SchemaDisplayNumber>
+<Append_data_destination>0</Append_data_destination>
+<XSD_default_root></XSD_default_root>
+<RecursionDepth>0</RecursionDepth>
+<isStartPositionActive_Alpha></isStartPositionActive_Alpha>
+<SchemaVersion>1</SchemaVersion>
+<ErrorFlowID>0</ErrorFlowID>
+<Schema_Description></Schema_Description>
+<UDSFlowVarDelimited></UDSFlowVarDelimited>
+<UDS_name_dev>0</UDS_name_dev>
+<UDS_name_depl></UDS_name_depl>
+<UDS_model>0</UDS_model>
+<UDS_sort>0</UDS_sort>
+<Clear_UDS>False</Clear_UDS>
+<ErrorBPID>0</ErrorBPID>
+<BPID_For_CallFlow>0</BPID_For_CallFlow>
+<DisplayFieldOrder>0</DisplayFieldOrder>
+<SchemaHasStartingPoint>False</SchemaHasStartingPoint>
+<DBDisconnect>False</DBDisconnect>
+<UnicodeSupport>0</UnicodeSupport>
+<CreateEmptyAlphaNodes>True</CreateEmptyAlphaNodes>
+<XMLInterfaceToFlatFile>false</XMLInterfaceToFlatFile>
+<CreateTitleForFlatFile>false</CreateTitleForFlatFile>
+<StructFlatFiles>
+</StructFlatFiles>
+<StructODSNodes>
+</StructODSNodes>
+<StructWizardTbl1>
+</StructWizardTbl1>
+<StructWizardTbl2>
+</StructWizardTbl2>
+<StructWizardTbl3>
+</StructWizardTbl3>
+<StructUpdateNodeDefinition>
+</StructUpdateNodeDefinition>
+<StructSchemaNameSpaceMap>
+</StructSchemaNameSpaceMap>
+<StructDB_Gen>
+</StructDB_Gen>
+<Struct_New_Default_values>
+</Struct_New_Default_values>
+<Struct_ElementReplications>
+</Struct_ElementReplications>
+<StructFlowVariablesNodes>
+
+<FlowVariablesNodes>
+<SchemaId>7</SchemaId> 
+<NodeId_Real_Parent>0</NodeId_Real_Parent> 
+<XXXVariableIndex_unique_nuse>149</XXXVariableIndex_unique_nuse> 
+<VariableName_unique>F.MessageDescQty</VariableName_unique> 
+<VariableType>1</VariableType> 
+<global>0</global> 
+<BP_ID>2</BP_ID> 
+<Flow_ID>18</Flow_ID> 
+<Step_ID>10</Step_ID> 
+</FlowVariablesNodes>
+
+
+<FlowVariablesNodes>
+<SchemaId>7</SchemaId> 
+<NodeId_Real_Parent>0</NodeId_Real_Parent> 
+<XXXVariableIndex_unique_nuse>148</XXXVariableIndex_unique_nuse> 
+<VariableName_unique>F.MessageLevelQty</VariableName_unique> 
+<VariableType>2</VariableType> 
+<global>0</global> 
+<BP_ID>2</BP_ID> 
+<Flow_ID>18</Flow_ID> 
+<Step_ID>10</Step_ID> 
+</FlowVariablesNodes>
+</StructFlowVariablesNodes>
+</Schema_DetailsComp>
+ </Struct_Schema_Details>
+ <StructConversionConnections>
+<CN ST="2">
+<SR ID="0" TP="" SI="0" AT="" PC=""></SR>
+<SN></SN>
+<DS ID="3" TP="S" DI="8" AT="A" PC="26">Destination/S3/X4101.GetItemMasterBy2ndItem/Data/row/sz2ndItemNumber</DS>
+<DN>sz2ndItemNumber</DN>
+<EX>10</EX>
+<DA>Destination/S3/X4101.GetItemMasterBy2ndItem/Data/row/sz2ndItemNumber</DA>
+<SE>0</SE>
+<DE>0</DE>
+<DM>1</DM>
+<SL></SL>
+<DL>001/001/001/001</DL>
+<SP></SP>
+<DP>/1/1/1/1</DP>
+<DXT>string#26</DXT>
+</CN>
+<CN ST="4">
+<SR ID="3" TP="C" SI="7" AT="" PC="">Source/S3/X4101.GetItemMasterBy2ndItem/Messages/row</SR>
+<SN>row</SN>
+<DS ID="4" TP="C" DI="3" AT="" PC="">Destination/S4/Record</DS>
+<DN>Record</DN>
+<DA>Destination/S4/Record</DA>
+<SE>0</SE>
+<DE>0</DE>
+<SL>1/2/1</SL>
+<DL>1/1</DL>
+<SP>/1/1/-1</SP>
+<DP>/-1</DP>
+</CN>
+<CN ST="4">
+<SR ID="3" TP="C" SI="7" AT="" PC="">Source/S3/X4101.GetItemMasterBy2ndItem/Messages/row</SR>
+<SN>row</SN>
+<DS ID="5" TP="C" DI="9" AT="" PC="">Destination/S5/Instance</DS>
+<DN>Instance</DN>
+<DA>Destination/S5/Instance</DA>
+<SE>0</SE>
+<DE>0</DE>
+<SL>1/2/1</SL>
+<DL>1/1</DL>
+<SP>/1/1/-1</SP>
+<DP>/-1</DP>
+</CN>
+<CN ST="4">
+<SR ID="3" TP="S" SI="8" AT="N" PC="9">Source/S3/X4101.GetItemMasterBy2ndItem/Messages/row/Level</SR>
+<SN>Level</SN>
+<DS ID="4" TP="S" DI="4" AT="N" PC="3">Destination/S4/Record/Level</DS>
+<DN>Level</DN>
+<DA>Destination/S4/Record/Level</DA>
+<SE>0</SE>
+<DE>0</DE>
+<SM>1</SM>
+<DM>1</DM>
+<SL>1/2/1/1</SL>
+<DL>1/1/4</DL>
+<SP>/1/1/-1/1</SP>
+<DP>/-1/1</DP>
+<SXT>integer</SXT>
+</CN>
+<CN ST="4">
+<SR ID="3" TP="S" SI="8" AT="N" PC="9">Source/S3/X4101.GetItemMasterBy2ndItem/Messages/row/Level</SR>
+<SN>Level</SN>
+<DS ID="5" TP="S" DI="11" AT="N" PC="N12.4">Destination/S5/Instance/F.MessageLevelSku</DS>
+<DN>F.MessageLevelSku</DN>
+<DA>Destination/S5/Instance/F.MessageLevelSku</DA>
+<SE>0</SE>
+<DE>0</DE>
+<SM>1</SM>
+<DM>1</DM>
+<SL>1/2/1/1</SL>
+<DL>1/1/11</DL>
+<SP>/1/1/-1/1</SP>
+<DP>/-1/1</DP>
+<SXT>integer</SXT>
+</CN>
+<CN ST="4">
+<SR ID="3" TP="S" SI="9" AT="N" PC="9">Source/S3/X4101.GetItemMasterBy2ndItem/Messages/row/ID</SR>
+<SN>ID</SN>
+<DS ID="4" TP="S" DI="5" AT="A" PC="10">Destination/S4/Record/Id</DS>
+<DN>Id</DN>
+<DA>Destination/S4/Record/Id</DA>
+<SE>0</SE>
+<DE>0</DE>
+<SM>1</SM>
+<DM>1</DM>
+<SL>1/2/1/2</SL>
+<DL>1/1/5</DL>
+<SP>/1/1/-1/1</SP>
+<DP>/-1/1</DP>
+<SXT>integer</SXT>
+</CN>
+<CN ST="4">
+<SR ID="3" TP="S" SI="10" AT="A" PC="1000">Source/S3/X4101.GetItemMasterBy2ndItem/Messages/row/DDItem</SR>
+<SN>DDItem</SN>
+<DS ID="4" TP="S" DI="6" AT="A" PC="30">Destination/S4/Record/DDItem</DS>
+<DN>DDItem</DN>
+<DA>Destination/S4/Record/DDItem</DA>
+<SE>0</SE>
+<DE>0</DE>
+<SM>1</SM>
+<DM>1</DM>
+<SL>1/2/1/3</SL>
+<DL>1/1/6</DL>
+<SP>/1/1/-1/1</SP>
+<DP>/-1/1</DP>
+<SXT>string</SXT>
+</CN>
+<CN ST="4">
+<SR ID="3" TP="S" SI="11" AT="A" PC="1000">Source/S3/X4101.GetItemMasterBy2ndItem/Messages/row/Description</SR>
+<SN>Description</SN>
+<DS ID="4" TP="S" DI="7" AT="A" PC="100">Destination/S4/Record/Description</DS>
+<DN>Description</DN>
+<DA>Destination/S4/Record/Description</DA>
+<SE>0</SE>
+<DE>0</DE>
+<SM>1</SM>
+<DM>1</DM>
+<SL>1/2/1/4</SL>
+<DL>1/1/7</DL>
+<SP>/1/1/-1/1</SP>
+<DP>/-1/1</DP>
+<SXT>string</SXT>
+</CN>
+<CN ST="4">
+<SR ID="3" TP="S" SI="11" AT="A" PC="1000">Source/S3/X4101.GetItemMasterBy2ndItem/Messages/row/Description</SR>
+<SN>Description</SN>
+<DS ID="5" TP="S" DI="10" AT="A" PC="30">Destination/S5/Instance/F.MessageDescSku</DS>
+<DN>F.MessageDescSku</DN>
+<DA>Destination/S5/Instance/F.MessageDescSku</DA>
+<SE>0</SE>
+<DE>1</DE>
+<SM>1</SM>
+<DM>1</DM>
+<SL>1/2/1/4</SL>
+<DL>1/1/10</DL>
+<SP>/1/1/-1/1</SP>
+<DP>/-1/1</DP>
+<SXT>string</SXT>
+</CN>
+<CN ST="9">
+<SR ID="0" TP="" SI="0" AT="" PC=""></SR>
+<SN></SN>
+<DS ID="3" TP="S" DI="9" AT="A" PC="13">Destination/S3/B4101220.CalculateAvailability/Data/row/szBranchPlant</DS>
+<DN>szBranchPlant</DN>
+<EX>6</EX>
+<DA>Destination/S3/B4101220.CalculateAvailability/Data/row/szBranchPlant</DA>
+<SE>0</SE>
+<DE>0</DE>
+<DM>1</DM>
+<SL></SL>
+<DL>001/001/001/002</DL>
+<SP></SP>
+<DP>/1/1/1/1</DP>
+<DXT>string#13</DXT>
+</CN>
+<CN ST="9">
+<SR ID="0" TP="" SI="0" AT="" PC=""></SR>
+<SN></SN>
+<DS ID="3" TP="S" DI="25" AT="A" PC="32">Destination/S3/B4101220.CalculateAvailability/Data/row/mnIndex</DS>
+<DN>mnIndex</DN>
+<EX>7</EX>
+<DA>Destination/S3/B4101220.CalculateAvailability/Data/row/mnIndex</DA>
+<SE>0</SE>
+<DE>0</DE>
+<DM>1</DM>
+<SL></SL>
+<DL>001/001/001/018</DL>
+<SP></SP>
+<DP>/1/1/1/1</DP>
+<DXT>string#32</DXT>
+</CN>
+<CN ST="9">
+<SR ID="0" TP="" SI="0" AT="" PC=""></SR>
+<SN></SN>
+<DS ID="3" TP="S" DI="100" AT="A" PC="32">Destination/S3/B4101220.CalculateAvailability/Data/row/mnKeys</DS>
+<DN>mnKeys</DN>
+<EX>8</EX>
+<DA>Destination/S3/B4101220.CalculateAvailability/Data/row/mnKeys</DA>
+<SE>0</SE>
+<DE>0</DE>
+<DM>1</DM>
+<SL></SL>
+<DL>001/001/001/093</DL>
+<SP></SP>
+<DP>/1/1/1/1</DP>
+<DXT>string#32</DXT>
+</CN>
+<CN ST="9">
+<SR ID="4" TP="C" SI="3" AT="" PC="">Source/S4/X4101.GetItemMasterBy2ndItem</SR>
+<SN>X4101.GetItemMasterBy2ndItem</SN>
+<DS ID="3" TP="C" DI="3" AT="" PC="">Destination/S3/B4101220.CalculateAvailability</DS>
+<DN>B4101220.CalculateAvailability</DN>
+<DA>Destination/S3/B4101220.CalculateAvailability</DA>
+<SE>0</SE>
+<DE>0</DE>
+<SM>1</SM>
+<DM>1</DM>
+<SL>1</SL>
+<DL>001</DL>
+<SP>/1</SP>
+<DP>/1</DP>
+</CN>
+<CN ST="9">
+<SR ID="4" TP="S" SI="16" AT="A" PC="32">Source/S4/X4101.GetItemMasterBy2ndItem/Data/row/mnShortItemNumber</SR>
+<SN>mnShortItemNumber</SN>
+<DS ID="3" TP="S" DI="8" AT="A" PC="32">Destination/S3/B4101220.CalculateAvailability/Data/row/mnShortItemNumber</DS>
+<DN>mnShortItemNumber</DN>
+<DA>Destination/S3/B4101220.CalculateAvailability/Data/row/mnShortItemNumber</DA>
+<SE>0</SE>
+<DE>0</DE>
+<SM>1</SM>
+<DM>1</DM>
+<SL>1/1/1/9</SL>
+<DL>001/001/001/001</DL>
+<SP>/1/1/1/1</SP>
+<DP>/1/1/1/1</DP>
+<SXT>string#32</SXT>
+<DXT>string#32</DXT>
+</CN>
+<CN ST="10">
+<SR ID="3" TP="C" SI="3" AT="" PC="">Source/S3/B4101220.CalculateAvailability</SR>
+<SN>B4101220.CalculateAvailability</SN>
+<DS ID="4" TP="C" DI="3" AT="" PC="">Destination/S4/Instance</DS>
+<DN>Instance</DN>
+<DA>Destination/S4/Instance</DA>
+<SE>0</SE>
+<DE>0</DE>
+<SM>1</SM>
+<SL>1</SL>
+<DL>1/1</DL>
+<SP>/1</SP>
+<DP>/-1</DP>
+</CN>
+<CN ST="10">
+<SR ID="3" TP="C" SI="7" AT="" PC="">Source/S3/B4101220.CalculateAvailability/Messages/row</SR>
+<SN>row</SN>
+<DS ID="5" TP="C" DI="6" AT="" PC="">Destination/S5/Record</DS>
+<DN>Record</DN>
+<DA>Destination/S5/Record</DA>
+<SE>0</SE>
+<DE>0</DE>
+<SL>1/2/1</SL>
+<DL>1/1</DL>
+<SP>/1/1/-1</SP>
+<DP>/-1</DP>
+</CN>
+<CN ST="10">
+<SR ID="3" TP="S" SI="8" AT="N" PC="9">Source/S3/B4101220.CalculateAvailability/Messages/row/Level</SR>
+<SN>Level</SN>
+<DS ID="5" TP="S" DI="7" AT="N" PC="3">Destination/S5/Record/Level</DS>
+<DN>Level</DN>
+<DA>Destination/S5/Record/Level</DA>
+<SE>0</SE>
+<DE>0</DE>
+<SM>1</SM>
+<DM>1</DM>
+<SL>1/2/1/1</SL>
+<DL>1/1/7</DL>
+<SP>/1/1/-1/1</SP>
+<DP>/-1/1</DP>
+<SXT>integer</SXT>
+</CN>
+<CN ST="10">
+<SR ID="3" TP="S" SI="9" AT="N" PC="9">Source/S3/B4101220.CalculateAvailability/Messages/row/ID</SR>
+<SN>ID</SN>
+<DS ID="5" TP="S" DI="8" AT="A" PC="10">Destination/S5/Record/Id</DS>
+<DN>Id</DN>
+<DA>Destination/S5/Record/Id</DA>
+<SE>0</SE>
+<DE>0</DE>
+<SM>1</SM>
+<DM>1</DM>
+<SL>1/2/1/2</SL>
+<DL>1/1/8</DL>
+<SP>/1/1/-1/1</SP>
+<DP>/-1/1</DP>
+<SXT>integer</SXT>
+</CN>
+<CN ST="10">
+<SR ID="3" TP="S" SI="10" AT="A" PC="1000">Source/S3/B4101220.CalculateAvailability/Messages/row/DDItem</SR>
+<SN>DDItem</SN>
+<DS ID="5" TP="S" DI="9" AT="A" PC="30">Destination/S5/Record/DDItem</DS>
+<DN>DDItem</DN>
+<DA>Destination/S5/Record/DDItem</DA>
+<SE>0</SE>
+<DE>0</DE>
+<SM>1</SM>
+<DM>1</DM>
+<SL>1/2/1/3</SL>
+<DL>1/1/9</DL>
+<SP>/1/1/-1/1</SP>
+<DP>/-1/1</DP>
+<SXT>string</SXT>
+</CN>
+<CN ST="10">
+<SR ID="3" TP="S" SI="11" AT="A" PC="1000">Source/S3/B4101220.CalculateAvailability/Messages/row/Description</SR>
+<SN>Description</SN>
+<DS ID="5" TP="S" DI="10" AT="A" PC="100">Destination/S5/Record/Description</DS>
+<DN>Description</DN>
+<DA>Destination/S5/Record/Description</DA>
+<SE>0</SE>
+<DE>0</DE>
+<SM>1</SM>
+<DM>1</DM>
+<SL>1/2/1/4</SL>
+<DL>1/1/10</DL>
+<SP>/1/1/-1/1</SP>
+<DP>/-1/1</DP>
+<SXT>string</SXT>
+</CN>
+<CN ST="10">
+<SR ID="3" TP="S" SI="23" AT="A" PC="32">Source/S3/B4101220.CalculateAvailability/Data/row/mnQuantityAvailable</SR>
+<SN>mnQuantityAvailable</SN>
+<DS ID="4" TP="S" DI="4" AT="A" PC="30">Destination/S4/Instance/F.mnQuantityAvailable</DS>
+<DN>F.mnQuantityAvailable</DN>
+<DA>Destination/S4/Instance/F.mnQuantityAvailable</DA>
+<SE>0</SE>
+<DE>1</DE>
+<SM>1</SM>
+<DM>1</DM>
+<SL>1/1/1/16</SL>
+<DL>1/1/4</DL>
+<SP>/1/1/1/1</SP>
+<DP>/-1/1</DP>
+<SXT>string#32</SXT>
+</CN>
+<CN ST="10">
+<SR ID="6" TP="C" SI="11" AT="" PC="">Source/S6/B4101220.CalculateAvailability/Messages/row</SR>
+<SN>row</SN>
+<DS ID="7" TP="C" DI="12" AT="" PC="">Destination/S7/Instance</DS>
+<DN>Instance</DN>
+<DA>Destination/S7/Instance</DA>
+<SE>0</SE>
+<DE>0</DE>
+<SL>1/2/1</SL>
+<DL>1/1</DL>
+<SP>/1/1/-1</SP>
+<DP>/-1</DP>
+</CN>
+<CN ST="10">
+<SR ID="6" TP="S" SI="12" AT="N" PC="9">Source/S6/B4101220.CalculateAvailability/Messages/row/Level</SR>
+<SN>Level</SN>
+<DS ID="7" TP="S" DI="14" AT="N" PC="N12.4">Destination/S7/Instance/F.MessageLevelQty</DS>
+<DN>F.MessageLevelQty</DN>
+<DA>Destination/S7/Instance/F.MessageLevelQty</DA>
+<SE>0</SE>
+<DE>0</DE>
+<SM>1</SM>
+<DM>1</DM>
+<SL>1/2/1/1</SL>
+<DL>1/1/14</DL>
+<SP>/1/1/-1/1</SP>
+<DP>/-1/1</DP>
+<SXT>integer</SXT>
+</CN>
+<CN ST="10">
+<SR ID="6" TP="S" SI="15" AT="A" PC="1000">Source/S6/B4101220.CalculateAvailability/Messages/row/Description</SR>
+<SN>Description</SN>
+<DS ID="7" TP="S" DI="13" AT="A" PC="30">Destination/S7/Instance/F.MessageDescQty</DS>
+<DN>F.MessageDescQty</DN>
+<DA>Destination/S7/Instance/F.MessageDescQty</DA>
+<SE>0</SE>
+<DE>1</DE>
+<SM>1</SM>
+<DM>1</DM>
+<SL>1/2/1/4</SL>
+<DL>1/1/13</DL>
+<SP>/1/1/-1/1</SP>
+<DP>/-1/1</DP>
+<SXT>string</SXT>
+</CN>
+</StructConversionConnections>
+ <StructNodesColors/>
+</Source_And_Destination_Object>
+</IFC>
+<Services>
+ <Struct_FlowDataService>
+ <FlowDataServiceComp>
+  <flow_id>18</flow_id> 
+  <step>18</step> 
+  <Action>1</Action> 
+  <target_type>1</target_type> 
+  <target_name>130</target_name> 
+  <data_type>1</data_type> 
+  <update_expression>131</update_expression> 
+  <update_expression_depl></update_expression_depl> 
+  <condition>0</condition> 
+  <condition_depl></condition_depl> 
+  <id>1</id> 
+  <target_name_depl></target_name_depl> 
+  <global>0</global> 
+  <ODSIndex>0</ODSIndex> 
+  <ODSIndexDepl></ODSIndexDepl> 
+  <BD_ID>2</BD_ID> 
+  <DynamicVariable>False</DynamicVariable> 
+  <UDS_Type></UDS_Type> 
+  <encoding>0</encoding> 
+ </FlowDataServiceComp>
+ <FlowDataServiceComp>
+  <flow_id>18</flow_id> 
+  <step>18</step> 
+  <Action>1</Action> 
+  <target_type>1</target_type> 
+  <target_name>134</target_name> 
+  <data_type>1</data_type> 
+  <update_expression>135</update_expression> 
+  <update_expression_depl></update_expression_depl> 
+  <condition>0</condition> 
+  <condition_depl></condition_depl> 
+  <id>2</id> 
+  <target_name_depl></target_name_depl> 
+  <global>0</global> 
+  <ODSIndex>0</ODSIndex> 
+  <ODSIndexDepl></ODSIndexDepl> 
+  <BD_ID>2</BD_ID> 
+  <DynamicVariable>False</DynamicVariable> 
+  <UDS_Type></UDS_Type> 
+  <encoding>0</encoding> 
+ </FlowDataServiceComp>
+ <FlowDataServiceComp>
+  <flow_id>18</flow_id> 
+  <step>19</step> 
+  <Action>1</Action> 
+  <target_type>1</target_type> 
+  <target_name>130</target_name> 
+  <data_type>1</data_type> 
+  <update_expression>131</update_expression> 
+  <update_expression_depl></update_expression_depl> 
+  <condition>0</condition> 
+  <condition_depl></condition_depl> 
+  <id>1</id> 
+  <target_name_depl></target_name_depl> 
+  <global>0</global> 
+  <ODSIndex>0</ODSIndex> 
+  <ODSIndexDepl></ODSIndexDepl> 
+  <BD_ID>2</BD_ID> 
+  <DynamicVariable>False</DynamicVariable> 
+  <UDS_Type></UDS_Type> 
+  <encoding>0</encoding> 
+ </FlowDataServiceComp>
+ <FlowDataServiceComp>
+  <flow_id>18</flow_id> 
+  <step>23</step> 
+  <Action>1</Action> 
+  <target_type>1</target_type> 
+  <target_name>130</target_name> 
+  <data_type>1</data_type> 
+  <update_expression>131</update_expression> 
+  <update_expression_depl></update_expression_depl> 
+  <condition>0</condition> 
+  <condition_depl></condition_depl> 
+  <id>1</id> 
+  <target_name_depl></target_name_depl> 
+  <global>0</global> 
+  <ODSIndex>0</ODSIndex> 
+  <ODSIndexDepl></ODSIndexDepl> 
+  <BD_ID>2</BD_ID> 
+  <DynamicVariable>False</DynamicVariable> 
+  <UDS_Type></UDS_Type> 
+  <encoding>0</encoding> 
+ </FlowDataServiceComp>
+ <FlowDataServiceComp>
+  <flow_id>18</flow_id> 
+  <step>26</step> 
+  <Action>1</Action> 
+  <target_type>1</target_type> 
+  <target_name>130</target_name> 
+  <data_type>1</data_type> 
+  <update_expression>131</update_expression> 
+  <update_expression_depl></update_expression_depl> 
+  <condition>0</condition> 
+  <condition_depl></condition_depl> 
+  <id>1</id> 
+  <target_name_depl></target_name_depl> 
+  <global>0</global> 
+  <ODSIndex>0</ODSIndex> 
+  <ODSIndexDepl></ODSIndexDepl> 
+  <BD_ID>2</BD_ID> 
+  <DynamicVariable>False</DynamicVariable> 
+  <UDS_Type></UDS_Type> 
+  <encoding>0</encoding> 
+ </FlowDataServiceComp>
+ <FlowDataServiceComp>
+  <flow_id>18</flow_id> 
+  <step>26</step> 
+  <Action>1</Action> 
+  <target_type>1</target_type> 
+  <target_name>134</target_name> 
+  <data_type>1</data_type> 
+  <update_expression>135</update_expression> 
+  <update_expression_depl></update_expression_depl> 
+  <condition>0</condition> 
+  <condition_depl></condition_depl> 
+  <id>2</id> 
+  <target_name_depl></target_name_depl> 
+  <global>0</global> 
+  <ODSIndex>0</ODSIndex> 
+  <ODSIndexDepl></ODSIndexDepl> 
+  <BD_ID>2</BD_ID> 
+  <DynamicVariable>False</DynamicVariable> 
+  <UDS_Type></UDS_Type> 
+  <encoding>0</encoding> 
+ </FlowDataServiceComp>
+ </Struct_FlowDataService>
+ <Struct_SaveMsg>
+ <SaveMsgService>
+  <BP_ID>2</BP_ID>
+  <flow_id>18</flow_id>
+  <step>6</step>
+  <user_string_ID>100</user_string_ID>
+  <user_blob_ID>107</user_blob_ID>
+  <file_extension>txt</file_extension>
+  <categoryID>0</categoryID>
+  <priorityID>0</priorityID>
+  <statusID>0</statusID>
+  <user_key_1ID>0</user_key_1ID>
+  <user_key_2ID>0</user_key_2ID>
+ </SaveMsgService>
+ <SaveMsgService>
+  <BP_ID>2</BP_ID>
+  <flow_id>18</flow_id>
+  <step>8</step>
+  <user_string_ID>102</user_string_ID>
+  <user_blob_ID>0</user_blob_ID>
+  <file_extension></file_extension>
+  <categoryID>0</categoryID>
+  <priorityID>0</priorityID>
+  <statusID>0</statusID>
+  <user_key_1ID>0</user_key_1ID>
+  <user_key_2ID>0</user_key_2ID>
+ </SaveMsgService>
+ <SaveMsgService>
+  <BP_ID>2</BP_ID>
+  <flow_id>18</flow_id>
+  <step>15</step>
+  <user_string_ID>101</user_string_ID>
+  <user_blob_ID>108</user_blob_ID>
+  <file_extension>txt</file_extension>
+  <categoryID>0</categoryID>
+  <priorityID>0</priorityID>
+  <statusID>0</statusID>
+  <user_key_1ID>0</user_key_1ID>
+  <user_key_2ID>0</user_key_2ID>
+ </SaveMsgService>
+ <SaveMsgService>
+  <BP_ID>2</BP_ID>
+  <flow_id>18</flow_id>
+  <step>22</step>
+  <user_string_ID>100</user_string_ID>
+  <user_blob_ID>107</user_blob_ID>
+  <file_extension>txt</file_extension>
+  <categoryID>0</categoryID>
+  <priorityID>0</priorityID>
+  <statusID>0</statusID>
+  <user_key_1ID>0</user_key_1ID>
+  <user_key_2ID>0</user_key_2ID>
+ </SaveMsgService>
+ <SaveMsgService>
+  <BP_ID>2</BP_ID>
+  <flow_id>18</flow_id>
+  <step>24</step>
+  <user_string_ID>102</user_string_ID>
+  <user_blob_ID>0</user_blob_ID>
+  <file_extension></file_extension>
+  <categoryID>0</categoryID>
+  <priorityID>0</priorityID>
+  <statusID>0</statusID>
+  <user_key_1ID>0</user_key_1ID>
+  <user_key_2ID>0</user_key_2ID>
+ </SaveMsgService>
+ <SaveMsgService>
+  <BP_ID>2</BP_ID>
+  <flow_id>18</flow_id>
+  <step>25</step>
+  <user_string_ID>101</user_string_ID>
+  <user_blob_ID>108</user_blob_ID>
+  <file_extension>txt</file_extension>
+  <categoryID>0</categoryID>
+  <priorityID>0</priorityID>
+  <statusID>0</statusID>
+  <user_key_1ID>0</user_key_1ID>
+  <user_key_2ID>0</user_key_2ID>
+ </SaveMsgService>
+ </Struct_SaveMsg>
+
+</Services>
+
+ <Struct_Triggers>
+ <TriggersComp>
+  <topology_id>2</topology_id>
+  <flow_id>18</flow_id>
+  <TRIG_ID_STEP_NO>2</TRIG_ID_STEP_NO>
+  <IFCDefinitionID>25</IFCDefinitionID>
+  <Description></Description>
+  <NodeID>1</NodeID>
+  <Component>%currentprojectdir%service\JDE\JDE.ecf</Component>
+  <Name>getQuantityAvailable</Name>
+  <Emulation_program></Emulation_program>
+  <emulation_component></emulation_component>
+  <activation_string></activation_string>
+  <activation_blob>PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIiA/Pg0KPFdlYlNlcnZpY2U+DQoNCiAgPFJlc291cmNlSUQ+MDwvUmVzb3VyY2VJRD4NCg0KICA8TmFtZT5KREU8L05hbWU+DQoNCiAgPE1pZ3JhdGVkUHJvamVjdD48L01pZ3JhdGVkUHJvamVjdD4NCg0KICA8T3BlcmF0aW9uPg0KICAgIDxJRD42PC9JRD4NCiAgICA8T3BlcmF0aW9uTmFtZT5nZXRRdWFudGl0eUF2YWlsYWJsZTwvT3BlcmF0aW9uTmFtZT4NCiAgICA8QXJndW1lbnQ+DQogICAgICA8QXJndW1lbnRJRD4xPC9Bcmd1bWVudElEPg0KICAgICAgPEFyZ3VtZW50TmFtZT5IZWFkZXJfSW48L0FyZ3VtZW50TmFtZT4NCiAgICAgIDxBcmd1ZW1lbnRUeXBlPjE8L0FyZ3VlbWVudFR5cGU+DQogICAgICA8RGlyZWN0aW9uPjE8L0RpcmVjdGlvbj4NCiAgICAgIDxEYXRhVHlwZT5CPC9EYXRhVHlwZT4NCiAgICAgIDxEYXRhVHlwZVBpY3R1cmU+PC9EYXRhVHlwZVBpY3R1cmU+DQogICAgICA8TWFwcGluZ0V4cElEPjA8L01hcHBpbmdFeHBJRD4NCiAgICA8L0FyZ3VtZW50Pg0KICAgIDxBcmd1bWVudD4NCiAgICAgIDxBcmd1bWVudElEPjI8L0FyZ3VtZW50SUQ+DQogICAgICA8QXJndW1lbnROYW1lPkhlYWRlcl9PdXQ8L0FyZ3VtZW50TmFtZT4NCiAgICAgIDxBcmd1ZW1lbnRUeXBlPjE8L0FyZ3VlbWVudFR5cGU+DQogICAgICA8RGlyZWN0aW9uPjI8L0RpcmVjdGlvbj4NCiAgICAgIDxEYXRhVHlwZT5CPC9EYXRhVHlwZT4NCiAgICAgIDxEYXRhVHlwZVBpY3R1cmU+PC9EYXRhVHlwZVBpY3R1cmU+DQogICAgICA8TWFwcGluZ0V4cElEPjA8L01hcHBpbmdFeHBJRD4NCiAgICA8L0FyZ3VtZW50Pg0KICAgIDxBcmd1bWVudD4NCiAgICAgIDxBcmd1bWVudElEPjM8L0FyZ3VtZW50SUQ+DQogICAgICA8QXJndW1lbnROYW1lPnF1YW50aXR5QXZhaWxhYmxlPC9Bcmd1bWVudE5hbWU+DQogICAgICA8QXJndWVtZW50VHlwZT40PC9Bcmd1ZW1lbnRUeXBlPg0KICAgICAgPERpcmVjdGlvbj4zPC9EaXJlY3Rpb24+DQogICAgICA8RGF0YVR5cGU+QTwvRGF0YVR5cGU+DQogICAgICA8RGF0YVR5cGVQaWN0dXJlPjMwPC9EYXRhVHlwZVBpY3R1cmU+DQogICAgICA8TWFwcGluZ0V4cElEPjEyNzwvTWFwcGluZ0V4cElEPg0KICAgIDwvQXJndW1lbnQ+DQogICAgPEFyZ3VtZW50Pg0KICAgICAgPEFyZ3VtZW50SUQ+NDwvQXJndW1lbnRJRD4NCiAgICAgIDxBcmd1bWVudE5hbWU+c2t1PC9Bcmd1bWVudE5hbWU+DQogICAgICA8QXJndWVtZW50VHlwZT4yPC9Bcmd1ZW1lbnRUeXBlPg0KICAgICAgPERpcmVjdGlvbj4xPC9EaXJlY3Rpb24+DQogICAgICA8RGF0YVR5cGU+QTwvRGF0YVR5cGU+DQogICAgICA8RGF0YVR5cGVQaWN0dXJlPjMwPC9EYXRhVHlwZVBpY3R1cmU+DQogICAgICA8TWFwcGluZ0V4cElEPjEzMjwvTWFwcGluZ0V4cElEPg0KICAgIDwvQXJndW1lbnQ+DQogIDwvT3BlcmF0aW9uPg0KDQogIDxQdXRBcmd1bWVudFhNTEludG9FeHBuSUQ+MDwvUHV0QXJndW1lbnRYTUxJbnRvRXhwbklEPg0KDQogIDxGYXVsdElEPjEzMzwvRmF1bHRJRD4NCg0KICA8SWRlbnRpdHk+PC9JZGVudGl0eT4NCg0KICA8SWRlbnRpdHlQYXNzd29yZD48L0lkZW50aXR5UGFzc3dvcmQ+DQoNCiAgPElkZW50aXR5RXhwSWQ+MDwvSWRlbnRpdHlFeHBJZD4NCg0KICA8SWRlbnRpdHlQYXNzRXhwSWQ+MDwvSWRlbnRpdHlQYXNzRXhwSWQ+DQoNCiAgPFJlc3BvbnNlQmxvYlR5cGU+PC9SZXNwb25zZUJsb2JUeXBlPg0KDQogIDxSZXF1ZXN0QmxvYnNUeXBlPlU8L1JlcXVlc3RCbG9ic1R5cGU+DQoNCjwvV2ViU2VydmljZT4NCg==</activation_blob>
+  <return_XML_result>0</return_XML_result>
+  <method_name>getQuantityAvailable</method_name>
+  <trigger_type>0</trigger_type>
+  <schedulerID>0</schedulerID>
+  <ServiceName>JDE</ServiceName>
+ </TriggersComp>
+ </Struct_Triggers>
+
+ <Struct_Scheduler>
+ <SchedulerComp>
+  <ID>100001</ID>
+  <Description></Description>
+  <Flow_ID>18</Flow_ID>
+  <trigger_type>A</trigger_type>
+  <Months></Months>
+  <DaysOfWeek></DaysOfWeek>
+  <DaysInMonth></DaysInMonth>
+  <TimeInDay></TimeInDay>
+  <Interval>1</Interval>
+  <Start_Date>00/00/0000</Start_Date>
+  <EndDate>00/00/0000</EndDate>
+  <StartTime>00:00:00</StartTime>
+  <EndTime>00:00:00</EndTime>
+  <serverID>0</serverID>
+  <Operation>4</Operation>
+  <BP_ID>2</BP_ID>
+  <IntervalCalculateSchedRT>False</IntervalCalculateSchedRT>
+  <IntervalMinutesAfterTheHour>0</IntervalMinutesAfterTheHour>
+ </SchedulerComp>
+ </Struct_Scheduler>
+
+
+ <Struct_FlowLogic>
+ <FlowLogicComp>
+  <flow_id>18</flow_id>
+  <devexp>0</devexp>
+  <deployexp></deployexp>
+  <afterifc_step>2</afterifc_step>
+  <nextifc_step>4</nextifc_step>
+  <IsReturn>0</IsReturn>
+  <table_id>3</table_id>
+  <sortorder>2</sortorder>
+  <BP_ID>2</BP_ID>
+ </FlowLogicComp>
+ <FlowLogicComp>
+  <flow_id>18</flow_id>
+  <devexp>106</devexp>
+  <deployexp></deployexp>
+  <afterifc_step>4</afterifc_step>
+  <nextifc_step>6</nextifc_step>
+  <IsReturn>0</IsReturn>
+  <table_id>5</table_id>
+  <sortorder>2</sortorder>
+  <BP_ID>2</BP_ID>
+ </FlowLogicComp>
+ <FlowLogicComp>
+  <flow_id>18</flow_id>
+  <devexp>104</devexp>
+  <deployexp></deployexp>
+  <afterifc_step>4</afterifc_step>
+  <nextifc_step>8</nextifc_step>
+  <IsReturn>0</IsReturn>
+  <table_id>7</table_id>
+  <sortorder>4</sortorder>
+  <BP_ID>2</BP_ID>
+ </FlowLogicComp>
+ <FlowLogicComp>
+  <flow_id>18</flow_id>
+  <devexp>0</devexp>
+  <deployexp></deployexp>
+  <afterifc_step>8</afterifc_step>
+  <nextifc_step>9</nextifc_step>
+  <IsReturn>0</IsReturn>
+  <table_id>8</table_id>
+  <sortorder>2</sortorder>
+  <BP_ID>2</BP_ID>
+ </FlowLogicComp>
+ <FlowLogicComp>
+  <flow_id>18</flow_id>
+  <devexp>0</devexp>
+  <deployexp></deployexp>
+  <afterifc_step>9</afterifc_step>
+  <nextifc_step>10</nextifc_step>
+  <IsReturn>0</IsReturn>
+  <table_id>9</table_id>
+  <sortorder>1</sortorder>
+  <BP_ID>2</BP_ID>
+ </FlowLogicComp>
+ <FlowLogicComp>
+  <flow_id>18</flow_id>
+  <devexp>109</devexp>
+  <deployexp></deployexp>
+  <afterifc_step>4</afterifc_step>
+  <nextifc_step>15</nextifc_step>
+  <IsReturn>0</IsReturn>
+  <table_id>19</table_id>
+  <sortorder>5</sortorder>
+  <BP_ID>2</BP_ID>
+ </FlowLogicComp>
+ <FlowLogicComp>
+  <flow_id>18</flow_id>
+  <devexp>0</devexp>
+  <deployexp></deployexp>
+  <afterifc_step>15</afterifc_step>
+  <nextifc_step>18</nextifc_step>
+  <IsReturn>0</IsReturn>
+  <table_id>23</table_id>
+  <sortorder>3</sortorder>
+  <BP_ID>2</BP_ID>
+ </FlowLogicComp>
+ <FlowLogicComp>
+  <flow_id>18</flow_id>
+  <devexp>0</devexp>
+  <deployexp></deployexp>
+  <afterifc_step>6</afterifc_step>
+  <nextifc_step>19</nextifc_step>
+  <IsReturn>0</IsReturn>
+  <table_id>24</table_id>
+  <sortorder>3</sortorder>
+  <BP_ID>2</BP_ID>
+ </FlowLogicComp>
+ <FlowLogicComp>
+  <flow_id>18</flow_id>
+  <devexp>0</devexp>
+  <deployexp></deployexp>
+  <afterifc_step>19</afterifc_step>
+  <nextifc_step>9</nextifc_step>
+  <IsReturn>1</IsReturn>
+  <table_id>25</table_id>
+  <sortorder>1</sortorder>
+  <BP_ID>2</BP_ID>
+ </FlowLogicComp>
+ <FlowLogicComp>
+  <flow_id>18</flow_id>
+  <devexp>109</devexp>
+  <deployexp></deployexp>
+  <afterifc_step>10</afterifc_step>
+  <nextifc_step>22</nextifc_step>
+  <IsReturn>0</IsReturn>
+  <table_id>29</table_id>
+  <sortorder>4</sortorder>
+  <BP_ID>2</BP_ID>
+ </FlowLogicComp>
+ <FlowLogicComp>
+  <flow_id>18</flow_id>
+  <devexp>0</devexp>
+  <deployexp></deployexp>
+  <afterifc_step>22</afterifc_step>
+  <nextifc_step>23</nextifc_step>
+  <IsReturn>0</IsReturn>
+  <table_id>30</table_id>
+  <sortorder>3</sortorder>
+  <BP_ID>2</BP_ID>
+ </FlowLogicComp>
+ <FlowLogicComp>
+  <flow_id>18</flow_id>
+  <devexp>105</devexp>
+  <deployexp></deployexp>
+  <afterifc_step>10</afterifc_step>
+  <nextifc_step>24</nextifc_step>
+  <IsReturn>0</IsReturn>
+  <table_id>32</table_id>
+  <sortorder>5</sortorder>
+  <BP_ID>2</BP_ID>
+ </FlowLogicComp>
+ <FlowLogicComp>
+  <flow_id>18</flow_id>
+  <devexp>110</devexp>
+  <deployexp></deployexp>
+  <afterifc_step>10</afterifc_step>
+  <nextifc_step>25</nextifc_step>
+  <IsReturn>0</IsReturn>
+  <table_id>33</table_id>
+  <sortorder>6</sortorder>
+  <BP_ID>2</BP_ID>
+ </FlowLogicComp>
+ <FlowLogicComp>
+  <flow_id>18</flow_id>
+  <devexp>0</devexp>
+  <deployexp></deployexp>
+  <afterifc_step>25</afterifc_step>
+  <nextifc_step>26</nextifc_step>
+  <IsReturn>0</IsReturn>
+  <table_id>34</table_id>
+  <sortorder>3</sortorder>
+  <BP_ID>2</BP_ID>
+ </FlowLogicComp>
+ </Struct_FlowLogic>
+
+ <Struct_FlowSpace>
+ <FlowSpaceComp>
+  <flow_id>18</flow_id>
+  <data_key>F.BeginDoc_OUT</data_key>
+  <data_description></data_description>
+  <data_type>B</data_type>
+  <data_len>0.00000</data_len>
+  <default_value>0</default_value>
+  <blob_viewer_component></blob_viewer_component>
+  <blob_viewer_program></blob_viewer_program>
+  <internal_index>349</internal_index>
+  <global>False</global>
+  <internal_sort>False</internal_sort>
+  <default_value_depl></default_value_depl>
+  <uds_type></uds_type>
+  <BP_ID>2</BP_ID>
+  <GUID>{59FD90C5-8A06-4BC5-9E25-A91A87061A58}</GUID>
+  <Deleted>0</Deleted>
+ </FlowSpaceComp>
+ <FlowSpaceComp>
+  <flow_id>18</flow_id>
+  <data_key>F.MessageBSFNQty</data_key>
+  <data_description></data_description>
+  <data_type>B</data_type>
+  <data_len>0.00000</data_len>
+  <default_value>0</default_value>
+  <blob_viewer_component></blob_viewer_component>
+  <blob_viewer_program></blob_viewer_program>
+  <internal_index>351</internal_index>
+  <global>False</global>
+  <internal_sort>False</internal_sort>
+  <default_value_depl></default_value_depl>
+  <uds_type></uds_type>
+  <BP_ID>2</BP_ID>
+  <GUID>{9C8A8F4A-B435-45D9-A8E4-04A28CAFD8DD}</GUID>
+  <Deleted>0</Deleted>
+ </FlowSpaceComp>
+ <FlowSpaceComp>
+  <flow_id>18</flow_id>
+  <data_key>F.MessageBSFNSku</data_key>
+  <data_description></data_description>
+  <data_type>B</data_type>
+  <data_len>0.00000</data_len>
+  <default_value>0</default_value>
+  <blob_viewer_component></blob_viewer_component>
+  <blob_viewer_program></blob_viewer_program>
+  <internal_index>352</internal_index>
+  <global>False</global>
+  <internal_sort>False</internal_sort>
+  <default_value_depl></default_value_depl>
+  <uds_type></uds_type>
+  <BP_ID>2</BP_ID>
+  <GUID>{CC5D1138-5ADD-4BCE-B5DF-73462B0396CE}</GUID>
+  <Deleted>0</Deleted>
+ </FlowSpaceComp>
+ <FlowSpaceComp>
+  <flow_id>18</flow_id>
+  <data_key>F.MessageDescQty</data_key>
+  <data_description></data_description>
+  <data_type>A</data_type>
+  <data_len>30.00000</data_len>
+  <default_value>0</default_value>
+  <blob_viewer_component></blob_viewer_component>
+  <blob_viewer_program></blob_viewer_program>
+  <internal_index>353</internal_index>
+  <global>False</global>
+  <internal_sort>False</internal_sort>
+  <default_value_depl></default_value_depl>
+  <uds_type></uds_type>
+  <BP_ID>2</BP_ID>
+  <GUID>{2E9B0306-C88E-4551-A149-A2F6505F59EA}</GUID>
+  <Deleted>0</Deleted>
+ </FlowSpaceComp>
+ <FlowSpaceComp>
+  <flow_id>18</flow_id>
+  <data_key>F.MessageDescSku</data_key>
+  <data_description></data_description>
+  <data_type>A</data_type>
+  <data_len>30.00000</data_len>
+  <default_value>0</default_value>
+  <blob_viewer_component></blob_viewer_component>
+  <blob_viewer_program></blob_viewer_program>
+  <internal_index>354</internal_index>
+  <global>False</global>
+  <internal_sort>False</internal_sort>
+  <default_value_depl></default_value_depl>
+  <uds_type></uds_type>
+  <BP_ID>2</BP_ID>
+  <GUID>{292FEFAF-1F52-4D15-86BB-B916CA702301}</GUID>
+  <Deleted>0</Deleted>
+ </FlowSpaceComp>
+ <FlowSpaceComp>
+  <flow_id>18</flow_id>
+  <data_key>F.MessageLevelQty</data_key>
+  <data_description></data_description>
+  <data_type>N</data_type>
+  <data_len>12.40000</data_len>
+  <default_value>0</default_value>
+  <blob_viewer_component></blob_viewer_component>
+  <blob_viewer_program></blob_viewer_program>
+  <internal_index>355</internal_index>
+  <global>False</global>
+  <internal_sort>False</internal_sort>
+  <default_value_depl></default_value_depl>
+  <uds_type></uds_type>
+  <BP_ID>2</BP_ID>
+  <GUID>{22C61A47-3F18-4E26-B957-3A6B208D7D1C}</GUID>
+  <Deleted>0</Deleted>
+ </FlowSpaceComp>
+ <FlowSpaceComp>
+  <flow_id>18</flow_id>
+  <data_key>F.MessageLevelSku</data_key>
+  <data_description></data_description>
+  <data_type>N</data_type>
+  <data_len>12.40000</data_len>
+  <default_value>0</default_value>
+  <blob_viewer_component></blob_viewer_component>
+  <blob_viewer_program></blob_viewer_program>
+  <internal_index>356</internal_index>
+  <global>False</global>
+  <internal_sort>False</internal_sort>
+  <default_value_depl></default_value_depl>
+  <uds_type></uds_type>
+  <BP_ID>2</BP_ID>
+  <GUID>{D51B96EE-01A5-42AF-A65C-B4AB96ECB205}</GUID>
+  <Deleted>0</Deleted>
+ </FlowSpaceComp>
+ <FlowSpaceComp>
+  <flow_id>18</flow_id>
+  <data_key>F.errorString</data_key>
+  <data_description>Combine MessageDesc here to export to web service result</data_description>
+  <data_type>A</data_type>
+  <data_len>500.00000</data_len>
+  <default_value>0</default_value>
+  <blob_viewer_component></blob_viewer_component>
+  <blob_viewer_program></blob_viewer_program>
+  <internal_index>357</internal_index>
+  <global>False</global>
+  <internal_sort>False</internal_sort>
+  <default_value_depl></default_value_depl>
+  <uds_type></uds_type>
+  <BP_ID>2</BP_ID>
+  <GUID>{5F07F160-B6CD-4B9D-93DC-193E26C00257}</GUID>
+  <Deleted>0</Deleted>
+ </FlowSpaceComp>
+ <FlowSpaceComp>
+  <flow_id>18</flow_id>
+  <data_key>F.mnQuantityAvailable</data_key>
+  <data_description>Output for CalculateAvailabilty Flow</data_description>
+  <data_type>A</data_type>
+  <data_len>30.00000</data_len>
+  <default_value>0</default_value>
+  <blob_viewer_component></blob_viewer_component>
+  <blob_viewer_program></blob_viewer_program>
+  <internal_index>358</internal_index>
+  <global>False</global>
+  <internal_sort>False</internal_sort>
+  <default_value_depl></default_value_depl>
+  <uds_type></uds_type>
+  <BP_ID>2</BP_ID>
+  <GUID>{300711AA-DF27-48FE-8A06-8AD99F8964B0}</GUID>
+  <Deleted>0</Deleted>
+ </FlowSpaceComp>
+ <FlowSpaceComp>
+  <flow_id>18</flow_id>
+  <data_key>F.sku</data_key>
+  <data_description>Input/Output for CalculateAvailability Flow</data_description>
+  <data_type>A</data_type>
+  <data_len>30.00000</data_len>
+  <default_value>0</default_value>
+  <blob_viewer_component></blob_viewer_component>
+  <blob_viewer_program></blob_viewer_program>
+  <internal_index>359</internal_index>
+  <global>False</global>
+  <internal_sort>False</internal_sort>
+  <default_value_depl></default_value_depl>
+  <uds_type></uds_type>
+  <BP_ID>2</BP_ID>
+  <GUID>{B6B34C33-6297-41C2-AC7A-D87A4ADA4E8B}</GUID>
+  <Deleted>0</Deleted>
+ </FlowSpaceComp>
+ </Struct_FlowSpace>
+
+ <Struct_ErrorHandler/>
+
+ <Struct_Elements>
+ <ElementsComp>
+  <elementId>1</elementId> 
+  <elementtype>TAR</elementtype> 
+  <elementname></elementname> 
+  <elementdescription>Go to the link: 
+http://amieduba11magic.vws.vh20.net:6060/invocationConsole?p.wsdlUrl=http://AMIEDUBA11MAGIC.vws.vh20.net:6060/JDE/wsdl</elementdescription>
+  <objtype>10</objtype> 
+  <BP_ID>2</BP_ID> 
+  <etop_y1>199.000</etop_y1> 
+  <eleft_x1>14.000</eleft_x1> 
+  <ebottom_y2>245.000</ebottom_y2> 
+  <eright_x2>397.000</eright_x2> 
+  <interface></interface>
+  <wsdlfile_in></wsdlfile_in> 
+  <wsdlfile_out></wsdlfile_out>
+  <direction></direction>
+  <imagefile></imagefile> 
+  <bgcolor>12713983</bgcolor> 
+  <fgcolor>12713983</fgcolor> 
+  <fontId>0</fontId> 
+  <textlocation></textlocation> 
+  <arrowdirection></arrowdirection>
+  <pointer_x>0.000</pointer_x> 
+  <pointer_y>0.000</pointer_y> 
+  <application>0</application> 
+  <border_weight>1</border_weight> 
+  <user_message></user_message>
+  <showpointer>0</showpointer> 
+  <Ismax_TAR>1</Ismax_TAR> 
+  <Flow_ID>18</Flow_ID> 
+  <Document_Path></Document_Path>
+
+     <Struct_ElementsFlows>
+         </Struct_ElementsFlows>
+  
+     <Struct_FontProperties>
+         </Struct_FontProperties>
+  
+
+
+      
+      
+
+ </ElementsComp>
+ <ElementsComp>
+  <elementId>2</elementId> 
+  <elementtype>TAR</elementtype> 
+  <elementname></elementname> 
+  <elementdescription>Get started here.
+Open the Debugger using Ctrl+7 or click the yellow bug icon.
+Set Breakpoints.
+Click the Run icon. This will activate the web service flow above and the directory scanner. Either can be used but I find the web service easier.</elementdescription>
+  <objtype>10</objtype> 
+  <BP_ID>2</BP_ID> 
+  <etop_y1>103.000</etop_y1> 
+  <eleft_x1>14.000</eleft_x1> 
+  <ebottom_y2>193.000</ebottom_y2> 
+  <eright_x2>397.000</eright_x2> 
+  <interface></interface>
+  <wsdlfile_in></wsdlfile_in> 
+  <wsdlfile_out></wsdlfile_out>
+  <direction></direction>
+  <imagefile></imagefile> 
+  <bgcolor>12713983</bgcolor> 
+  <fgcolor>12713983</fgcolor> 
+  <fontId>0</fontId> 
+  <textlocation></textlocation> 
+  <arrowdirection></arrowdirection>
+  <pointer_x>0.000</pointer_x> 
+  <pointer_y>0.000</pointer_y> 
+  <application>0</application> 
+  <border_weight>1</border_weight> 
+  <user_message></user_message>
+  <showpointer>0</showpointer> 
+  <Ismax_TAR>1</Ismax_TAR> 
+  <Flow_ID>18</Flow_ID> 
+  <Document_Path></Document_Path>
+
+     <Struct_ElementsFlows>
+         </Struct_ElementsFlows>
+  
+     <Struct_FontProperties>
+         </Struct_FontProperties>
+  
+
+
+      
+      
+
+ </ElementsComp>
+ </Struct_Elements>
+
+ <Flow_Root>
+ <FlowRootComp>
+  <flow_id>18</flow_id>
+  <root_step_id>2</root_step_id>
+  <devexp>0</devexp>
+  <deployexp></deployexp>
+  <BP_ID>2</BP_ID>
+ </FlowRootComp>
+ </Flow_Root>
+
+<Struct_ExpressionTable>
+ <Expression_TableComp>
+  <Object_ID>2</Object_ID> 
+  <BP_ID>2</BP_ID> 
+  <Flow_ID>18</Flow_ID> 
+  <StepTrigger_ID>2</StepTrigger_ID> 
+  <Is_Trigger>0</Is_Trigger> 
+  <SubStep_ID>0</SubStep_ID> 
+  <MapperUpdate_ID>0</MapperUpdate_ID> 
+  <Expression_ID>3</Expression_ID> 
+  <Development_Expression>PCMhJUAkPmdldFZhck5hbWUoMiwnMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDA3JywwLDApPCMhJUAkPg==</Development_Expression> 
+  <Deployment_Expression></Deployment_Expression>
+  <Expression_Return_Attribute>B</Expression_Return_Attribute> 
+  <Range_String></Range_String>  
+  <Direction_InOrOut>O</Direction_InOrOut> 
+  <DeploymentGenerated>0</DeploymentGenerated> 
+  <ExpressionPath>PCE/U3RlcD8hPg0KPCE/Q29uZmlnPyE+DQo8IT9DVFJOYW1lPyE+Vl9EZXYgRXhwcmVzaW9uPCE/Q1RSTmFtZT8hPg0KPCE/Q29uZmlnPyE+DQo8IT9TdGVwPyE+DQo=</ExpressionPath> 
+  <isCopyIndication>False</isCopyIndication> 
+ </Expression_TableComp>
+ <Expression_TableComp>
+  <Object_ID>2</Object_ID> 
+  <BP_ID>2</BP_ID> 
+  <Flow_ID>18</Flow_ID> 
+  <StepTrigger_ID>2</StepTrigger_ID> 
+  <Is_Trigger>0</Is_Trigger> 
+  <SubStep_ID>3</SubStep_ID> 
+  <MapperUpdate_ID>0</MapperUpdate_ID> 
+  <Expression_ID>4</Expression_ID> 
+  <Development_Expression>PCMhJUAkPmdldFZhck5hbWUoMiwnMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDA4JywwLDApPCMhJUAkPg==</Development_Expression> 
+  <Deployment_Expression></Deployment_Expression>
+  <Expression_Return_Attribute>B</Expression_Return_Attribute> 
+  <Range_String></Range_String>  
+  <Direction_InOrOut>O</Direction_InOrOut> 
+  <DeploymentGenerated>0</DeploymentGenerated> 
+  <ExpressionPath>PCE/TWFwcGVyPyE+PCE/TWFwcGVyPyE+DQo8IT9TY2hlbWE/IT4NCjwhP0lEPyE+MzwhP0lEPyE+DQo8IT9OYW1lPyE+SUZDX0pEX0Vkd2FyZHM8IT9OYW1lPyE+DQo8IT9Qcm9wZXJ0aWVzPyE+DQo8IT9DVFJOYW1lPyE+Qi1Ccm93c2UgRGF0YVNyYy4uLl8wMDAxPCE/Q1RSTmFtZT8hPg0KPCE/UHJvcGVydGllcz8hPg0KPCE/U2NoZW1hPyE+</ExpressionPath> 
+  <isCopyIndication>False</isCopyIndication> 
+ </Expression_TableComp>
+ <Expression_TableComp>
+  <Object_ID>2</Object_ID> 
+  <BP_ID>2</BP_ID> 
+  <Flow_ID>18</Flow_ID> 
+  <StepTrigger_ID>2</StepTrigger_ID> 
+  <Is_Trigger>0</Is_Trigger> 
+  <SubStep_ID>3</SubStep_ID> 
+  <MapperUpdate_ID>0</MapperUpdate_ID> 
+  <Expression_ID>10</Expression_ID> 
+  <Development_Expression>PCMhJUAkPmdldFZhck5hbWUoMSwne0I2QjM0QzMzLTYyOTctNDFDMi1BQzdBLUQ4N0E0QURBNEU4Qn0nLDAsMCk8IyElQCQ+</Development_Expression> 
+  <Deployment_Expression></Deployment_Expression>
+  <Expression_Return_Attribute>A</Expression_Return_Attribute> 
+  <Range_String></Range_String>  
+  <Direction_InOrOut>I</Direction_InOrOut> 
+  <DeploymentGenerated>0</DeploymentGenerated> 
+  <ExpressionPath>PCE/TWFwcGVyPyE+IDwhP01hcHBlcj8hPjwhP1NjaGVtYT8hPjwhP0lEPyE+MzwhP0lEPyE+PCE/TmFtZT8hPklGQ19KRF9FZHdhcmRzPCE/TmFtZT8hPjwhP05vZGU/IT48IT9QYXRoPyE+RGVzdGluYXRpb24vUzMvWDQxMDEuR2V0SXRlbU1hc3RlckJ5Mm5kSXRlbS9EYXRhL3Jvdy9zejJuZEl0ZW1OdW1iZXI8IT9QYXRoPyE+PCE/Q1RSTmFtZT8hPlZfY2FsYyB2YWx1ZV8wMDAxPCE/Q1RSTmFtZT8hPjwhP05vZGU/IT48IT9TY2hlbWE/IT4=</ExpressionPath> 
+  <isCopyIndication>False</isCopyIndication> 
+ </Expression_TableComp>
+ <Expression_TableComp>
+  <Object_ID>2</Object_ID> 
+  <BP_ID>2</BP_ID> 
+  <Flow_ID>18</Flow_ID> 
+  <StepTrigger_ID>2</StepTrigger_ID> 
+  <Is_Trigger>0</Is_Trigger> 
+  <SubStep_ID>0</SubStep_ID> 
+  <MapperUpdate_ID>0</MapperUpdate_ID> 
+  <Expression_ID>15</Expression_ID> 
+  <Development_Expression>J3Jlc3BvbnNlJw==</Development_Expression> 
+  <Deployment_Expression></Deployment_Expression>
+  <Expression_Return_Attribute>A</Expression_Return_Attribute> 
+  <Range_String></Range_String>  
+  <Direction_InOrOut>I</Direction_InOrOut> 
+  <DeploymentGenerated>0</DeploymentGenerated> 
+  <ExpressionPath>PCE/U3RlcD8hPg0KPCE/VGFiPyE+TG9nZ2luZzwhP1RhYj8hPg0KPCE/Q1RSTmFtZT8hPkxvZ1N0cmluZ01zZ18wMDAxPCE/Q1RSTmFtZT8hPg0KPCE/U3RlcD8hPg==</ExpressionPath> 
+  <isCopyIndication>False</isCopyIndication> 
+ </Expression_TableComp>
+ <Expression_TableComp>
+  <Object_ID>2</Object_ID> 
+  <BP_ID>2</BP_ID> 
+  <Flow_ID>18</Flow_ID> 
+  <StepTrigger_ID>2</StepTrigger_ID> 
+  <Is_Trigger>0</Is_Trigger> 
+  <SubStep_ID>0</SubStep_ID> 
+  <MapperUpdate_ID>0</MapperUpdate_ID> 
+  <Expression_ID>16</Expression_ID> 
+  <Development_Expression>PCMhJUAkPmdldFZhck5hbWUoMiwnMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDA3JywwLDApPCMhJUAkPg==</Development_Expression> 
+  <Deployment_Expression></Deployment_Expression>
+  <Expression_Return_Attribute>A</Expression_Return_Attribute> 
+  <Range_String></Range_String>  
+  <Direction_InOrOut>I</Direction_InOrOut> 
+  <DeploymentGenerated>0</DeploymentGenerated> 
+  <ExpressionPath>PCE/U3RlcD8hPg0KPCE/VGFiPyE+TG9nZ2luZzwhP1RhYj8hPg0KPCE/Q1RSTmFtZT8hPkxvZ0JMT0JfMDAwMTwhP0NUUk5hbWU/IT4NCjwhP1N0ZXA/IT4=</ExpressionPath> 
+  <isCopyIndication>False</isCopyIndication> 
+ </Expression_TableComp>
+ <Expression_TableComp>
+  <Object_ID>2</Object_ID> 
+  <BP_ID>2</BP_ID> 
+  <Flow_ID>18</Flow_ID> 
+  <StepTrigger_ID>2</StepTrigger_ID> 
+  <Is_Trigger>1</Is_Trigger> 
+  <SubStep_ID>0</SubStep_ID> 
+  <MapperUpdate_ID>0</MapperUpdate_ID> 
+  <Expression_ID>127</Expression_ID> 
+  <Development_Expression>PCMhJUAkPmdldFZhck5hbWUoMSwnezMwMDcxMUFBLURGMjctNDhGRS04QTA2LThBRDk5Rjg5NjRCMH0nLDAsMCk8IyElQCQ+</Development_Expression> 
+  <Deployment_Expression></Deployment_Expression>
+  <Expression_Return_Attribute>A</Expression_Return_Attribute> 
+  <Range_String></Range_String>  
+  <Direction_InOrOut>I</Direction_InOrOut> 
+  <DeploymentGenerated>0</DeploymentGenerated> 
+  <ExpressionPath>PCE/VHJpZ2dlcj8hPg0KPCE/Q29uZmlnPyE+DQo8IT9JRD8hPjM8IT9JRD8hPg0KPCE/Q1RSTmFtZT8hPlZfUGFyYW1ldGVyVmFyaWFibGVFeHByZXNzaW9uPCE/Q1RSTmFtZT8hPg0KPCE/Q29uZmlnPyE+DQo8IT9UcmlnZ2VyPyE+</ExpressionPath> 
+  <isCopyIndication>False</isCopyIndication> 
+ </Expression_TableComp>
+ <Expression_TableComp>
+  <Object_ID>2</Object_ID> 
+  <BP_ID>2</BP_ID> 
+  <Flow_ID>18</Flow_ID> 
+  <StepTrigger_ID>2</StepTrigger_ID> 
+  <Is_Trigger>1</Is_Trigger> 
+  <SubStep_ID>0</SubStep_ID> 
+  <MapperUpdate_ID>0</MapperUpdate_ID> 
+  <Expression_ID>132</Expression_ID> 
+  <Development_Expression>PCMhJUAkPmdldFZhck5hbWUoMSwne0I2QjM0QzMzLTYyOTctNDFDMi1BQzdBLUQ4N0E0QURBNEU4Qn0nLDAsMCk8IyElQCQ+</Development_Expression> 
+  <Deployment_Expression></Deployment_Expression>
+  <Expression_Return_Attribute>A</Expression_Return_Attribute> 
+  <Range_String></Range_String>  
+  <Direction_InOrOut>O</Direction_InOrOut> 
+  <DeploymentGenerated>0</DeploymentGenerated> 
+  <ExpressionPath>PCE/VHJpZ2dlcj8hPg0KPCE/Q29uZmlnPyE+DQo8IT9JRD8hPjQ8IT9JRD8hPg0KPCE/Q1RSTmFtZT8hPlZfUGFyYW1ldGVyVmFyaWFibGVFeHByZXNzaW9uPCE/Q1RSTmFtZT8hPg0KPCE/Q29uZmlnPyE+DQo8IT9UcmlnZ2VyPyE+</ExpressionPath> 
+  <isCopyIndication>False</isCopyIndication> 
+ </Expression_TableComp>
+ <Expression_TableComp>
+  <Object_ID>2</Object_ID> 
+  <BP_ID>2</BP_ID> 
+  <Flow_ID>18</Flow_ID> 
+  <StepTrigger_ID>2</StepTrigger_ID> 
+  <Is_Trigger>1</Is_Trigger> 
+  <SubStep_ID>0</SubStep_ID> 
+  <MapperUpdate_ID>0</MapperUpdate_ID> 
+  <Expression_ID>133</Expression_ID> 
+  <Development_Expression>PCMhJUAkPmdldFZhck5hbWUoMSwnezVGMDdGMTYwLUI2Q0QtNEI5RC05M0RDLTE5M0UyNkMwMDI1N30nLDAsMCk8IyElQCQ+</Development_Expression> 
+  <Deployment_Expression></Deployment_Expression>
+  <Expression_Return_Attribute>A</Expression_Return_Attribute> 
+  <Range_String></Range_String>  
+  <Direction_InOrOut>I</Direction_InOrOut> 
+  <DeploymentGenerated>0</DeploymentGenerated> 
+  <ExpressionPath>PCE/VHJpZ2dlcj8hPg0KPCE/Q29uZmlnPyE+DQo8IT9JRD8hPjA8IT9JRD8hPg0KPCE/Q1RSTmFtZT8hPkJVVF9SZXR1cm4gRmF1bHQ8IT9DVFJOYW1lPyE+DQo8IT9Db25maWc/IT4NCjwhP1RyaWdnZXI/IT4=</ExpressionPath> 
+  <isCopyIndication>False</isCopyIndication> 
+ </Expression_TableComp>
+ <Expression_TableComp>
+  <Object_ID>2</Object_ID> 
+  <BP_ID>2</BP_ID> 
+  <Flow_ID>18</Flow_ID> 
+  <StepTrigger_ID>4</StepTrigger_ID> 
+  <Is_Trigger>0</Is_Trigger> 
+  <SubStep_ID>3</SubStep_ID> 
+  <MapperUpdate_ID>0</MapperUpdate_ID> 
+  <Expression_ID>83</Expression_ID> 
+  <Development_Expression>PCMhJUAkPmdldFZhck5hbWUoMiwnMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDA3JywwLDApPCMhJUAkPg==</Development_Expression> 
+  <Deployment_Expression></Deployment_Expression>
+  <Expression_Return_Attribute>B</Expression_Return_Attribute> 
+  <Range_String></Range_String>  
+  <Direction_InOrOut>I</Direction_InOrOut> 
+  <DeploymentGenerated>0</DeploymentGenerated> 
+  <ExpressionPath>PCE/TWFwcGVyPyE+IDwhP01hcHBlcj8hPjwhP1NjaGVtYT8hPjwhP0lEPyE+MzwhP0lEPyE+PCE/TmFtZT8hPkdldEl0ZW1NYXN0ZXJCeTJuZEl0ZW1SZXN1bHQ8IT9OYW1lPyE+PCE/UHJvcGVydGllcz8hPjwhP0NUUk5hbWU/IT5CLUJyb3dzZSBEYXRhU3JjLi4uXzAwMDE8IT9DVFJOYW1lPyE+PCE/UHJvcGVydGllcz8hPjwhP1NjaGVtYT8hPg==</ExpressionPath> 
+  <isCopyIndication>False</isCopyIndication> 
+ </Expression_TableComp>
+ <Expression_TableComp>
+  <Object_ID>2</Object_ID> 
+  <BP_ID>2</BP_ID> 
+  <Flow_ID>18</Flow_ID> 
+  <StepTrigger_ID>4</StepTrigger_ID> 
+  <Is_Trigger>0</Is_Trigger> 
+  <SubStep_ID>4</SubStep_ID> 
+  <MapperUpdate_ID>0</MapperUpdate_ID> 
+  <Expression_ID>84</Expression_ID> 
+  <Development_Expression>PCMhJUAkPmdldFZhck5hbWUoMSwne0NDNUQxMTM4LTVBREQtNEJDRS1CNURGLTczNDYyQjAzOTZDRX0nLDAsMCk8IyElQCQ+</Development_Expression> 
+  <Deployment_Expression></Deployment_Expression>
+  <Expression_Return_Attribute>B</Expression_Return_Attribute> 
+  <Range_String></Range_String>  
+  <Direction_InOrOut>O</Direction_InOrOut> 
+  <DeploymentGenerated>0</DeploymentGenerated> 
+  <ExpressionPath>PCE/TWFwcGVyPyE+IDwhP01hcHBlcj8hPjwhP1NjaGVtYT8hPjwhP0lEPyE+NDwhP0lEPyE+PCE/TmFtZT8hPk1hcEZsYXRGaWxlPCE/TmFtZT8hPjwhP1Byb3BlcnRpZXM/IT48IT9DVFJOYW1lPyE+Qi1Ccm93c2UgRGF0YVNyYy4uLl8wMDAxPCE/Q1RSTmFtZT8hPjwhP1Byb3BlcnRpZXM/IT48IT9TY2hlbWE/IT4=</ExpressionPath> 
+  <isCopyIndication>False</isCopyIndication> 
+ </Expression_TableComp>
+ <Expression_TableComp>
+  <Object_ID>2</Object_ID> 
+  <BP_ID>2</BP_ID> 
+  <Flow_ID>18</Flow_ID> 
+  <StepTrigger_ID>4</StepTrigger_ID> 
+  <Is_Trigger>0</Is_Trigger> 
+  <SubStep_ID>4</SubStep_ID> 
+  <MapperUpdate_ID>0</MapperUpdate_ID> 
+  <Expression_ID>97</Expression_ID> 
+  <Development_Expression>PCMhJUAkPmdldFZhck5hbWUoMSwne0Q1MUI5NkVFLTAxQTUtNDJBRi1BNjVDLUI0QUI5NkVDQjIwNX0nLDAsMCk8IyElQCQ+</Development_Expression> 
+  <Deployment_Expression></Deployment_Expression>
+  <Expression_Return_Attribute>N</Expression_Return_Attribute> 
+  <Range_String></Range_String>  
+  <Direction_InOrOut>I</Direction_InOrOut> 
+  <DeploymentGenerated>0</DeploymentGenerated> 
+  <ExpressionPath>PCE/TWFwcGVyPyE+IDwhP01hcHBlcj8hPjwhP1NjaGVtYT8hPjwhP0lEPyE+NDwhP0lEPyE+PCE/TmFtZT8hPkQxPCE/TmFtZT8hPjwhP05vZGVVcGRhdGU/IT48IT9QYXRoPyE+RGVzdGluYXRpb24vUzQvUmVjb3JkPCE/UGF0aD8hPjwhP0xpbmU/IT48IT9JRD8hPjE8IT9JRD8hPjwhP05hbWU/IT5GLkxldmVsPCE/TmFtZT8hPjwhP0xpbmU/IT48IT9DVFJOYW1lPyE+VmFyaWFibGUgbmFtZTwhP0NUUk5hbWU/IT48IT9Ob2RlVXBkYXRlPyE+PCE/U2NoZW1hPyE+</ExpressionPath> 
+  <isCopyIndication>False</isCopyIndication> 
+ </Expression_TableComp>
+ <Expression_TableComp>
+  <Object_ID>2</Object_ID> 
+  <BP_ID>2</BP_ID> 
+  <Flow_ID>18</Flow_ID> 
+  <StepTrigger_ID>4</StepTrigger_ID> 
+  <Is_Trigger>0</Is_Trigger> 
+  <SubStep_ID>4</SubStep_ID> 
+  <MapperUpdate_ID>0</MapperUpdate_ID> 
+  <Expression_ID>98</Expression_ID> 
+  <Development_Expression>PEAjJCElPmdldE5vZGVQYXRoKDEpPEAjJCElPg==</Development_Expression> 
+  <Deployment_Expression></Deployment_Expression>
+  <Expression_Return_Attribute>N</Expression_Return_Attribute> 
+  <Range_String></Range_String>  
+  <Direction_InOrOut>I</Direction_InOrOut> 
+  <DeploymentGenerated>0</DeploymentGenerated> 
+  <ExpressionPath>PCE/TWFwcGVyPyE+IDwhP01hcHBlcj8hPjwhP1NjaGVtYT8hPjwhP0lEPyE+NDwhP0lEPyE+PCE/TmFtZT8hPkQxPCE/TmFtZT8hPjwhP05vZGVVcGRhdGU/IT48IT9QYXRoPyE+RGVzdGluYXRpb24vUzQvUmVjb3JkPCE/UGF0aD8hPjwhP0xpbmU/IT48IT9JRD8hPjE8IT9JRD8hPjwhP05hbWU/IT5GLkxldmVsPCE/TmFtZT8hPjwhP0xpbmU/IT48IT9DVFJOYW1lPyE+VXBkYXRlRXhwcmVzc2lvbjwhP0NUUk5hbWU/IT48IT9Ob2RlVXBkYXRlPyE+PCE/U2NoZW1hPyE+</ExpressionPath> 
+  <isCopyIndication>False</isCopyIndication> 
+ </Expression_TableComp>
+ <Expression_TableComp>
+  <Object_ID>2</Object_ID> 
+  <BP_ID>2</BP_ID> 
+  <Flow_ID>18</Flow_ID> 
+  <StepTrigger_ID>4</StepTrigger_ID> 
+  <Is_Trigger>0</Is_Trigger> 
+  <SubStep_ID>4</SubStep_ID> 
+  <MapperUpdate_ID>0</MapperUpdate_ID> 
+  <Expression_ID>99</Expression_ID> 
+  <Development_Expression>PCMhJUAkPmdldFZhck5hbWUoMSwne0Q1MUI5NkVFLTAxQTUtNDJBRi1BNjVDLUI0QUI5NkVDQjIwNX0nLDAsMCk8IyElQCQ+IDw+MQ==</Development_Expression> 
+  <Deployment_Expression></Deployment_Expression>
+  <Expression_Return_Attribute>L</Expression_Return_Attribute> 
+  <Range_String></Range_String>  
+  <Direction_InOrOut>I</Direction_InOrOut> 
+  <DeploymentGenerated>0</DeploymentGenerated> 
+  <ExpressionPath>PCE/TWFwcGVyPyE+IDwhP01hcHBlcj8hPjwhP1NjaGVtYT8hPjwhP0lEPyE+NDwhP0lEPyE+PCE/TmFtZT8hPkQxPCE/TmFtZT8hPjwhP05vZGVVcGRhdGU/IT48IT9QYXRoPyE+RGVzdGluYXRpb24vUzQvUmVjb3JkPCE/UGF0aD8hPjwhP0xpbmU/IT48IT9JRD8hPjE8IT9JRD8hPjwhP05hbWU/IT5GLkxldmVsPCE/TmFtZT8hPjwhP0xpbmU/IT48IT9DVFJOYW1lPyE+Q29uZGl0aW9uPCE/Q1RSTmFtZT8hPjwhP05vZGVVcGRhdGU/IT48IT9TY2hlbWE/IT4=</ExpressionPath> 
+  <isCopyIndication>False</isCopyIndication> 
+ </Expression_TableComp>
+ <Expression_TableComp>
+  <Object_ID>2</Object_ID> 
+  <BP_ID>2</BP_ID> 
+  <Flow_ID>18</Flow_ID> 
+  <StepTrigger_ID>4</StepTrigger_ID> 
+  <Is_Trigger>0</Is_Trigger> 
+  <SubStep_ID>5</SubStep_ID> 
+  <MapperUpdate_ID>0</MapperUpdate_ID> 
+  <Expression_ID>105</Expression_ID> 
+  <Development_Expression>PCMhJUAkPmdldFZhck5hbWUoMiwnMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDA3JywwLDApPCMhJUAkPg==</Development_Expression> 
+  <Deployment_Expression></Deployment_Expression>
+  <Expression_Return_Attribute>B</Expression_Return_Attribute> 
+  <Range_String></Range_String>  
+  <Direction_InOrOut>O</Direction_InOrOut> 
+  <DeploymentGenerated>0</DeploymentGenerated> 
+  <ExpressionPath>PCE/TWFwcGVyPyE+IDwhP01hcHBlcj8hPjwhP1NjaGVtYT8hPjwhP0lEPyE+NTwhP0lEPyE+PCE/TmFtZT8hPkQyPCE/TmFtZT8hPjwhP1Byb3BlcnRpZXM/IT48IT9DVFJOYW1lPyE+VGFyZ2V0IFNjaGVtYSBOYW1lPCE/Q1RSTmFtZT8hPjwhP1Byb3BlcnRpZXM/IT48IT9TY2hlbWE/IT4=</ExpressionPath> 
+  <isCopyIndication>False</isCopyIndication> 
+ </Expression_TableComp>
+ <Expression_TableComp>
+  <Object_ID>2</Object_ID> 
+  <BP_ID>2</BP_ID> 
+  <Flow_ID>18</Flow_ID> 
+  <StepTrigger_ID>6</StepTrigger_ID> 
+  <Is_Trigger>0</Is_Trigger> 
+  <SubStep_ID>0</SubStep_ID> 
+  <MapperUpdate_ID>0</MapperUpdate_ID> 
+  <Expression_ID>100</Expression_ID> 
+  <Development_Expression>J0NhbGMgQXZhaWxhYmlsaXR5IFNrdSB3YXJuaW5nIGxldmVsOicgJiBTdHIoIDwjISVAJD5nZXRWYXJOYW1lKDEsJ3tENTFCOTZFRS0wMUE1LTQyQUYtQTY1Qy1CNEFCOTZFQ0IyMDV9JywwLDApPCMhJUAkPiAsJyMnKSAmICcgRGVzYzonICYgPCMhJUAkPmdldFZhck5hbWUoMSwnezI5MkZFRkFGLTFGNTItNEQxNS04NkJCLUI5MTZDQTcwMjMwMX0nLDAsMCk8IyElQCQ+</Development_Expression> 
+  <Deployment_Expression></Deployment_Expression>
+  <Expression_Return_Attribute>A</Expression_Return_Attribute> 
+  <Range_String></Range_String>  
+  <Direction_InOrOut>I</Direction_InOrOut> 
+  <DeploymentGenerated>0</DeploymentGenerated> 
+  <ExpressionPath>PCE/U3RlcD8hPg0KPCE/Q29uZmlnPyE+DQo8IT9DVFJOYW1lPyE+Ql9NU0cgc3RyaW5nXzAwMDI8IT9DVFJOYW1lPyE+DQo8IT9Db25maWc/IT4NCjwhP1N0ZXA/IT4NCg==</ExpressionPath> 
+  <isCopyIndication>False</isCopyIndication> 
+ </Expression_TableComp>
+ <Expression_TableComp>
+  <Object_ID>2</Object_ID> 
+  <BP_ID>2</BP_ID> 
+  <Flow_ID>18</Flow_ID> 
+  <StepTrigger_ID>6</StepTrigger_ID> 
+  <Is_Trigger>0</Is_Trigger> 
+  <SubStep_ID>5</SubStep_ID> 
+  <MapperUpdate_ID>0</MapperUpdate_ID> 
+  <Expression_ID>106</Expression_ID> 
+  <Development_Expression>PCMhJUAkPmdldFZhck5hbWUoMSwne0Q1MUI5NkVFLTAxQTUtNDJBRi1BNjVDLUI0QUI5NkVDQjIwNX0nLDAsMCk8IyElQCQ+ID4gMQ==</Development_Expression> 
+  <Deployment_Expression></Deployment_Expression>
+  <Expression_Return_Attribute>L</Expression_Return_Attribute> 
+  <Range_String></Range_String>  
+  <Direction_InOrOut>I</Direction_InOrOut> 
+  <DeploymentGenerated>0</DeploymentGenerated> 
+  <ExpressionPath>PCE/U3RlcENvbmRpdGlvbj8hPg==</ExpressionPath> 
+  <isCopyIndication>False</isCopyIndication> 
+ </Expression_TableComp>
+ <Expression_TableComp>
+  <Object_ID>2</Object_ID> 
+  <BP_ID>2</BP_ID> 
+  <Flow_ID>18</Flow_ID> 
+  <StepTrigger_ID>6</StepTrigger_ID> 
+  <Is_Trigger>0</Is_Trigger> 
+  <SubStep_ID>0</SubStep_ID> 
+  <MapperUpdate_ID>0</MapperUpdate_ID> 
+  <Expression_ID>107</Expression_ID> 
+  <Development_Expression>PCMhJUAkPmdldFZhck5hbWUoMSwne0NDNUQxMTM4LTVBREQtNEJDRS1CNURGLTczNDYyQjAzOTZDRX0nLDAsMCk8IyElQCQ+</Development_Expression> 
+  <Deployment_Expression></Deployment_Expression>
+  <Expression_Return_Attribute>A</Expression_Return_Attribute> 
+  <Range_String></Range_String>  
+  <Direction_InOrOut>I</Direction_InOrOut> 
+  <DeploymentGenerated>0</DeploymentGenerated> 
+  <ExpressionPath>PCE/U3RlcD8hPg0KPCE/Q29uZmlnPyE+DQo8IT9DVFJOYW1lPyE+Ql9NU0cgYmxvYiBWYXJfMDAwMTwhP0NUUk5hbWU/IT4NCjwhP0NvbmZpZz8hPg0KPCE/U3RlcD8hPg0K</ExpressionPath> 
+  <isCopyIndication>False</isCopyIndication> 
+ </Expression_TableComp>
+ <Expression_TableComp>
+  <Object_ID>2</Object_ID> 
+  <BP_ID>2</BP_ID> 
+  <Flow_ID>18</Flow_ID> 
+  <StepTrigger_ID>8</StepTrigger_ID> 
+  <Is_Trigger>0</Is_Trigger> 
+  <SubStep_ID>0</SubStep_ID> 
+  <MapperUpdate_ID>0</MapperUpdate_ID> 
+  <Expression_ID>102</Expression_ID> 
+  <Development_Expression>J1NrdSBGb3VuZCAtIFN1Y2Nlc3Mn</Development_Expression> 
+  <Deployment_Expression></Deployment_Expression>
+  <Expression_Return_Attribute>A</Expression_Return_Attribute> 
+  <Range_String></Range_String>  
+  <Direction_InOrOut>I</Direction_InOrOut> 
+  <DeploymentGenerated>0</DeploymentGenerated> 
+  <ExpressionPath>PCE/U3RlcD8hPg0KPCE/Q29uZmlnPyE+DQo8IT9DVFJOYW1lPyE+Ql9NU0cgc3RyaW5nXzAwMDI8IT9DVFJOYW1lPyE+DQo8IT9Db25maWc/IT4NCjwhP1N0ZXA/IT4NCg==</ExpressionPath> 
+  <isCopyIndication>False</isCopyIndication> 
+ </Expression_TableComp>
+ <Expression_TableComp>
+  <Object_ID>2</Object_ID> 
+  <BP_ID>2</BP_ID> 
+  <Flow_ID>18</Flow_ID> 
+  <StepTrigger_ID>8</StepTrigger_ID> 
+  <Is_Trigger>0</Is_Trigger> 
+  <SubStep_ID>7</SubStep_ID> 
+  <MapperUpdate_ID>0</MapperUpdate_ID> 
+  <Expression_ID>104</Expression_ID> 
+  <Development_Expression>SVNOVUxMKCA8IyElQCQ+Z2V0VmFyTmFtZSgxLCd7Q0M1RDExMzgtNUFERC00QkNFLUI1REYtNzM0NjJCMDM5NkNFfScsMCwwKTwjISVAJD4gKQ==</Development_Expression> 
+  <Deployment_Expression></Deployment_Expression>
+  <Expression_Return_Attribute>L</Expression_Return_Attribute> 
+  <Range_String></Range_String>  
+  <Direction_InOrOut>I</Direction_InOrOut> 
+  <DeploymentGenerated>0</DeploymentGenerated> 
+  <ExpressionPath>PCE/U3RlcENvbmRpdGlvbj8hPg==</ExpressionPath> 
+  <isCopyIndication>False</isCopyIndication> 
+ </Expression_TableComp>
+ <Expression_TableComp>
+  <Object_ID>2</Object_ID> 
+  <BP_ID>2</BP_ID> 
+  <Flow_ID>18</Flow_ID> 
+  <StepTrigger_ID>9</StepTrigger_ID> 
+  <Is_Trigger>0</Is_Trigger> 
+  <SubStep_ID>0</SubStep_ID> 
+  <MapperUpdate_ID>0</MapperUpdate_ID> 
+  <Expression_ID>1</Expression_ID> 
+  <Development_Expression>PCMhJUAkPmdldFZhck5hbWUoMiwnMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDA3JywwLDApPCMhJUAkPg==</Development_Expression> 
+  <Deployment_Expression></Deployment_Expression>
+  <Expression_Return_Attribute>B</Expression_Return_Attribute> 
+  <Range_String></Range_String>  
+  <Direction_InOrOut>O</Direction_InOrOut> 
+  <DeploymentGenerated>0</DeploymentGenerated> 
+  <ExpressionPath>PCE/U3RlcD8hPg0KPCE/Q29uZmlnPyE+DQo8IT9DVFJOYW1lPyE+Vl9EZXYgRXhwcmVzaW9uPCE/Q1RSTmFtZT8hPg0KPCE/Q29uZmlnPyE+DQo8IT9TdGVwPyE+DQo=</ExpressionPath> 
+  <isCopyIndication>False</isCopyIndication> 
+ </Expression_TableComp>
+ <Expression_TableComp>
+  <Object_ID>2</Object_ID> 
+  <BP_ID>2</BP_ID> 
+  <Flow_ID>18</Flow_ID> 
+  <StepTrigger_ID>9</StepTrigger_ID> 
+  <Is_Trigger>0</Is_Trigger> 
+  <SubStep_ID>3</SubStep_ID> 
+  <MapperUpdate_ID>0</MapperUpdate_ID> 
+  <Expression_ID>2</Expression_ID> 
+  <Development_Expression>PCMhJUAkPmdldFZhck5hbWUoMiwnMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDA4JywwLDApPCMhJUAkPg==</Development_Expression> 
+  <Deployment_Expression></Deployment_Expression>
+  <Expression_Return_Attribute>B</Expression_Return_Attribute> 
+  <Range_String></Range_String>  
+  <Direction_InOrOut>O</Direction_InOrOut> 
+  <DeploymentGenerated>0</DeploymentGenerated> 
+  <ExpressionPath>PCE/TWFwcGVyPyE+PCE/TWFwcGVyPyE+DQo8IT9TY2hlbWE/IT4NCjwhP0lEPyE+MzwhP0lEPyE+DQo8IT9OYW1lPyE+SUZDX0pEX0Vkd2FyZHM8IT9OYW1lPyE+DQo8IT9Qcm9wZXJ0aWVzPyE+DQo8IT9DVFJOYW1lPyE+Qi1Ccm93c2UgRGF0YVNyYy4uLl8wMDAxPCE/Q1RSTmFtZT8hPg0KPCE/UHJvcGVydGllcz8hPg0KPCE/U2NoZW1hPyE+</ExpressionPath> 
+  <isCopyIndication>False</isCopyIndication> 
+ </Expression_TableComp>
+ <Expression_TableComp>
+  <Object_ID>2</Object_ID> 
+  <BP_ID>2</BP_ID> 
+  <Flow_ID>18</Flow_ID> 
+  <StepTrigger_ID>9</StepTrigger_ID> 
+  <Is_Trigger>0</Is_Trigger> 
+  <SubStep_ID>4</SubStep_ID> 
+  <MapperUpdate_ID>0</MapperUpdate_ID> 
+  <Expression_ID>5</Expression_ID> 
+  <Development_Expression>PCMhJUAkPmdldFZhck5hbWUoMiwnMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDA3JywwLDApPCMhJUAkPg==</Development_Expression> 
+  <Deployment_Expression></Deployment_Expression>
+  <Expression_Return_Attribute>B</Expression_Return_Attribute> 
+  <Range_String></Range_String>  
+  <Direction_InOrOut>I</Direction_InOrOut> 
+  <DeploymentGenerated>0</DeploymentGenerated> 
+  <ExpressionPath>PCE/TWFwcGVyPyE+IDwhP01hcHBlcj8hPjwhP1NjaGVtYT8hPjwhP0lEPyE+NDwhP0lEPyE+PCE/TmFtZT8hPlMxPCE/TmFtZT8hPjwhP1Byb3BlcnRpZXM/IT48IT9DVFJOYW1lPyE+Qi1Ccm93c2UgRGF0YVNyYy4uLl8wMDAxPCE/Q1RSTmFtZT8hPjwhP1Byb3BlcnRpZXM/IT48IT9TY2hlbWE/IT4=</ExpressionPath> 
+  <isCopyIndication>False</isCopyIndication> 
+ </Expression_TableComp>
+ <Expression_TableComp>
+  <Object_ID>2</Object_ID> 
+  <BP_ID>2</BP_ID> 
+  <Flow_ID>18</Flow_ID> 
+  <StepTrigger_ID>9</StepTrigger_ID> 
+  <Is_Trigger>0</Is_Trigger> 
+  <SubStep_ID>3</SubStep_ID> 
+  <MapperUpdate_ID>0</MapperUpdate_ID> 
+  <Expression_ID>6</Expression_ID> 
+  <Development_Expression>UmlnaHQgKEZpbGwgKCcgJywxMikmIDwjISVAJD5nZXRWYXJOYW1lKDQsJ3s1RDlFNTYyRS05RUJFLTRCM0YtQjIzNy1BMzg5QTE4QjRBMjB9JywwLDApPCMhJUAkPiAsMTIp</Development_Expression> 
+  <Deployment_Expression></Deployment_Expression>
+  <Expression_Return_Attribute>A</Expression_Return_Attribute> 
+  <Range_String></Range_String>  
+  <Direction_InOrOut>I</Direction_InOrOut> 
+  <DeploymentGenerated>0</DeploymentGenerated> 
+  <ExpressionPath>PCE/TWFwcGVyPyE+IDwhP01hcHBlcj8hPjwhP1NjaGVtYT8hPjwhP0lEPyE+MzwhP0lEPyE+PCE/TmFtZT8hPklGQ19KRF9FZHdhcmRzPCE/TmFtZT8hPjwhP05vZGU/IT48IT9QYXRoPyE+RGVzdGluYXRpb24vUzMvQjQxMDEyMjAuQ2FsY3VsYXRlQXZhaWxhYmlsaXR5L0RhdGEvcm93L3N6QnJhbmNoUGxhbnQ8IT9QYXRoPyE+PCE/Q1RSTmFtZT8hPlZfY2FsYyB2YWx1ZV8wMDAxPCE/Q1RSTmFtZT8hPjwhP05vZGU/IT48IT9TY2hlbWE/IT4=</ExpressionPath> 
+  <isCopyIndication>False</isCopyIndication> 
+ </Expression_TableComp>
+ <Expression_TableComp>
+  <Object_ID>2</Object_ID> 
+  <BP_ID>2</BP_ID> 
+  <Flow_ID>18</Flow_ID> 
+  <StepTrigger_ID>9</StepTrigger_ID> 
+  <Is_Trigger>0</Is_Trigger> 
+  <SubStep_ID>3</SubStep_ID> 
+  <MapperUpdate_ID>0</MapperUpdate_ID> 
+  <Expression_ID>7</Expression_ID> 
+  <Development_Expression>JzEn</Development_Expression> 
+  <Deployment_Expression></Deployment_Expression>
+  <Expression_Return_Attribute>A</Expression_Return_Attribute> 
+  <Range_String></Range_String>  
+  <Direction_InOrOut>I</Direction_InOrOut> 
+  <DeploymentGenerated>0</DeploymentGenerated> 
+  <ExpressionPath>PCE/TWFwcGVyPyE+IDwhP01hcHBlcj8hPjwhP1NjaGVtYT8hPjwhP0lEPyE+MzwhP0lEPyE+PCE/TmFtZT8hPklGQ19KRF9FZHdhcmRzPCE/TmFtZT8hPjwhP05vZGU/IT48IT9QYXRoPyE+RGVzdGluYXRpb24vUzMvQjQxMDEyMjAuQ2FsY3VsYXRlQXZhaWxhYmlsaXR5L0RhdGEvcm93L21uSW5kZXg8IT9QYXRoPyE+PCE/Q1RSTmFtZT8hPlZfY2FsYyB2YWx1ZV8wMDAxPCE/Q1RSTmFtZT8hPjwhP05vZGU/IT48IT9TY2hlbWE/IT4=</ExpressionPath> 
+  <isCopyIndication>False</isCopyIndication> 
+ </Expression_TableComp>
+ <Expression_TableComp>
+  <Object_ID>2</Object_ID> 
+  <BP_ID>2</BP_ID> 
+  <Flow_ID>18</Flow_ID> 
+  <StepTrigger_ID>9</StepTrigger_ID> 
+  <Is_Trigger>0</Is_Trigger> 
+  <SubStep_ID>3</SubStep_ID> 
+  <MapperUpdate_ID>0</MapperUpdate_ID> 
+  <Expression_ID>8</Expression_ID> 
+  <Development_Expression>JzIn</Development_Expression> 
+  <Deployment_Expression></Deployment_Expression>
+  <Expression_Return_Attribute>A</Expression_Return_Attribute> 
+  <Range_String></Range_String>  
+  <Direction_InOrOut>I</Direction_InOrOut> 
+  <DeploymentGenerated>0</DeploymentGenerated> 
+  <ExpressionPath>PCE/TWFwcGVyPyE+IDwhP01hcHBlcj8hPjwhP1NjaGVtYT8hPjwhP0lEPyE+MzwhP0lEPyE+PCE/TmFtZT8hPklGQ19KRF9FZHdhcmRzPCE/TmFtZT8hPjwhP05vZGU/IT48IT9QYXRoPyE+RGVzdGluYXRpb24vUzMvQjQxMDEyMjAuQ2FsY3VsYXRlQXZhaWxhYmlsaXR5L0RhdGEvcm93L21uS2V5czwhP1BhdGg/IT48IT9DVFJOYW1lPyE+Vl9jYWxjIHZhbHVlXzAwMDE8IT9DVFJOYW1lPyE+PCE/Tm9kZT8hPjwhP1NjaGVtYT8hPg==</ExpressionPath> 
+  <isCopyIndication>False</isCopyIndication> 
+ </Expression_TableComp>
+ <Expression_TableComp>
+  <Object_ID>2</Object_ID> 
+  <BP_ID>2</BP_ID> 
+  <Flow_ID>18</Flow_ID> 
+  <StepTrigger_ID>9</StepTrigger_ID> 
+  <Is_Trigger>0</Is_Trigger> 
+  <SubStep_ID>0</SubStep_ID> 
+  <MapperUpdate_ID>0</MapperUpdate_ID> 
+  <Expression_ID>17</Expression_ID> 
+  <Development_Expression>J3JldHVybic=</Development_Expression> 
+  <Deployment_Expression></Deployment_Expression>
+  <Expression_Return_Attribute>A</Expression_Return_Attribute> 
+  <Range_String></Range_String>  
+  <Direction_InOrOut>I</Direction_InOrOut> 
+  <DeploymentGenerated>0</DeploymentGenerated> 
+  <ExpressionPath>PCE/U3RlcD8hPg0KPCE/VGFiPyE+TG9nZ2luZzwhP1RhYj8hPg0KPCE/Q1RSTmFtZT8hPkxvZ1N0cmluZ01zZ18wMDAxPCE/Q1RSTmFtZT8hPg0KPCE/U3RlcD8hPg==</ExpressionPath> 
+  <isCopyIndication>False</isCopyIndication> 
+ </Expression_TableComp>
+ <Expression_TableComp>
+  <Object_ID>2</Object_ID> 
+  <BP_ID>2</BP_ID> 
+  <Flow_ID>18</Flow_ID> 
+  <StepTrigger_ID>9</StepTrigger_ID> 
+  <Is_Trigger>0</Is_Trigger> 
+  <SubStep_ID>0</SubStep_ID> 
+  <MapperUpdate_ID>0</MapperUpdate_ID> 
+  <Expression_ID>18</Expression_ID> 
+  <Development_Expression>PCMhJUAkPmdldFZhck5hbWUoMiwnMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDA3JywwLDApPCMhJUAkPg==</Development_Expression> 
+  <Deployment_Expression></Deployment_Expression>
+  <Expression_Return_Attribute>A</Expression_Return_Attribute> 
+  <Range_String></Range_String>  
+  <Direction_InOrOut>I</Direction_InOrOut> 
+  <DeploymentGenerated>0</DeploymentGenerated> 
+  <ExpressionPath>PCE/U3RlcD8hPg0KPCE/VGFiPyE+TG9nZ2luZzwhP1RhYj8hPg0KPCE/Q1RSTmFtZT8hPkxvZ0JMT0JfMDAwMTwhP0NUUk5hbWU/IT4NCjwhP1N0ZXA/IT4=</ExpressionPath> 
+  <isCopyIndication>False</isCopyIndication> 
+ </Expression_TableComp>
+ <Expression_TableComp>
+  <Object_ID>2</Object_ID> 
+  <BP_ID>2</BP_ID> 
+  <Flow_ID>18</Flow_ID> 
+  <StepTrigger_ID>10</StepTrigger_ID> 
+  <Is_Trigger>0</Is_Trigger> 
+  <SubStep_ID>3</SubStep_ID> 
+  <MapperUpdate_ID>0</MapperUpdate_ID> 
+  <Expression_ID>9</Expression_ID> 
+  <Development_Expression>PCMhJUAkPmdldFZhck5hbWUoMiwnMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDA3JywwLDApPCMhJUAkPg==</Development_Expression> 
+  <Deployment_Expression></Deployment_Expression>
+  <Expression_Return_Attribute>B</Expression_Return_Attribute> 
+  <Range_String></Range_String>  
+  <Direction_InOrOut>I</Direction_InOrOut> 
+  <DeploymentGenerated>0</DeploymentGenerated> 
+  <ExpressionPath>PCE/TWFwcGVyPyE+IDwhP01hcHBlcj8hPjwhP1NjaGVtYT8hPjwhP0lEPyE+MzwhP0lEPyE+PCE/TmFtZT8hPlMxPCE/TmFtZT8hPjwhP1Byb3BlcnRpZXM/IT48IT9DVFJOYW1lPyE+Qi1Ccm93c2UgRGF0YVNyYy4uLl8wMDAxPCE/Q1RSTmFtZT8hPjwhP1Byb3BlcnRpZXM/IT48IT9TY2hlbWE/IT4=</ExpressionPath> 
+  <isCopyIndication>False</isCopyIndication> 
+ </Expression_TableComp>
+ <Expression_TableComp>
+  <Object_ID>2</Object_ID> 
+  <BP_ID>2</BP_ID> 
+  <Flow_ID>18</Flow_ID> 
+  <StepTrigger_ID>10</StepTrigger_ID> 
+  <Is_Trigger>0</Is_Trigger> 
+  <SubStep_ID>4</SubStep_ID> 
+  <MapperUpdate_ID>0</MapperUpdate_ID> 
+  <Expression_ID>11</Expression_ID> 
+  <Development_Expression>PCMhJUAkPmdldFZhck5hbWUoMiwnMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDA3JywwLDApPCMhJUAkPg==</Development_Expression> 
+  <Deployment_Expression></Deployment_Expression>
+  <Expression_Return_Attribute>B</Expression_Return_Attribute> 
+  <Range_String></Range_String>  
+  <Direction_InOrOut>O</Direction_InOrOut> 
+  <DeploymentGenerated>0</DeploymentGenerated> 
+  <ExpressionPath>PCE/TWFwcGVyPyE+IDwhP01hcHBlcj8hPjwhP1NjaGVtYT8hPjwhP0lEPyE+NDwhP0lEPyE+PCE/TmFtZT8hPkQxPCE/TmFtZT8hPjwhP1Byb3BlcnRpZXM/IT48IT9DVFJOYW1lPyE+VGFyZ2V0IFNjaGVtYSBOYW1lPCE/Q1RSTmFtZT8hPjwhP1Byb3BlcnRpZXM/IT48IT9TY2hlbWE/IT4=</ExpressionPath> 
+  <isCopyIndication>False</isCopyIndication> 
+ </Expression_TableComp>
+ <Expression_TableComp>
+  <Object_ID>2</Object_ID> 
+  <BP_ID>2</BP_ID> 
+  <Flow_ID>18</Flow_ID> 
+  <StepTrigger_ID>10</StepTrigger_ID> 
+  <Is_Trigger>0</Is_Trigger> 
+  <SubStep_ID>5</SubStep_ID> 
+  <MapperUpdate_ID>0</MapperUpdate_ID> 
+  <Expression_ID>136</Expression_ID> 
+  <Development_Expression>PCMhJUAkPmdldFZhck5hbWUoMSwnezlDOEE4RjRBLUI0MzUtNDVEOS1BOEU0LTA0QTI4Q0FGRDhERH0nLDAsMCk8IyElQCQ+</Development_Expression> 
+  <Deployment_Expression></Deployment_Expression>
+  <Expression_Return_Attribute>B</Expression_Return_Attribute> 
+  <Range_String></Range_String>  
+  <Direction_InOrOut>O</Direction_InOrOut> 
+  <DeploymentGenerated>0</DeploymentGenerated> 
+  <ExpressionPath>PCE/TWFwcGVyPyE+IDwhP01hcHBlcj8hPjwhP1NjaGVtYT8hPjwhP0lEPyE+NTwhP0lEPyE+PCE/TmFtZT8hPlF0eUVycm9yTWVzc2FnZXM8IT9OYW1lPyE+PCE/UHJvcGVydGllcz8hPjwhP0NUUk5hbWU/IT5CLUJyb3dzZSBEYXRhU3JjLi4uXzAwMDE8IT9DVFJOYW1lPyE+PCE/UHJvcGVydGllcz8hPjwhP1NjaGVtYT8hPg==</ExpressionPath> 
+  <isCopyIndication>False</isCopyIndication> 
+ </Expression_TableComp>
+ <Expression_TableComp>
+  <Object_ID>2</Object_ID> 
+  <BP_ID>2</BP_ID> 
+  <Flow_ID>18</Flow_ID> 
+  <StepTrigger_ID>10</StepTrigger_ID> 
+  <Is_Trigger>0</Is_Trigger> 
+  <SubStep_ID>6</SubStep_ID> 
+  <MapperUpdate_ID>0</MapperUpdate_ID> 
+  <Expression_ID>137</Expression_ID> 
+  <Development_Expression>PCMhJUAkPmdldFZhck5hbWUoMiwnMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDA3JywwLDApPCMhJUAkPg==</Development_Expression> 
+  <Deployment_Expression></Deployment_Expression>
+  <Expression_Return_Attribute>B</Expression_Return_Attribute> 
+  <Range_String></Range_String>  
+  <Direction_InOrOut>I</Direction_InOrOut> 
+  <DeploymentGenerated>0</DeploymentGenerated> 
+  <ExpressionPath>PCE/TWFwcGVyPyE+IDwhP01hcHBlcj8hPjwhP1NjaGVtYT8hPjwhP0lEPyE+NjwhP0lEPyE+PCE/TmFtZT8hPlMyPCE/TmFtZT8hPjwhP1Byb3BlcnRpZXM/IT48IT9DVFJOYW1lPyE+Qi1Ccm93c2UgRGF0YVNyYy4uLl8wMDAxPCE/Q1RSTmFtZT8hPjwhP1Byb3BlcnRpZXM/IT48IT9TY2hlbWE/IT4=</ExpressionPath> 
+  <isCopyIndication>False</isCopyIndication> 
+ </Expression_TableComp>
+ <Expression_TableComp>
+  <Object_ID>2</Object_ID> 
+  <BP_ID>2</BP_ID> 
+  <Flow_ID>18</Flow_ID> 
+  <StepTrigger_ID>10</StepTrigger_ID> 
+  <Is_Trigger>0</Is_Trigger> 
+  <SubStep_ID>7</SubStep_ID> 
+  <MapperUpdate_ID>0</MapperUpdate_ID> 
+  <Expression_ID>139</Expression_ID> 
+  <Development_Expression>PCMhJUAkPmdldFZhck5hbWUoMiwnMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDA3JywwLDApPCMhJUAkPg==</Development_Expression> 
+  <Deployment_Expression></Deployment_Expression>
+  <Expression_Return_Attribute>B</Expression_Return_Attribute> 
+  <Range_String></Range_String>  
+  <Direction_InOrOut>O</Direction_InOrOut> 
+  <DeploymentGenerated>0</DeploymentGenerated> 
+  <ExpressionPath>PCE/TWFwcGVyPyE+IDwhP01hcHBlcj8hPjwhP1NjaGVtYT8hPjwhP0lEPyE+NzwhP0lEPyE+PCE/TmFtZT8hPkQxPCE/TmFtZT8hPjwhP1Byb3BlcnRpZXM/IT48IT9DVFJOYW1lPyE+VGFyZ2V0IFNjaGVtYSBOYW1lPCE/Q1RSTmFtZT8hPjwhP1Byb3BlcnRpZXM/IT48IT9TY2hlbWE/IT4=</ExpressionPath> 
+  <isCopyIndication>False</isCopyIndication> 
+ </Expression_TableComp>
+ <Expression_TableComp>
+  <Object_ID>2</Object_ID> 
+  <BP_ID>2</BP_ID> 
+  <Flow_ID>18</Flow_ID> 
+  <StepTrigger_ID>15</StepTrigger_ID> 
+  <Is_Trigger>0</Is_Trigger> 
+  <SubStep_ID>0</SubStep_ID> 
+  <MapperUpdate_ID>0</MapperUpdate_ID> 
+  <Expression_ID>101</Expression_ID> 
+  <Development_Expression>J0NhbGMgQXZhaWxhYmlsaXR5IFNrdSBmYWlsZWQgbGV2ZWw6JyAmIFN0ciggPCMhJUAkPmdldFZhck5hbWUoMSwne0Q1MUI5NkVFLTAxQTUtNDJBRi1BNjVDLUI0QUI5NkVDQjIwNX0nLDAsMCk8IyElQCQ+ICwnIycpICYgJyBEZXNjOicgJiA8IyElQCQ+Z2V0VmFyTmFtZSgxLCd7MjkyRkVGQUYtMUY1Mi00RDE1LTg2QkItQjkxNkNBNzAyMzAxfScsMCwwKTwjISVAJD4=</Development_Expression> 
+  <Deployment_Expression></Deployment_Expression>
+  <Expression_Return_Attribute>A</Expression_Return_Attribute> 
+  <Range_String></Range_String>  
+  <Direction_InOrOut>I</Direction_InOrOut> 
+  <DeploymentGenerated>0</DeploymentGenerated> 
+  <ExpressionPath>PCE/U3RlcD8hPg0KPCE/Q29uZmlnPyE+DQo8IT9DVFJOYW1lPyE+Ql9NU0cgc3RyaW5nXzAwMDI8IT9DVFJOYW1lPyE+DQo8IT9Db25maWc/IT4NCjwhP1N0ZXA/IT4NCg==</ExpressionPath> 
+  <isCopyIndication>False</isCopyIndication> 
+ </Expression_TableComp>
+ <Expression_TableComp>
+  <Object_ID>2</Object_ID> 
+  <BP_ID>2</BP_ID> 
+  <Flow_ID>18</Flow_ID> 
+  <StepTrigger_ID>15</StepTrigger_ID> 
+  <Is_Trigger>0</Is_Trigger> 
+  <SubStep_ID>0</SubStep_ID> 
+  <MapperUpdate_ID>0</MapperUpdate_ID> 
+  <Expression_ID>108</Expression_ID> 
+  <Development_Expression>PCMhJUAkPmdldFZhck5hbWUoMSwne0NDNUQxMTM4LTVBREQtNEJDRS1CNURGLTczNDYyQjAzOTZDRX0nLDAsMCk8IyElQCQ+</Development_Expression> 
+  <Deployment_Expression></Deployment_Expression>
+  <Expression_Return_Attribute>A</Expression_Return_Attribute> 
+  <Range_String></Range_String>  
+  <Direction_InOrOut>I</Direction_InOrOut> 
+  <DeploymentGenerated>0</DeploymentGenerated> 
+  <ExpressionPath>PCE/U3RlcD8hPg0KPCE/Q29uZmlnPyE+DQo8IT9DVFJOYW1lPyE+Ql9NU0cgYmxvYiBWYXJfMDAwMTwhP0NUUk5hbWU/IT4NCjwhP0NvbmZpZz8hPg0KPCE/U3RlcD8hPg0K</ExpressionPath> 
+  <isCopyIndication>False</isCopyIndication> 
+ </Expression_TableComp>
+ <Expression_TableComp>
+  <Object_ID>2</Object_ID> 
+  <BP_ID>2</BP_ID> 
+  <Flow_ID>18</Flow_ID> 
+  <StepTrigger_ID>15</StepTrigger_ID> 
+  <Is_Trigger>0</Is_Trigger> 
+  <SubStep_ID>19</SubStep_ID> 
+  <MapperUpdate_ID>0</MapperUpdate_ID> 
+  <Expression_ID>109</Expression_ID> 
+  <Development_Expression>PCMhJUAkPmdldFZhck5hbWUoMSwne0Q1MUI5NkVFLTAxQTUtNDJBRi1BNjVDLUI0QUI5NkVDQjIwNX0nLDAsMCk8IyElQCQ+ID0gMQ==</Development_Expression> 
+  <Deployment_Expression></Deployment_Expression>
+  <Expression_Return_Attribute>L</Expression_Return_Attribute> 
+  <Range_String></Range_String>  
+  <Direction_InOrOut>I</Direction_InOrOut> 
+  <DeploymentGenerated>0</DeploymentGenerated> 
+  <ExpressionPath>PCE/U3RlcENvbmRpdGlvbj8hPg==</ExpressionPath> 
+  <isCopyIndication>False</isCopyIndication> 
+ </Expression_TableComp>
+ <Expression_TableComp>
+  <Object_ID>2</Object_ID> 
+  <BP_ID>2</BP_ID> 
+  <Flow_ID>18</Flow_ID> 
+  <StepTrigger_ID>18</StepTrigger_ID> 
+  <Is_Trigger>0</Is_Trigger> 
+  <SubStep_ID>0</SubStep_ID> 
+  <MapperUpdate_ID>0</MapperUpdate_ID> 
+  <Expression_ID>130</Expression_ID> 
+  <Development_Expression>PCMhJUAkPmdldFZhck5hbWUoMSwnezVGMDdGMTYwLUI2Q0QtNEI5RC05M0RDLTE5M0UyNkMwMDI1N30nLDAsMCk8IyElQCQ+</Development_Expression> 
+  <Deployment_Expression></Deployment_Expression>
+  <Expression_Return_Attribute>A</Expression_Return_Attribute> 
+  <Range_String></Range_String>  
+  <Direction_InOrOut>N</Direction_InOrOut> 
+  <DeploymentGenerated>0</DeploymentGenerated> 
+  <ExpressionPath>PCE/U3RlcD8hPg0KPCE/SUQ/IT4xPCE/SUQ/IT4NCjwhP0NUUk5hbWU/IT5CX05hbWUgU2VsZWN0ICguLi4pXzAwMDE8IT9DVFJOYW1lPyE+DQo8IT9TdGVwPyE+</ExpressionPath> 
+  <isCopyIndication>False</isCopyIndication> 
+ </Expression_TableComp>
+ <Expression_TableComp>
+  <Object_ID>2</Object_ID> 
+  <BP_ID>2</BP_ID> 
+  <Flow_ID>18</Flow_ID> 
+  <StepTrigger_ID>18</StepTrigger_ID> 
+  <Is_Trigger>0</Is_Trigger> 
+  <SubStep_ID>0</SubStep_ID> 
+  <MapperUpdate_ID>0</MapperUpdate_ID> 
+  <Expression_ID>131</Expression_ID> 
+  <Development_Expression>J1NrdTonICYgPCMhJUAkPmdldFZhck5hbWUoMSwnezI5MkZFRkFGLTFGNTItNEQxNS04NkJCLUI5MTZDQTcwMjMwMX0nLDAsMCk8IyElQCQ+</Development_Expression> 
+  <Deployment_Expression></Deployment_Expression>
+  <Expression_Return_Attribute>A</Expression_Return_Attribute> 
+  <Range_String></Range_String>  
+  <Direction_InOrOut>I</Direction_InOrOut> 
+  <DeploymentGenerated>0</DeploymentGenerated> 
+  <ExpressionPath>PCE/U3RlcD8hPg0KPCE/SUQ/IT4xPCE/SUQ/IT4NCjwhP0NUUk5hbWU/IT51cGRhdGUgZXhwcmVzc2lvbjwhP0NUUk5hbWU/IT4NCjwhP1N0ZXA/IT4=</ExpressionPath> 
+  <isCopyIndication>False</isCopyIndication> 
+ </Expression_TableComp>
+ <Expression_TableComp>
+  <Object_ID>2</Object_ID> 
+  <BP_ID>2</BP_ID> 
+  <Flow_ID>18</Flow_ID> 
+  <StepTrigger_ID>18</StepTrigger_ID> 
+  <Is_Trigger>0</Is_Trigger> 
+  <SubStep_ID>0</SubStep_ID> 
+  <MapperUpdate_ID>0</MapperUpdate_ID> 
+  <Expression_ID>134</Expression_ID> 
+  <Development_Expression>PCMhJUAkPmdldFZhck5hbWUoMSwnezMwMDcxMUFBLURGMjctNDhGRS04QTA2LThBRDk5Rjg5NjRCMH0nLDAsMCk8IyElQCQ+</Development_Expression> 
+  <Deployment_Expression></Deployment_Expression>
+  <Expression_Return_Attribute>A</Expression_Return_Attribute> 
+  <Range_String></Range_String>  
+  <Direction_InOrOut>N</Direction_InOrOut> 
+  <DeploymentGenerated>0</DeploymentGenerated> 
+  <ExpressionPath>PCE/U3RlcD8hPg0KPCE/SUQ/IT4yPCE/SUQ/IT4NCjwhP0NUUk5hbWU/IT5CX05hbWUgU2VsZWN0ICguLi4pXzAwMDE8IT9DVFJOYW1lPyE+DQo8IT9TdGVwPyE+</ExpressionPath> 
+  <isCopyIndication>False</isCopyIndication> 
+ </Expression_TableComp>
+ <Expression_TableComp>
+  <Object_ID>2</Object_ID> 
+  <BP_ID>2</BP_ID> 
+  <Flow_ID>18</Flow_ID> 
+  <StepTrigger_ID>18</StepTrigger_ID> 
+  <Is_Trigger>0</Is_Trigger> 
+  <SubStep_ID>0</SubStep_ID> 
+  <MapperUpdate_ID>0</MapperUpdate_ID> 
+  <Expression_ID>135</Expression_ID> 
+  <Development_Expression>Jy0xJw==</Development_Expression> 
+  <Deployment_Expression></Deployment_Expression>
+  <Expression_Return_Attribute>A</Expression_Return_Attribute> 
+  <Range_String></Range_String>  
+  <Direction_InOrOut>I</Direction_InOrOut> 
+  <DeploymentGenerated>0</DeploymentGenerated> 
+  <ExpressionPath>PCE/U3RlcD8hPg0KPCE/SUQ/IT4yPCE/SUQ/IT4NCjwhP0NUUk5hbWU/IT51cGRhdGUgZXhwcmVzc2lvbjwhP0NUUk5hbWU/IT4NCjwhP1N0ZXA/IT4=</ExpressionPath> 
+  <isCopyIndication>False</isCopyIndication> 
+ </Expression_TableComp>
+ <Expression_TableComp>
+  <Object_ID>2</Object_ID> 
+  <BP_ID>2</BP_ID> 
+  <Flow_ID>18</Flow_ID> 
+  <StepTrigger_ID>19</StepTrigger_ID> 
+  <Is_Trigger>0</Is_Trigger> 
+  <SubStep_ID>0</SubStep_ID> 
+  <MapperUpdate_ID>0</MapperUpdate_ID> 
+  <Expression_ID>130</Expression_ID> 
+  <Development_Expression>PCMhJUAkPmdldFZhck5hbWUoMSwnezVGMDdGMTYwLUI2Q0QtNEI5RC05M0RDLTE5M0UyNkMwMDI1N30nLDAsMCk8IyElQCQ+</Development_Expression> 
+  <Deployment_Expression></Deployment_Expression>
+  <Expression_Return_Attribute>A</Expression_Return_Attribute> 
+  <Range_String></Range_String>  
+  <Direction_InOrOut>N</Direction_InOrOut> 
+  <DeploymentGenerated>0</DeploymentGenerated> 
+  <ExpressionPath>PCE/U3RlcD8hPg0KPCE/SUQ/IT4xPCE/SUQ/IT4NCjwhP0NUUk5hbWU/IT5CX05hbWUgU2VsZWN0ICguLi4pXzAwMDE8IT9DVFJOYW1lPyE+DQo8IT9TdGVwPyE+</ExpressionPath> 
+  <isCopyIndication>False</isCopyIndication> 
+ </Expression_TableComp>
+ <Expression_TableComp>
+  <Object_ID>2</Object_ID> 
+  <BP_ID>2</BP_ID> 
+  <Flow_ID>18</Flow_ID> 
+  <StepTrigger_ID>19</StepTrigger_ID> 
+  <Is_Trigger>0</Is_Trigger> 
+  <SubStep_ID>0</SubStep_ID> 
+  <MapperUpdate_ID>0</MapperUpdate_ID> 
+  <Expression_ID>131</Expression_ID> 
+  <Development_Expression>J1NrdTonICYgPCMhJUAkPmdldFZhck5hbWUoMSwnezI5MkZFRkFGLTFGNTItNEQxNS04NkJCLUI5MTZDQTcwMjMwMX0nLDAsMCk8IyElQCQ+</Development_Expression> 
+  <Deployment_Expression></Deployment_Expression>
+  <Expression_Return_Attribute>A</Expression_Return_Attribute> 
+  <Range_String></Range_String>  
+  <Direction_InOrOut>I</Direction_InOrOut> 
+  <DeploymentGenerated>0</DeploymentGenerated> 
+  <ExpressionPath>PCE/U3RlcD8hPg0KPCE/SUQ/IT4xPCE/SUQ/IT4NCjwhP0NUUk5hbWU/IT51cGRhdGUgZXhwcmVzc2lvbjwhP0NUUk5hbWU/IT4NCjwhP1N0ZXA/IT4=</ExpressionPath> 
+  <isCopyIndication>False</isCopyIndication> 
+ </Expression_TableComp>
+ <Expression_TableComp>
+  <Object_ID>2</Object_ID> 
+  <BP_ID>2</BP_ID> 
+  <Flow_ID>18</Flow_ID> 
+  <StepTrigger_ID>22</StepTrigger_ID> 
+  <Is_Trigger>0</Is_Trigger> 
+  <SubStep_ID>0</SubStep_ID> 
+  <MapperUpdate_ID>0</MapperUpdate_ID> 
+  <Expression_ID>100</Expression_ID> 
+  <Development_Expression>J0NhbGMgQXZhaWxhYmlsaXR5IFNrdSB3YXJuaW5nIGxldmVsOicgJiBTdHIoIDwjISVAJD5nZXRWYXJOYW1lKDEsJ3tENTFCOTZFRS0wMUE1LTQyQUYtQTY1Qy1CNEFCOTZFQ0IyMDV9JywwLDApPCMhJUAkPiAsJyMnKSAmICcgRGVzYzonICYgPCMhJUAkPmdldFZhck5hbWUoMSwnezI5MkZFRkFGLTFGNTItNEQxNS04NkJCLUI5MTZDQTcwMjMwMX0nLDAsMCk8IyElQCQ+</Development_Expression> 
+  <Deployment_Expression></Deployment_Expression>
+  <Expression_Return_Attribute>A</Expression_Return_Attribute> 
+  <Range_String></Range_String>  
+  <Direction_InOrOut>I</Direction_InOrOut> 
+  <DeploymentGenerated>0</DeploymentGenerated> 
+  <ExpressionPath>PCE/U3RlcD8hPg0KPCE/Q29uZmlnPyE+DQo8IT9DVFJOYW1lPyE+Ql9NU0cgc3RyaW5nXzAwMDI8IT9DVFJOYW1lPyE+DQo8IT9Db25maWc/IT4NCjwhP1N0ZXA/IT4NCg==</ExpressionPath> 
+  <isCopyIndication>False</isCopyIndication> 
+ </Expression_TableComp>
+ <Expression_TableComp>
+  <Object_ID>2</Object_ID> 
+  <BP_ID>2</BP_ID> 
+  <Flow_ID>18</Flow_ID> 
+  <StepTrigger_ID>22</StepTrigger_ID> 
+  <Is_Trigger>0</Is_Trigger> 
+  <SubStep_ID>0</SubStep_ID> 
+  <MapperUpdate_ID>0</MapperUpdate_ID> 
+  <Expression_ID>107</Expression_ID> 
+  <Development_Expression>PCMhJUAkPmdldFZhck5hbWUoMSwne0NDNUQxMTM4LTVBREQtNEJDRS1CNURGLTczNDYyQjAzOTZDRX0nLDAsMCk8IyElQCQ+</Development_Expression> 
+  <Deployment_Expression></Deployment_Expression>
+  <Expression_Return_Attribute>A</Expression_Return_Attribute> 
+  <Range_String></Range_String>  
+  <Direction_InOrOut>I</Direction_InOrOut> 
+  <DeploymentGenerated>0</DeploymentGenerated> 
+  <ExpressionPath>PCE/U3RlcD8hPg0KPCE/Q29uZmlnPyE+DQo8IT9DVFJOYW1lPyE+Ql9NU0cgYmxvYiBWYXJfMDAwMTwhP0NUUk5hbWU/IT4NCjwhP0NvbmZpZz8hPg0KPCE/U3RlcD8hPg0K</ExpressionPath> 
+  <isCopyIndication>False</isCopyIndication> 
+ </Expression_TableComp>
+ <Expression_TableComp>
+  <Object_ID>2</Object_ID> 
+  <BP_ID>2</BP_ID> 
+  <Flow_ID>18</Flow_ID> 
+  <StepTrigger_ID>22</StepTrigger_ID> 
+  <Is_Trigger>0</Is_Trigger> 
+  <SubStep_ID>29</SubStep_ID> 
+  <MapperUpdate_ID>0</MapperUpdate_ID> 
+  <Expression_ID>109</Expression_ID> 
+  <Development_Expression>PCMhJUAkPmdldFZhck5hbWUoMSwnezIyQzYxQTQ3LTNGMTgtNEUyNi1COTU3LTNBNkIyMDhEN0QxQ30nLDAsMCk8IyElQCQ+ID4gMQ==</Development_Expression> 
+  <Deployment_Expression></Deployment_Expression>
+  <Expression_Return_Attribute>L</Expression_Return_Attribute> 
+  <Range_String></Range_String>  
+  <Direction_InOrOut>I</Direction_InOrOut> 
+  <DeploymentGenerated>0</DeploymentGenerated> 
+  <ExpressionPath>PCE/U3RlcENvbmRpdGlvbj8hPg==</ExpressionPath> 
+  <isCopyIndication>False</isCopyIndication> 
+ </Expression_TableComp>
+ <Expression_TableComp>
+  <Object_ID>2</Object_ID> 
+  <BP_ID>2</BP_ID> 
+  <Flow_ID>18</Flow_ID> 
+  <StepTrigger_ID>23</StepTrigger_ID> 
+  <Is_Trigger>0</Is_Trigger> 
+  <SubStep_ID>0</SubStep_ID> 
+  <MapperUpdate_ID>0</MapperUpdate_ID> 
+  <Expression_ID>130</Expression_ID> 
+  <Development_Expression>PCMhJUAkPmdldFZhck5hbWUoMSwnezVGMDdGMTYwLUI2Q0QtNEI5RC05M0RDLTE5M0UyNkMwMDI1N30nLDAsMCk8IyElQCQ+</Development_Expression> 
+  <Deployment_Expression></Deployment_Expression>
+  <Expression_Return_Attribute>A</Expression_Return_Attribute> 
+  <Range_String></Range_String>  
+  <Direction_InOrOut>N</Direction_InOrOut> 
+  <DeploymentGenerated>0</DeploymentGenerated> 
+  <ExpressionPath>PCE/U3RlcD8hPg0KPCE/SUQ/IT4xPCE/SUQ/IT4NCjwhP0NUUk5hbWU/IT5CX05hbWUgU2VsZWN0ICguLi4pXzAwMDE8IT9DVFJOYW1lPyE+DQo8IT9TdGVwPyE+</ExpressionPath> 
+  <isCopyIndication>False</isCopyIndication> 
+ </Expression_TableComp>
+ <Expression_TableComp>
+  <Object_ID>2</Object_ID> 
+  <BP_ID>2</BP_ID> 
+  <Flow_ID>18</Flow_ID> 
+  <StepTrigger_ID>23</StepTrigger_ID> 
+  <Is_Trigger>0</Is_Trigger> 
+  <SubStep_ID>0</SubStep_ID> 
+  <MapperUpdate_ID>0</MapperUpdate_ID> 
+  <Expression_ID>131</Expression_ID> 
+  <Development_Expression>PCMhJUAkPmdldFZhck5hbWUoMSwnezVGMDdGMTYwLUI2Q0QtNEI5RC05M0RDLTE5M0UyNkMwMDI1N30nLDAsMCk8IyElQCQ+ICYgJyBRdHk6JyAmIDwjISVAJD5nZXRWYXJOYW1lKDEsJ3syRTlCMDMwNi1DODhFLTQ1NTEtQTE0OS1BMkY2NTA1RjU5RUF9JywwLDApPCMhJUAkPg==</Development_Expression> 
+  <Deployment_Expression></Deployment_Expression>
+  <Expression_Return_Attribute>A</Expression_Return_Attribute> 
+  <Range_String></Range_String>  
+  <Direction_InOrOut>I</Direction_InOrOut> 
+  <DeploymentGenerated>0</DeploymentGenerated> 
+  <ExpressionPath>PCE/U3RlcD8hPg0KPCE/SUQ/IT4xPCE/SUQ/IT4NCjwhP0NUUk5hbWU/IT51cGRhdGUgZXhwcmVzc2lvbjwhP0NUUk5hbWU/IT4NCjwhP1N0ZXA/IT4=</ExpressionPath> 
+  <isCopyIndication>False</isCopyIndication> 
+ </Expression_TableComp>
+ <Expression_TableComp>
+  <Object_ID>2</Object_ID> 
+  <BP_ID>2</BP_ID> 
+  <Flow_ID>18</Flow_ID> 
+  <StepTrigger_ID>24</StepTrigger_ID> 
+  <Is_Trigger>0</Is_Trigger> 
+  <SubStep_ID>0</SubStep_ID> 
+  <MapperUpdate_ID>0</MapperUpdate_ID> 
+  <Expression_ID>102</Expression_ID> 
+  <Development_Expression>J1F0eSBGb3VuZCAtIFN1Y2Nlc3M6ICcgJiA8IyElQCQ+Z2V0VmFyTmFtZSgxLCd7MzAwNzExQUEtREYyNy00OEZFLThBMDYtOEFEOTlGODk2NEIwfScsMCwwKTwjISVAJD4gJiAnIGZvciBza3U6ICcgJiA8IyElQCQ+Z2V0VmFyTmFtZSgxLCd7QjZCMzRDMzMtNjI5Ny00MUMyLUFDN0EtRDg3QTRBREE0RThCfScsMCwwKTwjISVAJD4=</Development_Expression> 
+  <Deployment_Expression></Deployment_Expression>
+  <Expression_Return_Attribute>A</Expression_Return_Attribute> 
+  <Range_String></Range_String>  
+  <Direction_InOrOut>I</Direction_InOrOut> 
+  <DeploymentGenerated>0</DeploymentGenerated> 
+  <ExpressionPath>PCE/U3RlcD8hPg0KPCE/Q29uZmlnPyE+DQo8IT9DVFJOYW1lPyE+Ql9NU0cgc3RyaW5nXzAwMDI8IT9DVFJOYW1lPyE+DQo8IT9Db25maWc/IT4NCjwhP1N0ZXA/IT4NCg==</ExpressionPath> 
+  <isCopyIndication>False</isCopyIndication> 
+ </Expression_TableComp>
+ <Expression_TableComp>
+  <Object_ID>2</Object_ID> 
+  <BP_ID>2</BP_ID> 
+  <Flow_ID>18</Flow_ID> 
+  <StepTrigger_ID>24</StepTrigger_ID> 
+  <Is_Trigger>0</Is_Trigger> 
+  <SubStep_ID>32</SubStep_ID> 
+  <MapperUpdate_ID>0</MapperUpdate_ID> 
+  <Expression_ID>105</Expression_ID> 
+  <Development_Expression>SVNOVUxMKCA8IyElQCQ+Z2V0VmFyTmFtZSgxLCd7OUM4QThGNEEtQjQzNS00NUQ5LUE4RTQtMDRBMjhDQUZEOEREfScsMCwwKTwjISVAJD4gKQ==</Development_Expression> 
+  <Deployment_Expression></Deployment_Expression>
+  <Expression_Return_Attribute>L</Expression_Return_Attribute> 
+  <Range_String></Range_String>  
+  <Direction_InOrOut>I</Direction_InOrOut> 
+  <DeploymentGenerated>0</DeploymentGenerated> 
+  <ExpressionPath>PCE/U3RlcENvbmRpdGlvbj8hPg==</ExpressionPath> 
+  <isCopyIndication>False</isCopyIndication> 
+ </Expression_TableComp>
+ <Expression_TableComp>
+  <Object_ID>2</Object_ID> 
+  <BP_ID>2</BP_ID> 
+  <Flow_ID>18</Flow_ID> 
+  <StepTrigger_ID>25</StepTrigger_ID> 
+  <Is_Trigger>0</Is_Trigger> 
+  <SubStep_ID>0</SubStep_ID> 
+  <MapperUpdate_ID>0</MapperUpdate_ID> 
+  <Expression_ID>101</Expression_ID> 
+  <Development_Expression>J0NhbGMgQXZhaWxhYmlsaXR5IFNrdSBmYWlsZWQgbGV2ZWw6JyAmIFN0ciggPCMhJUAkPmdldFZhck5hbWUoMSwne0Q1MUI5NkVFLTAxQTUtNDJBRi1BNjVDLUI0QUI5NkVDQjIwNX0nLDAsMCk8IyElQCQ+ICwnIycpICYgJyBEZXNjOicgJiA8IyElQCQ+Z2V0VmFyTmFtZSgxLCd7MjkyRkVGQUYtMUY1Mi00RDE1LTg2QkItQjkxNkNBNzAyMzAxfScsMCwwKTwjISVAJD4=</Development_Expression> 
+  <Deployment_Expression></Deployment_Expression>
+  <Expression_Return_Attribute>A</Expression_Return_Attribute> 
+  <Range_String></Range_String>  
+  <Direction_InOrOut>I</Direction_InOrOut> 
+  <DeploymentGenerated>0</DeploymentGenerated> 
+  <ExpressionPath>PCE/U3RlcD8hPg0KPCE/Q29uZmlnPyE+DQo8IT9DVFJOYW1lPyE+Ql9NU0cgc3RyaW5nXzAwMDI8IT9DVFJOYW1lPyE+DQo8IT9Db25maWc/IT4NCjwhP1N0ZXA/IT4NCg==</ExpressionPath> 
+  <isCopyIndication>False</isCopyIndication> 
+ </Expression_TableComp>
+ <Expression_TableComp>
+  <Object_ID>2</Object_ID> 
+  <BP_ID>2</BP_ID> 
+  <Flow_ID>18</Flow_ID> 
+  <StepTrigger_ID>25</StepTrigger_ID> 
+  <Is_Trigger>0</Is_Trigger> 
+  <SubStep_ID>0</SubStep_ID> 
+  <MapperUpdate_ID>0</MapperUpdate_ID> 
+  <Expression_ID>108</Expression_ID> 
+  <Development_Expression>PCMhJUAkPmdldFZhck5hbWUoMSwne0NDNUQxMTM4LTVBREQtNEJDRS1CNURGLTczNDYyQjAzOTZDRX0nLDAsMCk8IyElQCQ+</Development_Expression> 
+  <Deployment_Expression></Deployment_Expression>
+  <Expression_Return_Attribute>A</Expression_Return_Attribute> 
+  <Range_String></Range_String>  
+  <Direction_InOrOut>I</Direction_InOrOut> 
+  <DeploymentGenerated>0</DeploymentGenerated> 
+  <ExpressionPath>PCE/U3RlcD8hPg0KPCE/Q29uZmlnPyE+DQo8IT9DVFJOYW1lPyE+Ql9NU0cgYmxvYiBWYXJfMDAwMTwhP0NUUk5hbWU/IT4NCjwhP0NvbmZpZz8hPg0KPCE/U3RlcD8hPg0K</ExpressionPath> 
+  <isCopyIndication>False</isCopyIndication> 
+ </Expression_TableComp>
+ <Expression_TableComp>
+  <Object_ID>2</Object_ID> 
+  <BP_ID>2</BP_ID> 
+  <Flow_ID>18</Flow_ID> 
+  <StepTrigger_ID>25</StepTrigger_ID> 
+  <Is_Trigger>0</Is_Trigger> 
+  <SubStep_ID>33</SubStep_ID> 
+  <MapperUpdate_ID>0</MapperUpdate_ID> 
+  <Expression_ID>110</Expression_ID> 
+  <Development_Expression>PCMhJUAkPmdldFZhck5hbWUoMSwnezIyQzYxQTQ3LTNGMTgtNEUyNi1COTU3LTNBNkIyMDhEN0QxQ30nLDAsMCk8IyElQCQ+ID0gMQ==</Development_Expression> 
+  <Deployment_Expression></Deployment_Expression>
+  <Expression_Return_Attribute>L</Expression_Return_Attribute> 
+  <Range_String></Range_String>  
+  <Direction_InOrOut>I</Direction_InOrOut> 
+  <DeploymentGenerated>0</DeploymentGenerated> 
+  <ExpressionPath>PCE/U3RlcENvbmRpdGlvbj8hPg==</ExpressionPath> 
+  <isCopyIndication>False</isCopyIndication> 
+ </Expression_TableComp>
+ <Expression_TableComp>
+  <Object_ID>2</Object_ID> 
+  <BP_ID>2</BP_ID> 
+  <Flow_ID>18</Flow_ID> 
+  <StepTrigger_ID>26</StepTrigger_ID> 
+  <Is_Trigger>0</Is_Trigger> 
+  <SubStep_ID>0</SubStep_ID> 
+  <MapperUpdate_ID>0</MapperUpdate_ID> 
+  <Expression_ID>130</Expression_ID> 
+  <Development_Expression>PCMhJUAkPmdldFZhck5hbWUoMSwnezVGMDdGMTYwLUI2Q0QtNEI5RC05M0RDLTE5M0UyNkMwMDI1N30nLDAsMCk8IyElQCQ+</Development_Expression> 
+  <Deployment_Expression></Deployment_Expression>
+  <Expression_Return_Attribute>A</Expression_Return_Attribute> 
+  <Range_String></Range_String>  
+  <Direction_InOrOut>N</Direction_InOrOut> 
+  <DeploymentGenerated>0</DeploymentGenerated> 
+  <ExpressionPath>PCE/U3RlcD8hPg0KPCE/SUQ/IT4xPCE/SUQ/IT4NCjwhP0NUUk5hbWU/IT5CX05hbWUgU2VsZWN0ICguLi4pXzAwMDE8IT9DVFJOYW1lPyE+DQo8IT9TdGVwPyE+</ExpressionPath> 
+  <isCopyIndication>False</isCopyIndication> 
+ </Expression_TableComp>
+ <Expression_TableComp>
+  <Object_ID>2</Object_ID> 
+  <BP_ID>2</BP_ID> 
+  <Flow_ID>18</Flow_ID> 
+  <StepTrigger_ID>26</StepTrigger_ID> 
+  <Is_Trigger>0</Is_Trigger> 
+  <SubStep_ID>0</SubStep_ID> 
+  <MapperUpdate_ID>0</MapperUpdate_ID> 
+  <Expression_ID>131</Expression_ID> 
+  <Development_Expression>PCMhJUAkPmdldFZhck5hbWUoMSwnezVGMDdGMTYwLUI2Q0QtNEI5RC05M0RDLTE5M0UyNkMwMDI1N30nLDAsMCk8IyElQCQ+ICYgJyBRdHk6JyAmIDwjISVAJD5nZXRWYXJOYW1lKDEsJ3syRTlCMDMwNi1DODhFLTQ1NTEtQTE0OS1BMkY2NTA1RjU5RUF9JywwLDApPCMhJUAkPg==</Development_Expression> 
+  <Deployment_Expression></Deployment_Expression>
+  <Expression_Return_Attribute>A</Expression_Return_Attribute> 
+  <Range_String></Range_String>  
+  <Direction_InOrOut>I</Direction_InOrOut> 
+  <DeploymentGenerated>0</DeploymentGenerated> 
+  <ExpressionPath>PCE/U3RlcD8hPg0KPCE/SUQ/IT4xPCE/SUQ/IT4NCjwhP0NUUk5hbWU/IT51cGRhdGUgZXhwcmVzc2lvbjwhP0NUUk5hbWU/IT4NCjwhP1N0ZXA/IT4=</ExpressionPath> 
+  <isCopyIndication>False</isCopyIndication> 
+ </Expression_TableComp>
+ <Expression_TableComp>
+  <Object_ID>2</Object_ID> 
+  <BP_ID>2</BP_ID> 
+  <Flow_ID>18</Flow_ID> 
+  <StepTrigger_ID>26</StepTrigger_ID> 
+  <Is_Trigger>0</Is_Trigger> 
+  <SubStep_ID>0</SubStep_ID> 
+  <MapperUpdate_ID>0</MapperUpdate_ID> 
+  <Expression_ID>134</Expression_ID> 
+  <Development_Expression>PCMhJUAkPmdldFZhck5hbWUoMSwnezMwMDcxMUFBLURGMjctNDhGRS04QTA2LThBRDk5Rjg5NjRCMH0nLDAsMCk8IyElQCQ+</Development_Expression> 
+  <Deployment_Expression></Deployment_Expression>
+  <Expression_Return_Attribute>A</Expression_Return_Attribute> 
+  <Range_String></Range_String>  
+  <Direction_InOrOut>N</Direction_InOrOut> 
+  <DeploymentGenerated>0</DeploymentGenerated> 
+  <ExpressionPath>PCE/U3RlcD8hPg0KPCE/SUQ/IT4yPCE/SUQ/IT4NCjwhP0NUUk5hbWU/IT5CX05hbWUgU2VsZWN0ICguLi4pXzAwMDE8IT9DVFJOYW1lPyE+DQo8IT9TdGVwPyE+</ExpressionPath> 
+  <isCopyIndication>False</isCopyIndication> 
+ </Expression_TableComp>
+ <Expression_TableComp>
+  <Object_ID>2</Object_ID> 
+  <BP_ID>2</BP_ID> 
+  <Flow_ID>18</Flow_ID> 
+  <StepTrigger_ID>26</StepTrigger_ID> 
+  <Is_Trigger>0</Is_Trigger> 
+  <SubStep_ID>0</SubStep_ID> 
+  <MapperUpdate_ID>0</MapperUpdate_ID> 
+  <Expression_ID>135</Expression_ID> 
+  <Development_Expression>Jy0xJw==</Development_Expression> 
+  <Deployment_Expression></Deployment_Expression>
+  <Expression_Return_Attribute>A</Expression_Return_Attribute> 
+  <Range_String></Range_String>  
+  <Direction_InOrOut>I</Direction_InOrOut> 
+  <DeploymentGenerated>0</DeploymentGenerated> 
+  <ExpressionPath>PCE/U3RlcD8hPg0KPCE/SUQ/IT4yPCE/SUQ/IT4NCjwhP0NUUk5hbWU/IT51cGRhdGUgZXhwcmVzc2lvbjwhP0NUUk5hbWU/IT4NCjwhP1N0ZXA/IT4=</ExpressionPath> 
+  <isCopyIndication>False</isCopyIndication> 
+ </Expression_TableComp>
+ </Struct_ExpressionTable>
+
+ <Struct_MapperElementData/>
+
+ <Struct_MapperExpressionID/>
+
+</Flows>

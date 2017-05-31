@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfElementInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ElementInfo>
+    <childQName xmlns:q1="http://oracle.e1.bssv.JP420000/">q1:SalesOrderManager_getCustomerItemPrice_In</childQName>
+  </ElementInfo>
+  <ElementInfo>
+    <parentQName xmlns:q2="http://oracle.e1.bssv.JP420000/">q2:SalesOrderManager_getCustomerItemPrice_In</parentQName>
+    <childQName xmlns:q3="http://oracle.e1.bssv.JP420000/">q3:request</childQName>
+  </ElementInfo>
+  <ElementInfo>
+    <parentQName xmlns:q4="http://oracle.e1.bssv.JP420000/">q4:request</parentQName>
+    <childQName xmlns:q5="http://schemas.datacontract.org/2004/07/">q5:getCustomerItemPrice</childQName>
+  </ElementInfo>
+  <ElementInfo>
+    <parentQName xmlns:q6="http://schemas.datacontract.org/2004/07/">q6:getCustomerItemPrice</parentQName>
+    <childQName xmlns:q7="http://oracle.e1.bssv.JP420000/">q7:agreementID</childQName>
+  </ElementInfo>
+  <ElementInfo>
+    <parentQName xmlns:q8="http://schemas.datacontract.org/2004/07/">q8:getCustomerItemPrice</parentQName>
+    <childQName xmlns:q9="http://oracle.e1.bssv.JP420000/">q9:businessUnit</childQName>
+  </ElementInfo>
+  <ElementInfo>
+    <parentQName xmlns:q10="http://schemas.datacontract.org/2004/07/">q10:getCustomerItemPrice</parentQName>
+    <childQName xmlns:q11="http://oracle.e1.bssv.JP420000/">q11:carrier</childQName>
+  </ElementInfo>
+  <ElementInfo>
+    <parentQName xmlns:q12="http://oracle.e1.bssv.JP420000/">q12:carrier</parentQName>
+    <childQName xmlns:q13="http://oracle.e1.bssv.JP420000/">q13:entityId</childQName>
+  </ElementInfo>
+  <ElementInfo>
+    <parentQName xmlns:q14="http://oracle.e1.bssv.JP420000/">q14:carrier</parentQName>
+    <childQName xmlns:q15="http://oracle.e1.bssv.JP420000/">q15:entityLongId</childQName>
+  </ElementInfo>
+  <ElementInfo>
+    <parentQName xmlns:q16="http://oracle.e1.bssv.JP420000/">q16:carrier</parentQName>
+    <childQName xmlns:q17="http://oracle.e1.bssv.JP420000/">q17:entityTaxId</childQName>
+  </ElementInfo>
+  <ElementInfo>
+    <parentQName xmlns:q18="http://schemas.datacontract.org/2004/07/">q18:getCustomerItemPrice</parentQName>
+    <childQName xmlns:q19="http://oracle.e1.bssv.JP420000/">q19:currencyCode</childQName>
+  </ElementInfo>
+  <ElementInfo>
+    <parentQName xmlns:q20="http://schemas.datacontract.org/2004/07/">q20:getCustomerItemPrice</parentQName>
+    <childQName xmlns:q21="http://oracle.e1.bssv.JP420000/">q21:customer</childQName>
+  </ElementInfo>
+  <ElementInfo>
+    <parentQName xmlns:q22="http://oracle.e1.bssv.JP420000/">q22:customer</parentQName>
+    <childQName xmlns:q23="http://oracle.e1.bssv.JP420000/">q23:shipTo</childQName>
+  </ElementInfo>
+  <ElementInfo>
+    <parentQName xmlns:q24="http://oracle.e1.bssv.JP420000/">q24:shipTo</parentQName>
+    <childQName xmlns:q25="http://oracle.e1.bssv.JP420000/">q25:entityId</childQName>
+  </ElementInfo>
+  <ElementInfo>
+    <parentQName xmlns:q26="http://oracle.e1.bssv.JP420000/">q26:shipTo</parentQName>
+    <childQName xmlns:q27="http://oracle.e1.bssv.JP420000/">q27:entityLongId</childQName>
+  </ElementInfo>
+  <ElementInfo>
+    <parentQName xmlns:q28="http://oracle.e1.bssv.JP420000/">q28:shipTo</parentQName>
+    <childQName xmlns:q29="http://oracle.e1.bssv.JP420000/">q29:entityTaxId</childQName>
+  </ElementInfo>
+  <ElementInfo>
+    <parentQName xmlns:q30="http://oracle.e1.bssv.JP420000/">q30:customer</parentQName>
+    <childQName xmlns:q31="http://oracle.e1.bssv.JP420000/">q31:soldTo</childQName>
+  </ElementInfo>
+  <ElementInfo>
+    <parentQName xmlns:q32="http://oracle.e1.bssv.JP420000/">q32:soldTo</parentQName>
+    <childQName xmlns:q33="http://oracle.e1.bssv.JP420000/">q33:entityId</childQName>
+  </ElementInfo>
+  <ElementInfo>
+    <parentQName xmlns:q34="http://oracle.e1.bssv.JP420000/">q34:soldTo</parentQName>
+    <childQName xmlns:q35="http://oracle.e1.bssv.JP420000/">q35:entityLongId</childQName>
+  </ElementInfo>
+  <ElementInfo>
+    <parentQName xmlns:q36="http://oracle.e1.bssv.JP420000/">q36:soldTo</parentQName>
+    <childQName xmlns:q37="http://oracle.e1.bssv.JP420000/">q37:entityTaxId</childQName>
+  </ElementInfo>
+  <ElementInfo>
+    <parentQName xmlns:q38="http://schemas.datacontract.org/2004/07/">q38:getCustomerItemPrice</parentQName>
+    <childQName xmlns:q39="http://oracle.e1.bssv.JP420000/">q39:customerPriceGroupCode</childQName>
+  </ElementInfo>
+  <ElementInfo>
+    <parentQName xmlns:q40="http://schemas.datacontract.org/2004/07/">q40:getCustomerItemPrice</parentQName>
+    <childQName xmlns:q41="http://oracle.e1.bssv.JP420000/">q41:datePriceEffective</childQName>
+  </ElementInfo>
+  <ElementInfo>
+    <parentQName xmlns:q42="http://schemas.datacontract.org/2004/07/">q42:getCustomerItemPrice</parentQName>
+    <childQName xmlns:q43="http://oracle.e1.bssv.JP420000/">q43:discountTrade</childQName>
+  </ElementInfo>
+  <ElementInfo>
+    <parentQName xmlns:q44="http://schemas.datacontract.org/2004/07/">q44:getCustomerItemPrice</parentQName>
+    <childQName xmlns:q45="http://oracle.e1.bssv.JP420000/">q45:endUseCode</childQName>
+  </ElementInfo>
+  <ElementInfo>
+    <parentQName xmlns:q46="http://schemas.datacontract.org/2004/07/">q46:getCustomerItemPrice</parentQName>
+    <childQName xmlns:q47="http://oracle.e1.bssv.JP420000/">q47:freightHandlingCode</childQName>
+  </ElementInfo>
+  <ElementInfo>
+    <parentQName xmlns:q48="http://schemas.datacontract.org/2004/07/">q48:getCustomerItemPrice</parentQName>
+    <childQName xmlns:q49="http://oracle.e1.bssv.JP420000/">q49:lineOfBusinessCode</childQName>
+  </ElementInfo>
+  <ElementInfo>
+    <parentQName xmlns:q50="http://schemas.datacontract.org/2004/07/">q50:getCustomerItemPrice</parentQName>
+    <childQName xmlns:q51="http://oracle.e1.bssv.JP420000/">q51:modeOfTransportCode</childQName>
+  </ElementInfo>
+  <ElementInfo>
+    <parentQName xmlns:q52="http://schemas.datacontract.org/2004/07/">q52:getCustomerItemPrice</parentQName>
+    <childQName xmlns:q53="http://oracle.e1.bssv.JP420000/">q53:paymentInstrumentCode</childQName>
+  </ElementInfo>
+  <ElementInfo>
+    <parentQName xmlns:q54="http://schemas.datacontract.org/2004/07/">q54:getCustomerItemPrice</parentQName>
+    <childQName xmlns:q55="http://oracle.e1.bssv.JP420000/">q55:paymentTermsCode</childQName>
+  </ElementInfo>
+  <ElementInfo>
+    <parentQName xmlns:q56="http://schemas.datacontract.org/2004/07/">q56:getCustomerItemPrice</parentQName>
+    <childQName xmlns:q57="http://oracle.e1.bssv.JP420000/">q57:priceAdjustmentId</childQName>
+  </ElementInfo>
+  <ElementInfo>
+    <parentQName xmlns:q58="http://schemas.datacontract.org/2004/07/">q58:getCustomerItemPrice</parentQName>
+    <childQName xmlns:q59="http://oracle.e1.bssv.JP420000/">q59:priceCode1</childQName>
+  </ElementInfo>
+  <ElementInfo>
+    <parentQName xmlns:q60="http://schemas.datacontract.org/2004/07/">q60:getCustomerItemPrice</parentQName>
+    <childQName xmlns:q61="http://oracle.e1.bssv.JP420000/">q61:priceCode2</childQName>
+  </ElementInfo>
+  <ElementInfo>
+    <parentQName xmlns:q62="http://schemas.datacontract.org/2004/07/">q62:getCustomerItemPrice</parentQName>
+    <childQName xmlns:q63="http://oracle.e1.bssv.JP420000/">q63:priceCode3</childQName>
+  </ElementInfo>
+  <ElementInfo>
+    <parentQName xmlns:q64="http://schemas.datacontract.org/2004/07/">q64:getCustomerItemPrice</parentQName>
+    <childQName xmlns:q65="http://oracle.e1.bssv.JP420000/">q65:processing</childQName>
+  </ElementInfo>
+  <ElementInfo>
+    <parentQName xmlns:q66="http://oracle.e1.bssv.JP420000/">q66:processing</parentQName>
+    <childQName xmlns:q67="http://oracle.e1.bssv.JP420000/">q67:processingVersion</childQName>
+  </ElementInfo>
+  <ElementInfo>
+    <parentQName xmlns:q68="http://schemas.datacontract.org/2004/07/">q68:getCustomerItemPrice</parentQName>
+    <childQName xmlns:q69="http://oracle.e1.bssv.JP420000/">q69:product</childQName>
+  </ElementInfo>
+  <ElementInfo>
+    <parentQName xmlns:q70="http://oracle.e1.bssv.JP420000/">q70:product</parentQName>
+    <childQName xmlns:q71="http://oracle.e1.bssv.JP420000/">q71:businessUnit</childQName>
+  </ElementInfo>
+  <ElementInfo>
+    <parentQName xmlns:q72="http://oracle.e1.bssv.JP420000/">q72:product</parentQName>
+    <childQName xmlns:q73="http://oracle.e1.bssv.JP420000/">q73:item</childQName>
+  </ElementInfo>
+  <ElementInfo>
+    <parentQName xmlns:q74="http://oracle.e1.bssv.JP420000/">q74:item</parentQName>
+    <childQName xmlns:q75="http://oracle.e1.bssv.JP420000/">q75:itemCatalog</childQName>
+  </ElementInfo>
+  <ElementInfo>
+    <parentQName xmlns:q76="http://oracle.e1.bssv.JP420000/">q76:item</parentQName>
+    <childQName xmlns:q77="http://oracle.e1.bssv.JP420000/">q77:itemCustomer</childQName>
+  </ElementInfo>
+  <ElementInfo>
+    <parentQName xmlns:q78="http://oracle.e1.bssv.JP420000/">q78:item</parentQName>
+    <childQName xmlns:q79="http://oracle.e1.bssv.JP420000/">q79:itemDescription</childQName>
+  </ElementInfo>
+  <ElementInfo>
+    <parentQName xmlns:q80="http://oracle.e1.bssv.JP420000/">q80:item</parentQName>
+    <childQName xmlns:q81="http://oracle.e1.bssv.JP420000/">q81:itemFreeForm</childQName>
+  </ElementInfo>
+  <ElementInfo>
+    <parentQName xmlns:q82="http://oracle.e1.bssv.JP420000/">q82:item</parentQName>
+    <childQName xmlns:q83="http://oracle.e1.bssv.JP420000/">q83:itemId</childQName>
+  </ElementInfo>
+  <ElementInfo>
+    <parentQName xmlns:q84="http://oracle.e1.bssv.JP420000/">q84:item</parentQName>
+    <childQName xmlns:q85="http://oracle.e1.bssv.JP420000/">q85:itemProduct</childQName>
+  </ElementInfo>
+  <ElementInfo>
+    <parentQName xmlns:q86="http://oracle.e1.bssv.JP420000/">q86:item</parentQName>
+    <childQName xmlns:q87="http://oracle.e1.bssv.JP420000/">q87:itemUOMPrimary</childQName>
+  </ElementInfo>
+  <ElementInfo>
+    <parentQName xmlns:q88="http://oracle.e1.bssv.JP420000/">q88:item</parentQName>
+    <childQName xmlns:q89="http://oracle.e1.bssv.JP420000/">q89:itemUOMSecondary</childQName>
+  </ElementInfo>
+  <ElementInfo>
+    <parentQName xmlns:q90="http://oracle.e1.bssv.JP420000/">q90:product</parentQName>
+    <childQName xmlns:q91="http://oracle.e1.bssv.JP420000/">q91:itemVolume</childQName>
+  </ElementInfo>
+  <ElementInfo>
+    <parentQName xmlns:q92="http://oracle.e1.bssv.JP420000/">q92:product</parentQName>
+    <childQName xmlns:q93="http://oracle.e1.bssv.JP420000/">q93:itemWeight</childQName>
+  </ElementInfo>
+  <ElementInfo>
+    <parentQName xmlns:q94="http://oracle.e1.bssv.JP420000/">q94:product</parentQName>
+    <childQName xmlns:q95="http://oracle.e1.bssv.JP420000/">q95:lineType</childQName>
+  </ElementInfo>
+  <ElementInfo>
+    <parentQName xmlns:q96="http://oracle.e1.bssv.JP420000/">q96:product</parentQName>
+    <childQName xmlns:q97="http://oracle.e1.bssv.JP420000/">q97:location</childQName>
+  </ElementInfo>
+  <ElementInfo>
+    <parentQName xmlns:q98="http://oracle.e1.bssv.JP420000/">q98:product</parentQName>
+    <childQName xmlns:q99="http://oracle.e1.bssv.JP420000/">q99:lotNumber</childQName>
+  </ElementInfo>
+  <ElementInfo>
+    <parentQName xmlns:q100="http://oracle.e1.bssv.JP420000/">q100:product</parentQName>
+    <childQName xmlns:q101="http://oracle.e1.bssv.JP420000/">q101:shipTo</childQName>
+  </ElementInfo>
+  <ElementInfo>
+    <parentQName xmlns:q102="http://oracle.e1.bssv.JP420000/">q102:product</parentQName>
+    <childQName xmlns:q103="http://oracle.e1.bssv.JP420000/">q103:unitOfMeasureCodeVolume</childQName>
+  </ElementInfo>
+  <ElementInfo>
+    <parentQName xmlns:q104="http://oracle.e1.bssv.JP420000/">q104:product</parentQName>
+    <childQName xmlns:q105="http://oracle.e1.bssv.JP420000/">q105:unitOfMeasureCodeWeight</childQName>
+  </ElementInfo>
+  <ElementInfo>
+    <parentQName xmlns:q106="http://schemas.datacontract.org/2004/07/">q106:getCustomerItemPrice</parentQName>
+    <childQName xmlns:q107="http://oracle.e1.bssv.JP420000/">q107:rateExchange</childQName>
+  </ElementInfo>
+  <ElementInfo>
+    <parentQName xmlns:q108="http://schemas.datacontract.org/2004/07/">q108:getCustomerItemPrice</parentQName>
+    <childQName xmlns:q109="http://oracle.e1.bssv.JP420000/">q109:routeCode</childQName>
+  </ElementInfo>
+  <ElementInfo>
+    <parentQName xmlns:q110="http://schemas.datacontract.org/2004/07/">q110:getCustomerItemPrice</parentQName>
+    <childQName xmlns:q111="http://oracle.e1.bssv.JP420000/">q111:statusCodeDuty</childQName>
+  </ElementInfo>
+  <ElementInfo>
+    <parentQName xmlns:q112="http://schemas.datacontract.org/2004/07/">q112:getCustomerItemPrice</parentQName>
+    <childQName xmlns:q113="http://oracle.e1.bssv.JP420000/">q113:stopCode</childQName>
+  </ElementInfo>
+  <ElementInfo>
+    <parentQName xmlns:q114="http://schemas.datacontract.org/2004/07/">q114:getCustomerItemPrice</parentQName>
+    <childQName xmlns:q115="http://oracle.e1.bssv.JP420000/">q115:transactionQuantity</childQName>
+  </ElementInfo>
+  <ElementInfo>
+    <parentQName xmlns:q116="http://schemas.datacontract.org/2004/07/">q116:getCustomerItemPrice</parentQName>
+    <childQName xmlns:q117="http://oracle.e1.bssv.JP420000/">q117:unitOfMeasureCodePricing</childQName>
+  </ElementInfo>
+  <ElementInfo>
+    <parentQName xmlns:q118="http://schemas.datacontract.org/2004/07/">q118:getCustomerItemPrice</parentQName>
+    <childQName xmlns:q119="http://oracle.e1.bssv.JP420000/">q119:unitOfMeasureCodeTransaction</childQName>
+  </ElementInfo>
+  <ElementInfo>
+    <parentQName xmlns:q120="http://schemas.datacontract.org/2004/07/">q120:getCustomerItemPrice</parentQName>
+    <childQName xmlns:q121="http://oracle.e1.bssv.JP420000/">q121:zoneNumber</childQName>
+  </ElementInfo>
+</ArrayOfElementInfo>

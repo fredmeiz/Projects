@@ -1,0 +1,7 @@
+C:\Dev\iBolt\iBOLT3.2SP2a\projects\JDE1\RemoveNonXmlChars\bin\RemoveNonXmlChars.dll
+C:\Dev\iBolt\iBOLT3.2SP2a\projects\JDE1\RemoveNonXmlChars\bin\RemoveNonXmlChars.pdb
+C:\Dev\iBolt\iBOLT3.2SP2a\projects\JDE1\RemoveNonXmlChars\bin\iBOLTFramework.dll
+C:\Dev\iBolt\iBOLT3.2SP2a\projects\JDE1\RemoveNonXmlChars\bin\iBOLTFramework.xml
+C:\Dev\iBolt\iBOLT3.2SP2a\projects\JDE1\RemoveNonXmlChars\obj\Debug\ResolveAssemblyReference.cache
+C:\Dev\iBolt\iBOLT3.2SP2a\projects\JDE1\RemoveNonXmlChars\obj\Debug\RemoveNonXmlChars.dll
+C:\Dev\iBolt\iBOLT3.2SP2a\projects\JDE1\RemoveNonXmlChars\obj\Debug\RemoveNonXmlChars.pdb

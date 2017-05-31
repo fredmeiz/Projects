@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FlowVariables>
+  <Variable d2p1:type="VariableRepositoryItem" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance">
+    <Description>BSFN output </Description>
+    <GUID>7b491528-45a8-472d-ad12-df859cd9c136</GUID>
+    <ID>1</ID>
+    <Name>F.B0101201_XML</Name>
+    <Order>1</Order>
+    <IsNameIncompatible>false</IsNameIncompatible>
+    <Type>
+      <Type>B</Type>
+      <Picture />
+      <isUnicode>false</isUnicode>
+      <isNillable>false</isNillable>
+    </Type>
+    <DefaultValue>
+      <ExpectedType>B</ExpectedType>
+      <Direction>I</Direction>
+    </DefaultValue>
+    <isDeleted>false</isDeleted>
+    <IsSystemVariable>false</IsSystemVariable>
+  </Variable>
+  <Variable d2p1:type="VariableRepositoryItem" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance">
+    <GUID>ed5d46d0-7ec4-4ac8-adc3-9ffe2854f54b</GUID>
+    <ID>5</ID>
+    <Name>F.AlphaName_ALPH</Name>
+    <Order>5</Order>
+    <IsNameIncompatible>false</IsNameIncompatible>
+    <Type>
+      <Type>A</Type>
+      <Picture>30</Picture>
+      <isUnicode>false</isUnicode>
+      <isNillable>false</isNillable>
+    </Type>
+    <DefaultValue>
+      <ExpectedType>A</ExpectedType>
+      <Direction>I</Direction>
+    </DefaultValue>
+    <isDeleted>false</isDeleted>
+    <IsSystemVariable>false</IsSystemVariable>
+  </Variable>
+  <Variable d2p1:type="VariableRepositoryItem" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance">
+    <Description>Address Number to query detail info</Description>
+    <GUID>ee41b484-732e-4327-a81e-8b66e943b3f6</GUID>
+    <ID>4</ID>
+    <Name>F.AddressNumber_AN8</Name>
+    <Order>4</Order>
+    <IsNameIncompatible>false</IsNameIncompatible>
+    <Type>
+      <Type>A</Type>
+      <Picture>30</Picture>
+      <isUnicode>false</isUnicode>
+      <isNillable>false</isNillable>
+    </Type>
+    <DefaultValue>
+      <ExpectedType>A</ExpectedType>
+      <Direction>I</Direction>
+    </DefaultValue>
+    <isDeleted>false</isDeleted>
+    <IsSystemVariable>false</IsSystemVariable>
+  </Variable>
+  <Variable d2p1:type="VariableRepositoryItem" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance">
+    <Description>XML Request</Description>
+    <GUID>46966e2e-6692-4eab-bc96-9ba98c6d8f15</GUID>
+    <ID>2</ID>
+    <Name>F.GetAddressBookRecord_IN</Name>
+    <Order>2</Order>
+    <IsNameIncompatible>false</IsNameIncompatible>
+    <Type>
+      <Type>B</Type>
+      <Picture />
+      <isUnicode>false</isUnicode>
+      <isNillable>false</isNillable>
+    </Type>
+    <DefaultValue>
+      <ExpectedType>B</ExpectedType>
+      <Direction>I</Direction>
+    </DefaultValue>
+    <isDeleted>false</isDeleted>
+    <IsSystemVariable>false</IsSystemVariable>
+  </Variable>
+  <Variable d2p1:type="VariableRepositoryItem" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance">
+    <Description>XML Response</Description>
+    <GUID>23561496-df9c-4c80-a660-eefa69bbcdc6</GUID>
+    <ID>3</ID>
+    <Name>F.GetAddressBookRecord_OUT</Name>
+    <Order>3</Order>
+    <IsNameIncompatible>false</IsNameIncompatible>
+    <Type>
+      <Type>B</Type>
+      <Picture />
+      <isUnicode>false</isUnicode>
+      <isNillable>false</isNillable>
+    </Type>
+    <DefaultValue>
+      <ExpectedType>B</ExpectedType>
+      <Direction>I</Direction>
+    </DefaultValue>
+    <isDeleted>false</isDeleted>
+    <IsSystemVariable>false</IsSystemVariable>
+  </Variable>
+</FlowVariables>

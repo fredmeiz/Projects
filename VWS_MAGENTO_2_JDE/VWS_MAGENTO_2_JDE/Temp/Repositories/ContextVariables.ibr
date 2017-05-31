@@ -1,0 +1,622 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContextVarRepository>
+  <Variable d2p1:type="VariableRepositoryItem" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance">
+    <Description>Error occurred when executing a step.</Description>
+    <GUID>000000000000000000000000000000000000001</GUID>
+    <ID>0</ID>
+    <Name>C.sys.ErrorCode</Name>
+    <Order>1</Order>
+    <IsNameIncompatible>false</IsNameIncompatible>
+    <Type>
+      <Type>N</Type>
+      <Picture>12.0</Picture>
+      <isUnicode>false</isUnicode>
+      <isNillable>false</isNillable>
+    </Type>
+    <DefaultValue>
+      <ExpectedType>A</ExpectedType>
+      <Direction>I</Direction>
+    </DefaultValue>
+    <isDeleted>false</isDeleted>
+    <IsSystemVariable>true</IsSystemVariable>
+  </Variable>
+  <Variable d2p1:type="VariableRepositoryItem" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance">
+    <Description>This variable will hold the calling Flow name when using: Invoke Flow, Call Flow, or Error Flow.</Description>
+    <GUID>000000000000000000000000000000000000010</GUID>
+    <ID>0</ID>
+    <Name>C.sys.InvokingFlowName</Name>
+    <Order>10</Order>
+    <IsNameIncompatible>false</IsNameIncompatible>
+    <Type>
+      <Type>A</Type>
+      <Picture>30</Picture>
+      <isUnicode>false</isUnicode>
+      <isNillable>false</isNillable>
+    </Type>
+    <DefaultValue>
+      <ExpectedType>A</ExpectedType>
+      <Direction>I</Direction>
+    </DefaultValue>
+    <isDeleted>false</isDeleted>
+    <IsSystemVariable>true</IsSystemVariable>
+  </Variable>
+  <Variable d2p1:type="VariableRepositoryItem" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance">
+    <Description>This variable will hold the calling Component name when using: Invoke Flow, or Error Flow.</Description>
+    <GUID>000000000000000000000000000000000000011</GUID>
+    <ID>0</ID>
+    <Name>C.sys.InvokingComponentName</Name>
+    <Order>11</Order>
+    <IsNameIncompatible>false</IsNameIncompatible>
+    <Type>
+      <Type>A</Type>
+      <Picture>30</Picture>
+      <isUnicode>false</isUnicode>
+      <isNillable>false</isNillable>
+    </Type>
+    <DefaultValue>
+      <ExpectedType>A</ExpectedType>
+      <Direction>I</Direction>
+    </DefaultValue>
+    <isDeleted>false</isDeleted>
+    <IsSystemVariable>true</IsSystemVariable>
+  </Variable>
+  <Variable d2p1:type="VariableRepositoryItem" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance">
+    <GUID>{9028042C-4026-4E13-9EC1-E199ED98831F}</GUID>
+    <ID>1</ID>
+    <Name>C.JDE_Order_No</Name>
+    <Order>118</Order>
+    <IsNameIncompatible>false</IsNameIncompatible>
+    <Type>
+      <Type>A</Type>
+      <Picture>30</Picture>
+      <isUnicode>false</isUnicode>
+      <isNillable>false</isNillable>
+    </Type>
+    <DefaultValue>
+      <ExpressionVal>JzEn</ExpressionVal>
+      <RuntimeExpression>JzEn</RuntimeExpression>
+      <ExpectedType>A</ExpectedType>
+      <Direction>I</Direction>
+    </DefaultValue>
+    <isDeleted>false</isDeleted>
+    <IsSystemVariable>false</IsSystemVariable>
+  </Variable>
+  <Variable d2p1:type="VariableRepositoryItem" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance">
+    <Description>Flow name where last error occurred.</Description>
+    <GUID>000000000000000000000000000000000000012</GUID>
+    <ID>0</ID>
+    <Name>C.sys.LastErrorFlowName</Name>
+    <Order>12</Order>
+    <IsNameIncompatible>false</IsNameIncompatible>
+    <Type>
+      <Type>A</Type>
+      <Picture>30</Picture>
+      <isUnicode>false</isUnicode>
+      <isNillable>false</isNillable>
+    </Type>
+    <DefaultValue>
+      <ExpectedType>A</ExpectedType>
+      <Direction>I</Direction>
+    </DefaultValue>
+    <isDeleted>false</isDeleted>
+    <IsSystemVariable>true</IsSystemVariable>
+  </Variable>
+  <Variable d2p1:type="VariableRepositoryItem" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance">
+    <GUID>{938221EA-1701-4A1F-A5AC-47F29FA87EC4}</GUID>
+    <ID>2</ID>
+    <Name>C.Body</Name>
+    <Order>124</Order>
+    <IsNameIncompatible>false</IsNameIncompatible>
+    <Type>
+      <Type>B</Type>
+      <Picture />
+      <isUnicode>false</isUnicode>
+      <isNillable>false</isNillable>
+    </Type>
+    <DefaultValue>
+      <ExpectedType>B</ExpectedType>
+      <Direction>I</Direction>
+    </DefaultValue>
+    <isDeleted>false</isDeleted>
+    <IsSystemVariable>false</IsSystemVariable>
+  </Variable>
+  <Variable d2p1:type="VariableRepositoryItem" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance">
+    <Description>Step name where last error occurred.</Description>
+    <GUID>000000000000000000000000000000000000013</GUID>
+    <ID>0</ID>
+    <Name>C.sys.LastErrorStepName</Name>
+    <Order>13</Order>
+    <IsNameIncompatible>false</IsNameIncompatible>
+    <Type>
+      <Type>A</Type>
+      <Picture>30</Picture>
+      <isUnicode>false</isUnicode>
+      <isNillable>false</isNillable>
+    </Type>
+    <DefaultValue>
+      <ExpectedType>A</ExpectedType>
+      <Direction>I</Direction>
+    </DefaultValue>
+    <isDeleted>false</isDeleted>
+    <IsSystemVariable>true</IsSystemVariable>
+  </Variable>
+  <Variable d2p1:type="VariableRepositoryItem" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance">
+    <Description>from Magento suffix (now: billingId)</Description>
+    <GUID>{895E1B93-3C88-4B56-A5D6-697E4757643E}</GUID>
+    <ID>3</ID>
+    <Name>C.magBillingId</Name>
+    <Order>139</Order>
+    <IsNameIncompatible>false</IsNameIncompatible>
+    <Type>
+      <Type>A</Type>
+      <Picture>30</Picture>
+      <isUnicode>false</isUnicode>
+      <isNillable>false</isNillable>
+    </Type>
+    <DefaultValue>
+      <ExpectedType>A</ExpectedType>
+      <Direction>I</Direction>
+    </DefaultValue>
+    <isDeleted>false</isDeleted>
+    <IsSystemVariable>false</IsSystemVariable>
+  </Variable>
+  <Variable d2p1:type="VariableRepositoryItem" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance">
+    <Description>Detailed information about the error.</Description>
+    <GUID>000000000000000000000000000000000000014</GUID>
+    <ID>0</ID>
+    <Name>C.sys.LastErrorInfo</Name>
+    <Order>14</Order>
+    <IsNameIncompatible>false</IsNameIncompatible>
+    <Type>
+      <Type>B</Type>
+      <Picture />
+      <isUnicode>false</isUnicode>
+      <isNillable>false</isNillable>
+    </Type>
+    <DefaultValue>
+      <ExpectedType>A</ExpectedType>
+      <Direction>I</Direction>
+    </DefaultValue>
+    <isDeleted>false</isDeleted>
+    <IsSystemVariable>true</IsSystemVariable>
+  </Variable>
+  <Variable d2p1:type="VariableRepositoryItem" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance">
+    <Description>from Magento orderId</Description>
+    <GUID>{43FE4680-07D3-423B-88B4-46A7BCFF7A52}</GUID>
+    <ID>4</ID>
+    <Name>C.magOrderId</Name>
+    <Order>140</Order>
+    <IsNameIncompatible>false</IsNameIncompatible>
+    <Type>
+      <Type>A</Type>
+      <Picture>30</Picture>
+      <isUnicode>false</isUnicode>
+      <isNillable>false</isNillable>
+    </Type>
+    <DefaultValue>
+      <ExpectedType>A</ExpectedType>
+      <Direction>I</Direction>
+    </DefaultValue>
+    <isDeleted>false</isDeleted>
+    <IsSystemVariable>false</IsSystemVariable>
+  </Variable>
+  <Variable d2p1:type="VariableRepositoryItem" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance">
+    <Description>from Magento po_number (now purchaseOrder)</Description>
+    <GUID>{C4C94986-5CE1-48CE-A386-BB7A56E726AA}</GUID>
+    <ID>5</ID>
+    <Name>C.magPurchaseOrderId</Name>
+    <Order>141</Order>
+    <IsNameIncompatible>false</IsNameIncompatible>
+    <Type>
+      <Type>A</Type>
+      <Picture>30</Picture>
+      <isUnicode>false</isUnicode>
+      <isNillable>false</isNillable>
+    </Type>
+    <DefaultValue>
+      <ExpectedType>A</ExpectedType>
+      <Direction>I</Direction>
+    </DefaultValue>
+    <isDeleted>false</isDeleted>
+    <IsSystemVariable>false</IsSystemVariable>
+  </Variable>
+  <Variable d2p1:type="VariableRepositoryItem" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance">
+    <Description>XML from Magento Web Service</Description>
+    <GUID>{5F39EC1C-727F-4461-85CC-531859C739DF}</GUID>
+    <ID>6</ID>
+    <Name>C.magTriggerData</Name>
+    <Order>142</Order>
+    <IsNameIncompatible>false</IsNameIncompatible>
+    <Type>
+      <Type>B</Type>
+      <Picture />
+      <isUnicode>false</isUnicode>
+      <isNillable>false</isNillable>
+    </Type>
+    <DefaultValue>
+      <ExpectedType>B</ExpectedType>
+      <Direction>I</Direction>
+    </DefaultValue>
+    <isDeleted>false</isDeleted>
+    <IsSystemVariable>false</IsSystemVariable>
+  </Variable>
+  <Variable d2p1:type="VariableRepositoryItem" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance">
+    <Description>Last error code.</Description>
+    <GUID>000000000000000000000000000000000000015</GUID>
+    <ID>0</ID>
+    <Name>C.sys.LastErrorCode</Name>
+    <Order>15</Order>
+    <IsNameIncompatible>false</IsNameIncompatible>
+    <Type>
+      <Type>N</Type>
+      <Picture>12.0</Picture>
+      <isUnicode>false</isUnicode>
+      <isNillable>false</isNillable>
+    </Type>
+    <DefaultValue>
+      <ExpectedType>A</ExpectedType>
+      <Direction>I</Direction>
+    </DefaultValue>
+    <isDeleted>false</isDeleted>
+    <IsSystemVariable>true</IsSystemVariable>
+  </Variable>
+  <Variable d2p1:type="VariableRepositoryItem" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance">
+    <Description>Step ID where last error occurred.</Description>
+    <GUID>000000000000000000000000000000000000016</GUID>
+    <ID>0</ID>
+    <Name>C.sys.LastStepID</Name>
+    <Order>16</Order>
+    <IsNameIncompatible>false</IsNameIncompatible>
+    <Type>
+      <Type>N</Type>
+      <Picture>12.0</Picture>
+      <isUnicode>false</isUnicode>
+      <isNillable>false</isNillable>
+    </Type>
+    <DefaultValue>
+      <ExpectedType>A</ExpectedType>
+      <Direction>I</Direction>
+    </DefaultValue>
+    <isDeleted>false</isDeleted>
+    <IsSystemVariable>true</IsSystemVariable>
+  </Variable>
+  <Variable d2p1:type="VariableRepositoryItem" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance">
+    <Description>Flow ID where last error occurred.</Description>
+    <GUID>000000000000000000000000000000000000017</GUID>
+    <ID>0</ID>
+    <Name>C.sys.LastFlowID</Name>
+    <Order>17</Order>
+    <IsNameIncompatible>false</IsNameIncompatible>
+    <Type>
+      <Type>N</Type>
+      <Picture>12.0</Picture>
+      <isUnicode>false</isUnicode>
+      <isNillable>false</isNillable>
+    </Type>
+    <DefaultValue>
+      <ExpectedType>A</ExpectedType>
+      <Direction>I</Direction>
+    </DefaultValue>
+    <isDeleted>false</isDeleted>
+    <IsSystemVariable>true</IsSystemVariable>
+  </Variable>
+  <Variable d2p1:type="VariableRepositoryItem" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance">
+    <Description>added so we can validate if shipping (add freight line) is to be included from magento.</Description>
+    <GUID>{ED1254F5-7584-4F6E-B6F1-951569259231}</GUID>
+    <ID>7</ID>
+    <Name>C.magShippingAmount</Name>
+    <Order>172</Order>
+    <IsNameIncompatible>false</IsNameIncompatible>
+    <Type>
+      <Type>A</Type>
+      <Picture>30</Picture>
+      <isUnicode>false</isUnicode>
+      <isNillable>false</isNillable>
+    </Type>
+    <DefaultValue>
+      <ExpectedType>A</ExpectedType>
+      <Direction>I</Direction>
+    </DefaultValue>
+    <isDeleted>false</isDeleted>
+    <IsSystemVariable>false</IsSystemVariable>
+  </Variable>
+  <Variable d2p1:type="VariableRepositoryItem" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance">
+    <Description>Last error description.</Description>
+    <GUID>000000000000000000000000000000000000018</GUID>
+    <ID>0</ID>
+    <Name>C.sys.LastErrorDescription</Name>
+    <Order>18</Order>
+    <IsNameIncompatible>false</IsNameIncompatible>
+    <Type>
+      <Type>A</Type>
+      <Picture>1000</Picture>
+      <isUnicode>false</isUnicode>
+      <isNillable>false</isNillable>
+    </Type>
+    <DefaultValue>
+      <ExpectedType>A</ExpectedType>
+      <Direction>I</Direction>
+    </DefaultValue>
+    <isDeleted>false</isDeleted>
+    <IsSystemVariable>true</IsSystemVariable>
+  </Variable>
+  <Variable d2p1:type="VariableRepositoryItem" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance">
+    <Description>Last component type which the error occurred in.</Description>
+    <GUID>000000000000000000000000000000000000019</GUID>
+    <ID>0</ID>
+    <Name>C.sys.LastErrorComponentType</Name>
+    <Order>19</Order>
+    <IsNameIncompatible>false</IsNameIncompatible>
+    <Type>
+      <Type>N</Type>
+      <Picture>12.0</Picture>
+      <isUnicode>false</isUnicode>
+      <isNillable>false</isNillable>
+    </Type>
+    <DefaultValue>
+      <ExpectedType>A</ExpectedType>
+      <Direction>I</Direction>
+    </DefaultValue>
+    <isDeleted>false</isDeleted>
+    <IsSystemVariable>true</IsSystemVariable>
+  </Variable>
+  <Variable d2p1:type="VariableRepositoryItem" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance">
+    <Description>Error description.</Description>
+    <GUID>000000000000000000000000000000000000002</GUID>
+    <ID>0</ID>
+    <Name>C.sys.ErrorDescription</Name>
+    <Order>2</Order>
+    <IsNameIncompatible>false</IsNameIncompatible>
+    <Type>
+      <Type>A</Type>
+      <Picture>1000</Picture>
+      <isUnicode>false</isUnicode>
+      <isNillable>false</isNillable>
+    </Type>
+    <DefaultValue>
+      <ExpectedType>A</ExpectedType>
+      <Direction>I</Direction>
+    </DefaultValue>
+    <isDeleted>false</isDeleted>
+    <IsSystemVariable>true</IsSystemVariable>
+  </Variable>
+  <Variable d2p1:type="VariableRepositoryItem" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance">
+    <Description>Indicate the component name that triggered the flow.</Description>
+    <GUID>000000000000000000000000000000000000020</GUID>
+    <ID>0</ID>
+    <Name>C.sys.LastTriggerName</Name>
+    <Order>20</Order>
+    <IsNameIncompatible>false</IsNameIncompatible>
+    <Type>
+      <Type>A</Type>
+      <Picture>30</Picture>
+      <isUnicode>false</isUnicode>
+      <isNillable>false</isNillable>
+    </Type>
+    <DefaultValue>
+      <ExpectedType>A</ExpectedType>
+      <Direction>I</Direction>
+    </DefaultValue>
+    <isDeleted>false</isDeleted>
+    <IsSystemVariable>true</IsSystemVariable>
+  </Variable>
+  <Variable d2p1:type="VariableRepositoryItem" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance">
+    <Description>Handles the control of the components flow context logging process.</Description>
+    <GUID>000000000000000000000000000000000000021</GUID>
+    <ID>0</ID>
+    <Name>C.sys.ContextLogging</Name>
+    <Order>21</Order>
+    <IsNameIncompatible>false</IsNameIncompatible>
+    <Type>
+      <Type>L</Type>
+      <Picture>1</Picture>
+      <isUnicode>false</isUnicode>
+      <isNillable>false</isNillable>
+    </Type>
+    <DefaultValue>
+      <ExpressionVal>J1RSVUUnTE9H</ExpressionVal>
+      <RuntimeExpression>J1RSVUUnTE9H</RuntimeExpression>
+      <ExpectedType>L</ExpectedType>
+      <Direction>I</Direction>
+    </DefaultValue>
+    <isDeleted>false</isDeleted>
+    <IsSystemVariable>true</IsSystemVariable>
+  </Variable>
+  <Variable d2p1:type="VariableRepositoryItem" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance">
+    <Description>This variable will hold the calling BP name when using: Invoke Flow, Call Flow, or Error Flow.</Description>
+    <GUID>000000000000000000000000000000000000023</GUID>
+    <ID>0</ID>
+    <Name>C.sys.InvokingBPName</Name>
+    <Order>23</Order>
+    <IsNameIncompatible>false</IsNameIncompatible>
+    <Type>
+      <Type>A</Type>
+      <Picture>30</Picture>
+      <isUnicode>false</isUnicode>
+      <isNillable>false</isNillable>
+    </Type>
+    <DefaultValue>
+      <ExpectedType>A</ExpectedType>
+      <Direction>I</Direction>
+    </DefaultValue>
+    <isDeleted>false</isDeleted>
+    <IsSystemVariable>true</IsSystemVariable>
+  </Variable>
+  <Variable d2p1:type="VariableRepositoryItem" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance">
+    <GUID>{C8BA05CD-27EB-47F4-A174-D3796FF10D98}</GUID>
+    <ID>8</ID>
+    <Name>C.Magento_sessionId</Name>
+    <Order>24</Order>
+    <IsNameIncompatible>false</IsNameIncompatible>
+    <Type>
+      <Type>A</Type>
+      <Picture>40</Picture>
+      <isUnicode>false</isUnicode>
+      <isNillable>false</isNillable>
+    </Type>
+    <DefaultValue>
+      <ExpectedType>A</ExpectedType>
+      <Direction>I</Direction>
+    </DefaultValue>
+    <isDeleted>false</isDeleted>
+    <IsSystemVariable>false</IsSystemVariable>
+  </Variable>
+  <Variable d2p1:type="VariableRepositoryItem" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance">
+    <Description>User name from external call.</Description>
+    <GUID>000000000000000000000000000000000000003</GUID>
+    <ID>0</ID>
+    <Name>C.sys.RemoteUser</Name>
+    <Order>3</Order>
+    <IsNameIncompatible>false</IsNameIncompatible>
+    <Type>
+      <Type>A</Type>
+      <Picture>30</Picture>
+      <isUnicode>false</isUnicode>
+      <isNillable>false</isNillable>
+    </Type>
+    <DefaultValue>
+      <ExpectedType>A</ExpectedType>
+      <Direction>I</Direction>
+    </DefaultValue>
+    <isDeleted>false</isDeleted>
+    <IsSystemVariable>true</IsSystemVariable>
+  </Variable>
+  <Variable d2p1:type="VariableRepositoryItem" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance">
+    <GUID>{6D79B6F2-1C03-4291-A1BD-4861970D0E13}</GUID>
+    <ID>9</ID>
+    <Name>C.orderIncrementId</Name>
+    <Order>41</Order>
+    <IsNameIncompatible>false</IsNameIncompatible>
+    <Type>
+      <Type>A</Type>
+      <Picture>40</Picture>
+      <isUnicode>false</isUnicode>
+      <isNillable>false</isNillable>
+    </Type>
+    <DefaultValue>
+      <ExpectedType>A</ExpectedType>
+      <Direction>I</Direction>
+    </DefaultValue>
+    <isDeleted>false</isDeleted>
+    <IsSystemVariable>false</IsSystemVariable>
+  </Variable>
+  <Variable d2p1:type="VariableRepositoryItem" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance">
+    <GUID>{F335F862-2608-45E4-97DF-652B1D8590D3}</GUID>
+    <ID>10</ID>
+    <Name>C.ErrorRetry</Name>
+    <Order>451</Order>
+    <IsNameIncompatible>false</IsNameIncompatible>
+    <Type>
+      <Type>N</Type>
+      <Picture>12.4</Picture>
+      <isUnicode>false</isUnicode>
+      <isNillable>false</isNillable>
+    </Type>
+    <DefaultValue>
+      <ExpectedType>N</ExpectedType>
+      <Direction>I</Direction>
+    </DefaultValue>
+    <isDeleted>false</isDeleted>
+    <IsSystemVariable>false</IsSystemVariable>
+  </Variable>
+  <Variable d2p1:type="VariableRepositoryItem" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance">
+    <Description>Passes alpha-numeric information between components in flows.</Description>
+    <GUID>000000000000000000000000000000000000005</GUID>
+    <ID>0</ID>
+    <Name>C.UserString</Name>
+    <Order>5</Order>
+    <IsNameIncompatible>false</IsNameIncompatible>
+    <Type>
+      <Type>A</Type>
+      <Picture>1000</Picture>
+      <isUnicode>false</isUnicode>
+      <isNillable>false</isNillable>
+    </Type>
+    <DefaultValue>
+      <ExpectedType>A</ExpectedType>
+      <Direction>I</Direction>
+    </DefaultValue>
+    <isDeleted>false</isDeleted>
+    <IsSystemVariable>false</IsSystemVariable>
+  </Variable>
+  <Variable d2p1:type="VariableRepositoryItem" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance">
+    <Description>Passes only numeric information between components in flows.</Description>
+    <GUID>000000000000000000000000000000000000006</GUID>
+    <ID>0</ID>
+    <Name>C.UserCode</Name>
+    <Order>6</Order>
+    <IsNameIncompatible>false</IsNameIncompatible>
+    <Type>
+      <Type>N</Type>
+      <Picture>12.0</Picture>
+      <isUnicode>false</isUnicode>
+      <isNillable>false</isNillable>
+    </Type>
+    <DefaultValue>
+      <ExpectedType>N</ExpectedType>
+      <Direction>I</Direction>
+    </DefaultValue>
+    <isDeleted>false</isDeleted>
+    <IsSystemVariable>false</IsSystemVariable>
+  </Variable>
+  <Variable d2p1:type="VariableRepositoryItem" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance">
+    <Description>Passes undefined types of information between components in flows.</Description>
+    <GUID>000000000000000000000000000000000000007</GUID>
+    <ID>0</ID>
+    <Name>C.UserBlob</Name>
+    <Order>7</Order>
+    <IsNameIncompatible>false</IsNameIncompatible>
+    <Type>
+      <Type>B</Type>
+      <Picture />
+      <isUnicode>false</isUnicode>
+      <isNillable>false</isNillable>
+    </Type>
+    <DefaultValue>
+      <ExpectedType>B</ExpectedType>
+      <Direction>I</Direction>
+    </DefaultValue>
+    <isDeleted>false</isDeleted>
+    <IsSystemVariable>false</IsSystemVariable>
+  </Variable>
+  <Variable d2p1:type="VariableRepositoryItem" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance">
+    <Description>Passes information in XML format between components in flows.</Description>
+    <GUID>000000000000000000000000000000000000008</GUID>
+    <ID>0</ID>
+    <Name>C.UserXML</Name>
+    <Order>8</Order>
+    <IsNameIncompatible>false</IsNameIncompatible>
+    <Type>
+      <Type>B</Type>
+      <Picture />
+      <isUnicode>false</isUnicode>
+      <isNillable>false</isNillable>
+    </Type>
+    <DefaultValue>
+      <ExpectedType>B</ExpectedType>
+      <Direction>I</Direction>
+    </DefaultValue>
+    <isDeleted>false</isDeleted>
+    <IsSystemVariable>false</IsSystemVariable>
+  </Variable>
+  <Variable d2p1:type="VariableRepositoryItem" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance">
+    <Description>Body of HTTP request.</Description>
+    <GUID>000000000000000000000000000000000000009</GUID>
+    <ID>0</ID>
+    <Name>C.HTTP_Body</Name>
+    <Order>9</Order>
+    <IsNameIncompatible>false</IsNameIncompatible>
+    <Type>
+      <Type>B</Type>
+      <Picture />
+      <isUnicode>false</isUnicode>
+      <isNillable>false</isNillable>
+    </Type>
+    <DefaultValue>
+      <ExpectedType>A</ExpectedType>
+      <Direction>I</Direction>
+    </DefaultValue>
+    <isDeleted>false</isDeleted>
+    <IsSystemVariable>false</IsSystemVariable>
+  </Variable>
+</ContextVarRepository>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Flow>
+
+  <Properties>
+    <ID>16</ID>
+    <Order>16</Order>
+    <Name>JDEStatusCodes</Name>
+    <isInactive>false</isInactive>
+    <isDisabled>false</isDisabled>
+    <isTwoPhase>false</isTwoPhase>
+    <isAutoStart>false</isAutoStart>
+    <MaxInstances>0</MaxInstances>
+    <isAutoRepeat>false</isAutoRepeat>
+    <TimeoutPolicy>6</TimeoutPolicy>
+    <TimeOutVal>0</TimeOutVal>
+    <RecoveryPolicy>6</RecoveryPolicy>
+  </Properties>
+
+  <TextElements>
+    <row_Element>
+      <ID>1</ID>
+      <Description>This is a stub so we can replace the table of jde status codes.</Description>
+      <Color>12713983</Color>
+      <BorderStyle>1</BorderStyle>
+    </row_Element>
+  </TextElements>
+
+</Flow>

@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Resource_Settings>
+  <Resource_Element>
+    <Main_Resource_ID>104</Main_Resource_ID>
+    <Main_Resource_Name>Domino</Main_Resource_Name>
+  </Resource_Element>
+  <Resource_Element>
+    <Main_Resource_ID>106</Main_Resource_ID>
+    <Main_Resource_Name>Email</Main_Resource_Name>
+  </Resource_Element>
+  <Resource_Element>
+    <Main_Resource_ID>109</Main_Resource_ID>
+    <Main_Resource_Name>FTP</Main_Resource_Name>
+  </Resource_Element>
+  <Resource_Element>
+    <Main_Resource_ID>110</Main_Resource_ID>
+    <Main_Resource_Name>HTTP</Main_Resource_Name>
+  </Resource_Element>
+  <Resource_Element>
+    <Main_Resource_ID>111</Main_Resource_ID>
+    <Main_Resource_Name>IBM i</Main_Resource_Name>
+  </Resource_Element>
+  <Resource_Element>
+    <Main_Resource_ID>115</Main_Resource_ID>
+    <Main_Resource_Name>JMS</Main_Resource_Name>
+  </Resource_Element>
+  <Resource_Element>
+    <Main_Resource_ID>117</Main_Resource_ID>
+    <Main_Resource_Name>WebSphereMQ</Main_Resource_Name>
+  </Resource_Element>
+  <Resource_Element>
+    <Main_Resource_ID>118</Main_Resource_ID>
+    <Main_Resource_Name>MSMQ</Main_Resource_Name>
+  </Resource_Element>
+  <Resource_Element>
+    <Main_Resource_ID>121</Main_Resource_ID>
+    <Main_Resource_Name>Web Services Client</Main_Resource_Name>
+  </Resource_Element>
+  <Resource_Element>
+    <Main_Resource_ID>128</Main_Resource_ID>
+    <Main_Resource_Name>SAP B1 2004</Main_Resource_Name>
+  </Resource_Element>
+  <Resource_Element>
+    <Main_Resource_ID>133</Main_Resource_ID>
+    <Main_Resource_Name>SAP B1 2005</Main_Resource_Name>
+  </Resource_Element>
+  <Resource_Element>
+    <Main_Resource_ID>140</Main_Resource_ID>
+    <Main_Resource_Name>SAP R3</Main_Resource_Name>
+  </Resource_Element>
+  <Resource_Element>
+    <Main_Resource_ID>141</Main_Resource_ID>
+    <Main_Resource_Name>SAP B1 2007</Main_Resource_Name>
+  </Resource_Element>
+  <Resource_Element>
+    <Main_Resource_ID>143</Main_Resource_ID>
+    <Main_Resource_Name>Salesforce</Main_Resource_Name>
+  </Resource_Element>
+  <Resource_Element>
+    <Main_Resource_ID>144</Main_Resource_ID>
+    <Main_Resource_Name>Notes DB</Main_Resource_Name>
+  </Resource_Element>
+  <Resource_Element>
+    <Main_Resource_ID>145</Main_Resource_ID>
+    <Main_Resource_Name>JD Edwards EnterpriseOne</Main_Resource_Name>
+    <Default_Resource>JD Edwards EnterpriseOne_1</Default_Resource>
+    <Main_Resource_Defintion>
+      <Resource_Type_ID>34</Resource_Type_ID>
+      <Resource_Type_Name>JD Edwards EnterpriseOne_1</Resource_Type_Name>
+      <Resource_Type_Description />
+      <Resource_Type_Blob>TgB1AGwAbABCAGwAbwBiAA==</Resource_Type_Blob>
+      <Resource_Properties>
+        <ID>1</ID>
+        <Name>Server Name</Name>
+        <ExpressionValue>JDEENT01</ExpressionValue>
+        <ExpressionValueBlob />
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>2</ID>
+        <Name>Environment</Name>
+        <ExpressionValue>JPY920</ExpressionValue>
+        <ExpressionValueBlob />
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>3</ID>
+        <Name>User Name</Name>
+        <ExpressionValue>FML</ExpressionValue>
+        <ExpressionValueBlob />
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>4</ID>
+        <Name>Password</Name>
+        <ExpressionValue>serkMTp/r50=</ExpressionValue>
+        <ExpressionValueBlob />
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>5</ID>
+        <Name>Role</Name>
+        <ExpressionValue>*ALL</ExpressionValue>
+        <ExpressionValueBlob />
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>6</ID>
+        <Name>Connection Pool Size</Name>
+        <ExpressionValue>1</ExpressionValue>
+        <ExpressionValueBlob />
+      </Resource_Properties>
+    </Main_Resource_Defintion>
+  </Resource_Element>
+  <Resource_Element>
+    <Main_Resource_ID>149</Main_Resource_ID>
+    <Main_Resource_Name>HL7</Main_Resource_Name>
+  </Resource_Element>
+  <Resource_Element>
+    <Main_Resource_ID>151</Main_Resource_ID>
+    <Main_Resource_Name>Google</Main_Resource_Name>
+  </Resource_Element>
+  <Resource_Element>
+    <Main_Resource_ID>152</Main_Resource_ID>
+    <Main_Resource_Name>LDAP</Main_Resource_Name>
+  </Resource_Element>
+  <Resource_Element>
+    <Main_Resource_ID>153</Main_Resource_ID>
+    <Main_Resource_Name>SAP A1</Main_Resource_Name>
+  </Resource_Element>
+  <Resource_Element>
+    <Main_Resource_ID>156</Main_Resource_ID>
+    <Main_Resource_Name>Dynamics CRM</Main_Resource_Name>
+  </Resource_Element>
+  <Resource_Element>
+    <Main_Resource_ID>157</Main_Resource_ID>
+    <Main_Resource_Name>Exchange</Main_Resource_Name>
+  </Resource_Element>
+  <Resource_Element>
+    <Main_Resource_ID>159</Main_Resource_ID>
+    <Main_Resource_Name>SharePoint</Main_Resource_Name>
+  </Resource_Element>
+  <Resource_Element>
+    <Main_Resource_ID>160</Main_Resource_ID>
+    <Main_Resource_Name>SAP B1 88</Main_Resource_Name>
+  </Resource_Element>
+  <Resource_Element>
+    <Main_Resource_ID>161</Main_Resource_ID>
+    <Main_Resource_Name>JD Edwards World</Main_Resource_Name>
+  </Resource_Element>
+  <Resource_Element>
+    <Main_Resource_ID>162</Main_Resource_ID>
+    <Main_Resource_Name>Sugar</Main_Resource_Name>
+  </Resource_Element>
+  <Resource_Element>
+    <Main_Resource_ID>163</Main_Resource_ID>
+    <Main_Resource_Name>Dynamics AX</Main_Resource_Name>
+  </Resource_Element>
+  <Resource_Element>
+    <Main_Resource_ID>200</Main_Resource_ID>
+    <Main_Resource_Name>WCF Client</Main_Resource_Name>
+  </Resource_Element>
+  <Resource_Element>
+    <Main_Resource_ID>9000</Main_Resource_ID>
+    <Main_Resource_Name>Web Services Server</Main_Resource_Name>
+  </Resource_Element>
+  <Resource_Element>
+    <Main_Resource_ID>9001</Main_Resource_ID>
+    <Main_Resource_Name>UDDI Server</Main_Resource_Name>
+  </Resource_Element>
+  <Resource_Element>
+    <Main_Resource_ID>10000</Main_Resource_ID>
+    <Main_Resource_Name>Database</Main_Resource_Name>
+  </Resource_Element>
+</Resource_Settings>

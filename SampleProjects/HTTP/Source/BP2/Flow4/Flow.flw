@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Flow>
+
+  <Properties>
+    <ID>4</ID>
+    <Order>1</Order>
+    <Name>Call Trigger</Name>
+    <isInactive>false</isInactive>
+    <isDisabled>false</isDisabled>
+    <isTwoPhase>false</isTwoPhase>
+    <isAutoStart>false</isAutoStart>
+    <MaxInstances>0</MaxInstances>
+    <isAutoRepeat>false</isAutoRepeat>
+    <TimeoutPolicy>6</TimeoutPolicy>
+    <TimeOutVal>0</TimeOutVal>
+    <RecoveryPolicy>6</RecoveryPolicy>
+  </Properties>
+
+  <DrawProperties>
+    <RootStepID>1</RootStepID>
+    <HasTrigger>true</HasTrigger>
+  </DrawProperties>
+
+  <Steps>
+    <row_Step>
+      <Properties>
+        <isGoTo>false</isGoTo>
+        <ParentStepID>0</ParentStepID>
+        <SortOrder>0</SortOrder>
+        <ID>1</ID>
+        <Name>Show Received Parameters</Name>
+        <IFCDefinition>6</IFCDefinition>
+        <ProcessMode>1</ProcessMode>
+        <isTwoPhase>false</isTwoPhase>
+        <isWait4Comp>false</isWait4Comp>
+        <isSavePoint>false</isSavePoint>
+        <CallLogicFlow>false</CallLogicFlow>
+        <isTrigger>false</isTrigger>
+      </Properties>
+      <LoggingInfo>
+        <Scope>0</Scope>
+      </LoggingInfo>
+      <iBoltService>
+        <SaveMSG>
+          <MSGString>
+            <ExpressionVal>VHJpbSggPCMhJUAkPmdldFZhck5hbWUoMSwne0RDM0M0NjlELTA3QUItNEJEOC1BOTJGLUFDQkQzMTY1QjU2OH0nLDAsMCk8IyElQCQ+ICkgJicgICAnICYgVHJpbSggPCMhJUAkPmdldFZhck5hbWUoMSwnezI5MTAzRDM0LUVGMjktNEIwNS1BODkwLTRDRDMzREYyNkVBQn0nLDAsMCk8IyElQCQ+ICk=</ExpressionVal>
+            <ExpectedType>A</ExpectedType>
+            <Direction>I</Direction>
+          </MSGString>
+        </SaveMSG>
+      </iBoltService>
+    </row_Step>
+  </Steps>
+
+  <Triggers>
+    <row_Trigger>
+      <Properties>
+        <ID>1</ID>
+        <Name>Call Trigger</Name>
+        <IFCDefinition>110</IFCDefinition>
+        <isTrigger>true</isTrigger>
+      </Properties>
+      <LoggingInfo>
+        <Scope>0</Scope>
+      </LoggingInfo>
+      <ResourceInfo>
+        <isDynamic>false</isDynamic>
+        <ResSerName>Call Trigger</ResSerName>
+      </ResourceInfo>
+      <ConfigInfo>
+        <InvokeComp>%ifclib%http\httpifc.ecf</InvokeComp>
+        <InvokeProg>CallTrigger</InvokeProg>
+        <ActivationBLOB>PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIiA/Pg0KPEh0dHA+DQoNCiAgPE5hbWU+Q2FsbCBUcmlnZ2VyPC9OYW1lPg0KDQogIDxPcGVyYXRpb24+DQogICAgPElEPjE8L0lEPg0KICAgIDxPcGVyYXRpb25OYW1lPkNhbGxUcmlnZ2VyPC9PcGVyYXRpb25OYW1lPg0KICAgIDxBcmd1bWVudD4NCiAgICAgIDxBcmd1bWVudElEPjE8L0FyZ3VtZW50SUQ+DQogICAgICA8QXJndW1lbnROYW1lPkZpcnN0X05hbWU8L0FyZ3VtZW50TmFtZT4NCiAgICAgIDxEYXRhVHlwZT5BPC9EYXRhVHlwZT4NCiAgICAgIDxEYXRhVHlwZVBpY3R1cmU+MzA8L0RhdGFUeXBlUGljdHVyZT4NCiAgICAgIDxNYXBwaW5nRXhwPg0KICAgICAgICA8RXhwcmVzc2lvblZhbD5QQ01oSlVBa1BtZGxkRlpoY2s1aGJXVW9NU3duZTBSRE0wTTBOamxFTFRBM1FVSXRORUpFT0MxQk9USkdMVUZEUWtRek1UWTFRalUyT0gwbkxEQXNNQ2s4SXlFbFFDUSs8L0V4cHJlc3Npb25WYWw+DQogICAgICAgIDxFeHBlY3RlZFR5cGU+QTwvRXhwZWN0ZWRUeXBlPg0KICAgICAgICA8RGlyZWN0aW9uPk88L0RpcmVjdGlvbj4NCiAgICAgIDwvTWFwcGluZ0V4cD4NCiAgICAgIDxEZWZhdWx0VmFsdWUvPg0KICAgICAgPE1hbmRhdG9yeT4wPC9NYW5kYXRvcnk+DQogICAgPC9Bcmd1bWVudD4NCiAgICA8QXJndW1lbnQ+DQogICAgICA8QXJndW1lbnRJRD4yPC9Bcmd1bWVudElEPg0KICAgICAgPEFyZ3VtZW50TmFtZT5MYXN0X05hbWU8L0FyZ3VtZW50TmFtZT4NCiAgICAgIDxEYXRhVHlwZT5BPC9EYXRhVHlwZT4NCiAgICAgIDxEYXRhVHlwZVBpY3R1cmU+MzA8L0RhdGFUeXBlUGljdHVyZT4NCiAgICAgIDxNYXBwaW5nRXhwPg0KICAgICAgICA8RXhwcmVzc2lvblZhbD5QQ01oSlVBa1BtZGxkRlpoY2s1aGJXVW9NU3duZXpJNU1UQXpSRE0wTFVWR01qa3RORUl3TlMxQk9Ea3dMVFJEUkRNelJFWXlOa1ZCUW4wbkxEQXNNQ2s4SXlFbFFDUSs8L0V4cHJlc3Npb25WYWw+DQogICAgICAgIDxFeHBlY3RlZFR5cGU+QTwvRXhwZWN0ZWRUeXBlPg0KICAgICAgICA8RGlyZWN0aW9uPk88L0RpcmVjdGlvbj4NCiAgICAgIDwvTWFwcGluZ0V4cD4NCiAgICAgIDxEZWZhdWx0VmFsdWUvPg0KICAgICAgPE1hbmRhdG9yeT4wPC9NYW5kYXRvcnk+DQogICAgPC9Bcmd1bWVudD4NCiAgPC9PcGVyYXRpb24+DQoNCjwvSHR0cD4NCg==</ActivationBLOB>
+      </ConfigInfo>
+    </row_Trigger>
+  </Triggers>
+
+  <TextElements>
+    <row_Element>
+      <ID>1</ID>
+      <Description>To call the Trigger, you need to execute the CallTrigger.htm file that is located in the project folder: [Magic xpi installation]\projects\HTTP\Service\Call Trigger.htm</Description>
+      <TextLocation>Left</TextLocation>
+      <Font>1</Font>
+      <Color>12713983</Color>
+      <BorderStyle>1</BorderStyle>
+    </row_Element>
+    <row_Element>
+      <ID>2</ID>
+      <Description>In order to access the Trigger you need to regenerate the Sample HTML. Do the following:&#xD;&#xA;- Go to Project&gt;&gt;Services&gt;&gt;HTTP&gt;&gt;Call Trigger&gt;&gt;Endpoints&#xD;&#xA;- Click on the Endpoint.&#xD;&#xA;- Click on the 'OK' button.&#xD;&#xA;- It will ask to overwrite the HTML, then click on 'Yes'.</Description>
+      <TextLocation>Left</TextLocation>
+      <Font>2</Font>
+      <Color>12713983</Color>
+      <BorderStyle>1</BorderStyle>
+    </row_Element>
+  </TextElements>
+
+</Flow>

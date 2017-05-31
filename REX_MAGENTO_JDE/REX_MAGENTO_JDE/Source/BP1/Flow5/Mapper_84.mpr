@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mapper xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <MapperOrigin>DataMapperService</MapperOrigin>
+  <SourceSchemas>
+    <Schema xsi:type="VariableSchema">
+      <SchemaID>5</SchemaID>
+      <Order>0</Order>
+      <Name>Variable_5</Name>
+      <Description />
+      <SchemaLocation>Source</SchemaLocation>
+      <SchemaType>Variable</SchemaType>
+      <Fields>
+        <Field xsi:type="ComplexField">
+          <Identifier>5</Identifier>
+          <FieldName>Instance</FieldName>
+          <NodeType>Complex</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Condition>
+            <ExpectedType>L</ExpectedType>
+            <Direction>I</Direction>
+          </Condition>
+          <ReplicatedCount>0</ReplicatedCount>
+          <MaxInstance>0</MaxInstance>
+        </Field>
+        <Field xsi:type="FieldVariable">
+          <Identifier>e06af2f9-46c9-4f4c-a2fe-93f39a833fa7</Identifier>
+          <FieldName>F.GetItemAvailability_FAULT</FieldName>
+          <NodeType>Simple</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Expression>
+            <ExpectedType />
+            <Direction>I</Direction>
+          </Expression>
+          <MagicFieldType>B</MagicFieldType>
+          <MagicPicture />
+          <isUnicode>false</isUnicode>
+          <ExternalFieldType>Blob</ExternalFieldType>
+          <UserPicture />
+          <isNillable>false</isNillable>
+          <AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+          <Encoding>2</Encoding>
+        </Field>
+      </Fields>
+      <Variables>
+        <Variables>
+          <Variable>
+            <VarGUID>e06af2f9-46c9-4f4c-a2fe-93f39a833fa7</VarGUID>
+          </Variable>
+        </Variables>
+      </Variables>
+    </Schema>
+  </SourceSchemas>
+  <DestinationSchemas>
+    <Schema xsi:type="VariableSchema">
+      <SchemaID>2</SchemaID>
+      <Order>0</Order>
+      <Name>Variable_2</Name>
+      <Description />
+      <SchemaLocation>Destination</SchemaLocation>
+      <SchemaType>Variable</SchemaType>
+      <Fields>
+        <Field xsi:type="ComplexField">
+          <Identifier>2</Identifier>
+          <FieldName>Instance</FieldName>
+          <NodeType>Complex</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Condition>
+            <ExpectedType>L</ExpectedType>
+            <Direction>I</Direction>
+          </Condition>
+          <ReplicatedCount>0</ReplicatedCount>
+          <MaxInstance>0</MaxInstance>
+          <MultiUpdates />
+        </Field>
+        <Field xsi:type="FieldVariable">
+          <Identifier>6e9b15e1-77d3-4d1d-a432-47364fa7b0f4</Identifier>
+          <FieldName>F.AvailableQuantity</FieldName>
+          <NodeType>Simple</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Expression>
+            <ExpressionVal>Jy05OTkn</ExpressionVal>
+            <ExpectedType>A</ExpectedType>
+            <Direction>I</Direction>
+          </Expression>
+          <MagicFieldType>A</MagicFieldType>
+          <MagicPicture>30</MagicPicture>
+          <isUnicode>false</isUnicode>
+          <ExternalFieldType>Alpha</ExternalFieldType>
+          <UserPicture>30</UserPicture>
+          <isNillable>false</isNillable>
+          <AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+          <Encoding>1</Encoding>
+        </Field>
+      </Fields>
+      <Variables>
+        <Variables>
+          <Variable>
+            <VarGUID>6e9b15e1-77d3-4d1d-a432-47364fa7b0f4</VarGUID>
+          </Variable>
+        </Variables>
+      </Variables>
+    </Schema>
+    <Schema xsi:type="XSDSchema">
+      <SchemaID>3</SchemaID>
+      <Order>0</Order>
+      <Name>XML_3</Name>
+      <Description />
+      <SchemaLocation>Destination</SchemaLocation>
+      <SchemaType>XSD</SchemaType>
+      <Fields>
+        <Field xsi:type="XSDComplexField">
+          <Identifier>sns0:getItemAvailabilityResponse</Identifier>
+          <FieldName>getItemAvailabilityResponse</FieldName>
+          <NodeType>Complex</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Condition>
+            <ExpectedType>L</ExpectedType>
+            <Direction>I</Direction>
+          </Condition>
+          <ReplicatedCount>0</ReplicatedCount>
+          <MaxInstance>1</MaxInstance>
+          <MultiUpdates />
+          <Filter>
+            <ExpectedType>L</ExpectedType>
+            <Direction>I</Direction>
+          </Filter>
+          <IsMultiSimple>false</IsMultiSimple>
+          <NameSpacePrefix>sns0</NameSpacePrefix>
+          <NameSpace>http://oracle.e1.bssv.JP410000/</NameSpace>
+          <MinInstance>1</MinInstance>
+          <Document />
+        </Field>
+        <Field xsi:type="XSDComplexField">
+          <Identifier>sns0:getItemAvailabilityResponse/e1MessageList</Identifier>
+          <FieldName>e1MessageList</FieldName>
+          <NodeType>Complex</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Condition>
+            <ExpectedType>L</ExpectedType>
+            <Direction>I</Direction>
+          </Condition>
+          <ReplicatedCount>0</ReplicatedCount>
+          <MaxInstance>1</MaxInstance>
+          <MultiUpdates />
+          <Filter>
+            <ExpectedType>L</ExpectedType>
+            <Direction>I</Direction>
+          </Filter>
+          <IsMultiSimple>false</IsMultiSimple>
+          <NameSpace />
+          <MinInstance>0</MinInstance>
+          <Document />
+        </Field>
+        <Field xsi:type="XSDComplexField">
+          <Identifier>sns0:getItemAvailabilityResponse/e1MessageList/e1Messages</Identifier>
+          <FieldName>e1Messages</FieldName>
+          <NodeType>Complex</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Condition>
+            <ExpectedType>L</ExpectedType>
+            <Direction>I</Direction>
+          </Condition>
+          <ReplicatedCount>0</ReplicatedCount>
+          <MaxInstance>79228162514264337593543950335</MaxInstance>
+          <MultiUpdates />
+          <Filter>
+            <ExpectedType>L</ExpectedType>
+            <Direction>I</Direction>
+          </Filter>
+          <IsMultiSimple>false</IsMultiSimple>
+          <NameSpace />
+          <MinInstance>0</MinInstance>
+          <Document />
+        </Field>
+        <Field xsi:type="SimpleXSDField">
+          <Identifier>sns0:getItemAvailabilityResponse/e1MessageList/e1Messages/message</Identifier>
+          <FieldName>message</FieldName>
+          <NodeType>Simple</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Expression>
+            <ExpectedType />
+            <Direction>I</Direction>
+          </Expression>
+          <MagicFieldType>A</MagicFieldType>
+          <MagicPicture>1000</MagicPicture>
+          <isUnicode>false</isUnicode>
+          <ExternalFieldType>string</ExternalFieldType>
+          <ExternalFieldPicture />
+          <UserPicture>1000</UserPicture>
+          <isNillable>false</isNillable>
+          <AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+          <Required>false</Required>
+          <Condition>
+            <ExpectedType>L</ExpectedType>
+            <Direction>I</Direction>
+          </Condition>
+          <CreateAllways>false</CreateAllways>
+          <NameSpace />
+          <MaxInstance>1</MaxInstance>
+          <MinInstance>0</MinInstance>
+          <Document />
+          <Enumeration />
+        </Field>
+        <Field xsi:type="SimpleXSDField">
+          <Identifier>sns0:getItemAvailabilityResponse/businessUnit</Identifier>
+          <FieldName>businessUnit</FieldName>
+          <NodeType>Simple</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Expression>
+            <ExpressionVal>PCMhJUAkPmdldFZhck5hbWUoMSwnMGIyMmMzZDctYWFkYS00N2Y4LWJhNzktNTkxMTk1MjYwZDI0JywwLDApPCMhJUAkPg==</ExpressionVal>
+            <ExpectedType>A</ExpectedType>
+            <Direction>I</Direction>
+          </Expression>
+          <MagicFieldType>A</MagicFieldType>
+          <MagicPicture>1000</MagicPicture>
+          <isUnicode>false</isUnicode>
+          <ExternalFieldType>string</ExternalFieldType>
+          <ExternalFieldPicture />
+          <UserPicture>1000</UserPicture>
+          <isNillable>false</isNillable>
+          <AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+          <Required>false</Required>
+          <Condition>
+            <ExpectedType>L</ExpectedType>
+            <Direction>I</Direction>
+          </Condition>
+          <CreateAllways>false</CreateAllways>
+          <NameSpace />
+          <MaxInstance>1</MaxInstance>
+          <MinInstance>0</MinInstance>
+          <Document />
+          <Enumeration />
+        </Field>
+        <Field xsi:type="XSDComplexField">
+          <Identifier>sns0:getItemAvailabilityResponse/item</Identifier>
+          <FieldName>item</FieldName>
+          <NodeType>Complex</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Condition>
+            <ExpectedType>L</ExpectedType>
+            <Direction>I</Direction>
+          </Condition>
+          <ReplicatedCount>0</ReplicatedCount>
+          <MaxInstance>1</MaxInstance>
+          <MultiUpdates />
+          <Filter>
+            <ExpectedType>L</ExpectedType>
+            <Direction>I</Direction>
+          </Filter>
+          <IsMultiSimple>false</IsMultiSimple>
+          <NameSpace />
+          <MinInstance>0</MinInstance>
+          <Document />
+        </Field>
+        <Field xsi:type="SimpleXSDField">
+          <Identifier>sns0:getItemAvailabilityResponse/item/itemProduct</Identifier>
+          <FieldName>itemProduct</FieldName>
+          <NodeType>Simple</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Expression>
+            <ExpressionVal>PCMhJUAkPmdldFZhck5hbWUoMSwnYTdjZmJiMWQtZGM5NS00MzJhLTg3NzUtNjk1OTlmYjczODI4JywwLDApPCMhJUAkPg==</ExpressionVal>
+            <ExpectedType>A</ExpectedType>
+            <Direction>I</Direction>
+          </Expression>
+          <MagicFieldType>A</MagicFieldType>
+          <MagicPicture>1000</MagicPicture>
+          <isUnicode>false</isUnicode>
+          <ExternalFieldType>string</ExternalFieldType>
+          <ExternalFieldPicture />
+          <UserPicture>1000</UserPicture>
+          <isNillable>false</isNillable>
+          <AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+          <Required>false</Required>
+          <Condition>
+            <ExpectedType>L</ExpectedType>
+            <Direction>I</Direction>
+          </Condition>
+          <CreateAllways>false</CreateAllways>
+          <NameSpace />
+          <MaxInstance>1</MaxInstance>
+          <MinInstance>0</MinInstance>
+          <Document />
+          <Enumeration />
+        </Field>
+        <Field xsi:type="SimpleXSDField">
+          <Identifier>sns0:getItemAvailabilityResponse/quantityAvailable</Identifier>
+          <FieldName>quantityAvailable</FieldName>
+          <NodeType>Simple</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Expression>
+            <ExpressionVal>LTk5OQ==</ExpressionVal>
+            <ExpectedType>N</ExpectedType>
+            <Direction>I</Direction>
+          </Expression>
+          <MagicFieldType>N</MagicFieldType>
+          <MagicPicture>10.2</MagicPicture>
+          <isUnicode>false</isUnicode>
+          <ExternalFieldType>decimal</ExternalFieldType>
+          <ExternalFieldPicture />
+          <UserPicture>10.2</UserPicture>
+          <isNillable>false</isNillable>
+          <AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+          <Required>false</Required>
+          <Condition>
+            <ExpectedType>L</ExpectedType>
+            <Direction>I</Direction>
+          </Condition>
+          <CreateAllways>false</CreateAllways>
+          <NameSpace />
+          <MaxInstance>1</MaxInstance>
+          <MinInstance>0</MinInstance>
+          <Document />
+          <Enumeration />
+        </Field>
+      </Fields>
+      <XSD>
+        <XSDSubType>File</XSDSubType>
+        <XsdFileName>Resource\GetAvailableQtyFromJDEBSSV\http___oracle_e1_bssv_JP410000_.xsd</XsdFileName>
+        <RootSelected>getItemAvailabilityResponse</RootSelected>
+        <isAppend>false</isAppend>
+        <isValidation>false</isValidation>
+        <RecursionDepth>1</RecursionDepth>
+        <AlwaysCreateNodes>true</AlwaysCreateNodes>
+        <DataDestination>Variable</DataDestination>
+        <DataExp>
+          <ExpressionVal>PCMhJUAkPmdldFZhck5hbWUoMSwnMzk4MzAyNjYtNGY2OC00MTE5LWIxYmQtOGFjYTAxMTIxMGJkJywwLDApPCMhJUAkPg==</ExpressionVal>
+          <ExpectedType>A</ExpectedType>
+          <Direction>O</Direction>
+        </DataExp>
+        <xmlFileEncoding>Project Encoding</xmlFileEncoding>
+        <UseStreamingParser>false</UseStreamingParser>
+        <TargetNamespace>http://oracle.e1.bssv.JP410000/</TargetNamespace>
+        <NameSpaces>
+          <XSDNameSpace>
+            <NS>ns0</NS>
+            <Alias>sns0</Alias>
+            <NSVector>http://oracle.e1.bssv.JP410000/</NSVector>
+          </XSDNameSpace>
+          <XSDNameSpace>
+            <NS>ns4</NS>
+            <Alias>ns0</Alias>
+            <NSVector>http://oracle.e1.bssv.JP410000/</NSVector>
+          </XSDNameSpace>
+          <XSDNameSpace>
+            <NS>ns2</NS>
+            <Alias>map</Alias>
+            <NSVector>http://systinet.com/mapping/</NSVector>
+          </XSDNameSpace>
+          <XSDNameSpace>
+            <NS>ns1</NS>
+            <Alias>xsd</Alias>
+            <NSVector>http://www.w3.org/2001/XMLSchema</NSVector>
+          </XSDNameSpace>
+          <XSDNameSpace>
+            <NS>ns3</NS>
+            <Alias>xs</Alias>
+            <NSVector>http://www.w3.org/2001/XMLSchema</NSVector>
+          </XSDNameSpace>
+          <XSDNameSpace>
+            <NS>ns5</NS>
+            <Alias>sns1</Alias>
+            <NSVector>http://www.w3.org/2001/XMLSchema</NSVector>
+          </XSDNameSpace>
+          <XSDNameSpace>
+            <NS>ns6</NS>
+            <Alias>ns1</Alias>
+            <NSVector>http://www.w3.org/2001/XMLSchema</NSVector>
+          </XSDNameSpace>
+        </NameSpaces>
+        <DataFormats />
+      </XSD>
+    </Schema>
+  </DestinationSchemas>
+  <Connections>
+    <ConnectionData>
+      <SourceIdentifier>5</SourceIdentifier>
+      <SourceSchemaID>5</SourceSchemaID>
+      <DestinationIdentifier>sns0:getItemAvailabilityResponse/e1MessageList/e1Messages</DestinationIdentifier>
+      <DestinationSchemaID>3</DestinationSchemaID>
+    </ConnectionData>
+    <ConnectionData>
+      <SourceIdentifier>e06af2f9-46c9-4f4c-a2fe-93f39a833fa7</SourceIdentifier>
+      <SourceSchemaID>5</SourceSchemaID>
+      <DestinationIdentifier>sns0:getItemAvailabilityResponse/e1MessageList/e1Messages/message</DestinationIdentifier>
+      <DestinationSchemaID>3</DestinationSchemaID>
+    </ConnectionData>
+  </Connections>
+  <ColorNames>
+    <MapperColorItem>
+      <Color>203</Color>
+      <ColorDescription>Blue</ColorDescription>
+    </MapperColorItem>
+    <MapperColorItem>
+      <Color>205</Color>
+      <ColorDescription>Green</ColorDescription>
+    </MapperColorItem>
+    <MapperColorItem>
+      <Color>206</Color>
+      <ColorDescription>Purple</ColorDescription>
+    </MapperColorItem>
+    <MapperColorItem>
+      <Color>204</Color>
+      <ColorDescription>Yellow</ColorDescription>
+    </MapperColorItem>
+    <MapperColorItem>
+      <Color>202</Color>
+      <ColorDescription>Red</ColorDescription>
+    </MapperColorItem>
+    <MapperColorItem>
+      <Color>210</Color>
+      <ColorDescription>Default</ColorDescription>
+    </MapperColorItem>
+  </ColorNames>
+</Mapper>

@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mapper xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <MapperOrigin>ComponentWithXMLInterface</MapperOrigin>
+  <DynamicSettings xsi:type="xsd:string">PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjxKREVTdGVwIHhtbG5zOnhzaT0iaHR0cDovL3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEtaW5zdGFuY2UiIHhtbG5zOnhzZD0iaHR0cDovL3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEiPg0KICA8Q29uZmlndXJhdGlvbj4NCiAgICA8SUZDTmFtZSAvPg0KICAgIDxJbnRlcmZhY2U+QjwvSW50ZXJmYWNlPg0KICAgIDxNb2R1bGU+WDQxMDE8L01vZHVsZT4NCiAgICA8QlNGTj5HZXRJdGVtTWFzdGVyQnkybmRJdGVtPC9CU0ZOPg0KICAgIDxEaXNjb25uZWN0PjA8L0Rpc2Nvbm5lY3Q+DQogICAgPFJlc3VsdFRhcmdldF9Db21ibz4yPC9SZXN1bHRUYXJnZXRfQ29tYm8+DQogICAgPFJlc3VsdFRhcmdldEV4cD4NCiAgICAgIDxFeHByZXNzaW9uVmFsPlBDTWhKVUFrUG1kbGRGWmhjazVoYldVb01pd25NREF3TURBd01EQXdNREF3TURBd01EQXdNREF3TURBd01EQXdNREF3TURBd01EQXdNREEzSnl3d0xEQXBQQ01oSlVBa1BnPT08L0V4cHJlc3Npb25WYWw+DQogICAgICA8RXhwZWN0ZWRUeXBlPkI8L0V4cGVjdGVkVHlwZT4NCiAgICAgIDxEaXJlY3Rpb24+TzwvRGlyZWN0aW9uPg0KICAgIDwvUmVzdWx0VGFyZ2V0RXhwPg0KICA8L0NvbmZpZ3VyYXRpb24+DQo8L0pERVN0ZXA+</DynamicSettings>
+  <SourceSchemas />
+  <DestinationSchemas>
+    <Schema xsi:type="XSDSchema">
+      <SchemaID>3</SchemaID>
+      <Order>1</Order>
+      <Name>IFC_JD_Edwards</Name>
+      <Description />
+      <SchemaLocation>Destination</SchemaLocation>
+      <SchemaType>XSD</SchemaType>
+      <Fields>
+        <Field xsi:type="XSDComplexField">
+          <Identifier>X4101.GetItemMasterBy2ndItem</Identifier>
+          <Description />
+          <FieldName>X4101.GetItemMasterBy2ndItem</FieldName>
+          <NodeType>Complex</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Condition>
+            <ExpectedType>L</ExpectedType>
+            <Direction>I</Direction>
+          </Condition>
+          <ReplicatedCount>0</ReplicatedCount>
+          <MaxInstance>1</MaxInstance>
+          <MultiUpdates />
+          <Filter>
+            <ExpectedType>L</ExpectedType>
+            <Direction>I</Direction>
+          </Filter>
+          <IsMultiSimple>false</IsMultiSimple>
+          <NameSpace />
+          <MinInstance>1</MinInstance>
+          <Document />
+        </Field>
+        <Field xsi:type="XSDComplexField">
+          <Identifier>X4101.GetItemMasterBy2ndItem/Data</Identifier>
+          <Description />
+          <FieldName>Data</FieldName>
+          <NodeType>Complex</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Condition>
+            <ExpectedType>L</ExpectedType>
+            <Direction>I</Direction>
+          </Condition>
+          <ReplicatedCount>0</ReplicatedCount>
+          <MaxInstance>1</MaxInstance>
+          <MultiUpdates />
+          <Filter>
+            <ExpectedType>L</ExpectedType>
+            <Direction>I</Direction>
+          </Filter>
+          <IsMultiSimple>false</IsMultiSimple>
+          <NameSpace />
+          <MinInstance>1</MinInstance>
+          <Document />
+        </Field>
+        <Field xsi:type="XSDComplexField">
+          <Identifier>X4101.GetItemMasterBy2ndItem/Data/row</Identifier>
+          <Description />
+          <FieldName>row</FieldName>
+          <NodeType>Complex</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Condition>
+            <ExpectedType>L</ExpectedType>
+            <Direction>I</Direction>
+          </Condition>
+          <ReplicatedCount>0</ReplicatedCount>
+          <MaxInstance>1</MaxInstance>
+          <MultiUpdates />
+          <Filter>
+            <ExpectedType>L</ExpectedType>
+            <Direction>I</Direction>
+          </Filter>
+          <IsMultiSimple>false</IsMultiSimple>
+          <NameSpace />
+          <MinInstance>1</MinInstance>
+          <Document />
+        </Field>
+        <Field xsi:type="SimpleXSDField">
+          <Identifier>X4101.GetItemMasterBy2ndItem/Data/row/sz2ndItemNumber</Identifier>
+          <Description />
+          <FieldName>sz2ndItemNumber</FieldName>
+          <NodeType>Simple</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Expression>
+            <ExpressionVal>PCMhJUAkPmdldFZhck5hbWUoMSwne0I2QjM0QzMzLTYyOTctNDFDMi1BQzdBLUQ4N0E0QURBNEU4Qn0nLDAsMCk8IyElQCQ+</ExpressionVal>
+            <ExpectedType>A</ExpectedType>
+            <Direction>I</Direction>
+          </Expression>
+          <MagicFieldType>A</MagicFieldType>
+          <MagicPicture>26</MagicPicture>
+          <isUnicode>false</isUnicode>
+          <ExternalFieldType>string</ExternalFieldType>
+          <ExternalFieldPicture>26</ExternalFieldPicture>
+          <UserPicture>26</UserPicture>
+          <isNillable>false</isNillable>
+          <AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+          <Required>true</Required>
+          <Condition>
+            <ExpectedType>L</ExpectedType>
+            <Direction>I</Direction>
+          </Condition>
+          <CreateAllways>false</CreateAllways>
+          <NameSpace />
+          <MaxInstance>1</MaxInstance>
+          <MinInstance>1</MinInstance>
+          <Document>Required=YES</Document>
+          <Enumeration />
+        </Field>
+      </Fields>
+      <XSD>
+        <XSDSubType>File</XSDSubType>
+        <IFCModel>IFC_JDEdwardsEnterpriseOne</IFCModel>
+        <XsdFileName>jdedwards\XSD\JDEENT01_JPY920\X4101.GetItemMasterBy2ndItem.xsd</XsdFileName>
+        <RootSelected>X4101.GetItemMasterBy2ndItem</RootSelected>
+        <isAppend>false</isAppend>
+        <isValidation>false</isValidation>
+        <RecursionDepth>1</RecursionDepth>
+        <AlwaysCreateNodes>false</AlwaysCreateNodes>
+        <DataDestination>Variable</DataDestination>
+        <DataExp>
+          <ExpressionVal>PCMhJUAkPmdldFZhck5hbWUoMiwnMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDA4JywwLDApPCMhJUAkPg==</ExpressionVal>
+          <ExpectedType>B</ExpectedType>
+          <Direction>O</Direction>
+        </DataExp>
+        <xmlFileEncoding>Unicode(UTF-16)</xmlFileEncoding>
+        <UseStreamingParser>false</UseStreamingParser>
+        <DataFormats />
+      </XSD>
+    </Schema>
+  </DestinationSchemas>
+  <Connections />
+  <ColorNames>
+    <MapperColorItem>
+      <Color>203</Color>
+      <ColorDescription>Blue</ColorDescription>
+    </MapperColorItem>
+    <MapperColorItem>
+      <Color>205</Color>
+      <ColorDescription>Green</ColorDescription>
+    </MapperColorItem>
+    <MapperColorItem>
+      <Color>206</Color>
+      <ColorDescription>Purple</ColorDescription>
+    </MapperColorItem>
+    <MapperColorItem>
+      <Color>204</Color>
+      <ColorDescription>Yellow</ColorDescription>
+    </MapperColorItem>
+    <MapperColorItem>
+      <Color>202</Color>
+      <ColorDescription>Red</ColorDescription>
+    </MapperColorItem>
+    <MapperColorItem>
+      <Color>210</Color>
+      <ColorDescription>Default</ColorDescription>
+    </MapperColorItem>
+  </ColorNames>
+</Mapper>

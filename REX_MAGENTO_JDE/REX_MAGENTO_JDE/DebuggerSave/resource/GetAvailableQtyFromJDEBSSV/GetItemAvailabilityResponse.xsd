@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<xs:schema targetNamespace="http://oracle.e1.bssv.JP410000/" xmlns:map="http://systinet.com/mapping/" xmlns:ns0="http://oracle.e1.bssv.JP410000/" xmlns:sns0="http://oracle.e1.bssv.JP410000/" xmlns:sns1="http://www.w3.org/2001/XMLSchema" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <xs:import namespace="http://www.w3.org/2001/XMLSchema"/>
+  
+    <xsd:complexType name="showItemAvailability">
+    <xsd:annotation>
+      <xsd:appinfo>
+        <map:java-type name="com_magicsoftware_edeveloper_MAGICXPI_29122016_153124__GetAvailableQtyFromJDEBSSV.ShowItemAvailability"/>
+      </xsd:appinfo>
+    </xsd:annotation>
+    <xsd:complexContent>
+      <xsd:extension base="ns0:messageValueObject">
+        <xsd:sequence>
+          <xsd:element form="unqualified" map:java-field="businessUnit" minOccurs="0" name="businessUnit" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="item" minOccurs="0" name="item" nillable="false" type="ns0:itemResponseCustomer"/>
+          <xsd:element form="unqualified" map:java-field="quantityAvailable" minOccurs="0" name="quantityAvailable" nillable="false" type="xsd:decimal"/>
+          <xsd:element form="unqualified" map:java-field="transactionUnitOfMeasure" minOccurs="0" name="transactionUnitOfMeasure" nillable="false" type="xsd:string"/>
+        </xsd:sequence>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+  
+    <xsd:element name="getItemAvailabilityResponse" nillable="true" type="ns0:showItemAvailability"/>
+</xs:schema>

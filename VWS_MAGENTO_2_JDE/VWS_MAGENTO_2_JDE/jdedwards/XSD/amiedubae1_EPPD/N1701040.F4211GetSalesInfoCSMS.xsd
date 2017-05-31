@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" version="1.0">
+<xsd:element name="N1701040.F4211GetSalesInfoCSMS">
+<xsd:complexType>
+<xsd:sequence>
+<xsd:element name="Data">
+<xsd:complexType>
+<xsd:sequence>
+<xsd:element name="row">
+<xsd:complexType>
+<xsd:sequence maxOccurs="unbounded">
+<xsd:element name="szCompanyKeyOrderNo">
+<xsd:annotation>
+<xsd:documentation>Required=NO</xsd:documentation>
+</xsd:annotation>
+<xsd:simpleType>
+<xsd:restriction base="xsd:string">
+<xsd:maxLength value="6"/>
+</xsd:restriction>
+</xsd:simpleType>
+</xsd:element>
+<xsd:element name="mnDocumentOrderInvoiceE">
+<xsd:annotation>
+<xsd:documentation>Required=NO</xsd:documentation>
+</xsd:annotation>
+<xsd:simpleType>
+<xsd:restriction base="xsd:string">
+<xsd:maxLength value="32"/>
+</xsd:restriction>
+</xsd:simpleType>
+</xsd:element>
+<xsd:element name="szOrderType">
+<xsd:annotation>
+<xsd:documentation>Required=NO</xsd:documentation>
+</xsd:annotation>
+<xsd:simpleType>
+<xsd:restriction base="xsd:string">
+<xsd:maxLength value="3"/>
+</xsd:restriction>
+</xsd:simpleType>
+</xsd:element>
+<xsd:element name="mnLineNumber">
+<xsd:annotation>
+<xsd:documentation>Required=NO</xsd:documentation>
+</xsd:annotation>
+<xsd:simpleType>
+<xsd:restriction base="xsd:string">
+<xsd:maxLength value="32"/>
+</xsd:restriction>
+</xsd:simpleType>
+</xsd:element>
+<xsd:element name="szCostCenter">
+<xsd:annotation>
+<xsd:documentation>Required=YES</xsd:documentation>
+</xsd:annotation>
+<xsd:simpleType>
+<xsd:restriction base="xsd:string">
+<xsd:maxLength value="13"/>
+</xsd:restriction>
+</xsd:simpleType>
+</xsd:element>
+<xsd:element name="mnAddressNumberShipTo">
+<xsd:annotation>
+<xsd:documentation>Required=YES</xsd:documentation>
+</xsd:annotation>
+<xsd:simpleType>
+<xsd:restriction base="xsd:string">
+<xsd:maxLength value="32"/>
+</xsd:restriction>
+</xsd:simpleType>
+</xsd:element>
+<xsd:element name="jdDateRequestedJulian">
+<xsd:annotation>
+<xsd:documentation>Required=YES</xsd:documentation>
+</xsd:annotation>
+<xsd:simpleType>
+<xsd:restriction base="xsd:date"/>
+</xsd:simpleType>
+</xsd:element>
+<xsd:element name="jdDateTransactionJulian">
+<xsd:annotation>
+<xsd:documentation>Required=YES</xsd:documentation>
+</xsd:annotation>
+<xsd:simpleType>
+<xsd:restriction base="xsd:date"/>
+</xsd:simpleType>
+</xsd:element>
+<xsd:element name="jdActualShipDate">
+<xsd:annotation>
+<xsd:documentation>Required=YES</xsd:documentation>
+</xsd:annotation>
+<xsd:simpleType>
+<xsd:restriction base="xsd:date"/>
+</xsd:simpleType>
+</xsd:element>
+<xsd:element name="jdDateInvoiceJulian">
+<xsd:annotation>
+<xsd:documentation>Required=YES</xsd:documentation>
+</xsd:annotation>
+<xsd:simpleType>
+<xsd:restriction base="xsd:date"/>
+</xsd:simpleType>
+</xsd:element>
+<xsd:element name="jdCancelDate">
+<xsd:annotation>
+<xsd:documentation>Required=YES</xsd:documentation>
+</xsd:annotation>
+<xsd:simpleType>
+<xsd:restriction base="xsd:date"/>
+</xsd:simpleType>
+</xsd:element>
+<xsd:element name="szReference1">
+<xsd:annotation>
+<xsd:documentation>Required=YES</xsd:documentation>
+</xsd:annotation>
+<xsd:simpleType>
+<xsd:restriction base="xsd:string">
+<xsd:maxLength value="26"/>
+</xsd:restriction>
+</xsd:simpleType>
+</xsd:element>
+<xsd:element name="mnIdentifierShortItem">
+<xsd:annotation>
+<xsd:documentation>Required=YES</xsd:documentation>
+</xsd:annotation>
+<xsd:simpleType>
+<xsd:restriction base="xsd:string">
+<xsd:maxLength value="32"/>
+</xsd:restriction>
+</xsd:simpleType>
+</xsd:element>
+<xsd:element name="szIdentifier2ndItem">
+<xsd:annotation>
+<xsd:documentation>Required=YES</xsd:documentation>
+</xsd:annotation>
+<xsd:simpleType>
+<xsd:restriction base="xsd:string">
+<xsd:maxLength value="26"/>
+</xsd:restriction>
+</xsd:simpleType>
+</xsd:element>
+<xsd:element name="szLocation">
+<xsd:annotation>
+<xsd:documentation>Required=YES</xsd:documentation>
+</xsd:annotation>
+<xsd:simpleType>
+<xsd:restriction base="xsd:string">
+<xsd:maxLength value="21"/>
+</xsd:restriction>
+</xsd:simpleType>
+</xsd:element>
+<xsd:element name="szLot">
+<xsd:annotation>
+<xsd:documentation>Required=YES</xsd:documentation>
+</xsd:annotation>
+<xsd:simpleType>
+<xsd:restriction base="xsd:string">
+<xsd:maxLength value="31"/>
+</xsd:restriction>
+</xsd:simpleType>
+</xsd:element>
+<xsd:element name="szLineType">
+<xsd:annotation>
+<xsd:documentation>Required=YES</xsd:documentation>
+</xsd:annotation>
+<xsd:simpleType>
+<xsd:restriction base="xsd:string">
+<xsd:maxLength value="3"/>
+</xsd:restriction>
+</xsd:simpleType>
+</xsd:element>
+<xsd:element name="mnUnitsTransactionQty">
+<xsd:annotation>
+<xsd:documentation>Required=YES</xsd:documentation>
+</xsd:annotation>
+<xsd:simpleType>
+<xsd:restriction base="xsd:string">
+<xsd:maxLength value="32"/>
+</xsd:restriction>
+</xsd:simpleType>
+</xsd:element>
+<xsd:element name="mnUnitsQuantityShipped">
+<xsd:annotation>
+<xsd:documentation>Required=YES</xsd:documentation>
+</xsd:annotation>
+<xsd:simpleType>
+<xsd:restriction base="xsd:string">
+<xsd:maxLength value="32"/>
+</xsd:restriction>
+</xsd:simpleType>
+</xsd:element>
+<xsd:element name="mnUnitsQuanBackorHeld">
+<xsd:annotation>
+<xsd:documentation>Required=YES</xsd:documentation>
+</xsd:annotation>
+<xsd:simpleType>
+<xsd:restriction base="xsd:string">
+<xsd:maxLength value="32"/>
+</xsd:restriction>
+</xsd:simpleType>
+</xsd:element>
+<xsd:element name="mnUnitsOpenQuantity">
+<xsd:annotation>
+<xsd:documentation>Required=YES</xsd:documentation>
+</xsd:annotation>
+<xsd:simpleType>
+<xsd:restriction base="xsd:string">
+<xsd:maxLength value="32"/>
+</xsd:restriction>
+</xsd:simpleType>
+</xsd:element>
+<xsd:element name="mnCarrier">
+<xsd:annotation>
+<xsd:documentation>Required=YES</xsd:documentation>
+</xsd:annotation>
+<xsd:simpleType>
+<xsd:restriction base="xsd:string">
+<xsd:maxLength value="32"/>
+</xsd:restriction>
+</xsd:simpleType>
+</xsd:element>
+<xsd:element name="szStatusCodeNext">
+<xsd:annotation>
+<xsd:documentation>Required=YES</xsd:documentation>
+</xsd:annotation>
+<xsd:simpleType>
+<xsd:restriction base="xsd:string">
+<xsd:maxLength value="4"/>
+</xsd:restriction>
+</xsd:simpleType>
+</xsd:element>
+<xsd:element name="szStatusCodeLast">
+<xsd:annotation>
+<xsd:documentation>Required=YES</xsd:documentation>
+</xsd:annotation>
+<xsd:simpleType>
+<xsd:restriction base="xsd:string">
+<xsd:maxLength value="4"/>
+</xsd:restriction>
+</xsd:simpleType>
+</xsd:element>
+<xsd:element name="jdPromisedDeliveryDate">
+<xsd:annotation>
+<xsd:documentation>Required=YES</xsd:documentation>
+</xsd:annotation>
+<xsd:simpleType>
+<xsd:restriction base="xsd:date"/>
+</xsd:simpleType>
+</xsd:element>
+<xsd:element name="mnAddressNumber">
+<xsd:annotation>
+<xsd:documentation>Required=YES</xsd:documentation>
+</xsd:annotation>
+<xsd:simpleType>
+<xsd:restriction base="xsd:string">
+<xsd:maxLength value="32"/>
+</xsd:restriction>
+</xsd:simpleType>
+</xsd:element>
+</xsd:sequence>
+</xsd:complexType>
+</xsd:element>
+</xsd:sequence>
+</xsd:complexType>
+</xsd:element>
+<xsd:element name="Messages">
+<xsd:annotation>
+<xsd:documentation>Return errors/warnings messages</xsd:documentation>
+</xsd:annotation>
+<xsd:complexType>
+<xsd:sequence minOccurs="0">
+<xsd:element name="row" maxOccurs="unbounded">
+<xsd:complexType>
+<xsd:sequence>
+<xsd:element name="Level" type="xsd:integer"/>
+<xsd:element name="ID" type="xsd:integer"/>
+<xsd:element name="DDItem" type="xsd:string"/>
+<xsd:element name="Description" type="xsd:string"/>
+<xsd:element name="SubText" type="xsd:string"/>
+</xsd:sequence>
+</xsd:complexType>
+</xsd:element>
+</xsd:sequence>
+</xsd:complexType>
+</xsd:element>
+</xsd:sequence>
+</xsd:complexType>
+</xsd:element>
+</xsd:schema>

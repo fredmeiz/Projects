@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<BpVariableRepository>
+			<Variable d2p1:type="VariableRepositoryItem" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance">
+			<GUID>{3E17C215-EEB6-4458-8A31-1498E77EA02D}</GUID>
+			<ID>1</ID>
+			<Order>234</Order>
+			<Name>B.adjSchedule</Name>
+						<Type>
+				<Type>A</Type>
+				<Picture>8</Picture>
+				<isUnicode>false</isUnicode>
+				<isNillable>false</isNillable>
+			</Type>
+										<DefaultValue>
+					<ExpressionVal>J0ZFTUFHU0Mn</ExpressionVal>
+					<ExpectedType>A</ExpectedType>
+					<Direction>I</Direction>
+				</DefaultValue>
+									<IsSystemVariable>false</IsSystemVariable>
+			<IsNameIncompatible>false</IsNameIncompatible>
+		</Variable>
+			<Variable d2p1:type="VariableRepositoryItem" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance">
+			<GUID>{A18F4B8F-029C-45F8-983E-C97863AEA53E}</GUID>
+			<ID>2</ID>
+			<Order>235</Order>
+			<Name>B.custPriceGrp</Name>
+						<Type>
+				<Type>A</Type>
+				<Picture>8</Picture>
+				<isUnicode>false</isUnicode>
+				<isNillable>false</isNillable>
+			</Type>
+										<DefaultValue>
+					<ExpressionVal>J0ZFNUxJU1Qn</ExpressionVal>
+					<ExpectedType>A</ExpectedType>
+					<Direction>I</Direction>
+				</DefaultValue>
+									<IsSystemVariable>false</IsSystemVariable>
+			<IsNameIncompatible>false</IsNameIncompatible>
+		</Variable>
+			<Variable d2p1:type="VariableRepositoryItem" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance">
+			<GUID>{5D9E562E-9EBE-4B3F-B237-A389A18B4A20}</GUID>
+			<ID>3</ID>
+			<Order>237</Order>
+			<Name>B.szBusinessUnit</Name>
+							<Description>replaces flow variable - need to move to ifs.ini</Description>
+						<Type>
+				<Type>A</Type>
+				<Picture>12</Picture>
+				<isUnicode>false</isUnicode>
+				<isNillable>false</isNillable>
+			</Type>
+										<DefaultValue>
+					<ExpressionVal>JzIyNTAwMCc=</ExpressionVal>
+					<ExpectedType>A</ExpectedType>
+					<Direction>I</Direction>
+				</DefaultValue>
+									<IsSystemVariable>false</IsSystemVariable>
+			<IsNameIncompatible>false</IsNameIncompatible>
+		</Variable>
+			<Variable d2p1:type="VariableRepositoryItem" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance">
+			<GUID>{61355887-9CF4-4406-BDAE-065DB022F40E}</GUID>
+			<ID>4</ID>
+			<Order>238</Order>
+			<Name>B.szOrderCo</Name>
+							<Description>replaces flow variable - need to move to ifs.ini</Description>
+						<Type>
+				<Type>A</Type>
+				<Picture>5</Picture>
+				<isUnicode>false</isUnicode>
+				<isNillable>false</isNillable>
+			</Type>
+										<DefaultValue>
+					<ExpressionVal>JzAwMjI1Jw==</ExpressionVal>
+					<ExpectedType>A</ExpectedType>
+					<Direction>I</Direction>
+				</DefaultValue>
+									<IsSystemVariable>false</IsSystemVariable>
+			<IsNameIncompatible>false</IsNameIncompatible>
+		</Variable>
+			<Variable d2p1:type="VariableRepositoryItem" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance">
+			<GUID>{D3D86745-F4CB-411D-88B8-312E9658EE2B}</GUID>
+			<ID>5</ID>
+			<Order>239</Order>
+			<Name>B.szOrderType</Name>
+							<Description>frequently used JDE variable</Description>
+						<Type>
+				<Type>A</Type>
+				<Picture>3</Picture>
+				<isUnicode>false</isUnicode>
+				<isNillable>false</isNillable>
+			</Type>
+										<DefaultValue>
+					<ExpressionVal>J1NPJw==</ExpressionVal>
+					<ExpectedType>A</ExpectedType>
+					<Direction>I</Direction>
+				</DefaultValue>
+									<IsSystemVariable>false</IsSystemVariable>
+			<IsNameIncompatible>false</IsNameIncompatible>
+		</Variable>
+	</BpVariableRepository>

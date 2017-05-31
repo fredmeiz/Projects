@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProjectRepository>
+  <Project>
+    <InternalVer>
+      <row>
+        <Ver>1.0</Ver>
+      </row>
+    </InternalVer>
+    <Properties>
+      <DefaultResourceFile>resources.xml</DefaultResourceFile>
+      <DefaultServiceFile>services.xml</DefaultServiceFile>
+      <iBoltVer>4.40000</iBoltVer>
+      <Name>magic_xpi_course_2</Name>
+      <Owner>Magic Software Enterprises Ltd</Owner>
+      <Last_Edited>22/07/2016 at 10:30:29</Last_Edited>
+      <ProjVer>WlVIeEhZK2ZRbWd4UUh1T29iMWNlUT09</ProjVer>
+      <Encoding>West European</Encoding>
+      <ResourceFile>resources.xml</ResourceFile>
+      <ServiceFile>services.xml</ServiceFile>
+      <DebugMode>false</DebugMode>
+      <IsResSerPropChanged>false</IsResSerPropChanged>
+    </Properties>
+    <EnvInfo>
+      <WebMonitor />
+      <ErrMail>
+        <ResourceDescription />
+      </ErrMail>
+    </EnvInfo>
+    <SecurityInfo>
+      <Type>0</Type>
+      <IPPort>0</IPPort>
+      <AuditTrail>0</AuditTrail>
+    </SecurityInfo>
+    <InterCompInfo>
+      <Type>0</Type>
+    </InterCompInfo>
+    <FlowAndBpLastId>
+      <LastFlowId>1</LastFlowId>
+      <LastBpId>1</LastBpId>
+    </FlowAndBpLastId>
+    <ServerSettings>
+      <ClearModeInfo>
+        <ODS>1</ODS>
+        <MSG>1</MSG>
+        <PSS>1</PSS>
+        <LCK>1</LCK>
+      </ClearModeInfo>
+    </ServerSettings>
+  </Project>
+</ProjectRepository>

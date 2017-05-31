@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FlowVariables>
+  <Variable d2p1:type="VariableRepositoryItem" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance">
+    <GUID>bac20060-535d-4191-b467-e9f91867db52</GUID>
+    <ID>1</ID>
+    <Name>F.NumOrderIdJDE</Name>
+    <Order>1</Order>
+    <IsNameIncompatible>false</IsNameIncompatible>
+    <Type>
+      <Type>N</Type>
+      <Picture>8.0</Picture>
+      <isUnicode>false</isUnicode>
+      <isNillable>false</isNillable>
+    </Type>
+    <DefaultValue>
+      <ExpectedType>N</ExpectedType>
+      <Direction>I</Direction>
+    </DefaultValue>
+    <isDeleted>false</isDeleted>
+    <IsSystemVariable>false</IsSystemVariable>
+  </Variable>
+  <Variable d2p1:type="VariableRepositoryItem" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance">
+    <Description>Final result</Description>
+    <GUID>2f431243-e36a-4111-b6a5-35b7d7f06da6</GUID>
+    <ID>2</ID>
+    <Name>F.Return</Name>
+    <Order>2</Order>
+    <IsNameIncompatible>false</IsNameIncompatible>
+    <Type>
+      <Type>B</Type>
+      <Picture />
+      <isUnicode>false</isUnicode>
+      <isNillable>false</isNillable>
+    </Type>
+    <DefaultValue>
+      <ExpectedType>B</ExpectedType>
+      <Direction>I</Direction>
+    </DefaultValue>
+    <isDeleted>false</isDeleted>
+    <IsSystemVariable>false</IsSystemVariable>
+  </Variable>
+  <Variable d2p1:type="VariableRepositoryItem" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance">
+    <GUID>97f81aad-7365-4e1c-876a-f5d39f872e14</GUID>
+    <ID>3</ID>
+    <Name>F.SYS_JDEFAULT</Name>
+    <Order>3</Order>
+    <IsNameIncompatible>false</IsNameIncompatible>
+    <Type>
+      <Type>B</Type>
+      <Picture />
+      <isUnicode>false</isUnicode>
+      <isNillable>false</isNillable>
+    </Type>
+    <DefaultValue>
+      <ExpectedType>B</ExpectedType>
+      <Direction>I</Direction>
+    </DefaultValue>
+    <isDeleted>false</isDeleted>
+    <IsSystemVariable>false</IsSystemVariable>
+  </Variable>
+  <Variable d2p1:type="VariableRepositoryItem" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance">
+    <GUID>6dda710d-7c78-4702-8e54-b3be1218de77</GUID>
+    <ID>4</ID>
+    <Name>F.SYS_JDEIN</Name>
+    <Order>4</Order>
+    <IsNameIncompatible>false</IsNameIncompatible>
+    <Type>
+      <Type>B</Type>
+      <Picture />
+      <isUnicode>false</isUnicode>
+      <isNillable>false</isNillable>
+    </Type>
+    <DefaultValue>
+      <ExpectedType>B</ExpectedType>
+      <Direction>I</Direction>
+    </DefaultValue>
+    <isDeleted>false</isDeleted>
+    <IsSystemVariable>false</IsSystemVariable>
+  </Variable>
+  <Variable d2p1:type="VariableRepositoryItem" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance">
+    <GUID>98406569-4516-4ad8-8b77-75231b3393b3</GUID>
+    <ID>5</ID>
+    <Name>F.SYS_JDEOUT</Name>
+    <Order>5</Order>
+    <IsNameIncompatible>false</IsNameIncompatible>
+    <Type>
+      <Type>B</Type>
+      <Picture />
+      <isUnicode>false</isUnicode>
+      <isNillable>false</isNillable>
+    </Type>
+    <DefaultValue>
+      <ExpectedType>B</ExpectedType>
+      <Direction>I</Direction>
+    </DefaultValue>
+    <isDeleted>false</isDeleted>
+    <IsSystemVariable>false</IsSystemVariable>
+  </Variable>
+  <Variable d2p1:type="VariableRepositoryItem" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance">
+    <Description>for debugging. give the command a status of your choice and it will be returned.</Description>
+    <GUID>eef8b483-05ca-44fd-9050-bc6ee41d5880</GUID>
+    <ID>6</ID>
+    <Name>F.desiredStatus</Name>
+    <Order>6</Order>
+    <IsNameIncompatible>false</IsNameIncompatible>
+    <Type>
+      <Type>A</Type>
+      <Picture>30</Picture>
+      <isUnicode>false</isUnicode>
+      <isNillable>false</isNillable>
+    </Type>
+    <DefaultValue>
+      <ExpectedType>A</ExpectedType>
+      <Direction>I</Direction>
+    </DefaultValue>
+    <isDeleted>false</isDeleted>
+    <IsSystemVariable>false</IsSystemVariable>
+  </Variable>
+  <Variable d2p1:type="VariableRepositoryItem" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance">
+    <Description>Trigger stores call data here</Description>
+    <GUID>e0c384c5-da25-43b8-bc10-ac36c11f7f39</GUID>
+    <ID>7</ID>
+    <Name>F.magTriggerOrderStatus</Name>
+    <Order>7</Order>
+    <IsNameIncompatible>false</IsNameIncompatible>
+    <Type>
+      <Type>B</Type>
+      <Picture />
+      <isUnicode>false</isUnicode>
+      <isNillable>false</isNillable>
+    </Type>
+    <DefaultValue>
+      <ExpectedType>B</ExpectedType>
+      <Direction>I</Direction>
+    </DefaultValue>
+    <isDeleted>false</isDeleted>
+    <IsSystemVariable>false</IsSystemVariable>
+  </Variable>
+  <Variable d2p1:type="VariableRepositoryItem" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance">
+    <Description>populated via lookup table</Description>
+    <GUID>7bcf937d-98c0-4a91-b0cb-6dec65066f10</GUID>
+    <ID>8</ID>
+    <Name>F.orderIdJDE</Name>
+    <Order>8</Order>
+    <IsNameIncompatible>false</IsNameIncompatible>
+    <Type>
+      <Type>A</Type>
+      <Picture>30</Picture>
+      <isUnicode>false</isUnicode>
+      <isNillable>false</isNillable>
+    </Type>
+    <DefaultValue>
+      <ExpectedType>A</ExpectedType>
+      <Direction>I</Direction>
+    </DefaultValue>
+    <isDeleted>false</isDeleted>
+    <IsSystemVariable>false</IsSystemVariable>
+  </Variable>
+  <Variable d2p1:type="VariableRepositoryItem" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance">
+    <Description>for Magento order number. To be translated using internal table to JDE order number</Description>
+    <GUID>0b710f94-f1d7-461d-8907-632e90c078ed</GUID>
+    <ID>9</ID>
+    <Name>F.orderIdMagento</Name>
+    <Order>9</Order>
+    <IsNameIncompatible>false</IsNameIncompatible>
+    <Type>
+      <Type>A</Type>
+      <Picture>30</Picture>
+      <isUnicode>false</isUnicode>
+      <isNillable>false</isNillable>
+    </Type>
+    <DefaultValue>
+      <ExpectedType>A</ExpectedType>
+      <Direction>I</Direction>
+    </DefaultValue>
+    <isDeleted>false</isDeleted>
+    <IsSystemVariable>false</IsSystemVariable>
+  </Variable>
+  <Variable d2p1:type="VariableRepositoryItem" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance">
+    <Description>extract from resultBsfn1</Description>
+    <GUID>1471adc7-45a9-4933-aa84-f8ff1d05edf2</GUID>
+    <ID>10</ID>
+    <Name>F.orderStatusJDE</Name>
+    <Order>10</Order>
+    <IsNameIncompatible>false</IsNameIncompatible>
+    <Type>
+      <Type>A</Type>
+      <Picture>30</Picture>
+      <isUnicode>false</isUnicode>
+      <isNillable>false</isNillable>
+    </Type>
+    <DefaultValue>
+      <ExpectedType>A</ExpectedType>
+      <Direction>I</Direction>
+    </DefaultValue>
+    <isDeleted>false</isDeleted>
+    <IsSystemVariable>false</IsSystemVariable>
+  </Variable>
+  <Variable d2p1:type="VariableRepositoryItem" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance">
+    <GUID>4f9603e7-e9c9-488b-84d1-131ca7f125ea</GUID>
+    <ID>11</ID>
+    <Name>F.JDEHoldCode</Name>
+    <Order>11</Order>
+    <IsNameIncompatible>false</IsNameIncompatible>
+    <Type>
+      <Type>A</Type>
+      <Picture>2</Picture>
+      <isUnicode>false</isUnicode>
+      <isNillable>false</isNillable>
+    </Type>
+    <DefaultValue>
+      <ExpectedType>A</ExpectedType>
+      <Direction>I</Direction>
+    </DefaultValue>
+    <isDeleted>false</isDeleted>
+    <IsSystemVariable>false</IsSystemVariable>
+  </Variable>
+</FlowVariables>

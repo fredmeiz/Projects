@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>4.0</SchemaVersion>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>Email</RootNamespace>
+    <AssemblyName>Email</AssemblyName>
+    <Name>Email</Name>
+	<ProjectGuid>{9d70d6af-e7b0-4c74-a9b3-aeaa1b52a7fe}</ProjectGuid>
+    <ServerPath></ServerPath>
+    <PackagePath></PackagePath>
+  </PropertyGroup>
+
+
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Debug\</OutputPath>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Release\</OutputPath>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    	<Content Include="Source\BP1\BP.bp">
+      <SubType>BP Node</SubType>
+    </Content>
+    <Content Include="Source\BP1\BPVariables.bpr" >
+      <DependentUpon>Source\BP1\BP.bp</DependentUpon>
+      <SubType>BP Variable</SubType>
+    </Content>
+	        <Content Include="Source\BP1\Flow1\Flow.flw">
+	  <DependentUpon>Source\BP1\BP.bp</DependentUpon>
+      <SubType>BP-Flow Node</SubType>
+    </Content>
+	<Content Include="Source\BP1\Flow1\Variables.flr">
+	  <DependentUpon>Source\BP1\Flow1\Flow.flw</DependentUpon>
+      <SubType>BP-Flow Dependent</SubType>
+    </Content>
+	<Content Include="Source\BP1\Flow1\Errors.flr">
+	  <DependentUpon>Source\BP1\Flow1\Flow.flw</DependentUpon>
+      <SubType>BP-Flow Dependent</SubType>
+    </Content>
+	            <Content Include="Source\BP1\Flow2\Flow.flw">
+	  <DependentUpon>Source\BP1\BP.bp</DependentUpon>
+      <SubType>BP-Flow Node</SubType>
+    </Content>
+	<Content Include="Source\BP1\Flow2\Variables.flr">
+	  <DependentUpon>Source\BP1\Flow2\Flow.flw</DependentUpon>
+      <SubType>BP-Flow Dependent</SubType>
+    </Content>
+	<Content Include="Source\BP1\Flow2\Errors.flr">
+	  <DependentUpon>Source\BP1\Flow2\Flow.flw</DependentUpon>
+      <SubType>BP-Flow Dependent</SubType>
+    </Content>
+	            <Content Include="Source\BP1\Flow3\Flow.flw">
+	  <DependentUpon>Source\BP1\BP.bp</DependentUpon>
+      <SubType>BP-Flow Node</SubType>
+    </Content>
+	<Content Include="Source\BP1\Flow3\Variables.flr">
+	  <DependentUpon>Source\BP1\Flow3\Flow.flw</DependentUpon>
+      <SubType>BP-Flow Dependent</SubType>
+    </Content>
+	<Content Include="Source\BP1\Flow3\Errors.flr">
+	  <DependentUpon>Source\BP1\Flow3\Flow.flw</DependentUpon>
+      <SubType>BP-Flow Dependent</SubType>
+    </Content>
+			<Content Include="Source\BP1\Flow3\Mapper_2.mpr">
+	  <DependentUpon>Source\BP1\Flow3\Flow.flw</DependentUpon>
+      <SubType>BP-Flow Dependent</SubType>
+    </Content>
+				<Content Include="Source\BP1\Flow3\Mapper_10.mpr">
+	  <DependentUpon>Source\BP1\Flow3\Flow.flw</DependentUpon>
+      <SubType>BP-Flow Dependent</SubType>
+    </Content>
+				<Content Include="Source\BP1\Flow3\Mapper_12.mpr">
+	  <DependentUpon>Source\BP1\Flow3\Flow.flw</DependentUpon>
+      <SubType>BP-Flow Dependent</SubType>
+    </Content>
+		          	<Content Include="Source\BP2\BP.bp">
+      <SubType>BP Node</SubType>
+    </Content>
+    <Content Include="Source\BP2\BPVariables.bpr" >
+      <DependentUpon>Source\BP2\BP.bp</DependentUpon>
+      <SubType>BP Variable</SubType>
+    </Content>
+	        <Content Include="Source\BP2\Flow4\Flow.flw">
+	  <DependentUpon>Source\BP2\BP.bp</DependentUpon>
+      <SubType>BP-Flow Node</SubType>
+    </Content>
+	<Content Include="Source\BP2\Flow4\Variables.flr">
+	  <DependentUpon>Source\BP2\Flow4\Flow.flw</DependentUpon>
+      <SubType>BP-Flow Dependent</SubType>
+    </Content>
+	<Content Include="Source\BP2\Flow4\Errors.flr">
+	  <DependentUpon>Source\BP2\Flow4\Flow.flw</DependentUpon>
+      <SubType>BP-Flow Dependent</SubType>
+    </Content>
+	            <Content Include="Source\BP2\Flow5\Flow.flw">
+	  <DependentUpon>Source\BP2\BP.bp</DependentUpon>
+      <SubType>BP-Flow Node</SubType>
+    </Content>
+	<Content Include="Source\BP2\Flow5\Variables.flr">
+	  <DependentUpon>Source\BP2\Flow5\Flow.flw</DependentUpon>
+      <SubType>BP-Flow Dependent</SubType>
+    </Content>
+	<Content Include="Source\BP2\Flow5\Errors.flr">
+	  <DependentUpon>Source\BP2\Flow5\Flow.flw</DependentUpon>
+      <SubType>BP-Flow Dependent</SubType>
+    </Content>
+			<Content Include="Source\BP2\Flow5\Mapper_1.mpr">
+	  <DependentUpon>Source\BP2\Flow5\Flow.flw</DependentUpon>
+      <SubType>BP-Flow Dependent</SubType>
+    </Content>
+		            <Content Include="Source\BP2\Flow6\Flow.flw">
+	  <DependentUpon>Source\BP2\BP.bp</DependentUpon>
+      <SubType>BP-Flow Node</SubType>
+    </Content>
+	<Content Include="Source\BP2\Flow6\Variables.flr">
+	  <DependentUpon>Source\BP2\Flow6\Flow.flw</DependentUpon>
+      <SubType>BP-Flow Dependent</SubType>
+    </Content>
+	<Content Include="Source\BP2\Flow6\Errors.flr">
+	  <DependentUpon>Source\BP2\Flow6\Flow.flw</DependentUpon>
+      <SubType>BP-Flow Dependent</SubType>
+    </Content>
+			<Content Include="Source\BP2\Flow6\Mapper_1.mpr">
+	  <DependentUpon>Source\BP2\Flow6\Flow.flw</DependentUpon>
+      <SubType>BP-Flow Dependent</SubType>
+    </Content>
+		          
+  	<Content Include="Repositories\*.ibr">
+      <SubType>Repository Item</SubType>
+    </Content>
+    <None  Include="Repositories\Encoding.xml">
+      <SubType>Repository Item</SubType>
+      <Visible>false</Visible>
+    </None>
+    <None Include="Resources.xml">
+      <SubType>Repository Item</SubType>
+      <Visible>false</Visible>
+    </None>
+    <None Include="Services.xml">
+      <SubType>Repository Item</SubType>
+      <Visible>false</Visible>
+    </None>
+    </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Repositories\" />
+  </ItemGroup>
+	<Import Project="$([MSBuild]::GetRegistryValue('HKEY_LOCAL_MACHINE\SOFTWARE\MSE\Magic xpi', 'Magic xpi 4.5'))\iBolt.targets" />
+</Project>

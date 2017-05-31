@@ -1,0 +1,439 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mapper>
+  <MapperOrigin>DataMapperService</MapperOrigin>
+  <SourceSchemas>
+    <Schema d3p1:type="XSDSchema" xmlns:d3p1="http://www.w3.org/2001/XMLSchema-instance">
+      <SchemaID>3</SchemaID>
+      <Order>1</Order>
+      <Name>S1</Name>
+      <Description />
+      <SchemaLocation>Source</SchemaLocation>
+      <SchemaType>XSD</SchemaType>
+      <Fields>
+        <Field d3p1:type="XSDComplexField">
+          <Identifier>magentoCreateOrder</Identifier>
+          <Description />
+          <FieldName>magentoCreateOrder</FieldName>
+          <NodeType>Complex</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Condition>
+            <ExpectedType>L</ExpectedType>
+            <Direction>I</Direction>
+          </Condition>
+          <ReplicatedCount>0</ReplicatedCount>
+          <MaxInstance>1</MaxInstance>
+          <MultiUpdates />
+          <Filter>
+            <ExpectedType>L</ExpectedType>
+            <Direction>I</Direction>
+          </Filter>
+          <IsMultiSimple>false</IsMultiSimple>
+          <MinInstance>0</MinInstance>
+        </Field>
+        <Field d3p1:type="XSDComplexField">
+          <Identifier>magentoCreateOrder/orderItems</Identifier>
+          <Description />
+          <FieldName>orderItems</FieldName>
+          <NodeType>Complex</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Condition>
+            <ExpectedType>L</ExpectedType>
+            <Direction>I</Direction>
+          </Condition>
+          <ReplicatedCount>0</ReplicatedCount>
+          <MaxInstance>0</MaxInstance>
+          <MultiUpdates />
+          <Filter>
+            <ExpectedType>L</ExpectedType>
+            <Direction>I</Direction>
+          </Filter>
+          <IsMultiSimple>false</IsMultiSimple>
+          <MinInstance>0</MinInstance>
+        </Field>
+        <Field d3p1:type="SimpleXSDField">
+          <Identifier>magentoCreateOrder/orderItems/sku</Identifier>
+          <Description />
+          <FieldName>sku</FieldName>
+          <NodeType>Simple</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Expression>
+            <ExpectedType />
+            <Direction>I</Direction>
+          </Expression>
+          <MagicFieldType>A</MagicFieldType>
+          <MagicPicture>1000</MagicPicture>
+          <isUnicode>false</isUnicode>
+          <ExternalFieldType>string</ExternalFieldType>
+          <ExternalFieldPicture />
+          <UserPicture>1000</UserPicture>
+          <isNillable>false</isNillable>
+          <AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+          <Required>false</Required>
+          <Condition>
+            <ExpectedType>L</ExpectedType>
+            <Direction>I</Direction>
+          </Condition>
+          <CreateAllways>false</CreateAllways>
+          <MaxInstance>1</MaxInstance>
+          <MinInstance>0</MinInstance>
+        </Field>
+        <Field d3p1:type="SimpleXSDField">
+          <Identifier>magentoCreateOrder/orderItems/qty</Identifier>
+          <Description />
+          <FieldName>qty</FieldName>
+          <NodeType>Simple</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Expression>
+            <ExpectedType />
+            <Direction>I</Direction>
+          </Expression>
+          <MagicFieldType>N</MagicFieldType>
+          <MagicPicture>10.2</MagicPicture>
+          <isUnicode>false</isUnicode>
+          <ExternalFieldType>decimal</ExternalFieldType>
+          <ExternalFieldPicture />
+          <UserPicture>10.2</UserPicture>
+          <isNillable>false</isNillable>
+          <AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+          <Required>false</Required>
+          <Condition>
+            <ExpectedType>L</ExpectedType>
+            <Direction>I</Direction>
+          </Condition>
+          <CreateAllways>false</CreateAllways>
+          <MaxInstance>1</MaxInstance>
+          <MinInstance>0</MinInstance>
+        </Field>
+        <Field d3p1:type="SimpleXSDField">
+          <Identifier>magentoCreateOrder/orderItems/tax</Identifier>
+          <Description />
+          <FieldName>tax</FieldName>
+          <NodeType>Simple</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Expression>
+            <ExpectedType />
+            <Direction>I</Direction>
+          </Expression>
+          <MagicFieldType>N</MagicFieldType>
+          <MagicPicture>10.2</MagicPicture>
+          <isUnicode>false</isUnicode>
+          <ExternalFieldType>decimal</ExternalFieldType>
+          <ExternalFieldPicture />
+          <UserPicture>10.2</UserPicture>
+          <isNillable>false</isNillable>
+          <AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+          <Required>false</Required>
+          <Condition>
+            <ExpectedType>L</ExpectedType>
+            <Direction>I</Direction>
+          </Condition>
+          <CreateAllways>false</CreateAllways>
+          <MaxInstance>1</MaxInstance>
+          <MinInstance>0</MinInstance>
+        </Field>
+        <Field d3p1:type="SimpleXSDField">
+          <Identifier>magentoCreateOrder/orderItems/price</Identifier>
+          <Description />
+          <FieldName>price</FieldName>
+          <NodeType>Simple</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Expression>
+            <ExpectedType />
+            <Direction>I</Direction>
+          </Expression>
+          <MagicFieldType>N</MagicFieldType>
+          <MagicPicture>10.2</MagicPicture>
+          <isUnicode>false</isUnicode>
+          <ExternalFieldType>decimal</ExternalFieldType>
+          <ExternalFieldPicture />
+          <UserPicture>10.2</UserPicture>
+          <isNillable>false</isNillable>
+          <AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+          <Required>false</Required>
+          <Condition>
+            <ExpectedType>L</ExpectedType>
+            <Direction>I</Direction>
+          </Condition>
+          <CreateAllways>false</CreateAllways>
+          <MaxInstance>1</MaxInstance>
+          <MinInstance>0</MinInstance>
+        </Field>
+      </Fields>
+      <XSD>
+        <XSDSubType>File</XSDSubType>
+        <IFCModel />
+        <XsdFileName>Files\schemas\magentoOrderDataMapper.xsd</XsdFileName>
+        <RootSelected>magentoCreateOrder</RootSelected>
+        <isAppend>false</isAppend>
+        <isValidation>false</isValidation>
+        <RecursionDepth>1</RecursionDepth>
+        <AlwaysCreateNodes>false</AlwaysCreateNodes>
+        <DataDestination>Variable</DataDestination>
+        <DataExp>
+          <ExpressionVal>PCMhJUAkPmdldFZhck5hbWUoMiwnezVGMzlFQzFDLTcyN0YtNDQ2MS04NUNDLTUzMTg1OUM3MzlERn0nLDAsMCk8IyElQCQ+</ExpressionVal>
+          <RuntimeExpression>R2V0UGFyYW0gKCdDLm1hZ1RyaWdnZXJEYXRhJyk=</RuntimeExpression>
+          <ExpectedType>B</ExpectedType>
+          <Direction>I</Direction>
+        </DataExp>
+        <xmlFileEncoding>Project Encoding</xmlFileEncoding>
+        <UseStreamingParser>false</UseStreamingParser>
+        <TargetNamespace />
+        <NameSpaces />
+        <DataFormats />
+      </XSD>
+    </Schema>
+  </SourceSchemas>
+  <DestinationSchemas>
+    <Schema d3p1:type="XSDSchema" xmlns:d3p1="http://www.w3.org/2001/XMLSchema-instance">
+      <SchemaID>4</SchemaID>
+      <Order>1</Order>
+      <Name>D1</Name>
+      <Description />
+      <SchemaLocation>Destination</SchemaLocation>
+      <SchemaType>XSD</SchemaType>
+      <Fields>
+        <Field d3p1:type="XSDComplexField">
+          <Identifier>magentoOrderLines</Identifier>
+          <Description />
+          <FieldName>magentoOrderLines</FieldName>
+          <NodeType>Complex</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Condition>
+            <ExpectedType>L</ExpectedType>
+            <Direction>I</Direction>
+          </Condition>
+          <ReplicatedCount>0</ReplicatedCount>
+          <MaxInstance>1</MaxInstance>
+          <MultiUpdates />
+          <Filter>
+            <ExpectedType>L</ExpectedType>
+            <Direction>I</Direction>
+          </Filter>
+          <IsMultiSimple>false</IsMultiSimple>
+          <MinInstance>0</MinInstance>
+        </Field>
+        <Field d3p1:type="XSDComplexField">
+          <Identifier>magentoOrderLines/orderItems</Identifier>
+          <Description />
+          <FieldName>orderItems</FieldName>
+          <NodeType>Complex</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Condition>
+            <ExpectedType>L</ExpectedType>
+            <Direction>I</Direction>
+          </Condition>
+          <ReplicatedCount>0</ReplicatedCount>
+          <MaxInstance>0</MaxInstance>
+          <MultiUpdates />
+          <Filter>
+            <ExpectedType>L</ExpectedType>
+            <Direction>I</Direction>
+          </Filter>
+          <IsMultiSimple>false</IsMultiSimple>
+          <MinInstance>0</MinInstance>
+        </Field>
+        <Field d3p1:type="SimpleXSDField">
+          <Identifier>magentoOrderLines/orderItems/sku</Identifier>
+          <Description />
+          <FieldName>sku</FieldName>
+          <NodeType>Simple</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Expression>
+            <ExpectedType />
+            <Direction>I</Direction>
+          </Expression>
+          <MagicFieldType>A</MagicFieldType>
+          <MagicPicture>1000</MagicPicture>
+          <isUnicode>false</isUnicode>
+          <ExternalFieldType>string</ExternalFieldType>
+          <ExternalFieldPicture />
+          <UserPicture>1000</UserPicture>
+          <isNillable>false</isNillable>
+          <AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+          <Required>false</Required>
+          <Condition>
+            <ExpectedType>L</ExpectedType>
+            <Direction>I</Direction>
+          </Condition>
+          <CreateAllways>false</CreateAllways>
+          <MaxInstance>1</MaxInstance>
+          <MinInstance>0</MinInstance>
+        </Field>
+        <Field d3p1:type="SimpleXSDField">
+          <Identifier>magentoOrderLines/orderItems/qty</Identifier>
+          <Description />
+          <FieldName>qty</FieldName>
+          <NodeType>Simple</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Expression>
+            <ExpectedType />
+            <Direction>I</Direction>
+          </Expression>
+          <MagicFieldType>N</MagicFieldType>
+          <MagicPicture>10.2</MagicPicture>
+          <isUnicode>false</isUnicode>
+          <ExternalFieldType>decimal</ExternalFieldType>
+          <ExternalFieldPicture />
+          <UserPicture>10.2</UserPicture>
+          <isNillable>false</isNillable>
+          <AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+          <Required>false</Required>
+          <Condition>
+            <ExpectedType>L</ExpectedType>
+            <Direction>I</Direction>
+          </Condition>
+          <CreateAllways>false</CreateAllways>
+          <MaxInstance>1</MaxInstance>
+          <MinInstance>0</MinInstance>
+        </Field>
+        <Field d3p1:type="SimpleXSDField">
+          <Identifier>magentoOrderLines/orderItems/tax</Identifier>
+          <Description />
+          <FieldName>tax</FieldName>
+          <NodeType>Simple</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Expression>
+            <ExpectedType />
+            <Direction>I</Direction>
+          </Expression>
+          <MagicFieldType>N</MagicFieldType>
+          <MagicPicture>10.2</MagicPicture>
+          <isUnicode>false</isUnicode>
+          <ExternalFieldType>decimal</ExternalFieldType>
+          <ExternalFieldPicture />
+          <UserPicture>10.2</UserPicture>
+          <isNillable>false</isNillable>
+          <AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+          <Required>false</Required>
+          <Condition>
+            <ExpectedType>L</ExpectedType>
+            <Direction>I</Direction>
+          </Condition>
+          <CreateAllways>false</CreateAllways>
+          <MaxInstance>1</MaxInstance>
+          <MinInstance>0</MinInstance>
+        </Field>
+        <Field d3p1:type="SimpleXSDField">
+          <Identifier>magentoOrderLines/orderItems/price</Identifier>
+          <Description />
+          <FieldName>price</FieldName>
+          <NodeType>Simple</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Expression>
+            <ExpectedType />
+            <Direction>I</Direction>
+          </Expression>
+          <MagicFieldType>N</MagicFieldType>
+          <MagicPicture>10.2</MagicPicture>
+          <isUnicode>false</isUnicode>
+          <ExternalFieldType>decimal</ExternalFieldType>
+          <ExternalFieldPicture />
+          <UserPicture>10.2</UserPicture>
+          <isNillable>false</isNillable>
+          <AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+          <Required>false</Required>
+          <Condition>
+            <ExpectedType>L</ExpectedType>
+            <Direction>I</Direction>
+          </Condition>
+          <CreateAllways>false</CreateAllways>
+          <MaxInstance>1</MaxInstance>
+          <MinInstance>0</MinInstance>
+        </Field>
+      </Fields>
+      <XSD>
+        <XSDSubType>File</XSDSubType>
+        <IFCModel />
+        <XsdFileName>Files\schemas\magentoOrderLinesDataMapper.xsd</XsdFileName>
+        <RootSelected>magentoOrderLines</RootSelected>
+        <isAppend>false</isAppend>
+        <isValidation>false</isValidation>
+        <RecursionDepth>1</RecursionDepth>
+        <AlwaysCreateNodes>true</AlwaysCreateNodes>
+        <DataDestination>Variable</DataDestination>
+        <DataExp>
+          <ExpressionVal>PCMhJUAkPmdldFZhck5hbWUoMSwnezI3QUJBRTg0LTlBRDEtNDQxMi04MkMxLTlFN0ExOUJGRTg3RH0nLDAsMCk8IyElQCQ+</ExpressionVal>
+          <RuntimeExpression>U2V0UGFyYW0gKCcwMDAwMDAwMDAwMDIwMDAwMDAwMDAwMDNGLk1hZ2VudG9PcmRlckxpbmVzJyw8JE1HX1ZBTFVFJD4p</RuntimeExpression>
+          <ExpectedType>B</ExpectedType>
+          <Direction>O</Direction>
+        </DataExp>
+        <xmlFileEncoding>Project Encoding</xmlFileEncoding>
+        <UseStreamingParser>false</UseStreamingParser>
+        <TargetNamespace />
+        <NameSpaces />
+        <DataFormats />
+      </XSD>
+    </Schema>
+  </DestinationSchemas>
+  <Connections>
+    <ConnectionData>
+      <SourceIdentifier>magentoCreateOrder/orderItems</SourceIdentifier>
+      <SourceSchemaID>3</SourceSchemaID>
+      <DestinationIdentifier>magentoOrderLines/orderItems</DestinationIdentifier>
+      <DestinationSchemaID>4</DestinationSchemaID>
+    </ConnectionData>
+    <ConnectionData>
+      <SourceIdentifier>magentoCreateOrder/orderItems/sku</SourceIdentifier>
+      <SourceSchemaID>3</SourceSchemaID>
+      <DestinationIdentifier>magentoOrderLines/orderItems/sku</DestinationIdentifier>
+      <DestinationSchemaID>4</DestinationSchemaID>
+    </ConnectionData>
+    <ConnectionData>
+      <SourceIdentifier>magentoCreateOrder/orderItems/qty</SourceIdentifier>
+      <SourceSchemaID>3</SourceSchemaID>
+      <DestinationIdentifier>magentoOrderLines/orderItems/qty</DestinationIdentifier>
+      <DestinationSchemaID>4</DestinationSchemaID>
+    </ConnectionData>
+    <ConnectionData>
+      <SourceIdentifier>magentoCreateOrder/orderItems/tax</SourceIdentifier>
+      <SourceSchemaID>3</SourceSchemaID>
+      <DestinationIdentifier>magentoOrderLines/orderItems/tax</DestinationIdentifier>
+      <DestinationSchemaID>4</DestinationSchemaID>
+    </ConnectionData>
+    <ConnectionData>
+      <SourceIdentifier>magentoCreateOrder/orderItems/price</SourceIdentifier>
+      <SourceSchemaID>3</SourceSchemaID>
+      <DestinationIdentifier>magentoOrderLines/orderItems/price</DestinationIdentifier>
+      <DestinationSchemaID>4</DestinationSchemaID>
+    </ConnectionData>
+  </Connections>
+  <ColorNames>
+    <MapperColorItem>
+      <Color>203</Color>
+      <ColorDescription>Blue</ColorDescription>
+    </MapperColorItem>
+    <MapperColorItem>
+      <Color>205</Color>
+      <ColorDescription>Green</ColorDescription>
+    </MapperColorItem>
+    <MapperColorItem>
+      <Color>206</Color>
+      <ColorDescription>Purple</ColorDescription>
+    </MapperColorItem>
+    <MapperColorItem>
+      <Color>204</Color>
+      <ColorDescription>Yellow</ColorDescription>
+    </MapperColorItem>
+    <MapperColorItem>
+      <Color>202</Color>
+      <ColorDescription>Red</ColorDescription>
+    </MapperColorItem>
+    <MapperColorItem>
+      <Color>210</Color>
+      <ColorDescription>Default</ColorDescription>
+    </MapperColorItem>
+  </ColorNames>
+  <ErrorFlowExpressionVal>PCMhJUAkPmdldEZsb3dOYW1lKDEpPCMhJUAkPg==</ErrorFlowExpressionVal>
+</Mapper>

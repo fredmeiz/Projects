@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FlowErrors>
+  <row d2p1:type="FlowErrorRepositoryItem" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance">
+    <Description>Called flow aborted</Description>
+    <ID>0</ID>
+    <Order>1</Order>
+    <IsNameIncompatible>false</IsNameIncompatible>
+    <ComponentID>999999999998</ComponentID>
+    <ErrorPolicy>1</ErrorPolicy>
+    <FromErrID>23</FromErrID>
+    <Notification>No action</Notification>
+    <StepID>0</StepID>
+    <ToErrID>23</ToErrID>
+  </row>
+  <row d2p1:type="FlowErrorRepositoryItem" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance">
+    <Description>WebService Error</Description>
+    <ID>0</ID>
+    <Order>2</Order>
+    <IsNameIncompatible>false</IsNameIncompatible>
+    <ComponentID>25</ComponentID>
+    <ErrorPolicy>5</ErrorPolicy>
+    <FromErrID>550</FromErrID>
+    <Notification>No action</Notification>
+    <StepID>44</StepID>
+    <ToErrID>550</ToErrID>
+  </row>
+</FlowErrors>

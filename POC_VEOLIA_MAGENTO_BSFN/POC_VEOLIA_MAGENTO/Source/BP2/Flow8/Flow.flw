@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Flow>
+
+  <Properties>
+    <ID>8</ID>
+    <Order>4</Order>
+    <Name>...Magento Get Customer Info</Name>
+    <isInactive>true</isInactive>
+    <isDisabled>false</isDisabled>
+    <isTwoPhase>false</isTwoPhase>
+    <isAutoStart>false</isAutoStart>
+    <MaxInstances>0</MaxInstances>
+    <isAutoRepeat>false</isAutoRepeat>
+    <TimeoutPolicy>6</TimeoutPolicy>
+    <TimeOutVal>0</TimeOutVal>
+    <RecoveryPolicy>6</RecoveryPolicy>
+    <ErrorFlow>
+      <BPID>2</BPID>
+      <FlowID>
+        <ExpressionVal>PCMhJUAkPmdldEZsb3dOYW1lKDUpPCMhJUAkPg==</ExpressionVal>
+        <ExpectedType>N</ExpectedType>
+        <Direction>I</Direction>
+      </FlowID>
+    </ErrorFlow>
+    <Enablement>
+      <ResourceInfo>
+        <isDynamic>false</isDynamic>
+        <ResSerName/>
+      </ResourceInfo>
+    </Enablement>
+  </Properties>
+
+  <DrawProperties>
+    <RootStepID>5</RootStepID>
+    <HasTrigger>false</HasTrigger>
+  </DrawProperties>
+
+  <Steps>
+    <row_Step>
+      <Properties>
+        <isGoTo>false</isGoTo>
+        <ParentStepID>0</ParentStepID>
+        <SortOrder>0</SortOrder>
+        <ID>5</ID>
+        <Name>Get Customer Info</Name>
+        <IFCDefinition>12</IFCDefinition>
+        <ProcessMode>1</ProcessMode>
+        <isTwoPhase>false</isTwoPhase>
+        <isWait4Comp>false</isWait4Comp>
+        <isSavePoint>false</isSavePoint>
+        <CallLogicFlow>false</CallLogicFlow>
+        <isTrigger>false</isTrigger>
+      </Properties>
+      <LoggingInfo>
+        <Scope>0</Scope>
+      </LoggingInfo>
+      <iBoltService>
+        <FlowData>
+          <row>
+            <ID>1</ID>
+            <Order>0</Order>
+            <Action>1</Action>
+            <TargetType>2</TargetType>
+            <isTargetDynamic>false</isTargetDynamic>
+            <Encoding>0</Encoding>
+            <TargetInfo>
+              <NameExp>
+                <ExpressionVal>PCMhJUAkPmdldFZhck5hbWUoMiwnMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDA3JywwLDApPCMhJUAkPg==</ExpressionVal>
+                <ExpectedType>B</ExpectedType>
+                <Direction>N</Direction>
+              </NameExp>
+              <Type>
+                <Type>B</Type>
+                <Picture>0</Picture>
+                <isUnicode>false</isUnicode>
+                <isNillable>false</isNillable>
+              </Type>
+            </TargetInfo>
+            <UpdateExp>
+              <ExpressionVal>aHR0cHBvc3QoIEVudlZhbCgnbWFnZW50b0VuZHBvaW50JykgICwnPHNvYXBlbnY6RW52ZWxvcGUgeG1sbnM6eHNpPSJodHRwOi8vd3d3LnczLm9yZy8yMDAxL1hNTFNjaGVtYS1pbnN0YW5jZSIgeG1sbnM6eHNkPSJodHRwOi8vd3d3LnczLm9yZy8yMDAxL1hNTFNjaGVtYSIgeG1sbnM6c29hcGVudj0iaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvc29hcC9lbnZlbG9wZS8iIHhtbG5zOnVybj0idXJuOk1hZ2VudG8iIHhtbG5zOnNvYXBlbmM9Imh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3NvYXAvZW5jb2RpbmcvIj4gICA8c29hcGVudjpIZWFkZXIvPiAgIDxzb2FwZW52OkJvZHk+ICAgICAgPHVybjpjdXN0b21lckN1c3RvbWVySW5mbyBzb2FwZW52OmVuY29kaW5nU3R5bGU9Imh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3NvYXAvZW5jb2RpbmcvIj4gICAgICAgICA8c2Vzc2lvbklkIHhzaTp0eXBlPSJ4c2Q6c3RyaW5nIj4nJlRyaW0oIDwjISVAJD5nZXRWYXJOYW1lKDIsJ3tDOEJBMDVDRC0yN0VCLTQ3RjQtQTE3NC1EMzc5NkZGMTBEOTh9JywwLDApPCMhJUAkPiApICYnPC9zZXNzaW9uSWQ+ICAgICAgICAgPGN1c3RvbWVySWQgeHNpOnR5cGU9InhzZDppbnQiPicmVHJpbSggPCMhJUAkPmdldFZhck5hbWUoMiwne0YxMTY1RkQ1LTNFODItNDcyNS05QkVCLTM4RTc3RENDQTg1OX0nLDAsMCk8IyElQCQ+ICkmJzwvY3VzdG9tZXJJZD4gPC91cm46Y3VzdG9tZXJDdXN0b21lckluZm8+ICAgPC9zb2FwZW52OkJvZHk+PC9zb2FwZW52OkVudmVsb3BlPicsJ1NPQVBBY3Rpb246ICJ1cm46TWFnZV9BcGlfTW9kZWxfU2VydmVyX1YyX0hhbmRsZXJBY3Rpb24iJywnQ29udGVudC1UeXBlOiB0ZXh0L3htbDtjaGFyc2V0PVVURi04Jyk=</ExpressionVal>
+              <ExpectedType>B</ExpectedType>
+              <Direction>I</Direction>
+            </UpdateExp>
+          </row>
+        </FlowData>
+      </iBoltService>
+    </row_Step>
+    <row_Step>
+      <Properties>
+        <isGoTo>false</isGoTo>
+        <ParentStepID>5</ParentStepID>
+        <SortOrder>1</SortOrder>
+        <ID>8</ID>
+        <Name>Get Body</Name>
+        <IFCDefinition>132</IFCDefinition>
+        <ProcessMode>1</ProcessMode>
+        <isTwoPhase>false</isTwoPhase>
+        <isWait4Comp>false</isWait4Comp>
+        <isSavePoint>false</isSavePoint>
+        <CallLogicFlow>false</CallLogicFlow>
+        <isTrigger>false</isTrigger>
+      </Properties>
+      <LoggingInfo>
+        <Scope>1</Scope>
+        <Option>2</Option>
+        <MSGDetails>
+          <MSGString>
+            <ExpressionVal>J0N1c3RvbWVyIEluZm8n</ExpressionVal>
+            <ExpectedType>A</ExpectedType>
+            <Direction>I</Direction>
+          </MSGString>
+          <MSGBLOB>
+            <ExpressionVal>PCMhJUAkPmdldFZhck5hbWUoMiwnezc1MEZBREUyLTFFMDctNEFGRS04Njc4LUMzOEE3Njc1RDYzMX0nLDAsMCk8IyElQCQ+</ExpressionVal>
+            <ExpectedType>B</ExpectedType>
+            <Direction>I</Direction>
+          </MSGBLOB>
+          <BLOBExtn>txt</BLOBExtn>
+        </MSGDetails>
+      </LoggingInfo>
+      <ConfigInfo>
+        <Interface>2</Interface>
+        <InvokeComp>%ifclib%xslt\xsltifc.ecf</InvokeComp>
+        <ActivationBLOB>PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIiA/Pg0KPERBTV9BY3RpdmF0aW9uQkxPQj4NCg0KICA8TWV0aG9kcz4NCiAgICA8UmVjb3JkSVNOPjE8L1JlY29yZElTTj4NCiAgICA8T3JkZXJObz4xPC9PcmRlck5vPg0KICAgIDxNZXRob2RDb2RlPjI8L01ldGhvZENvZGU+DQogICAgPFB1YmxpY05hbWU+WFNMVFRyYW5zZm9ybUJMT0JTPC9QdWJsaWNOYW1lPg0KICAgIDxQYXJhbWV0ZXJzPg0KICAgICAgPFBhcmFtZXRlcklEPjE8L1BhcmFtZXRlcklEPg0KICAgICAgPFBhcmFtZXRlclR5cGU+QjwvUGFyYW1ldGVyVHlwZT4NCiAgICAgIDxQYXJhbWV0ZXJQaWN0dXJlLz4NCiAgICAgIDxEaXJlY3Rpb24+SW48L0RpcmVjdGlvbj4NCiAgICAgIDxJbl9FeHByZXNzaW9uPg0KICAgICAgICA8RXhwcmVzc2lvblZhbD5QQ01oSlVBa1BtZGxkRlpoY2s1aGJXVW9NaXduTURBd01EQXdNREF3TURBd01EQXdNREF3TURBd01EQXdNREF3TURBd01EQXdNREF3TURBM0p5d3dMREFwUENNaEpVQWtQZz09PC9FeHByZXNzaW9uVmFsPg0KICAgICAgICA8RXhwZWN0ZWRUeXBlPkI8L0V4cGVjdGVkVHlwZT4NCiAgICAgICAgPERpcmVjdGlvbj5JPC9EaXJlY3Rpb24+DQogICAgICA8L0luX0V4cHJlc3Npb24+DQogICAgICA8WFNERWxlbWVudE5hbWU+WE1MQkxPQjwvWFNERWxlbWVudE5hbWU+DQogICAgICA8RGlzcGxheVNlcXVlbmNlSUQ+MTwvRGlzcGxheVNlcXVlbmNlSUQ+DQogICAgICA8VmlzaWJpbGl0eT4wPC9WaXNpYmlsaXR5Pg0KICAgICAgPE1hbmRhdG9yeT4xPC9NYW5kYXRvcnk+DQogICAgICA8UGFyYW1ldGVyVmFsdWVTZWxlY3Rpb25UeXBlPkU8L1BhcmFtZXRlclZhbHVlU2VsZWN0aW9uVHlwZT4NCiAgICA8L1BhcmFtZXRlcnM+DQogICAgPFBhcmFtZXRlcnM+DQogICAgICA8UGFyYW1ldGVySUQ+MjwvUGFyYW1ldGVySUQ+DQogICAgICA8UGFyYW1ldGVyVHlwZT5BPC9QYXJhbWV0ZXJUeXBlPg0KICAgICAgPFBhcmFtZXRlclBpY3R1cmU+MjYwPC9QYXJhbWV0ZXJQaWN0dXJlPg0KICAgICAgPERpcmVjdGlvbj5JbjwvRGlyZWN0aW9uPg0KICAgICAgPEluX0V4cHJlc3Npb24+DQogICAgICAgIDxFeHByZXNzaW9uVmFsPlJXNTJWbUZzSUNnblkzVnljbVZ1ZEhCeWIycGxZM1JrYVhJbktTWW5YRTFoWjJWdWRHOWNaMlYwWW05a2VTNTRjMngwSnc9PTwvRXhwcmVzc2lvblZhbD4NCiAgICAgICAgPEV4cGVjdGVkVHlwZT5BPC9FeHBlY3RlZFR5cGU+DQogICAgICAgIDxEaXJlY3Rpb24+STwvRGlyZWN0aW9uPg0KICAgICAgPC9Jbl9FeHByZXNzaW9uPg0KICAgICAgPFhTREVsZW1lbnROYW1lPlhTTFRGaWxlPC9YU0RFbGVtZW50TmFtZT4NCiAgICAgIDxEaXNwbGF5U2VxdWVuY2VJRD4yPC9EaXNwbGF5U2VxdWVuY2VJRD4NCiAgICAgIDxWaXNpYmlsaXR5PjA8L1Zpc2liaWxpdHk+DQogICAgICA8TWFuZGF0b3J5PjA8L01hbmRhdG9yeT4NCiAgICAgIDxQYXJhbWV0ZXJWYWx1ZVNlbGVjdGlvblR5cGU+RTwvUGFyYW1ldGVyVmFsdWVTZWxlY3Rpb25UeXBlPg0KICAgIDwvUGFyYW1ldGVycz4NCiAgICA8UGFyYW1ldGVycz4NCiAgICAgIDxQYXJhbWV0ZXJJRD4zPC9QYXJhbWV0ZXJJRD4NCiAgICAgIDxQYXJhbWV0ZXJUeXBlPkI8L1BhcmFtZXRlclR5cGU+DQogICAgICA8UGFyYW1ldGVyUGljdHVyZS8+DQogICAgICA8RGlyZWN0aW9uPk91dDwvRGlyZWN0aW9uPg0KICAgICAgPE91dF9FeHByZXNzaW9uPg0KICAgICAgICA8RXhwcmVzc2lvblZhbD5QQ01oSlVBa1BtZGxkRlpoY2s1aGJXVW9NaXduZXpjMU1FWkJSRVV5TFRGRk1EY3RORUZHUlMwNE5qYzRMVU16T0VFM05qYzFSRFl6TVgwbkxEQXNNQ2s4SXlFbFFDUSs8L0V4cHJlc3Npb25WYWw+DQogICAgICAgIDxFeHBlY3RlZFR5cGU+QjwvRXhwZWN0ZWRUeXBlPg0KICAgICAgICA8RGlyZWN0aW9uPk88L0RpcmVjdGlvbj4NCiAgICAgIDwvT3V0X0V4cHJlc3Npb24+DQogICAgICA8WFNERWxlbWVudE5hbWU+T3V0cHV0QkxPQjwvWFNERWxlbWVudE5hbWU+DQogICAgICA8RGlzcGxheVNlcXVlbmNlSUQ+MzwvRGlzcGxheVNlcXVlbmNlSUQ+DQogICAgICA8VmlzaWJpbGl0eT4wPC9WaXNpYmlsaXR5Pg0KICAgICAgPE1hbmRhdG9yeT4wPC9NYW5kYXRvcnk+DQogICAgICA8UGFyYW1ldGVyVmFsdWVTZWxlY3Rpb25UeXBlPlA8L1BhcmFtZXRlclZhbHVlU2VsZWN0aW9uVHlwZT4NCiAgICA8L1BhcmFtZXRlcnM+DQogICAgPFBhcmFtZXRlcnM+DQogICAgICA8UGFyYW1ldGVySUQ+NDwvUGFyYW1ldGVySUQ+DQogICAgICA8UGFyYW1ldGVyVHlwZT5OPC9QYXJhbWV0ZXJUeXBlPg0KICAgICAgPFBhcmFtZXRlclBpY3R1cmU+MTI8L1BhcmFtZXRlclBpY3R1cmU+DQogICAgICA8RGlyZWN0aW9uPk91dDwvRGlyZWN0aW9uPg0KICAgICAgPFhTREVsZW1lbnROYW1lPkVycm9yQ29kZTwvWFNERWxlbWVudE5hbWU+DQogICAgICA8RGlzcGxheVNlcXVlbmNlSUQ+NDwvRGlzcGxheVNlcXVlbmNlSUQ+DQogICAgICA8VmlzaWJpbGl0eT4wPC9WaXNpYmlsaXR5Pg0KICAgICAgPE1hbmRhdG9yeT4wPC9NYW5kYXRvcnk+DQogICAgICA8UGFyYW1ldGVyVmFsdWVTZWxlY3Rpb25UeXBlPlA8L1BhcmFtZXRlclZhbHVlU2VsZWN0aW9uVHlwZT4NCiAgICA8L1BhcmFtZXRlcnM+DQogIDwvTWV0aG9kcz4NCg0KPC9EQU1fQWN0aXZhdGlvbkJMT0I+DQo=</ActivationBLOB>
+      </ConfigInfo>
+    </row_Step>
+  </Steps>
+
+  <TextElements>
+    <row_Element>
+      <ID>1</ID>
+      <Description>This process has a simple http post.&#xD;&#xA;I do not know if it is encrypted. (not)&#xD;&#xA;It embeds 3 variables into a simple SOAP request.&#xD;&#xA;EnvVal('Magento_url') =&gt; changed to EnvVal('magentoEndpoint') &#xD;&#xA;&amp;Trim( C.Magento_sessionId ) &amp;&#xD;&#xA;&amp;Trim( C.customerId )&amp;</Description>
+      <Color>12713983</Color>
+      <BorderStyle>1</BorderStyle>
+    </row_Element>
+    <row_Element>
+      <ID>2</ID>
+      <Description>Process just returns all the customer info, but in the Create Sales Order, we only use it in order to get the suffix information transferred to F.mnShipToNo.</Description>
+      <Color>12713983</Color>
+      <BorderStyle>1</BorderStyle>
+    </row_Element>
+  </TextElements>
+
+</Flow>

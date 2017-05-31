@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<FlowVariables>
+							<Variable d2p1:type="VariableRepositoryItem" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance">
+			<GUID>{FBADA891-A840-4A46-A675-2A14BD117A17}</GUID>
+			<ID>1</ID>
+			<Order>341</Order>
+			<Name>F.BsfnResult</Name>
+						<Type>
+				<Type>B</Type>
+				<Picture></Picture>
+									<isUnicode>false</isUnicode>
+													<isNillable>false</isNillable>
+							</Type>
+													<isDeleted>false</isDeleted>
+						<IsSystemVariable>false</IsSystemVariable>
+			<IsNameIncompatible>false</IsNameIncompatible>
+			</Variable>
+									<Variable d2p1:type="VariableRepositoryItem" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance">
+			<GUID>{AA304F22-956E-40C0-81B2-72C3C6A9642C}</GUID>
+			<ID>2</ID>
+			<Order>343</Order>
+			<Name>F.JDE_OrderStatus</Name>
+						<Type>
+				<Type>A</Type>
+				<Picture>30</Picture>
+									<isUnicode>false</isUnicode>
+													<isNillable>false</isNillable>
+							</Type>
+													<isDeleted>false</isDeleted>
+						<IsSystemVariable>false</IsSystemVariable>
+			<IsNameIncompatible>false</IsNameIncompatible>
+			</Variable>
+									<Variable d2p1:type="VariableRepositoryItem" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance">
+			<GUID>{9A855737-EECF-4A47-A84D-DD6CB8D13E49}</GUID>
+			<ID>3</ID>
+			<Order>344</Order>
+			<Name>F.Magento_Order_Number</Name>
+						<Type>
+				<Type>N</Type>
+				<Picture>10.0</Picture>
+									<isUnicode>false</isUnicode>
+													<isNillable>false</isNillable>
+							</Type>
+													<isDeleted>false</isDeleted>
+						<IsSystemVariable>false</IsSystemVariable>
+			<IsNameIncompatible>false</IsNameIncompatible>
+			</Variable>
+									<Variable d2p1:type="VariableRepositoryItem" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance">
+			<GUID>{1BDCE300-9520-45BF-97E7-DE78CCCDBE4B}</GUID>
+			<ID>4</ID>
+			<Order>345</Order>
+			<Name>F.Magento_Order_Status</Name>
+						<Type>
+				<Type>A</Type>
+				<Picture>30</Picture>
+									<isUnicode>false</isUnicode>
+													<isNillable>false</isNillable>
+							</Type>
+													<isDeleted>false</isDeleted>
+						<IsSystemVariable>false</IsSystemVariable>
+			<IsNameIncompatible>false</IsNameIncompatible>
+			</Variable>
+									<Variable d2p1:type="VariableRepositoryItem" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance">
+			<GUID>{E8C2439B-C797-4CAB-AA23-D6A3C6D7AD0A}</GUID>
+			<ID>5</ID>
+			<Order>347</Order>
+			<Name>F.Return</Name>
+						<Type>
+				<Type>L</Type>
+				<Picture>1</Picture>
+									<isUnicode>false</isUnicode>
+													<isNillable>false</isNillable>
+							</Type>
+													<isDeleted>false</isDeleted>
+						<IsSystemVariable>false</IsSystemVariable>
+			<IsNameIncompatible>false</IsNameIncompatible>
+			</Variable>
+									<Variable d2p1:type="VariableRepositoryItem" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance">
+			<GUID>{8B602797-6D2C-498B-A5F3-4039DB0A3BFE}</GUID>
+			<ID>6</ID>
+			<Order>348</Order>
+			<Name>F.magentoFault</Name>
+							<Description>added by jason to capture Fault from Magento web service</Description>
+						<Type>
+				<Type>B</Type>
+				<Picture></Picture>
+									<isUnicode>false</isUnicode>
+													<isNillable>false</isNillable>
+							</Type>
+													<isDeleted>false</isDeleted>
+						<IsSystemVariable>false</IsSystemVariable>
+			<IsNameIncompatible>false</IsNameIncompatible>
+			</Variable>
+					</FlowVariables>
+	

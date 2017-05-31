@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="GetAvailableQuantityIFCSetup">
+		<xs:complexType>
+			<xs:sequence>
+								<xs:element name="GetAvailableQuantity" minOccurs="0" maxOccurs="unbounded">
+								<xs:complexType>
+					<xs:all>
+				
+													<xs:element name="SKU" type="xs:string" minOccurs="1"/>	
+							
+				
+					</xs:all>
+				</xs:complexType>
+								</xs:element>
+								<xs:element name="GetAvailableQuantity2" minOccurs="0" maxOccurs="unbounded">
+								<xs:complexType>
+					<xs:all>
+				
+						
+							<xs:element name="SKU" type="xs:string" minOccurs="1"/>	
+							
+				
+					</xs:all>
+				</xs:complexType>
+								</xs:element>
+								<xs:element name="GetAvailableQuantity3" minOccurs="0" maxOccurs="unbounded">
+								<xs:complexType>
+					<xs:all>
+				
+						
+							<xs:element name="SKU" type="xs:string" minOccurs="1"/>	
+										
+					</xs:all>
+				</xs:complexType>
+								</xs:element>
+							</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

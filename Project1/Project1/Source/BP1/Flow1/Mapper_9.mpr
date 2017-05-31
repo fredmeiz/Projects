@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mapper xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <MapperOrigin>ComponentWithXMLInterface</MapperOrigin>
+  <DynamicSettings xsi:type="xsd:string">PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjxKREVTdGVwIHhtbG5zOnhzaT0iaHR0cDovL3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEtaW5zdGFuY2UiIHhtbG5zOnhzZD0iaHR0cDovL3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEiPg0KICA8Q29uZmlndXJhdGlvbj4NCiAgICA8SUZDTmFtZT5qZGVkd2FyZHM8L0lGQ05hbWU+DQogICAgPEludGVyZmFjZT5CPC9JbnRlcmZhY2U+DQogICAgPE1vZHVsZT5YMDAwNTwvTW9kdWxlPg0KICAgIDxCU0ZOPkdldFVEQzwvQlNGTj4NCiAgICA8RGlzY29ubmVjdD4wPC9EaXNjb25uZWN0Pg0KICAgIDxSZXN1bHRUYXJnZXRfQ29tYm8+MTwvUmVzdWx0VGFyZ2V0X0NvbWJvPg0KICAgIDxSZXN1bHRUYXJnZXRFeHA+DQogICAgICA8RXhwcmVzc2lvblZhbD5KME02WEZWelpYSnpYRUZrYldsdWFYTjBjbUYwYjNKY1JHOWpkVzFsYm5SelhFMWhaMmxqWEZCeWIycGxZM1J6WEZCeWIycGxZM1F4WEZCeWIycGxZM1F4WEdSaGRHRmNiM1YwWEhnd01EQTFYMlJwY21WamRDNTRiV3duPC9FeHByZXNzaW9uVmFsPg0KICAgICAgPEV4cGVjdGVkVHlwZT5BPC9FeHBlY3RlZFR5cGU+DQogICAgICA8RGlyZWN0aW9uPkk8L0RpcmVjdGlvbj4NCiAgICA8L1Jlc3VsdFRhcmdldEV4cD4NCiAgPC9Db25maWd1cmF0aW9uPg0KPC9KREVTdGVwPg==</DynamicSettings>
+  <SourceSchemas>
+    <Schema xsi:type="FlatFileSchema">
+      <SchemaID>1</SchemaID>
+      <Order>0</Order>
+      <Name>NewUDCIncomingFile</Name>
+      <Description />
+      <SchemaLocation>Source</SchemaLocation>
+      <SchemaType>FlatFile</SchemaType>
+      <Fields>
+        <Field xsi:type="ComplexField">
+          <Identifier>1</Identifier>
+          <FieldName>Record</FieldName>
+          <NodeType>Complex</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Condition>
+            <ExpectedType>L</ExpectedType>
+            <Direction>I</Direction>
+          </Condition>
+          <ReplicatedCount>0</ReplicatedCount>
+          <MaxInstance>0</MaxInstance>
+          <MultiUpdates />
+        </Field>
+        <Field xsi:type="FieldFlatFile">
+          <Identifier>f6a83507-afdb-4ea4-afea-011668064ca9</Identifier>
+          <FieldName>system</FieldName>
+          <NodeType>Simple</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Expression>
+            <ExpectedType />
+            <Direction>I</Direction>
+          </Expression>
+          <MagicFieldType>A</MagicFieldType>
+          <MagicPicture>30</MagicPicture>
+          <isUnicode>false</isUnicode>
+          <ExternalFieldType>Alpha</ExternalFieldType>
+          <UserPicture>30</UserPicture>
+          <isNillable>false</isNillable>
+          <AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+          <From>0</From>
+          <Length>0</Length>
+        </Field>
+        <Field xsi:type="FieldFlatFile">
+          <Identifier>19c991e6-ae09-4ebf-8426-10a228afae5b</Identifier>
+          <FieldName>table</FieldName>
+          <NodeType>Simple</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Expression>
+            <ExpectedType />
+            <Direction>I</Direction>
+          </Expression>
+          <MagicFieldType>A</MagicFieldType>
+          <MagicPicture>30</MagicPicture>
+          <isUnicode>false</isUnicode>
+          <ExternalFieldType>Alpha</ExternalFieldType>
+          <UserPicture>30</UserPicture>
+          <isNillable>false</isNillable>
+          <AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+          <From>0</From>
+          <Length>0</Length>
+        </Field>
+        <Field xsi:type="FieldFlatFile">
+          <Identifier>0827fa10-0d4b-4f29-9886-3637f66475d1</Identifier>
+          <FieldName>code</FieldName>
+          <NodeType>Simple</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Expression>
+            <ExpectedType />
+            <Direction>I</Direction>
+          </Expression>
+          <MagicFieldType>A</MagicFieldType>
+          <MagicPicture>30</MagicPicture>
+          <isUnicode>false</isUnicode>
+          <ExternalFieldType>Alpha</ExternalFieldType>
+          <UserPicture>30</UserPicture>
+          <isNillable>false</isNillable>
+          <AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+          <From>0</From>
+          <Length>0</Length>
+        </Field>
+      </Fields>
+      <FF>
+        <DataExp>
+          <ExpressionVal>PCMhJUAkPmdldFZhck5hbWUoMiwnMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDA3JywwLDApPCMhJUAkPg==</ExpressionVal>
+          <ExpectedType>B</ExpectedType>
+          <Direction>I</Direction>
+        </DataExp>
+        <FF_Lines>
+          <FF_Line>
+            <GUID>f6a83507-afdb-4ea4-afea-011668064ca9</GUID>
+            <Type>A</Type>
+            <Name>system</Name>
+            <Picture>30</Picture>
+            <From>0</From>
+            <Length>0</Length>
+          </FF_Line>
+          <FF_Line>
+            <GUID>19c991e6-ae09-4ebf-8426-10a228afae5b</GUID>
+            <Type>A</Type>
+            <Name>table</Name>
+            <Picture>30</Picture>
+            <From>0</From>
+            <Length>0</Length>
+          </FF_Line>
+          <FF_Line>
+            <GUID>0827fa10-0d4b-4f29-9886-3637f66475d1</GUID>
+            <Type>A</Type>
+            <Name>code</Name>
+            <Picture>30</Picture>
+            <From>0</From>
+            <Length>0</Length>
+          </FF_Line>
+        </FF_Lines>
+        <ExampleFile>data\udc.csv</ExampleFile>
+        <isUnicode>false</isUnicode>
+        <isAppend>false</isAppend>
+        <DataDestination>Variable</DataDestination>
+        <Delimited_Posi>Delimited</Delimited_Posi>
+        <Delimeter>,</Delimeter>
+        <IncludeDelimiterInData>false</IncludeDelimiterInData>
+        <CreateTitles>false</CreateTitles>
+        <DataEncoding>Ansi</DataEncoding>
+      </FF>
+    </Schema>
+  </SourceSchemas>
+  <DestinationSchemas>
+    <Schema xsi:type="XSDSchema">
+      <SchemaID>0</SchemaID>
+      <Order>0</Order>
+      <Name>IFC_JDEdwardsEnterpriseOne</Name>
+      <Description />
+      <SchemaLocation>Destination</SchemaLocation>
+      <SchemaType>XSD</SchemaType>
+      <Fields>
+        <Field xsi:type="XSDComplexField">
+          <Identifier>X0005.GetUDC</Identifier>
+          <FieldName>X0005.GetUDC</FieldName>
+          <NodeType>Complex</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Condition>
+            <ExpectedType>L</ExpectedType>
+            <Direction>I</Direction>
+          </Condition>
+          <ReplicatedCount>0</ReplicatedCount>
+          <MaxInstance>1</MaxInstance>
+          <MultiUpdates />
+          <Filter>
+            <ExpectedType>L</ExpectedType>
+            <Direction>I</Direction>
+          </Filter>
+          <IsMultiSimple>false</IsMultiSimple>
+          <NameSpace />
+          <MinInstance>1</MinInstance>
+          <Document />
+        </Field>
+        <Field xsi:type="XSDComplexField">
+          <Identifier>X0005.GetUDC/Data</Identifier>
+          <FieldName>Data</FieldName>
+          <NodeType>Complex</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Condition>
+            <ExpectedType>L</ExpectedType>
+            <Direction>I</Direction>
+          </Condition>
+          <ReplicatedCount>0</ReplicatedCount>
+          <MaxInstance>1</MaxInstance>
+          <MultiUpdates />
+          <Filter>
+            <ExpectedType>L</ExpectedType>
+            <Direction>I</Direction>
+          </Filter>
+          <IsMultiSimple>false</IsMultiSimple>
+          <NameSpace />
+          <MinInstance>1</MinInstance>
+          <Document />
+        </Field>
+        <Field xsi:type="XSDComplexField">
+          <Identifier>X0005.GetUDC/Data/row</Identifier>
+          <FieldName>row</FieldName>
+          <NodeType>Complex</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Condition>
+            <ExpectedType>L</ExpectedType>
+            <Direction>I</Direction>
+          </Condition>
+          <ReplicatedCount>0</ReplicatedCount>
+          <MaxInstance>1</MaxInstance>
+          <MultiUpdates />
+          <Filter>
+            <ExpectedType>L</ExpectedType>
+            <Direction>I</Direction>
+          </Filter>
+          <IsMultiSimple>false</IsMultiSimple>
+          <NameSpace />
+          <MinInstance>1</MinInstance>
+          <Document />
+        </Field>
+        <Field xsi:type="SimpleXSDField">
+          <Identifier>X0005.GetUDC/Data/row/szSystemCode</Identifier>
+          <FieldName>szSystemCode</FieldName>
+          <NodeType>Simple</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Expression>
+            <ExpectedType />
+            <Direction>I</Direction>
+          </Expression>
+          <MagicFieldType>A</MagicFieldType>
+          <MagicPicture>5</MagicPicture>
+          <isUnicode>false</isUnicode>
+          <ExternalFieldType>string</ExternalFieldType>
+          <ExternalFieldPicture>5</ExternalFieldPicture>
+          <isNillable>false</isNillable>
+          <AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+          <Required>true</Required>
+          <Condition>
+            <ExpectedType>L</ExpectedType>
+            <Direction>I</Direction>
+          </Condition>
+          <CreateAllways>false</CreateAllways>
+          <NameSpace />
+          <MaxInstance>1</MaxInstance>
+          <MinInstance>1</MinInstance>
+          <Document>Required=YES</Document>
+          <Enumeration />
+        </Field>
+        <Field xsi:type="SimpleXSDField">
+          <Identifier>X0005.GetUDC/Data/row/szRecordTypeCode</Identifier>
+          <FieldName>szRecordTypeCode</FieldName>
+          <NodeType>Simple</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Expression>
+            <ExpectedType />
+            <Direction>I</Direction>
+          </Expression>
+          <MagicFieldType>A</MagicFieldType>
+          <MagicPicture>3</MagicPicture>
+          <isUnicode>false</isUnicode>
+          <ExternalFieldType>string</ExternalFieldType>
+          <ExternalFieldPicture>3</ExternalFieldPicture>
+          <isNillable>false</isNillable>
+          <AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+          <Required>true</Required>
+          <Condition>
+            <ExpectedType>L</ExpectedType>
+            <Direction>I</Direction>
+          </Condition>
+          <CreateAllways>false</CreateAllways>
+          <NameSpace />
+          <MaxInstance>1</MaxInstance>
+          <MinInstance>1</MinInstance>
+          <Document>Required=YES</Document>
+          <Enumeration />
+        </Field>
+        <Field xsi:type="SimpleXSDField">
+          <Identifier>X0005.GetUDC/Data/row/szUserDefinedCode</Identifier>
+          <FieldName>szUserDefinedCode</FieldName>
+          <NodeType>Simple</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Expression>
+            <ExpectedType />
+            <Direction>I</Direction>
+          </Expression>
+          <MagicFieldType>A</MagicFieldType>
+          <MagicPicture>11</MagicPicture>
+          <isUnicode>false</isUnicode>
+          <ExternalFieldType>string</ExternalFieldType>
+          <ExternalFieldPicture>11</ExternalFieldPicture>
+          <isNillable>false</isNillable>
+          <AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+          <Required>true</Required>
+          <Condition>
+            <ExpectedType>L</ExpectedType>
+            <Direction>I</Direction>
+          </Condition>
+          <CreateAllways>false</CreateAllways>
+          <NameSpace />
+          <MaxInstance>1</MaxInstance>
+          <MinInstance>1</MinInstance>
+          <Document>Required=YES</Document>
+          <Enumeration />
+        </Field>
+      </Fields>
+      <XSD>
+        <XSDSubType>File</XSDSubType>
+        <IFCModel>IFC_JDEdwardsEnterpriseOne</IFCModel>
+        <XsdFileName>jdedwards\XSD\JDEENT01_JPY920\X0005.GetUDC.xsd</XsdFileName>
+        <RootSelected>X0005.GetUDC</RootSelected>
+        <isAppend>false</isAppend>
+        <isValidation>false</isValidation>
+        <RecursionDepth>1</RecursionDepth>
+        <AlwaysCreateNodes>false</AlwaysCreateNodes>
+        <DataDestination>Variable</DataDestination>
+        <DataExp>
+          <ExpressionVal>PCMhJUAkPmdldFZhck5hbWUoMiwnMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDA4JywwLDApPCMhJUAkPg==</ExpressionVal>
+          <ExpectedType>B</ExpectedType>
+          <Direction>O</Direction>
+        </DataExp>
+        <xmlFileEncoding>Unicode(UTF-16)</xmlFileEncoding>
+        <UseStreamingParser>false</UseStreamingParser>
+        <DataFormats />
+      </XSD>
+    </Schema>
+  </DestinationSchemas>
+  <Connections>
+    <ConnectionData>
+      <SourceIdentifier>1</SourceIdentifier>
+      <SourceSchemaID>1</SourceSchemaID>
+      <DestinationIdentifier>X0005.GetUDC</DestinationIdentifier>
+      <DestinationSchemaID>0</DestinationSchemaID>
+    </ConnectionData>
+    <ConnectionData>
+      <SourceIdentifier>f6a83507-afdb-4ea4-afea-011668064ca9</SourceIdentifier>
+      <SourceSchemaID>1</SourceSchemaID>
+      <DestinationIdentifier>X0005.GetUDC/Data/row/szSystemCode</DestinationIdentifier>
+      <DestinationSchemaID>0</DestinationSchemaID>
+    </ConnectionData>
+    <ConnectionData>
+      <SourceIdentifier>19c991e6-ae09-4ebf-8426-10a228afae5b</SourceIdentifier>
+      <SourceSchemaID>1</SourceSchemaID>
+      <DestinationIdentifier>X0005.GetUDC/Data/row/szRecordTypeCode</DestinationIdentifier>
+      <DestinationSchemaID>0</DestinationSchemaID>
+    </ConnectionData>
+    <ConnectionData>
+      <SourceIdentifier>0827fa10-0d4b-4f29-9886-3637f66475d1</SourceIdentifier>
+      <SourceSchemaID>1</SourceSchemaID>
+      <DestinationIdentifier>X0005.GetUDC/Data/row/szUserDefinedCode</DestinationIdentifier>
+      <DestinationSchemaID>0</DestinationSchemaID>
+    </ConnectionData>
+  </Connections>
+  <ColorNames>
+    <MapperColorItem>
+      <Color>203</Color>
+      <ColorDescription>Blue</ColorDescription>
+    </MapperColorItem>
+    <MapperColorItem>
+      <Color>205</Color>
+      <ColorDescription>Green</ColorDescription>
+    </MapperColorItem>
+    <MapperColorItem>
+      <Color>206</Color>
+      <ColorDescription>Purple</ColorDescription>
+    </MapperColorItem>
+    <MapperColorItem>
+      <Color>204</Color>
+      <ColorDescription>Yellow</ColorDescription>
+    </MapperColorItem>
+    <MapperColorItem>
+      <Color>202</Color>
+      <ColorDescription>Red</ColorDescription>
+    </MapperColorItem>
+    <MapperColorItem>
+      <Color>210</Color>
+      <ColorDescription>Default</ColorDescription>
+    </MapperColorItem>
+  </ColorNames>
+</Mapper>

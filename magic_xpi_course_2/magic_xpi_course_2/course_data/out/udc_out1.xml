@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<X0005.GetUDC>
+<Data>
+<row>
+<szUserDefinedCode>C</szUserDefinedCode>
+<mnKeyFieldLength>0</mnKeyFieldLength>
+<cHardCodedYn>N</cHardCodedYn>
+<szDescription001>Customers</szDescription001>
+<szSystemCode>01</szSystemCode>
+<szRecordTypeCode>ST</szRecordTypeCode>
+</row>
+</Data>
+</X0005.GetUDC>
+<?xml version="1.0" encoding="UTF-8"?>
+<X0005.GetUDC>
+<Data>
+<row>
+<szUserDefinedCode>C</szUserDefinedCode>
+<mnKeyFieldLength>0</mnKeyFieldLength>
+<cHardCodedYn>N</cHardCodedYn>
+<szDescription001>Customers</szDescription001>
+<szSystemCode>01</szSystemCode>
+<szRecordTypeCode>ST</szRecordTypeCode>
+</row>
+</Data>
+</X0005.GetUDC>
+<?xml version="1.0" encoding="UTF-8"?>
+<X0005.GetUDC>
+<Data>
+<row>
+<szUserDefinedCode>C</szUserDefinedCode>
+<mnKeyFieldLength>0</mnKeyFieldLength>
+<cHardCodedYn>N</cHardCodedYn>
+<szDescription001>Customers</szDescription001>
+<szSystemCode>01</szSystemCode>
+<szRecordTypeCode>ST</szRecordTypeCode>
+</row>
+</Data>
+</X0005.GetUDC>

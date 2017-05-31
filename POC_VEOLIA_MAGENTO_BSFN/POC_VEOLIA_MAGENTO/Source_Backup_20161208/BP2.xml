@@ -1,0 +1,2780 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<BP>
+<Topology>
+<FlowsList>Flow15_(-INACT)_Create Order</FlowsList>
+<FlowsList>Flow13_(-INACT)_...Magento Login</FlowsList>
+<FlowsList>Flow12_(-INACT)_...Magento Get Order Info</FlowsList>
+<FlowsList>Flow14_(-INACT)_...Magento Get Customer Info</FlowsList>
+<FlowsList>Flow19_Magento Create Order</FlowsList>
+<FlowsList>Flow2_..Create Sales Order</FlowsList>
+<FlowsList>Flow3_...Init JDE Info</FlowsList>
+<FlowsList>Flow5_...Add order line</FlowsList>
+<FlowsList>Flow22_...Add freight line</FlowsList>
+<FlowsList>Flow7_Generic Error Flow</FlowsList>
+<FlowsList>Flow11_Call UBE</FlowsList>
+<FlowsList>Flow17_(-DIS-INACT)_Modify Order Status</FlowsList>
+<FlowsList>Flow18_Get Quantity Available</FlowsList>
+<FlowsList>Flow21_Get Order Status - wBFN</FlowsList>
+<FlowsList>Flow23_Get Cde relation</FlowsList>
+<FlowsList>Flow24_JDEStatusCodes</FlowsList>
+<FlowsList>Flow25_HealthCheck</FlowsList>
+
+ <Struct_Nodes>
+ <NodesComp>
+  <topology_id>2</topology_id> 
+  <NodeID>3</NodeID> 
+  <node_type>A</node_type> 
+  <Description></Description>
+  <AppServerID>2</AppServerID>
+  <AppInterfaceName>JDE</AppInterfaceName> 
+  <X>1037.467</X> 
+  <Y>221.133</Y> 
+  <Sync>0</Sync> 
+ </NodesComp>
+ <NodesComp>
+  <topology_id>2</topology_id> 
+  <NodeID>2</NodeID> 
+  <node_type>A</node_type> 
+  <Description></Description>
+  <AppServerID>1</AppServerID>
+  <AppInterfaceName>Magento</AppInterfaceName> 
+  <X>425.200</X> 
+  <Y>221.133</Y> 
+  <Sync>0</Sync> 
+ </NodesComp>
+ <NodesComp>
+  <topology_id>2</topology_id> 
+  <NodeID>1</NodeID> 
+  <node_type>S</node_type> 
+  <Description></Description>
+  <AppServerID>2</AppServerID>
+  <AppInterfaceName>iBOLT Server</AppInterfaceName> 
+  <X>748.333</X> 
+  <Y>340.133</Y> 
+  <Sync>0</Sync> 
+ </NodesComp>
+ </Struct_Nodes>
+
+ <Struct_Connections>
+ <ConnectionsComp>
+  <topology_ID>2</topology_ID> 
+  <source_Node_ID>1</source_Node_ID> 
+  <target_Node_ID>3</target_Node_ID> 
+ </ConnectionsComp>
+ <ConnectionsComp>
+  <topology_ID>2</topology_ID> 
+  <source_Node_ID>2</source_Node_ID> 
+  <target_Node_ID>1</target_Node_ID> 
+ </ConnectionsComp>
+ </Struct_Connections>
+
+ <Struct_elements>
+
+ <ElementsComp>
+  <elementId>6</elementId> 
+  <elementtype>RSC</elementtype> 
+  <elementname>Order</elementname> 
+  <elementdescription></elementdescription>
+  <objtype>6</objtype> 
+  <BP_ID>2</BP_ID> 
+  <etop_y1>68.000</etop_y1> 
+  <eleft_x1>714.333</eleft_x1> 
+  <ebottom_y2>0.000</ebottom_y2> 
+  <eright_x2>0.000</eright_x2> 
+  <interface></interface>
+  <wsdlfile_in></wsdlfile_in> 
+  <wsdlfile_out></wsdlfile_out>
+  <direction></direction>
+  <imagefile>Order.gif</imagefile> 
+  <bgcolor>0</bgcolor> 
+  <fgcolor>0</fgcolor> 
+  <fontId>0</fontId> 
+  <textlocation>Right</textlocation> 
+  <arrowdirection></arrowdirection>
+  <pointer_x>0.000</pointer_x> 
+  <pointer_y>0.000</pointer_y> 
+  <application>1</application> 
+  <border_weight>0</border_weight> 
+  <user_message></user_message>
+  <showpointer>0</showpointer> 
+  <Ismax_TAR>0</Ismax_TAR> 
+  <Flow_ID>0</Flow_ID> 
+  <Document_Path></Document_Path>
+
+     <Struct_ElementsFlows>
+         </Struct_ElementsFlows>
+  
+     <Struct_ElementsConnections>
+         </Struct_ElementsConnections>
+  
+       <FontPropertiesComp>
+   </FontPropertiesComp>
+    
+
+
+
+      
+      
+      
+
+ </ElementsComp>
+
+ <ElementsComp>
+  <elementId>10</elementId> 
+  <elementtype>RSC</elementtype> 
+  <elementname>Order</elementname> 
+  <elementdescription></elementdescription>
+  <objtype>6</objtype> 
+  <BP_ID>2</BP_ID> 
+  <etop_y1>68.000</etop_y1> 
+  <eleft_x1>1139.533</eleft_x1> 
+  <ebottom_y2>187.074</ebottom_y2> 
+  <eright_x2>391.192</eright_x2> 
+  <interface></interface>
+  <wsdlfile_in></wsdlfile_in> 
+  <wsdlfile_out></wsdlfile_out>
+  <direction></direction>
+  <imagefile>Order.gif</imagefile> 
+  <bgcolor>0</bgcolor> 
+  <fgcolor>0</fgcolor> 
+  <fontId>23</fontId> 
+  <textlocation>Right</textlocation> 
+  <arrowdirection></arrowdirection>
+  <pointer_x>0.000</pointer_x> 
+  <pointer_y>0.000</pointer_y> 
+  <application>1</application> 
+  <border_weight>0</border_weight> 
+  <user_message></user_message>
+  <showpointer>0</showpointer> 
+  <Ismax_TAR>1</Ismax_TAR> 
+  <Flow_ID>0</Flow_ID> 
+  <Document_Path></Document_Path>
+
+     <Struct_ElementsFlows>
+         </Struct_ElementsFlows>
+  
+     <Struct_ElementsConnections>
+         </Struct_ElementsConnections>
+  
+      
+
+
+
+      
+      
+       <FontPropertiesComp>
+    <fontId>23</fontId> 
+    <font_bold>0</font_bold> 
+    <font_size>0</font_size> 
+    <font_style>0</font_style> 
+    <font_name></font_name> 
+    <font_Italic>0</font_Italic> 
+    <font_strikethru>0</font_strikethru> 
+    <font_underline>0</font_underline> 
+    <font_color>0</font_color> 
+    <Bp_ID>2</Bp_ID> 
+    <Flow_ID>0</Flow_ID> 
+   </FontPropertiesComp>
+  
+  
+
+
+
+      
+      
+      
+
+ </ElementsComp>
+
+ <ElementsComp>
+  <elementId>13</elementId> 
+  <elementtype>PAR</elementtype> 
+  <elementname>JDE Create Order</elementname> 
+  <elementdescription></elementdescription>
+  <objtype>6</objtype> 
+  <BP_ID>2</BP_ID> 
+  <etop_y1>514.000</etop_y1> 
+  <eleft_x1>595.000</eleft_x1> 
+  <ebottom_y2>795.000</ebottom_y2> 
+  <eright_x2>893.000</eright_x2> 
+  <interface></interface>
+  <wsdlfile_in></wsdlfile_in> 
+  <wsdlfile_out></wsdlfile_out>
+  <direction></direction>
+  <imagefile></imagefile> 
+  <bgcolor>255</bgcolor> 
+  <fgcolor>0</fgcolor> 
+  <fontId>24</fontId> 
+  <textlocation>Top Left</textlocation> 
+  <arrowdirection></arrowdirection>
+  <pointer_x>0.000</pointer_x> 
+  <pointer_y>0.000</pointer_y> 
+  <application>0</application> 
+  <border_weight>1</border_weight> 
+  <user_message></user_message>
+  <showpointer>0</showpointer> 
+  <Ismax_TAR>1</Ismax_TAR> 
+  <Flow_ID>0</Flow_ID> 
+  <Document_Path></Document_Path>
+
+     <Struct_ElementsFlows>
+         </Struct_ElementsFlows>
+  
+     <Struct_ElementsConnections>
+         </Struct_ElementsConnections>
+  
+      
+
+
+
+      
+      
+    
+   <FontPropertiesComp>
+    <fontId>24</fontId> 
+    <font_bold>1</font_bold> 
+    <font_size>12</font_size> 
+    <font_style>0</font_style> 
+    <font_name>Arial</font_name> 
+    <font_Italic>0</font_Italic> 
+    <font_strikethru>0</font_strikethru> 
+    <font_underline>0</font_underline> 
+    <font_color>16777215</font_color> 
+    <Bp_ID>2</Bp_ID> 
+    <Flow_ID>0</Flow_ID> 
+   </FontPropertiesComp>
+  
+  
+
+
+
+      
+      
+      
+
+ </ElementsComp>
+
+ <ElementsComp>
+  <elementId>14</elementId> 
+  <elementtype>ACT</elementtype> 
+  <elementname>F4211FSBeginDoc</elementname> 
+  <elementdescription></elementdescription>
+  <objtype>6</objtype> 
+  <BP_ID>2</BP_ID> 
+  <etop_y1>544.267</etop_y1> 
+  <eleft_x1>714.333</eleft_x1> 
+  <ebottom_y2>0.000</ebottom_y2> 
+  <eright_x2>0.000</eright_x2> 
+  <interface></interface>
+  <wsdlfile_in></wsdlfile_in> 
+  <wsdlfile_out></wsdlfile_out>
+  <direction></direction>
+  <imagefile>Create.gif</imagefile> 
+  <bgcolor>0</bgcolor> 
+  <fgcolor>0</fgcolor> 
+  <fontId>0</fontId> 
+  <textlocation>Right</textlocation> 
+  <arrowdirection></arrowdirection>
+  <pointer_x>0.000</pointer_x> 
+  <pointer_y>0.000</pointer_y> 
+  <application>2</application> 
+  <border_weight>0</border_weight> 
+  <user_message></user_message>
+  <showpointer>0</showpointer> 
+  <Ismax_TAR>0</Ismax_TAR> 
+  <Flow_ID>0</Flow_ID> 
+  <Document_Path></Document_Path>
+
+      
+     <Struct_ElementsConnections>
+         </Struct_ElementsConnections>
+  
+       <FontPropertiesComp>
+   </FontPropertiesComp>
+    
+
+
+
+     <Struct_ElementsFlows>
+      
+      
+      
+
+
+
+         <ElementsFlows>
+    <elementId>14</elementId> 
+    <BPID>2</BPID> 
+    <flowId>2</flowId>
+    <dummy></dummy>
+    <ID>1</ID> 
+   </ElementsFlows>
+  
+    
+      
+      
+
+
+
+         </Struct_ElementsFlows>
+  
+      
+      
+
+
+
+      
+      
+      
+
+ </ElementsComp>
+
+ <ElementsComp>
+  <elementId>15</elementId> 
+  <elementtype>ACT</elementtype> 
+  <elementname>F4211FSEndDoc</elementname> 
+  <elementdescription></elementdescription>
+  <objtype>6</objtype> 
+  <BP_ID>2</BP_ID> 
+  <etop_y1>680.333</etop_y1> 
+  <eleft_x1>714.333</eleft_x1> 
+  <ebottom_y2>170.052</ebottom_y2> 
+  <eright_x2>68.047</eright_x2> 
+  <interface></interface>
+  <wsdlfile_in></wsdlfile_in> 
+  <wsdlfile_out></wsdlfile_out>
+  <direction></direction>
+  <imagefile>Create.gif</imagefile> 
+  <bgcolor>0</bgcolor> 
+  <fgcolor>0</fgcolor> 
+  <fontId>25</fontId> 
+  <textlocation>Right</textlocation> 
+  <arrowdirection></arrowdirection>
+  <pointer_x>0.000</pointer_x> 
+  <pointer_y>0.000</pointer_y> 
+  <application>2</application> 
+  <border_weight>0</border_weight> 
+  <user_message></user_message>
+  <showpointer>0</showpointer> 
+  <Ismax_TAR>1</Ismax_TAR> 
+  <Flow_ID>0</Flow_ID> 
+  <Document_Path></Document_Path>
+
+      
+     <Struct_ElementsConnections>
+         </Struct_ElementsConnections>
+  
+      
+
+
+
+     <Struct_ElementsFlows>
+      
+      
+      
+
+
+
+      
+   <ElementsFlows>
+    <elementId>15</elementId> 
+    <BPID>2</BPID> 
+    <flowId>2</flowId>
+    <dummy></dummy>
+    <ID>1</ID> 
+   </ElementsFlows>
+  
+    
+      
+      
+
+
+
+         </Struct_ElementsFlows>
+  
+      
+      
+
+
+
+      
+      
+    
+   <FontPropertiesComp>
+    <fontId>25</fontId> 
+    <font_bold>0</font_bold> 
+    <font_size>0</font_size> 
+    <font_style>0</font_style> 
+    <font_name></font_name> 
+    <font_Italic>0</font_Italic> 
+    <font_strikethru>0</font_strikethru> 
+    <font_underline>0</font_underline> 
+    <font_color>0</font_color> 
+    <Bp_ID>2</Bp_ID> 
+    <Flow_ID>0</Flow_ID> 
+   </FontPropertiesComp>
+  
+  
+
+
+
+      
+      
+      
+
+ </ElementsComp>
+
+ <ElementsComp>
+  <elementId>16</elementId> 
+  <elementtype>ACT</elementtype> 
+  <elementname>F4211FSEditLine</elementname> 
+  <elementdescription></elementdescription>
+  <objtype>6</objtype> 
+  <BP_ID>2</BP_ID> 
+  <etop_y1>612.267</etop_y1> 
+  <eleft_x1>714.333</eleft_x1> 
+  <ebottom_y2>323.122</ebottom_y2> 
+  <eright_x2>34.032</eright_x2> 
+  <interface></interface>
+  <wsdlfile_in></wsdlfile_in> 
+  <wsdlfile_out></wsdlfile_out>
+  <direction></direction>
+  <imagefile>Create.gif</imagefile> 
+  <bgcolor>0</bgcolor> 
+  <fgcolor>0</fgcolor> 
+  <fontId>26</fontId> 
+  <textlocation>Right</textlocation> 
+  <arrowdirection></arrowdirection>
+  <pointer_x>0.000</pointer_x> 
+  <pointer_y>0.000</pointer_y> 
+  <application>2</application> 
+  <border_weight>0</border_weight> 
+  <user_message></user_message>
+  <showpointer>0</showpointer> 
+  <Ismax_TAR>1</Ismax_TAR> 
+  <Flow_ID>0</Flow_ID> 
+  <Document_Path></Document_Path>
+
+      
+     <Struct_ElementsConnections>
+         </Struct_ElementsConnections>
+  
+      
+
+
+
+     <Struct_ElementsFlows>
+      
+      
+      
+
+
+
+      
+   <ElementsFlows>
+    <elementId>16</elementId> 
+    <BPID>2</BPID> 
+    <flowId>5</flowId>
+    <dummy></dummy>
+    <ID>1</ID> 
+   </ElementsFlows>
+  
+    
+      
+      
+
+
+
+         </Struct_ElementsFlows>
+  
+      
+      
+
+
+
+      
+      
+    
+   <FontPropertiesComp>
+    <fontId>26</fontId> 
+    <font_bold>0</font_bold> 
+    <font_size>0</font_size> 
+    <font_style>0</font_style> 
+    <font_name></font_name> 
+    <font_Italic>0</font_Italic> 
+    <font_strikethru>0</font_strikethru> 
+    <font_underline>0</font_underline> 
+    <font_color>0</font_color> 
+    <Bp_ID>2</Bp_ID> 
+    <Flow_ID>0</Flow_ID> 
+   </FontPropertiesComp>
+  
+  
+
+
+
+      
+      
+      
+
+ </ElementsComp>
+
+ <ElementsComp>
+  <elementId>17</elementId> 
+  <elementtype>ACT</elementtype> 
+  <elementname>GetF4211DetailInformation</elementname> 
+  <elementdescription></elementdescription>
+  <objtype>6</objtype> 
+  <BP_ID>2</BP_ID> 
+  <etop_y1>561.267</etop_y1> 
+  <eleft_x1>1139.533</eleft_x1> 
+  <ebottom_y2>408.186</ebottom_y2> 
+  <eright_x2>306.113</eright_x2> 
+  <interface></interface>
+  <wsdlfile_in></wsdlfile_in> 
+  <wsdlfile_out></wsdlfile_out>
+  <direction></direction>
+  <imagefile>Create.gif</imagefile> 
+  <bgcolor>0</bgcolor> 
+  <fgcolor>0</fgcolor> 
+  <fontId>27</fontId> 
+  <textlocation>Right</textlocation> 
+  <arrowdirection></arrowdirection>
+  <pointer_x>0.000</pointer_x> 
+  <pointer_y>0.000</pointer_y> 
+  <application>2</application> 
+  <border_weight>0</border_weight> 
+  <user_message></user_message>
+  <showpointer>0</showpointer> 
+  <Ismax_TAR>1</Ismax_TAR> 
+  <Flow_ID>0</Flow_ID> 
+  <Document_Path></Document_Path>
+
+      
+     <Struct_ElementsConnections>
+         </Struct_ElementsConnections>
+  
+      
+
+
+
+     <Struct_ElementsFlows>
+      
+      
+      
+
+
+
+      
+   <ElementsFlows>
+    <elementId>17</elementId> 
+    <BPID>2</BPID> 
+    <flowId>21</flowId>
+    <dummy></dummy>
+    <ID>1</ID> 
+   </ElementsFlows>
+  
+    
+      
+      
+
+
+
+         </Struct_ElementsFlows>
+  
+      
+      
+
+
+
+      
+      
+    
+   <FontPropertiesComp>
+    <fontId>27</fontId> 
+    <font_bold>0</font_bold> 
+    <font_size>0</font_size> 
+    <font_style>0</font_style> 
+    <font_name></font_name> 
+    <font_Italic>0</font_Italic> 
+    <font_strikethru>0</font_strikethru> 
+    <font_underline>0</font_underline> 
+    <font_color>0</font_color> 
+    <Bp_ID>2</Bp_ID> 
+    <Flow_ID>0</Flow_ID> 
+   </FontPropertiesComp>
+  
+  
+
+
+
+      
+      
+      
+
+ </ElementsComp>
+
+ <ElementsComp>
+  <elementId>18</elementId> 
+  <elementtype>ACT</elementtype> 
+  <elementname>Get  Order Info (WS)</elementname> 
+  <elementdescription></elementdescription>
+  <objtype>6</objtype> 
+  <BP_ID>2</BP_ID> 
+  <etop_y1>357.133</etop_y1> 
+  <eleft_x1>714.333</eleft_x1> 
+  <ebottom_y2>0.000</ebottom_y2> 
+  <eright_x2>0.000</eright_x2> 
+  <interface></interface>
+  <wsdlfile_in></wsdlfile_in> 
+  <wsdlfile_out></wsdlfile_out>
+  <direction></direction>
+  <imagefile>Get.gif</imagefile> 
+  <bgcolor>0</bgcolor> 
+  <fgcolor>0</fgcolor> 
+  <fontId>0</fontId> 
+  <textlocation>Right</textlocation> 
+  <arrowdirection></arrowdirection>
+  <pointer_x>0.000</pointer_x> 
+  <pointer_y>0.000</pointer_y> 
+  <application>1</application> 
+  <border_weight>0</border_weight> 
+  <user_message></user_message>
+  <showpointer>0</showpointer> 
+  <Ismax_TAR>0</Ismax_TAR> 
+  <Flow_ID>0</Flow_ID> 
+  <Document_Path></Document_Path>
+
+      
+     <Struct_ElementsConnections>
+         </Struct_ElementsConnections>
+  
+       <FontPropertiesComp>
+   </FontPropertiesComp>
+    
+
+
+
+     <Struct_ElementsFlows>
+      
+      
+      
+
+
+
+      
+   <ElementsFlows>
+    <elementId>18</elementId> 
+    <BPID>2</BPID> 
+    <flowId>12</flowId>
+    <dummy></dummy>
+    <ID>1</ID> 
+   </ElementsFlows>
+  
+    
+      
+      
+
+
+
+         </Struct_ElementsFlows>
+  
+      
+      
+
+
+
+      
+      
+      
+
+ </ElementsComp>
+
+ <ElementsComp>
+  <elementId>19</elementId> 
+  <elementtype>ACT</elementtype> 
+  <elementname>Get  Customer  Info (WS)</elementname> 
+  <elementdescription></elementdescription>
+  <objtype>6</objtype> 
+  <BP_ID>2</BP_ID> 
+  <etop_y1>459.200</etop_y1> 
+  <eleft_x1>714.333</eleft_x1> 
+  <ebottom_y2>187.086</ebottom_y2> 
+  <eright_x2>51.023</eright_x2> 
+  <interface></interface>
+  <wsdlfile_in></wsdlfile_in> 
+  <wsdlfile_out></wsdlfile_out>
+  <direction></direction>
+  <imagefile>Get.gif</imagefile> 
+  <bgcolor>0</bgcolor> 
+  <fgcolor>0</fgcolor> 
+  <fontId>28</fontId> 
+  <textlocation>Right</textlocation> 
+  <arrowdirection></arrowdirection>
+  <pointer_x>0.000</pointer_x> 
+  <pointer_y>0.000</pointer_y> 
+  <application>1</application> 
+  <border_weight>0</border_weight> 
+  <user_message></user_message>
+  <showpointer>0</showpointer> 
+  <Ismax_TAR>1</Ismax_TAR> 
+  <Flow_ID>0</Flow_ID> 
+  <Document_Path></Document_Path>
+
+      
+     <Struct_ElementsConnections>
+         </Struct_ElementsConnections>
+  
+      
+
+
+
+     <Struct_ElementsFlows>
+      
+      
+      
+
+
+
+      
+   <ElementsFlows>
+    <elementId>19</elementId> 
+    <BPID>2</BPID> 
+    <flowId>14</flowId>
+    <dummy></dummy>
+    <ID>1</ID> 
+   </ElementsFlows>
+  
+    
+      
+      
+
+
+
+         </Struct_ElementsFlows>
+  
+      
+      
+
+
+
+      
+      
+    
+   <FontPropertiesComp>
+    <fontId>28</fontId> 
+    <font_bold>0</font_bold> 
+    <font_size>0</font_size> 
+    <font_style>0</font_style> 
+    <font_name></font_name> 
+    <font_Italic>0</font_Italic> 
+    <font_strikethru>0</font_strikethru> 
+    <font_underline>0</font_underline> 
+    <font_color>0</font_color> 
+    <Bp_ID>2</Bp_ID> 
+    <Flow_ID>0</Flow_ID> 
+   </FontPropertiesComp>
+  
+  
+
+
+
+      
+      
+      
+
+ </ElementsComp>
+
+ <ElementsComp>
+  <elementId>23</elementId> 
+  <elementtype>PAR</elementtype> 
+  <elementname>Magento</elementname> 
+  <elementdescription></elementdescription>
+  <objtype>6</objtype> 
+  <BP_ID>2</BP_ID> 
+  <etop_y1>338.000</etop_y1> 
+  <eleft_x1>595.000</eleft_x1> 
+  <ebottom_y2>508.000</ebottom_y2> 
+  <eright_x2>893.000</eright_x2> 
+  <interface></interface>
+  <wsdlfile_in></wsdlfile_in> 
+  <wsdlfile_out></wsdlfile_out>
+  <direction></direction>
+  <imagefile></imagefile> 
+  <bgcolor>16744448</bgcolor> 
+  <fgcolor>0</fgcolor> 
+  <fontId>29</fontId> 
+  <textlocation>Top Left</textlocation> 
+  <arrowdirection></arrowdirection>
+  <pointer_x>0.000</pointer_x> 
+  <pointer_y>0.000</pointer_y> 
+  <application>0</application> 
+  <border_weight>1</border_weight> 
+  <user_message></user_message>
+  <showpointer>0</showpointer> 
+  <Ismax_TAR>1</Ismax_TAR> 
+  <Flow_ID>0</Flow_ID> 
+  <Document_Path></Document_Path>
+
+     <Struct_ElementsFlows>
+         </Struct_ElementsFlows>
+  
+     <Struct_ElementsConnections>
+         </Struct_ElementsConnections>
+  
+      
+
+
+
+      
+      
+    
+   <FontPropertiesComp>
+    <fontId>29</fontId> 
+    <font_bold>1</font_bold> 
+    <font_size>12</font_size> 
+    <font_style>0</font_style> 
+    <font_name>Arial</font_name> 
+    <font_Italic>0</font_Italic> 
+    <font_strikethru>0</font_strikethru> 
+    <font_underline>0</font_underline> 
+    <font_color>0</font_color> 
+    <Bp_ID>2</Bp_ID> 
+    <Flow_ID>0</Flow_ID> 
+   </FontPropertiesComp>
+  
+  
+
+
+
+      
+      
+      
+
+ </ElementsComp>
+
+ <ElementsComp>
+  <elementId>24</elementId> 
+  <elementtype>PAR</elementtype> 
+  <elementname>Magento</elementname> 
+  <elementdescription></elementdescription>
+  <objtype>6</objtype> 
+  <BP_ID>2</BP_ID> 
+  <etop_y1>32.000</etop_y1> 
+  <eleft_x1>598.000</eleft_x1> 
+  <ebottom_y2>150.000</ebottom_y2> 
+  <eright_x2>1344.000</eright_x2> 
+  <interface></interface>
+  <wsdlfile_in></wsdlfile_in> 
+  <wsdlfile_out></wsdlfile_out>
+  <direction></direction>
+  <imagefile></imagefile> 
+  <bgcolor>16744448</bgcolor> 
+  <fgcolor>0</fgcolor> 
+  <fontId>30</fontId> 
+  <textlocation>Top Left</textlocation> 
+  <arrowdirection></arrowdirection>
+  <pointer_x>0.000</pointer_x> 
+  <pointer_y>0.000</pointer_y> 
+  <application>0</application> 
+  <border_weight>1</border_weight> 
+  <user_message></user_message>
+  <showpointer>0</showpointer> 
+  <Ismax_TAR>1</Ismax_TAR> 
+  <Flow_ID>0</Flow_ID> 
+  <Document_Path></Document_Path>
+
+     <Struct_ElementsFlows>
+         </Struct_ElementsFlows>
+  
+     <Struct_ElementsConnections>
+         </Struct_ElementsConnections>
+  
+      
+
+
+
+      
+      
+    
+   <FontPropertiesComp>
+    <fontId>30</fontId> 
+    <font_bold>1</font_bold> 
+    <font_size>12</font_size> 
+    <font_style>0</font_style> 
+    <font_name>Arial</font_name> 
+    <font_Italic>0</font_Italic> 
+    <font_strikethru>0</font_strikethru> 
+    <font_underline>0</font_underline> 
+    <font_color>0</font_color> 
+    <Bp_ID>2</Bp_ID> 
+    <Flow_ID>0</Flow_ID> 
+   </FontPropertiesComp>
+  
+  
+
+
+
+      
+      
+      
+
+ </ElementsComp>
+
+ <ElementsComp>
+  <elementId>25</elementId> 
+  <elementtype>CNL</elementtype> 
+  <elementname></elementname> 
+  <elementdescription></elementdescription>
+  <objtype>6</objtype> 
+  <BP_ID>2</BP_ID> 
+  <etop_y1>0.000</etop_y1> 
+  <eleft_x1>0.000</eleft_x1> 
+  <ebottom_y2>0.000</ebottom_y2> 
+  <eright_x2>0.000</eright_x2> 
+  <interface></interface>
+  <wsdlfile_in></wsdlfile_in> 
+  <wsdlfile_out></wsdlfile_out>
+  <direction></direction>
+  <imagefile></imagefile> 
+  <bgcolor>10377785</bgcolor> 
+  <fgcolor>0</fgcolor> 
+  <fontId>0</fontId> 
+  <textlocation></textlocation> 
+  <arrowdirection>Target</arrowdirection>
+  <pointer_x>0.000</pointer_x> 
+  <pointer_y>0.000</pointer_y> 
+  <application>0</application> 
+  <border_weight>0</border_weight> 
+  <user_message></user_message>
+  <showpointer>0</showpointer> 
+  <Ismax_TAR>0</Ismax_TAR> 
+  <Flow_ID>0</Flow_ID> 
+  <Document_Path></Document_Path>
+
+     <Struct_ElementsFlows>
+         </Struct_ElementsFlows>
+  
+      
+       <FontPropertiesComp>
+   </FontPropertiesComp>
+    
+
+
+
+      
+     <Struct_ElementsConnections>
+      
+      
+
+
+
+      
+         <ElementsConnectionsComp>
+    <element_parent>0</element_parent> 
+    <elementId>25</elementId> 
+    <src_elementId>18</src_elementId> 
+    <src_relative_position>0.000</src_relative_position> 
+    <src_lineangle>False</src_lineangle> 
+    <dest_elementId>19</dest_elementId> 
+    <dest_relativeposition>0.000</dest_relativeposition> 
+    <dest_lineangle>False</dest_lineangle> 
+    <line_style>0</line_style> 
+    <line_weight>0</line_weight> 
+    <bpid>2</bpid> 
+   </ElementsConnectionsComp>
+  
+    
+      
+
+
+
+      
+         </Struct_ElementsConnections>
+  
+      
+
+
+
+      
+      
+      
+
+ </ElementsComp>
+
+ <ElementsComp>
+  <elementId>26</elementId> 
+  <elementtype>CNL</elementtype> 
+  <elementname></elementname> 
+  <elementdescription></elementdescription>
+  <objtype>6</objtype> 
+  <BP_ID>2</BP_ID> 
+  <etop_y1>0.000</etop_y1> 
+  <eleft_x1>0.000</eleft_x1> 
+  <ebottom_y2>0.000</ebottom_y2> 
+  <eright_x2>0.000</eright_x2> 
+  <interface></interface>
+  <wsdlfile_in></wsdlfile_in> 
+  <wsdlfile_out></wsdlfile_out>
+  <direction></direction>
+  <imagefile></imagefile> 
+  <bgcolor>10377785</bgcolor> 
+  <fgcolor>0</fgcolor> 
+  <fontId>0</fontId> 
+  <textlocation></textlocation> 
+  <arrowdirection>Target</arrowdirection>
+  <pointer_x>0.000</pointer_x> 
+  <pointer_y>0.000</pointer_y> 
+  <application>0</application> 
+  <border_weight>0</border_weight> 
+  <user_message></user_message>
+  <showpointer>0</showpointer> 
+  <Ismax_TAR>0</Ismax_TAR> 
+  <Flow_ID>0</Flow_ID> 
+  <Document_Path></Document_Path>
+
+     <Struct_ElementsFlows>
+         </Struct_ElementsFlows>
+  
+      
+       <FontPropertiesComp>
+   </FontPropertiesComp>
+    
+
+
+
+      
+     <Struct_ElementsConnections>
+      
+      
+
+
+
+      
+      
+   <ElementsConnectionsComp>
+    <element_parent>0</element_parent> 
+    <elementId>26</elementId> 
+    <src_elementId>19</src_elementId> 
+    <src_relative_position>0.000</src_relative_position> 
+    <src_lineangle>False</src_lineangle> 
+    <dest_elementId>14</dest_elementId> 
+    <dest_relativeposition>0.000</dest_relativeposition> 
+    <dest_lineangle>False</dest_lineangle> 
+    <line_style>0</line_style> 
+    <line_weight>0</line_weight> 
+    <bpid>2</bpid> 
+   </ElementsConnectionsComp>
+  
+    
+      
+
+
+
+      
+         </Struct_ElementsConnections>
+  
+      
+
+
+
+      
+      
+      
+
+ </ElementsComp>
+
+ <ElementsComp>
+  <elementId>27</elementId> 
+  <elementtype>CNL</elementtype> 
+  <elementname></elementname> 
+  <elementdescription></elementdescription>
+  <objtype>6</objtype> 
+  <BP_ID>2</BP_ID> 
+  <etop_y1>0.000</etop_y1> 
+  <eleft_x1>0.000</eleft_x1> 
+  <ebottom_y2>0.000</ebottom_y2> 
+  <eright_x2>0.000</eright_x2> 
+  <interface></interface>
+  <wsdlfile_in></wsdlfile_in> 
+  <wsdlfile_out></wsdlfile_out>
+  <direction></direction>
+  <imagefile></imagefile> 
+  <bgcolor>10377785</bgcolor> 
+  <fgcolor>0</fgcolor> 
+  <fontId>0</fontId> 
+  <textlocation></textlocation> 
+  <arrowdirection>Target</arrowdirection>
+  <pointer_x>0.000</pointer_x> 
+  <pointer_y>0.000</pointer_y> 
+  <application>0</application> 
+  <border_weight>0</border_weight> 
+  <user_message></user_message>
+  <showpointer>0</showpointer> 
+  <Ismax_TAR>0</Ismax_TAR> 
+  <Flow_ID>0</Flow_ID> 
+  <Document_Path></Document_Path>
+
+     <Struct_ElementsFlows>
+         </Struct_ElementsFlows>
+  
+      
+       <FontPropertiesComp>
+   </FontPropertiesComp>
+    
+
+
+
+      
+     <Struct_ElementsConnections>
+      
+      
+
+
+
+      
+      
+   <ElementsConnectionsComp>
+    <element_parent>0</element_parent> 
+    <elementId>27</elementId> 
+    <src_elementId>14</src_elementId> 
+    <src_relative_position>0.000</src_relative_position> 
+    <src_lineangle>False</src_lineangle> 
+    <dest_elementId>16</dest_elementId> 
+    <dest_relativeposition>0.000</dest_relativeposition> 
+    <dest_lineangle>False</dest_lineangle> 
+    <line_style>0</line_style> 
+    <line_weight>0</line_weight> 
+    <bpid>2</bpid> 
+   </ElementsConnectionsComp>
+  
+    
+      
+
+
+
+      
+         </Struct_ElementsConnections>
+  
+      
+
+
+
+      
+      
+      
+
+ </ElementsComp>
+
+ <ElementsComp>
+  <elementId>28</elementId> 
+  <elementtype>CNL</elementtype> 
+  <elementname></elementname> 
+  <elementdescription></elementdescription>
+  <objtype>6</objtype> 
+  <BP_ID>2</BP_ID> 
+  <etop_y1>0.000</etop_y1> 
+  <eleft_x1>0.000</eleft_x1> 
+  <ebottom_y2>0.000</ebottom_y2> 
+  <eright_x2>0.000</eright_x2> 
+  <interface></interface>
+  <wsdlfile_in></wsdlfile_in> 
+  <wsdlfile_out></wsdlfile_out>
+  <direction></direction>
+  <imagefile></imagefile> 
+  <bgcolor>10377785</bgcolor> 
+  <fgcolor>0</fgcolor> 
+  <fontId>0</fontId> 
+  <textlocation></textlocation> 
+  <arrowdirection>Target</arrowdirection>
+  <pointer_x>0.000</pointer_x> 
+  <pointer_y>0.000</pointer_y> 
+  <application>0</application> 
+  <border_weight>0</border_weight> 
+  <user_message></user_message>
+  <showpointer>0</showpointer> 
+  <Ismax_TAR>0</Ismax_TAR> 
+  <Flow_ID>0</Flow_ID> 
+  <Document_Path></Document_Path>
+
+     <Struct_ElementsFlows>
+         </Struct_ElementsFlows>
+  
+      
+       <FontPropertiesComp>
+   </FontPropertiesComp>
+    
+
+
+
+      
+     <Struct_ElementsConnections>
+      
+      
+
+
+
+      
+      
+   <ElementsConnectionsComp>
+    <element_parent>0</element_parent> 
+    <elementId>28</elementId> 
+    <src_elementId>16</src_elementId> 
+    <src_relative_position>0.000</src_relative_position> 
+    <src_lineangle>False</src_lineangle> 
+    <dest_elementId>15</dest_elementId> 
+    <dest_relativeposition>0.000</dest_relativeposition> 
+    <dest_lineangle>False</dest_lineangle> 
+    <line_style>0</line_style> 
+    <line_weight>0</line_weight> 
+    <bpid>2</bpid> 
+   </ElementsConnectionsComp>
+  
+    
+      
+
+
+
+      
+         </Struct_ElementsConnections>
+  
+      
+
+
+
+      
+      
+      
+
+ </ElementsComp>
+
+ <ElementsComp>
+  <elementId>29</elementId> 
+  <elementtype>ACT</elementtype> 
+  <elementname>SalesOrderAddComment</elementname> 
+  <elementdescription></elementdescription>
+  <objtype>6</objtype> 
+  <BP_ID>2</BP_ID> 
+  <etop_y1>697.333</etop_y1> 
+  <eleft_x1>1139.533</eleft_x1> 
+  <ebottom_y2>0.000</ebottom_y2> 
+  <eright_x2>0.000</eright_x2> 
+  <interface></interface>
+  <wsdlfile_in></wsdlfile_in> 
+  <wsdlfile_out></wsdlfile_out>
+  <direction></direction>
+  <imagefile>Web.gif</imagefile> 
+  <bgcolor>0</bgcolor> 
+  <fgcolor>0</fgcolor> 
+  <fontId>0</fontId> 
+  <textlocation>Right</textlocation> 
+  <arrowdirection></arrowdirection>
+  <pointer_x>0.000</pointer_x> 
+  <pointer_y>0.000</pointer_y> 
+  <application>1</application> 
+  <border_weight>0</border_weight> 
+  <user_message></user_message>
+  <showpointer>0</showpointer> 
+  <Ismax_TAR>0</Ismax_TAR> 
+  <Flow_ID>0</Flow_ID> 
+  <Document_Path></Document_Path>
+
+      
+     <Struct_ElementsConnections>
+         </Struct_ElementsConnections>
+  
+       <FontPropertiesComp>
+   </FontPropertiesComp>
+    
+
+
+
+     <Struct_ElementsFlows>
+      
+      
+      
+
+
+
+      
+   <ElementsFlows>
+    <elementId>29</elementId> 
+    <BPID>2</BPID> 
+    <flowId>21</flowId>
+    <dummy></dummy>
+    <ID>1</ID> 
+   </ElementsFlows>
+  
+    
+      
+      
+
+
+
+         </Struct_ElementsFlows>
+  
+      
+      
+
+
+
+      
+      
+      
+
+ </ElementsComp>
+
+ <ElementsComp>
+  <elementId>30</elementId> 
+  <elementtype>PAR</elementtype> 
+  <elementname>Magento</elementname> 
+  <elementdescription></elementdescription>
+  <objtype>6</objtype> 
+  <BP_ID>2</BP_ID> 
+  <etop_y1>656.000</etop_y1> 
+  <eleft_x1>1052.000</eleft_x1> 
+  <ebottom_y2>794.000</ebottom_y2> 
+  <eright_x2>1350.000</eright_x2> 
+  <interface></interface>
+  <wsdlfile_in></wsdlfile_in> 
+  <wsdlfile_out></wsdlfile_out>
+  <direction></direction>
+  <imagefile></imagefile> 
+  <bgcolor>16744448</bgcolor> 
+  <fgcolor>0</fgcolor> 
+  <fontId>31</fontId> 
+  <textlocation>Top Left</textlocation> 
+  <arrowdirection></arrowdirection>
+  <pointer_x>0.000</pointer_x> 
+  <pointer_y>0.000</pointer_y> 
+  <application>0</application> 
+  <border_weight>1</border_weight> 
+  <user_message></user_message>
+  <showpointer>0</showpointer> 
+  <Ismax_TAR>1</Ismax_TAR> 
+  <Flow_ID>0</Flow_ID> 
+  <Document_Path></Document_Path>
+
+     <Struct_ElementsFlows>
+         </Struct_ElementsFlows>
+  
+     <Struct_ElementsConnections>
+         </Struct_ElementsConnections>
+  
+      
+
+
+
+      
+      
+    
+   <FontPropertiesComp>
+    <fontId>31</fontId> 
+    <font_bold>1</font_bold> 
+    <font_size>12</font_size> 
+    <font_style>0</font_style> 
+    <font_name>Arial</font_name> 
+    <font_Italic>0</font_Italic> 
+    <font_strikethru>0</font_strikethru> 
+    <font_underline>0</font_underline> 
+    <font_color>0</font_color> 
+    <Bp_ID>2</Bp_ID> 
+    <Flow_ID>0</Flow_ID> 
+   </FontPropertiesComp>
+  
+  
+
+
+
+      
+      
+      
+
+ </ElementsComp>
+
+ <ElementsComp>
+  <elementId>31</elementId> 
+  <elementtype>PAR</elementtype> 
+  <elementname>JDE Query Order</elementname> 
+  <elementdescription></elementdescription>
+  <objtype>6</objtype> 
+  <BP_ID>2</BP_ID> 
+  <etop_y1>514.000</etop_y1> 
+  <eleft_x1>1052.000</eleft_x1> 
+  <ebottom_y2>646.000</ebottom_y2> 
+  <eright_x2>1350.000</eright_x2> 
+  <interface></interface>
+  <wsdlfile_in></wsdlfile_in> 
+  <wsdlfile_out></wsdlfile_out>
+  <direction></direction>
+  <imagefile></imagefile> 
+  <bgcolor>255</bgcolor> 
+  <fgcolor>0</fgcolor> 
+  <fontId>32</fontId> 
+  <textlocation>Top Left</textlocation> 
+  <arrowdirection></arrowdirection>
+  <pointer_x>0.000</pointer_x> 
+  <pointer_y>0.000</pointer_y> 
+  <application>0</application> 
+  <border_weight>1</border_weight> 
+  <user_message></user_message>
+  <showpointer>0</showpointer> 
+  <Ismax_TAR>1</Ismax_TAR> 
+  <Flow_ID>0</Flow_ID> 
+  <Document_Path></Document_Path>
+
+     <Struct_ElementsFlows>
+         </Struct_ElementsFlows>
+  
+     <Struct_ElementsConnections>
+         </Struct_ElementsConnections>
+  
+      
+
+
+
+      
+      
+    
+   <FontPropertiesComp>
+    <fontId>32</fontId> 
+    <font_bold>1</font_bold> 
+    <font_size>12</font_size> 
+    <font_style>0</font_style> 
+    <font_name>Arial</font_name> 
+    <font_Italic>0</font_Italic> 
+    <font_strikethru>0</font_strikethru> 
+    <font_underline>0</font_underline> 
+    <font_color>16777215</font_color> 
+    <Bp_ID>2</Bp_ID> 
+    <Flow_ID>0</Flow_ID> 
+   </FontPropertiesComp>
+  
+  
+
+
+
+      
+      
+      
+
+ </ElementsComp>
+
+ <ElementsComp>
+  <elementId>33</elementId> 
+  <elementtype>CNL</elementtype> 
+  <elementname></elementname> 
+  <elementdescription></elementdescription>
+  <objtype>6</objtype> 
+  <BP_ID>2</BP_ID> 
+  <etop_y1>0.000</etop_y1> 
+  <eleft_x1>0.000</eleft_x1> 
+  <ebottom_y2>0.000</ebottom_y2> 
+  <eright_x2>0.000</eright_x2> 
+  <interface></interface>
+  <wsdlfile_in></wsdlfile_in> 
+  <wsdlfile_out></wsdlfile_out>
+  <direction></direction>
+  <imagefile></imagefile> 
+  <bgcolor>10377785</bgcolor> 
+  <fgcolor>0</fgcolor> 
+  <fontId>0</fontId> 
+  <textlocation></textlocation> 
+  <arrowdirection>Target</arrowdirection>
+  <pointer_x>0.000</pointer_x> 
+  <pointer_y>0.000</pointer_y> 
+  <application>0</application> 
+  <border_weight>0</border_weight> 
+  <user_message></user_message>
+  <showpointer>0</showpointer> 
+  <Ismax_TAR>0</Ismax_TAR> 
+  <Flow_ID>0</Flow_ID> 
+  <Document_Path></Document_Path>
+
+     <Struct_ElementsFlows>
+         </Struct_ElementsFlows>
+  
+      
+       <FontPropertiesComp>
+   </FontPropertiesComp>
+    
+
+
+
+      
+     <Struct_ElementsConnections>
+      
+      
+
+
+
+      
+      
+   <ElementsConnectionsComp>
+    <element_parent>0</element_parent> 
+    <elementId>33</elementId> 
+    <src_elementId>17</src_elementId> 
+    <src_relative_position>0.000</src_relative_position> 
+    <src_lineangle>False</src_lineangle> 
+    <dest_elementId>29</dest_elementId> 
+    <dest_relativeposition>0.000</dest_relativeposition> 
+    <dest_lineangle>False</dest_lineangle> 
+    <line_style>0</line_style> 
+    <line_weight>0</line_weight> 
+    <bpid>2</bpid> 
+   </ElementsConnectionsComp>
+  
+    
+      
+
+
+
+      
+         </Struct_ElementsConnections>
+  
+      
+
+
+
+      
+      
+      
+
+ </ElementsComp>
+
+ <ElementsComp>
+  <elementId>34</elementId> 
+  <elementtype>ACT</elementtype> 
+  <elementname>Get  Order Info (WS)</elementname> 
+  <elementdescription></elementdescription>
+  <objtype>6</objtype> 
+  <BP_ID>2</BP_ID> 
+  <etop_y1>357.133</etop_y1> 
+  <eleft_x1>1139.533</eleft_x1> 
+  <ebottom_y2>34.048</ebottom_y2> 
+  <eright_x2>510.233</eright_x2> 
+  <interface></interface>
+  <wsdlfile_in></wsdlfile_in> 
+  <wsdlfile_out></wsdlfile_out>
+  <direction></direction>
+  <imagefile>Get.gif</imagefile> 
+  <bgcolor>0</bgcolor> 
+  <fgcolor>0</fgcolor> 
+  <fontId>33</fontId> 
+  <textlocation>Right</textlocation> 
+  <arrowdirection></arrowdirection>
+  <pointer_x>0.000</pointer_x> 
+  <pointer_y>0.000</pointer_y> 
+  <application>1</application> 
+  <border_weight>0</border_weight> 
+  <user_message></user_message>
+  <showpointer>0</showpointer> 
+  <Ismax_TAR>1</Ismax_TAR> 
+  <Flow_ID>0</Flow_ID> 
+  <Document_Path></Document_Path>
+
+      
+     <Struct_ElementsConnections>
+         </Struct_ElementsConnections>
+  
+      
+
+
+
+     <Struct_ElementsFlows>
+      
+      
+      
+
+
+
+      
+   <ElementsFlows>
+    <elementId>34</elementId> 
+    <BPID>2</BPID> 
+    <flowId>12</flowId>
+    <dummy></dummy>
+    <ID>1</ID> 
+   </ElementsFlows>
+  
+    
+      
+      
+
+
+
+         </Struct_ElementsFlows>
+  
+      
+      
+
+
+
+      
+      
+    
+   <FontPropertiesComp>
+    <fontId>33</fontId> 
+    <font_bold>0</font_bold> 
+    <font_size>0</font_size> 
+    <font_style>0</font_style> 
+    <font_name></font_name> 
+    <font_Italic>0</font_Italic> 
+    <font_strikethru>0</font_strikethru> 
+    <font_underline>0</font_underline> 
+    <font_color>0</font_color> 
+    <Bp_ID>2</Bp_ID> 
+    <Flow_ID>0</Flow_ID> 
+   </FontPropertiesComp>
+  
+  
+
+
+
+      
+      
+      
+
+ </ElementsComp>
+
+ <ElementsComp>
+  <elementId>35</elementId> 
+  <elementtype>ACT</elementtype> 
+  <elementname>Get  Customer  Info (WS)</elementname> 
+  <elementdescription></elementdescription>
+  <objtype>6</objtype> 
+  <BP_ID>2</BP_ID> 
+  <etop_y1>459.200</etop_y1> 
+  <eleft_x1>1139.533</eleft_x1> 
+  <ebottom_y2>221.114</ebottom_y2> 
+  <eright_x2>544.248</eright_x2> 
+  <interface></interface>
+  <wsdlfile_in></wsdlfile_in> 
+  <wsdlfile_out></wsdlfile_out>
+  <direction></direction>
+  <imagefile>Get.gif</imagefile> 
+  <bgcolor>0</bgcolor> 
+  <fgcolor>0</fgcolor> 
+  <fontId>34</fontId> 
+  <textlocation>Right</textlocation> 
+  <arrowdirection></arrowdirection>
+  <pointer_x>0.000</pointer_x> 
+  <pointer_y>0.000</pointer_y> 
+  <application>1</application> 
+  <border_weight>0</border_weight> 
+  <user_message></user_message>
+  <showpointer>0</showpointer> 
+  <Ismax_TAR>1</Ismax_TAR> 
+  <Flow_ID>0</Flow_ID> 
+  <Document_Path></Document_Path>
+
+      
+     <Struct_ElementsConnections>
+         </Struct_ElementsConnections>
+  
+      
+
+
+
+     <Struct_ElementsFlows>
+      
+      
+      
+
+
+
+      
+   <ElementsFlows>
+    <elementId>35</elementId> 
+    <BPID>2</BPID> 
+    <flowId>14</flowId>
+    <dummy></dummy>
+    <ID>1</ID> 
+   </ElementsFlows>
+  
+    
+      
+      
+
+
+
+         </Struct_ElementsFlows>
+  
+      
+      
+
+
+
+      
+      
+    
+   <FontPropertiesComp>
+    <fontId>34</fontId> 
+    <font_bold>0</font_bold> 
+    <font_size>0</font_size> 
+    <font_style>0</font_style> 
+    <font_name></font_name> 
+    <font_Italic>0</font_Italic> 
+    <font_strikethru>0</font_strikethru> 
+    <font_underline>0</font_underline> 
+    <font_color>0</font_color> 
+    <Bp_ID>2</Bp_ID> 
+    <Flow_ID>0</Flow_ID> 
+   </FontPropertiesComp>
+  
+  
+
+
+
+      
+      
+      
+
+ </ElementsComp>
+
+ <ElementsComp>
+  <elementId>37</elementId> 
+  <elementtype>CNL</elementtype> 
+  <elementname></elementname> 
+  <elementdescription></elementdescription>
+  <objtype>6</objtype> 
+  <BP_ID>2</BP_ID> 
+  <etop_y1>0.000</etop_y1> 
+  <eleft_x1>0.000</eleft_x1> 
+  <ebottom_y2>0.000</ebottom_y2> 
+  <eright_x2>0.000</eright_x2> 
+  <interface></interface>
+  <wsdlfile_in></wsdlfile_in> 
+  <wsdlfile_out></wsdlfile_out>
+  <direction></direction>
+  <imagefile></imagefile> 
+  <bgcolor>10377785</bgcolor> 
+  <fgcolor>0</fgcolor> 
+  <fontId>0</fontId> 
+  <textlocation></textlocation> 
+  <arrowdirection>Target</arrowdirection>
+  <pointer_x>0.000</pointer_x> 
+  <pointer_y>0.000</pointer_y> 
+  <application>0</application> 
+  <border_weight>0</border_weight> 
+  <user_message></user_message>
+  <showpointer>0</showpointer> 
+  <Ismax_TAR>0</Ismax_TAR> 
+  <Flow_ID>0</Flow_ID> 
+  <Document_Path></Document_Path>
+
+     <Struct_ElementsFlows>
+         </Struct_ElementsFlows>
+  
+      
+       <FontPropertiesComp>
+   </FontPropertiesComp>
+    
+
+
+
+      
+     <Struct_ElementsConnections>
+      
+      
+
+
+
+      
+      
+   <ElementsConnectionsComp>
+    <element_parent>0</element_parent> 
+    <elementId>37</elementId> 
+    <src_elementId>34</src_elementId> 
+    <src_relative_position>0.000</src_relative_position> 
+    <src_lineangle>False</src_lineangle> 
+    <dest_elementId>35</dest_elementId> 
+    <dest_relativeposition>0.000</dest_relativeposition> 
+    <dest_lineangle>False</dest_lineangle> 
+    <line_style>0</line_style> 
+    <line_weight>0</line_weight> 
+    <bpid>2</bpid> 
+   </ElementsConnectionsComp>
+  
+    
+      
+
+
+
+      
+         </Struct_ElementsConnections>
+  
+      
+
+
+
+      
+      
+      
+
+ </ElementsComp>
+
+ <ElementsComp>
+  <elementId>38</elementId> 
+  <elementtype>PAR</elementtype> 
+  <elementname>Magento</elementname> 
+  <elementdescription></elementdescription>
+  <objtype>6</objtype> 
+  <BP_ID>2</BP_ID> 
+  <etop_y1>340.000</etop_y1> 
+  <eleft_x1>1052.000</eleft_x1> 
+  <ebottom_y2>510.000</ebottom_y2> 
+  <eright_x2>1350.000</eright_x2> 
+  <interface></interface>
+  <wsdlfile_in></wsdlfile_in> 
+  <wsdlfile_out></wsdlfile_out>
+  <direction></direction>
+  <imagefile></imagefile> 
+  <bgcolor>16744448</bgcolor> 
+  <fgcolor>0</fgcolor> 
+  <fontId>35</fontId> 
+  <textlocation>Top Left</textlocation> 
+  <arrowdirection></arrowdirection>
+  <pointer_x>0.000</pointer_x> 
+  <pointer_y>0.000</pointer_y> 
+  <application>0</application> 
+  <border_weight>1</border_weight> 
+  <user_message></user_message>
+  <showpointer>0</showpointer> 
+  <Ismax_TAR>1</Ismax_TAR> 
+  <Flow_ID>0</Flow_ID> 
+  <Document_Path></Document_Path>
+
+     <Struct_ElementsFlows>
+         </Struct_ElementsFlows>
+  
+     <Struct_ElementsConnections>
+         </Struct_ElementsConnections>
+  
+      
+
+
+
+      
+      
+    
+   <FontPropertiesComp>
+    <fontId>35</fontId> 
+    <font_bold>1</font_bold> 
+    <font_size>12</font_size> 
+    <font_style>0</font_style> 
+    <font_name>Arial</font_name> 
+    <font_Italic>0</font_Italic> 
+    <font_strikethru>0</font_strikethru> 
+    <font_underline>0</font_underline> 
+    <font_color>0</font_color> 
+    <Bp_ID>2</Bp_ID> 
+    <Flow_ID>0</Flow_ID> 
+   </FontPropertiesComp>
+  
+  
+
+
+
+      
+      
+      
+
+ </ElementsComp>
+
+ <ElementsComp>
+  <elementId>39</elementId> 
+  <elementtype>CNL</elementtype> 
+  <elementname></elementname> 
+  <elementdescription></elementdescription>
+  <objtype>6</objtype> 
+  <BP_ID>2</BP_ID> 
+  <etop_y1>0.000</etop_y1> 
+  <eleft_x1>0.000</eleft_x1> 
+  <ebottom_y2>0.000</ebottom_y2> 
+  <eright_x2>0.000</eright_x2> 
+  <interface></interface>
+  <wsdlfile_in></wsdlfile_in> 
+  <wsdlfile_out></wsdlfile_out>
+  <direction></direction>
+  <imagefile></imagefile> 
+  <bgcolor>10377785</bgcolor> 
+  <fgcolor>0</fgcolor> 
+  <fontId>0</fontId> 
+  <textlocation></textlocation> 
+  <arrowdirection>Target</arrowdirection>
+  <pointer_x>0.000</pointer_x> 
+  <pointer_y>0.000</pointer_y> 
+  <application>0</application> 
+  <border_weight>0</border_weight> 
+  <user_message></user_message>
+  <showpointer>0</showpointer> 
+  <Ismax_TAR>0</Ismax_TAR> 
+  <Flow_ID>0</Flow_ID> 
+  <Document_Path></Document_Path>
+
+     <Struct_ElementsFlows>
+         </Struct_ElementsFlows>
+  
+      
+       <FontPropertiesComp>
+   </FontPropertiesComp>
+    
+
+
+
+      
+     <Struct_ElementsConnections>
+      
+      
+
+
+
+      
+      
+   <ElementsConnectionsComp>
+    <element_parent>0</element_parent> 
+    <elementId>39</elementId> 
+    <src_elementId>35</src_elementId> 
+    <src_relative_position>0.000</src_relative_position> 
+    <src_lineangle>False</src_lineangle> 
+    <dest_elementId>17</dest_elementId> 
+    <dest_relativeposition>0.000</dest_relativeposition> 
+    <dest_lineangle>False</dest_lineangle> 
+    <line_style>0</line_style> 
+    <line_weight>0</line_weight> 
+    <bpid>2</bpid> 
+   </ElementsConnectionsComp>
+  
+    
+      
+
+
+
+      
+         </Struct_ElementsConnections>
+  
+      
+
+
+
+      
+      
+      
+
+ </ElementsComp>
+
+ <ElementsComp>
+  <elementId>40</elementId> 
+  <elementtype>ACT</elementtype> 
+  <elementname>CreateOrder (Id)</elementname> 
+  <elementdescription></elementdescription>
+  <objtype>6</objtype> 
+  <BP_ID>2</BP_ID> 
+  <etop_y1>204.067</etop_y1> 
+  <eleft_x1>714.333</eleft_x1> 
+  <ebottom_y2>0.000</ebottom_y2> 
+  <eright_x2>0.000</eright_x2> 
+  <interface>http://AMIEDUBA11MAGIC.vws.vh20.net:6060/JDE/</interface>
+  <wsdlfile_in></wsdlfile_in> 
+  <wsdlfile_out></wsdlfile_out>
+  <direction></direction>
+  <imagefile>Website.gif</imagefile> 
+  <bgcolor>0</bgcolor> 
+  <fgcolor>0</fgcolor> 
+  <fontId>0</fontId> 
+  <textlocation>Right</textlocation> 
+  <arrowdirection></arrowdirection>
+  <pointer_x>0.000</pointer_x> 
+  <pointer_y>0.000</pointer_y> 
+  <application>0</application> 
+  <border_weight>0</border_weight> 
+  <user_message></user_message>
+  <showpointer>0</showpointer> 
+  <Ismax_TAR>0</Ismax_TAR> 
+  <Flow_ID>0</Flow_ID> 
+  <Document_Path></Document_Path>
+
+      
+     <Struct_ElementsConnections>
+         </Struct_ElementsConnections>
+  
+       <FontPropertiesComp>
+   </FontPropertiesComp>
+    
+
+
+
+     <Struct_ElementsFlows>
+      
+      
+      
+
+
+
+      
+   <ElementsFlows>
+    <elementId>40</elementId> 
+    <BPID>2</BPID> 
+    <flowId>15</flowId>
+    <dummy></dummy>
+    <ID>1</ID> 
+   </ElementsFlows>
+  
+    
+      
+      
+
+
+
+         </Struct_ElementsFlows>
+  
+      
+      
+
+
+
+      
+      
+      
+
+ </ElementsComp>
+
+ <ElementsComp>
+  <elementId>41</elementId> 
+  <elementtype>CNL</elementtype> 
+  <elementname></elementname> 
+  <elementdescription></elementdescription>
+  <objtype>6</objtype> 
+  <BP_ID>2</BP_ID> 
+  <etop_y1>0.000</etop_y1> 
+  <eleft_x1>0.000</eleft_x1> 
+  <ebottom_y2>0.000</ebottom_y2> 
+  <eright_x2>0.000</eright_x2> 
+  <interface></interface>
+  <wsdlfile_in></wsdlfile_in> 
+  <wsdlfile_out></wsdlfile_out>
+  <direction></direction>
+  <imagefile></imagefile> 
+  <bgcolor>10377785</bgcolor> 
+  <fgcolor>0</fgcolor> 
+  <fontId>0</fontId> 
+  <textlocation></textlocation> 
+  <arrowdirection>Target</arrowdirection>
+  <pointer_x>0.000</pointer_x> 
+  <pointer_y>0.000</pointer_y> 
+  <application>0</application> 
+  <border_weight>0</border_weight> 
+  <user_message></user_message>
+  <showpointer>0</showpointer> 
+  <Ismax_TAR>0</Ismax_TAR> 
+  <Flow_ID>0</Flow_ID> 
+  <Document_Path></Document_Path>
+
+     <Struct_ElementsFlows>
+         </Struct_ElementsFlows>
+  
+      
+       <FontPropertiesComp>
+   </FontPropertiesComp>
+    
+
+
+
+      
+     <Struct_ElementsConnections>
+      
+      
+
+
+
+      
+      
+   <ElementsConnectionsComp>
+    <element_parent>0</element_parent> 
+    <elementId>41</elementId> 
+    <src_elementId>6</src_elementId> 
+    <src_relative_position>0.000</src_relative_position> 
+    <src_lineangle>False</src_lineangle> 
+    <dest_elementId>40</dest_elementId> 
+    <dest_relativeposition>0.000</dest_relativeposition> 
+    <dest_lineangle>False</dest_lineangle> 
+    <line_style>0</line_style> 
+    <line_weight>0</line_weight> 
+    <bpid>2</bpid> 
+   </ElementsConnectionsComp>
+  
+    
+      
+
+
+
+      
+         </Struct_ElementsConnections>
+  
+      
+
+
+
+      
+      
+      
+
+ </ElementsComp>
+
+ <ElementsComp>
+  <elementId>42</elementId> 
+  <elementtype>CNL</elementtype> 
+  <elementname></elementname> 
+  <elementdescription></elementdescription>
+  <objtype>6</objtype> 
+  <BP_ID>2</BP_ID> 
+  <etop_y1>0.000</etop_y1> 
+  <eleft_x1>0.000</eleft_x1> 
+  <ebottom_y2>0.000</ebottom_y2> 
+  <eright_x2>0.000</eright_x2> 
+  <interface></interface>
+  <wsdlfile_in></wsdlfile_in> 
+  <wsdlfile_out></wsdlfile_out>
+  <direction></direction>
+  <imagefile></imagefile> 
+  <bgcolor>10377785</bgcolor> 
+  <fgcolor>0</fgcolor> 
+  <fontId>0</fontId> 
+  <textlocation></textlocation> 
+  <arrowdirection>Target</arrowdirection>
+  <pointer_x>0.000</pointer_x> 
+  <pointer_y>0.000</pointer_y> 
+  <application>0</application> 
+  <border_weight>0</border_weight> 
+  <user_message></user_message>
+  <showpointer>0</showpointer> 
+  <Ismax_TAR>0</Ismax_TAR> 
+  <Flow_ID>0</Flow_ID> 
+  <Document_Path></Document_Path>
+
+     <Struct_ElementsFlows>
+         </Struct_ElementsFlows>
+  
+      
+       <FontPropertiesComp>
+   </FontPropertiesComp>
+    
+
+
+
+      
+     <Struct_ElementsConnections>
+      
+      
+
+
+
+      
+      
+   <ElementsConnectionsComp>
+    <element_parent>0</element_parent> 
+    <elementId>42</elementId> 
+    <src_elementId>40</src_elementId> 
+    <src_relative_position>0.000</src_relative_position> 
+    <src_lineangle>False</src_lineangle> 
+    <dest_elementId>18</dest_elementId> 
+    <dest_relativeposition>0.000</dest_relativeposition> 
+    <dest_lineangle>False</dest_lineangle> 
+    <line_style>0</line_style> 
+    <line_weight>0</line_weight> 
+    <bpid>2</bpid> 
+   </ElementsConnectionsComp>
+  
+    
+      
+
+
+
+      
+         </Struct_ElementsConnections>
+  
+      
+
+
+
+      
+      
+      
+
+ </ElementsComp>
+
+ <ElementsComp>
+  <elementId>43</elementId> 
+  <elementtype>ACT</elementtype> 
+  <elementname>QueryOrder (Id)</elementname> 
+  <elementdescription></elementdescription>
+  <objtype>6</objtype> 
+  <BP_ID>2</BP_ID> 
+  <etop_y1>204.067</etop_y1> 
+  <eleft_x1>1139.533</eleft_x1> 
+  <ebottom_y2>68.059</ebottom_y2> 
+  <eright_x2>476.223</eright_x2> 
+  <interface>http://AMIEDUBA11MAGIC.vws.vh20.net:6060/JDE/</interface>
+  <wsdlfile_in></wsdlfile_in> 
+  <wsdlfile_out></wsdlfile_out>
+  <direction></direction>
+  <imagefile>Website.gif</imagefile> 
+  <bgcolor>0</bgcolor> 
+  <fgcolor>0</fgcolor> 
+  <fontId>36</fontId> 
+  <textlocation>Right</textlocation> 
+  <arrowdirection></arrowdirection>
+  <pointer_x>0.000</pointer_x> 
+  <pointer_y>0.000</pointer_y> 
+  <application>0</application> 
+  <border_weight>0</border_weight> 
+  <user_message></user_message>
+  <showpointer>0</showpointer> 
+  <Ismax_TAR>1</Ismax_TAR> 
+  <Flow_ID>0</Flow_ID> 
+  <Document_Path></Document_Path>
+
+      
+     <Struct_ElementsConnections>
+         </Struct_ElementsConnections>
+  
+      
+
+
+
+     <Struct_ElementsFlows>
+      
+      
+      
+
+
+
+      
+   <ElementsFlows>
+    <elementId>43</elementId> 
+    <BPID>2</BPID> 
+    <flowId>15</flowId>
+    <dummy></dummy>
+    <ID>1</ID> 
+   </ElementsFlows>
+      
+      
+      
+
+
+
+         </Struct_ElementsFlows>
+  
+      
+      
+
+
+
+      
+      
+    
+   <FontPropertiesComp>
+    <fontId>36</fontId> 
+    <font_bold>0</font_bold> 
+    <font_size>0</font_size> 
+    <font_style>0</font_style> 
+    <font_name></font_name> 
+    <font_Italic>0</font_Italic> 
+    <font_strikethru>0</font_strikethru> 
+    <font_underline>0</font_underline> 
+    <font_color>0</font_color> 
+    <Bp_ID>2</Bp_ID> 
+    <Flow_ID>0</Flow_ID> 
+   </FontPropertiesComp>
+    
+
+
+
+      
+      
+      
+
+ </ElementsComp>
+
+ <ElementsComp>
+  <elementId>44</elementId> 
+  <elementtype>CNL</elementtype> 
+  <elementname></elementname> 
+  <elementdescription></elementdescription>
+  <objtype>6</objtype> 
+  <BP_ID>2</BP_ID> 
+  <etop_y1>0.000</etop_y1> 
+  <eleft_x1>0.000</eleft_x1> 
+  <ebottom_y2>0.000</ebottom_y2> 
+  <eright_x2>0.000</eright_x2> 
+  <interface></interface>
+  <wsdlfile_in></wsdlfile_in> 
+  <wsdlfile_out></wsdlfile_out>
+  <direction></direction>
+  <imagefile></imagefile> 
+  <bgcolor>10377785</bgcolor> 
+  <fgcolor>0</fgcolor> 
+  <fontId>0</fontId> 
+  <textlocation></textlocation> 
+  <arrowdirection>Target</arrowdirection>
+  <pointer_x>0.000</pointer_x> 
+  <pointer_y>0.000</pointer_y> 
+  <application>0</application> 
+  <border_weight>0</border_weight> 
+  <user_message></user_message>
+  <showpointer>0</showpointer> 
+  <Ismax_TAR>0</Ismax_TAR> 
+  <Flow_ID>0</Flow_ID> 
+  <Document_Path></Document_Path>
+
+     <Struct_ElementsFlows>
+         </Struct_ElementsFlows>
+  
+      
+       <FontPropertiesComp>
+   </FontPropertiesComp>
+    
+
+
+
+      
+     <Struct_ElementsConnections>
+      
+      
+
+
+
+      
+      
+   <ElementsConnectionsComp>
+    <element_parent>0</element_parent> 
+    <elementId>44</elementId> 
+    <src_elementId>10</src_elementId> 
+    <src_relative_position>0.000</src_relative_position> 
+    <src_lineangle>False</src_lineangle> 
+    <dest_elementId>43</dest_elementId> 
+    <dest_relativeposition>0.000</dest_relativeposition> 
+    <dest_lineangle>False</dest_lineangle> 
+    <line_style>0</line_style> 
+    <line_weight>0</line_weight> 
+    <bpid>2</bpid> 
+   </ElementsConnectionsComp>
+  
+    
+      
+
+
+
+      
+         </Struct_ElementsConnections>
+  
+      
+
+
+
+      
+      
+      
+
+ </ElementsComp>
+
+ <ElementsComp>
+  <elementId>45</elementId> 
+  <elementtype>CNL</elementtype> 
+  <elementname></elementname> 
+  <elementdescription></elementdescription>
+  <objtype>6</objtype> 
+  <BP_ID>2</BP_ID> 
+  <etop_y1>0.000</etop_y1> 
+  <eleft_x1>0.000</eleft_x1> 
+  <ebottom_y2>0.000</ebottom_y2> 
+  <eright_x2>0.000</eright_x2> 
+  <interface></interface>
+  <wsdlfile_in></wsdlfile_in> 
+  <wsdlfile_out></wsdlfile_out>
+  <direction></direction>
+  <imagefile></imagefile> 
+  <bgcolor>10377785</bgcolor> 
+  <fgcolor>0</fgcolor> 
+  <fontId>0</fontId> 
+  <textlocation></textlocation> 
+  <arrowdirection>Target</arrowdirection>
+  <pointer_x>0.000</pointer_x> 
+  <pointer_y>0.000</pointer_y> 
+  <application>0</application> 
+  <border_weight>0</border_weight> 
+  <user_message></user_message>
+  <showpointer>0</showpointer> 
+  <Ismax_TAR>0</Ismax_TAR> 
+  <Flow_ID>0</Flow_ID> 
+  <Document_Path></Document_Path>
+
+     <Struct_ElementsFlows>
+         </Struct_ElementsFlows>
+  
+      
+       <FontPropertiesComp>
+   </FontPropertiesComp>
+    
+
+
+
+      
+     <Struct_ElementsConnections>
+      
+      
+
+
+
+      
+      
+   <ElementsConnectionsComp>
+    <element_parent>0</element_parent> 
+    <elementId>45</elementId> 
+    <src_elementId>43</src_elementId> 
+    <src_relative_position>0.000</src_relative_position> 
+    <src_lineangle>False</src_lineangle> 
+    <dest_elementId>34</dest_elementId> 
+    <dest_relativeposition>0.000</dest_relativeposition> 
+    <dest_lineangle>False</dest_lineangle> 
+    <line_style>0</line_style> 
+    <line_weight>0</line_weight> 
+    <bpid>2</bpid> 
+   </ElementsConnectionsComp>
+      
+      
+
+
+
+      
+         </Struct_ElementsConnections>
+  
+      
+
+
+
+      
+      
+      
+
+ </ElementsComp>
+ </Struct_elements>
+
+
+<Struct_tmp_tree>
+ <tmp_treeComp>
+  <proj_id>1</proj_id> 
+  <auto_expand>True</auto_expand> 
+  <BP_ID>2</BP_ID> 
+  <Son_ID>3</Son_ID> 
+  <fold_type>5</fold_type> 
+  <Flow_ID>0</Flow_ID> 
+  <TreeNodeName>Topology - 1</TreeNodeName> 
+  <description>Topology - 1</description> 
+  <transactional>0</transactional> 
+  <auto_start>0</auto_start> 
+  <auto_restart>0</auto_restart> 
+  <max_instances>0</max_instances> 
+  <err_comp ></err_comp > 
+  <err_prg ></err_prg > 
+  <logic_comp ></logic_comp > 
+  <logic_prg ></logic_prg > 
+  <auto_repeat>0</auto_repeat> 
+  <subscribe_name ></subscribe_name > 
+  <subscribe_once>0</subscribe_once> 
+  <time_out>0</time_out> 
+  <recovery_policy>0</recovery_policy> 
+  <fold_table_id>0</fold_table_id> 
+  <cleanup_comp ></cleanup_comp > 
+  <cleanup_prg ></cleanup_prg > 
+  <emu_err_prg ></emu_err_prg > 
+  <emu_logic_prg ></emu_logic_prg > 
+  <error_flow_id>0</error_flow_id> 
+  <logic_flow_id>0</logic_flow_id> 
+  <cleanup_flow_id>0</cleanup_flow_id> 
+  <order>0</order> 
+  <Right_ID>0</Right_ID> 
+  <PSS_Index>0</PSS_Index> 
+  <secure_called_flows>0</secure_called_flows> 
+  <disable_flow>0</disable_flow> 
+  <Error_BP_ID>0</Error_BP_ID> 
+  <Logic_BP_ID>0</Logic_BP_ID> 
+  <CleanUp_BP_ID>0</CleanUp_BP_ID> 
+  <IsLoaded>1</IsLoaded> 
+  <DB_Transaction>0</DB_Transaction> 
+  <DB_Transaction_String ></DB_Transaction_String > 
+  <Timeout_Policy>0</Timeout_Policy> 
+  <InactiveFlow>False</InactiveFlow> 
+ </tmp_treeComp>
+ </Struct_tmp_tree>
+
+</Topology>
+
+ <Struct_bp_for_topology>
+ <bp_for_topologyComp>
+  <topologyId>2</topologyId> 
+  <bpId>2</bpId> 
+  <bp_name>Magento JDE</bp_name> 
+  <bp_description></bp_description>
+ </bp_for_topologyComp>
+ </Struct_bp_for_topology>
+
+ <Struct_Expression_Table>
+ <Expression_TableComp>
+  <Object_ID>1</Object_ID> 
+  <BP_ID>2</BP_ID> 
+  <Flow_ID>0</Flow_ID> 
+  <StepTrigger_ID>0</StepTrigger_ID> 
+  <Is_Trigger>0</Is_Trigger> 
+  <SubStep_ID>0</SubStep_ID> 
+  <MapperUpdate_ID>0</MapperUpdate_ID> 
+  <Expression_ID>1</Expression_ID> 
+  <Development_Expression>JzAwMjI1Jw==</Development_Expression> 
+  <Deployment_Expression></Deployment_Expression>
+  <Expression_Return_Attribute>A</Expression_Return_Attribute> 
+  <Range_String></Range_String>  
+  <Direction_InOrOut>I</Direction_InOrOut> 
+  <DeploymentGenerated>0</DeploymentGenerated> 
+  <ExpressionPath>PCE/UmVwb3NpdG9yeT8hPg0KPCE/VmFyPyE+DQo8IT9UYWI/IT5CPCE/VGFiPyE+DQo8IT9JRD8hPns2MTM1NTg4Ny05Q0Y0LTQ0MDYtQkRBRS0wNjVEQjAyMkY0MEV9PCE/SUQ/IT4NCjwhP0NUUk5hbWU/IT5GVl9kZWZhdWx0IHZhbHVlPCE/Q1RSTmFtZT8hPg0KPCE/VmFyPyE+DQo8IT9SZXBvc2l0b3J5PyE+</ExpressionPath> 
+  <isCopyIndication>False</isCopyIndication> 
+ </Expression_TableComp>
+ <Expression_TableComp>
+  <Object_ID>1</Object_ID> 
+  <BP_ID>2</BP_ID> 
+  <Flow_ID>0</Flow_ID> 
+  <StepTrigger_ID>0</StepTrigger_ID> 
+  <Is_Trigger>0</Is_Trigger> 
+  <SubStep_ID>0</SubStep_ID> 
+  <MapperUpdate_ID>0</MapperUpdate_ID> 
+  <Expression_ID>2</Expression_ID> 
+  <Development_Expression>JzIyNTAwMCc=</Development_Expression> 
+  <Deployment_Expression></Deployment_Expression>
+  <Expression_Return_Attribute>A</Expression_Return_Attribute> 
+  <Range_String></Range_String>  
+  <Direction_InOrOut>I</Direction_InOrOut> 
+  <DeploymentGenerated>0</DeploymentGenerated> 
+  <ExpressionPath>PCE/UmVwb3NpdG9yeT8hPg0KPCE/VmFyPyE+DQo8IT9UYWI/IT5CPCE/VGFiPyE+DQo8IT9JRD8hPns1RDlFNTYyRS05RUJFLTRCM0YtQjIzNy1BMzg5QTE4QjRBMjB9PCE/SUQ/IT4NCjwhP0NUUk5hbWU/IT5GVl9kZWZhdWx0IHZhbHVlPCE/Q1RSTmFtZT8hPg0KPCE/VmFyPyE+DQo8IT9SZXBvc2l0b3J5PyE+</ExpressionPath> 
+  <isCopyIndication>False</isCopyIndication> 
+ </Expression_TableComp>
+ <Expression_TableComp>
+  <Object_ID>1</Object_ID> 
+  <BP_ID>2</BP_ID> 
+  <Flow_ID>0</Flow_ID> 
+  <StepTrigger_ID>0</StepTrigger_ID> 
+  <Is_Trigger>0</Is_Trigger> 
+  <SubStep_ID>0</SubStep_ID> 
+  <MapperUpdate_ID>0</MapperUpdate_ID> 
+  <Expression_ID>3</Expression_ID> 
+  <Development_Expression>J0ZFTUFHU0Mn</Development_Expression> 
+  <Deployment_Expression></Deployment_Expression>
+  <Expression_Return_Attribute>A</Expression_Return_Attribute> 
+  <Range_String></Range_String>  
+  <Direction_InOrOut>I</Direction_InOrOut> 
+  <DeploymentGenerated>0</DeploymentGenerated> 
+  <ExpressionPath>PCE/UmVwb3NpdG9yeT8hPg0KPCE/VmFyPyE+DQo8IT9UYWI/IT5CPCE/VGFiPyE+DQo8IT9JRD8hPnszRTE3QzIxNS1FRUI2LTQ0NTgtOEEzMS0xNDk4RTc3RUEwMkR9PCE/SUQ/IT4NCjwhP0NUUk5hbWU/IT5GVl9kZWZhdWx0IHZhbHVlPCE/Q1RSTmFtZT8hPg0KPCE/VmFyPyE+DQo8IT9SZXBvc2l0b3J5PyE+</ExpressionPath> 
+  <isCopyIndication>False</isCopyIndication> 
+ </Expression_TableComp>
+ <Expression_TableComp>
+  <Object_ID>1</Object_ID> 
+  <BP_ID>2</BP_ID> 
+  <Flow_ID>0</Flow_ID> 
+  <StepTrigger_ID>0</StepTrigger_ID> 
+  <Is_Trigger>0</Is_Trigger> 
+  <SubStep_ID>0</SubStep_ID> 
+  <MapperUpdate_ID>0</MapperUpdate_ID> 
+  <Expression_ID>4</Expression_ID> 
+  <Development_Expression>J0ZFNUxJU1Qn</Development_Expression> 
+  <Deployment_Expression></Deployment_Expression>
+  <Expression_Return_Attribute>A</Expression_Return_Attribute> 
+  <Range_String></Range_String>  
+  <Direction_InOrOut>I</Direction_InOrOut> 
+  <DeploymentGenerated>0</DeploymentGenerated> 
+  <ExpressionPath>PCE/UmVwb3NpdG9yeT8hPg0KPCE/VmFyPyE+DQo8IT9UYWI/IT5CPCE/VGFiPyE+DQo8IT9JRD8hPntBMThGNEI4Ri0wMjlDLTQ1RjgtOTgzRS1DOTc4NjNBRUE1M0V9PCE/SUQ/IT4NCjwhP0NUUk5hbWU/IT5GVl9kZWZhdWx0IHZhbHVlPCE/Q1RSTmFtZT8hPg0KPCE/VmFyPyE+DQo8IT9SZXBvc2l0b3J5PyE+</ExpressionPath> 
+  <isCopyIndication>False</isCopyIndication> 
+ </Expression_TableComp>
+ <Expression_TableComp>
+  <Object_ID>1</Object_ID> 
+  <BP_ID>2</BP_ID> 
+  <Flow_ID>0</Flow_ID> 
+  <StepTrigger_ID>0</StepTrigger_ID> 
+  <Is_Trigger>0</Is_Trigger> 
+  <SubStep_ID>0</SubStep_ID> 
+  <MapperUpdate_ID>0</MapperUpdate_ID> 
+  <Expression_ID>5</Expression_ID> 
+  <Development_Expression>J1NPJw==</Development_Expression> 
+  <Deployment_Expression></Deployment_Expression>
+  <Expression_Return_Attribute>A</Expression_Return_Attribute> 
+  <Range_String></Range_String>  
+  <Direction_InOrOut>I</Direction_InOrOut> 
+  <DeploymentGenerated>0</DeploymentGenerated> 
+  <ExpressionPath>PCE/UmVwb3NpdG9yeT8hPg0KPCE/VmFyPyE+DQo8IT9UYWI/IT5CPCE/VGFiPyE+DQo8IT9JRD8hPntEM0Q4Njc0NS1GNENCLTQxMUQtODhCOC0zMTJFOTY1OEVFMkJ9PCE/SUQ/IT4NCjwhP0NUUk5hbWU/IT5GVl9kZWZhdWx0IHZhbHVlPCE/Q1RSTmFtZT8hPg0KPCE/VmFyPyE+DQo8IT9SZXBvc2l0b3J5PyE+</ExpressionPath> 
+  <isCopyIndication>False</isCopyIndication> 
+ </Expression_TableComp>
+ <Expression_TableComp>
+  <Object_ID>1</Object_ID> 
+  <BP_ID>2</BP_ID> 
+  <Flow_ID>0</Flow_ID> 
+  <StepTrigger_ID>0</StepTrigger_ID> 
+  <Is_Trigger>0</Is_Trigger> 
+  <SubStep_ID>0</SubStep_ID> 
+  <MapperUpdate_ID>0</MapperUpdate_ID> 
+  <Expression_ID>7</Expression_ID> 
+  <Development_Expression>JzIyNTAwMCc=</Development_Expression> 
+  <Deployment_Expression></Deployment_Expression>
+  <Expression_Return_Attribute>A</Expression_Return_Attribute> 
+  <Range_String></Range_String>  
+  <Direction_InOrOut>I</Direction_InOrOut> 
+  <DeploymentGenerated>0</DeploymentGenerated> 
+  <ExpressionPath>PCE/UmVwb3NpdG9yeT8hPg0KPCE/VmFyPyE+DQo8IT9UYWI/IT5CPCE/VGFiPyE+DQo8IT9JRD8hPns1RDlFNTYyRS05RUJFLTRCM0YtQjIzNy1BMzg5QTE4QjRBMjB9PCE/SUQ/IT4NCjwhP0NUUk5hbWU/IT5GVl9kZWZhdWx0IHZhbHVlPCE/Q1RSTmFtZT8hPg0KPCE/VmFyPyE+DQo8IT9SZXBvc2l0b3J5PyE+</ExpressionPath> 
+  <isCopyIndication>False</isCopyIndication> 
+ </Expression_TableComp>
+ <Expression_TableComp>
+  <Object_ID>1</Object_ID> 
+  <BP_ID>2</BP_ID> 
+  <Flow_ID>0</Flow_ID> 
+  <StepTrigger_ID>0</StepTrigger_ID> 
+  <Is_Trigger>0</Is_Trigger> 
+  <SubStep_ID>0</SubStep_ID> 
+  <MapperUpdate_ID>0</MapperUpdate_ID> 
+  <Expression_ID>8</Expression_ID> 
+  <Development_Expression>J0ZFTUFHU0Mn</Development_Expression> 
+  <Deployment_Expression></Deployment_Expression>
+  <Expression_Return_Attribute>A</Expression_Return_Attribute> 
+  <Range_String></Range_String>  
+  <Direction_InOrOut>I</Direction_InOrOut> 
+  <DeploymentGenerated>0</DeploymentGenerated> 
+  <ExpressionPath>PCE/UmVwb3NpdG9yeT8hPg0KPCE/VmFyPyE+DQo8IT9UYWI/IT5CPCE/VGFiPyE+DQo8IT9JRD8hPnszRTE3QzIxNS1FRUI2LTQ0NTgtOEEzMS0xNDk4RTc3RUEwMkR9PCE/SUQ/IT4NCjwhP0NUUk5hbWU/IT5GVl9kZWZhdWx0IHZhbHVlPCE/Q1RSTmFtZT8hPg0KPCE/VmFyPyE+DQo8IT9SZXBvc2l0b3J5PyE+</ExpressionPath> 
+  <isCopyIndication>False</isCopyIndication> 
+ </Expression_TableComp>
+ <Expression_TableComp>
+  <Object_ID>1</Object_ID> 
+  <BP_ID>2</BP_ID> 
+  <Flow_ID>0</Flow_ID> 
+  <StepTrigger_ID>0</StepTrigger_ID> 
+  <Is_Trigger>0</Is_Trigger> 
+  <SubStep_ID>0</SubStep_ID> 
+  <MapperUpdate_ID>0</MapperUpdate_ID> 
+  <Expression_ID>9</Expression_ID> 
+  <Development_Expression>J0ZFNUxJU1Qn</Development_Expression> 
+  <Deployment_Expression></Deployment_Expression>
+  <Expression_Return_Attribute>A</Expression_Return_Attribute> 
+  <Range_String></Range_String>  
+  <Direction_InOrOut>I</Direction_InOrOut> 
+  <DeploymentGenerated>0</DeploymentGenerated> 
+  <ExpressionPath>PCE/UmVwb3NpdG9yeT8hPg0KPCE/VmFyPyE+DQo8IT9UYWI/IT5CPCE/VGFiPyE+DQo8IT9JRD8hPntBMThGNEI4Ri0wMjlDLTQ1RjgtOTgzRS1DOTc4NjNBRUE1M0V9PCE/SUQ/IT4NCjwhP0NUUk5hbWU/IT5GVl9kZWZhdWx0IHZhbHVlPCE/Q1RSTmFtZT8hPg0KPCE/VmFyPyE+DQo8IT9SZXBvc2l0b3J5PyE+</ExpressionPath> 
+  <isCopyIndication>False</isCopyIndication> 
+ </Expression_TableComp>
+ <Expression_TableComp>
+  <Object_ID>1</Object_ID> 
+  <BP_ID>2</BP_ID> 
+  <Flow_ID>0</Flow_ID> 
+  <StepTrigger_ID>0</StepTrigger_ID> 
+  <Is_Trigger>0</Is_Trigger> 
+  <SubStep_ID>0</SubStep_ID> 
+  <MapperUpdate_ID>0</MapperUpdate_ID> 
+  <Expression_ID>10</Expression_ID> 
+  <Development_Expression>J1NPJw==</Development_Expression> 
+  <Deployment_Expression></Deployment_Expression>
+  <Expression_Return_Attribute>A</Expression_Return_Attribute> 
+  <Range_String></Range_String>  
+  <Direction_InOrOut>I</Direction_InOrOut> 
+  <DeploymentGenerated>0</DeploymentGenerated> 
+  <ExpressionPath>PCE/UmVwb3NpdG9yeT8hPg0KPCE/VmFyPyE+DQo8IT9UYWI/IT5CPCE/VGFiPyE+DQo8IT9JRD8hPntEM0Q4Njc0NS1GNENCLTQxMUQtODhCOC0zMTJFOTY1OEVFMkJ9PCE/SUQ/IT4NCjwhP0NUUk5hbWU/IT5GVl9kZWZhdWx0IHZhbHVlPCE/Q1RSTmFtZT8hPg0KPCE/VmFyPyE+DQo8IT9SZXBvc2l0b3J5PyE+</ExpressionPath> 
+  <isCopyIndication>False</isCopyIndication> 
+ </Expression_TableComp>
+ </Struct_Expression_Table>
+
+ <Struct_BPVariables>
+ <FlowSpaceComp>
+  <flow_id>0</flow_id>
+  <data_key>B.adjSchedule</data_key>
+  <data_description></data_description>
+  <data_type>A</data_type>
+  <data_len>8.00000</data_len>
+  <default_value>3</default_value>
+  <blob_viewer_component></blob_viewer_component>
+  <blob_viewer_program></blob_viewer_program>
+  <internal_index>234</internal_index>
+  <global>True</global>
+  <internal_sort>False</internal_sort>
+  <default_value_depl></default_value_depl>
+  <uds_type></uds_type>
+  <BP_ID>2</BP_ID>
+  <GUID>{3E17C215-EEB6-4458-8A31-1498E77EA02D}</GUID>
+  <Deleted>0</Deleted>
+ </FlowSpaceComp>
+ <FlowSpaceComp>
+  <flow_id>0</flow_id>
+  <data_key>B.custPriceGrp</data_key>
+  <data_description></data_description>
+  <data_type>A</data_type>
+  <data_len>8.00000</data_len>
+  <default_value>4</default_value>
+  <blob_viewer_component></blob_viewer_component>
+  <blob_viewer_program></blob_viewer_program>
+  <internal_index>235</internal_index>
+  <global>True</global>
+  <internal_sort>False</internal_sort>
+  <default_value_depl></default_value_depl>
+  <uds_type></uds_type>
+  <BP_ID>2</BP_ID>
+  <GUID>{A18F4B8F-029C-45F8-983E-C97863AEA53E}</GUID>
+  <Deleted>0</Deleted>
+ </FlowSpaceComp>
+ <FlowSpaceComp>
+  <flow_id>0</flow_id>
+  <data_key>B.szBusinessUnit</data_key>
+  <data_description>replaces flow variable - need to move to ifs.ini</data_description>
+  <data_type>A</data_type>
+  <data_len>12.00000</data_len>
+  <default_value>2</default_value>
+  <blob_viewer_component></blob_viewer_component>
+  <blob_viewer_program></blob_viewer_program>
+  <internal_index>237</internal_index>
+  <global>True</global>
+  <internal_sort>False</internal_sort>
+  <default_value_depl></default_value_depl>
+  <uds_type></uds_type>
+  <BP_ID>2</BP_ID>
+  <GUID>{5D9E562E-9EBE-4B3F-B237-A389A18B4A20}</GUID>
+  <Deleted>0</Deleted>
+ </FlowSpaceComp>
+ <FlowSpaceComp>
+  <flow_id>0</flow_id>
+  <data_key>B.szOrderCo</data_key>
+  <data_description>replaces flow variable - need to move to ifs.ini</data_description>
+  <data_type>A</data_type>
+  <data_len>5.00000</data_len>
+  <default_value>1</default_value>
+  <blob_viewer_component></blob_viewer_component>
+  <blob_viewer_program></blob_viewer_program>
+  <internal_index>238</internal_index>
+  <global>True</global>
+  <internal_sort>False</internal_sort>
+  <default_value_depl></default_value_depl>
+  <uds_type></uds_type>
+  <BP_ID>2</BP_ID>
+  <GUID>{61355887-9CF4-4406-BDAE-065DB022F40E}</GUID>
+  <Deleted>0</Deleted>
+ </FlowSpaceComp>
+ <FlowSpaceComp>
+  <flow_id>0</flow_id>
+  <data_key>B.szOrderType</data_key>
+  <data_description>frequently used JDE variable</data_description>
+  <data_type>A</data_type>
+  <data_len>3.00000</data_len>
+  <default_value>5</default_value>
+  <blob_viewer_component></blob_viewer_component>
+  <blob_viewer_program></blob_viewer_program>
+  <internal_index>239</internal_index>
+  <global>True</global>
+  <internal_sort>False</internal_sort>
+  <default_value_depl></default_value_depl>
+  <uds_type></uds_type>
+  <BP_ID>2</BP_ID>
+  <GUID>{D3D86745-F4CB-411D-88B8-312E9658EE2B}</GUID>
+  <Deleted>0</Deleted>
+ </FlowSpaceComp>
+ </Struct_BPVariables>
+</BP>

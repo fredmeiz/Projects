@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<BP>
+<Topology>
+<FlowsList>Flow1_search for incoming files</FlowsList>
+
+ <Struct_Nodes>
+ <NodesComp>
+  <topology_id>1</topology_id> 
+  <NodeID>1</NodeID> 
+  <node_type>S</node_type> 
+  <Description></Description>
+  <AppServerID>1</AppServerID>
+  <AppInterfaceName>Magic xpi Server</AppInterfaceName> 
+  <X>255.000</X> 
+  <Y>204.000</Y> 
+  <Sync>0</Sync> 
+ </NodesComp>
+ </Struct_Nodes>
+
+ <Struct_Connections/>
+
+ <Struct_elements/>
+
+
+<Struct_tmp_tree>
+ <tmp_treeComp>
+  <proj_id>1</proj_id> 
+  <auto_expand>True</auto_expand> 
+  <BP_ID>1</BP_ID> 
+  <Son_ID>1</Son_ID> 
+  <fold_type>5</fold_type> 
+  <Flow_ID>0</Flow_ID> 
+  <TreeNodeName>Topology - 1</TreeNodeName> 
+  <description>Topology - 1</description> 
+  <transactional>0</transactional> 
+  <auto_start>0</auto_start> 
+  <auto_restart>0</auto_restart> 
+  <max_instances>0</max_instances> 
+  <err_comp ></err_comp > 
+  <err_prg ></err_prg > 
+  <logic_comp ></logic_comp > 
+  <logic_prg ></logic_prg > 
+  <auto_repeat>0</auto_repeat> 
+  <subscribe_name ></subscribe_name > 
+  <subscribe_once>0</subscribe_once> 
+  <time_out>0</time_out> 
+  <recovery_policy>0</recovery_policy> 
+  <fold_table_id>0</fold_table_id> 
+  <cleanup_comp ></cleanup_comp > 
+  <cleanup_prg ></cleanup_prg > 
+  <emu_err_prg ></emu_err_prg > 
+  <emu_logic_prg ></emu_logic_prg > 
+  <error_flow_id>0</error_flow_id> 
+  <logic_flow_id>0</logic_flow_id> 
+  <cleanup_flow_id>0</cleanup_flow_id> 
+  <order>0</order> 
+  <Right_ID>0</Right_ID> 
+  <PSS_Index>0</PSS_Index> 
+  <secure_called_flows>0</secure_called_flows> 
+  <disable_flow>0</disable_flow> 
+  <Error_BP_ID>0</Error_BP_ID> 
+  <Logic_BP_ID>0</Logic_BP_ID> 
+  <CleanUp_BP_ID>0</CleanUp_BP_ID> 
+  <IsLoaded>1</IsLoaded> 
+  <DB_Transaction>0</DB_Transaction> 
+  <DB_Transaction_String ></DB_Transaction_String > 
+  <Timeout_Policy>0</Timeout_Policy> 
+  <InactiveFlow>False</InactiveFlow> 
+ </tmp_treeComp>
+ </Struct_tmp_tree>
+
+</Topology>
+
+ <Struct_bp_for_topology>
+ <bp_for_topologyComp>
+  <topologyId>1</topologyId> 
+  <bpId>1</bpId> 
+  <bp_name>Business Process - 1</bp_name> 
+  <bp_description></bp_description>
+ </bp_for_topologyComp>
+ </Struct_bp_for_topology>
+
+ <Struct_ExpressionTable/>
+
+</BP>

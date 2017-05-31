@@ -1,0 +1,798 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mapper xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<MapperOrigin>ComponentWithXMLInterface</MapperOrigin>
+	
+			<ErrorFlowExpressionVal>PCMhJUAkPmdldEZsb3dOYW1lKDQpPCMhJUAkPg==</ErrorFlowExpressionVal>
+			<DynamicSettings xsi:type="xsd:string">PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIiA/Pg0KPEpERVN0ZXA+DQoNCiAgPENvbmZpZ3VyYXRpb24+DQogICAgPElGQ05hbWUvPg0KICAgIDxJbnRlcmZhY2U+QjwvSW50ZXJmYWNlPg0KICAgIDxNb2R1bGU+QjQyMDAzMTA8L01vZHVsZT4NCiAgICA8QlNGTj5GNDIxMUZTRWRpdExpbmU8L0JTRk4+DQogICAgPERpc2Nvbm5lY3Q+MDwvRGlzY29ubmVjdD4NCiAgICA8UmVzdWx0VGFyZ2V0X0NvbWJvPjI8L1Jlc3VsdFRhcmdldF9Db21ibz4NCiAgICA8UmVzdWx0VGFyZ2V0RXhwPg0KICAgICAgPEV4cHJlc3Npb25WYWw+UENNaEpVQWtQbWRsZEZaaGNrNWhiV1VvTVN3bmV6WTNRVFkyUkRBMkxUVXhOVE10TkVFNU55MUJOMFpFTFRBNE1qa3pPRVF4TnpOQk9IMG5MREFzTUNrOEl5RWxRQ1ErPC9FeHByZXNzaW9uVmFsPg0KICAgICAgPEV4cGVjdGVkVHlwZT5CPC9FeHBlY3RlZFR5cGU+DQogICAgICA8RGlyZWN0aW9uPk88L0RpcmVjdGlvbj4NCiAgICA8L1Jlc3VsdFRhcmdldEV4cD4NCiAgPC9Db25maWd1cmF0aW9uPg0KDQo8L0pERVN0ZXA+DQo=</DynamicSettings>
+	
+		<DestinationSchemas>
+		
+		
+				
+		<Schema xsi:type="XSDSchema">
+		<SchemaID>3</SchemaID>
+		<Order>1</Order>
+		<Name>IFC_JD_Edwards</Name>
+				<SchemaLocation>Destination</SchemaLocation>
+		<SchemaType>XSD</SchemaType>
+		
+									<Fields>
+															<Field xsi:type="XSDComplexField">
+							<Identifier>B4200310.F4211FSEditLine</Identifier>
+							<Description></Description>
+							<FieldName>B4200310.F4211FSEditLine</FieldName>
+							<NodeType>Complex</NodeType>
+							<Color>210</Color>
+							<MagicFieldType>A</MagicFieldType>
+							<MagicPicture>1000</MagicPicture>
+							<isUnicode>false</isUnicode>
+							
+														
+																												<UserPicture>1000</UserPicture>
+							<isNillable>false</isNillable>
+														<MaxInstance>1</MaxInstance>
+							<MinInstance>0</MinInstance>
+																												<LogError>false</LogError>
+																																			<From></From>
+							<Length></Length>
+							<CreateAllways>false</CreateAllways>
+														<Required>false</Required>
+							<Replication>0</Replication>
+							<AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+																											</Field>
+																					<Field xsi:type="XSDComplexField">
+							<Identifier>B4200310.F4211FSEditLine/Data</Identifier>
+							<Description></Description>
+							<FieldName>Data</FieldName>
+							<NodeType>Complex</NodeType>
+							<Color>210</Color>
+							<MagicFieldType>A</MagicFieldType>
+							<MagicPicture>1000</MagicPicture>
+							<isUnicode>false</isUnicode>
+							
+														
+																												<UserPicture>1000</UserPicture>
+							<isNillable>false</isNillable>
+														<MaxInstance>1</MaxInstance>
+							<MinInstance>0</MinInstance>
+																												<LogError>false</LogError>
+																																			<From></From>
+							<Length></Length>
+							<CreateAllways>false</CreateAllways>
+														<Required>false</Required>
+							<Replication>0</Replication>
+							<AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+																											</Field>
+																					<Field xsi:type="XSDComplexField">
+							<Identifier>B4200310.F4211FSEditLine/Data/row</Identifier>
+							<Description></Description>
+							<FieldName>row</FieldName>
+							<NodeType>Complex</NodeType>
+							<Color>210</Color>
+							<MagicFieldType>A</MagicFieldType>
+							<MagicPicture>1000</MagicPicture>
+							<isUnicode>false</isUnicode>
+							
+														
+																												<UserPicture>1000</UserPicture>
+							<isNillable>false</isNillable>
+														<MaxInstance>1</MaxInstance>
+							<MinInstance>0</MinInstance>
+																												<LogError>false</LogError>
+																																			<From></From>
+							<Length></Length>
+							<CreateAllways>false</CreateAllways>
+														<Required>false</Required>
+							<Replication>0</Replication>
+							<AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+																											</Field>
+																					<Field xsi:type="SimpleXSDField">
+							<Identifier>B4200310.F4211FSEditLine/Data/row/mnCMJobNo</Identifier>
+							<Description></Description>
+							<FieldName>mnCMJobNo</FieldName>
+							<NodeType>Simple</NodeType>
+							<Color>210</Color>
+							<MagicFieldType>A</MagicFieldType>
+							<MagicPicture>32</MagicPicture>
+							<isUnicode>false</isUnicode>
+							
+														
+														<Expression>
+								<ExpressionVal>PCMhJUAkPmdldFZhck5hbWUoMSwnezE4QkY0QzUxLUEwMDAtNDU1OC04NDhBLUM1Rjg1RUMyRUM1Mn0nLDAsMCk8IyElQCQ+</ExpressionVal>
+								<ExpectedType>A</ExpectedType>
+								<Direction>I</Direction>
+							</Expression>
+																						<ExternalFieldType>string</ExternalFieldType>
+																						<ExternalFieldPicture>32</ExternalFieldPicture>
+														<UserPicture>32</UserPicture>
+							<isNillable>false</isNillable>
+														<MaxInstance>1</MaxInstance>
+							<MinInstance>0</MinInstance>
+																												<LogError>false</LogError>
+																																			<From>0</From>
+							<Length>0</Length>
+							<CreateAllways>false</CreateAllways>
+														<Required>false</Required>
+							<Replication>0</Replication>
+							<AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+																													<Encoding>0</Encoding>
+													</Field>
+																					<Field xsi:type="SimpleXSDField">
+							<Identifier>B4200310.F4211FSEditLine/Data/row/cCMLineAction</Identifier>
+							<Description></Description>
+							<FieldName>cCMLineAction</FieldName>
+							<NodeType>Simple</NodeType>
+							<Color>210</Color>
+							<MagicFieldType>A</MagicFieldType>
+							<MagicPicture>1</MagicPicture>
+							<isUnicode>false</isUnicode>
+							
+														
+														<Expression>
+								<ExpressionVal>J0En</ExpressionVal>
+								<ExpectedType>A</ExpectedType>
+								<Direction>I</Direction>
+							</Expression>
+																						<ExternalFieldType>string</ExternalFieldType>
+																						<ExternalFieldPicture>1</ExternalFieldPicture>
+														<UserPicture>1</UserPicture>
+							<isNillable>false</isNillable>
+														<MaxInstance>1</MaxInstance>
+							<MinInstance>0</MinInstance>
+																												<LogError>false</LogError>
+																																			<From>0</From>
+							<Length>0</Length>
+							<CreateAllways>false</CreateAllways>
+														<Required>false</Required>
+							<Replication>0</Replication>
+							<AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+																													<Encoding>0</Encoding>
+													</Field>
+																					<Field xsi:type="SimpleXSDField">
+							<Identifier>B4200310.F4211FSEditLine/Data/row/cCMProcessEdits</Identifier>
+							<Description></Description>
+							<FieldName>cCMProcessEdits</FieldName>
+							<NodeType>Simple</NodeType>
+							<Color>210</Color>
+							<MagicFieldType>A</MagicFieldType>
+							<MagicPicture>1</MagicPicture>
+							<isUnicode>false</isUnicode>
+							
+														
+														<Expression>
+								<ExpressionVal>JzEn</ExpressionVal>
+								<ExpectedType>A</ExpectedType>
+								<Direction>I</Direction>
+							</Expression>
+																						<ExternalFieldType>string</ExternalFieldType>
+																						<ExternalFieldPicture>1</ExternalFieldPicture>
+														<UserPicture>1</UserPicture>
+							<isNillable>false</isNillable>
+														<MaxInstance>1</MaxInstance>
+							<MinInstance>0</MinInstance>
+																												<LogError>false</LogError>
+																																			<From>0</From>
+							<Length>0</Length>
+							<CreateAllways>false</CreateAllways>
+														<Required>false</Required>
+							<Replication>0</Replication>
+							<AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+																													<Encoding>0</Encoding>
+													</Field>
+																					<Field xsi:type="SimpleXSDField">
+							<Identifier>B4200310.F4211FSEditLine/Data/row/cCMWriteToWFFlag</Identifier>
+							<Description></Description>
+							<FieldName>cCMWriteToWFFlag</FieldName>
+							<NodeType>Simple</NodeType>
+							<Color>210</Color>
+							<MagicFieldType>A</MagicFieldType>
+							<MagicPicture>1</MagicPicture>
+							<isUnicode>false</isUnicode>
+							
+														
+														<Expression>
+								<ExpressionVal>JzIn</ExpressionVal>
+								<ExpectedType>A</ExpectedType>
+								<Direction>I</Direction>
+							</Expression>
+																						<ExternalFieldType>string</ExternalFieldType>
+																						<ExternalFieldPicture>1</ExternalFieldPicture>
+														<UserPicture>1</UserPicture>
+							<isNillable>false</isNillable>
+														<MaxInstance>1</MaxInstance>
+							<MinInstance>0</MinInstance>
+																												<LogError>false</LogError>
+																																			<From>0</From>
+							<Length>0</Length>
+							<CreateAllways>false</CreateAllways>
+														<Required>false</Required>
+							<Replication>0</Replication>
+							<AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+																													<Encoding>0</Encoding>
+													</Field>
+																					<Field xsi:type="SimpleXSDField">
+							<Identifier>B4200310.F4211FSEditLine/Data/row/szCMComputerID</Identifier>
+							<Description></Description>
+							<FieldName>szCMComputerID</FieldName>
+							<NodeType>Simple</NodeType>
+							<Color>210</Color>
+							<MagicFieldType>A</MagicFieldType>
+							<MagicPicture>16</MagicPicture>
+							<isUnicode>false</isUnicode>
+							
+														
+														<Expression>
+								<ExpressionVal>PCMhJUAkPmdldFZhck5hbWUoMSwne0UxMUYyMjhBLTFENzYtNDcwOS04NDdBLTExRjAzRkVCQ0JCRn0nLDAsMCk8IyElQCQ+</ExpressionVal>
+								<ExpectedType>A</ExpectedType>
+								<Direction>I</Direction>
+							</Expression>
+																						<ExternalFieldType>string</ExternalFieldType>
+																						<ExternalFieldPicture>16</ExternalFieldPicture>
+														<UserPicture>16</UserPicture>
+							<isNillable>false</isNillable>
+														<MaxInstance>1</MaxInstance>
+							<MinInstance>0</MinInstance>
+																												<LogError>false</LogError>
+																																			<From>0</From>
+							<Length>0</Length>
+							<CreateAllways>false</CreateAllways>
+														<Required>false</Required>
+							<Replication>0</Replication>
+							<AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+																													<Encoding>0</Encoding>
+													</Field>
+																					<Field xsi:type="SimpleXSDField">
+							<Identifier>B4200310.F4211FSEditLine/Data/row/szOrderCo</Identifier>
+							<Description></Description>
+							<FieldName>szOrderCo</FieldName>
+							<NodeType>Simple</NodeType>
+							<Color>210</Color>
+							<MagicFieldType>A</MagicFieldType>
+							<MagicPicture>6</MagicPicture>
+							<isUnicode>false</isUnicode>
+							
+														
+														<Expression>
+								<ExpressionVal>PCMhJUAkPmdldFZhck5hbWUoNCwnezYxMzU1ODg3LTlDRjQtNDQwNi1CREFFLTA2NURCMDIyRjQwRX0nLDAsMCk8IyElQCQ+</ExpressionVal>
+								<ExpectedType>A</ExpectedType>
+								<Direction>I</Direction>
+							</Expression>
+																						<ExternalFieldType>string</ExternalFieldType>
+																						<ExternalFieldPicture>6</ExternalFieldPicture>
+														<UserPicture>6</UserPicture>
+							<isNillable>false</isNillable>
+														<MaxInstance>1</MaxInstance>
+							<MinInstance>0</MinInstance>
+																												<LogError>false</LogError>
+																																			<From>0</From>
+							<Length>0</Length>
+							<CreateAllways>false</CreateAllways>
+														<Required>false</Required>
+							<Replication>0</Replication>
+							<AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+																													<Encoding>0</Encoding>
+													</Field>
+																					<Field xsi:type="SimpleXSDField">
+							<Identifier>B4200310.F4211FSEditLine/Data/row/mnOrderNo</Identifier>
+							<Description></Description>
+							<FieldName>mnOrderNo</FieldName>
+							<NodeType>Simple</NodeType>
+							<Color>210</Color>
+							<MagicFieldType>A</MagicFieldType>
+							<MagicPicture>32</MagicPicture>
+							<isUnicode>false</isUnicode>
+							
+														
+														<Expression>
+								<ExpressionVal>PCMhJUAkPmdldFZhck5hbWUoMSwnezc4NjU5MTAyLTczNDUtNEUxMi1CQkZELUM5ODk0MDFFOEQ4Qn0nLDAsMCk8IyElQCQ+</ExpressionVal>
+								<ExpectedType>A</ExpectedType>
+								<Direction>I</Direction>
+							</Expression>
+																						<ExternalFieldType>string</ExternalFieldType>
+																						<ExternalFieldPicture>32</ExternalFieldPicture>
+														<UserPicture>32</UserPicture>
+							<isNillable>false</isNillable>
+														<MaxInstance>1</MaxInstance>
+							<MinInstance>0</MinInstance>
+																												<LogError>false</LogError>
+																																			<From>0</From>
+							<Length>0</Length>
+							<CreateAllways>false</CreateAllways>
+														<Required>false</Required>
+							<Replication>0</Replication>
+							<AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+																													<Encoding>0</Encoding>
+													</Field>
+																					<Field xsi:type="SimpleXSDField">
+							<Identifier>B4200310.F4211FSEditLine/Data/row/mnLineNo</Identifier>
+							<Description></Description>
+							<FieldName>mnLineNo</FieldName>
+							<NodeType>Simple</NodeType>
+							<Color>210</Color>
+							<MagicFieldType>A</MagicFieldType>
+							<MagicPicture>32</MagicPicture>
+							<isUnicode>false</isUnicode>
+							
+														
+														<Expression>
+								<ExpressionVal>JzEn</ExpressionVal>
+								<ExpectedType>A</ExpectedType>
+								<Direction>I</Direction>
+							</Expression>
+																						<ExternalFieldType>string</ExternalFieldType>
+																						<ExternalFieldPicture>32</ExternalFieldPicture>
+														<UserPicture>32</UserPicture>
+							<isNillable>false</isNillable>
+														<MaxInstance>1</MaxInstance>
+							<MinInstance>0</MinInstance>
+																												<LogError>false</LogError>
+																																			<From>0</From>
+							<Length>0</Length>
+							<CreateAllways>false</CreateAllways>
+														<Required>false</Required>
+							<Replication>0</Replication>
+							<AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+																													<Encoding>0</Encoding>
+													</Field>
+																					<Field xsi:type="SimpleXSDField">
+							<Identifier>B4200310.F4211FSEditLine/Data/row/szBusinessUnit</Identifier>
+							<Description></Description>
+							<FieldName>szBusinessUnit</FieldName>
+							<NodeType>Simple</NodeType>
+							<Color>210</Color>
+							<MagicFieldType>A</MagicFieldType>
+							<MagicPicture>12</MagicPicture>
+							<isUnicode>false</isUnicode>
+							
+														
+														<Expression>
+								<ExpressionVal>UmlnaHQoRmlsbCgnICcsMTIpICYgPCMhJUAkPmdldFZhck5hbWUoNCwnezVEOUU1NjJFLTlFQkUtNEIzRi1CMjM3LUEzODlBMThCNEEyMH0nLDAsMCk8IyElQCQ+ICwxMik=</ExpressionVal>
+								<ExpectedType>A</ExpectedType>
+								<Direction>I</Direction>
+							</Expression>
+																						<ExternalFieldType>string</ExternalFieldType>
+																						<ExternalFieldPicture>13</ExternalFieldPicture>
+														<UserPicture>12</UserPicture>
+							<isNillable>false</isNillable>
+														<MaxInstance>1</MaxInstance>
+							<MinInstance>0</MinInstance>
+																												<LogError>false</LogError>
+																																			<From>0</From>
+							<Length>0</Length>
+							<CreateAllways>false</CreateAllways>
+														<Required>false</Required>
+							<Replication>0</Replication>
+							<AlwaysUseCustomPicture>true</AlwaysUseCustomPicture>
+																													<Encoding>0</Encoding>
+													</Field>
+																					<Field xsi:type="SimpleXSDField">
+							<Identifier>B4200310.F4211FSEditLine/Data/row/jdRequestedDate</Identifier>
+							<Description></Description>
+							<FieldName>jdRequestedDate</FieldName>
+							<NodeType>Simple</NodeType>
+							<Color>210</Color>
+							<MagicFieldType>D</MagicFieldType>
+							<MagicPicture>MM/DD/YYYY</MagicPicture>
+							<isUnicode>false</isUnicode>
+							
+														
+														<Expression>
+								<ExpressionVal>RGF0ZSAoKSsy</ExpressionVal>
+								<ExpectedType>D</ExpectedType>
+								<Direction>I</Direction>
+							</Expression>
+																						<ExternalFieldType>date</ExternalFieldType>
+																						<ExternalFieldPicture></ExternalFieldPicture>
+														<UserPicture>MM/DD/YYYY</UserPicture>
+							<isNillable>false</isNillable>
+														<MaxInstance>1</MaxInstance>
+							<MinInstance>0</MinInstance>
+																												<LogError>false</LogError>
+																																			<From>0</From>
+							<Length>0</Length>
+							<CreateAllways>false</CreateAllways>
+														<Required>false</Required>
+							<Replication>0</Replication>
+							<AlwaysUseCustomPicture>true</AlwaysUseCustomPicture>
+																													<Encoding>0</Encoding>
+													</Field>
+																					<Field xsi:type="SimpleXSDField">
+							<Identifier>B4200310.F4211FSEditLine/Data/row/szItemNo</Identifier>
+							<Description></Description>
+							<FieldName>szItemNo</FieldName>
+							<NodeType>Simple</NodeType>
+							<Color>210</Color>
+							<MagicFieldType>A</MagicFieldType>
+							<MagicPicture>27</MagicPicture>
+							<isUnicode>false</isUnicode>
+							
+														
+														<Expression>
+								<ExpressionVal>J1IxMTBTQUwwMDAwMDEn</ExpressionVal>
+								<ExpectedType>A</ExpectedType>
+								<Direction>I</Direction>
+							</Expression>
+																						<ExternalFieldType>string</ExternalFieldType>
+																						<ExternalFieldPicture>27</ExternalFieldPicture>
+														<UserPicture>27</UserPicture>
+							<isNillable>false</isNillable>
+														<MaxInstance>1</MaxInstance>
+							<MinInstance>0</MinInstance>
+																												<LogError>false</LogError>
+																																			<From>0</From>
+							<Length>0</Length>
+							<CreateAllways>false</CreateAllways>
+														<Required>false</Required>
+							<Replication>0</Replication>
+							<AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+																													<Encoding>0</Encoding>
+													</Field>
+																					<Field xsi:type="SimpleXSDField">
+							<Identifier>B4200310.F4211FSEditLine/Data/row/mnQtyOrdered</Identifier>
+							<Description></Description>
+							<FieldName>mnQtyOrdered</FieldName>
+							<NodeType>Simple</NodeType>
+							<Color>210</Color>
+							<MagicFieldType>A</MagicFieldType>
+							<MagicPicture>32</MagicPicture>
+							<isUnicode>false</isUnicode>
+							
+														
+														<Expression>
+								<ExpressionVal>JzEn</ExpressionVal>
+								<ExpectedType>A</ExpectedType>
+								<Direction>I</Direction>
+							</Expression>
+																						<ExternalFieldType>string</ExternalFieldType>
+																						<ExternalFieldPicture>32</ExternalFieldPicture>
+														<UserPicture>32</UserPicture>
+							<isNillable>false</isNillable>
+														<MaxInstance>1</MaxInstance>
+							<MinInstance>0</MinInstance>
+																												<LogError>false</LogError>
+																																			<From>0</From>
+							<Length>0</Length>
+							<CreateAllways>false</CreateAllways>
+														<Required>false</Required>
+							<Replication>0</Replication>
+							<AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+																													<Encoding>0</Encoding>
+													</Field>
+																					<Field xsi:type="SimpleXSDField">
+							<Identifier>B4200310.F4211FSEditLine/Data/row/mnUnitPrice</Identifier>
+							<Description></Description>
+							<FieldName>mnUnitPrice</FieldName>
+							<NodeType>Simple</NodeType>
+							<Color>210</Color>
+							<MagicFieldType>A</MagicFieldType>
+							<MagicPicture>32</MagicPicture>
+							<isUnicode>false</isUnicode>
+							
+														
+														<Expression>
+								<ExpressionVal>PCMhJUAkPmdldFZhck5hbWUoMiwne0VEMTI1NEY1LTc1ODQtNEY2RS1CNkYxLTk1MTU2OTI1OTIzMX0nLDAsMCk8IyElQCQ+</ExpressionVal>
+								<ExpectedType>A</ExpectedType>
+								<Direction>I</Direction>
+							</Expression>
+																						<ExternalFieldType>string</ExternalFieldType>
+																						<ExternalFieldPicture>32</ExternalFieldPicture>
+														<UserPicture>32</UserPicture>
+							<isNillable>false</isNillable>
+														<MaxInstance>1</MaxInstance>
+							<MinInstance>0</MinInstance>
+																												<LogError>false</LogError>
+																																			<From>0</From>
+							<Length>0</Length>
+							<CreateAllways>false</CreateAllways>
+														<Required>false</Required>
+							<Replication>0</Replication>
+							<AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+																													<Encoding>0</Encoding>
+													</Field>
+																					<Field xsi:type="SimpleXSDField">
+							<Identifier>B4200310.F4211FSEditLine/Data/row/mnUnitCost</Identifier>
+							<Description></Description>
+							<FieldName>mnUnitCost</FieldName>
+							<NodeType>Simple</NodeType>
+							<Color>210</Color>
+							<MagicFieldType>A</MagicFieldType>
+							<MagicPicture>32</MagicPicture>
+							<isUnicode>false</isUnicode>
+							
+														
+														<Expression>
+								<ExpressionVal>JzAn</ExpressionVal>
+								<ExpectedType>A</ExpectedType>
+								<Direction>I</Direction>
+							</Expression>
+																						<ExternalFieldType>string</ExternalFieldType>
+																						<ExternalFieldPicture>32</ExternalFieldPicture>
+														<UserPicture>32</UserPicture>
+							<isNillable>false</isNillable>
+														<MaxInstance>1</MaxInstance>
+							<MinInstance>0</MinInstance>
+																												<LogError>false</LogError>
+																																			<From>0</From>
+							<Length>0</Length>
+							<CreateAllways>false</CreateAllways>
+														<Required>false</Required>
+							<Replication>0</Replication>
+							<AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+																													<Encoding>0</Encoding>
+													</Field>
+																					<Field xsi:type="SimpleXSDField">
+							<Identifier>B4200310.F4211FSEditLine/Data/row/szCMProgramID</Identifier>
+							<Description></Description>
+							<FieldName>szCMProgramID</FieldName>
+							<NodeType>Simple</NodeType>
+							<Color>210</Color>
+							<MagicFieldType>A</MagicFieldType>
+							<MagicPicture>11</MagicPicture>
+							<isUnicode>false</isUnicode>
+							
+														
+														<Expression>
+								<ExpressionVal>PCMhJUAkPmdldFZhck5hbWUoMSwne0YyRDFDQTA4LTZCM0QtNDUyOC04NEUwLTE3MjA0N0IzMzk0NX0nLDAsMCk8IyElQCQ+</ExpressionVal>
+								<ExpectedType>A</ExpectedType>
+								<Direction>I</Direction>
+							</Expression>
+																						<ExternalFieldType>string</ExternalFieldType>
+																						<ExternalFieldPicture>11</ExternalFieldPicture>
+														<UserPicture>11</UserPicture>
+							<isNillable>false</isNillable>
+														<MaxInstance>1</MaxInstance>
+							<MinInstance>0</MinInstance>
+																												<LogError>false</LogError>
+																																			<From>0</From>
+							<Length>0</Length>
+							<CreateAllways>false</CreateAllways>
+														<Required>false</Required>
+							<Replication>0</Replication>
+							<AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+																													<Encoding>0</Encoding>
+													</Field>
+																					<Field xsi:type="SimpleXSDField">
+							<Identifier>B4200310.F4211FSEditLine/Data/row/szCMVersion</Identifier>
+							<Description></Description>
+							<FieldName>szCMVersion</FieldName>
+							<NodeType>Simple</NodeType>
+							<Color>210</Color>
+							<MagicFieldType>A</MagicFieldType>
+							<MagicPicture>11</MagicPicture>
+							<isUnicode>false</isUnicode>
+							
+														
+														<Expression>
+								<ExpressionVal>PCMhJUAkPmdldFZhck5hbWUoMSwnezdBRTAxOUZBLTcwRkMtNDA4NS05NEFELUJENDcwNDYzRDE5Q30nLDAsMCk8IyElQCQ+</ExpressionVal>
+								<ExpectedType>A</ExpectedType>
+								<Direction>I</Direction>
+							</Expression>
+																						<ExternalFieldType>string</ExternalFieldType>
+																						<ExternalFieldPicture>11</ExternalFieldPicture>
+														<UserPicture>11</UserPicture>
+							<isNillable>false</isNillable>
+														<MaxInstance>1</MaxInstance>
+							<MinInstance>0</MinInstance>
+																												<LogError>false</LogError>
+																																			<From>0</From>
+							<Length>0</Length>
+							<CreateAllways>false</CreateAllways>
+														<Required>false</Required>
+							<Replication>0</Replication>
+							<AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+																													<Encoding>0</Encoding>
+													</Field>
+																					<Field xsi:type="SimpleXSDField">
+							<Identifier>B4200310.F4211FSEditLine/Data/row/cOverridePrice</Identifier>
+							<Description></Description>
+							<FieldName>cOverridePrice</FieldName>
+							<NodeType>Simple</NodeType>
+							<Color>210</Color>
+							<MagicFieldType>A</MagicFieldType>
+							<MagicPicture>1</MagicPicture>
+							<isUnicode>false</isUnicode>
+							
+														
+														<Expression>
+								<ExpressionVal>JzEn</ExpressionVal>
+								<ExpectedType>A</ExpectedType>
+								<Direction>I</Direction>
+							</Expression>
+																						<ExternalFieldType>string</ExternalFieldType>
+																						<ExternalFieldPicture>1</ExternalFieldPicture>
+														<UserPicture>1</UserPicture>
+							<isNillable>false</isNillable>
+														<MaxInstance>1</MaxInstance>
+							<MinInstance>0</MinInstance>
+																												<LogError>false</LogError>
+																																			<From>0</From>
+							<Length>0</Length>
+							<CreateAllways>false</CreateAllways>
+														<Required>false</Required>
+							<Replication>0</Replication>
+							<AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+																													<Encoding>0</Encoding>
+													</Field>
+																					<Field xsi:type="SimpleXSDField">
+							<Identifier>B4200310.F4211FSEditLine/Data/row/szUserID</Identifier>
+							<Description></Description>
+							<FieldName>szUserID</FieldName>
+							<NodeType>Simple</NodeType>
+							<Color>210</Color>
+							<MagicFieldType>A</MagicFieldType>
+							<MagicPicture>11</MagicPicture>
+							<isUnicode>false</isUnicode>
+							
+														
+														<Expression>
+								<ExpressionVal>RW52VmFsICgnSkRFX2xvZ2luJyk=</ExpressionVal>
+								<ExpectedType>A</ExpectedType>
+								<Direction>I</Direction>
+							</Expression>
+																						<ExternalFieldType>string</ExternalFieldType>
+																						<ExternalFieldPicture>11</ExternalFieldPicture>
+														<UserPicture>11</UserPicture>
+							<isNillable>false</isNillable>
+														<MaxInstance>1</MaxInstance>
+							<MinInstance>0</MinInstance>
+																												<LogError>false</LogError>
+																																			<From>0</From>
+							<Length>0</Length>
+							<CreateAllways>false</CreateAllways>
+														<Required>false</Required>
+							<Replication>0</Replication>
+							<AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+																													<Encoding>0</Encoding>
+													</Field>
+																					<Field xsi:type="SimpleXSDField">
+							<Identifier>B4200310.F4211FSEditLine/Data/row/cWKSourceOfData</Identifier>
+							<Description></Description>
+							<FieldName>cWKSourceOfData</FieldName>
+							<NodeType>Simple</NodeType>
+							<Color>210</Color>
+							<MagicFieldType>A</MagicFieldType>
+							<MagicPicture>1</MagicPicture>
+							<isUnicode>false</isUnicode>
+							
+														
+														<Expression>
+								<ExpressionVal>JzEn</ExpressionVal>
+								<ExpectedType>A</ExpectedType>
+								<Direction>I</Direction>
+							</Expression>
+																						<ExternalFieldType>string</ExternalFieldType>
+																						<ExternalFieldPicture>1</ExternalFieldPicture>
+														<UserPicture>1</UserPicture>
+							<isNillable>false</isNillable>
+														<MaxInstance>1</MaxInstance>
+							<MinInstance>0</MinInstance>
+																												<LogError>false</LogError>
+																																			<From>0</From>
+							<Length>0</Length>
+							<CreateAllways>false</CreateAllways>
+														<Required>false</Required>
+							<Replication>0</Replication>
+							<AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+																													<Encoding>0</Encoding>
+													</Field>
+																					<Field xsi:type="SimpleXSDField">
+							<Identifier>B4200310.F4211FSEditLine/Data/row/mnProcessID</Identifier>
+							<Description></Description>
+							<FieldName>mnProcessID</FieldName>
+							<NodeType>Simple</NodeType>
+							<Color>210</Color>
+							<MagicFieldType>A</MagicFieldType>
+							<MagicPicture>32</MagicPicture>
+							<isUnicode>false</isUnicode>
+							
+														
+														<Expression>
+								<ExpressionVal>PCMhJUAkPmdldFZhck5hbWUoMSwnezJEMkM1QzU4LTJFQjQtNDNCMy1BM0EyLTExMzIzMzY5Q0YzRH0nLDAsMCk8IyElQCQ+</ExpressionVal>
+								<ExpectedType>A</ExpectedType>
+								<Direction>I</Direction>
+							</Expression>
+																						<ExternalFieldType>string</ExternalFieldType>
+																						<ExternalFieldPicture>32</ExternalFieldPicture>
+														<UserPicture>32</UserPicture>
+							<isNillable>false</isNillable>
+														<MaxInstance>1</MaxInstance>
+							<MinInstance>0</MinInstance>
+																												<LogError>false</LogError>
+																																			<From>0</From>
+							<Length>0</Length>
+							<CreateAllways>false</CreateAllways>
+														<Required>false</Required>
+							<Replication>0</Replication>
+							<AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+																													<Encoding>0</Encoding>
+													</Field>
+																					<Field xsi:type="SimpleXSDField">
+							<Identifier>B4200310.F4211FSEditLine/Data/row/mnTransactionID</Identifier>
+							<Description></Description>
+							<FieldName>mnTransactionID</FieldName>
+							<NodeType>Simple</NodeType>
+							<Color>210</Color>
+							<MagicFieldType>A</MagicFieldType>
+							<MagicPicture>32</MagicPicture>
+							<isUnicode>false</isUnicode>
+							
+														
+														<Expression>
+								<ExpressionVal>PCMhJUAkPmdldFZhck5hbWUoMSwne0YwODcyOTMxLTBBODUtNEU1OC1CNDUzLUJEQkFGRUFERTlCQn0nLDAsMCk8IyElQCQ+</ExpressionVal>
+								<ExpectedType>A</ExpectedType>
+								<Direction>I</Direction>
+							</Expression>
+																						<ExternalFieldType>string</ExternalFieldType>
+																						<ExternalFieldPicture>32</ExternalFieldPicture>
+														<UserPicture>32</UserPicture>
+							<isNillable>false</isNillable>
+														<MaxInstance>1</MaxInstance>
+							<MinInstance>0</MinInstance>
+																												<LogError>false</LogError>
+																																			<From>0</From>
+							<Length>0</Length>
+							<CreateAllways>false</CreateAllways>
+														<Required>false</Required>
+							<Replication>0</Replication>
+							<AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+																													<Encoding>0</Encoding>
+													</Field>
+														</Fields>
+						
+								
+																								<XSD>
+					<XSDSubType>File</XSDSubType>
+					<IFCModel>JD Edwards EnterpriseOne</IFCModel>
+					<XsdFileName>D:\Magic\xpi41\projects\VWS_POC\jdedwards\XSD\eppdent005_EPPD\B4200310.F4211FSEditLine.xsd</XsdFileName>
+					<RootSelected>B4200310.F4211FSEditLine</RootSelected>
+					<isAppend>false</isAppend>
+					<isValidation>false</isValidation>
+					<RecursionDepth>1</RecursionDepth>
+					<AlwaysCreateNodes>false</AlwaysCreateNodes>
+					<DataDestination>Variable</DataDestination>
+					<DataExp>
+						<ExpressionVal>PCMhJUAkPmdldFZhck5hbWUoMiwnMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDA4JywwLDApPCMhJUAkPg==</ExpressionVal>
+						<ExpectedType>B</ExpectedType>
+						<Direction>O</Direction>
+					</DataExp>
+					<UseStreamingParser>false</UseStreamingParser>
+					<xmlFileEncoding>Project Encoding</xmlFileEncoding>
+										<TargetNamespace></TargetNamespace>
+																			</XSD>
+																					
+										
+															</Schema>
+		
+				
+		
+		</DestinationSchemas>
+			
+				<Connections>
+																</Connections>
+	  <ColorNames>
+    <MapperColorItem>
+      <Color>203</Color>
+      <ColorDescription>Blue</ColorDescription>
+    </MapperColorItem>
+    <MapperColorItem>
+      <Color>205</Color>
+      <ColorDescription>Green</ColorDescription>
+    </MapperColorItem>
+    <MapperColorItem>
+      <Color>206</Color>
+      <ColorDescription>Purple</ColorDescription>
+    </MapperColorItem>
+    <MapperColorItem>
+      <Color>204</Color>
+      <ColorDescription>Yellow</ColorDescription>
+    </MapperColorItem>
+    <MapperColorItem>
+      <Color>202</Color>
+      <ColorDescription>Red</ColorDescription>
+    </MapperColorItem>
+    <MapperColorItem>
+      <Color>210</Color>
+      <ColorDescription>Default</ColorDescription>
+    </MapperColorItem>
+  </ColorNames>
+</Mapper>

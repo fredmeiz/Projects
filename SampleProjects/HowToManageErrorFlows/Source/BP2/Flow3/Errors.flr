@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FlowErrors>
+
+	<row d2p1:type="FlowErrorRepositoryItem" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance">
+	<Order>1</Order>
+	<ComponentID>108</ComponentID>
+	<FromErrID>202</FromErrID>
+	<ToErrID>202</ToErrID>
+			<Description>File not found</Description>
+		<ErrorPolicy>5</ErrorPolicy>
+			<StepID>11</StepID>
+		<Notification>No action</Notification>
+	</row>
+ 
+	<row d2p1:type="FlowErrorRepositoryItem" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance">
+	<Order>2</Order>
+	<ComponentID>108</ComponentID>
+	<FromErrID>203</FromErrID>
+	<ToErrID>203</ToErrID>
+			<Description>File can not be copied</Description>
+		<ErrorPolicy>5</ErrorPolicy>
+			<StepID>10</StepID>
+		<Notification>No action</Notification>
+	</row>
+ </FlowErrors>

@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<Flows>
+
+ <Struct_tmp_tree>
+ <tmp_treeComp>
+  <proj_id>1</proj_id> 
+  <auto_expand>False</auto_expand> 
+  <BP_ID>2</BP_ID> 
+  <Son_ID>19</Son_ID> 
+  <fold_type>10</fold_type> 
+  <Flow_ID>24</Flow_ID> 
+  <TreeNodeName>JDEStatusCodes</TreeNodeName> 
+  <description></description> 
+  <transactional>0</transactional> 
+  <auto_start>0</auto_start> 
+  <auto_restart>0</auto_restart> 
+  <max_instances>0</max_instances> 
+  <err_comp></err_comp> 
+  <err_prg></err_prg> 
+  <logic_comp></logic_comp> 
+  <logic_prg></logic_prg> 
+  <auto_repeat>0</auto_repeat> 
+  <subscribe_name></subscribe_name> 
+  <subscribe_once>0</subscribe_once> 
+  <time_out>0</time_out> 
+  <recovery_policy>6</recovery_policy> 
+  <fold_table_id>0</fold_table_id> 
+  <cleanup_comp></cleanup_comp> 
+  <cleanup_prg></cleanup_prg> 
+  <emu_err_prg></emu_err_prg> 
+  <emu_logic_prg ></emu_logic_prg> 
+  <error_flow_id>0</error_flow_id> 
+  <logic_flow_id>0</logic_flow_id> 
+  <cleanup_flow_id>0</cleanup_flow_id> 
+  <order>16</order> 
+  <Right_ID>0</Right_ID> 
+  <PSS_Index>0</PSS_Index> 
+  <secure_called_flows>0</secure_called_flows> 
+  <disable_flow>0</disable_flow> 
+  <Error_BP_ID>0</Error_BP_ID> 
+  <Logic_BP_ID>0</Logic_BP_ID> 
+  <CleanUp_BP_ID>0</CleanUp_BP_ID> 
+  <IsLoaded>1</IsLoaded> 
+  <DB_Transaction>0</DB_Transaction> 
+  <DB_Transaction_String></DB_Transaction_String> 
+  <Timeout_Policy>6</Timeout_Policy> 
+  <InactiveFlow>False</InactiveFlow> 
+ </tmp_treeComp>
+ </Struct_tmp_tree>
+
+<IFC>
+<Source_And_Destination_Object>
+ <StructNodesColors/>
+</Source_And_Destination_Object>
+</IFC>
+<Services>
+
+</Services>
+
+ <Struct_Triggers/>
+
+ <Struct_Scheduler/>
+
+
+ <Struct_FlowLogic/>
+
+ <Struct_FlowSpace/>
+
+ <Struct_ErrorHandler/>
+
+ <Struct_Elements>
+ <ElementsComp>
+  <elementId>1</elementId> 
+  <elementtype>TAR</elementtype> 
+  <elementname></elementname> 
+  <elementdescription>This is a stub so we can replace the table of jde status codes.</elementdescription>
+  <objtype>10</objtype> 
+  <BP_ID>2</BP_ID> 
+  <etop_y1>113.000</etop_y1> 
+  <eleft_x1>42.000</eleft_x1> 
+  <ebottom_y2>244.000</ebottom_y2> 
+  <eright_x2>230.000</eright_x2> 
+  <interface></interface>
+  <wsdlfile_in></wsdlfile_in> 
+  <wsdlfile_out></wsdlfile_out>
+  <direction></direction>
+  <imagefile></imagefile> 
+  <bgcolor>12713983</bgcolor> 
+  <fgcolor>0</fgcolor> 
+  <fontId>0</fontId> 
+  <textlocation></textlocation> 
+  <arrowdirection></arrowdirection>
+  <pointer_x>0.000</pointer_x> 
+  <pointer_y>0.000</pointer_y> 
+  <application>0</application> 
+  <border_weight>1</border_weight> 
+  <user_message></user_message>
+  <showpointer>0</showpointer> 
+  <Ismax_TAR>1</Ismax_TAR> 
+  <Flow_ID>24</Flow_ID> 
+  <Document_Path></Document_Path>
+
+     <Struct_ElementsFlows>
+         </Struct_ElementsFlows>
+  
+     <Struct_FontProperties>
+         </Struct_FontProperties>
+  
+
+
+      
+      
+
+ </ElementsComp>
+ </Struct_Elements>
+
+ <Flow_Root/>
+
+ <Struct_ExpressionTable/>
+
+ <Struct_MapperElementData/>
+
+ <Struct_MapperExpressionID/>
+
+</Flows>

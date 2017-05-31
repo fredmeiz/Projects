@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Struct_ProjectProperties>
+
+  <ProjectPropertiesComp>
+    <ID>1</ID>
+    <Name>POC_VEOLIA_MAGENTO</Name>
+    <Description/>
+    <Last_Edited>19/07/2016 at 15:09:01</Last_Edited>
+    <Owner>Magic Software Enterprises Ltd</Owner>
+    <error_mail/>
+    <verssion>1.0</verssion>
+    <Mailserver/>
+    <Mailuser/>
+    <Mailpassword/>
+    <iBoltVersion>04.10000</iBoltVersion>
+    <Key/>
+    <LastUser/>
+    <LastDate/>
+    <DevHistory/>
+    <Revision/>
+    <Encoding>West European</Encoding>
+    <Authentication_System>0</Authentication_System>
+    <LDAP_User_Name/>
+    <LDAP_Password/>
+    <Connection_String/>
+    <LDAP_IP/>
+    <LDAP_Port/>
+    <LDAP_Audit_Trail_mode>0</LDAP_Audit_Trail_mode>
+    <ActivateLogging>0</ActivateLogging>
+    <Multi_Project_Support>1</Multi_Project_Support>
+    <ProjectInVersionControl>0</ProjectInVersionControl>
+    <ResourceSettingsPath>resources.xml</ResourceSettingsPath>
+    <ServiceSettingsPath>services.xml</ServiceSettingsPath>
+    <ICMInterCommunicationMiddleware>0</ICMInterCommunicationMiddleware>
+    <ICMFactoryName/>
+    <ICMQueueReq/>
+    <ICMQueueRes/>
+    <ICMUserName/>
+    <ICMPassword/>
+    <ICMInitialContextFactroy/>
+    <ICMProviderURL/>
+    <TopologyList>BP2_Topology - 1</TopologyList>
+    <EncodingTablesStruct>
+      <Encoding_TableComp>
+        <Encoding_ID>1</Encoding_ID>
+        <Encoding_Friendly_Name>West European</Encoding_Friendly_Name>
+        <Encoding_Lable>ISO-8859-1</Encoding_Lable>
+      </Encoding_TableComp>
+    </EncodingTablesStruct>
+    <Monitor_User/>
+    <Monitor_Password/>
+    <Project_Version>R0xaNmxwcThCRTZqNjZ4OG82enY3UT09</Project_Version>
+  </ProjectPropertiesComp>
+
+  <Expression_Table_Struct/>
+
+</Struct_ProjectProperties>

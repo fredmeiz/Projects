@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<B0101201.GetAddressBookData>
+<Data>
+<row>
+<mnAddressNumber2nd>2</mnAddressNumber2nd>
+<mnAddressNumber3rd>2</mnAddressNumber3rd>
+<mnAddressNumberParent>0</mnAddressNumberParent>
+<mnAddressNumber1st>2</mnAddressNumber1st>
+<mnGrowthRate>0</mnGrowthRate>
+<mnNumberOfEmployee>0</mnNumberOfEmployee>
+<mnAddressNumber4th>2</mnAddressNumber4th>
+<szNameMailing>HRA</szNameMailing>
+<mnAddressNumber5th>2</mnAddressNumber5th>
+<cError>0</cError>
+<idF0101Ptr>1002</idF0101Ptr>
+<szAddressType>O</szAddressType>
+<mnAddressNumber6th>2</mnAddressNumber6th>
+<szNameAlpha>HRA</szNameAlpha>
+<mnAddressNumber>2</mnAddressNumber>
+</row>
+</Data>
+</B0101201.GetAddressBookData>

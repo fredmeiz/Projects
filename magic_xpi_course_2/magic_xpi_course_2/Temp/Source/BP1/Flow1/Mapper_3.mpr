@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mapper>
+  <MapperOrigin>ComponentWithXMLInterface</MapperOrigin>
+  <DynamicSettings xmlns:q1="http://www.w3.org/2001/XMLSchema" d2p1:type="q1:string" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance">PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjxKREVTdGVwIHhtbG5zOnhzaT0iaHR0cDovL3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEtaW5zdGFuY2UiIHhtbG5zOnhzZD0iaHR0cDovL3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEiPg0KICA8Q29uZmlndXJhdGlvbj4NCiAgICA8SUZDTmFtZT5qZGVkd2FyZHM8L0lGQ05hbWU+DQogICAgPEludGVyZmFjZT5CPC9JbnRlcmZhY2U+DQogICAgPE1vZHVsZT5YMDAwNTwvTW9kdWxlPg0KICAgIDxCU0ZOPkdldFVEQzwvQlNGTj4NCiAgICA8RGlzY29ubmVjdD4wPC9EaXNjb25uZWN0Pg0KICAgIDxSZXN1bHRUYXJnZXRfQ29tYm8+MjwvUmVzdWx0VGFyZ2V0X0NvbWJvPg0KICAgIDxSZXN1bHRUYXJnZXRFeHA+DQogICAgICA8RXhwcmVzc2lvblZhbD5QQ01oSlVBa1BtZGxkRlpoY2s1aGJXVW9NaXduTURBd01EQXdNREF3TURBd01EQXdNREF3TURBd01EQXdNREF3TURBd01EQXdNREF3TURBNEp5d3dMREFwUENNaEpVQWtQZz09PC9FeHByZXNzaW9uVmFsPg0KICAgICAgPFJ1bnRpbWVFeHByZXNzaW9uPlUyVjBVR0Z5WVcwZ0tDZERMbFZ6WlhKWVRVd25MRHdrVFVkZlZrRk1WVVVrUGlrPTwvUnVudGltZUV4cHJlc3Npb24+DQogICAgICA8RXhwZWN0ZWRUeXBlPkI8L0V4cGVjdGVkVHlwZT4NCiAgICAgIDxEaXJlY3Rpb24+TzwvRGlyZWN0aW9uPg0KICAgIDwvUmVzdWx0VGFyZ2V0RXhwPg0KICA8L0NvbmZpZ3VyYXRpb24+DQo8L0pERVN0ZXA+</DynamicSettings>
+  <SourceSchemas>
+    <Schema d3p1:type="FlatFileSchema" xmlns:d3p1="http://www.w3.org/2001/XMLSchema-instance">
+      <SchemaID>2</SchemaID>
+      <Order>0</Order>
+      <Name>UDC_INPUT_CSV_FILE</Name>
+      <Description />
+      <SchemaLocation>Source</SchemaLocation>
+      <SchemaType>FlatFile</SchemaType>
+      <Fields>
+        <Field d3p1:type="ComplexField">
+          <Identifier>2</Identifier>
+          <FieldName>Record</FieldName>
+          <NodeType>Complex</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Condition>
+            <ExpectedType>L</ExpectedType>
+            <Direction>I</Direction>
+          </Condition>
+          <ReplicatedCount>0</ReplicatedCount>
+          <MaxInstance>0</MaxInstance>
+          <MultiUpdates />
+        </Field>
+        <Field d3p1:type="FieldFlatFile">
+          <Identifier>271881ce-39f2-4201-89b0-b821c6efd2e2</Identifier>
+          <FieldName>System</FieldName>
+          <NodeType>Simple</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Expression>
+            <ExpectedType />
+            <Direction>I</Direction>
+          </Expression>
+          <MagicFieldType>A</MagicFieldType>
+          <MagicPicture>30</MagicPicture>
+          <isUnicode>false</isUnicode>
+          <ExternalFieldType>Alpha</ExternalFieldType>
+          <UserPicture>30</UserPicture>
+          <isNillable>false</isNillable>
+          <AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+          <From>0</From>
+          <Length>0</Length>
+        </Field>
+        <Field d3p1:type="FieldFlatFile">
+          <Identifier>92483269-5894-4059-98f2-cd8983bbf439</Identifier>
+          <FieldName>Table</FieldName>
+          <NodeType>Simple</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Expression>
+            <ExpectedType />
+            <Direction>I</Direction>
+          </Expression>
+          <MagicFieldType>A</MagicFieldType>
+          <MagicPicture>30</MagicPicture>
+          <isUnicode>false</isUnicode>
+          <ExternalFieldType>Alpha</ExternalFieldType>
+          <UserPicture>30</UserPicture>
+          <isNillable>false</isNillable>
+          <AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+          <From>0</From>
+          <Length>0</Length>
+        </Field>
+        <Field d3p1:type="FieldFlatFile">
+          <Identifier>8d881c2d-6620-4e03-9602-809ac02020c8</Identifier>
+          <FieldName>Code</FieldName>
+          <NodeType>Simple</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Expression>
+            <ExpectedType />
+            <Direction>I</Direction>
+          </Expression>
+          <MagicFieldType>A</MagicFieldType>
+          <MagicPicture>30</MagicPicture>
+          <isUnicode>false</isUnicode>
+          <ExternalFieldType>Alpha</ExternalFieldType>
+          <UserPicture>30</UserPicture>
+          <isNillable>false</isNillable>
+          <AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+          <From>0</From>
+          <Length>0</Length>
+        </Field>
+      </Fields>
+      <FF>
+        <DataExp>
+          <ExpressionVal>PCMhJUAkPmdldFZhck5hbWUoMiwnMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDA3JywwLDApPCMhJUAkPg==</ExpressionVal>
+          <RuntimeExpression>R2V0UGFyYW0gKCdDLlVzZXJCbG9iJyk=</RuntimeExpression>
+          <ExpectedType>B</ExpectedType>
+          <Direction>I</Direction>
+        </DataExp>
+        <FF_Lines>
+          <FF_Line>
+            <GUID>271881ce-39f2-4201-89b0-b821c6efd2e2</GUID>
+            <Type>A</Type>
+            <Name>System</Name>
+            <Picture>30</Picture>
+            <From>0</From>
+            <Length>0</Length>
+          </FF_Line>
+          <FF_Line>
+            <GUID>92483269-5894-4059-98f2-cd8983bbf439</GUID>
+            <Type>A</Type>
+            <Name>Table</Name>
+            <Picture>30</Picture>
+            <From>0</From>
+            <Length>0</Length>
+          </FF_Line>
+          <FF_Line>
+            <GUID>8d881c2d-6620-4e03-9602-809ac02020c8</GUID>
+            <Type>A</Type>
+            <Name>Code</Name>
+            <Picture>30</Picture>
+            <From>0</From>
+            <Length>0</Length>
+          </FF_Line>
+        </FF_Lines>
+        <ExampleFile>course_data\in\udc.csv</ExampleFile>
+        <isUnicode>false</isUnicode>
+        <isAppend>false</isAppend>
+        <DataDestination>Variable</DataDestination>
+        <Delimited_Posi>Delimited</Delimited_Posi>
+        <Delimeter>,</Delimeter>
+        <IncludeDelimiterInData>false</IncludeDelimiterInData>
+        <CreateTitles>false</CreateTitles>
+        <DataEncoding>Ansi</DataEncoding>
+      </FF>
+    </Schema>
+  </SourceSchemas>
+  <DestinationSchemas>
+    <Schema d3p1:type="XSDSchema" xmlns:d3p1="http://www.w3.org/2001/XMLSchema-instance">
+      <SchemaID>0</SchemaID>
+      <Order>0</Order>
+      <Name>IFC_JDEdwardsEnterpriseOne</Name>
+      <Description />
+      <SchemaLocation>Destination</SchemaLocation>
+      <SchemaType>XSD</SchemaType>
+      <Fields>
+        <Field d3p1:type="XSDComplexField">
+          <Identifier>X0005.GetUDC</Identifier>
+          <FieldName>X0005.GetUDC</FieldName>
+          <NodeType>Complex</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Condition>
+            <ExpectedType>L</ExpectedType>
+            <Direction>I</Direction>
+          </Condition>
+          <ReplicatedCount>0</ReplicatedCount>
+          <MaxInstance>1</MaxInstance>
+          <MultiUpdates />
+          <Filter>
+            <ExpectedType>L</ExpectedType>
+            <Direction>I</Direction>
+          </Filter>
+          <IsMultiSimple>false</IsMultiSimple>
+          <NameSpace />
+          <MinInstance>1</MinInstance>
+          <Document />
+        </Field>
+        <Field d3p1:type="XSDComplexField">
+          <Identifier>X0005.GetUDC/Data</Identifier>
+          <FieldName>Data</FieldName>
+          <NodeType>Complex</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Condition>
+            <ExpectedType>L</ExpectedType>
+            <Direction>I</Direction>
+          </Condition>
+          <ReplicatedCount>0</ReplicatedCount>
+          <MaxInstance>1</MaxInstance>
+          <MultiUpdates />
+          <Filter>
+            <ExpectedType>L</ExpectedType>
+            <Direction>I</Direction>
+          </Filter>
+          <IsMultiSimple>false</IsMultiSimple>
+          <NameSpace />
+          <MinInstance>1</MinInstance>
+          <Document />
+        </Field>
+        <Field d3p1:type="XSDComplexField">
+          <Identifier>X0005.GetUDC/Data/row</Identifier>
+          <FieldName>row</FieldName>
+          <NodeType>Complex</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Condition>
+            <ExpectedType>L</ExpectedType>
+            <Direction>I</Direction>
+          </Condition>
+          <ReplicatedCount>0</ReplicatedCount>
+          <MaxInstance>1</MaxInstance>
+          <MultiUpdates />
+          <Filter>
+            <ExpectedType>L</ExpectedType>
+            <Direction>I</Direction>
+          </Filter>
+          <IsMultiSimple>false</IsMultiSimple>
+          <NameSpace />
+          <MinInstance>1</MinInstance>
+          <Document />
+        </Field>
+        <Field d3p1:type="SimpleXSDField">
+          <Identifier>X0005.GetUDC/Data/row/szSystemCode</Identifier>
+          <FieldName>szSystemCode</FieldName>
+          <NodeType>Simple</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Expression>
+            <ExpectedType />
+            <Direction>I</Direction>
+          </Expression>
+          <MagicFieldType>A</MagicFieldType>
+          <MagicPicture>5</MagicPicture>
+          <isUnicode>false</isUnicode>
+          <ExternalFieldType>string</ExternalFieldType>
+          <ExternalFieldPicture>5</ExternalFieldPicture>
+          <isNillable>false</isNillable>
+          <AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+          <Required>true</Required>
+          <Condition>
+            <ExpectedType>L</ExpectedType>
+            <Direction>I</Direction>
+          </Condition>
+          <CreateAllways>false</CreateAllways>
+          <NameSpace />
+          <MaxInstance>1</MaxInstance>
+          <MinInstance>1</MinInstance>
+          <Document>Required=YES</Document>
+          <Enumeration />
+        </Field>
+        <Field d3p1:type="SimpleXSDField">
+          <Identifier>X0005.GetUDC/Data/row/szRecordTypeCode</Identifier>
+          <FieldName>szRecordTypeCode</FieldName>
+          <NodeType>Simple</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Expression>
+            <ExpectedType />
+            <Direction>I</Direction>
+          </Expression>
+          <MagicFieldType>A</MagicFieldType>
+          <MagicPicture>3</MagicPicture>
+          <isUnicode>false</isUnicode>
+          <ExternalFieldType>string</ExternalFieldType>
+          <ExternalFieldPicture>3</ExternalFieldPicture>
+          <isNillable>false</isNillable>
+          <AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+          <Required>true</Required>
+          <Condition>
+            <ExpectedType>L</ExpectedType>
+            <Direction>I</Direction>
+          </Condition>
+          <CreateAllways>false</CreateAllways>
+          <NameSpace />
+          <MaxInstance>1</MaxInstance>
+          <MinInstance>1</MinInstance>
+          <Document>Required=YES</Document>
+          <Enumeration />
+        </Field>
+        <Field d3p1:type="SimpleXSDField">
+          <Identifier>X0005.GetUDC/Data/row/szUserDefinedCode</Identifier>
+          <FieldName>szUserDefinedCode</FieldName>
+          <NodeType>Simple</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Expression>
+            <ExpectedType />
+            <Direction>I</Direction>
+          </Expression>
+          <MagicFieldType>A</MagicFieldType>
+          <MagicPicture>11</MagicPicture>
+          <isUnicode>false</isUnicode>
+          <ExternalFieldType>string</ExternalFieldType>
+          <ExternalFieldPicture>11</ExternalFieldPicture>
+          <isNillable>false</isNillable>
+          <AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+          <Required>true</Required>
+          <Condition>
+            <ExpectedType>L</ExpectedType>
+            <Direction>I</Direction>
+          </Condition>
+          <CreateAllways>false</CreateAllways>
+          <NameSpace />
+          <MaxInstance>1</MaxInstance>
+          <MinInstance>1</MinInstance>
+          <Document>Required=YES</Document>
+          <Enumeration />
+        </Field>
+      </Fields>
+      <XSD>
+        <XSDSubType>File</XSDSubType>
+        <IFCModel>IFC_JDEdwardsEnterpriseOne</IFCModel>
+        <XsdFileName>jdedwards\XSD\JDEENT01_JPY920\X0005.GetUDC.xsd</XsdFileName>
+        <RootSelected>X0005.GetUDC</RootSelected>
+        <isAppend>false</isAppend>
+        <isValidation>false</isValidation>
+        <RecursionDepth>1</RecursionDepth>
+        <AlwaysCreateNodes>false</AlwaysCreateNodes>
+        <DataDestination>Variable</DataDestination>
+        <DataExp>
+          <ExpressionVal>PCMhJUAkPmdldFZhck5hbWUoMiwnMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDA4JywwLDApPCMhJUAkPg==</ExpressionVal>
+          <RuntimeExpression>U2V0UGFyYW0gKCdDLlVzZXJYTUwnLDwkTUdfVkFMVUUkPik=</RuntimeExpression>
+          <ExpectedType>B</ExpectedType>
+          <Direction>O</Direction>
+        </DataExp>
+        <xmlFileEncoding>Unicode(UTF-16)</xmlFileEncoding>
+        <UseStreamingParser>false</UseStreamingParser>
+        <NameSpaces />
+        <DataFormats />
+      </XSD>
+    </Schema>
+  </DestinationSchemas>
+  <Connections>
+    <ConnectionData>
+      <SourceIdentifier>2</SourceIdentifier>
+      <SourceSchemaID>2</SourceSchemaID>
+      <DestinationIdentifier>X0005.GetUDC</DestinationIdentifier>
+      <DestinationSchemaID>0</DestinationSchemaID>
+    </ConnectionData>
+    <ConnectionData>
+      <SourceIdentifier>271881ce-39f2-4201-89b0-b821c6efd2e2</SourceIdentifier>
+      <SourceSchemaID>2</SourceSchemaID>
+      <DestinationIdentifier>X0005.GetUDC/Data/row/szSystemCode</DestinationIdentifier>
+      <DestinationSchemaID>0</DestinationSchemaID>
+    </ConnectionData>
+    <ConnectionData>
+      <SourceIdentifier>92483269-5894-4059-98f2-cd8983bbf439</SourceIdentifier>
+      <SourceSchemaID>2</SourceSchemaID>
+      <DestinationIdentifier>X0005.GetUDC/Data/row/szRecordTypeCode</DestinationIdentifier>
+      <DestinationSchemaID>0</DestinationSchemaID>
+    </ConnectionData>
+    <ConnectionData>
+      <SourceIdentifier>8d881c2d-6620-4e03-9602-809ac02020c8</SourceIdentifier>
+      <SourceSchemaID>2</SourceSchemaID>
+      <DestinationIdentifier>X0005.GetUDC/Data/row/szUserDefinedCode</DestinationIdentifier>
+      <DestinationSchemaID>0</DestinationSchemaID>
+    </ConnectionData>
+  </Connections>
+  <ColorNames>
+    <MapperColorItem>
+      <Color>203</Color>
+      <ColorDescription>Blue</ColorDescription>
+    </MapperColorItem>
+    <MapperColorItem>
+      <Color>205</Color>
+      <ColorDescription>Green</ColorDescription>
+    </MapperColorItem>
+    <MapperColorItem>
+      <Color>206</Color>
+      <ColorDescription>Purple</ColorDescription>
+    </MapperColorItem>
+    <MapperColorItem>
+      <Color>204</Color>
+      <ColorDescription>Yellow</ColorDescription>
+    </MapperColorItem>
+    <MapperColorItem>
+      <Color>202</Color>
+      <ColorDescription>Red</ColorDescription>
+    </MapperColorItem>
+    <MapperColorItem>
+      <Color>210</Color>
+      <ColorDescription>Default</ColorDescription>
+    </MapperColorItem>
+  </ColorNames>
+</Mapper>

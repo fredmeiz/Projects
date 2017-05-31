@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mapper>
+  <MapperOrigin>DataMapperService</MapperOrigin>
+  <SourceSchemas>
+    <Schema d3p1:type="XSDSchema" xmlns:d3p1="http://www.w3.org/2001/XMLSchema-instance">
+      <SchemaID>5</SchemaID>
+      <Order>1</Order>
+      <Name>triggerData</Name>
+      <Description />
+      <SchemaLocation>Source</SchemaLocation>
+      <SchemaType>XSD</SchemaType>
+      <Fields>
+        <Field d3p1:type="XSDComplexField">
+          <Identifier>getOrderStatus</Identifier>
+          <Description />
+          <FieldName>getOrderStatus</FieldName>
+          <NodeType>Complex</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Condition>
+            <ExpectedType>L</ExpectedType>
+            <Direction>I</Direction>
+          </Condition>
+          <ReplicatedCount>0</ReplicatedCount>
+          <MaxInstance>1</MaxInstance>
+          <MultiUpdates />
+          <Filter>
+            <ExpectedType>L</ExpectedType>
+            <Direction>I</Direction>
+          </Filter>
+          <IsMultiSimple>false</IsMultiSimple>
+          <MinInstance>0</MinInstance>
+        </Field>
+        <Field d3p1:type="SimpleXSDField">
+          <Identifier>getOrderStatus/orderId</Identifier>
+          <Description />
+          <FieldName>orderId</FieldName>
+          <NodeType>Simple</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Expression>
+            <ExpectedType />
+            <Direction>I</Direction>
+          </Expression>
+          <MagicFieldType>A</MagicFieldType>
+          <MagicPicture>1000</MagicPicture>
+          <isUnicode>false</isUnicode>
+          <ExternalFieldType>string</ExternalFieldType>
+          <ExternalFieldPicture />
+          <UserPicture>1000</UserPicture>
+          <isNillable>false</isNillable>
+          <AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+          <Required>false</Required>
+          <Condition>
+            <ExpectedType>L</ExpectedType>
+            <Direction>I</Direction>
+          </Condition>
+          <CreateAllways>false</CreateAllways>
+          <MaxInstance>1</MaxInstance>
+          <MinInstance>0</MinInstance>
+        </Field>
+        <Field d3p1:type="SimpleXSDField">
+          <Identifier>getOrderStatus/desiredStatus</Identifier>
+          <Description />
+          <FieldName>desiredStatus</FieldName>
+          <NodeType>Simple</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Expression>
+            <ExpectedType />
+            <Direction>I</Direction>
+          </Expression>
+          <MagicFieldType>A</MagicFieldType>
+          <MagicPicture>1000</MagicPicture>
+          <isUnicode>false</isUnicode>
+          <ExternalFieldType>string</ExternalFieldType>
+          <ExternalFieldPicture />
+          <UserPicture>1000</UserPicture>
+          <isNillable>false</isNillable>
+          <AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+          <Required>false</Required>
+          <Condition>
+            <ExpectedType>L</ExpectedType>
+            <Direction>I</Direction>
+          </Condition>
+          <CreateAllways>false</CreateAllways>
+          <MaxInstance>1</MaxInstance>
+          <MinInstance>0</MinInstance>
+        </Field>
+      </Fields>
+      <XSD>
+        <XSDSubType>File</XSDSubType>
+        <IFCModel />
+        <XsdFileName>Files\schemas\orderStatusInputMapper.xsd</XsdFileName>
+        <RootSelected>getOrderStatus</RootSelected>
+        <isAppend>false</isAppend>
+        <isValidation>false</isValidation>
+        <RecursionDepth>1</RecursionDepth>
+        <AlwaysCreateNodes>false</AlwaysCreateNodes>
+        <DataDestination>Variable</DataDestination>
+        <DataExp>
+          <ExpressionVal>PCMhJUAkPmdldFZhck5hbWUoMSwnezgyRTZGQTk3LTE2NDctNENFQS1BRUE5LUNFOUMxMDE0OTY3OX0nLDAsMCk8IyElQCQ+</ExpressionVal>
+          <RuntimeExpression>R2V0UGFyYW0gKCcwMDAwMDAwMDAwMDIwMDAwMDAwMDAwMDVGLm1hZ1RyaWdnZXJPcmRlclN0YXR1cycp</RuntimeExpression>
+          <ExpectedType>B</ExpectedType>
+          <Direction>I</Direction>
+        </DataExp>
+        <xmlFileEncoding>Project Encoding</xmlFileEncoding>
+        <UseStreamingParser>false</UseStreamingParser>
+        <TargetNamespace />
+        <NameSpaces />
+        <DataFormats />
+      </XSD>
+    </Schema>
+  </SourceSchemas>
+  <DestinationSchemas>
+    <Schema d3p1:type="VariableSchema" xmlns:d3p1="http://www.w3.org/2001/XMLSchema-instance">
+      <SchemaID>4</SchemaID>
+      <Order>1</Order>
+      <Name>Variables</Name>
+      <Description />
+      <SchemaLocation>Destination</SchemaLocation>
+      <SchemaType>Variable</SchemaType>
+      <Fields>
+        <Field d3p1:type="ComplexField">
+          <Identifier>4</Identifier>
+          <Description />
+          <FieldName>Instance</FieldName>
+          <NodeType>Complex</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Condition>
+            <ExpectedType>L</ExpectedType>
+            <Direction>I</Direction>
+          </Condition>
+          <ReplicatedCount>0</ReplicatedCount>
+          <MaxInstance>0</MaxInstance>
+          <MultiUpdates />
+        </Field>
+        <Field d3p1:type="FieldVariable">
+          <Identifier>{9B4A4D99-0626-404F-A8B1-45719F052C64}</Identifier>
+          <Description />
+          <FieldName>F.desiredStatus</FieldName>
+          <NodeType>Simple</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Expression>
+            <ExpectedType />
+            <Direction>I</Direction>
+          </Expression>
+          <MagicFieldType>A</MagicFieldType>
+          <MagicPicture>30</MagicPicture>
+          <isUnicode>false</isUnicode>
+          <UserPicture>30</UserPicture>
+          <isNillable>false</isNillable>
+          <AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+          <Encoding>1</Encoding>
+        </Field>
+        <Field d3p1:type="FieldVariable">
+          <Identifier>{8966A987-9E04-41F4-A940-B7A382845A04}</Identifier>
+          <Description />
+          <FieldName>F.orderIdMagento</FieldName>
+          <NodeType>Simple</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Expression>
+            <ExpectedType />
+            <Direction>I</Direction>
+          </Expression>
+          <MagicFieldType>A</MagicFieldType>
+          <MagicPicture>30</MagicPicture>
+          <isUnicode>false</isUnicode>
+          <UserPicture>30</UserPicture>
+          <isNillable>false</isNillable>
+          <AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+          <Encoding>1</Encoding>
+        </Field>
+      </Fields>
+      <Variables>
+        <Variables>
+          <Variable>
+            <VarGUID>{9B4A4D99-0626-404F-A8B1-45719F052C64}</VarGUID>
+          </Variable>
+          <Variable>
+            <VarGUID>{8966A987-9E04-41F4-A940-B7A382845A04}</VarGUID>
+          </Variable>
+        </Variables>
+      </Variables>
+    </Schema>
+  </DestinationSchemas>
+  <Connections>
+    <ConnectionData>
+      <SourceIdentifier>getOrderStatus</SourceIdentifier>
+      <SourceSchemaID>5</SourceSchemaID>
+      <DestinationIdentifier>4</DestinationIdentifier>
+      <DestinationSchemaID>4</DestinationSchemaID>
+    </ConnectionData>
+    <ConnectionData>
+      <SourceIdentifier>getOrderStatus/desiredStatus</SourceIdentifier>
+      <SourceSchemaID>5</SourceSchemaID>
+      <DestinationIdentifier>{9B4A4D99-0626-404F-A8B1-45719F052C64}</DestinationIdentifier>
+      <DestinationSchemaID>4</DestinationSchemaID>
+    </ConnectionData>
+    <ConnectionData>
+      <SourceIdentifier>getOrderStatus/orderId</SourceIdentifier>
+      <SourceSchemaID>5</SourceSchemaID>
+      <DestinationIdentifier>{8966A987-9E04-41F4-A940-B7A382845A04}</DestinationIdentifier>
+      <DestinationSchemaID>4</DestinationSchemaID>
+    </ConnectionData>
+  </Connections>
+  <ColorNames>
+    <MapperColorItem>
+      <Color>203</Color>
+      <ColorDescription>Blue</ColorDescription>
+    </MapperColorItem>
+    <MapperColorItem>
+      <Color>205</Color>
+      <ColorDescription>Green</ColorDescription>
+    </MapperColorItem>
+    <MapperColorItem>
+      <Color>206</Color>
+      <ColorDescription>Purple</ColorDescription>
+    </MapperColorItem>
+    <MapperColorItem>
+      <Color>204</Color>
+      <ColorDescription>Yellow</ColorDescription>
+    </MapperColorItem>
+    <MapperColorItem>
+      <Color>202</Color>
+      <ColorDescription>Red</ColorDescription>
+    </MapperColorItem>
+    <MapperColorItem>
+      <Color>210</Color>
+      <ColorDescription>Default</ColorDescription>
+    </MapperColorItem>
+  </ColorNames>
+  <ErrorFlowExpressionVal>PCMhJUAkPmdldEZsb3dOYW1lKDEpPCMhJUAkPg==</ErrorFlowExpressionVal>
+</Mapper>

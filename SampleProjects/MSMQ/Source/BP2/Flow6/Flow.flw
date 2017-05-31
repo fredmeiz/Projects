@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Flow>
+
+  <Properties>
+    <ID>6</ID>
+    <Order>2</Order>
+    <Name>Quick Get</Name>
+    <isInactive>false</isInactive>
+    <isDisabled>false</isDisabled>
+    <isTwoPhase>false</isTwoPhase>
+    <isAutoStart>false</isAutoStart>
+    <MaxInstances>0</MaxInstances>
+    <isAutoRepeat>false</isAutoRepeat>
+    <TimeoutPolicy>6</TimeoutPolicy>
+    <TimeOutVal>0</TimeOutVal>
+    <RecoveryPolicy>6</RecoveryPolicy>
+  </Properties>
+
+  <DrawProperties>
+    <RootStepID>1</RootStepID>
+    <HasTrigger>false</HasTrigger>
+  </DrawProperties>
+
+  <Steps>
+    <row_Step>
+      <Properties>
+        <isGoTo>false</isGoTo>
+        <ParentStepID>0</ParentStepID>
+        <SortOrder>0</SortOrder>
+        <ID>1</ID>
+        <Name>Quick Get</Name>
+        <IFCDefinition>118</IFCDefinition>
+        <ProcessMode>1</ProcessMode>
+        <isTwoPhase>false</isTwoPhase>
+        <isWait4Comp>false</isWait4Comp>
+        <isSavePoint>false</isSavePoint>
+        <CallLogicFlow>false</CallLogicFlow>
+        <isTrigger>false</isTrigger>
+      </Properties>
+      <LoggingInfo>
+        <Scope>1</Scope>
+        <Option>2</Option>
+        <MSGDetails>
+          <MSGString>
+            <ExpressionVal>J01lc3NzYWdlIGlzIHJlY2VpdmVkIHByb3Blcmx5Jw==</ExpressionVal>
+            <ExpectedType>A</ExpectedType>
+            <Direction>I</Direction>
+          </MSGString>
+        </MSGDetails>
+      </LoggingInfo>
+      <ResourceInfo>
+        <isDynamic>false</isDynamic>
+        <ResSerName>Direct Access Type</ResSerName>
+      </ResourceInfo>
+      <ConfigInfo>
+        <Interface>2</Interface>
+        <InvokeComp>%ifclib%msmq\msmqifc.ecf</InvokeComp>
+        <ActivationBLOB>PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIiA/Pg0KPERBTV9BY3RpdmF0aW9uQkxPQj4NCg0KICA8TWV0aG9kcz4NCiAgICA8UmVjb3JkSVNOPjE8L1JlY29yZElTTj4NCiAgICA8T3JkZXJObz4xPC9PcmRlck5vPg0KICAgIDxNZXRob2RDb2RlPjI8L01ldGhvZENvZGU+DQogICAgPFB1YmxpY05hbWU+UXVpY2tHZXQ8L1B1YmxpY05hbWU+DQogICAgPFBhcmFtZXRlcnM+DQogICAgICA8UGFyYW1ldGVySUQ+MzwvUGFyYW1ldGVySUQ+DQogICAgICA8UGFyYW1ldGVyVHlwZT5BPC9QYXJhbWV0ZXJUeXBlPg0KICAgICAgPFBhcmFtZXRlclBpY3R1cmU+MjYwPC9QYXJhbWV0ZXJQaWN0dXJlPg0KICAgICAgPERpcmVjdGlvbj5JbjwvRGlyZWN0aW9uPg0KICAgICAgPEluX0V4cHJlc3Npb24+DQogICAgICAgIDxFeHByZXNzaW9uVmFsPlBDTWhKVUFrUG1kbGRGWmhjazVoYldVb015d25lME15TWtGQk9EQTJMVGRFTURFdE5EVXlReTA0TjBGRkxUYzNNVFEwUkVNMU56STBObjBuTERBc01DazhJeUVsUUNRKzwvRXhwcmVzc2lvblZhbD4NCiAgICAgICAgPEV4cGVjdGVkVHlwZT5BPC9FeHBlY3RlZFR5cGU+DQogICAgICAgIDxEaXJlY3Rpb24+STwvRGlyZWN0aW9uPg0KICAgICAgPC9Jbl9FeHByZXNzaW9uPg0KICAgICAgPFhTREVsZW1lbnROYW1lPlF1ZXVlTmFtZTwvWFNERWxlbWVudE5hbWU+DQogICAgICA8RGlzcGxheVNlcXVlbmNlSUQ+MTwvRGlzcGxheVNlcXVlbmNlSUQ+DQogICAgICA8VmlzaWJpbGl0eT4wPC9WaXNpYmlsaXR5Pg0KICAgICAgPE1hbmRhdG9yeT4xPC9NYW5kYXRvcnk+DQogICAgICA8UGFyYW1ldGVyVmFsdWVTZWxlY3Rpb25UeXBlLz4NCiAgICA8L1BhcmFtZXRlcnM+DQogICAgPFBhcmFtZXRlcnM+DQogICAgICA8UGFyYW1ldGVySUQ+NDwvUGFyYW1ldGVySUQ+DQogICAgICA8UGFyYW1ldGVyVHlwZT5OPC9QYXJhbWV0ZXJUeXBlPg0KICAgICAgPFBhcmFtZXRlclBpY3R1cmU+TjU8L1BhcmFtZXRlclBpY3R1cmU+DQogICAgICA8RGlyZWN0aW9uPkluPC9EaXJlY3Rpb24+DQogICAgICA8WFNERWxlbWVudE5hbWU+VGltZW91dDwvWFNERWxlbWVudE5hbWU+DQogICAgICA8RGlzcGxheVNlcXVlbmNlSUQ+MjwvRGlzcGxheVNlcXVlbmNlSUQ+DQogICAgICA8VmlzaWJpbGl0eT4wPC9WaXNpYmlsaXR5Pg0KICAgICAgPE1hbmRhdG9yeT4wPC9NYW5kYXRvcnk+DQogICAgICA8UGFyYW1ldGVyVmFsdWVTZWxlY3Rpb25UeXBlLz4NCiAgICA8L1BhcmFtZXRlcnM+DQogICAgPFBhcmFtZXRlcnM+DQogICAgICA8UGFyYW1ldGVySUQ+NTwvUGFyYW1ldGVySUQ+DQogICAgICA8UGFyYW1ldGVyVHlwZT5BPC9QYXJhbWV0ZXJUeXBlPg0KICAgICAgPFBhcmFtZXRlclBpY3R1cmU+MzA8L1BhcmFtZXRlclBpY3R1cmU+DQogICAgICA8RGlyZWN0aW9uPkluPC9EaXJlY3Rpb24+DQogICAgICA8WFNERWxlbWVudE5hbWU+UGljdHVyZTwvWFNERWxlbWVudE5hbWU+DQogICAgICA8RGlzcGxheVNlcXVlbmNlSUQ+MzwvRGlzcGxheVNlcXVlbmNlSUQ+DQogICAgICA8VmlzaWJpbGl0eT4wPC9WaXNpYmlsaXR5Pg0KICAgICAgPE1hbmRhdG9yeT4wPC9NYW5kYXRvcnk+DQogICAgICA8UGFyYW1ldGVyVmFsdWVTZWxlY3Rpb25UeXBlLz4NCiAgICA8L1BhcmFtZXRlcnM+DQogICAgPFBhcmFtZXRlcnM+DQogICAgICA8UGFyYW1ldGVySUQ+NjwvUGFyYW1ldGVySUQ+DQogICAgICA8UGFyYW1ldGVyVHlwZT5OPC9QYXJhbWV0ZXJUeXBlPg0KICAgICAgPFBhcmFtZXRlclBpY3R1cmU+OTwvUGFyYW1ldGVyUGljdHVyZT4NCiAgICAgIDxEaXJlY3Rpb24+SW48L0RpcmVjdGlvbj4NCiAgICAgIDxJbl9FeHByZXNzaW9uPg0KICAgICAgICA8RXhwcmVzc2lvblZhbD5NVEF3PC9FeHByZXNzaW9uVmFsPg0KICAgICAgICA8RXhwZWN0ZWRUeXBlPk48L0V4cGVjdGVkVHlwZT4NCiAgICAgICAgPERpcmVjdGlvbj5JPC9EaXJlY3Rpb24+DQogICAgICA8L0luX0V4cHJlc3Npb24+DQogICAgICA8WFNERWxlbWVudE5hbWU+TWVzc2FnZUlkZW50aWZpZXI8L1hTREVsZW1lbnROYW1lPg0KICAgICAgPERpc3BsYXlTZXF1ZW5jZUlEPjQ8L0Rpc3BsYXlTZXF1ZW5jZUlEPg0KICAgICAgPFZpc2liaWxpdHk+MDwvVmlzaWJpbGl0eT4NCiAgICAgIDxNYW5kYXRvcnk+MDwvTWFuZGF0b3J5Pg0KICAgICAgPFBhcmFtZXRlclZhbHVlU2VsZWN0aW9uVHlwZS8+DQogICAgPC9QYXJhbWV0ZXJzPg0KICAgIDxQYXJhbWV0ZXJzPg0KICAgICAgPFBhcmFtZXRlcklEPjc8L1BhcmFtZXRlcklEPg0KICAgICAgPFBhcmFtZXRlclR5cGU+QjwvUGFyYW1ldGVyVHlwZT4NCiAgICAgIDxQYXJhbWV0ZXJQaWN0dXJlLz4NCiAgICAgIDxEaXJlY3Rpb24+T3V0PC9EaXJlY3Rpb24+DQogICAgICA8T3V0X0V4cHJlc3Npb24+DQogICAgICAgIDxFeHByZXNzaW9uVmFsPlBDTWhKVUFrUG1kbGRGWmhjazVoYldVb015d25lMEZGTURNMlFqY3pMVGRETXpRdE5FTTBSQzA1TWpKR0xURkVSalk0TnpBNE5rTXdRbjBuTERBc01DazhJeUVsUUNRKzwvRXhwcmVzc2lvblZhbD4NCiAgICAgICAgPEV4cGVjdGVkVHlwZT5CPC9FeHBlY3RlZFR5cGU+DQogICAgICAgIDxEaXJlY3Rpb24+TzwvRGlyZWN0aW9uPg0KICAgICAgPC9PdXRfRXhwcmVzc2lvbj4NCiAgICAgIDxYU0RFbGVtZW50TmFtZT5EYXRhPC9YU0RFbGVtZW50TmFtZT4NCiAgICAgIDxEaXNwbGF5U2VxdWVuY2VJRD4xMDwvRGlzcGxheVNlcXVlbmNlSUQ+DQogICAgICA8VmlzaWJpbGl0eT4wPC9WaXNpYmlsaXR5Pg0KICAgICAgPE1hbmRhdG9yeT4wPC9NYW5kYXRvcnk+DQogICAgICA8UGFyYW1ldGVyVmFsdWVTZWxlY3Rpb25UeXBlLz4NCiAgICA8L1BhcmFtZXRlcnM+DQogICAgPFBhcmFtZXRlcnM+DQogICAgICA8UGFyYW1ldGVySUQ+ODwvUGFyYW1ldGVySUQ+DQogICAgICA8UGFyYW1ldGVyVHlwZT5BPC9QYXJhbWV0ZXJUeXBlPg0KICAgICAgPFBhcmFtZXRlclBpY3R1cmU+MTwvUGFyYW1ldGVyUGljdHVyZT4NCiAgICAgIDxEaXJlY3Rpb24+T3V0PC9EaXJlY3Rpb24+DQogICAgICA8T3V0X0V4cHJlc3Npb24+DQogICAgICAgIDxFeHByZXNzaW9uVmFsPlBDTWhKVUFrUG1kbGRGWmhjazVoYldVb015d25lMEZHT1VZMlFqRTFMVUUxTXpFdE5EWTROUzFCTWtSQ0xVTTNRa05HTnpVNU1EazFOWDBuTERBc01DazhJeUVsUUNRKzwvRXhwcmVzc2lvblZhbD4NCiAgICAgICAgPEV4cGVjdGVkVHlwZT5BPC9FeHBlY3RlZFR5cGU+DQogICAgICAgIDxEaXJlY3Rpb24+TzwvRGlyZWN0aW9uPg0KICAgICAgPC9PdXRfRXhwcmVzc2lvbj4NCiAgICAgIDxYU0RFbGVtZW50TmFtZT5EYXRhVHlwZTwvWFNERWxlbWVudE5hbWU+DQogICAgICA8RGlzcGxheVNlcXVlbmNlSUQ+OTwvRGlzcGxheVNlcXVlbmNlSUQ+DQogICAgICA8VmlzaWJpbGl0eT4wPC9WaXNpYmlsaXR5Pg0KICAgICAgPE1hbmRhdG9yeT4wPC9NYW5kYXRvcnk+DQogICAgICA8UGFyYW1ldGVyVmFsdWVTZWxlY3Rpb25UeXBlLz4NCiAgICA8L1BhcmFtZXRlcnM+DQogICAgPFBhcmFtZXRlcnM+DQogICAgICA8UGFyYW1ldGVySUQ+OTwvUGFyYW1ldGVySUQ+DQogICAgICA8UGFyYW1ldGVyVHlwZT5OPC9QYXJhbWV0ZXJUeXBlPg0KICAgICAgPFBhcmFtZXRlclBpY3R1cmU+MTI8L1BhcmFtZXRlclBpY3R1cmU+DQogICAgICA8RGlyZWN0aW9uPk91dDwvRGlyZWN0aW9uPg0KICAgICAgPFhTREVsZW1lbnROYW1lPkVycm9yQ29kZTwvWFNERWxlbWVudE5hbWU+DQogICAgICA8RGlzcGxheVNlcXVlbmNlSUQ+MTI8L0Rpc3BsYXlTZXF1ZW5jZUlEPg0KICAgICAgPFZpc2liaWxpdHk+MDwvVmlzaWJpbGl0eT4NCiAgICAgIDxNYW5kYXRvcnk+MDwvTWFuZGF0b3J5Pg0KICAgICAgPFBhcmFtZXRlclZhbHVlU2VsZWN0aW9uVHlwZS8+DQogICAgPC9QYXJhbWV0ZXJzPg0KICAgIDxQYXJhbWV0ZXJzPg0KICAgICAgPFBhcmFtZXRlcklEPjEwPC9QYXJhbWV0ZXJJRD4NCiAgICAgIDxQYXJhbWV0ZXJUeXBlPkE8L1BhcmFtZXRlclR5cGU+DQogICAgICA8UGFyYW1ldGVyUGljdHVyZT40MDwvUGFyYW1ldGVyUGljdHVyZT4NCiAgICAgIDxEaXJlY3Rpb24+SW48L0RpcmVjdGlvbj4NCiAgICAgIDxYU0RFbGVtZW50TmFtZT5Mb29rdXBJZDwvWFNERWxlbWVudE5hbWU+DQogICAgICA8RGlzcGxheVNlcXVlbmNlSUQ+NTwvRGlzcGxheVNlcXVlbmNlSUQ+DQogICAgICA8VmlzaWJpbGl0eT4wPC9WaXNpYmlsaXR5Pg0KICAgICAgPE1hbmRhdG9yeT4wPC9NYW5kYXRvcnk+DQogICAgICA8UGFyYW1ldGVyVmFsdWVTZWxlY3Rpb25UeXBlLz4NCiAgICA8L1BhcmFtZXRlcnM+DQogICAgPFBhcmFtZXRlcnM+DQogICAgICA8UGFyYW1ldGVySUQ+MTE8L1BhcmFtZXRlcklEPg0KICAgICAgPFBhcmFtZXRlclR5cGU+QTwvUGFyYW1ldGVyVHlwZT4NCiAgICAgIDxQYXJhbWV0ZXJQaWN0dXJlPjE8L1BhcmFtZXRlclBpY3R1cmU+DQogICAgICA8RGlyZWN0aW9uPkluPC9EaXJlY3Rpb24+DQogICAgICA8SW5fRXhwcmVzc2lvbj4NCiAgICAgICAgPEV4cHJlc3Npb25WYWw+SjA0bjwvRXhwcmVzc2lvblZhbD4NCiAgICAgICAgPEV4cGVjdGVkVHlwZT5BPC9FeHBlY3RlZFR5cGU+DQogICAgICAgIDxEaXJlY3Rpb24+STwvRGlyZWN0aW9uPg0KICAgICAgPC9Jbl9FeHByZXNzaW9uPg0KICAgICAgPFhTREVsZW1lbnROYW1lPlRyYW5zYWN0aW9uTW9kZTwvWFNERWxlbWVudE5hbWU+DQogICAgICA8RGlzcGxheVNlcXVlbmNlSUQ+NjwvRGlzcGxheVNlcXVlbmNlSUQ+DQogICAgICA8VmlzaWJpbGl0eT4wPC9WaXNpYmlsaXR5Pg0KICAgICAgPE1hbmRhdG9yeT4xPC9NYW5kYXRvcnk+DQogICAgICA8UGFyYW1ldGVyVmFsdWVTZWxlY3Rpb25UeXBlLz4NCiAgICA8L1BhcmFtZXRlcnM+DQogICAgPFBhcmFtZXRlcnM+DQogICAgICA8UGFyYW1ldGVySUQ+MTI8L1BhcmFtZXRlcklEPg0KICAgICAgPFBhcmFtZXRlclR5cGU+TjwvUGFyYW1ldGVyVHlwZT4NCiAgICAgIDxQYXJhbWV0ZXJQaWN0dXJlPjEyPC9QYXJhbWV0ZXJQaWN0dXJlPg0KICAgICAgPERpcmVjdGlvbj5JbjwvRGlyZWN0aW9uPg0KICAgICAgPFhTREVsZW1lbnROYW1lPlRyYW5zYWN0aW9uSGFuZGxlPC9YU0RFbGVtZW50TmFtZT4NCiAgICAgIDxEaXNwbGF5U2VxdWVuY2VJRD43PC9EaXNwbGF5U2VxdWVuY2VJRD4NCiAgICAgIDxWaXNpYmlsaXR5PjE8L1Zpc2liaWxpdHk+DQogICAgICA8TWFuZGF0b3J5PjE8L01hbmRhdG9yeT4NCiAgICAgIDxQYXJhbWV0ZXJWYWx1ZVNlbGVjdGlvblR5cGUvPg0KICAgIDwvUGFyYW1ldGVycz4NCiAgICA8UGFyYW1ldGVycz4NCiAgICAgIDxQYXJhbWV0ZXJJRD4xMzwvUGFyYW1ldGVySUQ+DQogICAgICA8UGFyYW1ldGVyVHlwZT5CPC9QYXJhbWV0ZXJUeXBlPg0KICAgICAgPFBhcmFtZXRlclBpY3R1cmUvPg0KICAgICAgPERpcmVjdGlvbj5Cb3RoPC9EaXJlY3Rpb24+DQogICAgICA8WFNERWxlbWVudE5hbWU+Q29ycmVsYXRpb25JRDwvWFNERWxlbWVudE5hbWU+DQogICAgICA8RGlzcGxheVNlcXVlbmNlSUQ+ODwvRGlzcGxheVNlcXVlbmNlSUQ+DQogICAgICA8VmlzaWJpbGl0eT4wPC9WaXNpYmlsaXR5Pg0KICAgICAgPE1hbmRhdG9yeT4wPC9NYW5kYXRvcnk+DQogICAgICA8UGFyYW1ldGVyVmFsdWVTZWxlY3Rpb25UeXBlLz4NCiAgICA8L1BhcmFtZXRlcnM+DQogICAgPFBhcmFtZXRlcnM+DQogICAgICA8UGFyYW1ldGVySUQ+MTQ8L1BhcmFtZXRlcklEPg0KICAgICAgPFBhcmFtZXRlclR5cGU+QjwvUGFyYW1ldGVyVHlwZT4NCiAgICAgIDxQYXJhbWV0ZXJQaWN0dXJlLz4NCiAgICAgIDxEaXJlY3Rpb24+T3V0PC9EaXJlY3Rpb24+DQogICAgICA8WFNERWxlbWVudE5hbWU+TWVzc2FnZUlEPC9YU0RFbGVtZW50TmFtZT4NCiAgICAgIDxEaXNwbGF5U2VxdWVuY2VJRD4xMTwvRGlzcGxheVNlcXVlbmNlSUQ+DQogICAgICA8VmlzaWJpbGl0eT4wPC9WaXNpYmlsaXR5Pg0KICAgICAgPE1hbmRhdG9yeT4wPC9NYW5kYXRvcnk+DQogICAgICA8UGFyYW1ldGVyVmFsdWVTZWxlY3Rpb25UeXBlLz4NCiAgICA8L1BhcmFtZXRlcnM+DQogIDwvTWV0aG9kcz4NCg0KPC9EQU1fQWN0aXZhdGlvbkJMT0I+DQo=</ActivationBLOB>
+      </ConfigInfo>
+    </row_Step>
+    <row_Step>
+      <Properties>
+        <isGoTo>false</isGoTo>
+        <ParentStepID>1</ParentStepID>
+        <SortOrder>1</SortOrder>
+        <ID>2</ID>
+        <Name>ShowOutput_QuickGet</Name>
+        <IFCDefinition>6</IFCDefinition>
+        <ProcessMode>1</ProcessMode>
+        <isTwoPhase>false</isTwoPhase>
+        <isWait4Comp>false</isWait4Comp>
+        <isSavePoint>false</isSavePoint>
+        <CallLogicFlow>false</CallLogicFlow>
+        <isTrigger>false</isTrigger>
+      </Properties>
+      <LoggingInfo>
+        <Scope>0</Scope>
+      </LoggingInfo>
+      <iBoltService>
+        <SaveMSG>
+          <MSGString>
+            <ExpressionVal>J01lc3NhZ2UgVHlwZSA6ICcmIFRyaW0oIDwjISVAJD5nZXRWYXJOYW1lKDMsJ3tBRjlGNkIxNS1BNTMxLTQ2ODUtQTJEQi1DN0JDRjc1OTA5NTV9JywwLDApPCMhJUAkPiAp</ExpressionVal>
+            <ExpectedType>A</ExpectedType>
+            <Direction>I</Direction>
+          </MSGString>
+          <MSGBLOB>
+            <ExpressionVal>PCMhJUAkPmdldFZhck5hbWUoMywne0FFMDM2QjczLTdDMzQtNEM0RC05MjJGLTFERjY4NzA4NkMwQn0nLDAsMCk8IyElQCQ+</ExpressionVal>
+            <ExpectedType>B</ExpectedType>
+            <Direction>I</Direction>
+          </MSGBLOB>
+          <BLOBExtn>txt</BLOBExtn>
+        </SaveMSG>
+      </iBoltService>
+    </row_Step>
+  </Steps>
+
+  <TextElements>
+    <row_Element>
+      <ID>1</ID>
+      <Description>Receives messages using the Quick Get Method. If the value defined in the 'Message Identifier' parameter matches that value contained in the message, it will be received accordingly.</Description>
+      <TextLocation>Left</TextLocation>
+      <Font>1</Font>
+      <Color>8454143</Color>
+      <BorderStyle>1</BorderStyle>
+    </row_Element>
+  </TextElements>
+
+</Flow>

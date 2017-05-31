@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Flow>
+
+  <Properties>
+    <ID>5</ID>
+    <Order>2</Order>
+    <Name>Receive</Name>
+    <isInactive>false</isInactive>
+    <isDisabled>false</isDisabled>
+    <isTwoPhase>false</isTwoPhase>
+    <isAutoStart>false</isAutoStart>
+    <MaxInstances>0</MaxInstances>
+    <isAutoRepeat>false</isAutoRepeat>
+    <TimeoutPolicy>6</TimeoutPolicy>
+    <TimeOutVal>0</TimeOutVal>
+    <RecoveryPolicy>6</RecoveryPolicy>
+  </Properties>
+
+  <DrawProperties>
+    <RootStepID>1</RootStepID>
+    <HasTrigger>true</HasTrigger>
+  </DrawProperties>
+
+  <Steps>
+    <row_Step>
+      <Properties>
+        <isGoTo>false</isGoTo>
+        <ParentStepID>0</ParentStepID>
+        <SortOrder>0</SortOrder>
+        <ID>1</ID>
+        <Name>Retrive To/From address</Name>
+        <IFCDefinition>11</IFCDefinition>
+        <ProcessMode>1</ProcessMode>
+        <isTwoPhase>false</isTwoPhase>
+        <isWait4Comp>false</isWait4Comp>
+        <isSavePoint>false</isSavePoint>
+        <CallLogicFlow>false</CallLogicFlow>
+        <isTrigger>false</isTrigger>
+      </Properties>
+      <LoggingInfo>
+        <Scope>0</Scope>
+      </LoggingInfo>
+      <MapperInfo>
+        <DBTransLevel>Mapper</DBTransLevel>
+        <ErrorHandling>Continue</ErrorHandling>
+      </MapperInfo>
+      <iBoltService/>
+    </row_Step>
+  </Steps>
+
+  <Triggers>
+    <row_Trigger>
+      <Properties>
+        <ID>1</ID>
+        <Name>Receive Email</Name>
+        <IFCDefinition>106</IFCDefinition>
+        <isTrigger>true</isTrigger>
+      </Properties>
+      <LoggingInfo>
+        <Scope>1</Scope>
+        <MSGDetails>
+          <MSGString>
+            <ExpressionVal>J1JlY2VpdmVkIE1haWwn</ExpressionVal>
+            <ExpectedType>A</ExpectedType>
+            <Direction>I</Direction>
+          </MSGString>
+          <MSGBLOB>
+            <ExpressionVal>PCMhJUAkPmdldFZhck5hbWUoMiwnMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDA4JywwLDApPCMhJUAkPg==</ExpressionVal>
+            <ExpectedType>A</ExpectedType>
+            <Direction>I</Direction>
+          </MSGBLOB>
+          <BLOBExtn>xml</BLOBExtn>
+        </MSGDetails>
+      </LoggingInfo>
+      <ResourceInfo>
+        <isDynamic>false</isDynamic>
+        <ResSerName>Receive Mails</ResSerName>
+      </ResourceInfo>
+      <ConfigInfo>
+        <InvokeComp>%ifclib%email\emailifc.ecf</InvokeComp>
+        <ActivationBLOB>PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIiA/Pg0KPEVtYWlsc2V0dXA+DQoNCiAgPFJlc3VsdFhNTEV4cD4NCiAgICA8RXhwcmVzc2lvblZhbD5QQ01oSlVBa1BtZGxkRlpoY2s1aGJXVW9NaXduTURBd01EQXdNREF3TURBd01EQXdNREF3TURBd01EQXdNREF3TURBd01EQXdNREF3TURBNEp5d3dMREFwUENNaEpVQWtQZz09PC9FeHByZXNzaW9uVmFsPg0KICAgIDxFeHBlY3RlZFR5cGU+QjwvRXhwZWN0ZWRUeXBlPg0KICAgIDxEaXJlY3Rpb24+TzwvRGlyZWN0aW9uPg0KICA8L1Jlc3VsdFhNTEV4cD4NCg0KICA8TGVhdmVPblNlcnZlckV4cD4NCiAgICA8RXhwcmVzc2lvblZhbD5NUT09PC9FeHByZXNzaW9uVmFsPg0KICAgIDxFeHBlY3RlZFR5cGU+TjwvRXhwZWN0ZWRUeXBlPg0KICAgIDxEaXJlY3Rpb24+STwvRGlyZWN0aW9uPg0KICA8L0xlYXZlT25TZXJ2ZXJFeHA+DQoNCiAgPFJldHJ5SW50ZXJ2YWxFeHA+DQogICAgPEV4cHJlc3Npb25WYWw+TXpBPTwvRXhwcmVzc2lvblZhbD4NCiAgICA8RXhwZWN0ZWRUeXBlPk48L0V4cGVjdGVkVHlwZT4NCiAgICA8RGlyZWN0aW9uPkk8L0RpcmVjdGlvbj4NCiAgPC9SZXRyeUludGVydmFsRXhwPg0KDQogIDxOb09mQXR0ZW1wdHNFeHA+DQogICAgPEV4cHJlc3Npb25WYWw+TUE9PTwvRXhwcmVzc2lvblZhbD4NCiAgICA8RXhwZWN0ZWRUeXBlPk48L0V4cGVjdGVkVHlwZT4NCiAgICA8RGlyZWN0aW9uPkk8L0RpcmVjdGlvbj4NCiAgPC9Ob09mQXR0ZW1wdHNFeHA+DQoNCjwvRW1haWxzZXR1cD4NCg==</ActivationBLOB>
+      </ConfigInfo>
+    </row_Trigger>
+  </Triggers>
+
+  <TextElements>
+    <row_Element>
+      <ID>1</ID>
+      <Description>The Email component can be used as a Trigger with the Receive Method only. The Trigger in this flow listens for the POP3 Server address. This flow shows how to receive the emails in the UserXML without using any filters.</Description>
+      <TextLocation>Left</TextLocation>
+      <Font>1</Font>
+      <Color>12713983</Color>
+      <BorderStyle>1</BorderStyle>
+    </row_Element>
+    <row_Element>
+      <ID>2</ID>
+      <Description>Before configuring the Email component as a Trigger, you need to define an Email service in the Service Repository.&#xD;&#xA;</Description>
+      <TextLocation>Left</TextLocation>
+      <Font>2</Font>
+      <Color>12713983</Color>
+      <BorderStyle>1</BorderStyle>
+    </row_Element>
+    <row_Element>
+      <ID>3</ID>
+      <Description>The UserXML that is received from this Trigger can be used later on in the flow.</Description>
+      <TextLocation>Left</TextLocation>
+      <Font>3</Font>
+      <Color>12713983</Color>
+      <BorderStyle>1</BorderStyle>
+    </row_Element>
+  </TextElements>
+
+</Flow>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Flow>
+
+  <Properties>
+    <ID>7</ID>
+    <Order>2</Order>
+    <Name>...Magento Login</Name>
+    <isInactive>true</isInactive>
+    <isDisabled>false</isDisabled>
+    <isTwoPhase>false</isTwoPhase>
+    <isAutoStart>false</isAutoStart>
+    <MaxInstances>0</MaxInstances>
+    <isAutoRepeat>false</isAutoRepeat>
+    <TimeoutPolicy>6</TimeoutPolicy>
+    <TimeOutVal>0</TimeOutVal>
+    <RecoveryPolicy>6</RecoveryPolicy>
+    <ErrorFlow>
+      <BPID>2</BPID>
+      <FlowID>
+        <ExpressionVal>PCMhJUAkPmdldEZsb3dOYW1lKDQpPCMhJUAkPg==</ExpressionVal>
+        <ExpectedType>N</ExpectedType>
+        <Direction>I</Direction>
+      </FlowID>
+    </ErrorFlow>
+    <Enablement>
+      <ResourceInfo>
+        <isDynamic>false</isDynamic>
+        <ResSerName/>
+      </ResourceInfo>
+    </Enablement>
+  </Properties>
+
+  <DrawProperties>
+    <RootStepID>1</RootStepID>
+    <HasTrigger>false</HasTrigger>
+  </DrawProperties>
+
+  <Steps>
+    <row_Step>
+      <Properties>
+        <isGoTo>false</isGoTo>
+        <ParentStepID>0</ParentStepID>
+        <SortOrder>0</SortOrder>
+        <ID>1</ID>
+        <Name>Magento Login</Name>
+        <IFCDefinition>25</IFCDefinition>
+        <ProcessMode>1</ProcessMode>
+        <isTwoPhase>false</isTwoPhase>
+        <isWait4Comp>false</isWait4Comp>
+        <isSavePoint>false</isSavePoint>
+        <CallLogicFlow>false</CallLogicFlow>
+        <isTrigger>false</isTrigger>
+      </Properties>
+      <LoggingInfo>
+        <Scope>0</Scope>
+      </LoggingInfo>
+      <ResourceInfo>
+        <isDynamic>false</isDynamic>
+        <ResSerName>testMagento</ResSerName>
+      </ResourceInfo>
+      <ConfigInfo>
+        <Interface>0</Interface>
+        <InvokeComp>%currentprojectdir%resource\testMagento\testMagento.ecf</InvokeComp>
+        <InvokeProg>1_13_1</InvokeProg>
+        <ActivationBLOB>PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIiA/Pg0KPFdlYlNlcnZpY2U+DQoNCiAgPFJlc291cmNlSUQ+NDE8L1Jlc291cmNlSUQ+DQoNCiAgPE5hbWU+dGVzdE1hZ2VudG88L05hbWU+DQoNCiAgPE1pZ3JhdGVkUHJvamVjdC8+DQoNCiAgPE9wZXJhdGlvbj4NCiAgICA8SUQ+MTA5PC9JRD4NCiAgICA8T3BlcmF0aW9uTmFtZT5sb2dpbjwvT3BlcmF0aW9uTmFtZT4NCiAgICA8QXJndW1lbnQ+DQogICAgICA8QXJndW1lbnRJRD4xPC9Bcmd1bWVudElEPg0KICAgICAgPEFyZ3VtZW50TmFtZT51c2VybmFtZTwvQXJndW1lbnROYW1lPg0KICAgICAgPEFyZ3VlbWVudFR5cGU+MjwvQXJndWVtZW50VHlwZT4NCiAgICAgIDxEaXJlY3Rpb24+MTwvRGlyZWN0aW9uPg0KICAgICAgPERhdGFUeXBlPkE8L0RhdGFUeXBlPg0KICAgICAgPERhdGFUeXBlUGljdHVyZT41MDwvRGF0YVR5cGVQaWN0dXJlPg0KICAgICAgPE1hcHBpbmdFeHA+DQogICAgICAgIDxFeHByZXNzaW9uVmFsPlJXNTJWbUZzSUNnbmJXRm5aVzUwYjFWelpYSW5LUT09PC9FeHByZXNzaW9uVmFsPg0KICAgICAgICA8RXhwZWN0ZWRUeXBlPkE8L0V4cGVjdGVkVHlwZT4NCiAgICAgICAgPERpcmVjdGlvbj5JPC9EaXJlY3Rpb24+DQogICAgICA8L01hcHBpbmdFeHA+DQogICAgPC9Bcmd1bWVudD4NCiAgICA8QXJndW1lbnQ+DQogICAgICA8QXJndW1lbnRJRD4yPC9Bcmd1bWVudElEPg0KICAgICAgPEFyZ3VtZW50TmFtZT5hcGlLZXk8L0FyZ3VtZW50TmFtZT4NCiAgICAgIDxBcmd1ZW1lbnRUeXBlPjI8L0FyZ3VlbWVudFR5cGU+DQogICAgICA8RGlyZWN0aW9uPjE8L0RpcmVjdGlvbj4NCiAgICAgIDxEYXRhVHlwZT5BPC9EYXRhVHlwZT4NCiAgICAgIDxEYXRhVHlwZVBpY3R1cmU+NTA8L0RhdGFUeXBlUGljdHVyZT4NCiAgICAgIDxNYXBwaW5nRXhwPg0KICAgICAgICA8RXhwcmVzc2lvblZhbD5SVzUyVm1Gc0lDZ25iV0ZuWlc1MGIxQmhjM04zYjNKa0p5az08L0V4cHJlc3Npb25WYWw+DQogICAgICAgIDxFeHBlY3RlZFR5cGU+QTwvRXhwZWN0ZWRUeXBlPg0KICAgICAgICA8RGlyZWN0aW9uPkk8L0RpcmVjdGlvbj4NCiAgICAgIDwvTWFwcGluZ0V4cD4NCiAgICA8L0FyZ3VtZW50Pg0KICAgIDxBcmd1bWVudD4NCiAgICAgIDxBcmd1bWVudElEPjM8L0FyZ3VtZW50SUQ+DQogICAgICA8QXJndW1lbnROYW1lPlJldHVyblZhbHVlPC9Bcmd1bWVudE5hbWU+DQogICAgICA8QXJndWVtZW50VHlwZT40PC9Bcmd1ZW1lbnRUeXBlPg0KICAgICAgPERpcmVjdGlvbj40PC9EaXJlY3Rpb24+DQogICAgICA8RGF0YVR5cGU+QTwvRGF0YVR5cGU+DQogICAgICA8RGF0YVR5cGVQaWN0dXJlPjUwPC9EYXRhVHlwZVBpY3R1cmU+DQogICAgICA8TWFwcGluZ0V4cD4NCiAgICAgICAgPEV4cHJlc3Npb25WYWw+UENNaEpVQWtQbWRsZEZaaGNrNWhiV1VvTWl3bmUwTTRRa0V3TlVORUxUSTNSVUl0TkRkR05DMUJNVGMwTFVRek56azJSa1l4TUVRNU9IMG5MREFzTUNrOEl5RWxRQ1ErPC9FeHByZXNzaW9uVmFsPg0KICAgICAgICA8RXhwZWN0ZWRUeXBlPkE8L0V4cGVjdGVkVHlwZT4NCiAgICAgICAgPERpcmVjdGlvbj5PPC9EaXJlY3Rpb24+DQogICAgICA8L01hcHBpbmdFeHA+DQogICAgPC9Bcmd1bWVudD4NCiAgPC9PcGVyYXRpb24+DQoNCiAgPFB1dEFyZ3VtZW50WE1MSW50b0V4cG5JRD4wPC9QdXRBcmd1bWVudFhNTEludG9FeHBuSUQ+DQoNCiAgPEZhdWx0RXhwPg0KICAgIDxFeHByZXNzaW9uVmFsPlBDTWhKVUFrUG1kbGRGWmhjazVoYldVb01Td25lMEZGT1RRd1FUZEVMVU0xT1VVdE5FUXlRUzFCTnpRNUxUQTVNelZFUmtKQk9ESXpRWDBuTERBc01DazhJeUVsUUNRKzwvRXhwcmVzc2lvblZhbD4NCiAgICA8RXhwZWN0ZWRUeXBlPkI8L0V4cGVjdGVkVHlwZT4NCiAgICA8RGlyZWN0aW9uPk88L0RpcmVjdGlvbj4NCiAgPC9GYXVsdEV4cD4NCg0KICA8SWRlbnRpdHkvPg0KDQogIDxJZGVudGl0eVBhc3N3b3JkLz4NCg0KICA8UmVzcG9uc2VCbG9iVHlwZT5CPC9SZXNwb25zZUJsb2JUeXBlPg0KDQogIDxSZXF1ZXN0QmxvYnNUeXBlPlU8L1JlcXVlc3RCbG9ic1R5cGU+DQoNCjwvV2ViU2VydmljZT4NCg==</ActivationBLOB>
+      </ConfigInfo>
+      <iBoltService/>
+    </row_Step>
+    <row_Step>
+      <Properties>
+        <isGoTo>false</isGoTo>
+        <ParentStepID>1</ParentStepID>
+        <SortOrder>1</SortOrder>
+        <ID>2</ID>
+        <Name>ForDebugBreakpoint</Name>
+        <IFCDefinition>22</IFCDefinition>
+        <ProcessMode>1</ProcessMode>
+        <isTwoPhase>false</isTwoPhase>
+        <isWait4Comp>false</isWait4Comp>
+        <isSavePoint>false</isSavePoint>
+        <CallLogicFlow>false</CallLogicFlow>
+        <isTrigger>false</isTrigger>
+      </Properties>
+      <LoggingInfo>
+        <Scope>0</Scope>
+      </LoggingInfo>
+      <iBoltService/>
+    </row_Step>
+  </Steps>
+
+</Flow>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<GlobalVarRepository>
+								<Variable d2p1:type="VariableRepositoryItem" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance">
+				<GUID>000000000000000000000000000000000000022</GUID>
+				<ID>0</ID>
+				<Order>22</Order>
+				<Name>G.sys.ComponentLogging</Name>								
+				<Description>Handles the component&apos;s global logging process</Description>
+				<IsSystemVariable>true</IsSystemVariable>
+					<Type>
+						<Type>L</Type>
+						<Picture>1</Picture>
+													<isUnicode>false</isUnicode>
+																			<isNillable>false</isNillable>
+											</Type>
+											<DefaultValue>
+							<ExpressionVal>J1RSVUUnTE9H</ExpressionVal>
+							<ExpectedType>L</ExpectedType>
+							<Direction>I</Direction>
+						</DefaultValue>
+  											<isDeleted>false</isDeleted>
+					<IsNameIncompatible>false</IsNameIncompatible>
+		</Variable>
+	  									<Variable d2p1:type="VariableRepositoryItem" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance">
+				<GUID>000000000000000000000000000000000000004</GUID>
+				<ID>0</ID>
+				<Order>4</Order>
+				<Name>G.sys.ServerInstance</Name>								
+				<Description>Server instance.</Description>
+				<IsSystemVariable>true</IsSystemVariable>
+					<Type>
+						<Type>N</Type>
+						<Picture>5.0</Picture>
+													<isUnicode>false</isUnicode>
+																			<isNillable>false</isNillable>
+											</Type>
+											<isDeleted>false</isDeleted>
+					<IsNameIncompatible>false</IsNameIncompatible>
+		</Variable>
+	  				</GlobalVarRepository>

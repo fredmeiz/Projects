@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<FlowVariables>
+							<Variable d2p1:type="VariableRepositoryItem" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance">
+			<GUID>{DAA8F533-FABE-44DA-8ACE-7EA869745FFB}</GUID>
+			<ID>1</ID>
+			<Order>30</Order>
+			<Name>F.Source</Name>
+						<Type>
+				<Type>A</Type>
+				<Picture>260</Picture>
+									<isUnicode>false</isUnicode>
+													<isNillable>false</isNillable>
+							</Type>
+									<DefaultValue>
+				<ExpressionVal>VHJhbnNsYXRlICgnJWN1cnJlbnRwcm9qZWN0ZGlyJVNyYycp</ExpressionVal>
+				<ExpectedType>A</ExpectedType>
+				<Direction>I</Direction>
+			</DefaultValue>
+										<isDeleted>false</isDeleted>
+						<IsSystemVariable>false</IsSystemVariable>
+			<IsNameIncompatible>false</IsNameIncompatible>
+			</Variable>
+									<Variable d2p1:type="VariableRepositoryItem" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance">
+			<GUID>{107A01FE-7EF4-4774-A902-D0236ED44ABE}</GUID>
+			<ID>2</ID>
+			<Order>31</Order>
+			<Name>F.Filter</Name>
+						<Type>
+				<Type>A</Type>
+				<Picture>30</Picture>
+									<isUnicode>false</isUnicode>
+													<isNillable>false</isNillable>
+							</Type>
+									<DefaultValue>
+				<ExpressionVal>JyouZG9jJw==</ExpressionVal>
+				<ExpectedType>A</ExpectedType>
+				<Direction>I</Direction>
+			</DefaultValue>
+										<isDeleted>false</isDeleted>
+						<IsSystemVariable>false</IsSystemVariable>
+			<IsNameIncompatible>false</IsNameIncompatible>
+			</Variable>
+									<Variable d2p1:type="VariableRepositoryItem" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance">
+			<GUID>{27B85BC0-C50F-475C-AB9F-C4D654291289}</GUID>
+			<ID>3</ID>
+			<Order>32</Order>
+			<Name>F.Destination</Name>
+						<Type>
+				<Type>A</Type>
+				<Picture>260</Picture>
+									<isUnicode>false</isUnicode>
+													<isNillable>false</isNillable>
+							</Type>
+									<DefaultValue>
+				<ExpressionVal>VHJhbnNsYXRlICgnJWN1cnJlbnRwcm9qZWN0ZGlyJURlc3QnKQ==</ExpressionVal>
+				<ExpectedType>A</ExpectedType>
+				<Direction>I</Direction>
+			</DefaultValue>
+										<isDeleted>false</isDeleted>
+						<IsSystemVariable>false</IsSystemVariable>
+			<IsNameIncompatible>false</IsNameIncompatible>
+			</Variable>
+					</FlowVariables>
+	

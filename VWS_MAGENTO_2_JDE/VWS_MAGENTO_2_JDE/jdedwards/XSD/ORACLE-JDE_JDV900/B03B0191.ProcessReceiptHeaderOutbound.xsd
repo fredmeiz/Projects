@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2007 sp2 (http://www.altova.com) by Regev (private) -->
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" version="1.0">
+	<xsd:element name="B03B0191.ProcessReceiptHeaderOutbound">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element name="Data">
+					<xsd:complexType>
+						<xsd:sequence>
+							<xsd:element name="row">
+								<xsd:complexType>
+									<xsd:sequence maxOccurs="unbounded">
+										<xsd:element name="szTransactionAction">
+											<xsd:annotation>
+												<xsd:documentation>Required=NO  IOType=IN</xsd:documentation>
+											</xsd:annotation>
+											<xsd:simpleType>
+												<xsd:restriction base="xsd:string">
+													<xsd:maxLength value="3"/>
+												</xsd:restriction>
+											</xsd:simpleType>
+										</xsd:element>
+										<xsd:element name="szTransactionType">
+											<xsd:annotation>
+												<xsd:documentation>Required=NO  IOType=IN</xsd:documentation>
+											</xsd:annotation>
+											<xsd:simpleType>
+												<xsd:restriction base="xsd:string">
+													<xsd:maxLength value="9"/>
+												</xsd:restriction>
+											</xsd:simpleType>
+										</xsd:element>
+										<xsd:element name="cChangeMode">
+											<xsd:annotation>
+												<xsd:documentation>Required=NO  IOType=IN</xsd:documentation>
+											</xsd:annotation>
+											<xsd:simpleType>
+												<xsd:restriction base="xsd:string">
+													<xsd:maxLength value="1"/>
+												</xsd:restriction>
+											</xsd:simpleType>
+										</xsd:element>
+										<xsd:element name="szEDIUserID">
+											<xsd:annotation>
+												<xsd:documentation>Required=NO  IOType=IN</xsd:documentation>
+											</xsd:annotation>
+											<xsd:simpleType>
+												<xsd:restriction base="xsd:string">
+													<xsd:maxLength value="11"/>
+												</xsd:restriction>
+											</xsd:simpleType>
+										</xsd:element>
+										<xsd:element name="szEDIBatchNumber">
+											<xsd:annotation>
+												<xsd:documentation>Required=YES  IOType=INOUT</xsd:documentation>
+											</xsd:annotation>
+											<xsd:simpleType>
+												<xsd:restriction base="xsd:string">
+													<xsd:maxLength value="16"/>
+												</xsd:restriction>
+											</xsd:simpleType>
+										</xsd:element>
+										<xsd:element name="szEDITransactionNumber">
+											<xsd:annotation>
+												<xsd:documentation>Required=YES  IOType=INOUT</xsd:documentation>
+											</xsd:annotation>
+											<xsd:simpleType>
+												<xsd:restriction base="xsd:string">
+													<xsd:maxLength value="23"/>
+												</xsd:restriction>
+											</xsd:simpleType>
+										</xsd:element>
+										<xsd:element name="mnEDILineNumber">
+											<xsd:annotation>
+												<xsd:documentation>Required=YES  IOType=INOUT</xsd:documentation>
+											</xsd:annotation>
+											<xsd:simpleType>
+												<xsd:restriction base="xsd:string">
+													<xsd:maxLength value="32"/>
+												</xsd:restriction>
+											</xsd:simpleType>
+										</xsd:element>
+										<xsd:element name="szTranslationFormat">
+											<xsd:annotation>
+												<xsd:documentation>Required=YES  IOType=IN</xsd:documentation>
+											</xsd:annotation>
+											<xsd:simpleType>
+												<xsd:restriction base="xsd:string">
+													<xsd:maxLength value="11"/>
+												</xsd:restriction>
+											</xsd:simpleType>
+										</xsd:element>
+										<xsd:element name="jdTransmissionDate">
+											<xsd:annotation>
+												<xsd:documentation>Required=YES  IOType=IN</xsd:documentation>
+											</xsd:annotation>
+											<xsd:simpleType>
+												<xsd:restriction base="xsd:date"/>
+											</xsd:simpleType>
+										</xsd:element>
+										<xsd:element name="mnNumberOfDetailLines">
+											<xsd:annotation>
+												<xsd:documentation>Required=YES  IOType=IN</xsd:documentation>
+											</xsd:annotation>
+											<xsd:simpleType>
+												<xsd:restriction base="xsd:string">
+													<xsd:maxLength value="32"/>
+												</xsd:restriction>
+											</xsd:simpleType>
+										</xsd:element>
+										<xsd:element name="szTradingPartnerID">
+											<xsd:annotation>
+												<xsd:documentation>Required=YES  IOType=IN</xsd:documentation>
+											</xsd:annotation>
+											<xsd:simpleType>
+												<xsd:restriction base="xsd:string">
+													<xsd:maxLength value="16"/>
+												</xsd:restriction>
+											</xsd:simpleType>
+										</xsd:element>
+										<xsd:element name="mnPaymentID">
+											<xsd:annotation>
+												<xsd:documentation>Required=YES  IOType=IN</xsd:documentation>
+											</xsd:annotation>
+											<xsd:simpleType>
+												<xsd:restriction base="xsd:string">
+													<xsd:maxLength value="32"/>
+												</xsd:restriction>
+											</xsd:simpleType>
+										</xsd:element>
+										<xsd:element name="cBatchMode">
+											<xsd:annotation>
+												<xsd:documentation>Required=YES  IOType=IN</xsd:documentation>
+											</xsd:annotation>
+											<xsd:simpleType>
+												<xsd:restriction base="xsd:string">
+													<xsd:maxLength value="1"/>
+												</xsd:restriction>
+											</xsd:simpleType>
+										</xsd:element>
+										<xsd:element name="idF03B13Handle">
+											<xsd:annotation>
+												<xsd:documentation>Required=YES  IOType=IN</xsd:documentation>
+											</xsd:annotation>
+											<xsd:simpleType>
+												<xsd:restriction base="xsd:string"/>
+											</xsd:simpleType>
+										</xsd:element>
+										<xsd:element name="idF03B13Z2Handle" type="xsd:string">
+											<xsd:annotation>
+												<xsd:documentation>Required=YES  IOType=IN</xsd:documentation>
+											</xsd:annotation>
+										</xsd:element>
+									</xsd:sequence>
+								</xsd:complexType>
+							</xsd:element>
+						</xsd:sequence>
+					</xsd:complexType>
+				</xsd:element>
+				<xsd:element name="Messages">
+					<xsd:annotation>
+						<xsd:documentation>Return errors/warnings messages</xsd:documentation>
+					</xsd:annotation>
+					<xsd:complexType>
+						<xsd:sequence minOccurs="0">
+							<xsd:element name="row" maxOccurs="unbounded">
+								<xsd:complexType>
+									<xsd:sequence>
+										<xsd:element name="Level" type="xsd:integer"/>
+										<xsd:element name="ID" type="xsd:integer"/>
+										<xsd:element name="DDItem" type="xsd:string"/>
+										<xsd:element name="Description" type="xsd:string"/>
+										<xsd:element name="SubText" type="xsd:string"/>
+									</xsd:sequence>
+								</xsd:complexType>
+							</xsd:element>
+						</xsd:sequence>
+					</xsd:complexType>
+				</xsd:element>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+</xsd:schema>

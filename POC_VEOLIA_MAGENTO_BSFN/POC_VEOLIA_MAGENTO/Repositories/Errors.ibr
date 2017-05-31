@@ -1,0 +1,2588 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+	<ErrorRepository xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+							<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{1364D087-B273-4BEE-A017-72FEC148407B}</GUID>
+				<ID>11</ID>
+				<Order>1</Order>
+				<Description>Data Mapper</Description>
+				<Name></Name>								
+				<ParentID>0</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{69E70F96-A023-4CC0-92F0-5B5B21D5E8CA}</GUID>
+				<ID>12</ID>
+				<Order>2</Order>
+				<Description>Flow Data</Description>
+				<Name></Name>								
+				<ParentID>0</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{BEE58166-8B7A-4FFD-BB75-0385989D6F61}</GUID>
+				<ID>17</ID>
+				<Order>3</Order>
+				<Description>Java Class Connector</Description>
+				<Name></Name>								
+				<ParentID>0</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{91FF952B-C7C6-4060-979A-222FDA9FC15F}</GUID>
+				<ID>24</ID>
+				<Order>4</Order>
+				<Description>Refresh Conversions</Description>
+				<Name></Name>								
+				<ParentID>0</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{A3E2247D-68A2-4D7D-98FC-BE8754B7FD93}</GUID>
+				<ID>25</ID>
+				<Order>5</Order>
+				<Description>Web Services</Description>
+				<Name></Name>								
+				<ParentID>0</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{52CE3688-6956-433A-A620-C6BCB5B6E770}</GUID>
+				<ID>27</ID>
+				<Order>6</Order>
+				<Description>.Net Action</Description>
+				<Name></Name>								
+				<ParentID>0</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{D9D203A6-8DA2-4BCA-81BB-8EDAC5EFEE98}</GUID>
+				<ID>100</ID>
+				<Order>7</Order>
+				<Description>User Error</Description>
+				<Name></Name>								
+				<ParentID>0</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{81A32DED-EF5B-4137-838F-DD1CEF6528BE}</GUID>
+				<ID>103</ID>
+				<Order>8</Order>
+				<Description>Directory Scanner</Description>
+				<Name></Name>								
+				<ParentID>0</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{FFC43FD1-D769-49B9-8444-B89977636359}</GUID>
+				<ID>104</ID>
+				<Order>9</Order>
+				<Description>Domino</Description>
+				<Name></Name>								
+				<ParentID>0</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{FF0608AD-C664-4241-A9BE-F07B4859B722}</GUID>
+				<ID>106</ID>
+				<Order>10</Order>
+				<Description>Email</Description>
+				<Name></Name>								
+				<ParentID>0</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{1A5DC133-BEC7-4783-B4E7-C05C05F0B01B}</GUID>
+				<ID>108</ID>
+				<Order>11</Order>
+				<Description>File Management</Description>
+				<Name></Name>								
+				<ParentID>0</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{45138462-C3C0-4A44-A946-CC47B78984E9}</GUID>
+				<ID>109</ID>
+				<Order>12</Order>
+				<Description>FTP</Description>
+				<Name></Name>								
+				<ParentID>0</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{CE7F8908-F35F-4C3B-9AB9-CBB37CD8BCB4}</GUID>
+				<ID>110</ID>
+				<Order>13</Order>
+				<Description>HTTP</Description>
+				<Name></Name>								
+				<ParentID>0</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{98BEE6B5-3346-4094-A67D-FEDE673618B1}</GUID>
+				<ID>111</ID>
+				<Order>14</Order>
+				<Description>IBM i</Description>
+				<Name></Name>								
+				<ParentID>0</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{0B632588-9A81-4E8C-82EA-30EDBD3C4BDC}</GUID>
+				<ID>115</ID>
+				<Order>15</Order>
+				<Description>JMS</Description>
+				<Name></Name>								
+				<ParentID>0</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{30CF4550-FB1B-4600-BFC1-6AF0EA9AFE4F}</GUID>
+				<ID>117</ID>
+				<Order>16</Order>
+				<Description>WebSphere MQ</Description>
+				<Name></Name>								
+				<ParentID>0</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{22B1402F-3AAD-4D13-B967-B999E9A73BE5}</GUID>
+				<ID>118</ID>
+				<Order>17</Order>
+				<Description>MSMQ</Description>
+				<Name></Name>								
+				<ParentID>0</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{0D6C7C4F-323D-45EA-8738-F242BBBC9CC5}</GUID>
+				<ID>122</ID>
+				<Order>18</Order>
+				<Description>File Archive</Description>
+				<Name></Name>								
+				<ParentID>0</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{892CC2AF-9956-4305-9AB1-0D3F696903F0}</GUID>
+				<ID>123</ID>
+				<Order>19</Order>
+				<Description>Encryption</Description>
+				<Name></Name>								
+				<ParentID>0</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{3BB6DF78-7B40-46E5-A557-3C4DDC0B0D3A}</GUID>
+				<ID>124</ID>
+				<Order>20</Order>
+				<Description>File Splitter</Description>
+				<Name></Name>								
+				<ParentID>0</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{EEB1A464-38B0-45C8-A3A7-51CFA247F7A4}</GUID>
+				<ID>128</ID>
+				<Order>21</Order>
+				<Description>SAPB1 2004</Description>
+				<Name></Name>								
+				<ParentID>0</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{A21275E9-8FA8-4105-A954-E2EF13D01379}</GUID>
+				<ID>132</ID>
+				<Order>22</Order>
+				<Description>XSLT</Description>
+				<Name></Name>								
+				<ParentID>0</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{B1B1C84A-D6FB-47AE-A468-30926709BCCB}</GUID>
+				<ID>133</ID>
+				<Order>23</Order>
+				<Description>SAPB1 2005</Description>
+				<Name></Name>								
+				<ParentID>0</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{FF9AED09-AB1E-477E-8A1C-89C9E9642F96}</GUID>
+				<ID>138</ID>
+				<Order>24</Order>
+				<Description>Microsoft Word</Description>
+				<Name></Name>								
+				<ParentID>0</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{20B1921B-9F23-42ED-B676-22A8830B0BEA}</GUID>
+				<ID>139</ID>
+				<Order>25</Order>
+				<Description>Microsoft Excel</Description>
+				<Name></Name>								
+				<ParentID>0</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{D3C8E813-5359-40EF-B104-74C8748DB04F}</GUID>
+				<ID>140</ID>
+				<Order>26</Order>
+				<Description>SAP R/3</Description>
+				<Name></Name>								
+				<ParentID>0</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{643D1437-A378-4AB6-9EF8-17F81B2AEE46}</GUID>
+				<ID>141</ID>
+				<Order>27</Order>
+				<Description>SAPB1 2007</Description>
+				<Name></Name>								
+				<ParentID>0</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{755D6803-BF7B-48EE-B89F-36D16D480F7C}</GUID>
+				<ID>143</ID>
+				<Order>28</Order>
+				<Description>Salesforce</Description>
+				<Name></Name>								
+				<ParentID>0</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{F2CE2926-9AFC-4AA7-88DF-EEE58177B26F}</GUID>
+				<ID>144</ID>
+				<Order>29</Order>
+				<Description>Notes DB</Description>
+				<Name></Name>								
+				<ParentID>0</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{DD623AFF-FB86-4B9C-82FD-2E6C9FB99277}</GUID>
+				<ID>145</ID>
+				<Order>30</Order>
+				<Description>JD Edwards</Description>
+				<Name></Name>								
+				<ParentID>0</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{2818174D-9948-4ADB-BF08-1334EED95C7E}</GUID>
+				<ID>148</ID>
+				<Order>31</Order>
+				<Description>Validation</Description>
+				<Name></Name>								
+				<ParentID>0</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{30E9E481-6C5B-46E5-8B75-2B6697FA44D4}</GUID>
+				<ID>149</ID>
+				<Order>32</Order>
+				<Description>HL7</Description>
+				<Name></Name>								
+				<ParentID>0</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{B9F83465-5E2A-4B10-95BE-0D4710DC304B}</GUID>
+				<ID>151</ID>
+				<Order>33</Order>
+				<Description>Google Calendar</Description>
+				<Name></Name>								
+				<ParentID>0</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{E03361AB-E13E-4473-864C-BCA8264DB18D}</GUID>
+				<ID>152</ID>
+				<Order>34</Order>
+				<Description>LDAP</Description>
+				<Name></Name>								
+				<ParentID>0</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{6FA80270-7DD1-4CD2-89F1-220C484E0E16}</GUID>
+				<ID>153</ID>
+				<Order>35</Order>
+				<Description>SAP A1</Description>
+				<Name></Name>								
+				<ParentID>0</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{38182762-EC39-4106-99E3-4C0024B9BAB8}</GUID>
+				<ID>154</ID>
+				<Order>36</Order>
+				<Description>Google Docs</Description>
+				<Name></Name>								
+				<ParentID>0</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{8F0E9AB8-FCBA-4C2F-8F78-CDC2407C5FA2}</GUID>
+				<ID>155</ID>
+				<Order>37</Order>
+				<Description>XML Handling</Description>
+				<Name></Name>								
+				<ParentID>0</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{4F7E0253-293A-4978-A1AF-E4C331D9C824}</GUID>
+				<ID>156</ID>
+				<Order>38</Order>
+				<Description>Dynamics CRM</Description>
+				<Name></Name>								
+				<ParentID>0</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{89922204-BEFA-4294-A510-0326E197EA64}</GUID>
+				<ID>157</ID>
+				<Order>39</Order>
+				<Description>Exchange</Description>
+				<Name></Name>								
+				<ParentID>0</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{4A7B18CB-001C-4FB1-9574-D3B03705AE18}</GUID>
+				<ID>158</ID>
+				<Order>40</Order>
+				<Description>TCPListener</Description>
+				<Name></Name>								
+				<ParentID>0</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{EAB3D770-C738-43D7-9A0A-4CF3FB133C32}</GUID>
+				<ID>159</ID>
+				<Order>41</Order>
+				<Description>SharePoint</Description>
+				<Name></Name>								
+				<ParentID>0</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{1103EDBD-A560-4456-BBCD-0627C8788882}</GUID>
+				<ID>160</ID>
+				<Order>42</Order>
+				<Description>SAPB1 8.8</Description>
+				<Name></Name>								
+				<ParentID>0</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{2D7A2BB4-933A-4BE8-BF8A-9935B87581FB}</GUID>
+				<ID>162</ID>
+				<Order>43</Order>
+				<Description>Sugar</Description>
+				<Name></Name>								
+				<ParentID>0</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{FA6F939E-28E1-4613-B159-7BE49969E883}</GUID>
+				<ID>999999999998</ID>
+				<Order>44</Order>
+				<Description>General</Description>
+				<Name></Name>								
+				<ParentID>0</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{E80F6ABE-4007-4682-AA34-9CE68868093A}</GUID>
+				<ID>999999999999</ID>
+				<Order>45</Order>
+				<Description>All</Description>
+				<Name></Name>								
+				<ParentID>0</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{F1947C94-9021-4672-9E3C-5AF9ED2E4493}</GUID>
+				<ID>450</ID>
+				<Order>46</Order>
+				<Description>Invalid XML in source</Description>
+				<Name></Name>								
+				<ParentID>11</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{87E9EEB7-6CC4-4CDC-B6F5-E288EB83CD34}</GUID>
+				<ID>451</ID>
+				<Order>47</Order>
+				<Description>Invalid XML in destination</Description>
+				<Name></Name>								
+				<ParentID>11</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{7910BABF-FAD9-47AE-ADB5-BF7A7B560119}</GUID>
+				<ID>452</ID>
+				<Order>48</Order>
+				<Description>Source XML does not match the schema</Description>
+				<Name></Name>								
+				<ParentID>11</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{63CEE025-36AD-49E8-81C7-925DD7420687}</GUID>
+				<ID>453</ID>
+				<Order>49</Order>
+				<Description>Destination XML does not match the schema</Description>
+				<Name></Name>								
+				<ParentID>11</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{BF4EE3A7-FC5D-4B01-9E2A-5C3C3BD6ADA0}</GUID>
+				<ID>454</ID>
+				<Order>50</Order>
+				<Description>Source file does not exist</Description>
+				<Name></Name>								
+				<ParentID>11</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{FCD8A439-03C5-4805-BABF-0DF44F74A04E}</GUID>
+				<ID>455</ID>
+				<Order>51</Order>
+				<Description>Source XML is not well formed</Description>
+				<Name></Name>								
+				<ParentID>11</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{377DB1CB-0021-4E94-B8D2-D030F59211BC}</GUID>
+				<ID>9801</ID>
+				<Order>52</Order>
+				<Description>Locked row</Description>
+				<Name></Name>								
+				<ParentID>11</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{224D14FE-C5B1-48E1-9310-739B8062CC3F}</GUID>
+				<ID>9802</ID>
+				<Order>53</Order>
+				<Description>Duplicate Index</Description>
+				<Name></Name>								
+				<ParentID>11</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{3F78168B-E202-4E31-8F73-9014EEB52F50}</GUID>
+				<ID>9803</ID>
+				<Order>54</Order>
+				<Description>Constraint failure</Description>
+				<Name></Name>								
+				<ParentID>11</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{74F93565-A36D-410E-8A69-195B9C07DAD1}</GUID>
+				<ID>9804</ID>
+				<Order>55</Order>
+				<Description>Insert/Update/Delete failure</Description>
+				<Name></Name>								
+				<ParentID>11</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{DE492FFF-2A44-4E4D-94B5-AB6380F9ADF3}</GUID>
+				<ID>9805</ID>
+				<Order>56</Order>
+				<Description>General DB error</Description>
+				<Name></Name>								
+				<ParentID>11</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{484B048B-091F-4B74-9273-E6E3BC5E6329}</GUID>
+				<ID>800</ID>
+				<Order>57</Order>
+				<Description>Flow Data General Error</Description>
+				<Name></Name>								
+				<ParentID>12</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{ADE26C49-3064-4435-B008-63B8371BA76C}</GUID>
+				<ID>950</ID>
+				<Order>58</Order>
+				<Description>Java Exception</Description>
+				<Name></Name>								
+				<ParentID>17</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{342C8577-E0C0-4CC4-BA6C-3D814BFEC3DC}</GUID>
+				<ID>1150</ID>
+				<Order>59</Order>
+				<Description>Conversion Table not found</Description>
+				<Name></Name>								
+				<ParentID>24</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{05EC844F-D48F-4CE6-AE57-307B61FFA2B8}</GUID>
+				<ID>550</ID>
+				<Order>60</Order>
+				<Description>WebService Error</Description>
+				<Name></Name>								
+				<ParentID>25</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{E7140DFF-9C44-4C8D-9519-B43AF780CA42}</GUID>
+				<ID>777</ID>
+				<Order>61</Order>
+				<Description>.NET Invocation Error</Description>
+				<Name></Name>								
+				<ParentID>27</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{F2E51C4C-320D-4DBE-AB66-F9D99FB7590E}</GUID>
+				<ID>250</ID>
+				<Order>62</Order>
+				<Description>Java Exception</Description>
+				<Name></Name>								
+				<ParentID>103</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{738E50B1-6125-414B-A641-430EACAADCAC}</GUID>
+				<ID>251</ID>
+				<Order>63</Order>
+				<Description>FTP server errors</Description>
+				<Name></Name>								
+				<ParentID>103</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{99457C26-58E8-4163-8549-DA693432D299}</GUID>
+				<ID>252</ID>
+				<Order>64</Order>
+				<Description>Data validity errors</Description>
+				<Name></Name>								
+				<ParentID>103</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{D767BFBA-8680-4A02-8B26-CFBDD5CF0355}</GUID>
+				<ID>253</ID>
+				<Order>65</Order>
+				<Description>FTP(SSL) connection has failed.</Description>
+				<Name></Name>								
+				<ParentID>103</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{5A1857B0-D385-4772-B562-A25E48FB3421}</GUID>
+				<ID>254</ID>
+				<Order>66</Order>
+				<Description>Failed to load Server Certification.</Description>
+				<Name></Name>								
+				<ParentID>103</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{3FF5B2BA-0C51-421C-87BB-989134336233}</GUID>
+				<ID>255</ID>
+				<Order>67</Order>
+				<Description>Failed to load Client Certification.</Description>
+				<Name></Name>								
+				<ParentID>103</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{3D55578F-F6E6-461C-9E13-77944E73AD3E}</GUID>
+				<ID>256</ID>
+				<Order>68</Order>
+				<Description>Failed to load Client Password.</Description>
+				<Name></Name>								
+				<ParentID>103</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{75F72A3A-C31A-4F5C-A50B-AD28F3F2C056}</GUID>
+				<ID>257</ID>
+				<Order>69</Order>
+				<Description>FTP connection has failed.</Description>
+				<Name></Name>								
+				<ParentID>103</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{2BCA2789-974F-43B8-9DD0-5B143DE0712F}</GUID>
+				<ID>300</ID>
+				<Order>70</Order>
+				<Description>Database errors</Description>
+				<Name></Name>								
+				<ParentID>104</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{A32CEFF7-EF5D-412F-9413-B8447E9362ED}</GUID>
+				<ID>301</ID>
+				<Order>71</Order>
+				<Description>Data validity errors</Description>
+				<Name></Name>								
+				<ParentID>104</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{C5CEE0F1-39C1-4CA0-A564-20EC47C7D3A5}</GUID>
+				<ID>302</ID>
+				<Order>72</Order>
+				<Description>Operations errors</Description>
+				<Name></Name>								
+				<ParentID>104</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{83A75601-FDCE-4668-B192-E3C1C7144C4C}</GUID>
+				<ID>303</ID>
+				<Order>73</Order>
+				<Description>General errors</Description>
+				<Name></Name>								
+				<ParentID>104</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{5F4399EF-DB7A-471A-9D5B-7E1AB6AC7666}</GUID>
+				<ID>950</ID>
+				<Order>74</Order>
+				<Description>Java Exception</Description>
+				<Name></Name>								
+				<ParentID>105</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{B8686C9C-2E55-4196-9E02-5DC3960311E9}</GUID>
+				<ID>100</ID>
+				<Order>75</Order>
+				<Description>Connection error</Description>
+				<Name></Name>								
+				<ParentID>106</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{50373B8E-7AEC-4E24-AA05-253381047334}</GUID>
+				<ID>101</ID>
+				<Order>76</Order>
+				<Description>Disconnect error</Description>
+				<Name></Name>								
+				<ParentID>106</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{4A756600-F901-43E4-8DB7-DA86BC15FC41}</GUID>
+				<ID>102</ID>
+				<Order>77</Order>
+				<Description>Send Mail error</Description>
+				<Name></Name>								
+				<ParentID>106</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{0DB64A83-CE7B-4626-B98D-EF0472244ED2}</GUID>
+				<ID>103</ID>
+				<Order>78</Order>
+				<Description>Receive Mail error</Description>
+				<Name></Name>								
+				<ParentID>106</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{943C7BEB-530F-47E3-99AB-0CC6F794030C}</GUID>
+				<ID>200</ID>
+				<Order>79</Order>
+				<Description>Folder does not exist</Description>
+				<Name></Name>								
+				<ParentID>108</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{30C1AB2D-AA43-4D76-B819-DD0DD4EF1DE4}</GUID>
+				<ID>201</ID>
+				<Order>80</Order>
+				<Description>Folder cannot be deleted</Description>
+				<Name></Name>								
+				<ParentID>108</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{40551CBF-A492-4A8F-918D-6886DC379BDF}</GUID>
+				<ID>202</ID>
+				<Order>81</Order>
+				<Description>File not found</Description>
+				<Name></Name>								
+				<ParentID>108</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{5B8EDEAF-7CCB-4E65-B1E2-E210B9280BED}</GUID>
+				<ID>203</ID>
+				<Order>82</Order>
+				<Description>File cannot be copied</Description>
+				<Name></Name>								
+				<ParentID>108</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{A9EAEA3F-ACA1-42AD-A0D3-5052713DDDF3}</GUID>
+				<ID>204</ID>
+				<Order>83</Order>
+				<Description>File cannot be renamed</Description>
+				<Name></Name>								
+				<ParentID>108</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{CD32A56D-2ED9-4D47-BABA-79839EC8E518}</GUID>
+				<ID>205</ID>
+				<Order>84</Order>
+				<Description>File cannot be deleted</Description>
+				<Name></Name>								
+				<ParentID>108</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{EA761567-E25F-42FD-84FE-225B3447527C}</GUID>
+				<ID>206</ID>
+				<Order>85</Order>
+				<Description>Writing into a file failed</Description>
+				<Name></Name>								
+				<ParentID>108</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{85AF0D97-B244-4351-A98A-1E95AEE0FC8D}</GUID>
+				<ID>207</ID>
+				<Order>86</Order>
+				<Description>Failed to execute command line</Description>
+				<Name></Name>								
+				<ParentID>108</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{28E1042A-EFCA-4D8C-A05D-17B91D0D9FC9}</GUID>
+				<ID>210</ID>
+				<Order>87</Order>
+				<Description>File cannot be created</Description>
+				<Name></Name>								
+				<ParentID>108</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{7D3F7306-7267-4692-B653-0A396D6861B5}</GUID>
+				<ID>211</ID>
+				<Order>88</Order>
+				<Description>Command Line Timeout</Description>
+				<Name></Name>								
+				<ParentID>108</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{78E6D219-A2FC-43F3-BC1F-392F2D7D996D}</GUID>
+				<ID>212</ID>
+				<Order>89</Order>
+				<Description>Invalid Source or Invalid Destination</Description>
+				<Name></Name>								
+				<ParentID>108</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{AA4BD0FA-77E7-4E1C-9D0E-701C8A76A727}</GUID>
+				<ID>213</ID>
+				<Order>90</Order>
+				<Description>Required parameter values are missing</Description>
+				<Name></Name>								
+				<ParentID>108</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{E67EC844-0EFE-4A6A-934A-A7F516541D07}</GUID>
+				<ID>214</ID>
+				<Order>91</Order>
+				<Description>Folder already exists</Description>
+				<Name></Name>								
+				<ParentID>108</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{4740F1DC-BA3F-47DD-9719-ED78C838DEF9}</GUID>
+				<ID>215</ID>
+				<Order>92</Order>
+				<Description>Java Exception</Description>
+				<Name></Name>								
+				<ParentID>108</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{F7344175-7F46-43D3-BF55-BA55E9C1F12B}</GUID>
+				<ID>216</ID>
+				<Order>93</Order>
+				<Description>Operation Failed</Description>
+				<Name></Name>								
+				<ParentID>108</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{BBC8C3EF-495F-4FC7-8263-E7578B8716CA}</GUID>
+				<ID>503</ID>
+				<Order>94</Order>
+				<Description>File Not Found</Description>
+				<Name></Name>								
+				<ParentID>109</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{33EC990C-5231-4732-8421-6C173B657908}</GUID>
+				<ID>504</ID>
+				<Order>95</Order>
+				<Description>IO Error</Description>
+				<Name></Name>								
+				<ParentID>109</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{ECD82538-18BC-488E-BAAC-2C397E559248}</GUID>
+				<ID>505</ID>
+				<Order>96</Order>
+				<Description>Operation Failed</Description>
+				<Name></Name>								
+				<ParentID>109</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{51E3E8A4-F7E1-4312-960B-09163B0AC2C5}</GUID>
+				<ID>506</ID>
+				<Order>97</Order>
+				<Description>Parse Exception</Description>
+				<Name></Name>								
+				<ParentID>109</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{260C9832-E614-493A-9437-1ED8CD92915F}</GUID>
+				<ID>507</ID>
+				<Order>98</Order>
+				<Description>Illegal arguments</Description>
+				<Name></Name>								
+				<ParentID>109</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{295F5D5A-FBE1-4478-9266-8834A4BBB1D7}</GUID>
+				<ID>508</ID>
+				<Order>99</Order>
+				<Description>FTP Error</Description>
+				<Name></Name>								
+				<ParentID>109</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{F2AB6D4A-C19D-449F-AD87-F638D653A72B}</GUID>
+				<ID>509</ID>
+				<Order>100</Order>
+				<Description>FTPS (SSL) connection has failed</Description>
+				<Name></Name>								
+				<ParentID>109</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{AF428715-BFA6-4085-A9F5-FA2643DB7381}</GUID>
+				<ID>510</ID>
+				<Order>101</Order>
+				<Description>Failed to load Server Certificate</Description>
+				<Name></Name>								
+				<ParentID>109</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{13FF92F6-059A-4881-A603-9A6F543992D6}</GUID>
+				<ID>511</ID>
+				<Order>102</Order>
+				<Description>Failed to load Client Certificate</Description>
+				<Name></Name>								
+				<ParentID>109</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{C325E91A-9596-4885-B221-46CCD32C21F5}</GUID>
+				<ID>512</ID>
+				<Order>103</Order>
+				<Description>Incorrect Client certificate password</Description>
+				<Name></Name>								
+				<ParentID>109</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{FD25C201-A2EA-47DD-B74E-C3F6D89D28F5}</GUID>
+				<ID>513</ID>
+				<Order>104</Order>
+				<Description>FTP connection has failed</Description>
+				<Name></Name>								
+				<ParentID>109</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{46740C22-5EED-48E8-92DA-FD3A49C05885}</GUID>
+				<ID>350</ID>
+				<Order>105</Order>
+				<Description>Error accessing URL</Description>
+				<Name></Name>								
+				<ParentID>110</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{997F4B9B-E28C-4E7C-8701-5AD678E4E6C4}</GUID>
+				<ID>351</ID>
+				<Order>106</Order>
+				<Description>Trigger not Found</Description>
+				<Name></Name>								
+				<ParentID>110</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{B8F7081A-1D6D-4DE7-A049-993A01453E34}</GUID>
+				<ID>352</ID>
+				<Order>107</Order>
+				<Description>Access Denied</Description>
+				<Name></Name>								
+				<ParentID>110</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{CB2B741E-8D2F-49B6-99B4-D6700E67403E}</GUID>
+				<ID>353</ID>
+				<Order>108</Order>
+				<Description>Condition Failed</Description>
+				<Name></Name>								
+				<ParentID>110</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{6B855EFA-E9A8-4D54-ACB4-3CFA5198F8B0}</GUID>
+				<ID>354</ID>
+				<Order>109</Order>
+				<Description>Mandatory parameter is null</Description>
+				<Name></Name>								
+				<ParentID>110</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{D83AA154-6E09-47AD-8125-AD62B08D78FE}</GUID>
+				<ID>355</ID>
+				<Order>110</Order>
+				<Description>The parameter does not exist</Description>
+				<Name></Name>								
+				<ParentID>110</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{471A5EEF-48EA-4277-BAC1-5712D9B23853}</GUID>
+				<ID>356</ID>
+				<Order>111</Order>
+				<Description>Data BLOB should not be null for Post method</Description>
+				<Name></Name>								
+				<ParentID>110</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{6BA86465-4666-44EC-BF61-DCBCE0EFD863}</GUID>
+				<ID>700</ID>
+				<Order>112</Order>
+				<Description>Error connecting to System i server</Description>
+				<Name></Name>								
+				<ParentID>111</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{7675F7CA-8698-475A-B1DC-89265567834C}</GUID>
+				<ID>701</ID>
+				<Order>113</Order>
+				<Description>Error while creating User Space</Description>
+				<Name></Name>								
+				<ParentID>111</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{C3E45176-5CBE-4122-89F4-DBAB1B1A7769}</GUID>
+				<ID>702</ID>
+				<Order>114</Order>
+				<Description>Error while updating User Space</Description>
+				<Name></Name>								
+				<ParentID>111</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{6E272278-BCDA-4ABF-9142-DCEBC78216EA}</GUID>
+				<ID>703</ID>
+				<Order>115</Order>
+				<Description>Error while Retrieving data from User Space</Description>
+				<Name></Name>								
+				<ParentID>111</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{EC40B329-E589-4E6C-A17A-B31AF4623873}</GUID>
+				<ID>704</ID>
+				<Order>116</Order>
+				<Description>Error while Deleting User Space</Description>
+				<Name></Name>								
+				<ParentID>111</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{993459E3-FE88-4C0C-A6AA-BEE1404C8D9D}</GUID>
+				<ID>705</ID>
+				<Order>117</Order>
+				<Description>Error while Creating Data Queue</Description>
+				<Name></Name>								
+				<ParentID>111</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{8521D5A7-377D-408D-94D1-544FB6A7F24D}</GUID>
+				<ID>706</ID>
+				<Order>118</Order>
+				<Description>Error while Sending Data to Data Queue</Description>
+				<Name></Name>								
+				<ParentID>111</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{239A91A2-E4EB-4377-8CF2-7EDB98E9255A}</GUID>
+				<ID>707</ID>
+				<Order>119</Order>
+				<Description>Error while Receiving Data from Data Queue</Description>
+				<Name></Name>								
+				<ParentID>111</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{4ECC6EA8-AC64-483C-9E23-61231516AD5F}</GUID>
+				<ID>708</ID>
+				<Order>120</Order>
+				<Description>Error while Deleting Data Queue</Description>
+				<Name></Name>								
+				<ParentID>111</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{4AE785A9-7B98-468B-9285-9B6881C1EA55}</GUID>
+				<ID>709</ID>
+				<Order>121</Order>
+				<Description>Error while Clearing Data Queue</Description>
+				<Name></Name>								
+				<ParentID>111</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{AFF1A677-ABC5-40FD-9629-CE38460F40B1}</GUID>
+				<ID>710</ID>
+				<Order>122</Order>
+				<Description>Error while Retrieving Data Queue Description</Description>
+				<Name></Name>								
+				<ParentID>111</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{58744E21-A1A3-4BBD-8DEF-E516EF741A30}</GUID>
+				<ID>711</ID>
+				<Order>123</Order>
+				<Description>Error while retrieving Spool List</Description>
+				<Name></Name>								
+				<ParentID>111</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{CC6F3412-6079-4DD5-B4EA-FE172F7633F9}</GUID>
+				<ID>712</ID>
+				<Order>124</Order>
+				<Description>Error while retrieving Spool File</Description>
+				<Name></Name>								
+				<ParentID>111</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{A08E3BD4-C3BA-4069-B414-0C3531A4B77B}</GUID>
+				<ID>713</ID>
+				<Order>125</Order>
+				<Description>Error while Calling program</Description>
+				<Name></Name>								
+				<ParentID>111</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{76621CE7-AFAC-4A78-A89A-0918B0EBB3D5}</GUID>
+				<ID>714</ID>
+				<Order>126</Order>
+				<Description>Error while Executing command</Description>
+				<Name></Name>								
+				<ParentID>111</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{9EC1DF86-DDE0-4C1B-A996-1E02E47E2B3B}</GUID>
+				<ID>715</ID>
+				<Order>127</Order>
+				<Description>Error while Retrieving IFS directory list</Description>
+				<Name></Name>								
+				<ParentID>111</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{F0C8D155-9A46-4A5D-A2B0-9B0E6DFF26CA}</GUID>
+				<ID>716</ID>
+				<Order>128</Order>
+				<Description>Error while Retrieving stream file</Description>
+				<Name></Name>								
+				<ParentID>111</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{3307935B-8A7F-4BF6-AD14-08C425277ADA}</GUID>
+				<ID>717</ID>
+				<Order>129</Order>
+				<Description>Error while Creating/updating stream file</Description>
+				<Name></Name>								
+				<ParentID>111</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{A85949C1-05AD-427D-96B2-319D7E801203}</GUID>
+				<ID>718</ID>
+				<Order>130</Order>
+				<Description>Error while using RUNQUERY command</Description>
+				<Name></Name>								
+				<ParentID>111</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{A848456F-801D-45E1-A6F6-5364CF748130}</GUID>
+				<ID>8001</ID>
+				<Order>131</Order>
+				<Description>Error during connection time</Description>
+				<Name></Name>								
+				<ParentID>115</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{B9E1B5AC-1D18-4A95-B61A-819FED55DCCB}</GUID>
+				<ID>8002</ID>
+				<Order>132</Order>
+				<Description>Error while sending\receiving</Description>
+				<Name></Name>								
+				<ParentID>115</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{51EC7E24-C13C-4A54-85C6-663B4E58C754}</GUID>
+				<ID>8003</ID>
+				<Order>133</Order>
+				<Description>Error during Get Data operation</Description>
+				<Name></Name>								
+				<ParentID>115</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{CC8BAB06-3281-4989-85E8-0AF4D1E7A247}</GUID>
+				<ID>8001</ID>
+				<Order>134</Order>
+				<Description>Error during connection time</Description>
+				<Name></Name>								
+				<ParentID>117</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{1D924D7D-0BE5-4D08-8A2D-92A1E4BF7E4C}</GUID>
+				<ID>8002</ID>
+				<Order>135</Order>
+				<Description>Error while sending\receiving</Description>
+				<Name></Name>								
+				<ParentID>117</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{FEDF8E8D-DB57-4DFF-87B0-7C3757996A5B}</GUID>
+				<ID>8003</ID>
+				<Order>136</Order>
+				<Description>Error during Get Data operation</Description>
+				<Name></Name>								
+				<ParentID>117</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{CC6279FF-FF76-480A-A9DF-6503868E1676}</GUID>
+				<ID>8001</ID>
+				<Order>137</Order>
+				<Description>Error during connection time</Description>
+				<Name></Name>								
+				<ParentID>118</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{12A91A59-EFE6-4FD7-8E72-34C55811D6EA}</GUID>
+				<ID>8002</ID>
+				<Order>138</Order>
+				<Description>Error while sending\receiving</Description>
+				<Name></Name>								
+				<ParentID>118</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{EB7BCFC1-B22A-4514-AFCF-CCB994C5516D}</GUID>
+				<ID>8003</ID>
+				<Order>139</Order>
+				<Description>Error during Get Data operation</Description>
+				<Name></Name>								
+				<ParentID>118</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{6508B464-8213-4AEB-9E89-DE4C4BD8247B}</GUID>
+				<ID>550</ID>
+				<Order>140</Order>
+				<Description>Error while accessing  WSDL.</Description>
+				<Name></Name>								
+				<ParentID>121</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{8FD33FD7-FC42-4171-AEF1-4368B4A3FF32}</GUID>
+				<ID>601</ID>
+				<Order>141</Order>
+				<Description>General purpose error return code</Description>
+				<Name></Name>								
+				<ParentID>122</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{3FABDD07-900F-484C-AA9E-97DEE7AF8511}</GUID>
+				<ID>602</ID>
+				<Order>142</Order>
+				<Description>Memory allocation error</Description>
+				<Name></Name>								
+				<ParentID>122</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{AF2A2114-8149-4DE8-904B-D0E784749CD9}</GUID>
+				<ID>603</ID>
+				<Order>143</Order>
+				<Description>Invalid file</Description>
+				<Name></Name>								
+				<ParentID>122</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{8B9CC1F9-3A36-4F49-AF3F-239D72D04828}</GUID>
+				<ID>604</ID>
+				<Order>144</Order>
+				<Description>System error</Description>
+				<Name></Name>								
+				<ParentID>122</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{A2F16038-17DE-4F17-A440-C9C68C2F4F26}</GUID>
+				<ID>605</ID>
+				<Order>145</Order>
+				<Description>Cannot read from the device</Description>
+				<Name></Name>								
+				<ParentID>122</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{C74A1751-8C71-4CDD-A3A0-A82F9BFA127C}</GUID>
+				<ID>606</ID>
+				<Order>146</Order>
+				<Description>Cannot write from the device</Description>
+				<Name></Name>								
+				<ParentID>122</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{5A67D858-60EC-4EFB-A448-68F033AF7C35}</GUID>
+				<ID>607</ID>
+				<Order>147</Order>
+				<Description>Java Exception</Description>
+				<Name></Name>								
+				<ParentID>122</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{E63DC7BA-0820-4E33-A445-E5688526B6B2}</GUID>
+				<ID>750</ID>
+				<Order>148</Order>
+				<Description>Processing error return code</Description>
+				<Name></Name>								
+				<ParentID>123</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{FA257FA0-82D2-49FA-AAAD-78E789F32126}</GUID>
+				<ID>9701</ID>
+				<Order>149</Order>
+				<Description>Destination file already exists</Description>
+				<Name></Name>								
+				<ParentID>124</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{2F166EF2-91D4-4856-9D43-8F4F43BC9DB5}</GUID>
+				<ID>9702</ID>
+				<Order>150</Order>
+				<Description>Control file (CRC) mismatch</Description>
+				<Name></Name>								
+				<ParentID>124</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{71E5591A-00FB-45E7-95A6-DFEA61236E5F}</GUID>
+				<ID>9703</ID>
+				<Order>151</Order>
+				<Description>Error will be fetched from Java during deployment</Description>
+				<Name></Name>								
+				<ParentID>124</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{572A84C9-04FC-4113-AD29-11C6B3D7CDB4}</GUID>
+				<ID>9705</ID>
+				<Order>152</Order>
+				<Description>File Creation Problem</Description>
+				<Name></Name>								
+				<ParentID>124</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{97428C28-1E64-4CEB-B228-22808AB035ED}</GUID>
+				<ID>9706</ID>
+				<Order>153</Order>
+				<Description>IO Exception</Description>
+				<Name></Name>								
+				<ParentID>124</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{F66B092F-6C19-4662-9FF5-47216AFE4D19}</GUID>
+				<ID>9707</ID>
+				<Order>154</Order>
+				<Description>General Exception</Description>
+				<Name></Name>								
+				<ParentID>124</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{0BBEB8FA-AFEB-40C0-A609-3F9CFC97753F}</GUID>
+				<ID>9708</ID>
+				<Order>155</Order>
+				<Description>Java Exception (CRC_CORRUPT)</Description>
+				<Name></Name>								
+				<ParentID>124</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{9B914C75-315E-47D3-AE79-332EEE80D672}</GUID>
+				<ID>9709</ID>
+				<Order>156</Order>
+				<Description>Java Exception (JOIN_EXCEPTION_NO_SLICES)</Description>
+				<Name></Name>								
+				<ParentID>124</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{D38F7824-51C9-4AAF-B975-8AD4315D00AE}</GUID>
+				<ID>9710</ID>
+				<Order>157</Order>
+				<Description>Java Exception (CLEANUP_EXCEPTION)</Description>
+				<Name></Name>								
+				<ParentID>124</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{ECD28DD3-730F-466B-8D88-04C8A5DD7AAE}</GUID>
+				<ID>9711</ID>
+				<Order>158</Order>
+				<Description>Java Exception (SPLIT_SOURCE_FILE_INVALID)</Description>
+				<Name></Name>								
+				<ParentID>124</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{535DEBCE-78F6-4B35-940E-087075D2E9BB}</GUID>
+				<ID>1001</ID>
+				<Order>159</Order>
+				<Description>Connect process: Could not connect to the company database</Description>
+				<Name></Name>								
+				<ParentID>128</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{CFBB8293-F7BB-4642-AD77-D5017C382AEC}</GUID>
+				<ID>1003</ID>
+				<Order>160</Order>
+				<Description>Disconnect process: Failed to disconnect from company database</Description>
+				<Name></Name>								
+				<ParentID>128</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{19771C09-DF65-4285-A9B6-D9F5518B38DB}</GUID>
+				<ID>1005</ID>
+				<Order>161</Order>
+				<Description>SAPB1 error return &lt;Err No&gt; : &lt;Err Description&gt;</Description>
+				<Name></Name>								
+				<ParentID>128</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{4BA6F69E-7789-4BBC-AD04-1B8410CC1D3B}</GUID>
+				<ID>1006</ID>
+				<Order>162</Order>
+				<Description>Internal error return &lt;Err No&gt; : &lt;Err Description&gt;</Description>
+				<Name></Name>								
+				<ParentID>128</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{8F88015D-5F46-4A75-8029-ED0F97A64153}</GUID>
+				<ID>1007</ID>
+				<Order>163</Order>
+				<Description>Unknown\Unsupported data object: &lt;data object name&gt;</Description>
+				<Name></Name>								
+				<ParentID>128</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{224E9343-3F93-4977-AE99-B9FA123EB05B}</GUID>
+				<ID>1008</ID>
+				<Order>164</Order>
+				<Description>The Magic xpi SAP Business One adaptor is not licensed</Description>
+				<Name></Name>								
+				<ParentID>128</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{D6FDA9FD-0CA5-499E-8D7E-7D7813D38F5A}</GUID>
+				<ID>1009</ID>
+				<Order>165</Order>
+				<Description>Error retrieving mandatory parameter from XML (parameter &lt;Param Name&gt;)</Description>
+				<Name></Name>								
+				<ParentID>128</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{2478D705-2EB9-40AE-972A-DEBDBCB79047}</GUID>
+				<ID>1010</ID>
+				<Order>166</Order>
+				<Description>Could not find resource: &lt;resource name&gt;</Description>
+				<Name></Name>								
+				<ParentID>128</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{FDB45B0B-9222-4EC8-B086-3007C2BEE3F1}</GUID>
+				<ID>1011</ID>
+				<Order>167</Order>
+				<Description>Query failure</Description>
+				<Name></Name>								
+				<ParentID>128</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{3F0FBD7F-CC18-45FF-9B41-2B7C34F6CF83}</GUID>
+				<ID>1012</ID>
+				<Order>168</Order>
+				<Description>Magic xpi&apos;s SAP Business One connector exceeded the number of database connections permitted by your license. Can not access database &lt;Server_DBName&gt;</Description>
+				<Name></Name>								
+				<ParentID>128</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{93A6327A-B005-4787-8160-6813C1B3BD95}</GUID>
+				<ID>1013</ID>
+				<Order>169</Order>
+				<Description>The &apos;ibolt_notification&apos; stored procedure does not exist in the &lt;ServerName_DBName&gt; database</Description>
+				<Name></Name>								
+				<ParentID>128</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{F1A43878-C0DA-4C0A-8FBE-C57BEAE03B8F}</GUID>
+				<ID>1014</ID>
+				<Order>170</Order>
+				<Description>There is no reference to the &apos;ibolt_notification&apos; stored procedure in the &lt;ServerName_DBName&gt; database&apos;s &apos;SBO_SP_TransactionNotification&apos; stored procedure</Description>
+				<Name></Name>								
+				<ParentID>128</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{BB0C4DD2-0CD2-46F8-B5FE-E35ED810D14E}</GUID>
+				<ID>650</ID>
+				<Order>171</Order>
+				<Description>Wrong number of parameters</Description>
+				<Name></Name>								
+				<ParentID>129</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{EB72A26B-0018-4E42-9981-FC6DDEB98917}</GUID>
+				<ID>651</ID>
+				<Order>172</Order>
+				<Description>Internal Error</Description>
+				<Name></Name>								
+				<ParentID>129</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{5BB5D45D-4AB3-4BAE-A2DC-7FE524A94883}</GUID>
+				<ID>652</ID>
+				<Order>173</Order>
+				<Description>Either the property or the method does not exist for the given object.</Description>
+				<Name></Name>								
+				<ParentID>129</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{B1A7CAFC-80DC-4EAC-9737-A787C98CA1A8}</GUID>
+				<ID>653</ID>
+				<Order>174</Order>
+				<Description>Overflow</Description>
+				<Name></Name>								
+				<ParentID>129</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{621EEBD7-1436-47E1-8063-1C7A83AC67D9}</GUID>
+				<ID>654</ID>
+				<Order>175</Order>
+				<Description>The wrong type of data was sent</Description>
+				<Name></Name>								
+				<ParentID>129</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{1F95A234-6A87-4F35-8DB0-7A6BD8088444}</GUID>
+				<ID>655</ID>
+				<Order>176</Order>
+				<Description>A required parameter was missing</Description>
+				<Name></Name>								
+				<ParentID>129</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{53DE444B-65EE-4BA1-AFB9-C78451AAE629}</GUID>
+				<ID>656</ID>
+				<Order>177</Order>
+				<Description>Internal Error</Description>
+				<Name></Name>								
+				<ParentID>129</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{7EA5C397-AA52-4DFA-84C8-43A3A167073A}</GUID>
+				<ID>657</ID>
+				<Order>178</Order>
+				<Description>No instance of an acquired object was given.</Description>
+				<Name></Name>								
+				<ParentID>129</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{9957671D-5BB3-4A96-A6B2-9647807C83AB}</GUID>
+				<ID>658</ID>
+				<Order>179</Order>
+				<Description>The control name given in the ObjectLoad function was not found.</Description>
+				<Name></Name>								
+				<ParentID>129</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{549A202E-A497-4039-ACC0-A6BB6E1C1CC1}</GUID>
+				<ID>659</ID>
+				<Order>180</Order>
+				<Description>Neither a control name nor a class name was given in the ObjectLoad function.</Description>
+				<Name></Name>								
+				<ParentID>129</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{803641EE-19E2-412B-935B-D673FA88D3DD}</GUID>
+				<ID>1001</ID>
+				<Order>181</Order>
+				<Description>Connect process: Could not connect to the company database</Description>
+				<Name></Name>								
+				<ParentID>130</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{BFCEF032-4532-476B-AFD6-C3B5ABD8778B}</GUID>
+				<ID>1003</ID>
+				<Order>182</Order>
+				<Description>Disconnect process: Failed to disconnect the company database</Description>
+				<Name></Name>								
+				<ParentID>130</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{C7EDF0FD-5E8E-41E0-A024-6A8E08B83D94}</GUID>
+				<ID>1005</ID>
+				<Order>183</Order>
+				<Description>SAPB1 Error return &lt;Err No&gt; : &lt;Err Description&gt;</Description>
+				<Name></Name>								
+				<ParentID>130</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{63B4A9E7-4AF9-434E-AB61-A8CBAC021D73}</GUID>
+				<ID>1006</ID>
+				<Order>184</Order>
+				<Description>Internal error return &lt;Err No&gt; : &lt;Err Description&gt;</Description>
+				<Name></Name>								
+				<ParentID>130</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{7240DCC2-ABF5-4FE3-84E5-CB92AF355F8F}</GUID>
+				<ID>1007</ID>
+				<Order>185</Order>
+				<Description>Unknown\Unsupported data object: &lt;data object name&gt;</Description>
+				<Name></Name>								
+				<ParentID>130</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{E7747F73-B322-4755-9AF1-68E3DEB79460}</GUID>
+				<ID>1008</ID>
+				<Order>186</Order>
+				<Description>Magic xpi&apos;s SAP Business One adaptor is not licensed</Description>
+				<Name></Name>								
+				<ParentID>130</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{C159076F-F68F-40D1-B10D-AF5D77A4F15A}</GUID>
+				<ID>1009</ID>
+				<Order>187</Order>
+				<Description>Error retrieving mandatory parameter from XML (parameter &lt;Param Name&gt;)</Description>
+				<Name></Name>								
+				<ParentID>130</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{CA8E0528-DF66-4C8F-8080-2F9FED79F731}</GUID>
+				<ID>1010</ID>
+				<Order>188</Order>
+				<Description>Could not find connection: &lt;connection name&gt;</Description>
+				<Name></Name>								
+				<ParentID>130</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{BE12801A-2697-4670-A691-816BC3CDEC06}</GUID>
+				<ID>8501</ID>
+				<Order>189</Order>
+				<Description>Missing arguments</Description>
+				<Name></Name>								
+				<ParentID>132</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{8498FB8B-90E5-4ED9-A650-248D566F83FB}</GUID>
+				<ID>8502</ID>
+				<Order>190</Order>
+				<Description>Illegal arguments</Description>
+				<Name></Name>								
+				<ParentID>132</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{0DDA0249-FB7F-4626-9912-F46CD1D8571E}</GUID>
+				<ID>8503</ID>
+				<Order>191</Order>
+				<Description>Operation failed</Description>
+				<Name></Name>								
+				<ParentID>132</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{5381F4F7-A972-4F03-B3A9-E54CDEC4C2D0}</GUID>
+				<ID>8504</ID>
+				<Order>192</Order>
+				<Description>IO Error</Description>
+				<Name></Name>								
+				<ParentID>132</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{BF815A9C-AF7D-4490-BFDE-E976DDE43E1F}</GUID>
+				<ID>8505</ID>
+				<Order>193</Order>
+				<Description>File Not Found</Description>
+				<Name></Name>								
+				<ParentID>132</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{56997347-54C0-4CFA-8DA8-1E3E45206C73}</GUID>
+				<ID>8506</ID>
+				<Order>194</Order>
+				<Description>Transformation exception</Description>
+				<Name></Name>								
+				<ParentID>132</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{D8912A4C-1444-4C25-A4A5-0F62B9FB5CAF}</GUID>
+				<ID>8507</ID>
+				<Order>195</Order>
+				<Description>FO Transformation exception</Description>
+				<Name></Name>								
+				<ParentID>132</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{7967BC4E-ACA3-45DF-9A90-FA9CC57D1613}</GUID>
+				<ID>1001</ID>
+				<Order>196</Order>
+				<Description>Connect process: Could not connect to the company database</Description>
+				<Name></Name>								
+				<ParentID>133</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{DDBD33B3-3C61-437B-B5B4-AFABD317977E}</GUID>
+				<ID>1003</ID>
+				<Order>197</Order>
+				<Description>Disconnect process: Failed to disconnect the company database</Description>
+				<Name></Name>								
+				<ParentID>133</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{84A02257-3859-407E-824B-23395D0070BC}</GUID>
+				<ID>1005</ID>
+				<Order>198</Order>
+				<Description>SAPB1 Error return &lt;Err No&gt; : &lt;Err Description&gt;</Description>
+				<Name></Name>								
+				<ParentID>133</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{69F05D39-F654-4274-8A23-5B01F719C80D}</GUID>
+				<ID>1006</ID>
+				<Order>199</Order>
+				<Description>Internal error return &lt;Err No&gt; : &lt;Err Description&gt;</Description>
+				<Name></Name>								
+				<ParentID>133</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{019BF7A9-F978-40D5-A1B3-C7238DF9D63A}</GUID>
+				<ID>1007</ID>
+				<Order>200</Order>
+				<Description>Unknown\Unsupported data object: &lt;data object name&gt;</Description>
+				<Name></Name>								
+				<ParentID>133</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{66883D2E-B5EC-4518-A488-D85877E6676B}</GUID>
+				<ID>1008</ID>
+				<Order>201</Order>
+				<Description>The Magic xpi SAP Business One adaptor is not licensed</Description>
+				<Name></Name>								
+				<ParentID>133</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{9D90DCC0-FA64-42BF-859F-152DFA022BB3}</GUID>
+				<ID>1009</ID>
+				<Order>202</Order>
+				<Description>Error retrieving mandatory parameter from XML (parameter &lt;Param Name&gt;)</Description>
+				<Name></Name>								
+				<ParentID>133</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{7C064A64-6892-491F-A985-7855D9804C24}</GUID>
+				<ID>1010</ID>
+				<Order>203</Order>
+				<Description>Could not find resource: &lt;resource name&gt;</Description>
+				<Name></Name>								
+				<ParentID>133</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{66520E13-EABD-4BFF-938D-77430E618341}</GUID>
+				<ID>1011</ID>
+				<Order>204</Order>
+				<Description>Query failure.</Description>
+				<Name></Name>								
+				<ParentID>133</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{5D0E617E-41E9-4E50-BC3D-CE413088EF98}</GUID>
+				<ID>1012</ID>
+				<Order>205</Order>
+				<Description>Magic xpi&apos;s SAP Business One connector exceeded the number of database connections permitted by your license. Can not access database &lt;Server_DBName&gt;</Description>
+				<Name></Name>								
+				<ParentID>133</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{2D2B3CD3-7316-4B56-A97A-532E0864DF97}</GUID>
+				<ID>1013</ID>
+				<Order>206</Order>
+				<Description>The &apos;ibolt_notification&apos;stored procedure does not exist in the &lt;ServerName_DBName&gt; database</Description>
+				<Name></Name>								
+				<ParentID>133</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{5FEE4810-C5C1-48B1-A966-F9C28866D298}</GUID>
+				<ID>1014</ID>
+				<Order>207</Order>
+				<Description>There is no reference to the &apos;ibolt_notification&apos; stored procedure in the &lt;ServerName_DBName&gt; database&apos;s &apos;SBO_SP_TransactionNotification&apos; stored procedure</Description>
+				<Name></Name>								
+				<ParentID>133</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{6DBCC73E-987A-4F4A-ACB2-863C90E1B76B}</GUID>
+				<ID>340</ID>
+				<Order>208</Order>
+				<Description>Trigger not found</Description>
+				<Name></Name>								
+				<ParentID>135</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{F47A4827-2055-41EC-8892-851812896E03}</GUID>
+				<ID>341</ID>
+				<Order>209</Order>
+				<Description>Trigger not available</Description>
+				<Name></Name>								
+				<ParentID>135</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{935E359B-B6A0-4C4C-8DC4-B41183FC75E8}</GUID>
+				<ID>900</ID>
+				<Order>210</Order>
+				<Description>Blank Server Address</Description>
+				<Name></Name>								
+				<ParentID>136</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{7EE231F6-0FA4-42DD-99F1-96BBDD1FE7BB}</GUID>
+				<ID>901</ID>
+				<Order>211</Order>
+				<Description>Blank Server Port</Description>
+				<Name></Name>								
+				<ParentID>136</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{93A01784-6E4F-44FA-8B13-90A8EC53CEF7}</GUID>
+				<ID>902</ID>
+				<Order>212</Order>
+				<Description>Register consumer failed</Description>
+				<Name></Name>								
+				<ParentID>136</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{A393DBC8-5964-4497-850A-48D22914325C}</GUID>
+				<ID>903</ID>
+				<Order>213</Order>
+				<Description>Send message failed</Description>
+				<Name></Name>								
+				<ParentID>136</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{698BDB28-A719-4CA1-90D1-294DAAB60E50}</GUID>
+				<ID>904</ID>
+				<Order>214</Order>
+				<Description>Connection failed</Description>
+				<Name></Name>								
+				<ParentID>136</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{6318601B-D2C5-498D-8236-C50799B80016}</GUID>
+				<ID>905</ID>
+				<Order>215</Order>
+				<Description>Already in transaction</Description>
+				<Name></Name>								
+				<ParentID>136</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{77666AEC-4D69-48BC-B8B9-7DBD16AE2328}</GUID>
+				<ID>906</ID>
+				<Order>216</Order>
+				<Description>There is no open transaction</Description>
+				<Name></Name>								
+				<ParentID>136</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{C4F28008-8553-4F33-8036-E5704321E953}</GUID>
+				<ID>907</ID>
+				<Order>217</Order>
+				<Description>Java Exception</Description>
+				<Name></Name>								
+				<ParentID>136</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{C72C7156-3136-4066-8C17-528EB208010C}</GUID>
+				<ID>908</ID>
+				<Order>218</Order>
+				<Description>File not found</Description>
+				<Name></Name>								
+				<ParentID>136</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{86E745C1-2FAA-4F07-BBE4-91A203A97156}</GUID>
+				<ID>909</ID>
+				<Order>219</Order>
+				<Description>IO Error</Description>
+				<Name></Name>								
+				<ParentID>136</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{F4E44558-28D8-4523-ACEF-25EE68C43DD1}</GUID>
+				<ID>910</ID>
+				<Order>220</Order>
+				<Description>Operation failed</Description>
+				<Name></Name>								
+				<ParentID>136</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{0BA4BE80-DC15-49F2-B7A5-DF8969C94841}</GUID>
+				<ID>911</ID>
+				<Order>221</Order>
+				<Description>Parse exception</Description>
+				<Name></Name>								
+				<ParentID>136</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{896977C3-4606-4680-B690-6D1C53FC34ED}</GUID>
+				<ID>912</ID>
+				<Order>222</Order>
+				<Description>Missing or illegal parameters</Description>
+				<Name></Name>								
+				<ParentID>136</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{CC4F7F2B-794F-466D-ACE5-C2A9CD7FBCD7}</GUID>
+				<ID>2100</ID>
+				<Order>223</Order>
+				<Description>COM Error</Description>
+				<Name></Name>								
+				<ParentID>138</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{8C6436AB-E3B1-4628-8FA9-4220AB3A1D14}</GUID>
+				<ID>2101</ID>
+				<Order>224</Order>
+				<Description>Invalid file name</Description>
+				<Name></Name>								
+				<ParentID>138</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{50A350EE-D40E-41E2-BEF1-D125D57B9A51}</GUID>
+				<ID>2102</ID>
+				<Order>225</Order>
+				<Description>Required parameter values are missing</Description>
+				<Name></Name>								
+				<ParentID>138</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{1D4BF217-80AA-4442-A272-4929267B38D4}</GUID>
+				<ID>2150</ID>
+				<Order>226</Order>
+				<Description>COM Error</Description>
+				<Name></Name>								
+				<ParentID>139</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{BF4556AE-4AFF-4E79-A56C-100AA036D4B3}</GUID>
+				<ID>2151</ID>
+				<Order>227</Order>
+				<Description>Invalid file name</Description>
+				<Name></Name>								
+				<ParentID>139</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{C455EF0E-F969-450C-AB4C-4ED5418A12EF}</GUID>
+				<ID>2152</ID>
+				<Order>228</Order>
+				<Description>Required parameter values are missing</Description>
+				<Name></Name>								
+				<ParentID>139</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{477B8DBF-9C0F-4C25-97C4-AC8DFB7829FE}</GUID>
+				<ID>1102</ID>
+				<Order>229</Order>
+				<Description>Connect process error: &lt;Err Description&gt;</Description>
+				<Name></Name>								
+				<ParentID>140</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{EEC9369E-1835-4AA5-9BC1-A057225EBA12}</GUID>
+				<ID>1103</ID>
+				<Order>230</Order>
+				<Description>SAP R/3 connector error return: &lt;Err Description&gt;</Description>
+				<Name></Name>								
+				<ParentID>140</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{70A7B4DA-C24C-48E5-91FE-EDA78453233C}</GUID>
+				<ID>1001</ID>
+				<Order>231</Order>
+				<Description>Connect process: Could not connect to the company database</Description>
+				<Name></Name>								
+				<ParentID>141</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{055DDA1F-4124-43DD-B85E-AC039469C381}</GUID>
+				<ID>1003</ID>
+				<Order>232</Order>
+				<Description>Disconnect process: Failed to disconnect the company database</Description>
+				<Name></Name>								
+				<ParentID>141</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{4D47D9D3-53B0-4AB6-8821-5EFB892ADA95}</GUID>
+				<ID>1005</ID>
+				<Order>233</Order>
+				<Description>SAPB1 Error return &lt;Err No&gt; : &lt;Err Description&gt;</Description>
+				<Name></Name>								
+				<ParentID>141</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{4A9C94B6-0F46-4EBB-B566-0922D01FAE9D}</GUID>
+				<ID>1006</ID>
+				<Order>234</Order>
+				<Description>Internal error return &lt;Err No&gt; : &lt;Err Description&gt;</Description>
+				<Name></Name>								
+				<ParentID>141</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{3BC63C24-4A6A-4732-BDC3-DB835B9A2376}</GUID>
+				<ID>1007</ID>
+				<Order>235</Order>
+				<Description>Unknown\Unsupported data object: &lt;data object name&gt;</Description>
+				<Name></Name>								
+				<ParentID>141</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{997D50FE-4DF7-4123-8ED3-89D0B32A83BC}</GUID>
+				<ID>1008</ID>
+				<Order>236</Order>
+				<Description>The Magic xpi SAP Business One adaptor is not licensed</Description>
+				<Name></Name>								
+				<ParentID>141</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{E8351CD0-198E-4E77-8E9E-F483687FEA2D}</GUID>
+				<ID>1009</ID>
+				<Order>237</Order>
+				<Description>Error retrieving mandatory parameter from XML (parameter &lt;Param Name&gt;)</Description>
+				<Name></Name>								
+				<ParentID>141</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{527F24EE-F058-436A-8191-F7D47ECBCF97}</GUID>
+				<ID>1010</ID>
+				<Order>238</Order>
+				<Description>Could not find resource: &lt;resource name&gt;</Description>
+				<Name></Name>								
+				<ParentID>141</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{FD7C1DF4-C34A-4911-AED7-AAD4E51FC00F}</GUID>
+				<ID>1011</ID>
+				<Order>239</Order>
+				<Description>Query failure.</Description>
+				<Name></Name>								
+				<ParentID>141</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{BC872A54-73B2-4551-9BBA-E7A0FE1BE05D}</GUID>
+				<ID>1012</ID>
+				<Order>240</Order>
+				<Description>Magic xpi&apos;s SAP Business One connector exceeded the number of database connections permitted by your license. Can not access database &lt;Server_DBName&gt;</Description>
+				<Name></Name>								
+				<ParentID>141</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{EDB02A51-6C79-4017-80BE-E5923B08729A}</GUID>
+				<ID>1013</ID>
+				<Order>241</Order>
+				<Description>The &apos;ibolt_notification&apos;stored procedure does not exist in the &lt;ServerName_DBName&gt; database</Description>
+				<Name></Name>								
+				<ParentID>141</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{3E2A8BA9-EC71-4036-84EF-43DE37AFCE47}</GUID>
+				<ID>1014</ID>
+				<Order>242</Order>
+				<Description>There is no reference to the &apos;ibolt_notification&apos; stored procedure in the &lt;ServerName_DBName&gt; database&apos;s &apos;SBO_SP_TransactionNotification&apos; stored procedure</Description>
+				<Name></Name>								
+				<ParentID>141</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{0C1FE39F-7C00-43D2-B5AB-0E421A164A8A}</GUID>
+				<ID>1203</ID>
+				<Order>243</Order>
+				<Description>Salesforce call error: &lt;Error Description&gt;</Description>
+				<Name></Name>								
+				<ParentID>143</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{382786D2-546C-4FAA-87AE-8407AB6D3675}</GUID>
+				<ID>1207</ID>
+				<Order>244</Order>
+				<Description>Could not find Destination database: &lt;Database Entry&gt;</Description>
+				<Name></Name>								
+				<ParentID>143</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{DB72801E-182A-4747-B3C2-D16D87EDADF2}</GUID>
+				<ID>1208</ID>
+				<Order>245</Order>
+				<Description>Input mandatory parameter is empty: &lt;Param Name&gt;</Description>
+				<Name></Name>								
+				<ParentID>143</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{044320CA-3FD1-4110-AD32-58C688DFD24D}</GUID>
+				<ID>1209</ID>
+				<Order>246</Order>
+				<Description>Internal error return: &lt;Err Description&gt;</Description>
+				<Name></Name>								
+				<ParentID>143</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{679E7998-2E21-4A7E-ABC0-E4BC22D5C107}</GUID>
+				<ID>1210</ID>
+				<Order>247</Order>
+				<Description>Database error return: &lt;Err Code&gt; &lt;Err Description&gt;</Description>
+				<Name></Name>								
+				<ParentID>143</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{E7FEB3BF-7210-4D96-9D4B-38B1FC6A994D}</GUID>
+				<ID>1211</ID>
+				<Order>248</Order>
+				<Description>Replication terminated SFDC_TerminateReplication logical name is set to 1</Description>
+				<Name></Name>								
+				<ParentID>143</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{9A12F955-9A94-44A8-9DD7-F7FBAA51D4E0}</GUID>
+				<ID>1303</ID>
+				<Order>249</Order>
+				<Description>Notes DB connector call error: &lt;Err Description&gt;</Description>
+				<Name></Name>								
+				<ParentID>144</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{9D5CD297-CEFF-4A48-B341-466A2B5B901A}</GUID>
+				<ID>1402</ID>
+				<Order>250</Order>
+				<Description>Could not find connection: &lt;Err Description&gt;</Description>
+				<Name></Name>								
+				<ParentID>145</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{7A724B04-2165-4333-ADA5-810B9698D904}</GUID>
+				<ID>1403</ID>
+				<Order>251</Order>
+				<Description>JD Edwards connector call error: &lt;Err Description&gt;</Description>
+				<Name></Name>								
+				<ParentID>145</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{760C91D9-45B6-45F9-84EC-83CB660E62C7}</GUID>
+				<ID>851</ID>
+				<Order>252</Order>
+				<Description>The maximum length is less  than the minimum length</Description>
+				<Name></Name>								
+				<ParentID>148</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{CFA14B8B-9001-4673-90F7-985A08CBED1E}</GUID>
+				<ID>852</ID>
+				<Order>253</Order>
+				<Description>The maximum date is less than the minimum date</Description>
+				<Name></Name>								
+				<ParentID>148</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{ABB86F8B-760A-46C3-BB15-1C2B49E29872}</GUID>
+				<ID>853</ID>
+				<Order>254</Order>
+				<Description>The Input Value must be a numeric variable</Description>
+				<Name></Name>								
+				<ParentID>148</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{17B490EA-6F6A-4BB3-91D5-FF59FA0F66A9}</GUID>
+				<ID>854</ID>
+				<Order>255</Order>
+				<Description>The XSD file does not exist</Description>
+				<Name></Name>								
+				<ParentID>148</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{CFE860BF-48C8-437C-81E4-4621F36A51D4}</GUID>
+				<ID>855</ID>
+				<Order>256</Order>
+				<Description>The numeric list contains a non-numeric variable</Description>
+				<Name></Name>								
+				<ParentID>148</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{BC2C9890-15F7-4797-96CB-10726EE4867E}</GUID>
+				<ID>856</ID>
+				<Order>257</Order>
+				<Description>The maximum number is less than the minimum number</Description>
+				<Name></Name>								
+				<ParentID>148</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{2E878320-C17A-4FA2-AFAB-DEE31569CDBB}</GUID>
+				<ID>857</ID>
+				<Order>258</Order>
+				<Description>The Valid Value has no value</Description>
+				<Name></Name>								
+				<ParentID>148</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{DB204EDF-1784-4CC0-BAEF-1C6F407D37DA}</GUID>
+				<ID>1501</ID>
+				<Order>259</Order>
+				<Description>Source message is empty</Description>
+				<Name></Name>								
+				<ParentID>149</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{2124D3D4-6FF9-476B-82A7-36DD5826E814}</GUID>
+				<ID>1502</ID>
+				<Order>260</Order>
+				<Description>HL7 convert error: &lt;Err Description&gt;</Description>
+				<Name></Name>								
+				<ParentID>149</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{97901980-7134-478E-988F-3C71AA33682D}</GUID>
+				<ID>5000</ID>
+				<Order>261</Order>
+				<Description>Connection Error</Description>
+				<Name></Name>								
+				<ParentID>151</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{F049E9F7-3B32-451D-AB7F-B40410CC81B4}</GUID>
+				<ID>5001</ID>
+				<Order>262</Order>
+				<Description>Calendar Operation Error</Description>
+				<Name></Name>								
+				<ParentID>151</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{82E7B0E2-44AB-4EAA-9067-CA2532A281E6}</GUID>
+				<ID>5002</ID>
+				<Order>263</Order>
+				<Description>Calendar Event Operation Error</Description>
+				<Name></Name>								
+				<ParentID>151</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{3F235CC1-EA6D-4D60-AFED-1D05A09CD897}</GUID>
+				<ID>5003</ID>
+				<Order>264</Order>
+				<Description>Calendar Access Control Operation Error</Description>
+				<Name></Name>								
+				<ParentID>151</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{4B9C17DC-F3C3-4465-B405-A3C4CD4DA4CD}</GUID>
+				<ID>5004</ID>
+				<Order>265</Order>
+				<Description>Calendar Subscription Operation Error</Description>
+				<Name></Name>								
+				<ParentID>151</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{9074C49B-F9C6-495C-AAEF-E3436DF3E57B}</GUID>
+				<ID>1601</ID>
+				<Order>266</Order>
+				<Description>LDAP connection error: &lt;Err Description&gt;</Description>
+				<Name></Name>								
+				<ParentID>152</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{402B0A11-C9DE-412F-B8C6-71D74F4966F6}</GUID>
+				<ID>1602</ID>
+				<Order>267</Order>
+				<Description>LDAP disconnect error: &lt;Err Description&gt;</Description>
+				<Name></Name>								
+				<ParentID>152</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{55EBF6BB-4C74-43D5-B7B4-F982AE67B224}</GUID>
+				<ID>1603</ID>
+				<Order>268</Order>
+				<Description>LDAP call error: &lt;Err Description&gt;</Description>
+				<Name></Name>								
+				<ParentID>152</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{70FDE50D-4967-45E6-9233-66D6CEEA08C2}</GUID>
+				<ID>1102</ID>
+				<Order>269</Order>
+				<Description>Connect process error: &lt;Err Description&gt;</Description>
+				<Name></Name>								
+				<ParentID>153</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{A17B7848-D87A-4F43-A8DB-F3C774945FCE}</GUID>
+				<ID>1103</ID>
+				<Order>270</Order>
+				<Description>SAP A1 connector error return: &lt;Err Description&gt;</Description>
+				<Name></Name>								
+				<ParentID>153</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{27CFECAA-A939-489B-9D9B-E0E73BABEB75}</GUID>
+				<ID>6000</ID>
+				<Order>271</Order>
+				<Description>Connection Error</Description>
+				<Name></Name>								
+				<ParentID>154</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{98764102-B16C-4A62-8731-9E049D838289}</GUID>
+				<ID>6001</ID>
+				<Order>272</Order>
+				<Description>Documents Operation Error</Description>
+				<Name></Name>								
+				<ParentID>154</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{A8C0F272-D47C-4E2E-A3E4-A3FBF7B6FD38}</GUID>
+				<ID>6002</ID>
+				<Order>273</Order>
+				<Description>Documents AccessControl Operation Error</Description>
+				<Name></Name>								
+				<ParentID>154</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{B7CB886A-E7BA-4912-9CBB-9B1E54C58510}</GUID>
+				<ID>101</ID>
+				<Order>274</Order>
+				<Description>Invalid element path.</Description>
+				<Name></Name>								
+				<ParentID>155</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{CA56F942-6D3C-4D8B-90B2-202247790661}</GUID>
+				<ID>102</ID>
+				<Order>275</Order>
+				<Description>Invalid attribute name.</Description>
+				<Name></Name>								
+				<ParentID>155</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{89092196-59FE-49EF-BA80-A5E4B4ADC0B0}</GUID>
+				<ID>103</ID>
+				<Order>276</Order>
+				<Description>Attribute already defined for element.</Description>
+				<Name></Name>								
+				<ParentID>155</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{786F4715-5107-4461-88AA-87AC639649C8}</GUID>
+				<ID>104</ID>
+				<Order>277</Order>
+				<Description>Reference element not found.</Description>
+				<Name></Name>								
+				<ParentID>155</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{2D2126E2-8B48-44BE-99C1-E6E8002AF268}</GUID>
+				<ID>105</ID>
+				<Order>278</Order>
+				<Description>Multiple roots not permitted.</Description>
+				<Name></Name>								
+				<ParentID>155</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{FDF0745C-9D17-4139-92FF-BC5AFE88003D}</GUID>
+				<ID>106</ID>
+				<Order>279</Order>
+				<Description>Invalid path - Non valid index.</Description>
+				<Name></Name>								
+				<ParentID>155</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{CFFDCE35-4E9E-4467-9A87-BF752BAC7D2B}</GUID>
+				<ID>107</ID>
+				<Order>280</Order>
+				<Description>Alias already used.</Description>
+				<Name></Name>								
+				<ParentID>155</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{96F11DED-3812-4856-98CB-ED0B6D8ACC11}</GUID>
+				<ID>108</ID>
+				<Order>281</Order>
+				<Description>Invalid alias, qualified name.</Description>
+				<Name></Name>								
+				<ParentID>155</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{F92B5509-4390-487D-A584-1EC2C534179C}</GUID>
+				<ID>109</ID>
+				<Order>282</Order>
+				<Description>XML parsing failed.</Description>
+				<Name></Name>								
+				<ParentID>155</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{268568D5-868A-4DF0-B5F1-09746D67AA2D}</GUID>
+				<ID>110</ID>
+				<Order>283</Order>
+				<Description>Invalid XML.</Description>
+				<Name></Name>								
+				<ParentID>155</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{81859F63-8206-4F39-8690-923B4D244831}</GUID>
+				<ID>1250</ID>
+				<Order>284</Order>
+				<Description>Dynamics CRM call error: &lt;Error Description&gt;</Description>
+				<Name></Name>								
+				<ParentID>156</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{10F13A04-81B6-44BC-BEF8-7041E56C0D34}</GUID>
+				<ID>1150</ID>
+				<Order>285</Order>
+				<Description>Exchange call error: &lt;Error Description&gt;</Description>
+				<Name></Name>								
+				<ParentID>157</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{2A872682-0CFC-4774-A4FA-28D9E88C76BD}</GUID>
+				<ID>7000</ID>
+				<Order>286</Order>
+				<Description>Connection Error.</Description>
+				<Name></Name>								
+				<ParentID>158</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{074825E4-6892-4DF3-9FC6-C576795E0C4E}</GUID>
+				<ID>7001</ID>
+				<Order>287</Order>
+				<Description>Timeout Failure.</Description>
+				<Name></Name>								
+				<ParentID>158</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{04623959-E225-42EA-AF67-60FC1EDA3267}</GUID>
+				<ID>1350</ID>
+				<Order>288</Order>
+				<Description>SharePoint call error: &lt;Error Description&gt;</Description>
+				<Name></Name>								
+				<ParentID>159</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{3B27E93B-DE80-4886-AC0A-5B435C8C9F54}</GUID>
+				<ID>1351</ID>
+				<Order>289</Order>
+				<Description>Internal error return: &lt;Err Description&gt;</Description>
+				<Name></Name>								
+				<ParentID>159</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{CEDD894E-AACA-49A1-B843-7BE10A584855}</GUID>
+				<ID>1001</ID>
+				<Order>290</Order>
+				<Description>Connect process: Could not connect to the company database</Description>
+				<Name></Name>								
+				<ParentID>160</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{8D2F6DF4-C91B-406A-9C43-E4EDA5AE6A38}</GUID>
+				<ID>1003</ID>
+				<Order>291</Order>
+				<Description>Disconnect process: Failed to disconnect the company database</Description>
+				<Name></Name>								
+				<ParentID>160</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{25DD3E88-17C9-49DA-9C5D-F15B06774C02}</GUID>
+				<ID>1005</ID>
+				<Order>292</Order>
+				<Description>SAPB1 Error return &lt;Err No&gt; : &lt;Err Description&gt;</Description>
+				<Name></Name>								
+				<ParentID>160</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{036C9BB7-2653-4181-83B6-62A826745194}</GUID>
+				<ID>1006</ID>
+				<Order>293</Order>
+				<Description>Internal error return &lt;Err No&gt; : &lt;Err Description&gt;</Description>
+				<Name></Name>								
+				<ParentID>160</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{6899DD31-8068-437F-AFFF-AD50FED8B9FF}</GUID>
+				<ID>1007</ID>
+				<Order>294</Order>
+				<Description>Unknown\Unsupported data object: &lt;data object name&gt;</Description>
+				<Name></Name>								
+				<ParentID>160</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{539F4635-0EC8-407A-B5EF-113731F951CD}</GUID>
+				<ID>1008</ID>
+				<Order>295</Order>
+				<Description>The Magic xpi SAP Business One adaptor is not licensed</Description>
+				<Name></Name>								
+				<ParentID>160</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{5C3015CC-76FA-4E78-9422-07404FA5FFA5}</GUID>
+				<ID>1009</ID>
+				<Order>296</Order>
+				<Description>Error retrieving mandatory parameter from XML (parameter &lt;Param Name&gt;)</Description>
+				<Name></Name>								
+				<ParentID>160</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{9F662F06-E4AF-4C31-AB27-0801C1DFD012}</GUID>
+				<ID>1010</ID>
+				<Order>297</Order>
+				<Description>Could not find resource: &lt;resource name&gt;</Description>
+				<Name></Name>								
+				<ParentID>160</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{ADDE594C-C6A6-4FE5-B974-900FFE344F28}</GUID>
+				<ID>1011</ID>
+				<Order>298</Order>
+				<Description>Query failure.</Description>
+				<Name></Name>								
+				<ParentID>160</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{B0FCD00B-4608-4E1C-AB0D-C4DC4F997E9D}</GUID>
+				<ID>1012</ID>
+				<Order>299</Order>
+				<Description>Magic xpi&apos;s SAP Business One connector exceeded the number of database connections permitted by your license. Can not access database &lt;Server_DBName&gt;</Description>
+				<Name></Name>								
+				<ParentID>160</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{A92360F7-66FA-4DA3-8F2D-900E3D3ACDE3}</GUID>
+				<ID>1013</ID>
+				<Order>300</Order>
+				<Description>The &apos;ibolt_notification&apos;stored procedure does not exist in the &lt;ServerName_DBName&gt; database</Description>
+				<Name></Name>								
+				<ParentID>160</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{F98B91FE-1714-4622-92E5-FC164C57A19F}</GUID>
+				<ID>1014</ID>
+				<Order>301</Order>
+				<Description>There is no reference to the &apos;ibolt_notification&apos; stored procedure in the &lt;ServerName_DBName&gt; database&apos;s &apos;SBO_SP_TransactionNotification&apos; stored procedure</Description>
+				<Name></Name>								
+				<ParentID>160</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{6B27C0A2-9E77-46E0-8457-80F1DB1B1340}</GUID>
+				<ID>7500</ID>
+				<Order>302</Order>
+				<Description>SugarCRM Internal ErrorAP A1 connector error return: &lt;Err Description&gt;</Description>
+				<Name></Name>								
+				<ParentID>162</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{A9493DD2-9146-4CD0-961A-480CC8712FB2}</GUID>
+				<ID>10</ID>
+				<Order>303</Order>
+				<Description>UserBLOB mismatch</Description>
+				<Name></Name>								
+				<ParentID>999999999998</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{B3D89B69-CEE6-49FA-98E8-9898165B9BE9}</GUID>
+				<ID>11</ID>
+				<Order>304</Order>
+				<Description>UserString mismatch</Description>
+				<Name></Name>								
+				<ParentID>999999999998</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{03937831-E4C6-4CDA-BA44-6F09958FBF39}</GUID>
+				<ID>12</ID>
+				<Order>305</Order>
+				<Description>UserXML data mismatch</Description>
+				<Name></Name>								
+				<ParentID>999999999998</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{566B6C54-84DA-4C2F-893D-804DE2BD1A52}</GUID>
+				<ID>13</ID>
+				<Order>306</Order>
+				<Description>The max instances allowed were exceeded</Description>
+				<Name></Name>								
+				<ParentID>999999999998</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{2BD2FD83-EC71-4309-BB43-68F24CCF928E}</GUID>
+				<ID>14</ID>
+				<Order>307</Order>
+				<Description>Invoked flow BP=&lt;BPID&gt;, Flow=&lt;FlowID&gt; does not exist</Description>
+				<Name></Name>								
+				<ParentID>999999999998</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{B4916357-79A8-465F-B44C-B83D4D9E2F73}</GUID>
+				<ID>15</ID>
+				<Order>308</Order>
+				<Description>Flow terminated by component return action</Description>
+				<Name></Name>								
+				<ParentID>999999999998</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{B662FFCA-89DC-4B84-91D9-D0489E241A1F}</GUID>
+				<ID>16</ID>
+				<Order>309</Order>
+				<Description>Internal Error</Description>
+				<Name></Name>								
+				<ParentID>999999999998</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{D09A81EF-1929-46E1-B0A5-C9E6DB7259D4}</GUID>
+				<ID>17</ID>
+				<Order>310</Order>
+				<Description>Invalid command string</Description>
+				<Name></Name>								
+				<ParentID>999999999998</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{2CEB0CDE-FE75-4050-B5BE-5CA65AF2C97C}</GUID>
+				<ID>18</ID>
+				<Order>311</Order>
+				<Description>Disabled flow called</Description>
+				<Name></Name>								
+				<ParentID>999999999998</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{AA095663-3BAB-440A-9424-0B2A085AE7E9}</GUID>
+				<ID>21</ID>
+				<Order>312</Order>
+				<Description>Java Exception</Description>
+				<Name></Name>								
+				<ParentID>999999999998</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{E2B5A7D4-CB7E-4B44-9469-056FF9CF8E8F}</GUID>
+				<ID>22</ID>
+				<Order>313</Order>
+				<Description>Process exceeded maximum recursion depth</Description>
+				<Name></Name>								
+				<ParentID>999999999998</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{410D9D3C-BBFB-49E8-94E1-B7C115927F98}</GUID>
+				<ID>23</ID>
+				<Order>314</Order>
+				<Description>Called flow aborted</Description>
+				<Name></Name>								
+				<ParentID>999999999998</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{D95886FD-E99E-4384-AE4F-72B75E0521E4}</GUID>
+				<ID>24</ID>
+				<Order>315</Order>
+				<Description>Error Code [code number] does not exist for the selected component</Description>
+				<Name></Name>								
+				<ParentID>999999999998</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{75BE2189-A81F-4F10-8C08-674D2F2D757D}</GUID>
+				<ID>25</ID>
+				<Order>316</Order>
+				<Description>Flow level DB transaction cannot  be opened.</Description>
+				<Name></Name>								
+				<ParentID>999999999998</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{3AF75834-0494-4CE1-900C-1C684F4725DE}</GUID>
+				<ID>462</ID>
+				<Order>317</Order>
+				<Description>JSON Source does not match the schema</Description>
+				<Name></Name>								
+				<ParentID>11</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{02F37BDC-131A-4E5D-BD76-96C5426B9EFC}</GUID>
+				<ID>463</ID>
+				<Order>318</Order>
+				<Description>JSON Destination does not match the schema</Description>
+				<Name></Name>								
+				<ParentID>11</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{0E1CAC80-1F90-438B-9328-6C397B8FCEB9}</GUID>
+				<ID>465</ID>
+				<Order>319</Order>
+				<Description>JSON Source is not well formed</Description>
+				<Name></Name>								
+				<ParentID>11</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{4D4FE006-2C1A-4D5E-87DE-DFFEE8D3C6EB}</GUID>
+				<ID>163</ID>
+				<Order>320</Order>
+				<Description>DynamicsAX</Description>
+				<Name></Name>								
+				<ParentID>0</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{232391E4-302E-4E1D-A95A-C5C64F3A0515}</GUID>
+				<ID>1251</ID>
+				<Order>321</Order>
+				<Description>Dynamics AX call error: &lt;Error Description&gt;</Description>
+				<Name></Name>								
+				<ParentID>163</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{7705BF31-EFB7-46C8-BFED-E2A4A45901D8}</GUID>
+				<ID>200</ID>
+				<Order>322</Order>
+				<Description>WCFClient</Description>
+				<Name></Name>								
+				<ParentID>0</ParentID>
+							</Error>
+	  								<Error xsi:type="ErrorRepositoryItem">
+				<GUID>{47E338C2-EB57-400F-93B0-C08A4BD39D89}</GUID>
+				<ID>1251</ID>
+				<Order>323</Order>
+				<Description>WCF client call error: &lt;Error Description&gt;</Description>
+				<Name></Name>								
+				<ParentID>200</ParentID>
+							</Error>
+	  				</ErrorRepository>
+	

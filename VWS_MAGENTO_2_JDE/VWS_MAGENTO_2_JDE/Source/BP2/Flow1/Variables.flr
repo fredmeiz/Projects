@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<FlowVariables>
+							<Variable d2p1:type="VariableRepositoryItem" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance">
+			<GUID>{19ACFEA1-4514-4B80-9D7B-5D8883C8417E}</GUID>
+			<ID>1</ID>
+			<Order>321</Order>
+			<Name>F.Attch</Name>
+							<Description>Path to attachments</Description>
+						<Type>
+				<Type>A</Type>
+				<Picture>1000</Picture>
+									<isUnicode>false</isUnicode>
+													<isNillable>false</isNillable>
+							</Type>
+													<isDeleted>false</isDeleted>
+						<IsSystemVariable>false</IsSystemVariable>
+			<IsNameIncompatible>false</IsNameIncompatible>
+			</Variable>
+									<Variable d2p1:type="VariableRepositoryItem" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance">
+			<GUID>{BB25C9CE-FCCD-4DF6-94E7-70D73BCB8A2D}</GUID>
+			<ID>2</ID>
+			<Order>322</Order>
+			<Name>F.Attch1</Name>
+							<Description>Attachment One XML</Description>
+						<Type>
+				<Type>B</Type>
+				<Picture></Picture>
+									<isUnicode>false</isUnicode>
+													<isNillable>false</isNillable>
+							</Type>
+													<isDeleted>false</isDeleted>
+						<IsSystemVariable>false</IsSystemVariable>
+			<IsNameIncompatible>false</IsNameIncompatible>
+			</Variable>
+									<Variable d2p1:type="VariableRepositoryItem" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance">
+			<GUID>{D969B34E-6090-4D55-8415-CDA23A25511B}</GUID>
+			<ID>3</ID>
+			<Order>323</Order>
+			<Name>F.Attch2</Name>
+							<Description>Attachment Two XML</Description>
+						<Type>
+				<Type>B</Type>
+				<Picture></Picture>
+									<isUnicode>false</isUnicode>
+													<isNillable>false</isNillable>
+							</Type>
+													<isDeleted>false</isDeleted>
+						<IsSystemVariable>false</IsSystemVariable>
+			<IsNameIncompatible>false</IsNameIncompatible>
+			</Variable>
+									<Variable d2p1:type="VariableRepositoryItem" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance">
+			<GUID>{533AA4F3-3DE5-48ED-8F81-98C242B6B2EA}</GUID>
+			<ID>4</ID>
+			<Order>447</Order>
+			<Name>F.JDEHoldCode</Name>
+						<Type>
+				<Type>A</Type>
+				<Picture>2</Picture>
+									<isUnicode>false</isUnicode>
+													<isNillable>false</isNillable>
+							</Type>
+													<isDeleted>false</isDeleted>
+						<IsSystemVariable>false</IsSystemVariable>
+			<IsNameIncompatible>false</IsNameIncompatible>
+			</Variable>
+									<Variable d2p1:type="VariableRepositoryItem" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance">
+			<GUID>{9F6BE60E-0D7B-4EF9-BBED-914A2DB59703}</GUID>
+			<ID>5</ID>
+			<Order>448</Order>
+			<Name>F.orderIdMagento</Name>
+							<Description>for Magento order number. To be translated using internal table to JDE order number</Description>
+						<Type>
+				<Type>A</Type>
+				<Picture>30</Picture>
+									<isUnicode>false</isUnicode>
+													<isNillable>false</isNillable>
+							</Type>
+													<isDeleted>false</isDeleted>
+						<IsSystemVariable>false</IsSystemVariable>
+			<IsNameIncompatible>false</IsNameIncompatible>
+			</Variable>
+									<Variable d2p1:type="VariableRepositoryItem" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance">
+			<GUID>{421BC0AC-ED5F-4D07-B05B-C8AC44C4DBA9}</GUID>
+			<ID>6</ID>
+			<Order>449</Order>
+			<Name>F.orderStatusJDE</Name>
+							<Description>extract from resultBsfn1</Description>
+						<Type>
+				<Type>A</Type>
+				<Picture>30</Picture>
+									<isUnicode>false</isUnicode>
+													<isNillable>false</isNillable>
+							</Type>
+													<isDeleted>false</isDeleted>
+						<IsSystemVariable>false</IsSystemVariable>
+			<IsNameIncompatible>false</IsNameIncompatible>
+			</Variable>
+									<Variable d2p1:type="VariableRepositoryItem" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance">
+			<GUID>{2157661B-68E7-4BCD-A91A-1EF5862B1978}</GUID>
+			<ID>7</ID>
+			<Order>453</Order>
+			<Name>F.ErrorAlpha</Name>
+						<Type>
+				<Type>B</Type>
+				<Picture></Picture>
+									<isUnicode>false</isUnicode>
+													<isNillable>false</isNillable>
+							</Type>
+													<isDeleted>false</isDeleted>
+						<IsSystemVariable>false</IsSystemVariable>
+			<IsNameIncompatible>false</IsNameIncompatible>
+			</Variable>
+					</FlowVariables>
+	

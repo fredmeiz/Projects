@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# XPIStudio Solution File, Format Version 11.00
+Project("{0923A81A-DF4D-40B2-8C31-E36CAF3F67B4}") = "Project1", "Project1\Project1.mgxpiproj", "{46E6E6F5-952D-4A66-925A-3BA0F14E2E5D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{46E6E6F5-952D-4A66-925A-3BA0F14E2E5D}.Debug|x86.ActiveCfg = Debug|x86
+		{46E6E6F5-952D-4A66-925A-3BA0F14E2E5D}.Debug|x86.Build.0 = Debug|x86
+		{46E6E6F5-952D-4A66-925A-3BA0F14E2E5D}.Release|x86.ActiveCfg = Release|x86
+		{46E6E6F5-952D-4A66-925A-3BA0F14E2E5D}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,481 @@
+﻿<Struct_GlobalVariables>
+
+  <GlobalVariablesComp>
+    <TopologyID>0</TopologyID>
+    <flow_id>0</flow_id>
+    <data_key>C.sys.ErrorCode</data_key>
+    <data_description>Error occurred when executing a step.</data_description>
+    <data_type>N</data_type>
+    <data_len>12</data_len>
+    <default_value>0</default_value>
+    <blob_viewer_component></blob_viewer_component>
+    <blob_viewer_program></blob_viewer_program>
+    <internal_index>1</internal_index>
+    <global>0</global>
+    <internal_sort>0</internal_sort>
+    <default_value_depl></default_value_depl>
+    <uds_type></uds_type>
+    <GUID>000000000000000000000000000000000000001</GUID>
+    <Deleted>0</Deleted>
+  </GlobalVariablesComp>
+
+  <GlobalVariablesComp>
+    <TopologyID>0</TopologyID>
+    <flow_id>0</flow_id>
+    <data_key>C.sys.ErrorDescription</data_key>
+    <data_description>Error description.</data_description>
+    <data_type>A</data_type>
+    <data_len>1000</data_len>
+    <default_value>0</default_value>
+    <blob_viewer_component></blob_viewer_component>
+    <blob_viewer_program></blob_viewer_program>
+    <internal_index>2</internal_index>
+    <global>0</global>
+    <internal_sort>0</internal_sort>
+    <default_value_depl></default_value_depl>
+    <uds_type></uds_type>
+    <GUID>000000000000000000000000000000000000002</GUID>
+    <Deleted>0</Deleted>
+  </GlobalVariablesComp>
+
+  <GlobalVariablesComp>
+    <TopologyID>0</TopologyID>
+    <flow_id>0</flow_id>
+    <data_key>C.sys.RemoteUser</data_key>
+    <data_description>User name from external call.</data_description>
+    <data_type>A</data_type>
+    <data_len>30</data_len>
+    <default_value>0</default_value>
+    <blob_viewer_component></blob_viewer_component>
+    <blob_viewer_program></blob_viewer_program>
+    <internal_index>3</internal_index>
+    <global>0</global>
+    <internal_sort>0</internal_sort>
+    <default_value_depl></default_value_depl>
+    <uds_type></uds_type>
+    <GUID>000000000000000000000000000000000000003</GUID>
+    <Deleted>0</Deleted>
+  </GlobalVariablesComp>
+
+  <GlobalVariablesComp>
+    <TopologyID>0</TopologyID>
+    <flow_id>0</flow_id>
+    <data_key>G.sys.ServerInstance</data_key>
+    <data_description>Server instance.</data_description>
+    <data_type>N</data_type>
+    <data_len>5</data_len>
+    <default_value>0</default_value>
+    <blob_viewer_component></blob_viewer_component>
+    <blob_viewer_program></blob_viewer_program>
+    <internal_index>4</internal_index>
+    <global>1</global>
+    <internal_sort>0</internal_sort>
+    <default_value_depl></default_value_depl>
+    <uds_type></uds_type>
+    <GUID>000000000000000000000000000000000000004</GUID>
+    <Deleted>0</Deleted>
+  </GlobalVariablesComp>
+
+  <GlobalVariablesComp>
+    <TopologyID>0</TopologyID>
+    <flow_id>0</flow_id>
+    <data_key>C.UserString</data_key>
+    <data_description>Passes alpha-numeric information between components in flows.</data_description>
+    <data_type>A</data_type>
+    <data_len>1000</data_len>
+    <default_value>0</default_value>
+    <blob_viewer_component></blob_viewer_component>
+    <blob_viewer_program></blob_viewer_program>
+    <internal_index>5</internal_index>
+    <global>0</global>
+    <internal_sort>0</internal_sort>
+    <default_value_depl></default_value_depl>
+    <uds_type></uds_type>
+    <GUID>000000000000000000000000000000000000005</GUID>
+    <Deleted>0</Deleted>
+  </GlobalVariablesComp>
+
+  <GlobalVariablesComp>
+    <TopologyID>0</TopologyID>
+    <flow_id>0</flow_id>
+    <data_key>C.UserCode</data_key>
+    <data_description>Passes only numeric information between components in flows.</data_description>
+    <data_type>N</data_type>
+    <data_len>12</data_len>
+    <default_value>0</default_value>
+    <blob_viewer_component></blob_viewer_component>
+    <blob_viewer_program></blob_viewer_program>
+    <internal_index>6</internal_index>
+    <global>0</global>
+    <internal_sort>0</internal_sort>
+    <default_value_depl></default_value_depl>
+    <uds_type></uds_type>
+    <GUID>000000000000000000000000000000000000006</GUID>
+    <Deleted>0</Deleted>
+  </GlobalVariablesComp>
+
+  <GlobalVariablesComp>
+    <TopologyID>0</TopologyID>
+    <flow_id>0</flow_id>
+    <data_key>C.UserBlob</data_key>
+    <data_description>Passes undefined types of information between components in flows.</data_description>
+    <data_type>B</data_type>
+    <data_len>0</data_len>
+    <default_value>0</default_value>
+    <blob_viewer_component></blob_viewer_component>
+    <blob_viewer_program></blob_viewer_program>
+    <internal_index>7</internal_index>
+    <global>0</global>
+    <internal_sort>0</internal_sort>
+    <default_value_depl></default_value_depl>
+    <uds_type></uds_type>
+    <GUID>000000000000000000000000000000000000007</GUID>
+    <Deleted>0</Deleted>
+  </GlobalVariablesComp>
+
+  <GlobalVariablesComp>
+    <TopologyID>0</TopologyID>
+    <flow_id>0</flow_id>
+    <data_key>C.UserXML</data_key>
+    <data_description>Passes information in XML format between components in flows.</data_description>
+    <data_type>B</data_type>
+    <data_len>0</data_len>
+    <default_value>0</default_value>
+    <blob_viewer_component></blob_viewer_component>
+    <blob_viewer_program></blob_viewer_program>
+    <internal_index>8</internal_index>
+    <global>0</global>
+    <internal_sort>0</internal_sort>
+    <default_value_depl></default_value_depl>
+    <uds_type></uds_type>
+    <GUID>000000000000000000000000000000000000008</GUID>
+    <Deleted>0</Deleted>
+  </GlobalVariablesComp>
+
+  <GlobalVariablesComp>
+    <TopologyID>0</TopologyID>
+    <flow_id>0</flow_id>
+    <data_key>C.HTTP_Body</data_key>
+    <data_description>Body of HTTP request.</data_description>
+    <data_type>B</data_type>
+    <data_len>0</data_len>
+    <default_value>0</default_value>
+    <blob_viewer_component></blob_viewer_component>
+    <blob_viewer_program></blob_viewer_program>
+    <internal_index>9</internal_index>
+    <global>0</global>
+    <internal_sort>0</internal_sort>
+    <default_value_depl></default_value_depl>
+    <uds_type></uds_type>
+    <GUID>000000000000000000000000000000000000009</GUID>
+    <Deleted>0</Deleted>
+  </GlobalVariablesComp>
+
+  <GlobalVariablesComp>
+    <TopologyID>0</TopologyID>
+    <flow_id>0</flow_id>
+    <data_key>C.sys.InvokingFlowName</data_key>
+    <data_description>This variable will hold the calling Flow name when using: Invoke Flow, Call Flow, or Error Flow.</data_description>
+    <data_type>A</data_type>
+    <data_len>30</data_len>
+    <default_value>0</default_value>
+    <blob_viewer_component></blob_viewer_component>
+    <blob_viewer_program></blob_viewer_program>
+    <internal_index>10</internal_index>
+    <global>0</global>
+    <internal_sort>0</internal_sort>
+    <default_value_depl></default_value_depl>
+    <uds_type></uds_type>
+    <GUID>000000000000000000000000000000000000010</GUID>
+    <Deleted>0</Deleted>
+  </GlobalVariablesComp>
+
+  <GlobalVariablesComp>
+    <TopologyID>0</TopologyID>
+    <flow_id>0</flow_id>
+    <data_key>C.sys.InvokingComponentName</data_key>
+    <data_description>This variable will hold the calling Component name when using: Invoke Flow, or Error Flow.</data_description>
+    <data_type>A</data_type>
+    <data_len>30</data_len>
+    <default_value>0</default_value>
+    <blob_viewer_component></blob_viewer_component>
+    <blob_viewer_program></blob_viewer_program>
+    <internal_index>11</internal_index>
+    <global>0</global>
+    <internal_sort>0</internal_sort>
+    <default_value_depl></default_value_depl>
+    <uds_type></uds_type>
+    <GUID>000000000000000000000000000000000000011</GUID>
+    <Deleted>0</Deleted>
+  </GlobalVariablesComp>
+
+  <GlobalVariablesComp>
+    <TopologyID>0</TopologyID>
+    <flow_id>0</flow_id>
+    <data_key>C.sys.LastErrorFlowName</data_key>
+    <data_description>Flow name where last error occurred.</data_description>
+    <data_type>A</data_type>
+    <data_len>30</data_len>
+    <default_value>0</default_value>
+    <blob_viewer_component></blob_viewer_component>
+    <blob_viewer_program></blob_viewer_program>
+    <internal_index>12</internal_index>
+    <global>0</global>
+    <internal_sort>0</internal_sort>
+    <default_value_depl></default_value_depl>
+    <uds_type></uds_type>
+    <GUID>000000000000000000000000000000000000012</GUID>
+    <Deleted>0</Deleted>
+  </GlobalVariablesComp>
+
+  <GlobalVariablesComp>
+    <TopologyID>0</TopologyID>
+    <flow_id>0</flow_id>
+    <data_key>C.sys.LastErrorStepName</data_key>
+    <data_description>Step name where last error occurred.</data_description>
+    <data_type>A</data_type>
+    <data_len>30</data_len>
+    <default_value>0</default_value>
+    <blob_viewer_component></blob_viewer_component>
+    <blob_viewer_program></blob_viewer_program>
+    <internal_index>13</internal_index>
+    <global>0</global>
+    <internal_sort>0</internal_sort>
+    <default_value_depl></default_value_depl>
+    <uds_type></uds_type>
+    <GUID>000000000000000000000000000000000000013</GUID>
+    <Deleted>0</Deleted>
+  </GlobalVariablesComp>
+
+  <GlobalVariablesComp>
+    <TopologyID>0</TopologyID>
+    <flow_id>0</flow_id>
+    <data_key>C.sys.LastErrorInfo</data_key>
+    <data_description>Detailed information about the error.</data_description>
+    <data_type>B</data_type>
+    <data_len>0</data_len>
+    <default_value>0</default_value>
+    <blob_viewer_component></blob_viewer_component>
+    <blob_viewer_program></blob_viewer_program>
+    <internal_index>14</internal_index>
+    <global>0</global>
+    <internal_sort>0</internal_sort>
+    <default_value_depl></default_value_depl>
+    <uds_type></uds_type>
+    <GUID>000000000000000000000000000000000000014</GUID>
+    <Deleted>0</Deleted>
+  </GlobalVariablesComp>
+
+  <GlobalVariablesComp>
+    <TopologyID>0</TopologyID>
+    <flow_id>0</flow_id>
+    <data_key>C.sys.LastErrorCode</data_key>
+    <data_description>Last error code.</data_description>
+    <data_type>N</data_type>
+    <data_len>12</data_len>
+    <default_value>0</default_value>
+    <blob_viewer_component></blob_viewer_component>
+    <blob_viewer_program></blob_viewer_program>
+    <internal_index>15</internal_index>
+    <global>0</global>
+    <internal_sort>0</internal_sort>
+    <default_value_depl></default_value_depl>
+    <uds_type></uds_type>
+    <GUID>000000000000000000000000000000000000015</GUID>
+    <Deleted>0</Deleted>
+  </GlobalVariablesComp>
+
+  <GlobalVariablesComp>
+    <TopologyID>0</TopologyID>
+    <flow_id>0</flow_id>
+    <data_key>C.sys.LastStepID</data_key>
+    <data_description>Step ID where last error occurred.</data_description>
+    <data_type>N</data_type>
+    <data_len>12</data_len>
+    <default_value>0</default_value>
+    <blob_viewer_component></blob_viewer_component>
+    <blob_viewer_program></blob_viewer_program>
+    <internal_index>16</internal_index>
+    <global>0</global>
+    <internal_sort>0</internal_sort>
+    <default_value_depl></default_value_depl>
+    <uds_type></uds_type>
+    <GUID>000000000000000000000000000000000000016</GUID>
+    <Deleted>0</Deleted>
+  </GlobalVariablesComp>
+
+  <GlobalVariablesComp>
+    <TopologyID>0</TopologyID>
+    <flow_id>0</flow_id>
+    <data_key>C.sys.LastFlowID</data_key>
+    <data_description>Flow ID where last error occurred.</data_description>
+    <data_type>N</data_type>
+    <data_len>12</data_len>
+    <default_value>0</default_value>
+    <blob_viewer_component></blob_viewer_component>
+    <blob_viewer_program></blob_viewer_program>
+    <internal_index>17</internal_index>
+    <global>0</global>
+    <internal_sort>0</internal_sort>
+    <default_value_depl></default_value_depl>
+    <uds_type></uds_type>
+    <GUID>000000000000000000000000000000000000017</GUID>
+    <Deleted>0</Deleted>
+  </GlobalVariablesComp>
+
+  <GlobalVariablesComp>
+    <TopologyID>0</TopologyID>
+    <flow_id>0</flow_id>
+    <data_key>C.sys.LastErrorDescription</data_key>
+    <data_description>Last error description.</data_description>
+    <data_type>A</data_type>
+    <data_len>1000</data_len>
+    <default_value>0</default_value>
+    <blob_viewer_component></blob_viewer_component>
+    <blob_viewer_program></blob_viewer_program>
+    <internal_index>18</internal_index>
+    <global>0</global>
+    <internal_sort>0</internal_sort>
+    <default_value_depl></default_value_depl>
+    <uds_type></uds_type>
+    <GUID>000000000000000000000000000000000000018</GUID>
+    <Deleted>0</Deleted>
+  </GlobalVariablesComp>
+
+  <GlobalVariablesComp>
+    <TopologyID>0</TopologyID>
+    <flow_id>0</flow_id>
+    <data_key>C.sys.LastErrorComponentType</data_key>
+    <data_description>Last component type which the error occurred in.</data_description>
+    <data_type>N</data_type>
+    <data_len>12</data_len>
+    <default_value>0</default_value>
+    <blob_viewer_component></blob_viewer_component>
+    <blob_viewer_program></blob_viewer_program>
+    <internal_index>19</internal_index>
+    <global>0</global>
+    <internal_sort>0</internal_sort>
+    <default_value_depl></default_value_depl>
+    <uds_type></uds_type>
+    <GUID>000000000000000000000000000000000000019</GUID>
+    <Deleted>0</Deleted>
+  </GlobalVariablesComp>
+
+  <GlobalVariablesComp>
+    <TopologyID>0</TopologyID>
+    <flow_id>0</flow_id>
+    <data_key>C.sys.LastTriggerName</data_key>
+    <data_description>Indicate the component name that triggered the flow.</data_description>
+    <data_type>A</data_type>
+    <data_len>30</data_len>
+    <default_value>0</default_value>
+    <blob_viewer_component></blob_viewer_component>
+    <blob_viewer_program></blob_viewer_program>
+    <internal_index>20</internal_index>
+    <global>0</global>
+    <internal_sort>0</internal_sort>
+    <default_value_depl></default_value_depl>
+    <uds_type></uds_type>
+    <GUID>000000000000000000000000000000000000020</GUID>
+    <Deleted>0</Deleted>
+  </GlobalVariablesComp>
+
+ <GlobalVariablesComp>
+    <TopologyID>0</TopologyID>
+    <flow_id>0</flow_id>
+    <data_key>C.sys.ContextLogging</data_key>
+    <data_description>Handles the control of the components flow context logging process.</data_description>
+    <data_type>L</data_type>
+    <data_len>1</data_len>
+    <default_value>2</default_value>
+    <blob_viewer_component/>
+    <blob_viewer_program/>
+    <internal_index>21</internal_index>
+    <global>0</global>
+    <internal_sort>0</internal_sort>
+    <default_value_depl/>
+    <uds_type/>
+    <GUID>000000000000000000000000000000000000021</GUID>
+    <Deleted>0</Deleted>
+  </GlobalVariablesComp>
+    
+  <GlobalVariablesComp>
+    <TopologyID>0</TopologyID>
+    <flow_id>0</flow_id>
+    <data_key>G.sys.ComponentLogging</data_key>
+    <data_description>Handles the component's global logging process</data_description>
+    <data_type>L</data_type>
+    <data_len>1</data_len>
+    <default_value>3</default_value>
+    <blob_viewer_component/>
+    <blob_viewer_program/>
+    <internal_index>22</internal_index>
+    <global>1</global>
+    <internal_sort>0</internal_sort>
+    <default_value_depl/>
+    <uds_type/>
+    <GUID>000000000000000000000000000000000000022</GUID>
+    <Deleted>0</Deleted>
+  </GlobalVariablesComp>
+  
+  <GlobalVariablesComp>
+    <TopologyID>0</TopologyID>
+    <flow_id>0</flow_id>
+    <data_key>C.sys.InvokingBPName</data_key>
+    <data_description>This variable will hold the calling BP name when using: Invoke Flow, Call Flow, or Error Flow.</data_description>
+    <data_type>A</data_type>
+    <data_len>30</data_len>
+    <default_value>0</default_value>
+    <blob_viewer_component></blob_viewer_component>
+    <blob_viewer_program></blob_viewer_program>
+    <internal_index>23</internal_index>
+    <global>0</global>
+    <internal_sort>0</internal_sort>
+    <default_value_depl></default_value_depl>
+    <uds_type></uds_type>
+    <GUID>000000000000000000000000000000000000023</GUID>
+    <Deleted>0</Deleted>
+  </GlobalVariablesComp>
+
+  <Expression_Table_Struct>
+    <Expression_TableComp>
+      <Object_ID>50</Object_ID>
+      <BP_ID>0</BP_ID>
+      <Flow_ID>0</Flow_ID>
+      <StepTrigger_ID>0</StepTrigger_ID>
+      <Is_Trigger>0</Is_Trigger>
+      <SubStep_ID>0</SubStep_ID>
+      <MapperUpdate_ID>0</MapperUpdate_ID>
+      <Expression_ID>2</Expression_ID>
+      <Development_Expression>J1RSVUUnTE9H</Development_Expression>
+      <Deployment_Expression></Deployment_Expression>
+      <Expression_Return_Attribute>L</Expression_Return_Attribute>
+      <Range_String></Range_String>
+      <Direction_InOrOut>I</Direction_InOrOut>
+      <DeploymentGenerated>0</DeploymentGenerated>
+      <ExpressionPath>PCE/UmVwb3NpdG9yeT8hPg0KPCE/VmFyPyE+DQo8IT9UYWI/IT5DPCE/VGFiPyE+DQo8IT9JRD8hPns4MTk2NTlENS1FOUFGLTRFREYtOTEwRS02REE2QUJDMzkwQUJ9PCE/SUQ/IT4NCjwhP0NUUk5hbWU/IT5GVl9kZWZhdWx0IHZhbHVlPCE/Q1RSTmFtZT8hPg0KPCE/VmFyPyE+DQo8IT9SZXBvc2l0b3J5PyE+</ExpressionPath>
+      <isCopyIndication>0</isCopyIndication>
+      <ElementVector></ElementVector>
+    </Expression_TableComp>
+    <Expression_TableComp>
+      <Object_ID>50</Object_ID>
+      <BP_ID>0</BP_ID>
+      <Flow_ID>0</Flow_ID>
+      <StepTrigger_ID>0</StepTrigger_ID>
+      <Is_Trigger>0</Is_Trigger>
+      <SubStep_ID>0</SubStep_ID>
+      <MapperUpdate_ID>0</MapperUpdate_ID>
+      <Expression_ID>3</Expression_ID>
+      <Development_Expression>J1RSVUUnTE9H</Development_Expression>
+      <Deployment_Expression></Deployment_Expression>
+      <Expression_Return_Attribute>L</Expression_Return_Attribute>
+      <Range_String></Range_String>
+      <Direction_InOrOut>I</Direction_InOrOut>
+      <DeploymentGenerated>0</DeploymentGenerated>
+      <ExpressionPath>PCE/UmVwb3NpdG9yeT8hPg0KPCE/VmFyPyE+DQo8IT9UYWI/IT5HPCE/VGFiPyE+DQo8IT9JRD8hPns5RTE5NUM2OS1DQTdELTQzOEItQjVGMy02QzQ5Rjk2MUE4ODV9PCE/SUQ/IT4NCjwhP0NUUk5hbWU/IT5GVl9kZWZhdWx0IHZhbHVlPCE/Q1RSTmFtZT8hPg0KPCE/VmFyPyE+DQo8IT9SZXBvc2l0b3J5PyE+</ExpressionPath>
+      <isCopyIndication>0</isCopyIndication>
+      <ElementVector></ElementVector>
+    </Expression_TableComp>
+  </Expression_Table_Struct>
+
+</Struct_GlobalVariables>

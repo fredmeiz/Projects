@@ -1,0 +1,15 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://systinet.com/wsdl/com/magicsoftware/magicxpi/JDE/">
+  <xs:element name="salesOrderInfo" maxOccurs="unbounded">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element type="xs:string" name="createdAt"/>
+        <xs:element type="xs:string" name="price"/>
+        <xs:element type="xs:string" name="qty"/>
+        <xs:element type="xs:string" name="rowTotal"/>
+        <xs:element type="xs:string" name="sku"/>
+        <xs:element type="xs:string" name="tax"/>
+        <xs:element type="xs:string" name="updatedAt"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

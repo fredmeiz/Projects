@@ -1,0 +1,717 @@
+﻿<?xml version="1.0" ?>
+<BP>
+	<ID>2</ID>
+	<Name>Magento JDE</Name>
+
+			<Properties>
+			<ID>2</ID>
+			<Order>2</Order>
+			<Name>Magento JDE</Name>
+			<Description></Description>
+		</Properties>
+		
+
+		<Elements>
+									<row>
+					<ID>6</ID>
+					<Type>RSC</Type>
+					<Name>Order</Name>
+					<Description></Description>
+					<TextLocation>Right</TextLocation>
+															
+					
+					
+									</row>
+												<row>
+					<ID>10</ID>
+					<Type>RSC</Type>
+					<Name>Order</Name>
+					<Description></Description>
+					<TextLocation>Right</TextLocation>
+															
+					
+					
+									</row>
+												<row>
+					<ID>13</ID>
+					<Type>PAR</Type>
+					<Name>JDE Create Order</Name>
+					<Description></Description>
+					<TextLocation>Top Left</TextLocation>
+															
+					
+										<DemarkElement>
+						<Font>24</Font>
+						<Color>255</Color>
+					</DemarkElement>
+					
+									</row>
+												<row>
+					<ID>14</ID>
+					<Type>ACT</Type>
+					<Name>F4211FSBeginDoc</Name>
+					<Description></Description>
+					<TextLocation>Right</TextLocation>
+															<ActivityElement>
+						
+												<Properties>
+							<Interface></Interface>
+							<WSDL_IN></WSDL_IN>
+							<WSDL_OUT></WSDL_OUT>
+							<Document></Document>
+						</Properties>
+												
+						<UserMSG></UserMSG>
+						
+												<Flows>
+																					<row>
+								<Flow>
+								<BPID>2</BPID>
+								<FlowID>
+									<ExpressionVal>PCMhJUAkPmdldEZsb3dOYW1lKDEpPCMhJUAkPg==</ExpressionVal>
+									<ExpectedType>N</ExpectedType>
+									<Direction>I</Direction>
+								</FlowID>
+								</Flow>
+							</row>
+																				</Flows>
+												
+					</ActivityElement>
+										
+					
+					
+									</row>
+												<row>
+					<ID>15</ID>
+					<Type>ACT</Type>
+					<Name>F4211FSEndDoc</Name>
+					<Description></Description>
+					<TextLocation>Right</TextLocation>
+															<ActivityElement>
+						
+												<Properties>
+							<Interface></Interface>
+							<WSDL_IN></WSDL_IN>
+							<WSDL_OUT></WSDL_OUT>
+							<Document></Document>
+						</Properties>
+												
+						<UserMSG></UserMSG>
+						
+												<Flows>
+																					<row>
+								<Flow>
+								<BPID>2</BPID>
+								<FlowID>
+									<ExpressionVal>PCMhJUAkPmdldEZsb3dOYW1lKDEpPCMhJUAkPg==</ExpressionVal>
+									<ExpectedType>N</ExpectedType>
+									<Direction>I</Direction>
+								</FlowID>
+								</Flow>
+							</row>
+																				</Flows>
+												
+					</ActivityElement>
+										
+					
+					
+									</row>
+												<row>
+					<ID>16</ID>
+					<Type>ACT</Type>
+					<Name>F4211FSEditLine</Name>
+					<Description></Description>
+					<TextLocation>Right</TextLocation>
+															<ActivityElement>
+						
+												<Properties>
+							<Interface></Interface>
+							<WSDL_IN></WSDL_IN>
+							<WSDL_OUT></WSDL_OUT>
+							<Document></Document>
+						</Properties>
+												
+						<UserMSG></UserMSG>
+						
+												<Flows>
+																					<row>
+								<Flow>
+								<BPID>2</BPID>
+								<FlowID>
+									<ExpressionVal>PCMhJUAkPmdldEZsb3dOYW1lKDMpPCMhJUAkPg==</ExpressionVal>
+									<ExpectedType>N</ExpectedType>
+									<Direction>I</Direction>
+								</FlowID>
+								</Flow>
+							</row>
+																				</Flows>
+												
+					</ActivityElement>
+										
+					
+					
+									</row>
+												<row>
+					<ID>17</ID>
+					<Type>ACT</Type>
+					<Name>GetF4211DetailInformation</Name>
+					<Description></Description>
+					<TextLocation>Right</TextLocation>
+															<ActivityElement>
+						
+												<Properties>
+							<Interface></Interface>
+							<WSDL_IN></WSDL_IN>
+							<WSDL_OUT></WSDL_OUT>
+							<Document></Document>
+						</Properties>
+												
+						<UserMSG></UserMSG>
+						
+												<Flows>
+																					<row>
+								<Flow>
+								<BPID>2</BPID>
+								<FlowID>
+									<ExpressionVal>PCMhJUAkPmdldEZsb3dOYW1lKDEzKTwjISVAJD4=</ExpressionVal>
+									<ExpectedType>N</ExpectedType>
+									<Direction>I</Direction>
+								</FlowID>
+								</Flow>
+							</row>
+																				</Flows>
+												
+					</ActivityElement>
+										
+					
+					
+									</row>
+												<row>
+					<ID>18</ID>
+					<Type>ACT</Type>
+					<Name>Get  Order Info (WS)</Name>
+					<Description></Description>
+					<TextLocation>Right</TextLocation>
+															<ActivityElement>
+						
+												<Properties>
+							<Interface></Interface>
+							<WSDL_IN></WSDL_IN>
+							<WSDL_OUT></WSDL_OUT>
+							<Document></Document>
+						</Properties>
+												
+						<UserMSG></UserMSG>
+						
+												<Flows>
+																					<row>
+								<Flow>
+								<BPID>2</BPID>
+								<FlowID>
+									<ExpressionVal>PCMhJUAkPmdldEZsb3dOYW1lKDYpPCMhJUAkPg==</ExpressionVal>
+									<ExpectedType>N</ExpectedType>
+									<Direction>I</Direction>
+								</FlowID>
+								</Flow>
+							</row>
+																				</Flows>
+												
+					</ActivityElement>
+										
+					
+					
+									</row>
+												<row>
+					<ID>19</ID>
+					<Type>ACT</Type>
+					<Name>Get  Customer  Info (WS)</Name>
+					<Description></Description>
+					<TextLocation>Right</TextLocation>
+															<ActivityElement>
+						
+												<Properties>
+							<Interface></Interface>
+							<WSDL_IN></WSDL_IN>
+							<WSDL_OUT></WSDL_OUT>
+							<Document></Document>
+						</Properties>
+												
+						<UserMSG></UserMSG>
+						
+												<Flows>
+																					<row>
+								<Flow>
+								<BPID>2</BPID>
+								<FlowID>
+									<ExpressionVal>PCMhJUAkPmdldEZsb3dOYW1lKDgpPCMhJUAkPg==</ExpressionVal>
+									<ExpectedType>N</ExpectedType>
+									<Direction>I</Direction>
+								</FlowID>
+								</Flow>
+							</row>
+																				</Flows>
+												
+					</ActivityElement>
+										
+					
+					
+									</row>
+												<row>
+					<ID>23</ID>
+					<Type>PAR</Type>
+					<Name>Magento</Name>
+					<Description></Description>
+					<TextLocation>Top Left</TextLocation>
+															
+					
+										<DemarkElement>
+						<Font>29</Font>
+						<Color>16744448</Color>
+					</DemarkElement>
+					
+									</row>
+												<row>
+					<ID>24</ID>
+					<Type>PAR</Type>
+					<Name>Magento</Name>
+					<Description></Description>
+					<TextLocation>Top Left</TextLocation>
+															
+					
+										<DemarkElement>
+						<Font>30</Font>
+						<Color>16744448</Color>
+					</DemarkElement>
+					
+									</row>
+												<row>
+					<ID>25</ID>
+					<Type>CNL</Type>
+					<Name></Name>
+					<Description></Description>
+					<TextLocation></TextLocation>
+															
+										<ConnElement>
+						<Font>0</Font>
+						<Color>10377785</Color>
+						<LineWidth>0</LineWidth>
+						<LineStyle>Regular</LineStyle>
+						<ArrowDir>Target</ArrowDir>
+						<Src_elementId>18</Src_elementId>
+						<Dest_elementId>19</Dest_elementId>
+					</ConnElement>
+					
+					
+									</row>
+												<row>
+					<ID>26</ID>
+					<Type>CNL</Type>
+					<Name></Name>
+					<Description></Description>
+					<TextLocation></TextLocation>
+															
+										<ConnElement>
+						<Font>0</Font>
+						<Color>10377785</Color>
+						<LineWidth>0</LineWidth>
+						<LineStyle>Regular</LineStyle>
+						<ArrowDir>Target</ArrowDir>
+						<Src_elementId>19</Src_elementId>
+						<Dest_elementId>14</Dest_elementId>
+					</ConnElement>
+					
+					
+									</row>
+												<row>
+					<ID>27</ID>
+					<Type>CNL</Type>
+					<Name></Name>
+					<Description></Description>
+					<TextLocation></TextLocation>
+															
+										<ConnElement>
+						<Font>0</Font>
+						<Color>10377785</Color>
+						<LineWidth>0</LineWidth>
+						<LineStyle>Regular</LineStyle>
+						<ArrowDir>Target</ArrowDir>
+						<Src_elementId>14</Src_elementId>
+						<Dest_elementId>16</Dest_elementId>
+					</ConnElement>
+					
+					
+									</row>
+												<row>
+					<ID>28</ID>
+					<Type>CNL</Type>
+					<Name></Name>
+					<Description></Description>
+					<TextLocation></TextLocation>
+															
+										<ConnElement>
+						<Font>0</Font>
+						<Color>10377785</Color>
+						<LineWidth>0</LineWidth>
+						<LineStyle>Regular</LineStyle>
+						<ArrowDir>Target</ArrowDir>
+						<Src_elementId>16</Src_elementId>
+						<Dest_elementId>15</Dest_elementId>
+					</ConnElement>
+					
+					
+									</row>
+												<row>
+					<ID>29</ID>
+					<Type>ACT</Type>
+					<Name>SalesOrderAddComment</Name>
+					<Description></Description>
+					<TextLocation>Right</TextLocation>
+															<ActivityElement>
+						
+												<Properties>
+							<Interface></Interface>
+							<WSDL_IN></WSDL_IN>
+							<WSDL_OUT></WSDL_OUT>
+							<Document></Document>
+						</Properties>
+												
+						<UserMSG></UserMSG>
+						
+												<Flows>
+																					<row>
+								<Flow>
+								<BPID>2</BPID>
+								<FlowID>
+									<ExpressionVal>PCMhJUAkPmdldEZsb3dOYW1lKDEzKTwjISVAJD4=</ExpressionVal>
+									<ExpectedType>N</ExpectedType>
+									<Direction>I</Direction>
+								</FlowID>
+								</Flow>
+							</row>
+																				</Flows>
+												
+					</ActivityElement>
+										
+					
+					
+									</row>
+												<row>
+					<ID>30</ID>
+					<Type>PAR</Type>
+					<Name>Magento</Name>
+					<Description></Description>
+					<TextLocation>Top Left</TextLocation>
+															
+					
+										<DemarkElement>
+						<Font>31</Font>
+						<Color>16744448</Color>
+					</DemarkElement>
+					
+									</row>
+												<row>
+					<ID>31</ID>
+					<Type>PAR</Type>
+					<Name>JDE Query Order</Name>
+					<Description></Description>
+					<TextLocation>Top Left</TextLocation>
+															
+					
+										<DemarkElement>
+						<Font>32</Font>
+						<Color>255</Color>
+					</DemarkElement>
+					
+									</row>
+												<row>
+					<ID>33</ID>
+					<Type>CNL</Type>
+					<Name></Name>
+					<Description></Description>
+					<TextLocation></TextLocation>
+															
+										<ConnElement>
+						<Font>0</Font>
+						<Color>10377785</Color>
+						<LineWidth>0</LineWidth>
+						<LineStyle>Regular</LineStyle>
+						<ArrowDir>Target</ArrowDir>
+						<Src_elementId>17</Src_elementId>
+						<Dest_elementId>29</Dest_elementId>
+					</ConnElement>
+					
+					
+									</row>
+												<row>
+					<ID>34</ID>
+					<Type>ACT</Type>
+					<Name>Get  Order Info (WS)</Name>
+					<Description></Description>
+					<TextLocation>Right</TextLocation>
+															<ActivityElement>
+						
+												<Properties>
+							<Interface></Interface>
+							<WSDL_IN></WSDL_IN>
+							<WSDL_OUT></WSDL_OUT>
+							<Document></Document>
+						</Properties>
+												
+						<UserMSG></UserMSG>
+						
+												<Flows>
+																					<row>
+								<Flow>
+								<BPID>2</BPID>
+								<FlowID>
+									<ExpressionVal>PCMhJUAkPmdldEZsb3dOYW1lKDYpPCMhJUAkPg==</ExpressionVal>
+									<ExpectedType>N</ExpectedType>
+									<Direction>I</Direction>
+								</FlowID>
+								</Flow>
+							</row>
+																				</Flows>
+												
+					</ActivityElement>
+										
+					
+					
+									</row>
+												<row>
+					<ID>35</ID>
+					<Type>ACT</Type>
+					<Name>Get  Customer  Info (WS)</Name>
+					<Description></Description>
+					<TextLocation>Right</TextLocation>
+															<ActivityElement>
+						
+												<Properties>
+							<Interface></Interface>
+							<WSDL_IN></WSDL_IN>
+							<WSDL_OUT></WSDL_OUT>
+							<Document></Document>
+						</Properties>
+												
+						<UserMSG></UserMSG>
+						
+												<Flows>
+																					<row>
+								<Flow>
+								<BPID>2</BPID>
+								<FlowID>
+									<ExpressionVal>PCMhJUAkPmdldEZsb3dOYW1lKDgpPCMhJUAkPg==</ExpressionVal>
+									<ExpectedType>N</ExpectedType>
+									<Direction>I</Direction>
+								</FlowID>
+								</Flow>
+							</row>
+																				</Flows>
+												
+					</ActivityElement>
+										
+					
+					
+									</row>
+												<row>
+					<ID>37</ID>
+					<Type>CNL</Type>
+					<Name></Name>
+					<Description></Description>
+					<TextLocation></TextLocation>
+															
+										<ConnElement>
+						<Font>0</Font>
+						<Color>10377785</Color>
+						<LineWidth>0</LineWidth>
+						<LineStyle>Regular</LineStyle>
+						<ArrowDir>Target</ArrowDir>
+						<Src_elementId>34</Src_elementId>
+						<Dest_elementId>35</Dest_elementId>
+					</ConnElement>
+					
+					
+									</row>
+												<row>
+					<ID>38</ID>
+					<Type>PAR</Type>
+					<Name>Magento</Name>
+					<Description></Description>
+					<TextLocation>Top Left</TextLocation>
+															
+					
+										<DemarkElement>
+						<Font>35</Font>
+						<Color>16744448</Color>
+					</DemarkElement>
+					
+									</row>
+												<row>
+					<ID>39</ID>
+					<Type>CNL</Type>
+					<Name></Name>
+					<Description></Description>
+					<TextLocation></TextLocation>
+															
+										<ConnElement>
+						<Font>0</Font>
+						<Color>10377785</Color>
+						<LineWidth>0</LineWidth>
+						<LineStyle>Regular</LineStyle>
+						<ArrowDir>Target</ArrowDir>
+						<Src_elementId>35</Src_elementId>
+						<Dest_elementId>17</Dest_elementId>
+					</ConnElement>
+					
+					
+									</row>
+												<row>
+					<ID>40</ID>
+					<Type>ACT</Type>
+					<Name>CreateOrder (Id)</Name>
+					<Description></Description>
+					<TextLocation>Right</TextLocation>
+															<ActivityElement>
+						
+												<Properties>
+							<Interface>http://AMIEDUBA11MAGIC.vws.vh20.net:6060/JDE/</Interface>
+							<WSDL_IN></WSDL_IN>
+							<WSDL_OUT></WSDL_OUT>
+							<Document></Document>
+						</Properties>
+												
+						<UserMSG></UserMSG>
+						
+												<Flows>
+																					<row>
+								<Flow>
+								<BPID>2</BPID>
+								<FlowID>
+									<ExpressionVal>PCMhJUAkPmdldEZsb3dOYW1lKDkpPCMhJUAkPg==</ExpressionVal>
+									<ExpectedType>N</ExpectedType>
+									<Direction>I</Direction>
+								</FlowID>
+								</Flow>
+							</row>
+																				</Flows>
+												
+					</ActivityElement>
+										
+					
+					
+									</row>
+												<row>
+					<ID>41</ID>
+					<Type>CNL</Type>
+					<Name></Name>
+					<Description></Description>
+					<TextLocation></TextLocation>
+															
+										<ConnElement>
+						<Font>0</Font>
+						<Color>10377785</Color>
+						<LineWidth>0</LineWidth>
+						<LineStyle>Regular</LineStyle>
+						<ArrowDir>Target</ArrowDir>
+						<Src_elementId>6</Src_elementId>
+						<Dest_elementId>40</Dest_elementId>
+					</ConnElement>
+					
+					
+									</row>
+												<row>
+					<ID>42</ID>
+					<Type>CNL</Type>
+					<Name></Name>
+					<Description></Description>
+					<TextLocation></TextLocation>
+															
+										<ConnElement>
+						<Font>0</Font>
+						<Color>10377785</Color>
+						<LineWidth>0</LineWidth>
+						<LineStyle>Regular</LineStyle>
+						<ArrowDir>Target</ArrowDir>
+						<Src_elementId>40</Src_elementId>
+						<Dest_elementId>18</Dest_elementId>
+					</ConnElement>
+					
+					
+									</row>
+												<row>
+					<ID>43</ID>
+					<Type>ACT</Type>
+					<Name>QueryOrder (Id)</Name>
+					<Description></Description>
+					<TextLocation>Right</TextLocation>
+															<ActivityElement>
+						
+												<Properties>
+							<Interface>http://AMIEDUBA11MAGIC.vws.vh20.net:6060/JDE/</Interface>
+							<WSDL_IN></WSDL_IN>
+							<WSDL_OUT></WSDL_OUT>
+							<Document></Document>
+						</Properties>
+												
+						<UserMSG></UserMSG>
+						
+												<Flows>
+																					<row>
+								<Flow>
+								<BPID>2</BPID>
+								<FlowID>
+									<ExpressionVal>PCMhJUAkPmdldEZsb3dOYW1lKDkpPCMhJUAkPg==</ExpressionVal>
+									<ExpectedType>N</ExpectedType>
+									<Direction>I</Direction>
+								</FlowID>
+								</Flow>
+							</row>
+																				</Flows>
+												
+					</ActivityElement>
+										
+					
+					
+									</row>
+												<row>
+					<ID>44</ID>
+					<Type>CNL</Type>
+					<Name></Name>
+					<Description></Description>
+					<TextLocation></TextLocation>
+															
+										<ConnElement>
+						<Font>0</Font>
+						<Color>10377785</Color>
+						<LineWidth>0</LineWidth>
+						<LineStyle>Regular</LineStyle>
+						<ArrowDir>Target</ArrowDir>
+						<Src_elementId>10</Src_elementId>
+						<Dest_elementId>43</Dest_elementId>
+					</ConnElement>
+					
+					
+									</row>
+												<row>
+					<ID>45</ID>
+					<Type>CNL</Type>
+					<Name></Name>
+					<Description></Description>
+					<TextLocation></TextLocation>
+															
+										<ConnElement>
+						<Font>0</Font>
+						<Color>10377785</Color>
+						<LineWidth>0</LineWidth>
+						<LineStyle>Regular</LineStyle>
+						<ArrowDir>Target</ArrowDir>
+						<Src_elementId>43</Src_elementId>
+						<Dest_elementId>34</Dest_elementId>
+					</ConnElement>
+					
+					
+									</row>
+						</Elements>
+	
+ 
+	
+</BP>

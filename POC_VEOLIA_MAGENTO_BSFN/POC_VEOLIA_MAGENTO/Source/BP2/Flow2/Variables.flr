@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<FlowVariables>
+							<Variable d2p1:type="VariableRepositoryItem" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance">
+			<GUID>{790D4D03-5603-4166-BFA2-C0FDBACF0F89}</GUID>
+			<ID>1</ID>
+			<Order>280</Order>
+			<Name>F.GetAuditInfo_OUT</Name>
+						<Type>
+				<Type>B</Type>
+				<Picture></Picture>
+									<isUnicode>false</isUnicode>
+													<isNillable>false</isNillable>
+							</Type>
+													<isDeleted>false</isDeleted>
+						<IsSystemVariable>false</IsSystemVariable>
+			<IsNameIncompatible>false</IsNameIncompatible>
+			</Variable>
+									<Variable d2p1:type="VariableRepositoryItem" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance">
+			<GUID>{3C58868A-096A-4F4E-A283-A76B2A14FCB2}</GUID>
+			<ID>2</ID>
+			<Order>281</Order>
+			<Name>F.JDE_ComputerId</Name>
+						<Type>
+				<Type>A</Type>
+				<Picture>32</Picture>
+									<isUnicode>false</isUnicode>
+													<isNillable>false</isNillable>
+							</Type>
+													<isDeleted>false</isDeleted>
+						<IsSystemVariable>false</IsSystemVariable>
+			<IsNameIncompatible>false</IsNameIncompatible>
+			</Variable>
+					</FlowVariables>
+	

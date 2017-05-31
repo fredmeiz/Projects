@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProjectData projectKey="46e6e6f5-952d-4a66-925a-3ba0f14e2e5d">
+  <BusinessProcess>
+    <ID>1</ID>
+    <Name>Business Process-1</Name>
+    <Flow>
+      <ID>1</ID>
+      <Name>Flow-1</Name>
+      <Step>
+        <ID>8</ID>
+        <Name>BAM Utility</Name>
+      </Step>
+      <Step>
+        <ID>9</ID>
+        <Name>JD Edwards EnterpriseOne</Name>
+      </Step>
+      <Step>
+        <ID>10</ID>
+        <Name>File Management</Name>
+      </Step>
+      <Trigger>
+        <ID>7</ID>
+        <Name>Directory Scanner</Name>
+      </Trigger>
+    </Flow>
+  </BusinessProcess>
+</ProjectData>

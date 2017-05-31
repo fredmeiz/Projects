@@ -1,0 +1,15 @@
+From:Magento2JDE@veolia.com
+To:Error.Manager@veolia.com
+
+Subject:Error on: Modify Order Status
+
+Body:<faultcode>server</faultcode><faultstring>javax.xml.rpc.soap.SOAPFaultException: Requested order not exists.
+	at com.systinet.wasp.rpc.FaultDeserializationHelper.deserializeFault(FaultDeserializationHelper.java:112)
+	at com.systinet.wasp.rpc.WaspCallImpl.deserializeFault(WaspCallImpl.java:2257)
+	at com.systinet.wasp.rpc.WaspCallImpl.deserializeResponse(WaspCallImpl.java:1149)
+	at com.systinet.wasp.rpc.WaspCallImpl.invoke(WaspCallImpl.java:515)
+	at com.systinet.wasp.rpc.WaspCallImpl.invoke(WaspCallImpl.java:459)
+	at com.systinet.wasp.client.ClientProxy._invoke(ClientProxy.java:476)
+	at com.systinet.wasp.client.ClientProxy.invoke(ClientProxy.java:111)
+	at com.sun.proxy.$Proxy71.salesOrderAddComment(Unknown Source)
+</faultstring>

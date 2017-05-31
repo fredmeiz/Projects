@@ -1,0 +1,1456 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<Flows>
+
+ <Struct_tmp_tree>
+ <tmp_treeComp>
+  <proj_id>1</proj_id> 
+  <auto_expand>False</auto_expand> 
+  <BP_ID>2</BP_ID> 
+  <Son_ID>15</Son_ID> 
+  <fold_type>10</fold_type> 
+  <Flow_ID>19</Flow_ID> 
+  <TreeNodeName>Magento Create Order</TreeNodeName> 
+  <description></description> 
+  <transactional>0</transactional> 
+  <auto_start>0</auto_start> 
+  <auto_restart>0</auto_restart> 
+  <max_instances>0</max_instances> 
+  <err_comp></err_comp> 
+  <err_prg></err_prg> 
+  <logic_comp></logic_comp> 
+  <logic_prg></logic_prg> 
+  <auto_repeat>0</auto_repeat> 
+  <subscribe_name></subscribe_name> 
+  <subscribe_once>0</subscribe_once> 
+  <time_out>0</time_out> 
+  <recovery_policy>1</recovery_policy> 
+  <fold_table_id>3</fold_table_id> 
+  <cleanup_comp></cleanup_comp> 
+  <cleanup_prg></cleanup_prg> 
+  <emu_err_prg></emu_err_prg> 
+  <emu_logic_prg ></emu_logic_prg> 
+  <error_flow_id>7</error_flow_id> 
+  <logic_flow_id>0</logic_flow_id> 
+  <cleanup_flow_id>0</cleanup_flow_id> 
+  <order>5</order> 
+  <Right_ID>0</Right_ID> 
+  <PSS_Index>0</PSS_Index> 
+  <secure_called_flows>0</secure_called_flows> 
+  <disable_flow>0</disable_flow> 
+  <Error_BP_ID>2</Error_BP_ID> 
+  <Logic_BP_ID>0</Logic_BP_ID> 
+  <CleanUp_BP_ID>0</CleanUp_BP_ID> 
+  <IsLoaded>1</IsLoaded> 
+  <DB_Transaction>0</DB_Transaction> 
+  <DB_Transaction_String></DB_Transaction_String> 
+  <Timeout_Policy>6</Timeout_Policy> 
+  <InactiveFlow>False</InactiveFlow> 
+ </tmp_treeComp>
+ </Struct_tmp_tree>
+
+<IFC>
+<Struct_IFCInstance>
+<IFCInstanceComp>
+<topology_id>2</topology_id>
+<flow_id>19</flow_id>
+<ifc_icon>wsifc.gif</ifc_icon>
+<step>0</step>
+<ext_internal_use>3</ext_internal_use>
+<IFCDefinitionID>25</IFCDefinitionID>
+<Description>This is a trigger for the magento process. We will edit it until it does what they need it to do without modifying the old one.</Description>
+<NodeID>1</NodeID>
+<InvocationComponent>%currentprojectdir%service\JDE\JDE.ecf</InvocationComponent>
+<InvocationProgram>magentoOrder</InvocationProgram>
+<Synchronize>1</Synchronize>
+<Transactional>0</Transactional>
+<CommitProgram></CommitProgram>
+<RollbackProgram></RollbackProgram>
+<WaitForCompletion>0</WaitForCompletion>
+<TimeOut>0</TimeOut>
+<CheckLogic>0</CheckLogic>
+<ActivationString></ActivationString>
+<ActivationBlob>PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIiA/Pg0KPFdlYlNlcnZpY2U+DQoNCiAgPFJlc291cmNlSUQ+MDwvUmVzb3VyY2VJRD4NCg0KICA8TmFtZT5KREU8L05hbWU+DQoNCiAgPE1pZ3JhdGVkUHJvamVjdD48L01pZ3JhdGVkUHJvamVjdD4NCg0KICA8T3BlcmF0aW9uPg0KICAgIDxJRD41PC9JRD4NCiAgICA8T3BlcmF0aW9uTmFtZT5tYWdlbnRvT3JkZXI8L09wZXJhdGlvbk5hbWU+DQogICAgPEFyZ3VtZW50Pg0KICAgICAgPEFyZ3VtZW50SUQ+MTwvQXJndW1lbnRJRD4NCiAgICAgIDxBcmd1bWVudE5hbWU+SGVhZGVyX0luPC9Bcmd1bWVudE5hbWU+DQogICAgICA8QXJndWVtZW50VHlwZT4xPC9Bcmd1ZW1lbnRUeXBlPg0KICAgICAgPERpcmVjdGlvbj4xPC9EaXJlY3Rpb24+DQogICAgICA8RGF0YVR5cGU+QjwvRGF0YVR5cGU+DQogICAgICA8RGF0YVR5cGVQaWN0dXJlPjwvRGF0YVR5cGVQaWN0dXJlPg0KICAgICAgPE1hcHBpbmdFeHBJRD4wPC9NYXBwaW5nRXhwSUQ+DQogICAgPC9Bcmd1bWVudD4NCiAgICA8QXJndW1lbnQ+DQogICAgICA8QXJndW1lbnRJRD4yPC9Bcmd1bWVudElEPg0KICAgICAgPEFyZ3VtZW50TmFtZT5IZWFkZXJfT3V0PC9Bcmd1bWVudE5hbWU+DQogICAgICA8QXJndWVtZW50VHlwZT4xPC9Bcmd1ZW1lbnRUeXBlPg0KICAgICAgPERpcmVjdGlvbj4yPC9EaXJlY3Rpb24+DQogICAgICA8RGF0YVR5cGU+QjwvRGF0YVR5cGU+DQogICAgICA8RGF0YVR5cGVQaWN0dXJlPjwvRGF0YVR5cGVQaWN0dXJlPg0KICAgICAgPE1hcHBpbmdFeHBJRD4wPC9NYXBwaW5nRXhwSUQ+DQogICAgPC9Bcmd1bWVudD4NCiAgICA8QXJndW1lbnQ+DQogICAgICA8QXJndW1lbnRJRD4zPC9Bcmd1bWVudElEPg0KICAgICAgPEFyZ3VtZW50TmFtZT5SZXR1cm4gVmFsPC9Bcmd1bWVudE5hbWU+DQogICAgICA8QXJndWVtZW50VHlwZT40PC9Bcmd1ZW1lbnRUeXBlPg0KICAgICAgPERpcmVjdGlvbj4zPC9EaXJlY3Rpb24+DQogICAgICA8RGF0YVR5cGU+QTwvRGF0YVR5cGU+DQogICAgICA8RGF0YVR5cGVQaWN0dXJlPjMwPC9EYXRhVHlwZVBpY3R1cmU+DQogICAgICA8TWFwcGluZ0V4cElEPjM2PC9NYXBwaW5nRXhwSUQ+DQogICAgPC9Bcmd1bWVudD4NCiAgICA8QXJndW1lbnQ+DQogICAgICA8QXJndW1lbnRJRD40PC9Bcmd1bWVudElEPg0KICAgICAgPEFyZ3VtZW50TmFtZT5vcmRlcjwvQXJndW1lbnROYW1lPg0KICAgICAgPEFyZ3VlbWVudFR5cGU+MjwvQXJndWVtZW50VHlwZT4NCiAgICAgIDxEaXJlY3Rpb24+MTwvRGlyZWN0aW9uPg0KICAgICAgPERhdGFUeXBlPkI8L0RhdGFUeXBlPg0KICAgICAgPERhdGFUeXBlUGljdHVyZT48L0RhdGFUeXBlUGljdHVyZT4NCiAgICAgIDxNYXBwaW5nRXhwSUQ+MzM8L01hcHBpbmdFeHBJRD4NCiAgICA8L0FyZ3VtZW50Pg0KICA8L09wZXJhdGlvbj4NCg0KICA8UHV0QXJndW1lbnRYTUxJbnRvRXhwbklEPjA8L1B1dEFyZ3VtZW50WE1MSW50b0V4cG5JRD4NCg0KICA8RmF1bHRJRD4wPC9GYXVsdElEPg0KDQogIDxJZGVudGl0eT48L0lkZW50aXR5Pg0KDQogIDxJZGVudGl0eVBhc3N3b3JkPjwvSWRlbnRpdHlQYXNzd29yZD4NCg0KICA8SWRlbnRpdHlFeHBJZD4wPC9JZGVudGl0eUV4cElkPg0KDQogIDxJZGVudGl0eVBhc3NFeHBJZD4wPC9JZGVudGl0eVBhc3NFeHBJZD4NCg0KICA8UmVzcG9uc2VCbG9iVHlwZT48L1Jlc3BvbnNlQmxvYlR5cGU+DQoNCiAgPFJlcXVlc3RCbG9ic1R5cGU+VTwvUmVxdWVzdEJsb2JzVHlwZT4NCg0KPC9XZWJTZXJ2aWNlPg0K</ActivationBlob>
+<RecoveryPolicy>A</RecoveryPolicy>
+<Istrigger>1</Istrigger>
+<Name>magentoCreateOrder</Name>
+<XXXInvokeFlow_NOT_IN_USE>0</XXXInvokeFlow_NOT_IN_USE>
+<XXXInvokeFlowID_NOT_IN_USE>0</XXXInvokeFlowID_NOT_IN_USE>
+<XXXInvokeStepNo_NOT_IN_USE>0</XXXInvokeStepNo_NOT_IN_USE>
+<Service_Type_New4Services>0</Service_Type_New4Services>
+<IsSkipUserString>False</IsSkipUserString>
+<IsSkipUserBlob>False</IsSkipUserBlob>
+<IsSkipUserCode>False</IsSkipUserCode>
+<EmulationProgram></EmulationProgram>
+<Save_Point>0</Save_Point>
+<SavePointComponent></SavePointComponent>
+<SaveDataProgram></SaveDataProgram>
+<RestoreDataProgram></RestoreDataProgram>
+<Command_line></Command_line>
+<method_name></method_name>
+<return_XML_data>0</return_XML_data>
+<interface>0</interface>
+<IsSkipUserXML>False</IsSkipUserXML>
+<xsdpath></xsdpath>
+<errorhandling>0</errorhandling>
+<LoggingScope>0</LoggingScope>
+<StepLogging>1</StepLogging>
+<LogStringMsgDev>0</LogStringMsgDev>
+<DotNetServiceArgs></DotNetServiceArgs>
+<LogBLOBDev>0</LogBLOBDev>
+<LogBLOBDeploy></LogBLOBDeploy>
+<LogBLOBFileExt></LogBLOBFileExt>
+<AppServerID>0</AppServerID>
+<SPInfoExists>False</SPInfoExists>
+<DBTransactionLevel></DBTransactionLevel>
+<Use_Resource>False</Use_Resource>
+<Resource_Name>JDE</Resource_Name>
+<Resource_ExpID>0</Resource_ExpID>
+<Load_Server_services>False</Load_Server_services>
+<Ddam_Configuration_Data></Ddam_Configuration_Data>
+<Ddam_XmlXsd></Ddam_XmlXsd>
+<Deployment_Module_Name></Deployment_Module_Name>
+<DBTransactionString></DBTransactionString>
+<MapperConversionFail>false</MapperConversionFail>
+</IFCInstanceComp>
+<IFCInstanceComp>
+<topology_id>2</topology_id>
+<flow_id>19</flow_id>
+<ifc_icon>Save_Message.gif</ifc_icon>
+<step>21</step>
+<ext_internal_use>0</ext_internal_use>
+<IFCDefinitionID>6</IFCDefinitionID>
+<Description></Description>
+<NodeID>1</NodeID>
+<InvocationComponent></InvocationComponent>
+<InvocationProgram></InvocationProgram>
+<Synchronize>1</Synchronize>
+<Transactional>0</Transactional>
+<CommitProgram></CommitProgram>
+<RollbackProgram></RollbackProgram>
+<WaitForCompletion>0</WaitForCompletion>
+<TimeOut>0</TimeOut>
+<CheckLogic>0</CheckLogic>
+<ActivationString></ActivationString>
+<ActivationBlob></ActivationBlob>
+<RecoveryPolicy></RecoveryPolicy>
+<Istrigger>0</Istrigger>
+<Name>Save Magento Trigger Info</Name>
+<XXXInvokeFlow_NOT_IN_USE>0</XXXInvokeFlow_NOT_IN_USE>
+<XXXInvokeFlowID_NOT_IN_USE>0</XXXInvokeFlowID_NOT_IN_USE>
+<XXXInvokeStepNo_NOT_IN_USE>0</XXXInvokeStepNo_NOT_IN_USE>
+<Service_Type_New4Services>6</Service_Type_New4Services>
+<IsSkipUserString>False</IsSkipUserString>
+<IsSkipUserBlob>False</IsSkipUserBlob>
+<IsSkipUserCode>False</IsSkipUserCode>
+<EmulationProgram></EmulationProgram>
+<Save_Point>0</Save_Point>
+<SavePointComponent></SavePointComponent>
+<SaveDataProgram></SaveDataProgram>
+<RestoreDataProgram></RestoreDataProgram>
+<Command_line></Command_line>
+<method_name></method_name>
+<return_XML_data>0</return_XML_data>
+<interface>0</interface>
+<IsSkipUserXML>False</IsSkipUserXML>
+<xsdpath></xsdpath>
+<errorhandling>0</errorhandling>
+<LoggingScope>0</LoggingScope>
+<StepLogging>0</StepLogging>
+<LogStringMsgDev>0</LogStringMsgDev>
+<DotNetServiceArgs></DotNetServiceArgs>
+<LogBLOBDev>0</LogBLOBDev>
+<LogBLOBDeploy></LogBLOBDeploy>
+<LogBLOBFileExt></LogBLOBFileExt>
+<AppServerID>0</AppServerID>
+<SPInfoExists>False</SPInfoExists>
+<DBTransactionLevel></DBTransactionLevel>
+<Use_Resource>False</Use_Resource>
+<Resource_Name></Resource_Name>
+<Resource_ExpID>0</Resource_ExpID>
+<Load_Server_services>False</Load_Server_services>
+<Ddam_Configuration_Data></Ddam_Configuration_Data>
+<Ddam_XmlXsd></Ddam_XmlXsd>
+<Deployment_Module_Name></Deployment_Module_Name>
+<DBTransactionString></DBTransactionString>
+<MapperConversionFail>false</MapperConversionFail>
+</IFCInstanceComp>
+<IFCInstanceComp>
+<topology_id>2</topology_id>
+<flow_id>19</flow_id>
+<ifc_icon>Data_Mapper.gif</ifc_icon>
+<step>24</step>
+<ext_internal_use>0</ext_internal_use>
+<IFCDefinitionID>11</IFCDefinitionID>
+<Description></Description>
+<NodeID>1</NodeID>
+<InvocationComponent></InvocationComponent>
+<InvocationProgram></InvocationProgram>
+<Synchronize>1</Synchronize>
+<Transactional>0</Transactional>
+<CommitProgram></CommitProgram>
+<RollbackProgram></RollbackProgram>
+<WaitForCompletion>0</WaitForCompletion>
+<TimeOut>0</TimeOut>
+<CheckLogic>0</CheckLogic>
+<ActivationString>generate</ActivationString>
+<ActivationBlob></ActivationBlob>
+<RecoveryPolicy></RecoveryPolicy>
+<Istrigger>0</Istrigger>
+<Name>Map Magento Info</Name>
+<XXXInvokeFlow_NOT_IN_USE>0</XXXInvokeFlow_NOT_IN_USE>
+<XXXInvokeFlowID_NOT_IN_USE>0</XXXInvokeFlowID_NOT_IN_USE>
+<XXXInvokeStepNo_NOT_IN_USE>0</XXXInvokeStepNo_NOT_IN_USE>
+<Service_Type_New4Services>11</Service_Type_New4Services>
+<IsSkipUserString>False</IsSkipUserString>
+<IsSkipUserBlob>False</IsSkipUserBlob>
+<IsSkipUserCode>False</IsSkipUserCode>
+<EmulationProgram></EmulationProgram>
+<Save_Point>0</Save_Point>
+<SavePointComponent></SavePointComponent>
+<SaveDataProgram></SaveDataProgram>
+<RestoreDataProgram></RestoreDataProgram>
+<Command_line></Command_line>
+<method_name></method_name>
+<return_XML_data>0</return_XML_data>
+<interface>0</interface>
+<IsSkipUserXML>False</IsSkipUserXML>
+<xsdpath></xsdpath>
+<errorhandling>0</errorhandling>
+<LoggingScope>0</LoggingScope>
+<StepLogging>0</StepLogging>
+<LogStringMsgDev>0</LogStringMsgDev>
+<DotNetServiceArgs></DotNetServiceArgs>
+<LogBLOBDev>0</LogBLOBDev>
+<LogBLOBDeploy></LogBLOBDeploy>
+<LogBLOBFileExt></LogBLOBFileExt>
+<AppServerID>0</AppServerID>
+<SPInfoExists>False</SPInfoExists>
+<DBTransactionLevel>M</DBTransactionLevel>
+<Use_Resource>False</Use_Resource>
+<Resource_Name></Resource_Name>
+<Resource_ExpID>0</Resource_ExpID>
+<Load_Server_services>False</Load_Server_services>
+<Ddam_Configuration_Data></Ddam_Configuration_Data>
+<Ddam_XmlXsd></Ddam_XmlXsd>
+<Deployment_Module_Name></Deployment_Module_Name>
+<DBTransactionString></DBTransactionString>
+<MapperConversionFail>false</MapperConversionFail>
+</IFCInstanceComp>
+<IFCInstanceComp>
+<topology_id>2</topology_id>
+<flow_id>19</flow_id>
+<ifc_icon>Invoke_Flow.gif</ifc_icon>
+<step>25</step>
+<ext_internal_use>0</ext_internal_use>
+<IFCDefinitionID>7</IFCDefinitionID>
+<Description></Description>
+<NodeID>0</NodeID>
+<InvocationComponent></InvocationComponent>
+<InvocationProgram></InvocationProgram>
+<Synchronize>1</Synchronize>
+<Transactional>0</Transactional>
+<CommitProgram></CommitProgram>
+<RollbackProgram></RollbackProgram>
+<WaitForCompletion>0</WaitForCompletion>
+<TimeOut>0</TimeOut>
+<CheckLogic>0</CheckLogic>
+<ActivationString></ActivationString>
+<ActivationBlob></ActivationBlob>
+<RecoveryPolicy></RecoveryPolicy>
+<Istrigger>0</Istrigger>
+<Name>Call Create Sales Order</Name>
+<XXXInvokeFlow_NOT_IN_USE>0</XXXInvokeFlow_NOT_IN_USE>
+<XXXInvokeFlowID_NOT_IN_USE>0</XXXInvokeFlowID_NOT_IN_USE>
+<XXXInvokeStepNo_NOT_IN_USE>0</XXXInvokeStepNo_NOT_IN_USE>
+<Service_Type_New4Services>7</Service_Type_New4Services>
+<IsSkipUserString>False</IsSkipUserString>
+<IsSkipUserBlob>False</IsSkipUserBlob>
+<IsSkipUserCode>False</IsSkipUserCode>
+<EmulationProgram></EmulationProgram>
+<Save_Point>0</Save_Point>
+<SavePointComponent></SavePointComponent>
+<SaveDataProgram></SaveDataProgram>
+<RestoreDataProgram></RestoreDataProgram>
+<Command_line></Command_line>
+<method_name></method_name>
+<return_XML_data>0</return_XML_data>
+<interface>0</interface>
+<IsSkipUserXML>False</IsSkipUserXML>
+<xsdpath></xsdpath>
+<errorhandling>0</errorhandling>
+<LoggingScope>0</LoggingScope>
+<StepLogging>0</StepLogging>
+<LogStringMsgDev>0</LogStringMsgDev>
+<DotNetServiceArgs></DotNetServiceArgs>
+<LogBLOBDev>0</LogBLOBDev>
+<LogBLOBDeploy></LogBLOBDeploy>
+<LogBLOBFileExt></LogBLOBFileExt>
+<AppServerID>0</AppServerID>
+<SPInfoExists>False</SPInfoExists>
+<DBTransactionLevel></DBTransactionLevel>
+<Use_Resource>False</Use_Resource>
+<Resource_Name></Resource_Name>
+<Resource_ExpID>0</Resource_ExpID>
+<Load_Server_services>False</Load_Server_services>
+<Ddam_Configuration_Data></Ddam_Configuration_Data>
+<Ddam_XmlXsd></Ddam_XmlXsd>
+<Deployment_Module_Name></Deployment_Module_Name>
+<DBTransactionString></DBTransactionString>
+<MapperConversionFail>false</MapperConversionFail>
+</IFCInstanceComp>
+<IFCInstanceComp>
+<topology_id>2</topology_id>
+<flow_id>19</flow_id>
+<ifc_icon>Nop.gif</ifc_icon>
+<step>26</step>
+<ext_internal_use>0</ext_internal_use>
+<IFCDefinitionID>22</IFCDefinitionID>
+<Description></Description>
+<NodeID>1</NodeID>
+<InvocationComponent></InvocationComponent>
+<InvocationProgram></InvocationProgram>
+<Synchronize>1</Synchronize>
+<Transactional>0</Transactional>
+<CommitProgram></CommitProgram>
+<RollbackProgram></RollbackProgram>
+<WaitForCompletion>0</WaitForCompletion>
+<TimeOut>0</TimeOut>
+<CheckLogic>0</CheckLogic>
+<ActivationString></ActivationString>
+<ActivationBlob></ActivationBlob>
+<RecoveryPolicy></RecoveryPolicy>
+<Istrigger>0</Istrigger>
+<Name>Debug Point for Flow</Name>
+<XXXInvokeFlow_NOT_IN_USE>0</XXXInvokeFlow_NOT_IN_USE>
+<XXXInvokeFlowID_NOT_IN_USE>0</XXXInvokeFlowID_NOT_IN_USE>
+<XXXInvokeStepNo_NOT_IN_USE>0</XXXInvokeStepNo_NOT_IN_USE>
+<Service_Type_New4Services>22</Service_Type_New4Services>
+<IsSkipUserString>False</IsSkipUserString>
+<IsSkipUserBlob>False</IsSkipUserBlob>
+<IsSkipUserCode>False</IsSkipUserCode>
+<EmulationProgram></EmulationProgram>
+<Save_Point>0</Save_Point>
+<SavePointComponent></SavePointComponent>
+<SaveDataProgram></SaveDataProgram>
+<RestoreDataProgram></RestoreDataProgram>
+<Command_line></Command_line>
+<method_name></method_name>
+<return_XML_data>0</return_XML_data>
+<interface>0</interface>
+<IsSkipUserXML>False</IsSkipUserXML>
+<xsdpath></xsdpath>
+<errorhandling>0</errorhandling>
+<LoggingScope>0</LoggingScope>
+<StepLogging>0</StepLogging>
+<LogStringMsgDev>0</LogStringMsgDev>
+<DotNetServiceArgs></DotNetServiceArgs>
+<LogBLOBDev>0</LogBLOBDev>
+<LogBLOBDeploy></LogBLOBDeploy>
+<LogBLOBFileExt></LogBLOBFileExt>
+<AppServerID>0</AppServerID>
+<SPInfoExists>False</SPInfoExists>
+<DBTransactionLevel></DBTransactionLevel>
+<Use_Resource>False</Use_Resource>
+<Resource_Name></Resource_Name>
+<Resource_ExpID>0</Resource_ExpID>
+<Load_Server_services>False</Load_Server_services>
+<Ddam_Configuration_Data></Ddam_Configuration_Data>
+<Ddam_XmlXsd></Ddam_XmlXsd>
+<Deployment_Module_Name></Deployment_Module_Name>
+<DBTransactionString></DBTransactionString>
+<MapperConversionFail>false</MapperConversionFail>
+</IFCInstanceComp>
+</Struct_IFCInstance>
+<Source_And_Destination_Object>
+<Struct_Schema_Details>
+<Schema_DetailsComp>
+<Schema_ID>4</Schema_ID>
+<Schema_Name>D1</Schema_Name>
+<Test_file></Test_file>
+<Schema_Path></Schema_Path>
+<Modified_date>01/01/1901</Modified_date>
+<Modified_Time>00:00:00</Modified_Time>
+<XSD_Encoding_Internal></XSD_Encoding_Internal>
+<StartPositionPathDelmited></StartPositionPathDelmited>
+<Application_database></Application_database>
+<Read_Document_Program>False</Read_Document_Program>
+<Write_Document_Program>False</Write_Document_Program>
+<Component_Directory></Component_Directory>
+<Serial_number>4</Serial_number>
+<Expose_Models>False</Expose_Models>
+<DataType>5</DataType>
+<ValidCheck_xml_contextFarw_cf>0</ValidCheck_xml_contextFarw_cf>
+<SchemaCreationCode>0</SchemaCreationCode>
+<SchemaLeft>0</SchemaLeft>
+<SchemaHight>0</SchemaHight>
+<SchemaWidth>0</SchemaWidth>
+<SchemaType>2</SchemaType>
+<DB_sub_type>2</DB_sub_type>
+<IFC_DefinitionID>0</IFC_DefinitionID>
+<data_source_FlowId_CallFlow>0</data_source_FlowId_CallFlow>
+<file_blob_path>31</file_blob_path>
+<Direct_mapping>False</Direct_mapping>
+<TopologyId>2</TopologyId>
+<FlowId>19</FlowId>
+<StepNum>24</StepNum>
+<Delimited_Positional></Delimited_Positional>
+<Default_delimiter></Default_delimiter>
+<Record_delimiter></Record_delimiter>
+<Is_Record_in_Modify_Mode>False</Is_Record_in_Modify_Mode>
+<SchemaDisplayNumber>1</SchemaDisplayNumber>
+<Append_data_destination>0</Append_data_destination>
+<XSD_default_root></XSD_default_root>
+<RecursionDepth>0</RecursionDepth>
+<isStartPositionActive_Alpha></isStartPositionActive_Alpha>
+<SchemaVersion>1</SchemaVersion>
+<ErrorFlowID>0</ErrorFlowID>
+<Schema_Description></Schema_Description>
+<UDSFlowVarDelimited></UDSFlowVarDelimited>
+<UDS_name_dev>0</UDS_name_dev>
+<UDS_name_depl></UDS_name_depl>
+<UDS_model>0</UDS_model>
+<UDS_sort>0</UDS_sort>
+<Clear_UDS>False</Clear_UDS>
+<ErrorBPID>0</ErrorBPID>
+<BPID_For_CallFlow>0</BPID_For_CallFlow>
+<DisplayFieldOrder>0</DisplayFieldOrder>
+<SchemaHasStartingPoint>False</SchemaHasStartingPoint>
+<DBDisconnect>False</DBDisconnect>
+<UnicodeSupport>0</UnicodeSupport>
+<CreateEmptyAlphaNodes>True</CreateEmptyAlphaNodes>
+<XMLInterfaceToFlatFile>false</XMLInterfaceToFlatFile>
+<CreateTitleForFlatFile>false</CreateTitleForFlatFile>
+<StructFlatFiles>
+</StructFlatFiles>
+<StructODSNodes>
+</StructODSNodes>
+<StructWizardTbl1>
+</StructWizardTbl1>
+<StructWizardTbl2>
+</StructWizardTbl2>
+<StructWizardTbl3>
+</StructWizardTbl3>
+<StructUpdateNodeDefinition>
+</StructUpdateNodeDefinition>
+<StructSchemaNameSpaceMap>
+</StructSchemaNameSpaceMap>
+<StructDB_Gen>
+</StructDB_Gen>
+<Struct_New_Default_values>
+</Struct_New_Default_values>
+<Struct_ElementReplications>
+</Struct_ElementReplications>
+<StructFlowVariablesNodes>
+<FlowVariablesNodes>
+<SchemaId>4</SchemaId> 
+<NodeId_Real_Parent>0</NodeId_Real_Parent> 
+<XXXVariableIndex_unique_nuse>0</XXXVariableIndex_unique_nuse> 
+<VariableName_unique>C.magBillingId</VariableName_unique> 
+<VariableType>1</VariableType> 
+<global>0</global> 
+<BP_ID>2</BP_ID> 
+<Flow_ID>19</Flow_ID> 
+<Step_ID>24</Step_ID> 
+</FlowVariablesNodes>
+
+
+<FlowVariablesNodes>
+<SchemaId>4</SchemaId> 
+<NodeId_Real_Parent>0</NodeId_Real_Parent> 
+<XXXVariableIndex_unique_nuse>0</XXXVariableIndex_unique_nuse> 
+<VariableName_unique>C.magOrderId</VariableName_unique> 
+<VariableType>1</VariableType> 
+<global>0</global> 
+<BP_ID>2</BP_ID> 
+<Flow_ID>19</Flow_ID> 
+<Step_ID>24</Step_ID> 
+</FlowVariablesNodes>
+
+
+<FlowVariablesNodes>
+<SchemaId>4</SchemaId> 
+<NodeId_Real_Parent>0</NodeId_Real_Parent> 
+<XXXVariableIndex_unique_nuse>0</XXXVariableIndex_unique_nuse> 
+<VariableName_unique>C.magPurchaseOrderId</VariableName_unique> 
+<VariableType>1</VariableType> 
+<global>0</global> 
+<BP_ID>2</BP_ID> 
+<Flow_ID>19</Flow_ID> 
+<Step_ID>24</Step_ID> 
+</FlowVariablesNodes>
+</StructFlowVariablesNodes>
+</Schema_DetailsComp>
+<Schema_DetailsComp>
+<Schema_ID>5</Schema_ID>
+<Schema_Name>D2</Schema_Name>
+<Test_file></Test_file>
+<Schema_Path>Files\schemas\magentoOrderDataMapper.xsd</Schema_Path>
+<Modified_date>01/01/1901</Modified_date>
+<Modified_Time>00:00:00</Modified_Time>
+<XSD_Encoding_Internal> Project Encoding</XSD_Encoding_Internal>
+<StartPositionPathDelmited></StartPositionPathDelmited>
+<Application_database></Application_database>
+<Read_Document_Program>False</Read_Document_Program>
+<Write_Document_Program>False</Write_Document_Program>
+<Component_Directory></Component_Directory>
+<Serial_number>5</Serial_number>
+<Expose_Models>False</Expose_Models>
+<DataType>3</DataType>
+<ValidCheck_xml_contextFarw_cf>0</ValidCheck_xml_contextFarw_cf>
+<SchemaCreationCode>0</SchemaCreationCode>
+<SchemaLeft>0</SchemaLeft>
+<SchemaHight>0</SchemaHight>
+<SchemaWidth>0</SchemaWidth>
+<SchemaType>2</SchemaType>
+<DB_sub_type>2</DB_sub_type>
+<IFC_DefinitionID>0</IFC_DefinitionID>
+<data_source_FlowId_CallFlow>2</data_source_FlowId_CallFlow>
+<file_blob_path>34</file_blob_path>
+<Direct_mapping>False</Direct_mapping>
+<TopologyId>2</TopologyId>
+<FlowId>19</FlowId>
+<StepNum>24</StepNum>
+<Delimited_Positional></Delimited_Positional>
+<Default_delimiter></Default_delimiter>
+<Record_delimiter></Record_delimiter>
+<Is_Record_in_Modify_Mode>False</Is_Record_in_Modify_Mode>
+<SchemaDisplayNumber>2</SchemaDisplayNumber>
+<Append_data_destination>0</Append_data_destination>
+<XSD_default_root>magentoCreateOrder</XSD_default_root>
+<RecursionDepth>1</RecursionDepth>
+<isStartPositionActive_Alpha></isStartPositionActive_Alpha>
+<SchemaVersion>1</SchemaVersion>
+<ErrorFlowID>0</ErrorFlowID>
+<Schema_Description></Schema_Description>
+<UDSFlowVarDelimited></UDSFlowVarDelimited>
+<UDS_name_dev>0</UDS_name_dev>
+<UDS_name_depl></UDS_name_depl>
+<UDS_model>0</UDS_model>
+<UDS_sort>0</UDS_sort>
+<Clear_UDS>False</Clear_UDS>
+<ErrorBPID>0</ErrorBPID>
+<BPID_For_CallFlow>0</BPID_For_CallFlow>
+<DisplayFieldOrder>0</DisplayFieldOrder>
+<SchemaHasStartingPoint>False</SchemaHasStartingPoint>
+<DBDisconnect>False</DBDisconnect>
+<UnicodeSupport>0</UnicodeSupport>
+<CreateEmptyAlphaNodes>True</CreateEmptyAlphaNodes>
+<XMLInterfaceToFlatFile>false</XMLInterfaceToFlatFile>
+<CreateTitleForFlatFile>false</CreateTitleForFlatFile>
+<StructFlatFiles>
+</StructFlatFiles>
+<StructODSNodes>
+</StructODSNodes>
+<StructFlowVariablesNodes>
+</StructFlowVariablesNodes>
+<StructWizardTbl1>
+</StructWizardTbl1>
+<StructWizardTbl2>
+</StructWizardTbl2>
+<StructWizardTbl3>
+</StructWizardTbl3>
+<StructUpdateNodeDefinition>
+</StructUpdateNodeDefinition>
+<StructSchemaNameSpaceMap>
+</StructSchemaNameSpaceMap>
+<StructDB_Gen>
+</StructDB_Gen>
+<Struct_New_Default_values>
+</Struct_New_Default_values>
+<Struct_ElementReplications>
+</Struct_ElementReplications>
+</Schema_DetailsComp>
+<Schema_DetailsComp>
+<Schema_ID>6</Schema_ID>
+<Schema_Name>magentoTriggerData</Schema_Name>
+<Test_file></Test_file>
+<Schema_Path>Files\schemas\magentoOrderDataMapper.xsd</Schema_Path>
+<Modified_date>01/01/1901</Modified_date>
+<Modified_Time>00:00:00</Modified_Time>
+<XSD_Encoding_Internal> Project Encoding</XSD_Encoding_Internal>
+<StartPositionPathDelmited></StartPositionPathDelmited>
+<Application_database>Default Database</Application_database>
+<Read_Document_Program>False</Read_Document_Program>
+<Write_Document_Program>False</Write_Document_Program>
+<Component_Directory></Component_Directory>
+<Serial_number>6</Serial_number>
+<Expose_Models>False</Expose_Models>
+<DataType>3</DataType>
+<ValidCheck_xml_contextFarw_cf>0</ValidCheck_xml_contextFarw_cf>
+<SchemaCreationCode>0</SchemaCreationCode>
+<SchemaLeft>0</SchemaLeft>
+<SchemaHight>0</SchemaHight>
+<SchemaWidth>0</SchemaWidth>
+<SchemaType>1</SchemaType>
+<DB_sub_type>0</DB_sub_type>
+<IFC_DefinitionID>0</IFC_DefinitionID>
+<data_source_FlowId_CallFlow>2</data_source_FlowId_CallFlow>
+<file_blob_path>35</file_blob_path>
+<Direct_mapping>False</Direct_mapping>
+<TopologyId>2</TopologyId>
+<FlowId>19</FlowId>
+<StepNum>24</StepNum>
+<Delimited_Positional></Delimited_Positional>
+<Default_delimiter></Default_delimiter>
+<Record_delimiter></Record_delimiter>
+<Is_Record_in_Modify_Mode>False</Is_Record_in_Modify_Mode>
+<SchemaDisplayNumber>1</SchemaDisplayNumber>
+<Append_data_destination>0</Append_data_destination>
+<XSD_default_root>magentoCreateOrder</XSD_default_root>
+<RecursionDepth>1</RecursionDepth>
+<isStartPositionActive_Alpha></isStartPositionActive_Alpha>
+<SchemaVersion>1</SchemaVersion>
+<ErrorFlowID>0</ErrorFlowID>
+<Schema_Description></Schema_Description>
+<UDSFlowVarDelimited></UDSFlowVarDelimited>
+<UDS_name_dev>0</UDS_name_dev>
+<UDS_name_depl></UDS_name_depl>
+<UDS_model>0</UDS_model>
+<UDS_sort>0</UDS_sort>
+<Clear_UDS>False</Clear_UDS>
+<ErrorBPID>0</ErrorBPID>
+<BPID_For_CallFlow>0</BPID_For_CallFlow>
+<DisplayFieldOrder>0</DisplayFieldOrder>
+<SchemaHasStartingPoint>False</SchemaHasStartingPoint>
+<DBDisconnect>False</DBDisconnect>
+<UnicodeSupport>0</UnicodeSupport>
+<CreateEmptyAlphaNodes>False</CreateEmptyAlphaNodes>
+<XMLInterfaceToFlatFile>false</XMLInterfaceToFlatFile>
+<CreateTitleForFlatFile>false</CreateTitleForFlatFile>
+<StructFlatFiles>
+</StructFlatFiles>
+<StructODSNodes>
+</StructODSNodes>
+<StructFlowVariablesNodes>
+</StructFlowVariablesNodes>
+<StructWizardTbl1>
+</StructWizardTbl1>
+<StructWizardTbl2>
+</StructWizardTbl2>
+<StructWizardTbl3>
+</StructWizardTbl3>
+<StructUpdateNodeDefinition>
+</StructUpdateNodeDefinition>
+<StructSchemaNameSpaceMap>
+</StructSchemaNameSpaceMap>
+<StructDB_Gen>
+</StructDB_Gen>
+<Struct_New_Default_values>
+</Struct_New_Default_values>
+<Struct_ElementReplications>
+</Struct_ElementReplications>
+</Schema_DetailsComp>
+ </Struct_Schema_Details>
+ <StructConversionConnections>
+<CN ST="24">
+<SR ID="6" TP="C" SI="3" AT="" PC="">Source/S6/magentoCreateOrder</SR>
+<SN>magentoCreateOrder</SN>
+<DS ID="4" TP="C" DI="3" AT="" PC="">Destination/S4/Instance</DS>
+<DN>Instance</DN>
+<DA>Destination/S4/Instance</DA>
+<SE>0</SE>
+<DE>0</DE>
+<SM>1</SM>
+<SL>1</SL>
+<DL>1/1</DL>
+<SP>/1</SP>
+<DP>/-1</DP>
+</CN>
+<CN ST="24">
+<SR ID="6" TP="C" SI="3" AT="" PC="">Source/S6/magentoCreateOrder</SR>
+<SN>magentoCreateOrder</SN>
+<DS ID="5" TP="C" DI="8" AT="" PC="">Destination/S5/magentoCreateOrder</DS>
+<DN>magentoCreateOrder</DN>
+<DA>Destination/S5/magentoCreateOrder</DA>
+<SE>0</SE>
+<DE>0</DE>
+<SM>1</SM>
+<DM>1</DM>
+<SL>1</SL>
+<DL>001</DL>
+<SP>/1</SP>
+<DP>/1</DP>
+</CN>
+<CN ST="24">
+<SR ID="6" TP="S" SI="24" AT="A" PC="1000">Source/S6/magentoCreateOrder/orderId</SR>
+<SN>orderId</SN>
+<DS ID="4" TP="S" DI="5" AT="A" PC="30">Destination/S4/Instance/C.magOrderId</DS>
+<DN>C.magOrderId</DN>
+<DA>Destination/S4/Instance/C.magOrderId</DA>
+<SE>0</SE>
+<DE>1</DE>
+<SM>1</SM>
+<DM>1</DM>
+<SL>1/1</SL>
+<DL>1/1/5</DL>
+<SP>/1/1</SP>
+<DP>/-1/1</DP>
+<SXT>string</SXT>
+</CN>
+<CN ST="24">
+<SR ID="6" TP="S" SI="24" AT="A" PC="1000">Source/S6/magentoCreateOrder/orderId</SR>
+<SN>orderId</SN>
+<DS ID="5" TP="S" DI="9" AT="A" PC="1000">Destination/S5/magentoCreateOrder/orderId</DS>
+<DN>orderId</DN>
+<DA>Destination/S5/magentoCreateOrder/orderId</DA>
+<SE>0</SE>
+<DE>0</DE>
+<SM>1</SM>
+<DM>1</DM>
+<SL>1/1</SL>
+<DL>001/001</DL>
+<SP>/1/1</SP>
+<DP>/1/1</DP>
+<SXT>string</SXT>
+<DXT>string</DXT>
+</CN>
+<CN ST="24">
+<SR ID="6" TP="S" SI="25" AT="D" PC="YYYY-MM-DD">Source/S6/magentoCreateOrder/createdAt</SR>
+<SN>createdAt</SN>
+<DS ID="5" TP="S" DI="10" AT="D" PC="YYYY-MM-DD">Destination/S5/magentoCreateOrder/createdAt</DS>
+<DN>createdAt</DN>
+<DA>Destination/S5/magentoCreateOrder/createdAt</DA>
+<SE>0</SE>
+<DE>0</DE>
+<SM>1</SM>
+<DM>1</DM>
+<SL>1/2</SL>
+<DL>001/002</DL>
+<SP>/1/1</SP>
+<DP>/1/1</DP>
+<SXT>date</SXT>
+<DXT>date</DXT>
+</CN>
+<CN ST="24">
+<SR ID="6" TP="S" SI="26" AT="D" PC="YYYY-MM-DD">Source/S6/magentoCreateOrder/updatedAt</SR>
+<SN>updatedAt</SN>
+<DS ID="5" TP="S" DI="11" AT="D" PC="YYYY-MM-DD">Destination/S5/magentoCreateOrder/updatedAt</DS>
+<DN>updatedAt</DN>
+<DA>Destination/S5/magentoCreateOrder/updatedAt</DA>
+<SE>0</SE>
+<DE>0</DE>
+<SM>1</SM>
+<DM>1</DM>
+<SL>1/3</SL>
+<DL>001/003</DL>
+<SP>/1/1</SP>
+<DP>/1/1</DP>
+<SXT>date</SXT>
+<DXT>date</DXT>
+</CN>
+<CN ST="24">
+<SR ID="6" TP="S" SI="27" AT="N" PC="10.2">Source/S6/magentoCreateOrder/shippingAmount</SR>
+<SN>shippingAmount</SN>
+<DS ID="5" TP="S" DI="12" AT="N" PC="10.2">Destination/S5/magentoCreateOrder/shippingAmount</DS>
+<DN>shippingAmount</DN>
+<DA>Destination/S5/magentoCreateOrder/shippingAmount</DA>
+<SE>0</SE>
+<DE>0</DE>
+<SM>1</SM>
+<DM>1</DM>
+<SL>1/4</SL>
+<DL>001/004</DL>
+<SP>/1/1</SP>
+<DP>/1/1</DP>
+<SXT>decimal</SXT>
+<DXT>decimal</DXT>
+</CN>
+<CN ST="24">
+<SR ID="6" TP="S" SI="28" AT="N" PC="10.2">Source/S6/magentoCreateOrder/taxAmount</SR>
+<SN>taxAmount</SN>
+<DS ID="5" TP="S" DI="13" AT="N" PC="10.2">Destination/S5/magentoCreateOrder/taxAmount</DS>
+<DN>taxAmount</DN>
+<DA>Destination/S5/magentoCreateOrder/taxAmount</DA>
+<SE>0</SE>
+<DE>0</DE>
+<SM>1</SM>
+<DM>1</DM>
+<SL>1/5</SL>
+<DL>001/005</DL>
+<SP>/1/1</SP>
+<DP>/1/1</DP>
+<SXT>decimal</SXT>
+<DXT>decimal</DXT>
+</CN>
+<CN ST="24">
+<SR ID="6" TP="S" SI="29" AT="A" PC="1000">Source/S6/magentoCreateOrder/shippingId</SR>
+<SN>shippingId</SN>
+<DS ID="5" TP="S" DI="14" AT="A" PC="1000">Destination/S5/magentoCreateOrder/shippingId</DS>
+<DN>shippingId</DN>
+<DA>Destination/S5/magentoCreateOrder/shippingId</DA>
+<SE>0</SE>
+<DE>0</DE>
+<SM>1</SM>
+<DM>1</DM>
+<SL>1/6</SL>
+<DL>001/006</DL>
+<SP>/1/1</SP>
+<DP>/1/1</DP>
+<SXT>string</SXT>
+<DXT>string</DXT>
+</CN>
+<CN ST="24">
+<SR ID="6" TP="S" SI="30" AT="A" PC="1000">Source/S6/magentoCreateOrder/shippingTo</SR>
+<SN>shippingTo</SN>
+<DS ID="5" TP="S" DI="15" AT="A" PC="1000">Destination/S5/magentoCreateOrder/shippingTo</DS>
+<DN>shippingTo</DN>
+<DA>Destination/S5/magentoCreateOrder/shippingTo</DA>
+<SE>0</SE>
+<DE>0</DE>
+<SM>1</SM>
+<DM>1</DM>
+<SL>1/7</SL>
+<DL>001/007</DL>
+<SP>/1/1</SP>
+<DP>/1/1</DP>
+<SXT>string</SXT>
+<DXT>string</DXT>
+</CN>
+<CN ST="24">
+<SR ID="6" TP="S" SI="31" AT="A" PC="1000">Source/S6/magentoCreateOrder/billingId</SR>
+<SN>billingId</SN>
+<DS ID="4" TP="S" DI="4" AT="A" PC="30">Destination/S4/Instance/C.magBillingId</DS>
+<DN>C.magBillingId</DN>
+<DA>Destination/S4/Instance/C.magBillingId</DA>
+<SE>0</SE>
+<DE>1</DE>
+<SM>1</SM>
+<DM>1</DM>
+<SL>1/8</SL>
+<DL>1/1/4</DL>
+<SP>/1/1</SP>
+<DP>/-1/1</DP>
+<SXT>string</SXT>
+</CN>
+<CN ST="24">
+<SR ID="6" TP="S" SI="31" AT="A" PC="1000">Source/S6/magentoCreateOrder/billingId</SR>
+<SN>billingId</SN>
+<DS ID="5" TP="S" DI="16" AT="A" PC="1000">Destination/S5/magentoCreateOrder/billingId</DS>
+<DN>billingId</DN>
+<DA>Destination/S5/magentoCreateOrder/billingId</DA>
+<SE>0</SE>
+<DE>0</DE>
+<SM>1</SM>
+<DM>1</DM>
+<SL>1/8</SL>
+<DL>001/008</DL>
+<SP>/1/1</SP>
+<DP>/1/1</DP>
+<SXT>string</SXT>
+<DXT>string</DXT>
+</CN>
+<CN ST="24">
+<SR ID="6" TP="S" SI="32" AT="A" PC="1000">Source/S6/magentoCreateOrder/billingTo</SR>
+<SN>billingTo</SN>
+<DS ID="5" TP="S" DI="17" AT="A" PC="1000">Destination/S5/magentoCreateOrder/billingTo</DS>
+<DN>billingTo</DN>
+<DA>Destination/S5/magentoCreateOrder/billingTo</DA>
+<SE>0</SE>
+<DE>0</DE>
+<SM>1</SM>
+<DM>1</DM>
+<SL>1/9</SL>
+<DL>001/009</DL>
+<SP>/1/1</SP>
+<DP>/1/1</DP>
+<SXT>string</SXT>
+<DXT>string</DXT>
+</CN>
+<CN ST="24">
+<SR ID="6" TP="S" SI="33" AT="N" PC="10.2">Source/S6/magentoCreateOrder/discountAmount</SR>
+<SN>discountAmount</SN>
+<DS ID="5" TP="S" DI="18" AT="N" PC="10.2">Destination/S5/magentoCreateOrder/discountAmount</DS>
+<DN>discountAmount</DN>
+<DA>Destination/S5/magentoCreateOrder/discountAmount</DA>
+<SE>0</SE>
+<DE>0</DE>
+<SM>1</SM>
+<DM>1</DM>
+<SL>1/10</SL>
+<DL>001/010</DL>
+<SP>/1/1</SP>
+<DP>/1/1</DP>
+<SXT>decimal</SXT>
+<DXT>decimal</DXT>
+</CN>
+<CN ST="24">
+<SR ID="6" TP="S" SI="34" AT="N" PC="10.2">Source/S6/magentoCreateOrder/subTotal</SR>
+<SN>subTotal</SN>
+<DS ID="5" TP="S" DI="19" AT="N" PC="10.2">Destination/S5/magentoCreateOrder/subTotal</DS>
+<DN>subTotal</DN>
+<DA>Destination/S5/magentoCreateOrder/subTotal</DA>
+<SE>0</SE>
+<DE>0</DE>
+<SM>1</SM>
+<DM>1</DM>
+<SL>1/11</SL>
+<DL>001/011</DL>
+<SP>/1/1</SP>
+<DP>/1/1</DP>
+<SXT>decimal</SXT>
+<DXT>decimal</DXT>
+</CN>
+<CN ST="24">
+<SR ID="6" TP="S" SI="35" AT="N" PC="10.2">Source/S6/magentoCreateOrder/grandTotal</SR>
+<SN>grandTotal</SN>
+<DS ID="5" TP="S" DI="20" AT="N" PC="10.2">Destination/S5/magentoCreateOrder/grandTotal</DS>
+<DN>grandTotal</DN>
+<DA>Destination/S5/magentoCreateOrder/grandTotal</DA>
+<SE>0</SE>
+<DE>0</DE>
+<SM>1</SM>
+<DM>1</DM>
+<SL>1/12</SL>
+<DL>001/012</DL>
+<SP>/1/1</SP>
+<DP>/1/1</DP>
+<SXT>decimal</SXT>
+<DXT>decimal</DXT>
+</CN>
+<CN ST="24">
+<SR ID="6" TP="S" SI="36" AT="A" PC="1000">Source/S6/magentoCreateOrder/status</SR>
+<SN>status</SN>
+<DS ID="5" TP="S" DI="21" AT="A" PC="1000">Destination/S5/magentoCreateOrder/status</DS>
+<DN>status</DN>
+<DA>Destination/S5/magentoCreateOrder/status</DA>
+<SE>0</SE>
+<DE>0</DE>
+<SM>1</SM>
+<DM>1</DM>
+<SL>1/13</SL>
+<DL>001/013</DL>
+<SP>/1/1</SP>
+<DP>/1/1</DP>
+<SXT>string</SXT>
+<DXT>string</DXT>
+</CN>
+<CN ST="24">
+<SR ID="6" TP="S" SI="37" AT="A" PC="1000">Source/S6/magentoCreateOrder/state</SR>
+<SN>state</SN>
+<DS ID="5" TP="S" DI="22" AT="A" PC="1000">Destination/S5/magentoCreateOrder/state</DS>
+<DN>state</DN>
+<DA>Destination/S5/magentoCreateOrder/state</DA>
+<SE>0</SE>
+<DE>0</DE>
+<SM>1</SM>
+<DM>1</DM>
+<SL>1/14</SL>
+<DL>001/014</DL>
+<SP>/1/1</SP>
+<DP>/1/1</DP>
+<SXT>string</SXT>
+<DXT>string</DXT>
+</CN>
+<CN ST="24">
+<SR ID="6" TP="S" SI="38" AT="A" PC="1000">Source/S6/magentoCreateOrder/orderCurrencyCode</SR>
+<SN>orderCurrencyCode</SN>
+<DS ID="5" TP="S" DI="23" AT="A" PC="1000">Destination/S5/magentoCreateOrder/orderCurrencyCode</DS>
+<DN>orderCurrencyCode</DN>
+<DA>Destination/S5/magentoCreateOrder/orderCurrencyCode</DA>
+<SE>0</SE>
+<DE>0</DE>
+<SM>1</SM>
+<DM>1</DM>
+<SL>1/15</SL>
+<DL>001/015</DL>
+<SP>/1/1</SP>
+<DP>/1/1</DP>
+<SXT>string</SXT>
+<DXT>string</DXT>
+</CN>
+<CN ST="24">
+<SR ID="6" TP="S" SI="39" AT="A" PC="1000">Source/S6/magentoCreateOrder/customerEmail</SR>
+<SN>customerEmail</SN>
+<DS ID="5" TP="S" DI="24" AT="A" PC="1000">Destination/S5/magentoCreateOrder/customerEmail</DS>
+<DN>customerEmail</DN>
+<DA>Destination/S5/magentoCreateOrder/customerEmail</DA>
+<SE>0</SE>
+<DE>0</DE>
+<SM>1</SM>
+<DM>1</DM>
+<SL>1/16</SL>
+<DL>001/016</DL>
+<SP>/1/1</SP>
+<DP>/1/1</DP>
+<SXT>string</SXT>
+<DXT>string</DXT>
+</CN>
+<CN ST="24">
+<SR ID="6" TP="S" SI="40" AT="A" PC="1000">Source/S6/magentoCreateOrder/purchaseOrder</SR>
+<SN>purchaseOrder</SN>
+<DS ID="4" TP="S" DI="6" AT="A" PC="30">Destination/S4/Instance/C.magPurchaseOrderId</DS>
+<DN>C.magPurchaseOrderId</DN>
+<DA>Destination/S4/Instance/C.magPurchaseOrderId</DA>
+<SE>0</SE>
+<DE>1</DE>
+<SM>1</SM>
+<DM>1</DM>
+<SL>1/17</SL>
+<DL>1/1/6</DL>
+<SP>/1/1</SP>
+<DP>/-1/1</DP>
+<SXT>string</SXT>
+</CN>
+<CN ST="24">
+<SR ID="6" TP="S" SI="40" AT="A" PC="1000">Source/S6/magentoCreateOrder/purchaseOrder</SR>
+<SN>purchaseOrder</SN>
+<DS ID="5" TP="S" DI="25" AT="A" PC="1000">Destination/S5/magentoCreateOrder/purchaseOrder</DS>
+<DN>purchaseOrder</DN>
+<DA>Destination/S5/magentoCreateOrder/purchaseOrder</DA>
+<SE>0</SE>
+<DE>0</DE>
+<SM>1</SM>
+<DM>1</DM>
+<SL>1/17</SL>
+<DL>001/017</DL>
+<SP>/1/1</SP>
+<DP>/1/1</DP>
+<SXT>string</SXT>
+<DXT>string</DXT>
+</CN>
+<CN ST="24">
+<SR ID="6" TP="C" SI="41" AT="" PC="">Source/S6/magentoCreateOrder/orderItems</SR>
+<SN>orderItems</SN>
+<DS ID="5" TP="C" DI="26" AT="" PC="">Destination/S5/magentoCreateOrder/orderItems</DS>
+<DN>orderItems</DN>
+<DA>Destination/S5/magentoCreateOrder/orderItems</DA>
+<SE>0</SE>
+<DE>0</DE>
+<SL>1/18</SL>
+<DL>001/018</DL>
+<SP>/1/-1</SP>
+<DP>/1/-1</DP>
+</CN>
+<CN ST="24">
+<SR ID="6" TP="S" SI="42" AT="A" PC="1000">Source/S6/magentoCreateOrder/orderItems/sku</SR>
+<SN>sku</SN>
+<DS ID="5" TP="S" DI="27" AT="A" PC="1000">Destination/S5/magentoCreateOrder/orderItems/sku</DS>
+<DN>sku</DN>
+<DA>Destination/S5/magentoCreateOrder/orderItems/sku</DA>
+<SE>0</SE>
+<DE>0</DE>
+<SM>1</SM>
+<DM>1</DM>
+<SL>1/18/1</SL>
+<DL>001/018/001</DL>
+<SP>/1/-1/1</SP>
+<DP>/1/-1/1</DP>
+<SXT>string</SXT>
+<DXT>string</DXT>
+</CN>
+<CN ST="24">
+<SR ID="6" TP="S" SI="43" AT="N" PC="10.2">Source/S6/magentoCreateOrder/orderItems/qty</SR>
+<SN>qty</SN>
+<DS ID="5" TP="S" DI="28" AT="N" PC="10.2">Destination/S5/magentoCreateOrder/orderItems/qty</DS>
+<DN>qty</DN>
+<DA>Destination/S5/magentoCreateOrder/orderItems/qty</DA>
+<SE>0</SE>
+<DE>0</DE>
+<SM>1</SM>
+<DM>1</DM>
+<SL>1/18/2</SL>
+<DL>001/018/002</DL>
+<SP>/1/-1/1</SP>
+<DP>/1/-1/1</DP>
+<SXT>decimal</SXT>
+<DXT>decimal</DXT>
+</CN>
+<CN ST="24">
+<SR ID="6" TP="S" SI="44" AT="N" PC="10.2">Source/S6/magentoCreateOrder/orderItems/tax</SR>
+<SN>tax</SN>
+<DS ID="5" TP="S" DI="29" AT="N" PC="10.2">Destination/S5/magentoCreateOrder/orderItems/tax</DS>
+<DN>tax</DN>
+<DA>Destination/S5/magentoCreateOrder/orderItems/tax</DA>
+<SE>0</SE>
+<DE>0</DE>
+<SM>1</SM>
+<DM>1</DM>
+<SL>1/18/3</SL>
+<DL>001/018/003</DL>
+<SP>/1/-1/1</SP>
+<DP>/1/-1/1</DP>
+<SXT>decimal</SXT>
+<DXT>decimal</DXT>
+</CN>
+<CN ST="24">
+<SR ID="6" TP="S" SI="45" AT="N" PC="10.2">Source/S6/magentoCreateOrder/orderItems/price</SR>
+<SN>price</SN>
+<DS ID="5" TP="S" DI="30" AT="N" PC="10.2">Destination/S5/magentoCreateOrder/orderItems/price</DS>
+<DN>price</DN>
+<DA>Destination/S5/magentoCreateOrder/orderItems/price</DA>
+<SE>0</SE>
+<DE>0</DE>
+<SM>1</SM>
+<DM>1</DM>
+<SL>1/18/4</SL>
+<DL>001/018/004</DL>
+<SP>/1/-1/1</SP>
+<DP>/1/-1/1</DP>
+<SXT>decimal</SXT>
+<DXT>decimal</DXT>
+</CN>
+</StructConversionConnections>
+ <StructNodesColors/>
+</Source_And_Destination_Object>
+</IFC>
+<Services>
+ <Struct_InvokeFlow>
+    <Struct_InvokeFlowArgumentsStruct>
+     </Struct_InvokeFlowArgumentsStruct>
+  <InvokeFlowComp>
+  <Service_BP_ID>2</Service_BP_ID>
+  <flow_id>19</flow_id>
+  <step>25</step>
+  <Invoke_Flow_BP_ID>2</Invoke_Flow_BP_ID>
+  <invok_flow_id>2</invok_flow_id>
+  <InvokeBy>0</InvokeBy>
+  <DynamicBP_ExpID>0</DynamicBP_ExpID>
+  <DynamicFlow_ExpID>0</DynamicFlow_ExpID>
+ </InvokeFlowComp>
+   </Struct_InvokeFlow>
+ <Struct_SaveMsg>
+ <SaveMsgService>
+  <BP_ID>2</BP_ID>
+  <flow_id>19</flow_id>
+  <step>21</step>
+  <user_string_ID>37</user_string_ID>
+  <user_blob_ID>38</user_blob_ID>
+  <file_extension>xml</file_extension>
+  <categoryID>0</categoryID>
+  <priorityID>0</priorityID>
+  <statusID>0</statusID>
+  <user_key_1ID>0</user_key_1ID>
+  <user_key_2ID>0</user_key_2ID>
+ </SaveMsgService>
+ </Struct_SaveMsg>
+
+</Services>
+
+ <Struct_Triggers>
+ <TriggersComp>
+  <topology_id>2</topology_id>
+  <flow_id>19</flow_id>
+  <TRIG_ID_STEP_NO>3</TRIG_ID_STEP_NO>
+  <IFCDefinitionID>25</IFCDefinitionID>
+  <Description>This is a trigger for the magento process. We will edit it until it does what they need it to do without modifying the old one.</Description>
+  <NodeID>1</NodeID>
+  <Component>%currentprojectdir%service\JDE\JDE.ecf</Component>
+  <Name>magentoCreateOrder</Name>
+  <Emulation_program></Emulation_program>
+  <emulation_component></emulation_component>
+  <activation_string></activation_string>
+  <activation_blob>PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIiA/Pg0KPFdlYlNlcnZpY2U+DQoNCiAgPFJlc291cmNlSUQ+MDwvUmVzb3VyY2VJRD4NCg0KICA8TmFtZT5KREU8L05hbWU+DQoNCiAgPE1pZ3JhdGVkUHJvamVjdD48L01pZ3JhdGVkUHJvamVjdD4NCg0KICA8T3BlcmF0aW9uPg0KICAgIDxJRD41PC9JRD4NCiAgICA8T3BlcmF0aW9uTmFtZT5tYWdlbnRvT3JkZXI8L09wZXJhdGlvbk5hbWU+DQogICAgPEFyZ3VtZW50Pg0KICAgICAgPEFyZ3VtZW50SUQ+MTwvQXJndW1lbnRJRD4NCiAgICAgIDxBcmd1bWVudE5hbWU+SGVhZGVyX0luPC9Bcmd1bWVudE5hbWU+DQogICAgICA8QXJndWVtZW50VHlwZT4xPC9Bcmd1ZW1lbnRUeXBlPg0KICAgICAgPERpcmVjdGlvbj4xPC9EaXJlY3Rpb24+DQogICAgICA8RGF0YVR5cGU+QjwvRGF0YVR5cGU+DQogICAgICA8RGF0YVR5cGVQaWN0dXJlPjwvRGF0YVR5cGVQaWN0dXJlPg0KICAgICAgPE1hcHBpbmdFeHBJRD4wPC9NYXBwaW5nRXhwSUQ+DQogICAgPC9Bcmd1bWVudD4NCiAgICA8QXJndW1lbnQ+DQogICAgICA8QXJndW1lbnRJRD4yPC9Bcmd1bWVudElEPg0KICAgICAgPEFyZ3VtZW50TmFtZT5IZWFkZXJfT3V0PC9Bcmd1bWVudE5hbWU+DQogICAgICA8QXJndWVtZW50VHlwZT4xPC9Bcmd1ZW1lbnRUeXBlPg0KICAgICAgPERpcmVjdGlvbj4yPC9EaXJlY3Rpb24+DQogICAgICA8RGF0YVR5cGU+QjwvRGF0YVR5cGU+DQogICAgICA8RGF0YVR5cGVQaWN0dXJlPjwvRGF0YVR5cGVQaWN0dXJlPg0KICAgICAgPE1hcHBpbmdFeHBJRD4wPC9NYXBwaW5nRXhwSUQ+DQogICAgPC9Bcmd1bWVudD4NCiAgICA8QXJndW1lbnQ+DQogICAgICA8QXJndW1lbnRJRD4zPC9Bcmd1bWVudElEPg0KICAgICAgPEFyZ3VtZW50TmFtZT5SZXR1cm4gVmFsPC9Bcmd1bWVudE5hbWU+DQogICAgICA8QXJndWVtZW50VHlwZT40PC9Bcmd1ZW1lbnRUeXBlPg0KICAgICAgPERpcmVjdGlvbj4zPC9EaXJlY3Rpb24+DQogICAgICA8RGF0YVR5cGU+QTwvRGF0YVR5cGU+DQogICAgICA8RGF0YVR5cGVQaWN0dXJlPjMwPC9EYXRhVHlwZVBpY3R1cmU+DQogICAgICA8TWFwcGluZ0V4cElEPjM2PC9NYXBwaW5nRXhwSUQ+DQogICAgPC9Bcmd1bWVudD4NCiAgICA8QXJndW1lbnQ+DQogICAgICA8QXJndW1lbnRJRD40PC9Bcmd1bWVudElEPg0KICAgICAgPEFyZ3VtZW50TmFtZT5vcmRlcjwvQXJndW1lbnROYW1lPg0KICAgICAgPEFyZ3VlbWVudFR5cGU+MjwvQXJndWVtZW50VHlwZT4NCiAgICAgIDxEaXJlY3Rpb24+MTwvRGlyZWN0aW9uPg0KICAgICAgPERhdGFUeXBlPkI8L0RhdGFUeXBlPg0KICAgICAgPERhdGFUeXBlUGljdHVyZT48L0RhdGFUeXBlUGljdHVyZT4NCiAgICAgIDxNYXBwaW5nRXhwSUQ+MzM8L01hcHBpbmdFeHBJRD4NCiAgICA8L0FyZ3VtZW50Pg0KICA8L09wZXJhdGlvbj4NCg0KICA8UHV0QXJndW1lbnRYTUxJbnRvRXhwbklEPjA8L1B1dEFyZ3VtZW50WE1MSW50b0V4cG5JRD4NCg0KICA8RmF1bHRJRD4wPC9GYXVsdElEPg0KDQogIDxJZGVudGl0eT48L0lkZW50aXR5Pg0KDQogIDxJZGVudGl0eVBhc3N3b3JkPjwvSWRlbnRpdHlQYXNzd29yZD4NCg0KICA8SWRlbnRpdHlFeHBJZD4wPC9JZGVudGl0eUV4cElkPg0KDQogIDxJZGVudGl0eVBhc3NFeHBJZD4wPC9JZGVudGl0eVBhc3NFeHBJZD4NCg0KICA8UmVzcG9uc2VCbG9iVHlwZT48L1Jlc3BvbnNlQmxvYlR5cGU+DQoNCiAgPFJlcXVlc3RCbG9ic1R5cGU+VTwvUmVxdWVzdEJsb2JzVHlwZT4NCg0KPC9XZWJTZXJ2aWNlPg0K</activation_blob>
+  <return_XML_result>0</return_XML_result>
+  <method_name>magentoOrder</method_name>
+  <trigger_type>0</trigger_type>
+  <schedulerID>0</schedulerID>
+  <ServiceName>JDE</ServiceName>
+ </TriggersComp>
+ </Struct_Triggers>
+
+ <Struct_Scheduler>
+ <SchedulerComp>
+  <ID>100001</ID>
+  <Description>Scheduler100001</Description>
+  <Flow_ID>19</Flow_ID>
+  <trigger_type>A</trigger_type>
+  <Months></Months>
+  <DaysOfWeek></DaysOfWeek>
+  <DaysInMonth></DaysInMonth>
+  <TimeInDay></TimeInDay>
+  <Interval>1</Interval>
+  <Start_Date>00/00/0000</Start_Date>
+  <EndDate>00/00/0000</EndDate>
+  <StartTime>00:00:00</StartTime>
+  <EndTime>00:00:00</EndTime>
+  <serverID>0</serverID>
+  <Operation>4</Operation>
+  <BP_ID>2</BP_ID>
+  <IntervalCalculateSchedRT>False</IntervalCalculateSchedRT>
+  <IntervalMinutesAfterTheHour>0</IntervalMinutesAfterTheHour>
+ </SchedulerComp>
+ </Struct_Scheduler>
+
+
+ <Struct_FlowLogic>
+ <FlowLogicComp>
+  <flow_id>19</flow_id>
+  <devexp>0</devexp>
+  <deployexp></deployexp>
+  <afterifc_step>21</afterifc_step>
+  <nextifc_step>24</nextifc_step>
+  <IsReturn>0</IsReturn>
+  <table_id>23</table_id>
+  <sortorder>4</sortorder>
+  <BP_ID>2</BP_ID>
+ </FlowLogicComp>
+ <FlowLogicComp>
+  <flow_id>19</flow_id>
+  <devexp>0</devexp>
+  <deployexp></deployexp>
+  <afterifc_step>24</afterifc_step>
+  <nextifc_step>25</nextifc_step>
+  <IsReturn>0</IsReturn>
+  <table_id>24</table_id>
+  <sortorder>1</sortorder>
+  <BP_ID>2</BP_ID>
+ </FlowLogicComp>
+ <FlowLogicComp>
+  <flow_id>19</flow_id>
+  <devexp>0</devexp>
+  <deployexp></deployexp>
+  <afterifc_step>25</afterifc_step>
+  <nextifc_step>26</nextifc_step>
+  <IsReturn>0</IsReturn>
+  <table_id>25</table_id>
+  <sortorder>1</sortorder>
+  <BP_ID>2</BP_ID>
+ </FlowLogicComp>
+ </Struct_FlowLogic>
+
+ <Struct_FlowSpace/>
+
+ <Struct_ErrorHandler>
+ <ErrorHandlerComp>
+  <toplogy_id>2</toplogy_id>
+  <flow_id>19</flow_id>
+  <FromCode>23</FromCode>
+  <ToCode>23</ToCode>
+  <Description>Called flow aborted</Description>
+  <ReturnCode>A</ReturnCode>
+  <Step>0</Step>
+  <Action>N</Action>
+  <ID>2</ID>
+  <Component_ID>999999999998</Component_ID>
+ </ErrorHandlerComp>
+ </Struct_ErrorHandler>
+
+ <Struct_Elements>
+ <ElementsComp>
+  <elementId>46</elementId> 
+  <elementtype>TAR</elementtype> 
+  <elementname></elementname> 
+  <elementdescription>Get started here.
+Open the Debugger using Ctrl+7 or click the yellow bug icon.
+Set Breakpoints.
+Click the Run icon. This will activate the web service flow above.</elementdescription>
+  <objtype>10</objtype> 
+  <BP_ID>2</BP_ID> 
+  <etop_y1>113.000</etop_y1> 
+  <eleft_x1>50.000</eleft_x1> 
+  <ebottom_y2>186.000</ebottom_y2> 
+  <eright_x2>469.000</eright_x2> 
+  <interface></interface>
+  <wsdlfile_in></wsdlfile_in> 
+  <wsdlfile_out></wsdlfile_out>
+  <direction></direction>
+  <imagefile></imagefile> 
+  <bgcolor>12713983</bgcolor> 
+  <fgcolor>12713983</fgcolor> 
+  <fontId>36</fontId> 
+  <textlocation></textlocation> 
+  <arrowdirection></arrowdirection>
+  <pointer_x>0.000</pointer_x> 
+  <pointer_y>0.000</pointer_y> 
+  <application>0</application> 
+  <border_weight>1</border_weight> 
+  <user_message></user_message>
+  <showpointer>0</showpointer> 
+  <Ismax_TAR>1</Ismax_TAR> 
+  <Flow_ID>19</Flow_ID> 
+  <Document_Path></Document_Path>
+
+     <Struct_ElementsFlows>
+         </Struct_ElementsFlows>
+  
+     <Struct_FontProperties>
+         </Struct_FontProperties>
+  
+
+
+      
+      
+
+ </ElementsComp>
+ </Struct_Elements>
+
+ <Flow_Root>
+ <FlowRootComp>
+  <flow_id>19</flow_id>
+  <root_step_id>21</root_step_id>
+  <devexp>0</devexp>
+  <deployexp></deployexp>
+  <BP_ID>2</BP_ID>
+ </FlowRootComp>
+ </Flow_Root>
+
+<Struct_ExpressionTable>
+ <Expression_TableComp>
+  <Object_ID>2</Object_ID> 
+  <BP_ID>2</BP_ID> 
+  <Flow_ID>19</Flow_ID> 
+  <StepTrigger_ID>3</StepTrigger_ID> 
+  <Is_Trigger>1</Is_Trigger> 
+  <SubStep_ID>0</SubStep_ID> 
+  <MapperUpdate_ID>0</MapperUpdate_ID> 
+  <Expression_ID>24</Expression_ID> 
+  <Development_Expression>PCMhJUAkPmdldFZhck5hbWUoMiwnezkwMjgwNDJDLTQwMjYtNEUxMy05RUMxLUUxOTlFRDk4ODMxRn0nLDAsMCk8IyElQCQ+</Development_Expression> 
+  <Deployment_Expression></Deployment_Expression>
+  <Expression_Return_Attribute>B</Expression_Return_Attribute> 
+  <Range_String></Range_String>  
+  <Direction_InOrOut>I</Direction_InOrOut> 
+  <DeploymentGenerated>0</DeploymentGenerated> 
+  <ExpressionPath>PCE/VHJpZ2dlcj8hPg0KPCE/Q29uZmlnPyE+DQo8IT9JRD8hPjM8IT9JRD8hPg0KPCE/Q1RSTmFtZT8hPlZfUGFyYW1ldGVyVmFyaWFibGVFeHByZXNzaW9uPCE/Q1RSTmFtZT8hPg0KPCE/Q29uZmlnPyE+DQo8IT9UcmlnZ2VyPyE+</ExpressionPath> 
+  <isCopyIndication>False</isCopyIndication> 
+ </Expression_TableComp>
+ <Expression_TableComp>
+  <Object_ID>2</Object_ID> 
+  <BP_ID>2</BP_ID> 
+  <Flow_ID>19</Flow_ID> 
+  <StepTrigger_ID>3</StepTrigger_ID> 
+  <Is_Trigger>1</Is_Trigger> 
+  <SubStep_ID>0</SubStep_ID> 
+  <MapperUpdate_ID>0</MapperUpdate_ID> 
+  <Expression_ID>32</Expression_ID> 
+  <Development_Expression>PCMhJUAkPmdldFZhck5hbWUoMiwnMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDA3JywwLDApPCMhJUAkPg==</Development_Expression> 
+  <Deployment_Expression></Deployment_Expression>
+  <Expression_Return_Attribute>B</Expression_Return_Attribute> 
+  <Range_String></Range_String>  
+  <Direction_InOrOut>O</Direction_InOrOut> 
+  <DeploymentGenerated>0</DeploymentGenerated> 
+  <ExpressionPath>PCE/VHJpZ2dlcj8hPg0KPCE/Q29uZmlnPyE+DQo8IT9JRD8hPjIyPCE/SUQ/IT4NCjwhP0NUUk5hbWU/IT5WX1BhcmFtZXRlclZhcmlhYmxlRXhwcmVzc2lvbjwhP0NUUk5hbWU/IT4NCjwhP0NvbmZpZz8hPg0KPCE/VHJpZ2dlcj8hPg==</ExpressionPath> 
+  <isCopyIndication>False</isCopyIndication> 
+ </Expression_TableComp>
+ <Expression_TableComp>
+  <Object_ID>2</Object_ID> 
+  <BP_ID>2</BP_ID> 
+  <Flow_ID>19</Flow_ID> 
+  <StepTrigger_ID>3</StepTrigger_ID> 
+  <Is_Trigger>1</Is_Trigger> 
+  <SubStep_ID>0</SubStep_ID> 
+  <MapperUpdate_ID>0</MapperUpdate_ID> 
+  <Expression_ID>33</Expression_ID> 
+  <Development_Expression>PCMhJUAkPmdldFZhck5hbWUoMiwnezVGMzlFQzFDLTcyN0YtNDQ2MS04NUNDLTUzMTg1OUM3MzlERn0nLDAsMCk8IyElQCQ+</Development_Expression> 
+  <Deployment_Expression></Deployment_Expression>
+  <Expression_Return_Attribute>B</Expression_Return_Attribute> 
+  <Range_String></Range_String>  
+  <Direction_InOrOut>O</Direction_InOrOut> 
+  <DeploymentGenerated>0</DeploymentGenerated> 
+  <ExpressionPath>PCE/VHJpZ2dlcj8hPg0KPCE/Q29uZmlnPyE+DQo8IT9JRD8hPjQ8IT9JRD8hPg0KPCE/Q1RSTmFtZT8hPlZfUGFyYW1ldGVyVmFyaWFibGVFeHByZXNzaW9uPCE/Q1RSTmFtZT8hPg0KPCE/Q29uZmlnPyE+DQo8IT9UcmlnZ2VyPyE+</ExpressionPath> 
+  <isCopyIndication>False</isCopyIndication> 
+ </Expression_TableComp>
+ <Expression_TableComp>
+  <Object_ID>2</Object_ID> 
+  <BP_ID>2</BP_ID> 
+  <Flow_ID>19</Flow_ID> 
+  <StepTrigger_ID>3</StepTrigger_ID> 
+  <Is_Trigger>1</Is_Trigger> 
+  <SubStep_ID>0</SubStep_ID> 
+  <MapperUpdate_ID>0</MapperUpdate_ID> 
+  <Expression_ID>36</Expression_ID> 
+  <Development_Expression>PCMhJUAkPmdldFZhck5hbWUoMiwnezkwMjgwNDJDLTQwMjYtNEUxMy05RUMxLUUxOTlFRDk4ODMxRn0nLDAsMCk8IyElQCQ+</Development_Expression> 
+  <Deployment_Expression></Deployment_Expression>
+  <Expression_Return_Attribute>A</Expression_Return_Attribute> 
+  <Range_String></Range_String>  
+  <Direction_InOrOut>I</Direction_InOrOut> 
+  <DeploymentGenerated>0</DeploymentGenerated> 
+  <ExpressionPath>PCE/VHJpZ2dlcj8hPg0KPCE/Q29uZmlnPyE+DQo8IT9JRD8hPjM8IT9JRD8hPg0KPCE/Q1RSTmFtZT8hPlZfUGFyYW1ldGVyVmFyaWFibGVFeHByZXNzaW9uPCE/Q1RSTmFtZT8hPg0KPCE/Q29uZmlnPyE+DQo8IT9UcmlnZ2VyPyE+</ExpressionPath> 
+  <isCopyIndication>False</isCopyIndication> 
+ </Expression_TableComp>
+ <Expression_TableComp>
+  <Object_ID>2</Object_ID> 
+  <BP_ID>2</BP_ID> 
+  <Flow_ID>19</Flow_ID> 
+  <StepTrigger_ID>21</StepTrigger_ID> 
+  <Is_Trigger>0</Is_Trigger> 
+  <SubStep_ID>0</SubStep_ID> 
+  <MapperUpdate_ID>0</MapperUpdate_ID> 
+  <Expression_ID>37</Expression_ID> 
+  <Development_Expression>J05ldyBPcmRlciBEYXRhJw==</Development_Expression> 
+  <Deployment_Expression></Deployment_Expression>
+  <Expression_Return_Attribute>A</Expression_Return_Attribute> 
+  <Range_String></Range_String>  
+  <Direction_InOrOut>I</Direction_InOrOut> 
+  <DeploymentGenerated>0</DeploymentGenerated> 
+  <ExpressionPath>PCE/U3RlcD8hPg0KPCE/Q29uZmlnPyE+DQo8IT9DVFJOYW1lPyE+Ql9NU0cgc3RyaW5nXzAwMDI8IT9DVFJOYW1lPyE+DQo8IT9Db25maWc/IT4NCjwhP1N0ZXA/IT4NCg==</ExpressionPath> 
+  <isCopyIndication>False</isCopyIndication> 
+ </Expression_TableComp>
+ <Expression_TableComp>
+  <Object_ID>2</Object_ID> 
+  <BP_ID>2</BP_ID> 
+  <Flow_ID>19</Flow_ID> 
+  <StepTrigger_ID>21</StepTrigger_ID> 
+  <Is_Trigger>0</Is_Trigger> 
+  <SubStep_ID>0</SubStep_ID> 
+  <MapperUpdate_ID>0</MapperUpdate_ID> 
+  <Expression_ID>38</Expression_ID> 
+  <Development_Expression>PCMhJUAkPmdldFZhck5hbWUoMiwnezVGMzlFQzFDLTcyN0YtNDQ2MS04NUNDLTUzMTg1OUM3MzlERn0nLDAsMCk8IyElQCQ+</Development_Expression> 
+  <Deployment_Expression></Deployment_Expression>
+  <Expression_Return_Attribute>A</Expression_Return_Attribute> 
+  <Range_String></Range_String>  
+  <Direction_InOrOut>I</Direction_InOrOut> 
+  <DeploymentGenerated>0</DeploymentGenerated> 
+  <ExpressionPath>PCE/U3RlcD8hPg0KPCE/Q29uZmlnPyE+DQo8IT9DVFJOYW1lPyE+Ql9NU0cgYmxvYiBWYXJfMDAwMTwhP0NUUk5hbWU/IT4NCjwhP0NvbmZpZz8hPg0KPCE/U3RlcD8hPg0K</ExpressionPath> 
+  <isCopyIndication>False</isCopyIndication> 
+ </Expression_TableComp>
+ <Expression_TableComp>
+  <Object_ID>2</Object_ID> 
+  <BP_ID>2</BP_ID> 
+  <Flow_ID>19</Flow_ID> 
+  <StepTrigger_ID>24</StepTrigger_ID> 
+  <Is_Trigger>0</Is_Trigger> 
+  <SubStep_ID>4</SubStep_ID> 
+  <MapperUpdate_ID>0</MapperUpdate_ID> 
+  <Expression_ID>31</Expression_ID> 
+  <Development_Expression>PCMhJUAkPmdldFZhck5hbWUoMiwnMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDA3JywwLDApPCMhJUAkPg==</Development_Expression> 
+  <Deployment_Expression></Deployment_Expression>
+  <Expression_Return_Attribute>B</Expression_Return_Attribute> 
+  <Range_String></Range_String>  
+  <Direction_InOrOut>O</Direction_InOrOut> 
+  <DeploymentGenerated>0</DeploymentGenerated> 
+  <ExpressionPath>PCE/TWFwcGVyPyE+IDwhP01hcHBlcj8hPjwhP1NjaGVtYT8hPjwhP0lEPyE+NDwhP0lEPyE+PCE/TmFtZT8hPkQxPCE/TmFtZT8hPjwhP1Byb3BlcnRpZXM/IT48IT9DVFJOYW1lPyE+VGFyZ2V0IFNjaGVtYSBOYW1lPCE/Q1RSTmFtZT8hPjwhP1Byb3BlcnRpZXM/IT48IT9TY2hlbWE/IT4=</ExpressionPath> 
+  <isCopyIndication>False</isCopyIndication> 
+ </Expression_TableComp>
+ <Expression_TableComp>
+  <Object_ID>2</Object_ID> 
+  <BP_ID>2</BP_ID> 
+  <Flow_ID>19</Flow_ID> 
+  <StepTrigger_ID>24</StepTrigger_ID> 
+  <Is_Trigger>0</Is_Trigger> 
+  <SubStep_ID>5</SubStep_ID> 
+  <MapperUpdate_ID>0</MapperUpdate_ID> 
+  <Expression_ID>34</Expression_ID> 
+  <Development_Expression>PCMhJUAkPmdldFZhck5hbWUoMiwnezVGMzlFQzFDLTcyN0YtNDQ2MS04NUNDLTUzMTg1OUM3MzlERn0nLDAsMCk8IyElQCQ+</Development_Expression> 
+  <Deployment_Expression></Deployment_Expression>
+  <Expression_Return_Attribute>B</Expression_Return_Attribute> 
+  <Range_String></Range_String>  
+  <Direction_InOrOut>O</Direction_InOrOut> 
+  <DeploymentGenerated>0</DeploymentGenerated> 
+  <ExpressionPath>PCE/TWFwcGVyPyE+IDwhP01hcHBlcj8hPjwhP1NjaGVtYT8hPjwhP0lEPyE+NTwhP0lEPyE+PCE/TmFtZT8hPkQyPCE/TmFtZT8hPjwhP1Byb3BlcnRpZXM/IT48IT9DVFJOYW1lPyE+Qi1Ccm93c2UgRGF0YVNyYy4uLl8wMDAxPCE/Q1RSTmFtZT8hPjwhP1Byb3BlcnRpZXM/IT48IT9TY2hlbWE/IT4=</ExpressionPath> 
+  <isCopyIndication>False</isCopyIndication> 
+ </Expression_TableComp>
+ <Expression_TableComp>
+  <Object_ID>2</Object_ID> 
+  <BP_ID>2</BP_ID> 
+  <Flow_ID>19</Flow_ID> 
+  <StepTrigger_ID>24</StepTrigger_ID> 
+  <Is_Trigger>0</Is_Trigger> 
+  <SubStep_ID>6</SubStep_ID> 
+  <MapperUpdate_ID>0</MapperUpdate_ID> 
+  <Expression_ID>35</Expression_ID> 
+  <Development_Expression>PCMhJUAkPmdldFZhck5hbWUoMiwnezVGMzlFQzFDLTcyN0YtNDQ2MS04NUNDLTUzMTg1OUM3MzlERn0nLDAsMCk8IyElQCQ+</Development_Expression> 
+  <Deployment_Expression></Deployment_Expression>
+  <Expression_Return_Attribute>B</Expression_Return_Attribute> 
+  <Range_String></Range_String>  
+  <Direction_InOrOut>I</Direction_InOrOut> 
+  <DeploymentGenerated>0</DeploymentGenerated> 
+  <ExpressionPath>PCE/TWFwcGVyPyE+IDwhP01hcHBlcj8hPjwhP1NjaGVtYT8hPjwhP0lEPyE+NjwhP0lEPyE+PCE/TmFtZT8hPm1hZ2VudG9UcmlnZ2VyRGF0YTwhP05hbWU/IT48IT9Qcm9wZXJ0aWVzPyE+PCE/Q1RSTmFtZT8hPkItQnJvd3NlIERhdGFTcmMuLi5fMDAwMTwhP0NUUk5hbWU/IT48IT9Qcm9wZXJ0aWVzPyE+PCE/U2NoZW1hPyE+</ExpressionPath> 
+  <isCopyIndication>False</isCopyIndication> 
+ </Expression_TableComp>
+ </Struct_ExpressionTable>
+
+ <Struct_MapperElementData/>
+
+ <Struct_MapperExpressionID/>
+
+</Flows>

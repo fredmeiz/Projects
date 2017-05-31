@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<FlowVariables>
+							<Variable d2p1:type="VariableRepositoryItem" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance">
+			<GUID>{19ACFEA1-4514-4B80-9D7B-5D8883C8417E}</GUID>
+			<ID>1</ID>
+			<Order>321</Order>
+			<Name>F.Attch</Name>
+							<Description>Path to attachments</Description>
+						<Type>
+				<Type>A</Type>
+				<Picture>1000</Picture>
+									<isUnicode>false</isUnicode>
+													<isNillable>false</isNillable>
+							</Type>
+													<isDeleted>false</isDeleted>
+						<IsSystemVariable>false</IsSystemVariable>
+			<IsNameIncompatible>false</IsNameIncompatible>
+			</Variable>
+									<Variable d2p1:type="VariableRepositoryItem" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance">
+			<GUID>{BB25C9CE-FCCD-4DF6-94E7-70D73BCB8A2D}</GUID>
+			<ID>2</ID>
+			<Order>322</Order>
+			<Name>F.Attch1</Name>
+							<Description>Attachment One XML</Description>
+						<Type>
+				<Type>B</Type>
+				<Picture></Picture>
+									<isUnicode>false</isUnicode>
+													<isNillable>false</isNillable>
+							</Type>
+													<isDeleted>false</isDeleted>
+						<IsSystemVariable>false</IsSystemVariable>
+			<IsNameIncompatible>false</IsNameIncompatible>
+			</Variable>
+									<Variable d2p1:type="VariableRepositoryItem" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance">
+			<GUID>{D969B34E-6090-4D55-8415-CDA23A25511B}</GUID>
+			<ID>3</ID>
+			<Order>323</Order>
+			<Name>F.Attch2</Name>
+							<Description>Attachment Two XML</Description>
+						<Type>
+				<Type>B</Type>
+				<Picture></Picture>
+									<isUnicode>false</isUnicode>
+													<isNillable>false</isNillable>
+							</Type>
+													<isDeleted>false</isDeleted>
+						<IsSystemVariable>false</IsSystemVariable>
+			<IsNameIncompatible>false</IsNameIncompatible>
+			</Variable>
+									<Variable d2p1:type="VariableRepositoryItem" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance">
+			<GUID>{D1E0F936-EDC3-4345-8708-D70EE32DEF5B}</GUID>
+			<ID>4</ID>
+			<Order>324</Order>
+			<Name>F.Body</Name>
+							<Description>not used? Seems C.Body is used.</Description>
+						<Type>
+				<Type>B</Type>
+				<Picture></Picture>
+									<isUnicode>false</isUnicode>
+													<isNillable>false</isNillable>
+							</Type>
+													<isDeleted>false</isDeleted>
+						<IsSystemVariable>false</IsSystemVariable>
+			<IsNameIncompatible>false</IsNameIncompatible>
+			</Variable>
+					</FlowVariables>
+	

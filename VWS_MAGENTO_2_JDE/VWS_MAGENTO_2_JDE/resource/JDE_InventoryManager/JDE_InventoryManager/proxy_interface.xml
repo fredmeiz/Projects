@@ -1,0 +1,3180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ClassMetaData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <Classes>
+      <Class name="com_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager/InventoryManager" abstract="Y" interface="Y">
+         <Dependencies>
+            <Extends>
+               <ClassName></ClassName>
+            </Extends>
+            <Implements>
+            </Implements>
+         </Dependencies>
+         <Structure>
+            <InstanceMethods>
+               <Method idx="1" abstract="Y">
+                  <name>processSupplierCatalogPrice</name>
+                  <Signature>(Lcom_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager/ProcessSupplierCatalogPrice;)Lcom_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager/ConfirmProcessSupplierCatalogPrice;</Signature>
+                  <Parameters>
+                     <Parameter idx="1">
+                        <name></name>
+                        <type>com_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager.ProcessSupplierCatalogPrice</type>
+                     </Parameter>
+                  </Parameters>
+                  <Throws>
+                     <Exception>com_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager.BusinessServiceException</Exception>
+                  </Throws>
+               </Method>
+               <Method idx="2" abstract="Y">
+                  <name>processSupplierCatalogPriceV2</name>
+                  <Signature>(Lcom_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager/ProcessSupplierCatalogPriceV2;)Lcom_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager/ConfirmProcessSupplierCatalogPriceV2;</Signature>
+                  <Parameters>
+                     <Parameter idx="1">
+                        <name></name>
+                        <type>com_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager.ProcessSupplierCatalogPriceV2</type>
+                     </Parameter>
+                  </Parameters>
+                  <Throws>
+                     <Exception>com_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager.BusinessServiceException</Exception>
+                  </Throws>
+               </Method>
+               <Method idx="3" abstract="Y">
+                  <name>getItemAvailability</name>
+                  <Signature>(Lcom_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager/GetItemAvailability;)Lcom_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager/ShowItemAvailability;</Signature>
+                  <Parameters>
+                     <Parameter idx="1">
+                        <name></name>
+                        <type>com_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager.GetItemAvailability</type>
+                     </Parameter>
+                  </Parameters>
+                  <Throws>
+                     <Exception>com_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager.BusinessServiceException</Exception>
+                  </Throws>
+               </Method>
+               <Method idx="4" abstract="Y">
+                  <name>getBranchPlantItem</name>
+                  <Signature>(Lcom_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager/GetBranchPlantItem;)Lcom_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager/ShowBranchPlantItem;</Signature>
+                  <Parameters>
+                     <Parameter idx="1">
+                        <name></name>
+                        <type>com_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager.GetBranchPlantItem</type>
+                     </Parameter>
+                  </Parameters>
+                  <Throws>
+                     <Exception>com_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager.BusinessServiceException</Exception>
+                  </Throws>
+               </Method>
+               <Method idx="5" abstract="Y">
+                  <name>getBranchPlantItemV2</name>
+                  <Signature>(Lcom_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager/GetBranchPlantItem;)Lcom_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager/ShowBranchPlantItemV2;</Signature>
+                  <Parameters>
+                     <Parameter idx="1">
+                        <name></name>
+                        <type>com_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager.GetBranchPlantItem</type>
+                     </Parameter>
+                  </Parameters>
+                  <Throws>
+                     <Exception>com_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager.BusinessServiceException</Exception>
+                  </Throws>
+               </Method>
+               <Method idx="6" abstract="Y">
+                  <name>processInventoryItem</name>
+                  <Signature>(Lcom_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager/ProcessInventoryItem;)Lcom_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager/ConfirmInventoryItem;</Signature>
+                  <Parameters>
+                     <Parameter idx="1">
+                        <name></name>
+                        <type>com_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager.ProcessInventoryItem</type>
+                     </Parameter>
+                  </Parameters>
+                  <Throws>
+                     <Exception>com_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager.BusinessServiceException</Exception>
+                  </Throws>
+               </Method>
+               <Method idx="7" abstract="Y">
+                  <name>processInventoryItemV2</name>
+                  <Signature>(Lcom_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager/ProcessInventoryItemV2;)Lcom_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager/ConfirmInventoryItemV2;</Signature>
+                  <Parameters>
+                     <Parameter idx="1">
+                        <name></name>
+                        <type>com_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager.ProcessInventoryItemV2</type>
+                     </Parameter>
+                  </Parameters>
+                  <Throws>
+                     <Exception>com_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager.BusinessServiceException</Exception>
+                  </Throws>
+               </Method>
+               <Method idx="8" abstract="Y">
+                  <name>getSupplierCatalogPrice</name>
+                  <Signature>(Lcom_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager/GetSupplierCatalogPrice;)Lcom_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager/ShowSupplierCatalogPrice;</Signature>
+                  <Parameters>
+                     <Parameter idx="1">
+                        <name></name>
+                        <type>com_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager.GetSupplierCatalogPrice</type>
+                     </Parameter>
+                  </Parameters>
+                  <Throws>
+                     <Exception>com_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager.BusinessServiceException</Exception>
+                  </Throws>
+               </Method>
+               <Method idx="9" abstract="Y">
+                  <name>insertInventoryItemStaging</name>
+                  <Signature>([Lcom_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager/InsertInventoryItemStagingFields;)Lcom_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager/ConfirmInventoryItemStaging;</Signature>
+                  <Parameters>
+                     <Parameter idx="1">
+                        <name></name>
+                        <type>[Lcom_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager.InsertInventoryItemStagingFields;</type>
+                     </Parameter>
+                  </Parameters>
+                  <Throws>
+                     <Exception>com_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager.BusinessServiceException</Exception>
+                  </Throws>
+               </Method>
+               <Method idx="10" abstract="Y">
+                  <name>getCalculatedAvailability</name>
+                  <Signature>(Lcom_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager/GetCalculatedAvailability;)Lcom_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager/ShowCalculatedAvailability;</Signature>
+                  <Parameters>
+                     <Parameter idx="1">
+                        <name></name>
+                        <type>com_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager.GetCalculatedAvailability</type>
+                     </Parameter>
+                  </Parameters>
+                  <Throws>
+                     <Exception>com_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager.BusinessServiceException</Exception>
+                  </Throws>
+               </Method>
+               <Method idx="11" abstract="Y">
+                  <name>getSupplierCatalogPriceV2</name>
+                  <Signature>(Lcom_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager/GetSupplierCatalogPriceV2;)Lcom_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager/ShowSupplierCatalogPriceV2;</Signature>
+                  <Parameters>
+                     <Parameter idx="1">
+                        <name></name>
+                        <type>com_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager.GetSupplierCatalogPriceV2</type>
+                     </Parameter>
+                  </Parameters>
+                  <Throws>
+                     <Exception>com_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager.BusinessServiceException</Exception>
+                  </Throws>
+               </Method>
+               <Method idx="12" abstract="Y">
+                  <name>getItemPrice</name>
+                  <Signature>(Lcom_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager/GetItemPrice;)Lcom_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager/ShowItemPrice;</Signature>
+                  <Parameters>
+                     <Parameter idx="1">
+                        <name></name>
+                        <type>com_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager.GetItemPrice</type>
+                     </Parameter>
+                  </Parameters>
+                  <Throws>
+                     <Exception>com_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager.BusinessServiceException</Exception>
+                  </Throws>
+               </Method>
+               <Method idx="13" abstract="Y">
+                  <name>insertInventoryItemStagingV2</name>
+                  <Signature>([Lcom_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager/InsertInventoryItemStagingFieldsV2;)Lcom_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager/ConfirmInventoryItemStaging;</Signature>
+                  <Parameters>
+                     <Parameter idx="1">
+                        <name></name>
+                        <type>[Lcom_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager.InsertInventoryItemStagingFieldsV2;</type>
+                     </Parameter>
+                  </Parameters>
+                  <Throws>
+                     <Exception>com_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager.BusinessServiceException</Exception>
+                  </Throws>
+               </Method>
+               <Method idx="14" abstract="Y">
+                  <name>getItemSearch</name>
+                  <Signature>(Lcom_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager/GetItemSearch;)Lcom_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager/ShowItemSearch;</Signature>
+                  <Parameters>
+                     <Parameter idx="1">
+                        <name></name>
+                        <type>com_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager.GetItemSearch</type>
+                     </Parameter>
+                  </Parameters>
+                  <Throws>
+                     <Exception>com_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager.BusinessServiceException</Exception>
+                  </Throws>
+               </Method>
+               <Method idx="15" abstract="Y">
+                  <name>getItemBranchSearch</name>
+                  <Signature>(Lcom_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager/GetItemBranchSearch;)Lcom_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager/ShowItemBranchSearch;</Signature>
+                  <Parameters>
+                     <Parameter idx="1">
+                        <name></name>
+                        <type>com_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager.GetItemBranchSearch</type>
+                     </Parameter>
+                  </Parameters>
+                  <Throws>
+                     <Exception>com_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager.BusinessServiceException</Exception>
+                  </Throws>
+               </Method>
+            </InstanceMethods>
+            <StaticMethods>
+            </StaticMethods>
+            <InstanceVariables>
+            </InstanceVariables>
+            <StaticVariables>
+            </StaticVariables>
+         </Structure>
+      </Class>
+      <Class name="com_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager.ConfirmProcessSupplierCatalogPrice" abstract="N" interface="N">
+         <Dependencies>
+            <Extends>
+               <ClassName>com_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager.MessageValueObject</ClassName>
+            </Extends>
+            <Implements>
+            </Implements>
+         </Dependencies>
+         <Structure>
+            <Constructors>
+               <Constructor idx="1">
+                  <Signature>()V</Signature>
+                  <Parameters>
+                  </Parameters>
+                  <Throws>
+                  </Throws>
+               </Constructor>
+            </Constructors>
+            <InstanceMethods>
+            </InstanceMethods>
+            <StaticMethods>
+            </StaticMethods>
+            <InstanceVariables>
+               <Variable idx="1">
+                  <name>businessUnit</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="2">
+                  <name>catalogName</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="3">
+                  <name>currencyCode</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="4">
+                  <name>dateEffectiveEnd</name>
+                  <Signature>Ljava/util/Date;</Signature>
+               </Variable>
+               <Variable idx="5">
+                  <name>dateEffectiveStart</name>
+                  <Signature>Ljava/util/Date;</Signature>
+               </Variable>
+               <Variable idx="6">
+                  <name>item</name>
+                  <Signature>Lcom_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager/ItemResponseSupplier;</Signature>
+               </Variable>
+               <Variable idx="7">
+                  <name>priceUnit</name>
+                  <Signature>Ljava/math/BigDecimal;</Signature>
+               </Variable>
+               <Variable idx="8">
+                  <name>quantityActual</name>
+                  <Signature>Ljava/math/BigDecimal;</Signature>
+               </Variable>
+               <Variable idx="9">
+                  <name>supplier</name>
+                  <Signature>Lcom_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager/Entity;</Signature>
+               </Variable>
+               <Variable idx="10">
+                  <name>unitOfMeasureCode</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+            </InstanceVariables>
+            <StaticVariables>
+            </StaticVariables>
+         </Structure>
+      </Class>
+      <Class name="com_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager.ProcessSupplierCatalogPrice" abstract="N" interface="N">
+         <Dependencies>
+            <Extends>
+               <ClassName>com_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager.ValueObject</ClassName>
+            </Extends>
+            <Implements>
+            </Implements>
+         </Dependencies>
+         <Structure>
+            <Constructors>
+               <Constructor idx="1">
+                  <Signature>()V</Signature>
+                  <Parameters>
+                  </Parameters>
+                  <Throws>
+                  </Throws>
+               </Constructor>
+            </Constructors>
+            <InstanceMethods>
+            </InstanceMethods>
+            <StaticMethods>
+            </StaticMethods>
+            <InstanceVariables>
+               <Variable idx="1">
+                  <name>businessUnit</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="2">
+                  <name>catalogName</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="3">
+                  <name>currencyCode</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="4">
+                  <name>dateEffectiveEnd</name>
+                  <Signature>Ljava/util/Date;</Signature>
+               </Variable>
+               <Variable idx="5">
+                  <name>dateEffectiveStart</name>
+                  <Signature>Ljava/util/Date;</Signature>
+               </Variable>
+               <Variable idx="6">
+                  <name>item</name>
+                  <Signature>Lcom_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager/ItemGroupSupplier;</Signature>
+               </Variable>
+               <Variable idx="7">
+                  <name>priceUnit</name>
+                  <Signature>Ljava/math/BigDecimal;</Signature>
+               </Variable>
+               <Variable idx="8">
+                  <name>processing</name>
+                  <Signature>Lcom_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager/SupplierCatalogPriceProcessing;</Signature>
+               </Variable>
+               <Variable idx="9">
+                  <name>quantityActual</name>
+                  <Signature>Ljava/math/BigDecimal;</Signature>
+               </Variable>
+               <Variable idx="10">
+                  <name>supplier</name>
+                  <Signature>Lcom_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager/Entity;</Signature>
+               </Variable>
+               <Variable idx="11">
+                  <name>unitOfMeasureCode</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+            </InstanceVariables>
+            <StaticVariables>
+            </StaticVariables>
+         </Structure>
+      </Class>
+      <Class name="com_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager.BusinessServiceException" abstract="N" interface="N">
+         <Dependencies>
+            <Extends>
+               <ClassName>java.lang.Exception</ClassName>
+            </Extends>
+            <Implements>
+            </Implements>
+         </Dependencies>
+         <Structure>
+            <Constructors>
+               <Constructor idx="1">
+                  <Signature>(Ljava/lang/String;Ljava/lang/String;)V</Signature>
+                  <Parameters>
+                     <Parameter idx="1">
+                        <name>message</name>
+                        <type>java.lang.String</type>
+                     </Parameter>
+                     <Parameter idx="2">
+                        <name>requestID</name>
+                        <type>java.lang.String</type>
+                     </Parameter>
+                  </Parameters>
+                  <Throws>
+                  </Throws>
+               </Constructor>
+            </Constructors>
+            <InstanceMethods>
+               <Method idx="1">
+                  <name>getRequestID</name>
+                  <Signature>()Ljava/lang/String;</Signature>
+                  <Parameters>
+                  </Parameters>
+                  <Throws>
+                  </Throws>
+               </Method>
+            </InstanceMethods>
+            <StaticMethods>
+            </StaticMethods>
+            <InstanceVariables>
+               <Variable idx="1">
+                  <name>requestID</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+            </InstanceVariables>
+            <StaticVariables>
+            </StaticVariables>
+         </Structure>
+      </Class>
+      <Class name="com_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager.ConfirmProcessSupplierCatalogPriceV2" abstract="N" interface="N">
+         <Dependencies>
+            <Extends>
+               <ClassName>com_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager.MessageValueObject</ClassName>
+            </Extends>
+            <Implements>
+            </Implements>
+         </Dependencies>
+         <Structure>
+            <Constructors>
+               <Constructor idx="1">
+                  <Signature>()V</Signature>
+                  <Parameters>
+                  </Parameters>
+                  <Throws>
+                  </Throws>
+               </Constructor>
+            </Constructors>
+            <InstanceMethods>
+            </InstanceMethods>
+            <StaticMethods>
+            </StaticMethods>
+            <InstanceVariables>
+               <Variable idx="1">
+                  <name>businessUnit</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="2">
+                  <name>catalogName</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="3">
+                  <name>currencyCode</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="4">
+                  <name>dateEffectiveEnd</name>
+                  <Signature>Ljava/util/Date;</Signature>
+               </Variable>
+               <Variable idx="5">
+                  <name>dateEffectiveStart</name>
+                  <Signature>Ljava/util/Date;</Signature>
+               </Variable>
+               <Variable idx="6">
+                  <name>item</name>
+                  <Signature>Lcom_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager/ItemResponseSupplier;</Signature>
+               </Variable>
+               <Variable idx="7">
+                  <name>priceUnit</name>
+                  <Signature>Ljava/math/BigDecimal;</Signature>
+               </Variable>
+               <Variable idx="8">
+                  <name>quantityActual</name>
+                  <Signature>Ljava/math/BigDecimal;</Signature>
+               </Variable>
+               <Variable idx="9">
+                  <name>supplier</name>
+                  <Signature>Lcom_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager/Entity;</Signature>
+               </Variable>
+               <Variable idx="10">
+                  <name>supplierGLN</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="11">
+                  <name>unitOfMeasureCode</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+            </InstanceVariables>
+            <StaticVariables>
+            </StaticVariables>
+         </Structure>
+      </Class>
+      <Class name="com_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager.ProcessSupplierCatalogPriceV2" abstract="N" interface="N">
+         <Dependencies>
+            <Extends>
+               <ClassName>com_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager.ValueObject</ClassName>
+            </Extends>
+            <Implements>
+            </Implements>
+         </Dependencies>
+         <Structure>
+            <Constructors>
+               <Constructor idx="1">
+                  <Signature>()V</Signature>
+                  <Parameters>
+                  </Parameters>
+                  <Throws>
+                  </Throws>
+               </Constructor>
+            </Constructors>
+            <InstanceMethods>
+            </InstanceMethods>
+            <StaticMethods>
+            </StaticMethods>
+            <InstanceVariables>
+               <Variable idx="1">
+                  <name>businessUnit</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="2">
+                  <name>catalogName</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="3">
+                  <name>currencyCode</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="4">
+                  <name>dateEffectiveEnd</name>
+                  <Signature>Ljava/util/Date;</Signature>
+               </Variable>
+               <Variable idx="5">
+                  <name>dateEffectiveStart</name>
+                  <Signature>Ljava/util/Date;</Signature>
+               </Variable>
+               <Variable idx="6">
+                  <name>item</name>
+                  <Signature>Lcom_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager/ItemGroupSupplier;</Signature>
+               </Variable>
+               <Variable idx="7">
+                  <name>priceUnit</name>
+                  <Signature>Ljava/math/BigDecimal;</Signature>
+               </Variable>
+               <Variable idx="8">
+                  <name>processing</name>
+                  <Signature>Lcom_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager/SupplierCatalogPriceProcessing;</Signature>
+               </Variable>
+               <Variable idx="9">
+                  <name>quantityActual</name>
+                  <Signature>Ljava/math/BigDecimal;</Signature>
+               </Variable>
+               <Variable idx="10">
+                  <name>supplier</name>
+                  <Signature>Lcom_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager/Entity;</Signature>
+               </Variable>
+               <Variable idx="11">
+                  <name>supplierGLN</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="12">
+                  <name>unitOfMeasureCode</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+            </InstanceVariables>
+            <StaticVariables>
+            </StaticVariables>
+         </Structure>
+      </Class>
+      <Class name="com_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager.ShowItemAvailability" abstract="N" interface="N">
+         <Dependencies>
+            <Extends>
+               <ClassName>com_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager.MessageValueObject</ClassName>
+            </Extends>
+            <Implements>
+            </Implements>
+         </Dependencies>
+         <Structure>
+            <Constructors>
+               <Constructor idx="1">
+                  <Signature>()V</Signature>
+                  <Parameters>
+                  </Parameters>
+                  <Throws>
+                  </Throws>
+               </Constructor>
+            </Constructors>
+            <InstanceMethods>
+            </InstanceMethods>
+            <StaticMethods>
+            </StaticMethods>
+            <InstanceVariables>
+               <Variable idx="1">
+                  <name>businessUnit</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="2">
+                  <name>item</name>
+                  <Signature>Lcom_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager/ItemResponseCustomer;</Signature>
+               </Variable>
+               <Variable idx="3">
+                  <name>quantityAvailable</name>
+                  <Signature>Ljava/math/BigDecimal;</Signature>
+               </Variable>
+               <Variable idx="4">
+                  <name>transactionUnitOfMeasure</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+            </InstanceVariables>
+            <StaticVariables>
+            </StaticVariables>
+         </Structure>
+      </Class>
+      <Class name="com_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager.GetItemAvailability" abstract="N" interface="N">
+         <Dependencies>
+            <Extends>
+               <ClassName>com_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager.ValueObject</ClassName>
+            </Extends>
+            <Implements>
+            </Implements>
+         </Dependencies>
+         <Structure>
+            <Constructors>
+               <Constructor idx="1">
+                  <Signature>()V</Signature>
+                  <Parameters>
+                  </Parameters>
+                  <Throws>
+                  </Throws>
+               </Constructor>
+            </Constructors>
+            <InstanceMethods>
+            </InstanceMethods>
+            <StaticMethods>
+            </StaticMethods>
+            <InstanceVariables>
+               <Variable idx="1">
+                  <name>businessUnit</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="2">
+                  <name>item</name>
+                  <Signature>Lcom_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager/ItemGroupCustomer;</Signature>
+               </Variable>
+               <Variable idx="3">
+                  <name>transactionUnitOfMeasure</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+            </InstanceVariables>
+            <StaticVariables>
+            </StaticVariables>
+         </Structure>
+      </Class>
+      <Class name="com_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager.ShowBranchPlantItem" abstract="N" interface="N">
+         <Dependencies>
+            <Extends>
+               <ClassName>com_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager.MessageValueObject</ClassName>
+            </Extends>
+            <Implements>
+            </Implements>
+         </Dependencies>
+         <Structure>
+            <Constructors>
+               <Constructor idx="1">
+                  <Signature>()V</Signature>
+                  <Parameters>
+                  </Parameters>
+                  <Throws>
+                  </Throws>
+               </Constructor>
+            </Constructors>
+            <InstanceMethods>
+            </InstanceMethods>
+            <StaticMethods>
+            </StaticMethods>
+            <InstanceVariables>
+               <Variable idx="1">
+                  <name>branchPlant</name>
+                  <Signature>[Lcom_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager/BranchPlant;</Signature>
+               </Variable>
+            </InstanceVariables>
+            <StaticVariables>
+            </StaticVariables>
+         </Structure>
+      </Class>
+      <Class name="com_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager.GetBranchPlantItem" abstract="N" interface="N">
+         <Dependencies>
+            <Extends>
+               <ClassName>com_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager.ValueObject</ClassName>
+            </Extends>
+            <Implements>
+            </Implements>
+         </Dependencies>
+         <Structure>
+            <Constructors>
+               <Constructor idx="1">
+                  <Signature>()V</Signature>
+                  <Parameters>
+                  </Parameters>
+                  <Throws>
+                  </Throws>
+               </Constructor>
+            </Constructors>
+            <InstanceMethods>
+            </InstanceMethods>
+            <StaticMethods>
+            </StaticMethods>
+            <InstanceVariables>
+               <Variable idx="1">
+                  <name>branchPlant</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="2">
+                  <name>buyer</name>
+                  <Signature>Lcom_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager/Entity;</Signature>
+               </Variable>
+               <Variable idx="3">
+                  <name>description1</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="4">
+                  <name>description2</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="5">
+                  <name>item</name>
+                  <Signature>Lcom_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager/Item;</Signature>
+               </Variable>
+               <Variable idx="6">
+                  <name>lineTypeCode</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="7">
+                  <name>planner</name>
+                  <Signature>Lcom_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager/Entity;</Signature>
+               </Variable>
+               <Variable idx="8">
+                  <name>purchasingCategoryCodes</name>
+                  <Signature>Lcom_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager/PurchasingCategoryCodes;</Signature>
+               </Variable>
+               <Variable idx="9">
+                  <name>salesCategoryCodes</name>
+                  <Signature>Lcom_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager/SalesCategoryCodes;</Signature>
+               </Variable>
+               <Variable idx="10">
+                  <name>stockingTypeCode</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="11">
+                  <name>supplier</name>
+                  <Signature>Lcom_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager/Entity;</Signature>
+               </Variable>
+            </InstanceVariables>
+            <StaticVariables>
+            </StaticVariables>
+         </Structure>
+      </Class>
+      <Class name="com_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager.ShowBranchPlantItemV2" abstract="N" interface="N">
+         <Dependencies>
+            <Extends>
+               <ClassName>com_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager.MessageValueObject</ClassName>
+            </Extends>
+            <Implements>
+            </Implements>
+         </Dependencies>
+         <Structure>
+            <Constructors>
+               <Constructor idx="1">
+                  <Signature>()V</Signature>
+                  <Parameters>
+                  </Parameters>
+                  <Throws>
+                  </Throws>
+               </Constructor>
+            </Constructors>
+            <InstanceMethods>
+            </InstanceMethods>
+            <StaticMethods>
+            </StaticMethods>
+            <InstanceVariables>
+               <Variable idx="1">
+                  <name>branchPlant</name>
+                  <Signature>[Lcom_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager/BranchPlantV2;</Signature>
+               </Variable>
+            </InstanceVariables>
+            <StaticVariables>
+            </StaticVariables>
+         </Structure>
+      </Class>
+      <Class name="com_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager.ConfirmInventoryItem" abstract="N" interface="N">
+         <Dependencies>
+            <Extends>
+               <ClassName>com_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager.MessageValueObject</ClassName>
+            </Extends>
+            <Implements>
+            </Implements>
+         </Dependencies>
+         <Structure>
+            <Constructors>
+               <Constructor idx="1">
+                  <Signature>()V</Signature>
+                  <Parameters>
+                  </Parameters>
+                  <Throws>
+                  </Throws>
+               </Constructor>
+            </Constructors>
+            <InstanceMethods>
+            </InstanceMethods>
+            <StaticMethods>
+            </StaticMethods>
+            <InstanceVariables>
+               <Variable idx="1">
+                  <name>abcCode1SalesInv</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="2">
+                  <name>abcCode2MarginInv</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="3">
+                  <name>abcCode3InvestInv</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="4">
+                  <name>abcCodeOverrideIndica</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="5">
+                  <name>addressNumberPlanner</name>
+                  <Signature>Ljava/lang/Integer;</Signature>
+               </Variable>
+               <Variable idx="6">
+                  <name>allocateByLot</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="7">
+                  <name>backordersAllowedYN</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="8">
+                  <name>bulkPackedFlag</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="9">
+                  <name>buyer</name>
+                  <Signature>Ljava/lang/Integer;</Signature>
+               </Variable>
+               <Variable idx="10">
+                  <name>checkAvailabilityYN</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="11">
+                  <name>commissionCategory</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="12">
+                  <name>commitmentSpecificDays</name>
+                  <Signature>Ljava/lang/Integer;</Signature>
+               </Variable>
+               <Variable idx="13">
+                  <name>commodityCode</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="14">
+                  <name>componentType</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="15">
+                  <name>contractItem</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="16">
+                  <name>coproductsByproducts</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="17">
+                  <name>costLevel</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="18">
+                  <name>crossDockFlagYN</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="19">
+                  <name>deferDamperDays</name>
+                  <Signature>Ljava/lang/Integer;</Signature>
+               </Variable>
+               <Variable idx="20">
+                  <name>descriptionLine1</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="21">
+                  <name>descriptionLine2</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="22">
+                  <name>dispatchGroup</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="23">
+                  <name>dualPickingProcessOption</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="24">
+                  <name>dualTolerance</name>
+                  <Signature>Ljava/math/BigDecimal;</Signature>
+               </Variable>
+               <Variable idx="25">
+                  <name>dualUnitOfMeasureItem</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="26">
+                  <name>expediteDamperDays</name>
+                  <Signature>Ljava/lang/Integer;</Signature>
+               </Variable>
+               <Variable idx="27">
+                  <name>fifoProcessing</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="28">
+                  <name>glCategory</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="29">
+                  <name>item</name>
+                  <Signature>Lcom_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager/ItemResponseSupplier;</Signature>
+               </Variable>
+               <Variable idx="30">
+                  <name>itemDimensions</name>
+                  <Signature>Lcom_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager/OutputItemDimensions;</Signature>
+               </Variable>
+               <Variable idx="31">
+                  <name>itemFlashMessage</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="32">
+                  <name>layerCodeSource</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="33">
+                  <name>levelPurchasingPrice</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="34">
+                  <name>lineType</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="35">
+                  <name>lotAuditFlag</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="36">
+                  <name>lotStatusCode</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="37">
+                  <name>lowLevelCode</name>
+                  <Signature>Ljava/lang/Integer;</Signature>
+               </Variable>
+               <Variable idx="38">
+                  <name>makeBuyCode</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="39">
+                  <name>marginMaintenancePer</name>
+                  <Signature>Ljava/math/BigDecimal;</Signature>
+               </Variable>
+               <Variable idx="40">
+                  <name>orderRepriceCategory</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="41">
+                  <name>orderWithYN</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="42">
+                  <name>percentMargin</name>
+                  <Signature>Ljava/math/BigDecimal;</Signature>
+               </Variable>
+               <Variable idx="43">
+                  <name>priceLevel</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="44">
+                  <name>pricingCategory</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="45">
+                  <name>printMessage1</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="46">
+                  <name>productGroupFrom</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="47">
+                  <name>purchasingEffectiveDays</name>
+                  <Signature>Ljava/lang/Integer;</Signature>
+               </Variable>
+               <Variable idx="48">
+                  <name>repriceBasketPriceCat</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="49">
+                  <name>safetyLeadtime</name>
+                  <Signature>Ljava/lang/Integer;</Signature>
+               </Variable>
+               <Variable idx="50">
+                  <name>searchText</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="51">
+                  <name>searchTextCompressed</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="52">
+                  <name>segment1</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="53">
+                  <name>segment10</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="54">
+                  <name>segment2</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="55">
+                  <name>segment3</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="56">
+                  <name>segment4</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="57">
+                  <name>segment5</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="58">
+                  <name>segment6</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="59">
+                  <name>segment7</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="60">
+                  <name>segment8</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="61">
+                  <name>segment9</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="62">
+                  <name>sellByDefaultDays</name>
+                  <Signature>Ljava/lang/Integer;</Signature>
+               </Variable>
+               <Variable idx="63">
+                  <name>serialNumberRequired</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="64">
+                  <name>shelfLifeDays</name>
+                  <Signature>Ljava/lang/Integer;</Signature>
+               </Variable>
+               <Variable idx="65">
+                  <name>stockingType</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="66">
+                  <name>typeWarranty</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="67">
+                  <name>unitofMeasureVolumeorWeI</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="68">
+                  <name>userLotDate1DefaultDays</name>
+                  <Signature>Ljava/lang/Integer;</Signature>
+               </Variable>
+               <Variable idx="69">
+                  <name>userLotDate2DefaultDays</name>
+                  <Signature>Ljava/lang/Integer;</Signature>
+               </Variable>
+               <Variable idx="70">
+                  <name>userLotDate3DefaultDays</name>
+                  <Signature>Ljava/lang/Integer;</Signature>
+               </Variable>
+               <Variable idx="71">
+                  <name>userLotDate4DefaultDays</name>
+                  <Signature>Ljava/lang/Integer;</Signature>
+               </Variable>
+               <Variable idx="72">
+                  <name>userLotDate5DefaultDays</name>
+                  <Signature>Ljava/lang/Integer;</Signature>
+               </Variable>
+               <Variable idx="73">
+                  <name>userReservedAmount</name>
+                  <Signature>Ljava/math/BigDecimal;</Signature>
+               </Variable>
+               <Variable idx="74">
+                  <name>userReservedCode</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="75">
+                  <name>userReservedDate</name>
+                  <Signature>Ljava/util/Date;</Signature>
+               </Variable>
+               <Variable idx="76">
+                  <name>userReservedNumber</name>
+                  <Signature>Ljava/lang/Integer;</Signature>
+               </Variable>
+               <Variable idx="77">
+                  <name>userReservedReference</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="78">
+                  <name>vendorManagedInventory</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+            </InstanceVariables>
+            <StaticVariables>
+            </StaticVariables>
+         </Structure>
+      </Class>
+      <Class name="com_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager.ProcessInventoryItem" abstract="N" interface="N">
+         <Dependencies>
+            <Extends>
+               <ClassName>com_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager.ValueObject</ClassName>
+            </Extends>
+            <Implements>
+            </Implements>
+         </Dependencies>
+         <Structure>
+            <Constructors>
+               <Constructor idx="1">
+                  <Signature>()V</Signature>
+                  <Parameters>
+                  </Parameters>
+                  <Throws>
+                  </Throws>
+               </Constructor>
+            </Constructors>
+            <InstanceMethods>
+            </InstanceMethods>
+            <StaticMethods>
+            </StaticMethods>
+            <InstanceVariables>
+               <Variable idx="1">
+                  <name>daysShelfLife</name>
+                  <Signature>Ljava/lang/Integer;</Signature>
+               </Variable>
+               <Variable idx="2">
+                  <name>description1</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="3">
+                  <name>description2</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="4">
+                  <name>glClassCode</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="5">
+                  <name>item</name>
+                  <Signature>Lcom_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager/ItemGroupSupplier;</Signature>
+               </Variable>
+               <Variable idx="6">
+                  <name>itemDimensions</name>
+                  <Signature>Lcom_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager/InputItemDimensions;</Signature>
+               </Variable>
+               <Variable idx="7">
+                  <name>lineTypeCode</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="8">
+                  <name>lotProcessCode</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="9">
+                  <name>lotStatusCode</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="10">
+                  <name>processing</name>
+                  <Signature>Lcom_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager/InventoryItemProcessing;</Signature>
+               </Variable>
+               <Variable idx="11">
+                  <name>serialNumberFlag</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="12">
+                  <name>stockingTypeCode</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+            </InstanceVariables>
+            <StaticVariables>
+            </StaticVariables>
+         </Structure>
+      </Class>
+      <Class name="com_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager.ConfirmInventoryItemV2" abstract="N" interface="N">
+         <Dependencies>
+            <Extends>
+               <ClassName>com_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager.MessageValueObject</ClassName>
+            </Extends>
+            <Implements>
+            </Implements>
+         </Dependencies>
+         <Structure>
+            <Constructors>
+               <Constructor idx="1">
+                  <Signature>()V</Signature>
+                  <Parameters>
+                  </Parameters>
+                  <Throws>
+                  </Throws>
+               </Constructor>
+            </Constructors>
+            <InstanceMethods>
+            </InstanceMethods>
+            <StaticMethods>
+            </StaticMethods>
+            <InstanceVariables>
+               <Variable idx="1">
+                  <name>abcCode1SalesInv</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="2">
+                  <name>abcCode2MarginInv</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="3">
+                  <name>abcCode3InvestInv</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="4">
+                  <name>abcCodeOverrideIndica</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="5">
+                  <name>addressNumberPlanner</name>
+                  <Signature>Ljava/lang/Integer;</Signature>
+               </Variable>
+               <Variable idx="6">
+                  <name>allocateByLot</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="7">
+                  <name>backordersAllowedYN</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="8">
+                  <name>bulkPackedFlag</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="9">
+                  <name>buyer</name>
+                  <Signature>Ljava/lang/Integer;</Signature>
+               </Variable>
+               <Variable idx="10">
+                  <name>checkAvailabilityYN</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="11">
+                  <name>commissionCategory</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="12">
+                  <name>commitmentSpecificDays</name>
+                  <Signature>Ljava/lang/Integer;</Signature>
+               </Variable>
+               <Variable idx="13">
+                  <name>commodityCode</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="14">
+                  <name>componentType</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="15">
+                  <name>contractItem</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="16">
+                  <name>coproductsByproducts</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="17">
+                  <name>costLevel</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="18">
+                  <name>crossDockFlagYN</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="19">
+                  <name>deferDamperDays</name>
+                  <Signature>Ljava/lang/Integer;</Signature>
+               </Variable>
+               <Variable idx="20">
+                  <name>descriptionLine1</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="21">
+                  <name>descriptionLine2</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="22">
+                  <name>dispatchGroup</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="23">
+                  <name>dualPickingProcessOption</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="24">
+                  <name>dualTolerance</name>
+                  <Signature>Ljava/math/BigDecimal;</Signature>
+               </Variable>
+               <Variable idx="25">
+                  <name>dualUnitOfMeasureItem</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="26">
+                  <name>expediteDamperDays</name>
+                  <Signature>Ljava/lang/Integer;</Signature>
+               </Variable>
+               <Variable idx="27">
+                  <name>fifoProcessing</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="28">
+                  <name>glCategory</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="29">
+                  <name>isCountryOfOriginRequired</name>
+                  <Signature>Ljava/lang/Boolean;</Signature>
+               </Variable>
+               <Variable idx="30">
+                  <name>item</name>
+                  <Signature>Lcom_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager/ItemResponseSupplier;</Signature>
+               </Variable>
+               <Variable idx="31">
+                  <name>itemDimensions</name>
+                  <Signature>Lcom_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager/OutputItemDimensions;</Signature>
+               </Variable>
+               <Variable idx="32">
+                  <name>itemFlashMessage</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="33">
+                  <name>layerCodeSource</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="34">
+                  <name>levelPurchasingPrice</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="35">
+                  <name>lineType</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="36">
+                  <name>lotAuditFlag</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="37">
+                  <name>lotStatusCode</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="38">
+                  <name>lowLevelCode</name>
+                  <Signature>Ljava/lang/Integer;</Signature>
+               </Variable>
+               <Variable idx="39">
+                  <name>makeBuyCode</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="40">
+                  <name>marginMaintenancePer</name>
+                  <Signature>Ljava/math/BigDecimal;</Signature>
+               </Variable>
+               <Variable idx="41">
+                  <name>orderRepriceCategory</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="42">
+                  <name>orderWithYN</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="43">
+                  <name>percentMargin</name>
+                  <Signature>Ljava/math/BigDecimal;</Signature>
+               </Variable>
+               <Variable idx="44">
+                  <name>priceLevel</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="45">
+                  <name>pricingCategory</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="46">
+                  <name>printMessage1</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="47">
+                  <name>productGroupFrom</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="48">
+                  <name>purchasingEffectiveDays</name>
+                  <Signature>Ljava/lang/Integer;</Signature>
+               </Variable>
+               <Variable idx="49">
+                  <name>repriceBasketPriceCat</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="50">
+                  <name>safetyLeadtime</name>
+                  <Signature>Ljava/lang/Integer;</Signature>
+               </Variable>
+               <Variable idx="51">
+                  <name>searchText</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="52">
+                  <name>searchTextCompressed</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="53">
+                  <name>segment1</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="54">
+                  <name>segment10</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="55">
+                  <name>segment2</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="56">
+                  <name>segment3</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="57">
+                  <name>segment4</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="58">
+                  <name>segment5</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="59">
+                  <name>segment6</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="60">
+                  <name>segment7</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="61">
+                  <name>segment8</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="62">
+                  <name>segment9</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="63">
+                  <name>sellByDefaultDays</name>
+                  <Signature>Ljava/lang/Integer;</Signature>
+               </Variable>
+               <Variable idx="64">
+                  <name>serialNumberRequired</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="65">
+                  <name>shelfLifeDays</name>
+                  <Signature>Ljava/lang/Integer;</Signature>
+               </Variable>
+               <Variable idx="66">
+                  <name>stockingType</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="67">
+                  <name>typeWarranty</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="68">
+                  <name>unitofMeasureVolumeorWeI</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="69">
+                  <name>userLotDate1DefaultDays</name>
+                  <Signature>Ljava/lang/Integer;</Signature>
+               </Variable>
+               <Variable idx="70">
+                  <name>userLotDate2DefaultDays</name>
+                  <Signature>Ljava/lang/Integer;</Signature>
+               </Variable>
+               <Variable idx="71">
+                  <name>userLotDate3DefaultDays</name>
+                  <Signature>Ljava/lang/Integer;</Signature>
+               </Variable>
+               <Variable idx="72">
+                  <name>userLotDate4DefaultDays</name>
+                  <Signature>Ljava/lang/Integer;</Signature>
+               </Variable>
+               <Variable idx="73">
+                  <name>userLotDate5DefaultDays</name>
+                  <Signature>Ljava/lang/Integer;</Signature>
+               </Variable>
+               <Variable idx="74">
+                  <name>userReservedAmount</name>
+                  <Signature>Ljava/math/BigDecimal;</Signature>
+               </Variable>
+               <Variable idx="75">
+                  <name>userReservedCode</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="76">
+                  <name>userReservedDate</name>
+                  <Signature>Ljava/util/Date;</Signature>
+               </Variable>
+               <Variable idx="77">
+                  <name>userReservedNumber</name>
+                  <Signature>Ljava/lang/Integer;</Signature>
+               </Variable>
+               <Variable idx="78">
+                  <name>userReservedReference</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="79">
+                  <name>vendorManagedInventory</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+            </InstanceVariables>
+            <StaticVariables>
+            </StaticVariables>
+         </Structure>
+      </Class>
+      <Class name="com_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager.ProcessInventoryItemV2" abstract="N" interface="N">
+         <Dependencies>
+            <Extends>
+               <ClassName>com_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager.ValueObject</ClassName>
+            </Extends>
+            <Implements>
+            </Implements>
+         </Dependencies>
+         <Structure>
+            <Constructors>
+               <Constructor idx="1">
+                  <Signature>()V</Signature>
+                  <Parameters>
+                  </Parameters>
+                  <Throws>
+                  </Throws>
+               </Constructor>
+            </Constructors>
+            <InstanceMethods>
+            </InstanceMethods>
+            <StaticMethods>
+            </StaticMethods>
+            <InstanceVariables>
+               <Variable idx="1">
+                  <name>daysShelfLife</name>
+                  <Signature>Ljava/lang/Integer;</Signature>
+               </Variable>
+               <Variable idx="2">
+                  <name>description1</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="3">
+                  <name>description2</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="4">
+                  <name>glClassCode</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="5">
+                  <name>isCountryOfOriginRequired</name>
+                  <Signature>Ljava/lang/Boolean;</Signature>
+               </Variable>
+               <Variable idx="6">
+                  <name>item</name>
+                  <Signature>Lcom_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager/ItemGroupSupplier;</Signature>
+               </Variable>
+               <Variable idx="7">
+                  <name>itemDimensions</name>
+                  <Signature>Lcom_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager/InputItemDimensions;</Signature>
+               </Variable>
+               <Variable idx="8">
+                  <name>lineTypeCode</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="9">
+                  <name>lotProcessCode</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="10">
+                  <name>lotStatusCode</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="11">
+                  <name>processing</name>
+                  <Signature>Lcom_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager/InventoryItemProcessing;</Signature>
+               </Variable>
+               <Variable idx="12">
+                  <name>serialNumberFlag</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="13">
+                  <name>stockingTypeCode</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+            </InstanceVariables>
+            <StaticVariables>
+            </StaticVariables>
+         </Structure>
+      </Class>
+      <Class name="com_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager.ShowSupplierCatalogPrice" abstract="N" interface="N">
+         <Dependencies>
+            <Extends>
+               <ClassName>com_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager.MessageValueObject</ClassName>
+            </Extends>
+            <Implements>
+            </Implements>
+         </Dependencies>
+         <Structure>
+            <Constructors>
+               <Constructor idx="1">
+                  <Signature>()V</Signature>
+                  <Parameters>
+                  </Parameters>
+                  <Throws>
+                  </Throws>
+               </Constructor>
+            </Constructors>
+            <InstanceMethods>
+            </InstanceMethods>
+            <StaticMethods>
+            </StaticMethods>
+            <InstanceVariables>
+               <Variable idx="1">
+                  <name>supplierCatalogPrice</name>
+                  <Signature>[Lcom_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager/SupplierCatalogPrice;</Signature>
+               </Variable>
+            </InstanceVariables>
+            <StaticVariables>
+            </StaticVariables>
+         </Structure>
+      </Class>
+      <Class name="com_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager.GetSupplierCatalogPrice" abstract="N" interface="N">
+         <Dependencies>
+            <Extends>
+               <ClassName>com_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager.ValueObject</ClassName>
+            </Extends>
+            <Implements>
+            </Implements>
+         </Dependencies>
+         <Structure>
+            <Constructors>
+               <Constructor idx="1">
+                  <Signature>()V</Signature>
+                  <Parameters>
+                  </Parameters>
+                  <Throws>
+                  </Throws>
+               </Constructor>
+            </Constructors>
+            <InstanceMethods>
+            </InstanceMethods>
+            <StaticMethods>
+            </StaticMethods>
+            <InstanceVariables>
+               <Variable idx="1">
+                  <name>agreementId</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="2">
+                  <name>agreementSupplement</name>
+                  <Signature>Ljava/lang/Integer;</Signature>
+               </Variable>
+               <Variable idx="3">
+                  <name>businessUnit</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="4">
+                  <name>catalogName</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="5">
+                  <name>currencyCode</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="6">
+                  <name>dateEffectiveEnd</name>
+                  <Signature>Ljava/util/Date;</Signature>
+               </Variable>
+               <Variable idx="7">
+                  <name>dateEffectiveStart</name>
+                  <Signature>Ljava/util/Date;</Signature>
+               </Variable>
+               <Variable idx="8">
+                  <name>documentCompany</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="9">
+                  <name>documentLineNumber</name>
+                  <Signature>Ljava/math/BigDecimal;</Signature>
+               </Variable>
+               <Variable idx="10">
+                  <name>documentNumber</name>
+                  <Signature>Ljava/lang/Integer;</Signature>
+               </Variable>
+               <Variable idx="11">
+                  <name>documentType</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="12">
+                  <name>item</name>
+                  <Signature>Lcom_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager/ItemGroupSupplier;</Signature>
+               </Variable>
+               <Variable idx="13">
+                  <name>priceUnit</name>
+                  <Signature>Ljava/math/BigDecimal;</Signature>
+               </Variable>
+               <Variable idx="14">
+                  <name>quantityActual</name>
+                  <Signature>Ljava/math/BigDecimal;</Signature>
+               </Variable>
+               <Variable idx="15">
+                  <name>supplier</name>
+                  <Signature>Lcom_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager/Entity;</Signature>
+               </Variable>
+               <Variable idx="16">
+                  <name>unitOfMeasureCode</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+            </InstanceVariables>
+            <StaticVariables>
+            </StaticVariables>
+         </Structure>
+      </Class>
+      <Class name="com_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager.ConfirmInventoryItemStaging" abstract="N" interface="N">
+         <Dependencies>
+            <Extends>
+               <ClassName>com_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager.MessageValueObject</ClassName>
+            </Extends>
+            <Implements>
+            </Implements>
+         </Dependencies>
+         <Structure>
+            <Constructors>
+               <Constructor idx="1">
+                  <Signature>()V</Signature>
+                  <Parameters>
+                  </Parameters>
+                  <Throws>
+                  </Throws>
+               </Constructor>
+            </Constructors>
+            <InstanceMethods>
+            </InstanceMethods>
+            <StaticMethods>
+            </StaticMethods>
+            <InstanceVariables>
+               <Variable idx="1">
+                  <name>numRowsInserted</name>
+                  <Signature>J</Signature>
+               </Variable>
+            </InstanceVariables>
+            <StaticVariables>
+            </StaticVariables>
+         </Structure>
+      </Class>
+      <Class name="[Lcom_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager.InsertInventoryItemStagingFields;" abstract="Y" interface="N">
+         <Dependencies>
+            <Extends>
+               <ClassName>java.lang.Object</ClassName>
+            </Extends>
+            <Implements>
+               <ClassName>java.lang.Cloneable</ClassName>
+               <ClassName>java.io.Serializable</ClassName>
+            </Implements>
+         </Dependencies>
+         <Structure>
+            <Constructors>
+            </Constructors>
+            <InstanceMethods>
+            </InstanceMethods>
+            <StaticMethods>
+            </StaticMethods>
+            <InstanceVariables>
+            </InstanceVariables>
+            <StaticVariables>
+            </StaticVariables>
+         </Structure>
+      </Class>
+      <Class name="com_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager.ShowCalculatedAvailability" abstract="N" interface="N">
+         <Dependencies>
+            <Extends>
+               <ClassName>com_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager.MessageValueObject</ClassName>
+            </Extends>
+            <Implements>
+            </Implements>
+         </Dependencies>
+         <Structure>
+            <Constructors>
+               <Constructor idx="1">
+                  <Signature>()V</Signature>
+                  <Parameters>
+                  </Parameters>
+                  <Throws>
+                  </Throws>
+               </Constructor>
+            </Constructors>
+            <InstanceMethods>
+            </InstanceMethods>
+            <StaticMethods>
+            </StaticMethods>
+            <InstanceVariables>
+               <Variable idx="1">
+                  <name>item</name>
+                  <Signature>Lcom_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager/ItemGroupCustomer;</Signature>
+               </Variable>
+               <Variable idx="2">
+                  <name>showCalculatedAvailability</name>
+                  <Signature>[Lcom_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager/AvailabilitySummary;</Signature>
+               </Variable>
+               <Variable idx="3">
+                  <name>totalQtyAvailable</name>
+                  <Signature>Ljava/math/BigDecimal;</Signature>
+               </Variable>
+               <Variable idx="4">
+                  <name>unitOfMeasure</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+            </InstanceVariables>
+            <StaticVariables>
+            </StaticVariables>
+         </Structure>
+      </Class>
+      <Class name="com_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager.GetCalculatedAvailability" abstract="N" interface="N">
+         <Dependencies>
+            <Extends>
+               <ClassName>com_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager.ValueObject</ClassName>
+            </Extends>
+            <Implements>
+            </Implements>
+         </Dependencies>
+         <Structure>
+            <Constructors>
+               <Constructor idx="1">
+                  <Signature>()V</Signature>
+                  <Parameters>
+                  </Parameters>
+                  <Throws>
+                  </Throws>
+               </Constructor>
+            </Constructors>
+            <InstanceMethods>
+            </InstanceMethods>
+            <StaticMethods>
+            </StaticMethods>
+            <InstanceVariables>
+               <Variable idx="1">
+                  <name>branchPlantList</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="2">
+                  <name>itemPrimary</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="3">
+                  <name>itemSecond</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="4">
+                  <name>itemShort</name>
+                  <Signature>Ljava/lang/Integer;</Signature>
+               </Variable>
+               <Variable idx="5">
+                  <name>itemThird</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="6">
+                  <name>omitZeroQty</name>
+                  <Signature>Z</Signature>
+               </Variable>
+               <Variable idx="7">
+                  <name>unitOfMeasure</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+            </InstanceVariables>
+            <StaticVariables>
+            </StaticVariables>
+         </Structure>
+      </Class>
+      <Class name="com_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager.ShowSupplierCatalogPriceV2" abstract="N" interface="N">
+         <Dependencies>
+            <Extends>
+               <ClassName>com_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager.MessageValueObject</ClassName>
+            </Extends>
+            <Implements>
+            </Implements>
+         </Dependencies>
+         <Structure>
+            <Constructors>
+               <Constructor idx="1">
+                  <Signature>()V</Signature>
+                  <Parameters>
+                  </Parameters>
+                  <Throws>
+                  </Throws>
+               </Constructor>
+            </Constructors>
+            <InstanceMethods>
+            </InstanceMethods>
+            <StaticMethods>
+            </StaticMethods>
+            <InstanceVariables>
+               <Variable idx="1">
+                  <name>supplierCatalogPrice</name>
+                  <Signature>[Lcom_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager/SupplierCatalogPriceV2;</Signature>
+               </Variable>
+            </InstanceVariables>
+            <StaticVariables>
+            </StaticVariables>
+         </Structure>
+      </Class>
+      <Class name="com_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager.GetSupplierCatalogPriceV2" abstract="N" interface="N">
+         <Dependencies>
+            <Extends>
+               <ClassName>com_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager.ValueObject</ClassName>
+            </Extends>
+            <Implements>
+            </Implements>
+         </Dependencies>
+         <Structure>
+            <Constructors>
+               <Constructor idx="1">
+                  <Signature>()V</Signature>
+                  <Parameters>
+                  </Parameters>
+                  <Throws>
+                  </Throws>
+               </Constructor>
+            </Constructors>
+            <InstanceMethods>
+            </InstanceMethods>
+            <StaticMethods>
+            </StaticMethods>
+            <InstanceVariables>
+               <Variable idx="1">
+                  <name>agreementId</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="2">
+                  <name>agreementSupplement</name>
+                  <Signature>Ljava/lang/Integer;</Signature>
+               </Variable>
+               <Variable idx="3">
+                  <name>businessUnit</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="4">
+                  <name>catalogName</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="5">
+                  <name>currencyCode</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="6">
+                  <name>dateEffectiveEnd</name>
+                  <Signature>Ljava/util/Date;</Signature>
+               </Variable>
+               <Variable idx="7">
+                  <name>dateEffectiveStart</name>
+                  <Signature>Ljava/util/Date;</Signature>
+               </Variable>
+               <Variable idx="8">
+                  <name>documentCompany</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="9">
+                  <name>documentLineNumber</name>
+                  <Signature>Ljava/math/BigDecimal;</Signature>
+               </Variable>
+               <Variable idx="10">
+                  <name>documentNumber</name>
+                  <Signature>Ljava/lang/Integer;</Signature>
+               </Variable>
+               <Variable idx="11">
+                  <name>documentType</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="12">
+                  <name>item</name>
+                  <Signature>Lcom_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager/ItemGroupSupplier;</Signature>
+               </Variable>
+               <Variable idx="13">
+                  <name>priceUnit</name>
+                  <Signature>Ljava/math/BigDecimal;</Signature>
+               </Variable>
+               <Variable idx="14">
+                  <name>quantityActual</name>
+                  <Signature>Ljava/math/BigDecimal;</Signature>
+               </Variable>
+               <Variable idx="15">
+                  <name>supplier</name>
+                  <Signature>Lcom_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager/Entity;</Signature>
+               </Variable>
+               <Variable idx="16">
+                  <name>supplierGLN</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="17">
+                  <name>unitOfMeasureCode</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+            </InstanceVariables>
+            <StaticVariables>
+            </StaticVariables>
+         </Structure>
+      </Class>
+      <Class name="com_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager.ShowItemPrice" abstract="N" interface="N">
+         <Dependencies>
+            <Extends>
+               <ClassName>com_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager.MessageValueObject</ClassName>
+            </Extends>
+            <Implements>
+            </Implements>
+         </Dependencies>
+         <Structure>
+            <Constructors>
+               <Constructor idx="1">
+                  <Signature>()V</Signature>
+                  <Parameters>
+                  </Parameters>
+                  <Throws>
+                  </Throws>
+               </Constructor>
+            </Constructors>
+            <InstanceMethods>
+            </InstanceMethods>
+            <StaticMethods>
+            </StaticMethods>
+            <InstanceVariables>
+               <Variable idx="1">
+                  <name>detailedPriceInfo</name>
+                  <Signature>[Lcom_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager/ItemPrice;</Signature>
+               </Variable>
+               <Variable idx="2">
+                  <name>item</name>
+                  <Signature>Lcom_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager/ItemGroupCustomer;</Signature>
+               </Variable>
+               <Variable idx="3">
+                  <name>itemDesc</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+            </InstanceVariables>
+            <StaticVariables>
+            </StaticVariables>
+         </Structure>
+      </Class>
+      <Class name="com_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager.GetItemPrice" abstract="N" interface="N">
+         <Dependencies>
+            <Extends>
+               <ClassName>com_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager.ValueObject</ClassName>
+            </Extends>
+            <Implements>
+            </Implements>
+         </Dependencies>
+         <Structure>
+            <Constructors>
+               <Constructor idx="1">
+                  <Signature>()V</Signature>
+                  <Parameters>
+                  </Parameters>
+                  <Throws>
+                  </Throws>
+               </Constructor>
+            </Constructors>
+            <InstanceMethods>
+            </InstanceMethods>
+            <StaticMethods>
+            </StaticMethods>
+            <InstanceVariables>
+               <Variable idx="1">
+                  <name>branchPlantList</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="2">
+                  <name>item</name>
+                  <Signature>Lcom_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager/ItemGroupCustomer;</Signature>
+               </Variable>
+            </InstanceVariables>
+            <StaticVariables>
+            </StaticVariables>
+         </Structure>
+      </Class>
+      <Class name="[Lcom_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager.InsertInventoryItemStagingFieldsV2;" abstract="Y" interface="N">
+         <Dependencies>
+            <Extends>
+               <ClassName>java.lang.Object</ClassName>
+            </Extends>
+            <Implements>
+               <ClassName>java.lang.Cloneable</ClassName>
+               <ClassName>java.io.Serializable</ClassName>
+            </Implements>
+         </Dependencies>
+         <Structure>
+            <Constructors>
+            </Constructors>
+            <InstanceMethods>
+            </InstanceMethods>
+            <StaticMethods>
+            </StaticMethods>
+            <InstanceVariables>
+            </InstanceVariables>
+            <StaticVariables>
+            </StaticVariables>
+         </Structure>
+      </Class>
+      <Class name="com_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager.ShowItemSearch" abstract="N" interface="N">
+         <Dependencies>
+            <Extends>
+               <ClassName>com_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager.MessageValueObject</ClassName>
+            </Extends>
+            <Implements>
+            </Implements>
+         </Dependencies>
+         <Structure>
+            <Constructors>
+               <Constructor idx="1">
+                  <Signature>()V</Signature>
+                  <Parameters>
+                  </Parameters>
+                  <Throws>
+                  </Throws>
+               </Constructor>
+            </Constructors>
+            <InstanceMethods>
+            </InstanceMethods>
+            <StaticMethods>
+            </StaticMethods>
+            <InstanceVariables>
+               <Variable idx="1">
+                  <name>itemSearchDetails</name>
+                  <Signature>[Lcom_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager/ItemSearch;</Signature>
+               </Variable>
+            </InstanceVariables>
+            <StaticVariables>
+            </StaticVariables>
+         </Structure>
+      </Class>
+      <Class name="com_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager.GetItemSearch" abstract="N" interface="N">
+         <Dependencies>
+            <Extends>
+               <ClassName>com_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager.ValueObject</ClassName>
+            </Extends>
+            <Implements>
+            </Implements>
+         </Dependencies>
+         <Structure>
+            <Constructors>
+               <Constructor idx="1">
+                  <Signature>()V</Signature>
+                  <Parameters>
+                  </Parameters>
+                  <Throws>
+                  </Throws>
+               </Constructor>
+            </Constructors>
+            <InstanceMethods>
+            </InstanceMethods>
+            <StaticMethods>
+            </StaticMethods>
+            <InstanceVariables>
+               <Variable idx="1">
+                  <name>itemCatalog</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="2">
+                  <name>itemDescription1</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="3">
+                  <name>itemDescription2</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="4">
+                  <name>itemId</name>
+                  <Signature>Lcom_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager/MathNumeric;</Signature>
+               </Variable>
+               <Variable idx="5">
+                  <name>itemProduct</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="6">
+                  <name>itemSearchText</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+            </InstanceVariables>
+            <StaticVariables>
+            </StaticVariables>
+         </Structure>
+      </Class>
+      <Class name="com_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager.ShowItemBranchSearch" abstract="N" interface="N">
+         <Dependencies>
+            <Extends>
+               <ClassName>com_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager.MessageValueObject</ClassName>
+            </Extends>
+            <Implements>
+            </Implements>
+         </Dependencies>
+         <Structure>
+            <Constructors>
+               <Constructor idx="1">
+                  <Signature>()V</Signature>
+                  <Parameters>
+                  </Parameters>
+                  <Throws>
+                  </Throws>
+               </Constructor>
+            </Constructors>
+            <InstanceMethods>
+            </InstanceMethods>
+            <StaticMethods>
+            </StaticMethods>
+            <InstanceVariables>
+               <Variable idx="1">
+                  <name>itemBranchSearch</name>
+                  <Signature>[Lcom_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager/ItemBranchSearch;</Signature>
+               </Variable>
+            </InstanceVariables>
+            <StaticVariables>
+            </StaticVariables>
+         </Structure>
+      </Class>
+      <Class name="com_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager.GetItemBranchSearch" abstract="N" interface="N">
+         <Dependencies>
+            <Extends>
+               <ClassName>com_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager.ValueObject</ClassName>
+            </Extends>
+            <Implements>
+            </Implements>
+         </Dependencies>
+         <Structure>
+            <Constructors>
+               <Constructor idx="1">
+                  <Signature>()V</Signature>
+                  <Parameters>
+                  </Parameters>
+                  <Throws>
+                  </Throws>
+               </Constructor>
+            </Constructors>
+            <InstanceMethods>
+            </InstanceMethods>
+            <StaticMethods>
+            </StaticMethods>
+            <InstanceVariables>
+               <Variable idx="1">
+                  <name>branchCompany</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="2">
+                  <name>branchPlant</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="3">
+                  <name>branchType</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="4">
+                  <name>description</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+            </InstanceVariables>
+            <StaticVariables>
+            </StaticVariables>
+         </Structure>
+      </Class>
+      <Class name="com_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager.MessageValueObject" abstract="N" interface="N">
+         <Dependencies>
+            <Extends>
+               <ClassName>com_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager.ValueObject</ClassName>
+            </Extends>
+            <Implements>
+            </Implements>
+         </Dependencies>
+         <Structure>
+            <Constructors>
+               <Constructor idx="1">
+                  <Signature>()V</Signature>
+                  <Parameters>
+                  </Parameters>
+                  <Throws>
+                  </Throws>
+               </Constructor>
+            </Constructors>
+            <InstanceMethods>
+            </InstanceMethods>
+            <StaticMethods>
+            </StaticMethods>
+            <InstanceVariables>
+               <Variable idx="1">
+                  <name>e1MessageList</name>
+                  <Signature>[Lcom_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager/E1Message;</Signature>
+               </Variable>
+            </InstanceVariables>
+            <StaticVariables>
+            </StaticVariables>
+         </Structure>
+      </Class>
+      <Class name="com_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager.ItemResponseSupplier" abstract="N" interface="N">
+         <Dependencies>
+            <Extends>
+               <ClassName>com_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager.ValueObject</ClassName>
+            </Extends>
+            <Implements>
+            </Implements>
+         </Dependencies>
+         <Structure>
+            <Constructors>
+               <Constructor idx="1">
+                  <Signature>()V</Signature>
+                  <Parameters>
+                  </Parameters>
+                  <Throws>
+                  </Throws>
+               </Constructor>
+            </Constructors>
+            <InstanceMethods>
+            </InstanceMethods>
+            <StaticMethods>
+            </StaticMethods>
+            <InstanceVariables>
+               <Variable idx="1">
+                  <name>itemCatalog</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="2">
+                  <name>itemId</name>
+                  <Signature>Ljava/lang/Integer;</Signature>
+               </Variable>
+               <Variable idx="3">
+                  <name>itemProduct</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="4">
+                  <name>itemSupplier</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+            </InstanceVariables>
+            <StaticVariables>
+            </StaticVariables>
+         </Structure>
+      </Class>
+      <Class name="com_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager.Entity" abstract="N" interface="N">
+         <Dependencies>
+            <Extends>
+               <ClassName>com_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager.ValueObject</ClassName>
+            </Extends>
+            <Implements>
+            </Implements>
+         </Dependencies>
+         <Structure>
+            <Constructors>
+               <Constructor idx="1">
+                  <Signature>()V</Signature>
+                  <Parameters>
+                  </Parameters>
+                  <Throws>
+                  </Throws>
+               </Constructor>
+            </Constructors>
+            <InstanceMethods>
+            </InstanceMethods>
+            <StaticMethods>
+            </StaticMethods>
+            <InstanceVariables>
+               <Variable idx="1">
+                  <name>entityId</name>
+                  <Signature>Ljava/lang/Integer;</Signature>
+               </Variable>
+               <Variable idx="2">
+                  <name>entityLongId</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="3">
+                  <name>entityTaxId</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+            </InstanceVariables>
+            <StaticVariables>
+            </StaticVariables>
+         </Structure>
+      </Class>
+      <Class name="com_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager.ValueObject" abstract="N" interface="N">
+         <Dependencies>
+            <Extends>
+               <ClassName>java.lang.Object</ClassName>
+            </Extends>
+            <Implements>
+            </Implements>
+         </Dependencies>
+         <Structure>
+            <Constructors>
+               <Constructor idx="1">
+                  <Signature>()V</Signature>
+                  <Parameters>
+                  </Parameters>
+                  <Throws>
+                  </Throws>
+               </Constructor>
+            </Constructors>
+            <InstanceMethods>
+            </InstanceMethods>
+            <StaticMethods>
+            </StaticMethods>
+            <InstanceVariables>
+            </InstanceVariables>
+            <StaticVariables>
+            </StaticVariables>
+         </Structure>
+      </Class>
+      <Class name="com_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager.ItemGroupSupplier" abstract="N" interface="N">
+         <Dependencies>
+            <Extends>
+               <ClassName>com_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager.ValueObject</ClassName>
+            </Extends>
+            <Implements>
+            </Implements>
+         </Dependencies>
+         <Structure>
+            <Constructors>
+               <Constructor idx="1">
+                  <Signature>()V</Signature>
+                  <Parameters>
+                  </Parameters>
+                  <Throws>
+                  </Throws>
+               </Constructor>
+            </Constructors>
+            <InstanceMethods>
+            </InstanceMethods>
+            <StaticMethods>
+            </StaticMethods>
+            <InstanceVariables>
+               <Variable idx="1">
+                  <name>itemCatalog</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="2">
+                  <name>itemFreeForm</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="3">
+                  <name>itemId</name>
+                  <Signature>Ljava/lang/Integer;</Signature>
+               </Variable>
+               <Variable idx="4">
+                  <name>itemProduct</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="5">
+                  <name>itemSupplier</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+            </InstanceVariables>
+            <StaticVariables>
+            </StaticVariables>
+         </Structure>
+      </Class>
+      <Class name="com_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager.SupplierCatalogPriceProcessing" abstract="N" interface="N">
+         <Dependencies>
+            <Extends>
+               <ClassName>com_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager.ValueObject</ClassName>
+            </Extends>
+            <Implements>
+            </Implements>
+         </Dependencies>
+         <Structure>
+            <Constructors>
+               <Constructor idx="1">
+                  <Signature>()V</Signature>
+                  <Parameters>
+                  </Parameters>
+                  <Throws>
+                  </Throws>
+               </Constructor>
+            </Constructors>
+            <InstanceMethods>
+            </InstanceMethods>
+            <StaticMethods>
+            </StaticMethods>
+            <InstanceVariables>
+               <Variable idx="1">
+                  <name>actionType</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+            </InstanceVariables>
+            <StaticVariables>
+            </StaticVariables>
+         </Structure>
+      </Class>
+      <Class name="com_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager.ItemResponseCustomer" abstract="N" interface="N">
+         <Dependencies>
+            <Extends>
+               <ClassName>com_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager.ValueObject</ClassName>
+            </Extends>
+            <Implements>
+            </Implements>
+         </Dependencies>
+         <Structure>
+            <Constructors>
+               <Constructor idx="1">
+                  <Signature>()V</Signature>
+                  <Parameters>
+                  </Parameters>
+                  <Throws>
+                  </Throws>
+               </Constructor>
+            </Constructors>
+            <InstanceMethods>
+            </InstanceMethods>
+            <StaticMethods>
+            </StaticMethods>
+            <InstanceVariables>
+               <Variable idx="1">
+                  <name>itemCatalog</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="2">
+                  <name>itemCustomer</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="3">
+                  <name>itemId</name>
+                  <Signature>Ljava/lang/Integer;</Signature>
+               </Variable>
+               <Variable idx="4">
+                  <name>itemProduct</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+            </InstanceVariables>
+            <StaticVariables>
+            </StaticVariables>
+         </Structure>
+      </Class>
+      <Class name="com_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager.ItemGroupCustomer" abstract="N" interface="N">
+         <Dependencies>
+            <Extends>
+               <ClassName>com_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager.ValueObject</ClassName>
+            </Extends>
+            <Implements>
+            </Implements>
+         </Dependencies>
+         <Structure>
+            <Constructors>
+               <Constructor idx="1">
+                  <Signature>()V</Signature>
+                  <Parameters>
+                  </Parameters>
+                  <Throws>
+                  </Throws>
+               </Constructor>
+            </Constructors>
+            <InstanceMethods>
+            </InstanceMethods>
+            <StaticMethods>
+            </StaticMethods>
+            <InstanceVariables>
+               <Variable idx="1">
+                  <name>itemCatalog</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="2">
+                  <name>itemCustomer</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="3">
+                  <name>itemDescription</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="4">
+                  <name>itemFreeForm</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="5">
+                  <name>itemId</name>
+                  <Signature>Ljava/lang/Integer;</Signature>
+               </Variable>
+               <Variable idx="6">
+                  <name>itemProduct</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="7">
+                  <name>itemUOMPrimary</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="8">
+                  <name>itemUOMSecondary</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+            </InstanceVariables>
+            <StaticVariables>
+            </StaticVariables>
+         </Structure>
+      </Class>
+      <Class name="[Lcom_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager.BranchPlant;" abstract="Y" interface="N">
+         <Dependencies>
+            <Extends>
+               <ClassName>java.lang.Object</ClassName>
+            </Extends>
+            <Implements>
+               <ClassName>java.lang.Cloneable</ClassName>
+               <ClassName>java.io.Serializable</ClassName>
+            </Implements>
+         </Dependencies>
+         <Structure>
+            <Constructors>
+            </Constructors>
+            <InstanceMethods>
+            </InstanceMethods>
+            <StaticMethods>
+            </StaticMethods>
+            <InstanceVariables>
+            </InstanceVariables>
+            <StaticVariables>
+            </StaticVariables>
+         </Structure>
+      </Class>
+      <Class name="com_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager.Item" abstract="N" interface="N">
+         <Dependencies>
+            <Extends>
+               <ClassName>com_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager.ValueObject</ClassName>
+            </Extends>
+            <Implements>
+            </Implements>
+         </Dependencies>
+         <Structure>
+            <Constructors>
+               <Constructor idx="1">
+                  <Signature>()V</Signature>
+                  <Parameters>
+                  </Parameters>
+                  <Throws>
+                  </Throws>
+               </Constructor>
+            </Constructors>
+            <InstanceMethods>
+            </InstanceMethods>
+            <StaticMethods>
+            </StaticMethods>
+            <InstanceVariables>
+               <Variable idx="1">
+                  <name>itemCatalog</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="2">
+                  <name>itemId</name>
+                  <Signature>Ljava/lang/Integer;</Signature>
+               </Variable>
+               <Variable idx="3">
+                  <name>itemProduct</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+            </InstanceVariables>
+            <StaticVariables>
+            </StaticVariables>
+         </Structure>
+      </Class>
+      <Class name="com_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager.PurchasingCategoryCodes" abstract="N" interface="N">
+         <Dependencies>
+            <Extends>
+               <ClassName>com_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager.ValueObject</ClassName>
+            </Extends>
+            <Implements>
+            </Implements>
+         </Dependencies>
+         <Structure>
+            <Constructors>
+               <Constructor idx="1">
+                  <Signature>()V</Signature>
+                  <Parameters>
+                  </Parameters>
+                  <Throws>
+                  </Throws>
+               </Constructor>
+            </Constructors>
+            <InstanceMethods>
+            </InstanceMethods>
+            <StaticMethods>
+            </StaticMethods>
+            <InstanceVariables>
+               <Variable idx="1">
+                  <name>categoryCode001</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="2">
+                  <name>categoryCode002</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="3">
+                  <name>categoryCode003</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="4">
+                  <name>categoryCode004</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="5">
+                  <name>categoryCode005</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="6">
+                  <name>categoryCode006</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="7">
+                  <name>categoryCode007</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="8">
+                  <name>categoryCode008</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="9">
+                  <name>categoryCode009</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="10">
+                  <name>categoryCode010</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+            </InstanceVariables>
+            <StaticVariables>
+            </StaticVariables>
+         </Structure>
+      </Class>
+      <Class name="com_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager.SalesCategoryCodes" abstract="N" interface="N">
+         <Dependencies>
+            <Extends>
+               <ClassName>com_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager.ValueObject</ClassName>
+            </Extends>
+            <Implements>
+            </Implements>
+         </Dependencies>
+         <Structure>
+            <Constructors>
+               <Constructor idx="1">
+                  <Signature>()V</Signature>
+                  <Parameters>
+                  </Parameters>
+                  <Throws>
+                  </Throws>
+               </Constructor>
+            </Constructors>
+            <InstanceMethods>
+            </InstanceMethods>
+            <StaticMethods>
+            </StaticMethods>
+            <InstanceVariables>
+               <Variable idx="1">
+                  <name>categoryCode001</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="2">
+                  <name>categoryCode002</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="3">
+                  <name>categoryCode003</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="4">
+                  <name>categoryCode004</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="5">
+                  <name>categoryCode005</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="6">
+                  <name>categoryCode006</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="7">
+                  <name>categoryCode007</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="8">
+                  <name>categoryCode008</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="9">
+                  <name>categoryCode009</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="10">
+                  <name>categoryCode010</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+            </InstanceVariables>
+            <StaticVariables>
+            </StaticVariables>
+         </Structure>
+      </Class>
+      <Class name="[Lcom_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager.BranchPlantV2;" abstract="Y" interface="N">
+         <Dependencies>
+            <Extends>
+               <ClassName>java.lang.Object</ClassName>
+            </Extends>
+            <Implements>
+               <ClassName>java.lang.Cloneable</ClassName>
+               <ClassName>java.io.Serializable</ClassName>
+            </Implements>
+         </Dependencies>
+         <Structure>
+            <Constructors>
+            </Constructors>
+            <InstanceMethods>
+            </InstanceMethods>
+            <StaticMethods>
+            </StaticMethods>
+            <InstanceVariables>
+            </InstanceVariables>
+            <StaticVariables>
+            </StaticVariables>
+         </Structure>
+      </Class>
+      <Class name="com_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager.OutputItemDimensions" abstract="N" interface="N">
+         <Dependencies>
+            <Extends>
+               <ClassName>com_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager.ValueObject</ClassName>
+            </Extends>
+            <Implements>
+            </Implements>
+         </Dependencies>
+         <Structure>
+            <Constructors>
+               <Constructor idx="1">
+                  <Signature>()V</Signature>
+                  <Parameters>
+                  </Parameters>
+                  <Throws>
+                  </Throws>
+               </Constructor>
+            </Constructors>
+            <InstanceMethods>
+            </InstanceMethods>
+            <StaticMethods>
+            </StaticMethods>
+            <InstanceVariables>
+               <Variable idx="1">
+                  <name>unitOfMeasureComponent</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="2">
+                  <name>unitOfMeasurePricing</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="3">
+                  <name>unitOfMeasurePrimary</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="4">
+                  <name>unitOfMeasureProduction</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="5">
+                  <name>unitOfMeasurePurchas</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="6">
+                  <name>unitOfMeasureSecondary</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="7">
+                  <name>unitOfMeasureShipping</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="8">
+                  <name>unitOfMeasureStocking</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="9">
+                  <name>unitOfMeasureVolume</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="10">
+                  <name>unitOfMeasureWeight</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="11">
+                  <name>volumeCubicDimensions</name>
+                  <Signature>Ljava/math/BigDecimal;</Signature>
+               </Variable>
+            </InstanceVariables>
+            <StaticVariables>
+            </StaticVariables>
+         </Structure>
+      </Class>
+      <Class name="com_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager.InputItemDimensions" abstract="N" interface="N">
+         <Dependencies>
+            <Extends>
+               <ClassName>com_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager.ValueObject</ClassName>
+            </Extends>
+            <Implements>
+            </Implements>
+         </Dependencies>
+         <Structure>
+            <Constructors>
+               <Constructor idx="1">
+                  <Signature>()V</Signature>
+                  <Parameters>
+                  </Parameters>
+                  <Throws>
+                  </Throws>
+               </Constructor>
+            </Constructors>
+            <InstanceMethods>
+            </InstanceMethods>
+            <StaticMethods>
+            </StaticMethods>
+            <InstanceVariables>
+               <Variable idx="1">
+                  <name>unitOfMeasureCodePrimary</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="2">
+                  <name>unitOfMeasureCodeVolume</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="3">
+                  <name>unitOfMeasureCodeWeight</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+            </InstanceVariables>
+            <StaticVariables>
+            </StaticVariables>
+         </Structure>
+      </Class>
+      <Class name="com_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager.InventoryItemProcessing" abstract="N" interface="N">
+         <Dependencies>
+            <Extends>
+               <ClassName>com_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager.ValueObject</ClassName>
+            </Extends>
+            <Implements>
+            </Implements>
+         </Dependencies>
+         <Structure>
+            <Constructors>
+               <Constructor idx="1">
+                  <Signature>()V</Signature>
+                  <Parameters>
+                  </Parameters>
+                  <Throws>
+                  </Throws>
+               </Constructor>
+            </Constructors>
+            <InstanceMethods>
+            </InstanceMethods>
+            <StaticMethods>
+            </StaticMethods>
+            <InstanceVariables>
+               <Variable idx="1">
+                  <name>actionTypeCode</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="2">
+                  <name>version</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+            </InstanceVariables>
+            <StaticVariables>
+            </StaticVariables>
+         </Structure>
+      </Class>
+      <Class name="[Lcom_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager.SupplierCatalogPrice;" abstract="Y" interface="N">
+         <Dependencies>
+            <Extends>
+               <ClassName>java.lang.Object</ClassName>
+            </Extends>
+            <Implements>
+               <ClassName>java.lang.Cloneable</ClassName>
+               <ClassName>java.io.Serializable</ClassName>
+            </Implements>
+         </Dependencies>
+         <Structure>
+            <Constructors>
+            </Constructors>
+            <InstanceMethods>
+            </InstanceMethods>
+            <StaticMethods>
+            </StaticMethods>
+            <InstanceVariables>
+            </InstanceVariables>
+            <StaticVariables>
+            </StaticVariables>
+         </Structure>
+      </Class>
+      <Class name="[Lcom_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager.AvailabilitySummary;" abstract="Y" interface="N">
+         <Dependencies>
+            <Extends>
+               <ClassName>java.lang.Object</ClassName>
+            </Extends>
+            <Implements>
+               <ClassName>java.lang.Cloneable</ClassName>
+               <ClassName>java.io.Serializable</ClassName>
+            </Implements>
+         </Dependencies>
+         <Structure>
+            <Constructors>
+            </Constructors>
+            <InstanceMethods>
+            </InstanceMethods>
+            <StaticMethods>
+            </StaticMethods>
+            <InstanceVariables>
+            </InstanceVariables>
+            <StaticVariables>
+            </StaticVariables>
+         </Structure>
+      </Class>
+      <Class name="[Lcom_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager.SupplierCatalogPriceV2;" abstract="Y" interface="N">
+         <Dependencies>
+            <Extends>
+               <ClassName>java.lang.Object</ClassName>
+            </Extends>
+            <Implements>
+               <ClassName>java.lang.Cloneable</ClassName>
+               <ClassName>java.io.Serializable</ClassName>
+            </Implements>
+         </Dependencies>
+         <Structure>
+            <Constructors>
+            </Constructors>
+            <InstanceMethods>
+            </InstanceMethods>
+            <StaticMethods>
+            </StaticMethods>
+            <InstanceVariables>
+            </InstanceVariables>
+            <StaticVariables>
+            </StaticVariables>
+         </Structure>
+      </Class>
+      <Class name="[Lcom_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager.ItemPrice;" abstract="Y" interface="N">
+         <Dependencies>
+            <Extends>
+               <ClassName>java.lang.Object</ClassName>
+            </Extends>
+            <Implements>
+               <ClassName>java.lang.Cloneable</ClassName>
+               <ClassName>java.io.Serializable</ClassName>
+            </Implements>
+         </Dependencies>
+         <Structure>
+            <Constructors>
+            </Constructors>
+            <InstanceMethods>
+            </InstanceMethods>
+            <StaticMethods>
+            </StaticMethods>
+            <InstanceVariables>
+            </InstanceVariables>
+            <StaticVariables>
+            </StaticVariables>
+         </Structure>
+      </Class>
+      <Class name="[Lcom_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager.ItemSearch;" abstract="Y" interface="N">
+         <Dependencies>
+            <Extends>
+               <ClassName>java.lang.Object</ClassName>
+            </Extends>
+            <Implements>
+               <ClassName>java.lang.Cloneable</ClassName>
+               <ClassName>java.io.Serializable</ClassName>
+            </Implements>
+         </Dependencies>
+         <Structure>
+            <Constructors>
+            </Constructors>
+            <InstanceMethods>
+            </InstanceMethods>
+            <StaticMethods>
+            </StaticMethods>
+            <InstanceVariables>
+            </InstanceVariables>
+            <StaticVariables>
+            </StaticVariables>
+         </Structure>
+      </Class>
+      <Class name="com_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager.MathNumeric" abstract="N" interface="N">
+         <Dependencies>
+            <Extends>
+               <ClassName>java.lang.Object</ClassName>
+            </Extends>
+            <Implements>
+            </Implements>
+         </Dependencies>
+         <Structure>
+            <Constructors>
+               <Constructor idx="1">
+                  <Signature>()V</Signature>
+                  <Parameters>
+                  </Parameters>
+                  <Throws>
+                  </Throws>
+               </Constructor>
+            </Constructors>
+            <InstanceMethods>
+            </InstanceMethods>
+            <StaticMethods>
+            </StaticMethods>
+            <InstanceVariables>
+               <Variable idx="1">
+                  <name>currencyCode</name>
+                  <Signature>Ljava/lang/String;</Signature>
+               </Variable>
+               <Variable idx="2">
+                  <name>currencyDecimals</name>
+                  <Signature>I</Signature>
+               </Variable>
+               <Variable idx="3">
+                  <name>value</name>
+                  <Signature>Ljava/math/BigDecimal;</Signature>
+               </Variable>
+            </InstanceVariables>
+            <StaticVariables>
+            </StaticVariables>
+         </Structure>
+      </Class>
+      <Class name="[Lcom_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager.ItemBranchSearch;" abstract="Y" interface="N">
+         <Dependencies>
+            <Extends>
+               <ClassName>java.lang.Object</ClassName>
+            </Extends>
+            <Implements>
+               <ClassName>java.lang.Cloneable</ClassName>
+               <ClassName>java.io.Serializable</ClassName>
+            </Implements>
+         </Dependencies>
+         <Structure>
+            <Constructors>
+            </Constructors>
+            <InstanceMethods>
+            </InstanceMethods>
+            <StaticMethods>
+            </StaticMethods>
+            <InstanceVariables>
+            </InstanceVariables>
+            <StaticVariables>
+            </StaticVariables>
+         </Structure>
+      </Class>
+      <Class name="[Lcom_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager.E1Message;" abstract="Y" interface="N">
+         <Dependencies>
+            <Extends>
+               <ClassName>java.lang.Object</ClassName>
+            </Extends>
+            <Implements>
+               <ClassName>java.lang.Cloneable</ClassName>
+               <ClassName>java.io.Serializable</ClassName>
+            </Implements>
+         </Dependencies>
+         <Structure>
+            <Constructors>
+            </Constructors>
+            <InstanceMethods>
+            </InstanceMethods>
+            <StaticMethods>
+            </StaticMethods>
+            <InstanceVariables>
+            </InstanceVariables>
+            <StaticVariables>
+            </StaticVariables>
+         </Structure>
+      </Class>
+   </Classes>
+</ClassMetaData>

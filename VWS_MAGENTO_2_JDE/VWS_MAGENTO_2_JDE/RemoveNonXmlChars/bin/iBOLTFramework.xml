@@ -1,0 +1,664 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>iBOLTFramework</name>
+    </assembly>
+    <members>
+        <member name="T:iBOLT.Framework.IBCommon">
+            <summary>Supplies common utilities for iBOLT.Framework code.</summary>
+        </member>
+        <member name="M:iBOLT.Framework.IBCommon.#ctor">
+            <summary> Default initialization of a common object. </summary>
+        </member>
+        <member name="M:iBOLT.Framework.IBCommon.BLOBToString(System.Byte[])">
+            <summary>Converts a BLOB type (byte array) to string.</summary>
+            <remarks>The convertion is done using 'System.Text.ASCIIEncoding'.</remarks>
+        </member>
+        <member name="M:iBOLT.Framework.IBCommon.StringToBLOB(System.String)">
+            <summary>Converts a string to BLOB type (byte array).</summary>
+            <remarks>The convertion is done using 'System.Text.ASCIIEncoding'.</remarks>
+        </member>
+        <member name="M:iBOLT.Framework.IBCommon.ObjectToBLOB(System.Object)">
+            <summary>Converts any struct to BLOB type (byte array).</summary>
+        </member>
+        <member name="M:iBOLT.Framework.IBCommon.BLOBToObject(System.Byte[],System.Type)">
+            <summary>Converts BLOB type (byte array) to any struct.</summary>
+        </member>
+        <member name="T:iBOLT.Framework.IBComponentConfig">
+            <summary> Holds the components configuration information. </summary>
+        </member>
+        <member name="M:iBOLT.Framework.IBComponentConfig.#ctor(System.Double,System.Boolean,System.String[],iBOLT.Framework.IBConfigVariables,iBOLT.Framework.IBConfigVariables)">
+            <summary> Default constructor for the Configuration object. </summary>
+        </member>
+        <member name="P:iBOLT.Framework.IBComponentConfig.ActiveString">
+            <summary>
+            Gets/Sets the Activation String property- used for component configuration
+            and will be passed to the context methods: Invoke, Commit, Rollback and Emulate
+             </summary>
+        </member>
+        <member name="P:iBOLT.Framework.IBComponentConfig.ActiveBLOB">
+            <summary>
+            Gets/Sets the Activation BLOB property- used for component configuration
+            and will be passed to the context methods: Invoke, Commit, Rollback and Emulate
+             </summary>
+        </member>
+        <member name="P:iBOLT.Framework.IBComponentConfig.FlowId">
+            <summary> Gets the flow ID in which the components is configured. </summary>
+        </member>
+        <member name="P:iBOLT.Framework.IBComponentConfig.IsTrigger">
+            <summary> Gets a indication whether the component is configured in Tigger or Step area. </summary>
+        </member>
+        <member name="P:iBOLT.Framework.IBComponentConfig.Environment">
+            <summary> Gets a collection of environment constants. </summary>
+        </member>
+        <member name="P:iBOLT.Framework.IBComponentConfig.FlowVariables">
+            <summary> Gets a collection of the flow IBConfigVariable object (names and types). </summary>
+        </member>
+        <member name="P:iBOLT.Framework.IBComponentConfig.GlobalVariables">
+            <summary> Gets a collection of the global IBConfigVariable object (names and types). </summary>
+        </member>
+        <member name="T:iBOLT.Framework.IBComponentDefinition">
+            <summary> Holds the component definition information. </summary>
+        </member>
+        <member name="M:iBOLT.Framework.IBComponentDefinition.#ctor">
+            <summary> Default constructor for the Definition object. </summary>
+        </member>
+        <member name="P:iBOLT.Framework.IBComponentDefinition.Name">
+            <summary> Gets/Sets the name of the iBOLT Component. </summary>
+        </member>
+        <member name="P:iBOLT.Framework.IBComponentDefinition.Description">
+            <summary> Gets/Sets a description for the iBOLT Component. </summary>
+        </member>
+        <member name="P:iBOLT.Framework.IBComponentDefinition.Icon">
+            <summary> Gets/Sets the iBOLT Components icon to display in the Studio. </summary>
+        </member>
+        <member name="P:iBOLT.Framework.IBComponentDefinition.Group">
+            <summary> Gets/Sets the group in which to place the iBOLT Component. </summary>
+        </member>
+        <member name="P:iBOLT.Framework.IBComponentDefinition.Sync">
+            <summary> Gets/Sets the synchronization ability of the iBOLT Component. 0=Parallel ; 1=Linear ; 2=Both</summary>
+        </member>
+        <member name="P:iBOLT.Framework.IBComponentDefinition.Trans">
+            <summary> Gets/Sets the trasnactional ability of the iBOLT Component. </summary>
+        </member>
+        <member name="T:iBOLT.Framework.IBConfigVariable">
+            <summary> Variable data type used in IBComponentConfig object. </summary>
+        </member>
+        <member name="M:iBOLT.Framework.IBConfigVariable.#ctor">
+            <summary> Default initialization of a config variable. </summary>
+        </member>
+        <member name="M:iBOLT.Framework.IBConfigVariable.#ctor(System.String,System.String)">
+            <summary> For internal use: Initialization of a config variable with it's values. </summary>
+        </member>
+        <member name="M:iBOLT.Framework.IBConfigVariable.GetType">
+            <summary> Get the variables type. </summary>
+            <remarks> The returned value is the variables type and not native types (i.e "Numeric" not double). </remarks>
+        </member>
+        <member name="M:iBOLT.Framework.IBConfigVariable.ToString">
+            <summary> Gets the name of the variable. </summary>
+        </member>
+        <member name="P:iBOLT.Framework.IBConfigVariable.Name">
+            <summary> Gets the name of the variable. </summary>
+        </member>
+        <member name="P:iBOLT.Framework.IBConfigVariable.Type">
+            <summary> Gets the type of the variable. </summary>
+            <remarks> The returned value is the variables type and not native types (i.e "Numeric" not double). </remarks>
+        </member>
+        <member name="T:iBOLT.Framework.IBConfigVariables">
+            <summary> Collection all variables in the instance scope (Global/Flow+Model). </summary>
+        </member>
+        <member name="M:iBOLT.Framework.IBConfigVariables.#ctor">
+            <summary> Default initialization of a config variables collection. </summary>
+        </member>
+        <member name="M:iBOLT.Framework.IBConfigVariables.GetEnumerator">
+            <summary> Supports a simple iteration of the collection. </summary>
+        </member>
+        <member name="M:iBOLT.Framework.IBConfigVariables.isEmpty">
+            <summary> Determines if the IBVariables collection is empty. </summary>
+        </member>
+        <member name="M:iBOLT.Framework.IBConfigVariables.Count">
+            <summary> Get the number of IBVariables in the collection. </summary>
+        </member>
+        <member name="M:iBOLT.Framework.IBConfigVariables.GetVar(System.String)">
+            <summary> Determines if an variable exist (by name). </summary>
+        </member>
+        <member name="M:iBOLT.Framework.IBConfigVariables.isExist(System.String)">
+            <summary> Determines if an variable (by name) exist in the variables collection. </summary>
+        </member>
+        <member name="M:iBOLT.Framework.IBConfigVariables.Names">
+            <summary> Get a collection of names from the IBVariables collection. </summary>
+        </member>
+        <member name="M:iBOLT.Framework.IBConfigVariables.AddVar(System.String,System.String)">
+            <summary> For internal use: adding IBVariable object to the collection. </summary>
+        </member>
+        <member name="P:iBOLT.Framework.IBConfigVariables.Item(System.String)">
+            <summary> Get an IBConfigVariable object by its name. </summary>
+        </member>
+        <member name="T:iBOLT.Framework.IBTime">
+            <summary> iBOLT's Time data type. </summary>
+        </member>
+        <member name="M:iBOLT.Framework.IBTime.#ctor(System.Byte,System.Byte,System.Byte)">
+            <summary> Initialize a new time object using HH:MM:SS values. </summary>
+        </member>
+        <member name="M:iBOLT.Framework.IBTime.#ctor(iBOLT.Framework.IBTime)">
+            <summary> Initialize a new time object using a nother time object. </summary>
+        </member>
+        <member name="M:iBOLT.Framework.IBTime.UpdateTime(System.Byte,System.Byte,System.Byte)">
+            <summary> Update the time object HH:MM:SS. </summary>
+        </member>
+        <member name="M:iBOLT.Framework.IBTime.GetTimeString">
+            <summary> Get time as string (HH:MM:SS fromat) from the object. </summary>
+        </member>
+        <member name="M:iBOLT.Framework.IBTime.ToString">
+            <summary> Get time as string (HH:MM:SS fromat) from the object. </summary>
+        </member>
+        <member name="P:iBOLT.Framework.IBTime.Hours">
+            <summary> Retrieve the hours valus. </summary>
+        </member>
+        <member name="P:iBOLT.Framework.IBTime.Minutes">
+            <summary> Retrieve the minutes valus. </summary>
+        </member>
+        <member name="P:iBOLT.Framework.IBTime.Seconds">
+            <summary> Retrieve the seconds valus. </summary>
+        </member>
+        <member name="T:iBOLT.Framework.LogicEnum">
+            <summary> General logical enum (Yes/No). </summary>
+        </member>
+        <member name="F:iBOLT.Framework.LogicEnum.No">
+            <summary> =0 </summary>
+        </member>
+        <member name="F:iBOLT.Framework.LogicEnum.Yes">
+            <summary> =1 </summary>
+        </member>
+        <member name="T:iBOLT.Framework.SyncEnum">
+            <summary> Determines the synchronization ability of the component. </summary>
+        </member>
+        <member name="F:iBOLT.Framework.SyncEnum.Parallel">
+            <summary> =0 </summary>
+        </member>
+        <member name="F:iBOLT.Framework.SyncEnum.Linear">
+            <summary> =1 </summary>
+        </member>
+        <member name="F:iBOLT.Framework.SyncEnum.Both">
+            <summary> =2 </summary>
+        </member>
+        <member name="T:iBOLT.Framework.ReturnActionEnum">
+            <summary> Determines the return action code in a flow context methods. </summary>
+        </member>
+        <member name="F:iBOLT.Framework.ReturnActionEnum.Continue">
+            <summary> =0 </summary>
+        </member>
+        <member name="F:iBOLT.Framework.ReturnActionEnum.Skip">
+            <summary> =1 </summary>
+        </member>
+        <member name="F:iBOLT.Framework.ReturnActionEnum.Abort">
+            <summary> =2 </summary>
+        </member>
+        <member name="T:iBOLT.Framework.ErrorHandlingEnum">
+            <summary> Determines the error handling code in a flow context methods as set in the step properties. </summary>
+        </member>
+        <member name="F:iBOLT.Framework.ErrorHandlingEnum.Continue">
+            <summary> =0 </summary>
+        </member>
+        <member name="F:iBOLT.Framework.ErrorHandlingEnum.Error">
+            <summary> =1 </summary>
+        </member>
+        <member name="T:iBOLT.Framework.IBEnvironment">
+            <summary>Contains a list of iBOLT environment consts.</summary>
+        </member>
+        <member name="F:iBOLT.Framework.IBEnvironment.iBOLTFolder">
+            <summary>Const holding the path to iBOLT root folder.</summary>
+        </member>
+        <member name="F:iBOLT.Framework.IBEnvironment.CurrentProjectFileName">
+            <summary>Const holding the path to the current project file.</summary>
+        </member>
+        <member name="F:iBOLT.Framework.IBEnvironment.CurrentProjectFolder">
+            <summary>Const holding the path to current project folder.</summary>
+        </member>
+        <member name="F:iBOLT.Framework.IBEnvironment.IFCLibFolder">
+            <summary>Const holding the path to iBOLT\ifclib folder.</summary>
+        </member>
+        <member name="F:iBOLT.Framework.IBEnvironment.ProjectsFolder">
+            <summary>Const holding the path to iBOLT\projects folder.</summary>
+        </member>
+        <member name="F:iBOLT.Framework.IBEnvironment.date_format">
+            <summary>Const holding the date format.</summary>
+        </member>
+        <member name="M:iBOLT.Framework.IBEnvironment.#ctor(System.String[])">
+            <summary>Default initialization of IBEnvironment object.</summary>
+        </member>
+        <member name="T:iBOLT.Framework.IBException">
+            <summary> Represents iBOLT errors that occur during application execution. </summary>
+        </member>
+        <member name="M:iBOLT.Framework.IBException.#ctor(System.String)">
+            <summary>Initializes a new instance of the IBException class with a specified error message.</summary>
+            <param name="message">The message that describes the error.</param>
+        </member>
+        <member name="P:iBOLT.Framework.IBException.MachineName">
+            <summary> Gets the machine name on which the exception occurred. </summary>
+        </member>
+        <member name="P:iBOLT.Framework.IBException.ExceptionTime">
+            <summary> Gets the DateTime when the exception occurred. </summary>
+        </member>
+        <member name="T:iBOLT.Framework.IBFlowComponent">
+            <summary>General interface to be implemented by any .Net component</summary>
+            <remarks>Implementation should check for exceptions within the method and handle them properly.</remarks>
+        </member>
+        <member name="M:iBOLT.Framework.IBFlowComponent.Definition(iBOLT.Framework.IBComponentDefinition)">
+            <summary> Handles component general definition. Throws IBException. </summary>
+            <summary>  </summary>
+            <remarks> Called at design time. </remarks>
+        </member>
+        <member name="M:iBOLT.Framework.IBFlowComponent.Config(iBOLT.Framework.IBComponentConfig)">
+            <summary> Handles component configuration. Throws IBException. </summary>
+            <remarks> Called at design time. The component may use custom UI to prompt the user for information.</remarks>
+        </member>
+        <member name="M:iBOLT.Framework.IBFlowComponent.Invoke(iBOLT.Framework.IBFlowContext)">
+            <summary> Invoke flow with context. Throws IBException. </summary>
+            <remarks> Called at deployment time.</remarks>
+        </member>
+        <member name="M:iBOLT.Framework.IBFlowComponent.Commit(iBOLT.Framework.IBFlowContext)">
+            <summary> Commit pending operations. Throws IBException.</summary>
+            <remarks> Called at deployment time.</remarks>
+        </member>
+        <member name="M:iBOLT.Framework.IBFlowComponent.Rollback(iBOLT.Framework.IBFlowContext)">
+            <summary> Rollback pending operations. Throws IBException.</summary>
+            <remarks> Called at deployment time.</remarks>
+        </member>
+        <member name="M:iBOLT.Framework.IBFlowComponent.Emulate(iBOLT.Framework.IBFlowContext)">
+            <summary> Emulate component invocation. Throws IBException.</summary>
+            <remarks> Called at deployment time.</remarks>
+        </member>
+        <member name="T:iBOLT.Framework.IBFlowContext">
+            <summary> Holds the deployment context information. </summary>
+            <remarks> Used in flow context methods: Invoke, Commit, Rollback and Emulate. </remarks>
+        </member>
+        <member name="M:iBOLT.Framework.IBFlowContext.#ctor">
+            <summery/>
+        </member>
+        <member name="M:iBOLT.Framework.IBFlowContext.#ctor(System.Double,System.Double,System.Double,System.Boolean,System.Boolean,System.Boolean,iBOLT.Framework.ErrorHandlingEnum,System.String,System.Byte[],iBOLT.Framework.IBVariables,iBOLT.Framework.IBVariables,iBOLT.Framework.IBODSVariables,iBOLT.Framework.IBODSVariables,System.String[])">
+            <summery/>
+        </member>
+        <member name="P:iBOLT.Framework.IBFlowContext.FlowSequenceID">
+            <summary> Gets the flow sequence ID. </summary>
+        </member>
+        <member name="P:iBOLT.Framework.IBFlowContext.StepSequenceID">
+            <summary> Gets the step sequence ID. </summary>
+        </member>
+        <member name="P:iBOLT.Framework.IBFlowContext.FlowID">
+            <summary> Gets the flow number from which this step called. </summary>
+        </member>
+        <member name="P:iBOLT.Framework.IBFlowContext.isReturnSettings">
+            <summary> Gets an indication whether this step was set to return its results in the UserXML property. </summary>
+        </member>
+        <member name="P:iBOLT.Framework.IBFlowContext.Sync">
+            <summary> Gets an indication whether this step was set as linear in step properties. </summary>
+        </member>
+        <member name="P:iBOLT.Framework.IBFlowContext.Trans">
+            <summary> Gets an indication whether this step was set as tranactional in step properties. </summary>
+        </member>
+        <member name="P:iBOLT.Framework.IBFlowContext.ActiveString">
+            <summary> Gets the activation string as set in cofiguration method. </summary>
+            <remarks>
+            <para>Setting this property will only affect this instance and will not return to iBOLT.</para>
+            <para>In assemblies created by the .NET Component, this property is null.</para>
+            </remarks>
+        </member>
+        <member name="P:iBOLT.Framework.IBFlowContext.ActiveBLOB">
+            <summary> Gets the activation BLOB as set in cofiguration method. </summary>
+            <remarks>
+            <para>Setting this property will only affect this instance and will not return to iBOLT.</para>
+            <para>In assemblies created by the .NET Component, this property is null.</para>
+            </remarks>
+        </member>
+        <member name="P:iBOLT.Framework.IBFlowContext.ErrorHandling">
+            <summary> Gets the error handling code as set in the step properties. </summary>
+        </member>
+        <member name="P:iBOLT.Framework.IBFlowContext.UserCode">
+            <summary> Gets/Sets the UserCode. </summary>
+        </member>
+        <member name="P:iBOLT.Framework.IBFlowContext.UserString">
+            <summary> Gets/Sets the UserString. </summary>
+        </member>
+        <member name="P:iBOLT.Framework.IBFlowContext.UserBLOB">
+            <summary> Gets/Sets the UserBLOB. </summary>
+        </member>
+        <member name="P:iBOLT.Framework.IBFlowContext.UserXML">
+            <summary> Gets/Sets the UserXML. </summary>
+        </member>
+        <member name="P:iBOLT.Framework.IBFlowContext.ErrorCode">
+            <summary> Gets/Sets the error code of the step execution. </summary>
+            <remarks> This code will be returned to the server in sys.LastErrorCode model variable. </remarks>
+        </member>
+        <member name="P:iBOLT.Framework.IBFlowContext.ErrorMessage">
+            <summary> Gets/Sets the error message of the step execution. </summary>
+            <remarks> This message will be returned to the server in sys.LastErrorDescription model variable. </remarks>
+        </member>
+        <member name="P:iBOLT.Framework.IBFlowContext.ReturnAction">
+            <summary> Gets/Sets the return action that controls the emulator continuation behavior. </summary>
+        </member>
+        <member name="P:iBOLT.Framework.IBFlowContext.FlowVars">
+            <summary> Gets the flow and model variables collection. </summary>
+            <remarks> You can get/set variables by using an indexer (i.e FlowVars["F_Name1"].ValString) or by using method calls (i.e FlowVars.GetString("F_Name1")). </remarks>
+        </member>
+        <member name="P:iBOLT.Framework.IBFlowContext.GlobalVars">
+            <summary> Gets the global variables collection. </summary>
+            <remarks> You can get/set variables by using an indexer (i.e GlobalVars["F_Name1"].ValString) or by using method calls (i.e GlobalVars.GetString("F_Name1")). </remarks>
+        </member>
+        <member name="P:iBOLT.Framework.IBFlowContext.LocalODS">
+            <summary> Gets the local ODS variables collection. </summary>
+            <remarks> You can get/set variables by using an indexer (i.e LocalODS["ODS1"][1].ValString) or by using method calls (i.e LocalODS.GetString("ODS1",1)). </remarks>
+        </member>
+        <member name="P:iBOLT.Framework.IBFlowContext.GlobalODS">
+            <summary> Gets the global ODS variables collection. </summary>
+            <remarks> You can get/set variables by using an indexer (i.e GlobalODS["ODS1"][1].ValString) or by using method calls (i.e GlobalODS.GetString("ODS1",1)). </remarks>
+        </member>
+        <member name="P:iBOLT.Framework.IBFlowContext.Environment">
+            <summary> Gets a collection of environment constants. </summary>
+        </member>
+        <member name="T:iBOLT.Framework.IBODS">
+            <summary> Collection ODS variable indexes. </summary>
+        </member>
+        <member name="M:iBOLT.Framework.IBODS.#ctor">
+            <summary> Default initialization of an ODS variable indexes collection. </summary>
+        </member>
+        <member name="M:iBOLT.Framework.IBODS.#ctor(System.String)">
+            <summary> For internal use: initialization of ODS variable indexes collection. </summary>
+        </member>
+        <member name="M:iBOLT.Framework.IBODS.GetEnumerator">
+            <summary> Supports a simple iteration of the collection. </summary>
+        </member>
+        <member name="M:iBOLT.Framework.IBODS.isEmpty">
+            <summary> Determines if the ODS collection is empty = has no indexes. </summary>
+        </member>
+        <member name="M:iBOLT.Framework.IBODS.Count">
+            <summary> Get the number of indexes in an ODS collection. </summary>
+        </member>
+        <member name="M:iBOLT.Framework.IBODS.isExist(System.Int32)">
+            <summary> Determines if an index exist in the ODS collection. </summary>
+        </member>
+        <member name="M:iBOLT.Framework.IBODS.GetString(System.Int32)">
+            <summary> Get the string value of an index in the ODS collection. </summary>
+        </member>
+        <member name="M:iBOLT.Framework.IBODS.GetNumeric(System.Int32)">
+            <summary> Get the numeric value of an index in the ODS collection. </summary>
+        </member>
+        <member name="M:iBOLT.Framework.IBODS.GetDate(System.Int32)">
+            <summary> Get the date value of an index in the ODS collection. </summary>
+        </member>
+        <member name="M:iBOLT.Framework.IBODS.GetTime(System.Int32)">
+            <summary> Get the time value of an index in the ODS collection. </summary>
+        </member>
+        <member name="M:iBOLT.Framework.IBODS.GetTimeString(System.Int32)">
+            <summary> Get the time value of an index in the ODS collection in string type (HH:MM:SS format). </summary>
+        </member>
+        <member name="M:iBOLT.Framework.IBODS.GetBLOB(System.Int32)">
+            <summary> Get the BLOB value of an index in the ODS collection. </summary>
+        </member>
+        <member name="M:iBOLT.Framework.IBODS.GetLogical(System.Int32)">
+            <summary> Get the logical value of an index in the ODS collection. </summary>
+        </member>
+        <member name="M:iBOLT.Framework.IBODS.SetString(System.Int32,System.String)">
+            <summary> Set the string value of an ODS index. </summary>
+        </member>
+        <member name="M:iBOLT.Framework.IBODS.SetNumeric(System.Int32,System.Double)">
+            <summary> Set the numeric value of an ODS index. </summary>
+        </member>
+        <member name="M:iBOLT.Framework.IBODS.SetDate(System.Int32,System.DateTime)">
+            <summary> Set the date value of an ODS index. </summary>
+        </member>
+        <member name="M:iBOLT.Framework.IBODS.SetTime(System.Int32,iBOLT.Framework.IBTime)">
+            <summary> Set the time value of an ODS index. </summary>
+        </member>
+        <member name="M:iBOLT.Framework.IBODS.SetTime(System.Int32,System.Byte,System.Byte,System.Byte)">
+            <summary> Set the time value of an ODS index using HH:MM:SS values. </summary>
+        </member>
+        <member name="M:iBOLT.Framework.IBODS.SetBLOB(System.Int32,System.Byte[])">
+            <summary> Set the BLOB value of an ODS index. </summary>
+        </member>
+        <member name="M:iBOLT.Framework.IBODS.SetLogical(System.Int32,System.Boolean)">
+            <summary> Set the logical value of an ODS index. </summary>
+        </member>
+        <member name="M:iBOLT.Framework.IBODS.AddODSVariable(System.String,System.Int32,iBOLT.Framework.IBODSVariable)">
+            <summary> For internal use: adding ODS indexe to the collection. </summary>
+        </member>
+        <member name="P:iBOLT.Framework.IBODS.Item(System.Int32)">
+            <summary> Get an ODS variable object by its index. </summary>
+        </member>
+        <member name="P:iBOLT.Framework.IBODS.ODSName">
+            <summary> Get the name of the IBODS in the IBODSVariables collection. </summary>
+        </member>
+        <member name="T:iBOLT.Framework.IBODSVariable">
+            <summary> ODS variable data type. </summary>
+        </member>
+        <member name="M:iBOLT.Framework.IBODSVariable.#ctor">
+            <summary> Default initialization of an ODS variable. </summary>
+        </member>
+        <member name="M:iBOLT.Framework.IBODSVariable.SetInternalValues(System.String,System.Int32)">
+            <summary> For internal use: initialize properties. </summary>
+        </member>
+        <member name="P:iBOLT.Framework.IBODSVariable.isChanged">
+            <summary> Indicates that the ODS variable values were changed. </summary>
+        </member>
+        <member name="P:iBOLT.Framework.IBODSVariable.Name">
+            <summary> Get the name of the IBODSvariable in the IBODSvariables collection. </summary>
+        </member>
+        <member name="P:iBOLT.Framework.IBODSVariable.Index">
+            <summary> Get the index of the IBODSvariable in the IBODS collection. </summary>
+        </member>
+        <member name="P:iBOLT.Framework.IBODSVariable.ValString">
+            <summary> Gets/Sets the string value of the ODS variable. </summary>
+        </member>
+        <member name="P:iBOLT.Framework.IBODSVariable.ValNumeric">
+            <summary> Gets/Sets the numeric value of the ODS variable. </summary>
+        </member>
+        <member name="P:iBOLT.Framework.IBODSVariable.ValDate">
+            <summary> Gets/Sets the date value of the ODS variable. </summary>
+        </member>
+        <member name="P:iBOLT.Framework.IBODSVariable.ValTime">
+            <summary> Gets/Sets the time value of the ODS variable. </summary>
+        </member>
+        <member name="P:iBOLT.Framework.IBODSVariable.ValBLOB">
+            <summary> Gets/Sets the BLOB value of the ODS variable. </summary>
+        </member>
+        <member name="P:iBOLT.Framework.IBODSVariable.ValLogical">
+            <summary> Gets/Sets the logical value of the ODS variable. </summary>
+        </member>
+        <member name="T:iBOLT.Framework.IBODSVariables">
+            <summary> Collection all ODSs in the instance scope (Global/Local). </summary>
+        </member>
+        <member name="M:iBOLT.Framework.IBODSVariables.#ctor">
+            <summary> Default initialization of an ODS variables collection. </summary>
+        </member>
+        <member name="M:iBOLT.Framework.IBODSVariables.GetEnumerator">
+            <summary> Supports a simple iteration of the collection. </summary>
+        </member>
+        <member name="M:iBOLT.Framework.IBODSVariables.isEmpty">
+            <summary> Determines if the ODSVariables collection is empty. </summary>
+        </member>
+        <member name="M:iBOLT.Framework.IBODSVariables.Count">
+            <summary> Get the number of ODSVariables in the collection. </summary>
+        </member>
+        <member name="M:iBOLT.Framework.IBODSVariables.isExist(System.String)">
+            <summary> Determines if an ODS collection exist (by name). </summary>
+        </member>
+        <member name="M:iBOLT.Framework.IBODSVariables.isExist(System.String,System.Int32)">
+            <summary> Determines if an ODS index collection exist for an ODS Name (by name and index). </summary>
+        </member>
+        <member name="M:iBOLT.Framework.IBODSVariables.Names">
+            <summary> Get a collection of names from the IBODSVariables collection. </summary>
+        </member>
+        <member name="M:iBOLT.Framework.IBODSVariables.GetString(System.String,System.Int32)">
+            <summary> Get the string value of an ODS variable (by name and index). </summary>
+        </member>
+        <member name="M:iBOLT.Framework.IBODSVariables.GetNumeric(System.String,System.Int32)">
+            <summary> Get the numeric value of an ODS variable (by name and index). </summary>
+        </member>
+        <member name="M:iBOLT.Framework.IBODSVariables.GetDate(System.String,System.Int32)">
+            <summary> Get the date value of an ODS variable (by name and index). </summary>
+        </member>
+        <member name="M:iBOLT.Framework.IBODSVariables.GetTime(System.String,System.Int32)">
+            <summary> Get the time value of an ODS variable (by name and index). </summary>
+        </member>
+        <member name="M:iBOLT.Framework.IBODSVariables.GetTimeString(System.String,System.Int32)">
+            <summary> Get the time value of an ODS variable (by name and index) in string type (HH:MM:SS format). </summary>
+        </member>
+        <member name="M:iBOLT.Framework.IBODSVariables.GetBLOB(System.String,System.Int32)">
+            <summary> Get the BLOB value of an ODS variable (by name and index). </summary>
+        </member>
+        <member name="M:iBOLT.Framework.IBODSVariables.GetLogical(System.String,System.Int32)">
+            <summary> Get the logical value of an ODS variable (by name and index). </summary>
+        </member>
+        <member name="M:iBOLT.Framework.IBODSVariables.SetString(System.String,System.Int32,System.String)">
+            <summary> Set the string value of an ODS variable (by name and index). </summary>
+        </member>
+        <member name="M:iBOLT.Framework.IBODSVariables.SetNumeric(System.String,System.Int32,System.Double)">
+            <summary> Set the numeric value of an ODS variable (by name and index). </summary>
+        </member>
+        <member name="M:iBOLT.Framework.IBODSVariables.SetDate(System.String,System.Int32,System.DateTime)">
+            <summary> Set the date value of an ODS variable (by name and index). </summary>
+        </member>
+        <member name="M:iBOLT.Framework.IBODSVariables.SetTime(System.String,System.Int32,iBOLT.Framework.IBTime)">
+            <summary> Set the time value of an ODS variable (by name and index). </summary>
+        </member>
+        <member name="M:iBOLT.Framework.IBODSVariables.SetTime(System.String,System.Int32,System.Byte,System.Byte,System.Byte)">
+            <summary> Set the time value of an ODS variable (by name and index) using HH:MM:SS values. </summary>
+        </member>
+        <member name="M:iBOLT.Framework.IBODSVariables.SetBLOB(System.String,System.Int32,System.Byte[])">
+            <summary> Set the BLOB value of an ODS variable (by name and index). </summary>
+        </member>
+        <member name="M:iBOLT.Framework.IBODSVariables.SetLogical(System.String,System.Int32,System.Boolean)">
+            <summary> Set the logical value of an ODS variable (by name and index). </summary>
+        </member>
+        <member name="M:iBOLT.Framework.IBODSVariables.AddODSVariables(System.String,iBOLT.Framework.IBODS)">
+            <summary> For internal use: adding ODS indexes object to the collection. </summary>
+        </member>
+        <member name="P:iBOLT.Framework.IBODSVariables.Item(System.String)">
+            <summary> Get an ODS indexes collection object by its name. </summary>
+        </member>
+        <member name="T:iBOLT.Framework.IBVariable">
+            <summary> Variable data type. </summary>
+        </member>
+        <member name="M:iBOLT.Framework.IBVariable.#ctor">
+            <summary> Default initialization of a variable. </summary>
+        </member>
+        <member name="M:iBOLT.Framework.IBVariable.#ctor(System.String)">
+            <summary> Initialization of a string variable. </summary>
+        </member>
+        <member name="M:iBOLT.Framework.IBVariable.#ctor(System.Double)">
+            <summary> Initialization of a numeric variable. </summary>
+        </member>
+        <member name="M:iBOLT.Framework.IBVariable.#ctor(System.DateTime)">
+            <summary> Initialization of a date variable. </summary>
+        </member>
+        <member name="M:iBOLT.Framework.IBVariable.#ctor(iBOLT.Framework.IBTime)">
+            <summary> Initialization of a time variable. </summary>
+        </member>
+        <member name="M:iBOLT.Framework.IBVariable.#ctor(System.Byte[])">
+            <summary> Initialization of a BLOB variable. </summary>
+        </member>
+        <member name="M:iBOLT.Framework.IBVariable.#ctor(System.Boolean)">
+            <summary> Initialization of a logical variable. </summary>
+        </member>
+        <member name="M:iBOLT.Framework.IBVariable.GetType">
+            <summary> Get the variables type. </summary>
+            <remarks> The returned value is the variables type and not native types (i.e "Numeric" not double). </remarks>
+        </member>
+        <member name="M:iBOLT.Framework.IBVariable.ToString">
+            <summary> Converts the value of this variable to its equivalent string representation. </summary>
+        </member>
+        <member name="P:iBOLT.Framework.IBVariable.ValString">
+            <summary> Gets/Sets a string type variable. </summary>
+        </member>
+        <member name="P:iBOLT.Framework.IBVariable.ValNumeric">
+            <summary> Gets/Sets a numeric type variable. </summary>
+        </member>
+        <member name="P:iBOLT.Framework.IBVariable.ValDate">
+            <summary> Gets/Sets a date type variable. </summary>
+        </member>
+        <member name="P:iBOLT.Framework.IBVariable.ValTime">
+            <summary> Gets/Sets a time type variable. </summary>
+        </member>
+        <member name="P:iBOLT.Framework.IBVariable.ValBLOB">
+            <summary> Gets/Sets a BLOB type variable. </summary>
+        </member>
+        <member name="P:iBOLT.Framework.IBVariable.ValLogical">
+            <summary> Gets/Sets a logical type variable. </summary>
+        </member>
+        <member name="P:iBOLT.Framework.IBVariable.isChanged">
+            <summary> Indicates that the variables value was changed. </summary>
+        </member>
+        <member name="T:iBOLT.Framework.IBVariables">
+            <summary> Collection all variables in the instance scope (Global/Flow+Model). </summary>
+        </member>
+        <member name="M:iBOLT.Framework.IBVariables.#ctor">
+            <summary> Default initialization of a variables collection. </summary>
+        </member>
+        <member name="M:iBOLT.Framework.IBVariables.GetEnumerator">
+            <summary> Supports a simple iteration of the collection. </summary>
+        </member>
+        <member name="M:iBOLT.Framework.IBVariables.isEmpty">
+            <summary> Determines if the IBVariables collection is empty. </summary>
+        </member>
+        <member name="M:iBOLT.Framework.IBVariables.Count">
+            <summary> Get the number of IBVariables in the collection. </summary>
+        </member>
+        <member name="M:iBOLT.Framework.IBVariables.GetVar(System.String)">
+            <summary> Determines if an variable exist (by name). </summary>
+        </member>
+        <member name="M:iBOLT.Framework.IBVariables.isExist(System.String)">
+            <summary> Determines if an variable (by name) exist in the variables collection. </summary>
+        </member>
+        <member name="M:iBOLT.Framework.IBVariables.Names">
+            <summary> Get a collection of names from the IBVariables collection. </summary>
+        </member>
+        <member name="M:iBOLT.Framework.IBVariables.GetString(System.String)">
+            <summary> Get the string type value of a variable (by name). </summary>
+        </member>
+        <member name="M:iBOLT.Framework.IBVariables.GetNumeric(System.String)">
+            <summary> Get the numeric type value of a variable (by name). </summary>
+        </member>
+        <member name="M:iBOLT.Framework.IBVariables.GetDate(System.String)">
+            <summary> Get the date type value of a variable (by name). </summary>
+        </member>
+        <member name="M:iBOLT.Framework.IBVariables.GetTime(System.String)">
+            <summary> Get the time type value of a variable (by name). </summary>
+        </member>
+        <member name="M:iBOLT.Framework.IBVariables.GetTimeString(System.String)">
+            <summary> Get the time type value of a variable (by name) in string type (HH:MM:SS format). </summary>
+        </member>
+        <member name="M:iBOLT.Framework.IBVariables.GetBLOB(System.String)">
+            <summary> Get the BLOB type value of a variable (by name). </summary>
+        </member>
+        <member name="M:iBOLT.Framework.IBVariables.GetLogical(System.String)">
+            <summary> Get the logical type value of a variable (by name). </summary>
+        </member>
+        <member name="M:iBOLT.Framework.IBVariables.SetString(System.String,System.String)">
+            <summary> Set string type value of a variable. </summary>
+        </member>
+        <member name="M:iBOLT.Framework.IBVariables.SetNumeric(System.String,System.Double)">
+            <summary> Set numeric type value of a variable. </summary>
+        </member>
+        <member name="M:iBOLT.Framework.IBVariables.SetDate(System.String,System.DateTime)">
+            <summary> Set date type value of a variable. </summary>
+        </member>
+        <member name="M:iBOLT.Framework.IBVariables.SetTime(System.String,iBOLT.Framework.IBTime)">
+            <summary> Set time type value of a variable. </summary>
+        </member>
+        <member name="M:iBOLT.Framework.IBVariables.SetTimeVals(System.String,System.Byte,System.Byte,System.Byte)">
+            <summary> Set time type value of a variable using its HH:MM:SS values. </summary>
+        </member>
+        <member name="M:iBOLT.Framework.IBVariables.SetBLOB(System.String,System.Byte[])">
+            <summary> Set BLOb type value of a variable. </summary>
+        </member>
+        <member name="M:iBOLT.Framework.IBVariables.SetLogical(System.String,System.Boolean)">
+            <summary> Set logical type value of a variable. </summary>
+        </member>
+        <member name="M:iBOLT.Framework.IBVariables.AddVar(System.String,iBOLT.Framework.IBVariable)">
+            <summary> For internal use: adding IBVariable object to the collection. </summary>
+        </member>
+        <member name="P:iBOLT.Framework.IBVariables.Item(System.String)">
+            <summary> Get an IBVariable object by its name. </summary>
+        </member>
+    </members>
+</doc>

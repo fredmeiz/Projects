@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Flow>
+
+  <Properties>
+    <ID>1</ID>
+    <Order>1</Order>
+    <Name>Main Flow</Name>
+    <isInactive>false</isInactive>
+    <isDisabled>false</isDisabled>
+    <isTwoPhase>false</isTwoPhase>
+    <isAutoStart>false</isAutoStart>
+    <MaxInstances>0</MaxInstances>
+    <isAutoRepeat>false</isAutoRepeat>
+    <TimeoutPolicy>6</TimeoutPolicy>
+    <TimeOutVal>0</TimeOutVal>
+    <RecoveryPolicy>6</RecoveryPolicy>
+    <Enablement>
+      <ResourceInfo>
+        <isDynamic>false</isDynamic>
+        <ResSerName/>
+      </ResourceInfo>
+    </Enablement>
+  </Properties>
+
+  <DrawProperties>
+    <RootStepID>1</RootStepID>
+    <HasTrigger>true</HasTrigger>
+  </DrawProperties>
+
+  <Steps>
+    <row_Step>
+      <Properties>
+        <isGoTo>false</isGoTo>
+        <ParentStepID>0</ParentStepID>
+        <SortOrder>0</SortOrder>
+        <ID>1</ID>
+        <Name>Flow Execution Selection</Name>
+        <Description>This step determines which flow is executed in the project.</Description>
+        <IFCDefinition>6</IFCDefinition>
+        <ProcessMode>1</ProcessMode>
+        <isTwoPhase>false</isTwoPhase>
+        <isWait4Comp>false</isWait4Comp>
+        <isSavePoint>false</isSavePoint>
+        <CallLogicFlow>false</CallLogicFlow>
+        <isTrigger>false</isTrigger>
+      </Properties>
+      <LoggingInfo>
+        <Scope>0</Scope>
+      </LoggingInfo>
+      <iBoltService>
+        <SaveMSG>
+          <MSGString>
+            <ExpressionVal>J0ludGVyZmFjZSB0eXBlIHNlbGVjdGVkIDogJyYgPCMhJUAkPmdldFZhck5hbWUoMywne0E1MzYwMTMwLTdDODgtNDdCRS04RkVELUQ4RjQ5QTIyNkY0M30nLDAsMCk8IyElQCQ+</ExpressionVal>
+            <ExpectedType>A</ExpectedType>
+            <Direction>I</Direction>
+          </MSGString>
+        </SaveMSG>
+      </iBoltService>
+    </row_Step>
+    <row_Step>
+      <Properties>
+        <isGoTo>false</isGoTo>
+        <ParentStepID>1</ParentStepID>
+        <SortOrder>1</SortOrder>
+        <ID>2</ID>
+        <Name>Call Method flow</Name>
+        <Description>This step calls the Method flow.</Description>
+        <IFCDefinition>7</IFCDefinition>
+        <ProcessMode>1</ProcessMode>
+        <isTwoPhase>false</isTwoPhase>
+        <isWait4Comp>false</isWait4Comp>
+        <isSavePoint>false</isSavePoint>
+        <CallLogicFlow>false</CallLogicFlow>
+        <StepCondition>
+          <ExpressionVal>VHJpbSggPCMhJUAkPmdldFZhck5hbWUoMywne0E1MzYwMTMwLTdDODgtNDdCRS04RkVELUQ4RjQ5QTIyNkY0M30nLDAsMCk8IyElQCQ+ICk9J01ldGhvZCc=</ExpressionVal>
+          <ExpectedType>L</ExpectedType>
+          <Direction>I</Direction>
+        </StepCondition>
+        <isTrigger>false</isTrigger>
+      </Properties>
+      <LoggingInfo>
+        <Scope>0</Scope>
+      </LoggingInfo>
+      <iBoltService>
+        <InvokeFlow>
+          <isByExp>0</isByExp>
+          <FlowInfo>
+            <BPID>1</BPID>
+            <FlowID>
+              <ExpressionVal>PCMhJUAkPmdldEZsb3dOYW1lKDIpPCMhJUAkPg==</ExpressionVal>
+              <ExpectedType>N</ExpectedType>
+              <Direction>I</Direction>
+            </FlowID>
+          </FlowInfo>
+        </InvokeFlow>
+      </iBoltService>
+    </row_Step>
+    <row_Step>
+      <Properties>
+        <isGoTo>false</isGoTo>
+        <ParentStepID>1</ParentStepID>
+        <SortOrder>2</SortOrder>
+        <ID>3</ID>
+        <Name>Call XML flow</Name>
+        <Description>This step calls the XML flow.</Description>
+        <IFCDefinition>7</IFCDefinition>
+        <ProcessMode>1</ProcessMode>
+        <isTwoPhase>false</isTwoPhase>
+        <isWait4Comp>false</isWait4Comp>
+        <isSavePoint>false</isSavePoint>
+        <CallLogicFlow>false</CallLogicFlow>
+        <StepCondition>
+          <ExpressionVal>VHJpbSggPCMhJUAkPmdldFZhck5hbWUoMywne0E1MzYwMTMwLTdDODgtNDdCRS04RkVELUQ4RjQ5QTIyNkY0M30nLDAsMCk8IyElQCQ+ICk9J1hNTCc=</ExpressionVal>
+          <ExpectedType>L</ExpectedType>
+          <Direction>I</Direction>
+        </StepCondition>
+        <isTrigger>false</isTrigger>
+      </Properties>
+      <LoggingInfo>
+        <Scope>0</Scope>
+      </LoggingInfo>
+      <iBoltService>
+        <InvokeFlow>
+          <isByExp>0</isByExp>
+          <FlowInfo>
+            <BPID>1</BPID>
+            <FlowID>
+              <ExpressionVal>PCMhJUAkPmdldEZsb3dOYW1lKDMpPCMhJUAkPg==</ExpressionVal>
+              <ExpectedType>N</ExpectedType>
+              <Direction>I</Direction>
+            </FlowID>
+          </FlowInfo>
+        </InvokeFlow>
+      </iBoltService>
+    </row_Step>
+  </Steps>
+
+  <Triggers>
+    <row_Trigger>
+      <Properties>
+        <ID>1</ID>
+        <Name>CallHTTP</Name>
+        <IFCDefinition>110</IFCDefinition>
+        <isTrigger>true</isTrigger>
+      </Properties>
+      <LoggingInfo>
+        <Scope>0</Scope>
+      </LoggingInfo>
+      <ResourceInfo>
+        <isDynamic>false</isDynamic>
+        <ResSerName>Call HTTP</ResSerName>
+      </ResourceInfo>
+      <ConfigInfo>
+        <InvokeComp>%ifclib%http\httpifc.ecf</InvokeComp>
+        <InvokeProg>CallTrigger</InvokeProg>
+        <ActivationBLOB>PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIiA/Pg0KPEh0dHA+DQoNCiAgPE5hbWU+Q2FsbCBIVFRQPC9OYW1lPg0KDQogIDxPcGVyYXRpb24+DQogICAgPElEPjE8L0lEPg0KICAgIDxPcGVyYXRpb25OYW1lPkNhbGxUcmlnZ2VyPC9PcGVyYXRpb25OYW1lPg0KICAgIDxBcmd1bWVudD4NCiAgICAgIDxBcmd1bWVudElEPjE8L0FyZ3VtZW50SUQ+DQogICAgICA8QXJndW1lbnROYW1lPkVudGVyX0ludGVyZmFjZTwvQXJndW1lbnROYW1lPg0KICAgICAgPERhdGFUeXBlPkE8L0RhdGFUeXBlPg0KICAgICAgPERhdGFUeXBlUGljdHVyZT4zMDwvRGF0YVR5cGVQaWN0dXJlPg0KICAgICAgPE1hcHBpbmdFeHA+DQogICAgICAgIDxFeHByZXNzaW9uVmFsPlBDTWhKVUFrUG1kbGRGWmhjazVoYldVb015d25lMEUxTXpZd01UTXdMVGRET0RndE5EZENSUzA0UmtWRUxVUTRSalE1UVRJeU5rWTBNMzBuTERBc01DazhJeUVsUUNRKzwvRXhwcmVzc2lvblZhbD4NCiAgICAgICAgPEV4cGVjdGVkVHlwZT5BPC9FeHBlY3RlZFR5cGU+DQogICAgICAgIDxEaXJlY3Rpb24+TzwvRGlyZWN0aW9uPg0KICAgICAgPC9NYXBwaW5nRXhwPg0KICAgICAgPERlZmF1bHRWYWx1ZT4nTWV0aG9kJzwvRGVmYXVsdFZhbHVlPg0KICAgICAgPE1hbmRhdG9yeT4wPC9NYW5kYXRvcnk+DQogICAgPC9Bcmd1bWVudD4NCiAgICA8QXJndW1lbnQ+DQogICAgICA8QXJndW1lbnRJRD4yPC9Bcmd1bWVudElEPg0KICAgICAgPEFyZ3VtZW50TmFtZT5FbnRlcl9NZXRob2Q8L0FyZ3VtZW50TmFtZT4NCiAgICAgIDxEYXRhVHlwZT5BPC9EYXRhVHlwZT4NCiAgICAgIDxEYXRhVHlwZVBpY3R1cmU+MzA8L0RhdGFUeXBlUGljdHVyZT4NCiAgICAgIDxNYXBwaW5nRXhwPg0KICAgICAgICA8RXhwcmVzc2lvblZhbD5QQ01oSlVBa1BtZGxkRlpoY2s1aGJXVW9NeXduZXpnNE16TXlNek16TFRJeE4wTXRORU0wUWkxQk1UaEJMVUkzT1RoQk16RkZORU0zTVgwbkxEQXNNQ2s4SXlFbFFDUSs8L0V4cHJlc3Npb25WYWw+DQogICAgICAgIDxFeHBlY3RlZFR5cGU+QTwvRXhwZWN0ZWRUeXBlPg0KICAgICAgICA8RGlyZWN0aW9uPk88L0RpcmVjdGlvbj4NCiAgICAgIDwvTWFwcGluZ0V4cD4NCiAgICAgIDxEZWZhdWx0VmFsdWU+J0dldCc8L0RlZmF1bHRWYWx1ZT4NCiAgICAgIDxNYW5kYXRvcnk+MDwvTWFuZGF0b3J5Pg0KICAgIDwvQXJndW1lbnQ+DQogIDwvT3BlcmF0aW9uPg0KDQogIDxSZXR1cm5WYWx1ZUV4cD4NCiAgICA8RXhwcmVzc2lvblZhbD5QQ01oSlVBa1BtZGxkRlpoY2s1aGJXVW9NaXduTURBd01EQXdNREF3TURBd01EQXdNREF3TURBd01EQXdNREF3TURBd01EQXdNREF3TURBM0p5d3dMREFwUENNaEpVQWtQZz09PC9FeHByZXNzaW9uVmFsPg0KICAgIDxFeHBlY3RlZFR5cGU+QjwvRXhwZWN0ZWRUeXBlPg0KICAgIDxEaXJlY3Rpb24+STwvRGlyZWN0aW9uPg0KICA8L1JldHVyblZhbHVlRXhwPg0KDQo8L0h0dHA+DQo=</ActivationBLOB>
+      </ConfigInfo>
+    </row_Trigger>
+  </Triggers>
+
+  <TextElements>
+    <row_Element>
+      <ID>1</ID>
+      <Description>To call the Trigger, you need to execute the CallTrigger.htm file that is located in the project folder: [Magic xpi installation]\projects\HTTP\Service\Call Trigger.htm</Description>
+      <TextLocation>Left</TextLocation>
+      <Font>1</Font>
+      <Color>12713983</Color>
+      <BorderStyle>1</BorderStyle>
+    </row_Element>
+    <row_Element>
+      <ID>2</ID>
+      <Description>The purpose of this flow is to call the required flow, according to the request received from the Trigger.</Description>
+      <TextLocation>Left</TextLocation>
+      <Font>2</Font>
+      <Color>12713983</Color>
+      <BorderStyle>1</BorderStyle>
+    </row_Element>
+    <row_Element>
+      <ID>5</ID>
+      <Description>Before working with the HTTP component, you should first set this entry in the [MAGIC_ENV] section of the Magic.ini file: HTTPProxyAddress = &lt;ProxyAddress&gt;:&lt;Port&gt;&#xD;&#xA;&#xD;&#xA;</Description>
+      <TextLocation>Left</TextLocation>
+      <Font>5</Font>
+      <Color>12713983</Color>
+      <BorderStyle>1</BorderStyle>
+    </row_Element>
+  </TextElements>
+
+</Flow>

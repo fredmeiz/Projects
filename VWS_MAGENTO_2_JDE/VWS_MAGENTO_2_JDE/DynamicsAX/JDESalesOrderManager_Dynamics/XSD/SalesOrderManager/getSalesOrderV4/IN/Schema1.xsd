@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import namespace="http://oracle.e1.bssv.JP420000/" />
+  <xs:complexType name="getSalesOrderV4Request">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="getSalesOrderV4" nillable="true" xmlns:q1="http://oracle.e1.bssv.JP420000/" type="q1:getSalesOrderV3" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="getSalesOrderV4Request" nillable="true" type="tns:getSalesOrderV4Request" />
+</xs:schema>

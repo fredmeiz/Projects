@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Resource_Settings>
+  <Resource_Element>
+    <Main_Resource_ID>106</Main_Resource_ID>
+    <Main_Resource_Name>Email</Main_Resource_Name>
+  </Resource_Element>
+  <Resource_Element>
+    <Main_Resource_ID>109</Main_Resource_ID>
+    <Main_Resource_Name>FTP</Main_Resource_Name>
+  </Resource_Element>
+  <Resource_Element>
+    <Main_Resource_ID>110</Main_Resource_ID>
+    <Main_Resource_Name>HTTP</Main_Resource_Name>
+    <Default_Resource>Call HTTP</Default_Resource>
+    <Main_Resource_Defintion>
+      <Resource_Type_ID>22</Resource_Type_ID>
+      <Resource_Type_Name>Call HTTP</Resource_Type_Name>
+      <Resource_Type_Description />
+      <Resource_Type_Blob>TgB1AGwAbABCAGwAbwBiAA==</Resource_Type_Blob>
+      <Resource_Properties>
+        <ID>1</ID>
+        <Name>Web Server</Name>
+        <ExpressionValue>%MachineName%</ExpressionValue>
+        <ExpressionValueBlob />
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>2</ID>
+        <Name>Alias</Name>
+        <ExpressionValue>%Alias%</ExpressionValue>
+        <ExpressionValueBlob />
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>3</ID>
+        <Name>HTTP OperationData</Name>
+        <ExpressionValue />
+        <ExpressionValueBlob>PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIiA/Pg0KPE9wZXJhdGlvbnNEYXRhPg0KDQogIDxPcGVyYXRpb24+DQogICAgPE9wZXJhdGlvbklEPjE8L09wZXJhdGlvbklEPg0KICAgIDxPcGVyYXRpb25OYW1lPkNhbGxUcmlnZ2VyPC9PcGVyYXRpb25OYW1lPg0KICAgIDxIVE1MUGF0aD5jOlxNYWdpYyB4cGkgNC4xXHByb2plY3RzXEhUVFBcU2VydmljZVxDYWxsIEhUVFBcQ2FsbFRyaWdnZXIuaHRtbDwvSFRNTFBhdGg+DQogICAgPEFyZ3VtZW50Pg0KICAgICAgPElEPjE8L0lEPg0KICAgICAgPE5hbWU+RW50ZXJfSW50ZXJmYWNlPC9OYW1lPg0KICAgICAgPERhdGFUeXBlPkE8L0RhdGFUeXBlPg0KICAgICAgPFBpY3R1cmU+MzA8L1BpY3R1cmU+DQogICAgICA8RGVmYXVsdFZhbHVlPidNZXRob2QnPC9EZWZhdWx0VmFsdWU+DQogICAgICA8TWFuZGF0b3J5PjA8L01hbmRhdG9yeT4NCiAgICA8L0FyZ3VtZW50Pg0KICAgIDxBcmd1bWVudD4NCiAgICAgIDxJRD4yPC9JRD4NCiAgICAgIDxOYW1lPkVudGVyX01ldGhvZDwvTmFtZT4NCiAgICAgIDxEYXRhVHlwZT5BPC9EYXRhVHlwZT4NCiAgICAgIDxQaWN0dXJlPjMwPC9QaWN0dXJlPg0KICAgICAgPERlZmF1bHRWYWx1ZT4nR2V0JzwvRGVmYXVsdFZhbHVlPg0KICAgICAgPE1hbmRhdG9yeT4wPC9NYW5kYXRvcnk+DQogICAgPC9Bcmd1bWVudD4NCiAgPC9PcGVyYXRpb24+DQoNCjwvT3BlcmF0aW9uc0RhdGE+DQo=</ExpressionValueBlob>
+      </Resource_Properties>
+    </Main_Resource_Defintion>
+    <Main_Resource_Defintion>
+      <Resource_Type_ID>23</Resource_Type_ID>
+      <Resource_Type_Name>Call Trigger</Resource_Type_Name>
+      <Resource_Type_Description />
+      <Resource_Type_Blob>TgB1AGwAbABCAGwAbwBiAA==</Resource_Type_Blob>
+      <Resource_Properties>
+        <ID>1</ID>
+        <Name>Web Server</Name>
+        <ExpressionValue>%MachineName%</ExpressionValue>
+        <ExpressionValueBlob />
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>2</ID>
+        <Name>Alias</Name>
+        <ExpressionValue>%Alias%</ExpressionValue>
+        <ExpressionValueBlob />
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>3</ID>
+        <Name>HTTP OperationData</Name>
+        <ExpressionValue />
+        <ExpressionValueBlob>PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIiA/Pg0KPE9wZXJhdGlvbnNEYXRhPg0KDQogIDxPcGVyYXRpb24+DQogICAgPE9wZXJhdGlvbklEPjE8L09wZXJhdGlvbklEPg0KICAgIDxPcGVyYXRpb25OYW1lPkNhbGxUcmlnZ2VyPC9PcGVyYXRpb25OYW1lPg0KICAgIDxIVE1MUGF0aD5jOlxNYWdpYyB4cGkgNC4xXHByb2plY3RzXEhUVFBcU2VydmljZVxDYWxsIFRyaWdnZXJcQ2FsbFRyaWdnZXIuaHRtbDwvSFRNTFBhdGg+DQogICAgPEFyZ3VtZW50Pg0KICAgICAgPElEPjE8L0lEPg0KICAgICAgPE5hbWU+Rmlyc3RfTmFtZTwvTmFtZT4NCiAgICAgIDxEYXRhVHlwZT5BPC9EYXRhVHlwZT4NCiAgICAgIDxQaWN0dXJlPjMwPC9QaWN0dXJlPg0KICAgICAgPERlZmF1bHRWYWx1ZT48L0RlZmF1bHRWYWx1ZT4NCiAgICAgIDxNYW5kYXRvcnk+MDwvTWFuZGF0b3J5Pg0KICAgIDwvQXJndW1lbnQ+DQogICAgPEFyZ3VtZW50Pg0KICAgICAgPElEPjI8L0lEPg0KICAgICAgPE5hbWU+TGFzdF9OYW1lPC9OYW1lPg0KICAgICAgPERhdGFUeXBlPkE8L0RhdGFUeXBlPg0KICAgICAgPFBpY3R1cmU+MzA8L1BpY3R1cmU+DQogICAgICA8RGVmYXVsdFZhbHVlPjwvRGVmYXVsdFZhbHVlPg0KICAgICAgPE1hbmRhdG9yeT4wPC9NYW5kYXRvcnk+DQogICAgPC9Bcmd1bWVudD4NCiAgPC9PcGVyYXRpb24+DQoNCjwvT3BlcmF0aW9uc0RhdGE+DQo=</ExpressionValueBlob>
+      </Resource_Properties>
+    </Main_Resource_Defintion>
+  </Resource_Element>
+  <Resource_Element>
+    <Main_Resource_ID>111</Main_Resource_ID>
+    <Main_Resource_Name>IBM i</Main_Resource_Name>
+  </Resource_Element>
+  <Resource_Element>
+    <Main_Resource_ID>115</Main_Resource_ID>
+    <Main_Resource_Name>JMS</Main_Resource_Name>
+  </Resource_Element>
+  <Resource_Element>
+    <Main_Resource_ID>117</Main_Resource_ID>
+    <Main_Resource_Name>WebSphere MQ</Main_Resource_Name>
+  </Resource_Element>
+  <Resource_Element>
+    <Main_Resource_ID>118</Main_Resource_ID>
+    <Main_Resource_Name>MSMQ</Main_Resource_Name>
+  </Resource_Element>
+  <Resource_Element>
+    <Main_Resource_ID>121</Main_Resource_ID>
+    <Main_Resource_Name>Web Services</Main_Resource_Name>
+  </Resource_Element>
+  <Resource_Element>
+    <Main_Resource_ID>128</Main_Resource_ID>
+    <Main_Resource_Name>SAP B1 2004</Main_Resource_Name>
+  </Resource_Element>
+  <Resource_Element>
+    <Main_Resource_ID>133</Main_Resource_ID>
+    <Main_Resource_Name>SAP B1 2005</Main_Resource_Name>
+  </Resource_Element>
+  <Resource_Element>
+    <Main_Resource_ID>140</Main_Resource_ID>
+    <Main_Resource_Name>SAP R3</Main_Resource_Name>
+  </Resource_Element>
+  <Resource_Element>
+    <Main_Resource_ID>141</Main_Resource_ID>
+    <Main_Resource_Name>SAP B1 2007</Main_Resource_Name>
+  </Resource_Element>
+  <Resource_Element>
+    <Main_Resource_ID>143</Main_Resource_ID>
+    <Main_Resource_Name>Salesforce</Main_Resource_Name>
+  </Resource_Element>
+  <Resource_Element>
+    <Main_Resource_ID>149</Main_Resource_ID>
+    <Main_Resource_Name>HL7</Main_Resource_Name>
+  </Resource_Element>
+  <Resource_Element>
+    <Main_Resource_ID>153</Main_Resource_ID>
+    <Main_Resource_Name>SAP A1</Main_Resource_Name>
+  </Resource_Element>
+  <Resource_Element>
+    <Main_Resource_ID>157</Main_Resource_ID>
+    <Main_Resource_Name>Exchange</Main_Resource_Name>
+  </Resource_Element>
+  <Resource_Element>
+    <Main_Resource_ID>158</Main_Resource_ID>
+    <Main_Resource_Name>TCPListener</Main_Resource_Name>
+  </Resource_Element>
+  <Resource_Element>
+    <Main_Resource_ID>160</Main_Resource_ID>
+    <Main_Resource_Name>SAP B1 88</Main_Resource_Name>
+  </Resource_Element>
+  <Resource_Element>
+    <Main_Resource_ID>162</Main_Resource_ID>
+    <Main_Resource_Name>Sugar</Main_Resource_Name>
+  </Resource_Element>
+  <Resource_Element>
+    <Main_Resource_ID>20000</Main_Resource_ID>
+    <Main_Resource_Name>Scheduler</Main_Resource_Name>
+  </Resource_Element>
+  <Resource_Element>
+    <Main_Resource_ID>30000</Main_Resource_ID>
+    <Main_Resource_Name>Flow Enablement</Main_Resource_Name>
+  </Resource_Element>
+</Resource_Settings>

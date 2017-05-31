@@ -1,0 +1,843 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mapper xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<MapperOrigin>DataMapperService</MapperOrigin>
+	
+		
+		<SourceSchemas>
+		
+		
+				
+		<Schema xsi:type="DataBaseSchema">
+		<SchemaID>3</SchemaID>
+		<Order>1</Order>
+		<Name>S1</Name>
+				<SchemaLocation>Source</SchemaLocation>
+		<SchemaType>DataBase</SchemaType>
+		
+									<Fields>
+															<Field xsi:type="ComplexField">
+							<Identifier>Record</Identifier>
+							<Description></Description>
+							<FieldName>Record</FieldName>
+							<NodeType>Complex</NodeType>
+							<Color>210</Color>
+							<MagicFieldType></MagicFieldType>
+							<MagicPicture></MagicPicture>
+							<isUnicode>false</isUnicode>
+							
+															<SpecialUniCode>false</SpecialUniCode>
+														
+																												<UserPicture></UserPicture>
+							<isNillable>false</isNillable>
+														<MaxInstance>0</MaxInstance>
+							<MinInstance>0</MinInstance>
+																												<LogError>false</LogError>
+																																			<From>0</From>
+							<Length>0</Length>
+							<CreateAllways>false</CreateAllways>
+														<Required>false</Required>
+							<Replication>0</Replication>
+							<AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+															<GenerateColumnName></GenerateColumnName>
+																													<Encoding>0</Encoding>
+													</Field>
+																					<Field xsi:type="FieldDataBase">
+							<Identifier>Record/serverid</Identifier>
+							<Description></Description>
+							<FieldName>serverid</FieldName>
+							<NodeType>Simple</NodeType>
+							<Color>210</Color>
+							<MagicFieldType>N</MagicFieldType>
+							<MagicPicture>N7.3</MagicPicture>
+							<isUnicode>false</isUnicode>
+							
+															<SpecialUniCode>false</SpecialUniCode>
+														
+																						<ExternalFieldType>SQL_DOUBLE</ExternalFieldType>
+																						<ExternalFieldPicture>10</ExternalFieldPicture>
+														<UserPicture></UserPicture>
+							<isNillable>false</isNillable>
+														<MaxInstance>1</MaxInstance>
+							<MinInstance>0</MinInstance>
+																												<LogError>false</LogError>
+																													<StorageSize>8</StorageSize>	
+																						<StorageNum>6</StorageNum>
+														<From>0</From>
+							<Length>0</Length>
+							<CreateAllways>false</CreateAllways>
+														<Required>false</Required>
+							<Replication>0</Replication>
+							<AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+															<GenerateColumnName></GenerateColumnName>
+																											</Field>
+																					<Field xsi:type="FieldDataBase">
+							<Identifier>Record/msgid</Identifier>
+							<Description></Description>
+							<FieldName>msgid</FieldName>
+							<NodeType>Simple</NodeType>
+							<Color>210</Color>
+							<MagicFieldType>N</MagicFieldType>
+							<MagicPicture>N7.3</MagicPicture>
+							<isUnicode>false</isUnicode>
+							
+															<SpecialUniCode>false</SpecialUniCode>
+														
+																						<ExternalFieldType>SQL_DOUBLE</ExternalFieldType>
+																						<ExternalFieldPicture>10</ExternalFieldPicture>
+														<UserPicture></UserPicture>
+							<isNillable>false</isNillable>
+														<MaxInstance>1</MaxInstance>
+							<MinInstance>0</MinInstance>
+																												<LogError>false</LogError>
+																													<StorageSize>8</StorageSize>	
+																						<StorageNum>6</StorageNum>
+														<From>0</From>
+							<Length>0</Length>
+							<CreateAllways>false</CreateAllways>
+														<Required>false</Required>
+							<Replication>0</Replication>
+							<AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+															<GenerateColumnName></GenerateColumnName>
+																											</Field>
+																					<Field xsi:type="FieldDataBase">
+							<Identifier>Record/bpid</Identifier>
+							<Description></Description>
+							<FieldName>bpid</FieldName>
+							<NodeType>Simple</NodeType>
+							<Color>210</Color>
+							<MagicFieldType>N</MagicFieldType>
+							<MagicPicture>N7.3</MagicPicture>
+							<isUnicode>false</isUnicode>
+							
+															<SpecialUniCode>false</SpecialUniCode>
+														
+																						<ExternalFieldType>SQL_DOUBLE</ExternalFieldType>
+																						<ExternalFieldPicture>10</ExternalFieldPicture>
+														<UserPicture></UserPicture>
+							<isNillable>false</isNillable>
+														<MaxInstance>1</MaxInstance>
+							<MinInstance>0</MinInstance>
+																												<LogError>false</LogError>
+																													<StorageSize>8</StorageSize>	
+																						<StorageNum>6</StorageNum>
+														<From>0</From>
+							<Length>0</Length>
+							<CreateAllways>false</CreateAllways>
+														<Required>false</Required>
+							<Replication>0</Replication>
+							<AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+															<GenerateColumnName></GenerateColumnName>
+																											</Field>
+																					<Field xsi:type="FieldDataBase">
+							<Identifier>Record/flowid</Identifier>
+							<Description></Description>
+							<FieldName>flowid</FieldName>
+							<NodeType>Simple</NodeType>
+							<Color>210</Color>
+							<MagicFieldType>N</MagicFieldType>
+							<MagicPicture>N7.3</MagicPicture>
+							<isUnicode>false</isUnicode>
+							
+															<SpecialUniCode>false</SpecialUniCode>
+														
+																						<ExternalFieldType>SQL_DOUBLE</ExternalFieldType>
+																						<ExternalFieldPicture>10</ExternalFieldPicture>
+														<UserPicture></UserPicture>
+							<isNillable>false</isNillable>
+														<MaxInstance>1</MaxInstance>
+							<MinInstance>0</MinInstance>
+																												<LogError>false</LogError>
+																													<StorageSize>8</StorageSize>	
+																						<StorageNum>6</StorageNum>
+														<From>0</From>
+							<Length>0</Length>
+							<CreateAllways>false</CreateAllways>
+														<Required>false</Required>
+							<Replication>0</Replication>
+							<AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+															<GenerateColumnName></GenerateColumnName>
+																											</Field>
+																					<Field xsi:type="FieldDataBase">
+							<Identifier>Record/fsid</Identifier>
+							<Description></Description>
+							<FieldName>fsid</FieldName>
+							<NodeType>Simple</NodeType>
+							<Color>210</Color>
+							<MagicFieldType>N</MagicFieldType>
+							<MagicPicture>N7.3</MagicPicture>
+							<isUnicode>false</isUnicode>
+							
+															<SpecialUniCode>false</SpecialUniCode>
+														
+																						<ExternalFieldType>SQL_DOUBLE</ExternalFieldType>
+																						<ExternalFieldPicture>10</ExternalFieldPicture>
+														<UserPicture></UserPicture>
+							<isNillable>false</isNillable>
+														<MaxInstance>1</MaxInstance>
+							<MinInstance>0</MinInstance>
+																												<LogError>false</LogError>
+																													<StorageSize>8</StorageSize>	
+																						<StorageNum>6</StorageNum>
+														<From>0</From>
+							<Length>0</Length>
+							<CreateAllways>false</CreateAllways>
+														<Required>false</Required>
+							<Replication>0</Replication>
+							<AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+															<GenerateColumnName></GenerateColumnName>
+																											</Field>
+																					<Field xsi:type="FieldDataBase">
+							<Identifier>Record/fsstep</Identifier>
+							<Description></Description>
+							<FieldName>fsstep</FieldName>
+							<NodeType>Simple</NodeType>
+							<Color>210</Color>
+							<MagicFieldType>N</MagicFieldType>
+							<MagicPicture>N7.3</MagicPicture>
+							<isUnicode>false</isUnicode>
+							
+															<SpecialUniCode>false</SpecialUniCode>
+														
+																						<ExternalFieldType>SQL_DOUBLE</ExternalFieldType>
+																						<ExternalFieldPicture>10</ExternalFieldPicture>
+														<UserPicture></UserPicture>
+							<isNillable>false</isNillable>
+														<MaxInstance>1</MaxInstance>
+							<MinInstance>0</MinInstance>
+																												<LogError>false</LogError>
+																													<StorageSize>8</StorageSize>	
+																						<StorageNum>6</StorageNum>
+														<From>0</From>
+							<Length>0</Length>
+							<CreateAllways>false</CreateAllways>
+														<Required>false</Required>
+							<Replication>0</Replication>
+							<AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+															<GenerateColumnName></GenerateColumnName>
+																											</Field>
+																					<Field xsi:type="FieldDataBase">
+							<Identifier>Record/messagetypeid</Identifier>
+							<Description></Description>
+							<FieldName>messagetypeid</FieldName>
+							<NodeType>Simple</NodeType>
+							<Color>210</Color>
+							<MagicFieldType>N</MagicFieldType>
+							<MagicPicture>N7.3</MagicPicture>
+							<isUnicode>false</isUnicode>
+							
+															<SpecialUniCode>false</SpecialUniCode>
+														
+																						<ExternalFieldType>SQL_DOUBLE</ExternalFieldType>
+																						<ExternalFieldPicture>10</ExternalFieldPicture>
+														<UserPicture></UserPicture>
+							<isNillable>false</isNillable>
+														<MaxInstance>1</MaxInstance>
+							<MinInstance>0</MinInstance>
+																												<LogError>false</LogError>
+																													<StorageSize>8</StorageSize>	
+																						<StorageNum>6</StorageNum>
+														<From>0</From>
+							<Length>0</Length>
+							<CreateAllways>false</CreateAllways>
+														<Required>false</Required>
+							<Replication>0</Replication>
+							<AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+															<GenerateColumnName></GenerateColumnName>
+																											</Field>
+																					<Field xsi:type="FieldDataBase">
+							<Identifier>Record/messagestring</Identifier>
+							<Description></Description>
+							<FieldName>messagestring</FieldName>
+							<NodeType>Simple</NodeType>
+							<Color>210</Color>
+							<MagicFieldType>B</MagicFieldType>
+							<MagicPicture></MagicPicture>
+							<isUnicode>false</isUnicode>
+							
+															<SpecialUniCode>false</SpecialUniCode>
+														
+																						<ExternalFieldType>SQL_LONGVARCHAR</ExternalFieldType>
+																						<ExternalFieldPicture>65535</ExternalFieldPicture>
+														<UserPicture></UserPicture>
+							<isNillable>false</isNillable>
+														<MaxInstance>1</MaxInstance>
+							<MinInstance>0</MinInstance>
+																												<LogError>false</LogError>
+																																				<StorageNum>3</StorageNum>
+														<From>0</From>
+							<Length>0</Length>
+							<CreateAllways>false</CreateAllways>
+														<Required>false</Required>
+							<Replication>0</Replication>
+							<AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+															<GenerateColumnName>messagestring</GenerateColumnName>
+																													<Encoding>0</Encoding>
+													</Field>
+																					<Field xsi:type="FieldDataBase">
+							<Identifier>Record/userblob</Identifier>
+							<Description></Description>
+							<FieldName>userblob</FieldName>
+							<NodeType>Simple</NodeType>
+							<Color>210</Color>
+							<MagicFieldType>B</MagicFieldType>
+							<MagicPicture></MagicPicture>
+							<isUnicode>false</isUnicode>
+							
+															<SpecialUniCode>false</SpecialUniCode>
+														
+																						<ExternalFieldType>SQL_LONGVARBINARY</ExternalFieldType>
+																						<ExternalFieldPicture>16777215</ExternalFieldPicture>
+														<UserPicture></UserPicture>
+							<isNillable>true</isNillable>
+														<MaxInstance>1</MaxInstance>
+							<MinInstance>0</MinInstance>
+																												<LogError>false</LogError>
+																													<StorageSize>12</StorageSize>	
+																						<StorageNum>29</StorageNum>
+														<From>0</From>
+							<Length>0</Length>
+							<CreateAllways>false</CreateAllways>
+														<Required>false</Required>
+							<Replication>0</Replication>
+							<AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+															<GenerateColumnName></GenerateColumnName>
+																											</Field>
+																					<Field xsi:type="FieldDataBase">
+							<Identifier>Record/usercode</Identifier>
+							<Description></Description>
+							<FieldName>usercode</FieldName>
+							<NodeType>Simple</NodeType>
+							<Color>210</Color>
+							<MagicFieldType>N</MagicFieldType>
+							<MagicPicture>N7.3</MagicPicture>
+							<isUnicode>false</isUnicode>
+							
+															<SpecialUniCode>false</SpecialUniCode>
+														
+																						<ExternalFieldType>SQL_DOUBLE</ExternalFieldType>
+																						<ExternalFieldPicture>10</ExternalFieldPicture>
+														<UserPicture></UserPicture>
+							<isNillable>false</isNillable>
+														<MaxInstance>1</MaxInstance>
+							<MinInstance>0</MinInstance>
+																												<LogError>false</LogError>
+																													<StorageSize>8</StorageSize>	
+																						<StorageNum>6</StorageNum>
+														<From>0</From>
+							<Length>0</Length>
+							<CreateAllways>false</CreateAllways>
+														<Required>false</Required>
+							<Replication>0</Replication>
+							<AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+															<GenerateColumnName></GenerateColumnName>
+																											</Field>
+																					<Field xsi:type="FieldDataBase">
+							<Identifier>Record/createdate</Identifier>
+							<Description></Description>
+							<FieldName>createdate</FieldName>
+							<NodeType>Simple</NodeType>
+							<Color>210</Color>
+							<MagicFieldType>D</MagicFieldType>
+							<MagicPicture>YYYY/MM/DD</MagicPicture>
+							<isUnicode>false</isUnicode>
+							
+															<SpecialUniCode>false</SpecialUniCode>
+														
+																						<ExternalFieldType>SQL_DATE</ExternalFieldType>
+																						<ExternalFieldPicture>10</ExternalFieldPicture>
+														<UserPicture>YYYY/MM/DD</UserPicture>
+							<isNillable>false</isNillable>
+														<MaxInstance>1</MaxInstance>
+							<MinInstance>0</MinInstance>
+																												<LogError>false</LogError>
+																													<StorageSize>8</StorageSize>	
+																						<StorageNum>19</StorageNum>
+														<From>0</From>
+							<Length>0</Length>
+							<CreateAllways>false</CreateAllways>
+														<Required>false</Required>
+							<Replication>0</Replication>
+							<AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+															<GenerateColumnName>createdate</GenerateColumnName>
+																													<Encoding>0</Encoding>
+													</Field>
+																					<Field xsi:type="FieldDataBase">
+							<Identifier>Record/createtime</Identifier>
+							<Description></Description>
+							<FieldName>createtime</FieldName>
+							<NodeType>Simple</NodeType>
+							<Color>210</Color>
+							<MagicFieldType>A</MagicFieldType>
+							<MagicPicture>9</MagicPicture>
+							<isUnicode>false</isUnicode>
+							
+															<SpecialUniCode>false</SpecialUniCode>
+														
+																						<ExternalFieldType>SQL_CHAR</ExternalFieldType>
+																						<ExternalFieldPicture>9</ExternalFieldPicture>
+														<UserPicture>9</UserPicture>
+							<isNillable>false</isNillable>
+														<MaxInstance>1</MaxInstance>
+							<MinInstance>0</MinInstance>
+																												<LogError>false</LogError>
+																																				<StorageNum>3</StorageNum>
+														<From>0</From>
+							<Length>0</Length>
+							<CreateAllways>false</CreateAllways>
+														<Required>false</Required>
+							<Replication>0</Replication>
+							<AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+															<GenerateColumnName>createtime</GenerateColumnName>
+																													<Encoding>0</Encoding>
+													</Field>
+																					<Field xsi:type="FieldDataBase">
+							<Identifier>Record/objectlevel</Identifier>
+							<Description></Description>
+							<FieldName>objectlevel</FieldName>
+							<NodeType>Simple</NodeType>
+							<Color>210</Color>
+							<MagicFieldType>N</MagicFieldType>
+							<MagicPicture>N7.3</MagicPicture>
+							<isUnicode>false</isUnicode>
+							
+															<SpecialUniCode>false</SpecialUniCode>
+														
+																						<ExternalFieldType>SQL_DOUBLE</ExternalFieldType>
+																						<ExternalFieldPicture>10</ExternalFieldPicture>
+														<UserPicture></UserPicture>
+							<isNillable>false</isNillable>
+														<MaxInstance>1</MaxInstance>
+							<MinInstance>0</MinInstance>
+																												<LogError>false</LogError>
+																													<StorageSize>8</StorageSize>	
+																						<StorageNum>6</StorageNum>
+														<From>0</From>
+							<Length>0</Length>
+							<CreateAllways>false</CreateAllways>
+														<Required>false</Required>
+							<Replication>0</Replication>
+							<AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+															<GenerateColumnName></GenerateColumnName>
+																											</Field>
+																					<Field xsi:type="FieldDataBase">
+							<Identifier>Record/category</Identifier>
+							<Description></Description>
+							<FieldName>category</FieldName>
+							<NodeType>Simple</NodeType>
+							<Color>210</Color>
+							<MagicFieldType>A</MagicFieldType>
+							<MagicPicture>30</MagicPicture>
+							<isUnicode>false</isUnicode>
+							
+															<SpecialUniCode>false</SpecialUniCode>
+														
+																						<ExternalFieldType>SQL_VARCHAR</ExternalFieldType>
+																						<ExternalFieldPicture>30</ExternalFieldPicture>
+														<UserPicture></UserPicture>
+							<isNillable>false</isNillable>
+														<MaxInstance>1</MaxInstance>
+							<MinInstance>0</MinInstance>
+																												<LogError>false</LogError>
+																													<StorageSize>0</StorageSize>	
+																						<StorageNum>3</StorageNum>
+														<From>0</From>
+							<Length>0</Length>
+							<CreateAllways>false</CreateAllways>
+														<Required>false</Required>
+							<Replication>0</Replication>
+							<AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+															<GenerateColumnName></GenerateColumnName>
+																											</Field>
+																					<Field xsi:type="FieldDataBase">
+							<Identifier>Record/userkey1</Identifier>
+							<Description></Description>
+							<FieldName>userkey1</FieldName>
+							<NodeType>Simple</NodeType>
+							<Color>210</Color>
+							<MagicFieldType>A</MagicFieldType>
+							<MagicPicture>30</MagicPicture>
+							<isUnicode>false</isUnicode>
+							
+															<SpecialUniCode>false</SpecialUniCode>
+														
+																						<ExternalFieldType>SQL_VARCHAR</ExternalFieldType>
+																						<ExternalFieldPicture>30</ExternalFieldPicture>
+														<UserPicture></UserPicture>
+							<isNillable>false</isNillable>
+														<MaxInstance>1</MaxInstance>
+							<MinInstance>0</MinInstance>
+																												<LogError>false</LogError>
+																													<StorageSize>0</StorageSize>	
+																						<StorageNum>3</StorageNum>
+														<From>0</From>
+							<Length>0</Length>
+							<CreateAllways>false</CreateAllways>
+														<Required>false</Required>
+							<Replication>0</Replication>
+							<AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+															<GenerateColumnName></GenerateColumnName>
+																											</Field>
+																					<Field xsi:type="FieldDataBase">
+							<Identifier>Record/userkey2</Identifier>
+							<Description></Description>
+							<FieldName>userkey2</FieldName>
+							<NodeType>Simple</NodeType>
+							<Color>210</Color>
+							<MagicFieldType>A</MagicFieldType>
+							<MagicPicture>30</MagicPicture>
+							<isUnicode>false</isUnicode>
+							
+															<SpecialUniCode>false</SpecialUniCode>
+														
+																						<ExternalFieldType>SQL_VARCHAR</ExternalFieldType>
+																						<ExternalFieldPicture>30</ExternalFieldPicture>
+														<UserPicture></UserPicture>
+							<isNillable>false</isNillable>
+														<MaxInstance>1</MaxInstance>
+							<MinInstance>0</MinInstance>
+																												<LogError>false</LogError>
+																													<StorageSize>0</StorageSize>	
+																						<StorageNum>3</StorageNum>
+														<From>0</From>
+							<Length>0</Length>
+							<CreateAllways>false</CreateAllways>
+														<Required>false</Required>
+							<Replication>0</Replication>
+							<AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+															<GenerateColumnName></GenerateColumnName>
+																											</Field>
+																					<Field xsi:type="FieldDataBase">
+							<Identifier>Record/versionkey</Identifier>
+							<Description></Description>
+							<FieldName>versionkey</FieldName>
+							<NodeType>Simple</NodeType>
+							<Color>210</Color>
+							<MagicFieldType>A</MagicFieldType>
+							<MagicPicture>30</MagicPicture>
+							<isUnicode>false</isUnicode>
+							
+															<SpecialUniCode>false</SpecialUniCode>
+														
+																						<ExternalFieldType>SQL_VARCHAR</ExternalFieldType>
+																						<ExternalFieldPicture>30</ExternalFieldPicture>
+														<UserPicture></UserPicture>
+							<isNillable>false</isNillable>
+														<MaxInstance>1</MaxInstance>
+							<MinInstance>0</MinInstance>
+																												<LogError>false</LogError>
+																													<StorageSize>0</StorageSize>	
+																						<StorageNum>3</StorageNum>
+														<From>0</From>
+							<Length>0</Length>
+							<CreateAllways>false</CreateAllways>
+														<Required>false</Required>
+							<Replication>0</Replication>
+							<AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+															<GenerateColumnName></GenerateColumnName>
+																											</Field>
+																					<Field xsi:type="FieldDataBase">
+							<Identifier>Record/statuscode</Identifier>
+							<Description></Description>
+							<FieldName>statuscode</FieldName>
+							<NodeType>Simple</NodeType>
+							<Color>210</Color>
+							<MagicFieldType>N</MagicFieldType>
+							<MagicPicture>N7.3</MagicPicture>
+							<isUnicode>false</isUnicode>
+							
+															<SpecialUniCode>false</SpecialUniCode>
+														
+																						<ExternalFieldType>SQL_DOUBLE</ExternalFieldType>
+																						<ExternalFieldPicture>10</ExternalFieldPicture>
+														<UserPicture></UserPicture>
+							<isNillable>false</isNillable>
+														<MaxInstance>1</MaxInstance>
+							<MinInstance>0</MinInstance>
+																												<LogError>false</LogError>
+																													<StorageSize>8</StorageSize>	
+																						<StorageNum>6</StorageNum>
+														<From>0</From>
+							<Length>0</Length>
+							<CreateAllways>false</CreateAllways>
+														<Required>false</Required>
+							<Replication>0</Replication>
+							<AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+															<GenerateColumnName></GenerateColumnName>
+																											</Field>
+																					<Field xsi:type="FieldDataBase">
+							<Identifier>Record/severity</Identifier>
+							<Description></Description>
+							<FieldName>severity</FieldName>
+							<NodeType>Simple</NodeType>
+							<Color>210</Color>
+							<MagicFieldType>N</MagicFieldType>
+							<MagicPicture>N7.3</MagicPicture>
+							<isUnicode>false</isUnicode>
+							
+															<SpecialUniCode>false</SpecialUniCode>
+														
+																						<ExternalFieldType>SQL_DOUBLE</ExternalFieldType>
+																						<ExternalFieldPicture>10</ExternalFieldPicture>
+														<UserPicture></UserPicture>
+							<isNillable>false</isNillable>
+														<MaxInstance>1</MaxInstance>
+							<MinInstance>0</MinInstance>
+																												<LogError>false</LogError>
+																													<StorageSize>8</StorageSize>	
+																						<StorageNum>6</StorageNum>
+														<From>0</From>
+							<Length>0</Length>
+							<CreateAllways>false</CreateAllways>
+														<Required>false</Required>
+							<Replication>0</Replication>
+							<AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+															<GenerateColumnName></GenerateColumnName>
+																											</Field>
+																					<Field xsi:type="FieldDataBase">
+							<Identifier>Record/extension</Identifier>
+							<Description></Description>
+							<FieldName>extension</FieldName>
+							<NodeType>Simple</NodeType>
+							<Color>210</Color>
+							<MagicFieldType>A</MagicFieldType>
+							<MagicPicture>10</MagicPicture>
+							<isUnicode>false</isUnicode>
+							
+															<SpecialUniCode>false</SpecialUniCode>
+														
+																						<ExternalFieldType>SQL_VARCHAR</ExternalFieldType>
+																						<ExternalFieldPicture>10</ExternalFieldPicture>
+														<UserPicture></UserPicture>
+							<isNillable>false</isNillable>
+														<MaxInstance>1</MaxInstance>
+							<MinInstance>0</MinInstance>
+																												<LogError>false</LogError>
+																													<StorageSize>0</StorageSize>	
+																						<StorageNum>3</StorageNum>
+														<From>0</From>
+							<Length>0</Length>
+							<CreateAllways>false</CreateAllways>
+														<Required>false</Required>
+							<Replication>0</Replication>
+							<AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+															<GenerateColumnName></GenerateColumnName>
+																											</Field>
+																					<Field xsi:type="FieldDataBase">
+							<Identifier>Record/projectkey</Identifier>
+							<Description></Description>
+							<FieldName>projectkey</FieldName>
+							<NodeType>Simple</NodeType>
+							<Color>210</Color>
+							<MagicFieldType>A</MagicFieldType>
+							<MagicPicture>30</MagicPicture>
+							<isUnicode>false</isUnicode>
+							
+															<SpecialUniCode>false</SpecialUniCode>
+														
+																						<ExternalFieldType>SQL_VARCHAR</ExternalFieldType>
+																						<ExternalFieldPicture>30</ExternalFieldPicture>
+														<UserPicture></UserPicture>
+							<isNillable>false</isNillable>
+														<MaxInstance>1</MaxInstance>
+							<MinInstance>0</MinInstance>
+																												<LogError>false</LogError>
+																													<StorageSize>0</StorageSize>	
+																						<StorageNum>3</StorageNum>
+														<From>0</From>
+							<Length>0</Length>
+							<CreateAllways>false</CreateAllways>
+														<Required>false</Required>
+							<Replication>0</Replication>
+							<AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+															<GenerateColumnName></GenerateColumnName>
+																											</Field>
+																					<Field xsi:type="FieldDataBase">
+							<Identifier>Record/blobexists</Identifier>
+							<Description></Description>
+							<FieldName>blobexists</FieldName>
+							<NodeType>Simple</NodeType>
+							<Color>210</Color>
+							<MagicFieldType>N</MagicFieldType>
+							<MagicPicture>N5</MagicPicture>
+							<isUnicode>false</isUnicode>
+							
+															<SpecialUniCode>false</SpecialUniCode>
+														
+																						<ExternalFieldType>SQL_SMALLINT</ExternalFieldType>
+																						<ExternalFieldPicture>5</ExternalFieldPicture>
+														<UserPicture></UserPicture>
+							<isNillable>false</isNillable>
+														<MaxInstance>1</MaxInstance>
+							<MinInstance>0</MinInstance>
+																												<LogError>false</LogError>
+																													<StorageSize>2</StorageSize>	
+																						<StorageNum>4</StorageNum>
+														<From>0</From>
+							<Length>0</Length>
+							<CreateAllways>false</CreateAllways>
+														<Required>false</Required>
+							<Replication>0</Replication>
+							<AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+															<GenerateColumnName></GenerateColumnName>
+																											</Field>
+														</Fields>
+						
+								
+										<DB>
+					<DBResource>Magicxpi</DBResource>
+					<DynamicSQL>false</DynamicSQL>
+																									<SQLStatement>
+								<ExpressionVal>U0VMRUNUICAqIEZST00gbWFnaWNYUElkYi5pZnNfYWN0bG9nCndoZXJlIGZsb3dpZCA9IDE5IGFuZCBicGlkPTEgYW5kIG1lc3NhZ2V0eXBlaWQ9NSBvcmRlciBieSBjcmVhdGVkYXRlIGRlc2MsY3JlYXRldGltZSBkZXNjIGxpbWl0IDE=</ExpressionVal>
+								<ExpectedType>B</ExpectedType>
+								<Direction>I</Direction>
+					</SQLStatement>
+					<GenerateTableName></GenerateTableName>
+				</DB>
+																																			
+										
+															</Schema>
+		
+				
+		
+		</SourceSchemas>
+				<DestinationSchemas>
+		
+		
+				
+		<Schema xsi:type="VariableSchema">
+		<SchemaID>4</SchemaID>
+		<Order>1</Order>
+		<Name>D1</Name>
+				<SchemaLocation>Destination</SchemaLocation>
+		<SchemaType>Variable</SchemaType>
+		
+									<Fields>
+															<Field xsi:type="ComplexField">
+							<Identifier>4</Identifier>
+							<Description></Description>
+							<FieldName>Instance</FieldName>
+							<NodeType>Complex</NodeType>
+							<Color>210</Color>
+							<MagicFieldType></MagicFieldType>
+							<MagicPicture></MagicPicture>
+							<isUnicode>false</isUnicode>
+							
+														
+																												<UserPicture></UserPicture>
+							<isNillable>false</isNillable>
+														<Condition>
+								<ExpressionVal>PCMhJUAkPmdldE5vZGVOYW1lKDMvUmVjb3JkL0RhdGEgQmFzZSBOYW1lKTwjISVAJD4gPSAgRW52VmFsKCdNeXNxbERCTmFtZScp</ExpressionVal>
+								<ExpectedType>L</ExpectedType>
+								<Direction>I</Direction>
+							</Condition>
+														<MaxInstance>0</MaxInstance>
+							<MinInstance>0</MinInstance>
+																												<LogError>false</LogError>
+																																			<From>0</From>
+							<Length>0</Length>
+							<CreateAllways>false</CreateAllways>
+														<Required>false</Required>
+							<Replication>0</Replication>
+							<AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+																													<Encoding>0</Encoding>
+													</Field>
+																					<Field xsi:type="FieldVariable">
+							<Identifier>{32B6230D-332E-4FE5-B73C-B18E717896E3}</Identifier>
+							<Description></Description>
+							<FieldName>F.LastJDEOrderInfo</FieldName>
+							<NodeType>Simple</NodeType>
+							<Color>210</Color>
+							<MagicFieldType>A</MagicFieldType>
+							<MagicPicture>300</MagicPicture>
+							<isUnicode>false</isUnicode>
+							
+														
+														<Expression>
+								<ExpressionVal>PCMhJUAkPmdldE5vZGVOYW1lKDMvUmVjb3JkL21lc3NhZ2VzdHJpbmcpPCMhJUAkPiAmJyAnJiA8IyElQCQ+Z2V0Tm9kZU5hbWUoMy9SZWNvcmQvY3JlYXRldGltZSk8IyElQCQ+ICYgJyAnJiA8IyElQCQ+Z2V0Tm9kZU5hbWUoMy9SZWNvcmQvY3JlYXRldGltZSk8IyElQCQ+</ExpressionVal>
+								<ExpectedType>A</ExpectedType>
+								<Direction>I</Direction>
+							</Expression>
+																												<UserPicture>300</UserPicture>
+							<isNillable>false</isNillable>
+														<MaxInstance>1</MaxInstance>
+							<MinInstance>0</MinInstance>
+																												<LogError>false</LogError>
+																																			<From>0</From>
+							<Length>0</Length>
+							<CreateAllways>false</CreateAllways>
+														<Required>false</Required>
+							<Replication>0</Replication>
+							<AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+																													<Encoding>1</Encoding>
+													</Field>
+														</Fields>
+						
+								
+																									<Variables>
+				<Variables>
+																		<Variable>
+								<VarGUID>{32B6230D-332E-4FE5-B73C-B18E717896E3}</VarGUID>
+							</Variable>
+															</Variables>
+			</Variables>	
+														
+										
+															</Schema>
+		
+				
+		
+		</DestinationSchemas>
+			
+				<Connections>
+														<ConnectionData>
+						<SourceIdentifier>Record</SourceIdentifier>
+						<SourceSchemaID>3</SourceSchemaID>
+						<DestinationIdentifier>4</DestinationIdentifier>
+						<DestinationSchemaID>4</DestinationSchemaID>
+					</ConnectionData>
+																			<ConnectionData>
+						<SourceIdentifier>Record/createdate</SourceIdentifier>
+						<SourceSchemaID>3</SourceSchemaID>
+						<DestinationIdentifier>{32B6230D-332E-4FE5-B73C-B18E717896E3}</DestinationIdentifier>
+						<DestinationSchemaID>4</DestinationSchemaID>
+					</ConnectionData>
+																			<ConnectionData>
+						<SourceIdentifier>Record/createtime</SourceIdentifier>
+						<SourceSchemaID>3</SourceSchemaID>
+						<DestinationIdentifier>{32B6230D-332E-4FE5-B73C-B18E717896E3}</DestinationIdentifier>
+						<DestinationSchemaID>4</DestinationSchemaID>
+					</ConnectionData>
+																			<ConnectionData>
+						<SourceIdentifier>Record/messagestring</SourceIdentifier>
+						<SourceSchemaID>3</SourceSchemaID>
+						<DestinationIdentifier>{32B6230D-332E-4FE5-B73C-B18E717896E3}</DestinationIdentifier>
+						<DestinationSchemaID>4</DestinationSchemaID>
+					</ConnectionData>
+												</Connections>
+	  <ColorNames>
+    <MapperColorItem>
+      <Color>203</Color>
+      <ColorDescription>Blue</ColorDescription>
+    </MapperColorItem>
+    <MapperColorItem>
+      <Color>205</Color>
+      <ColorDescription>Green</ColorDescription>
+    </MapperColorItem>
+    <MapperColorItem>
+      <Color>206</Color>
+      <ColorDescription>Purple</ColorDescription>
+    </MapperColorItem>
+    <MapperColorItem>
+      <Color>204</Color>
+      <ColorDescription>Yellow</ColorDescription>
+    </MapperColorItem>
+    <MapperColorItem>
+      <Color>202</Color>
+      <ColorDescription>Red</ColorDescription>
+    </MapperColorItem>
+    <MapperColorItem>
+      <Color>210</Color>
+      <ColorDescription>Default</ColorDescription>
+    </MapperColorItem>
+  </ColorNames>
+</Mapper>

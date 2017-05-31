@@ -1,0 +1,1127 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<xs:schema targetNamespace="http://oracle.e1.bssv.JP010000/" xmlns:map="http://systinet.com/mapping/" xmlns:ns0="http://oracle.e1.bssv.JP010000/" xmlns:sns0="http://www.w3.org/2001/XMLSchema" xmlns:sns1="http://oracle.e1.bssv.JP010000/" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <xs:import namespace="http://www.w3.org/2001/XMLSchema"/>
+
+  <xsd:complexType name="getAddressBookV2">
+    <xsd:annotation>
+      <xsd:appinfo>
+        <map:java-type name="com_magicsoftware_edeveloper_MAGICXPI_19122016_193203__GetAddressBookRecord.GetAddressBookV2"/>
+      </xsd:appinfo>
+    </xsd:annotation>
+    <xsd:complexContent>
+      <xsd:extension base="ns0:valueObject">
+        <xsd:sequence>
+          <xsd:element form="unqualified" map:java-field="address" minOccurs="0" name="address" nillable="false" type="ns0:getAddress"/>
+          <xsd:element form="unqualified" map:java-field="businessUnit" minOccurs="0" name="businessUnit" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="categoryCodesAddressBook" minOccurs="0" name="categoryCodesAddressBook" nillable="false" type="ns0:categoryCodesAddressBook"/>
+          <xsd:element form="unqualified" map:java-field="entity" minOccurs="0" name="entity" nillable="false" type="ns0:entity"/>
+          <xsd:element form="unqualified" map:java-field="entityName" minOccurs="0" name="entityName" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="entityTypeCode" minOccurs="0" name="entityTypeCode" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="globalLocatorNumber" minOccurs="0" name="globalLocatorNumber" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="industryClassificationCode" minOccurs="0" name="industryClassificationCode" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="languageCode" minOccurs="0" name="languageCode" nillable="false" type="xsd:string"/>
+        </xsd:sequence>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+
+  <xsd:complexType name="contactRecord">
+    <xsd:annotation>
+      <xsd:appinfo>
+        <map:java-type name="com_magicsoftware_edeveloper_MAGICXPI_19122016_193203__GetAddressBookRecord.ContactRecord"/>
+      </xsd:appinfo>
+    </xsd:annotation>
+    <xsd:complexContent>
+      <xsd:extension base="ns0:getContact">
+        <xsd:sequence>
+          <xsd:element form="unqualified" map:java-field="alternateAddress" maxOccurs="unbounded" minOccurs="0" name="alternateAddress" nillable="true" type="ns0:alternateAddressRecord"/>
+          <xsd:element form="unqualified" map:java-field="electronicAddress" maxOccurs="unbounded" minOccurs="0" name="electronicAddress" nillable="true" type="ns0:electronicAddressRecord"/>
+          <xsd:element form="unqualified" map:java-field="phone" maxOccurs="unbounded" minOccurs="0" name="phone" nillable="true" type="ns0:phoneNumberRecord"/>
+        </xsd:sequence>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+
+  <xsd:complexType name="confirmProcessAddressBook">
+    <xsd:annotation>
+      <xsd:appinfo>
+        <map:java-type name="com_magicsoftware_edeveloper_MAGICXPI_19122016_193203__GetAddressBookRecord.ConfirmProcessAddressBook"/>
+      </xsd:appinfo>
+    </xsd:annotation>
+    <xsd:complexContent>
+      <xsd:extension base="ns0:messageValueObject">
+        <xsd:sequence>
+          <xsd:element form="unqualified" map:java-field="address" minOccurs="0" name="address" nillable="false" type="ns0:address"/>
+          <xsd:element form="unqualified" map:java-field="businessUnit" minOccurs="0" name="businessUnit" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="electronicAddresses" maxOccurs="unbounded" minOccurs="0" name="electronicAddresses" nillable="true" type="ns0:electronicAddress"/>
+          <xsd:element form="unqualified" map:java-field="entity" minOccurs="0" name="entity" nillable="false" type="ns0:entity"/>
+          <xsd:element form="unqualified" map:java-field="entityName" minOccurs="0" name="entityName" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="entityTypeCode" minOccurs="0" name="entityTypeCode" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="languageCode" minOccurs="0" name="languageCode" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="phoneNumbers" maxOccurs="unbounded" minOccurs="0" name="phoneNumbers" nillable="true" type="ns0:phoneNumber"/>
+        </xsd:sequence>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+
+  <xsd:complexType name="phoneNumberRecord">
+    <xsd:annotation>
+      <xsd:appinfo>
+        <map:java-type name="com_magicsoftware_edeveloper_MAGICXPI_19122016_193203__GetAddressBookRecord.PhoneNumberRecord"/>
+      </xsd:appinfo>
+    </xsd:annotation>
+    <xsd:complexContent>
+      <xsd:extension base="ns0:valueObject">
+        <xsd:sequence>
+          <xsd:element form="unqualified" map:java-field="areaCode" minOccurs="0" name="areaCode" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="contactId" minOccurs="0" name="contactId" nillable="false" type="xsd:int"/>
+          <xsd:element form="unqualified" map:java-field="phoneLineNumber" minOccurs="0" name="phoneLineNumber" nillable="false" type="xsd:int"/>
+          <xsd:element form="unqualified" map:java-field="phoneNumber" minOccurs="0" name="phoneNumber" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="phoneTypeCode" minOccurs="0" name="phoneTypeCode" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="relatedPersonId" minOccurs="0" name="relatedPersonId" nillable="false" type="xsd:int"/>
+        </xsd:sequence>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+
+  <xsd:complexType name="entity">
+    <xsd:annotation>
+      <xsd:appinfo>
+        <map:java-type name="com_magicsoftware_edeveloper_MAGICXPI_19122016_193203__GetAddressBookRecord.Entity"/>
+      </xsd:appinfo>
+    </xsd:annotation>
+    <xsd:complexContent>
+      <xsd:extension base="ns0:valueObject">
+        <xsd:sequence>
+          <xsd:element form="unqualified" map:java-field="entityId" minOccurs="0" name="entityId" nillable="false" type="xsd:int"/>
+          <xsd:element form="unqualified" map:java-field="entityLongId" minOccurs="0" name="entityLongId" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="entityTaxId" minOccurs="0" name="entityTaxId" nillable="false" type="xsd:string"/>
+        </xsd:sequence>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+
+  <xsd:complexType name="messageValueObject">
+    <xsd:annotation>
+      <xsd:appinfo>
+        <map:java-type name="com_magicsoftware_edeveloper_MAGICXPI_19122016_193203__GetAddressBookRecord.MessageValueObject"/>
+      </xsd:appinfo>
+    </xsd:annotation>
+    <xsd:complexContent>
+      <xsd:extension base="ns0:valueObject">
+        <xsd:sequence>
+          <xsd:element form="unqualified" map:java-field="e1MessageList" minOccurs="0" name="e1MessageList" nillable="false" type="ns0:e1MessageList"/>
+        </xsd:sequence>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+
+  <xsd:complexType name="stock">
+    <xsd:annotation>
+      <xsd:appinfo>
+        <map:java-type name="com_magicsoftware_edeveloper_MAGICXPI_19122016_193203__GetAddressBookRecord.Stock"/>
+      </xsd:appinfo>
+    </xsd:annotation>
+    <xsd:complexContent>
+      <xsd:extension base="ns0:valueObject">
+        <xsd:sequence>
+          <xsd:element form="unqualified" map:java-field="stockExchange" minOccurs="0" name="stockExchange" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="stockTickerSymbol" minOccurs="0" name="stockTickerSymbol" nillable="false" type="xsd:string"/>
+        </xsd:sequence>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+
+  <xsd:complexType name="e1MessageList">
+    <xsd:annotation>
+      <xsd:appinfo>
+        <map:java-type name="[Lcom_magicsoftware_edeveloper_MAGICXPI_19122016_193203__GetAddressBookRecord.E1Message;"/>
+      </xsd:appinfo>
+    </xsd:annotation>
+    <xsd:sequence>
+      <xsd:element form="unqualified" maxOccurs="unbounded" minOccurs="0" name="e1Messages" nillable="true" type="ns0:e1Message"/>
+    </xsd:sequence>
+  </xsd:complexType>
+
+  <xsd:complexType name="confirmProcessAddressBookV2">
+    <xsd:annotation>
+      <xsd:appinfo>
+        <map:java-type name="com_magicsoftware_edeveloper_MAGICXPI_19122016_193203__GetAddressBookRecord.ConfirmProcessAddressBookV2"/>
+      </xsd:appinfo>
+    </xsd:annotation>
+    <xsd:complexContent>
+      <xsd:extension base="ns0:messageValueObject">
+        <xsd:sequence>
+          <xsd:element form="unqualified" map:java-field="address" minOccurs="0" name="address" nillable="false" type="ns0:address"/>
+          <xsd:element form="unqualified" map:java-field="businessUnit" minOccurs="0" name="businessUnit" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="electronicAddresses" maxOccurs="unbounded" minOccurs="0" name="electronicAddresses" nillable="true" type="ns0:electronicAddress"/>
+          <xsd:element form="unqualified" map:java-field="entity" minOccurs="0" name="entity" nillable="false" type="ns0:entity"/>
+          <xsd:element form="unqualified" map:java-field="entityName" minOccurs="0" name="entityName" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="entityTypeCode" minOccurs="0" name="entityTypeCode" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="globalLocatorNumber" minOccurs="0" name="globalLocatorNumber" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="languageCode" minOccurs="0" name="languageCode" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="phoneNumbers" maxOccurs="unbounded" minOccurs="0" name="phoneNumbers" nillable="true" type="ns0:phoneNumber"/>
+        </xsd:sequence>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+
+  <xsd:complexType name="phoneNumber">
+    <xsd:annotation>
+      <xsd:appinfo>
+        <map:java-type name="com_magicsoftware_edeveloper_MAGICXPI_19122016_193203__GetAddressBookRecord.PhoneNumber"/>
+      </xsd:appinfo>
+    </xsd:annotation>
+    <xsd:complexContent>
+      <xsd:extension base="ns0:valueObject">
+        <xsd:sequence>
+          <xsd:element form="unqualified" map:java-field="actionType" minOccurs="0" name="actionType" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="areaCode" minOccurs="0" name="areaCode" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="contactId" minOccurs="0" name="contactId" nillable="false" type="xsd:int"/>
+          <xsd:element form="unqualified" map:java-field="phoneLineNumber" minOccurs="0" name="phoneLineNumber" nillable="false" type="xsd:int"/>
+          <xsd:element form="unqualified" map:java-field="phoneNumber" minOccurs="0" name="phoneNumber" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="phoneTypeCode" minOccurs="0" name="phoneTypeCode" nillable="false" type="xsd:string"/>
+        </xsd:sequence>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+
+  <xsd:complexType name="processContact">
+    <xsd:annotation>
+      <xsd:appinfo>
+        <map:java-type name="com_magicsoftware_edeveloper_MAGICXPI_19122016_193203__GetAddressBookRecord.ProcessContact"/>
+      </xsd:appinfo>
+    </xsd:annotation>
+    <xsd:complexContent>
+      <xsd:extension base="ns0:valueObject">
+        <xsd:sequence>
+          <xsd:element form="unqualified" map:java-field="contact" minOccurs="0" name="contact" nillable="false" type="ns0:contact"/>
+        </xsd:sequence>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+
+  <xsd:complexType name="lookupAddressBook">
+    <xsd:annotation>
+      <xsd:appinfo>
+        <map:java-type name="com_magicsoftware_edeveloper_MAGICXPI_19122016_193203__GetAddressBookRecord.LookupAddressBook"/>
+      </xsd:appinfo>
+    </xsd:annotation>
+    <xsd:complexContent>
+      <xsd:extension base="ns0:valueObject">
+        <xsd:sequence>
+          <xsd:element form="unqualified" map:java-field="categoryCodesAddressBook" minOccurs="0" name="categoryCodesAddressBook" nillable="false" type="ns0:categoryCodesAddressBook"/>
+          <xsd:element form="unqualified" map:java-field="enityTypeCode" minOccurs="0" name="enityTypeCode" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="entity" minOccurs="0" name="entity" nillable="false" type="ns0:entity"/>
+          <xsd:element form="unqualified" map:java-field="entityName" minOccurs="0" name="entityName" nillable="false" type="xsd:string"/>
+        </xsd:sequence>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+
+  <xsd:complexType name="processAddressBook">
+    <xsd:annotation>
+      <xsd:appinfo>
+        <map:java-type name="com_magicsoftware_edeveloper_MAGICXPI_19122016_193203__GetAddressBookRecord.ProcessAddressBook"/>
+      </xsd:appinfo>
+    </xsd:annotation>
+    <xsd:complexContent>
+      <xsd:extension base="ns0:valueObject">
+        <xsd:sequence>
+          <xsd:element form="unqualified" map:java-field="addressBook" minOccurs="0" name="addressBook" nillable="false" type="ns0:addressBook"/>
+        </xsd:sequence>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+
+  <xsd:complexType name="processing">
+    <xsd:annotation>
+      <xsd:appinfo>
+        <map:java-type name="com_magicsoftware_edeveloper_MAGICXPI_19122016_193203__GetAddressBookRecord.Processing"/>
+      </xsd:appinfo>
+    </xsd:annotation>
+    <xsd:complexContent>
+      <xsd:extension base="ns0:valueObject">
+        <xsd:sequence>
+          <xsd:element form="unqualified" map:java-field="actionType" minOccurs="0" name="actionType" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="processingVersion" minOccurs="0" name="processingVersion" nillable="false" type="xsd:string"/>
+        </xsd:sequence>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+
+  <xsd:complexType name="getAddressBook">
+    <xsd:annotation>
+      <xsd:appinfo>
+        <map:java-type name="com_magicsoftware_edeveloper_MAGICXPI_19122016_193203__GetAddressBookRecord.GetAddressBook"/>
+      </xsd:appinfo>
+    </xsd:annotation>
+    <xsd:complexContent>
+      <xsd:extension base="ns0:valueObject">
+        <xsd:sequence>
+          <xsd:element form="unqualified" map:java-field="address" minOccurs="0" name="address" nillable="false" type="ns0:getAddress"/>
+          <xsd:element form="unqualified" map:java-field="businessUnit" minOccurs="0" name="businessUnit" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="categoryCodesAddressBook" minOccurs="0" name="categoryCodesAddressBook" nillable="false" type="ns0:categoryCodesAddressBook"/>
+          <xsd:element form="unqualified" map:java-field="entity" minOccurs="0" name="entity" nillable="false" type="ns0:entity"/>
+          <xsd:element form="unqualified" map:java-field="entityName" minOccurs="0" name="entityName" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="entityTypeCode" minOccurs="0" name="entityTypeCode" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="industryClassificationCode" minOccurs="0" name="industryClassificationCode" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="languageCode" minOccurs="0" name="languageCode" nillable="false" type="xsd:string"/>
+        </xsd:sequence>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+
+  <xsd:complexType name="getAddress">
+    <xsd:annotation>
+      <xsd:appinfo>
+        <map:java-type name="com_magicsoftware_edeveloper_MAGICXPI_19122016_193203__GetAddressBookRecord.GetAddress"/>
+      </xsd:appinfo>
+    </xsd:annotation>
+    <xsd:complexContent>
+      <xsd:extension base="ns0:valueObject">
+        <xsd:sequence>
+          <xsd:element form="unqualified" map:java-field="countryCode" minOccurs="0" name="countryCode" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="countyCode" minOccurs="0" name="countyCode" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="postalCode" minOccurs="0" name="postalCode" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="stateCode" minOccurs="0" name="stateCode" nillable="false" type="xsd:string"/>
+        </xsd:sequence>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+
+  <xsd:complexType name="showLookupAddressBook">
+    <xsd:annotation>
+      <xsd:appinfo>
+        <map:java-type name="com_magicsoftware_edeveloper_MAGICXPI_19122016_193203__GetAddressBookRecord.ShowLookupAddressBook"/>
+      </xsd:appinfo>
+    </xsd:annotation>
+    <xsd:complexContent>
+      <xsd:extension base="ns0:messageValueObject">
+        <xsd:sequence>
+          <xsd:element form="unqualified" map:java-field="lookupAddressBookResult" maxOccurs="unbounded" minOccurs="0" name="lookupAddressBookResult" nillable="true" type="ns0:lookupAddressBookResult"/>
+        </xsd:sequence>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+
+  <xsd:complexType name="showStatistics">
+    <xsd:annotation>
+      <xsd:appinfo>
+        <map:java-type name="com_magicsoftware_edeveloper_MAGICXPI_19122016_193203__GetAddressBookRecord.ShowStatistics"/>
+      </xsd:appinfo>
+    </xsd:annotation>
+    <xsd:complexContent>
+      <xsd:extension base="ns0:statistics">
+        <xsd:sequence>
+          <xsd:element form="unqualified" map:java-field="glBankAccount" minOccurs="0" name="glBankAccount" nillable="false" type="xsd:string"/>
+        </xsd:sequence>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+
+  <xsd:complexType name="showContactV2">
+    <xsd:annotation>
+      <xsd:appinfo>
+        <map:java-type name="com_magicsoftware_edeveloper_MAGICXPI_19122016_193203__GetAddressBookRecord.ShowContactV2"/>
+      </xsd:appinfo>
+    </xsd:annotation>
+    <xsd:complexContent>
+      <xsd:extension base="ns0:messageValueObject">
+        <xsd:sequence>
+          <xsd:element form="unqualified" map:java-field="contactRecord" maxOccurs="unbounded" minOccurs="0" name="contactRecord" nillable="true" type="ns0:contactRecordV2"/>
+        </xsd:sequence>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+
+  <xsd:complexType name="alternateAddress">
+    <xsd:annotation>
+      <xsd:appinfo>
+        <map:java-type name="com_magicsoftware_edeveloper_MAGICXPI_19122016_193203__GetAddressBookRecord.AlternateAddress"/>
+      </xsd:appinfo>
+    </xsd:annotation>
+    <xsd:complexContent>
+      <xsd:extension base="ns0:valueObject">
+        <xsd:sequence>
+          <xsd:element form="unqualified" map:java-field="actionType" minOccurs="0" name="actionType" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="addressLine1" minOccurs="0" name="addressLine1" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="addressLine2" minOccurs="0" name="addressLine2" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="addressLine3" minOccurs="0" name="addressLine3" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="addressLine4" minOccurs="0" name="addressLine4" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="city" minOccurs="0" name="city" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="contactAddressTypeCode" minOccurs="0" name="contactAddressTypeCode" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="contactId" minOccurs="0" name="contactId" nillable="false" type="xsd:int"/>
+          <xsd:element form="unqualified" map:java-field="countryCode" minOccurs="0" name="countryCode" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="countyCode" minOccurs="0" name="countyCode" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="dateEffective" minOccurs="0" name="dateEffective" nillable="false" type="xsd:dateTime"/>
+          <xsd:element form="unqualified" map:java-field="mainAddressFlagCode" minOccurs="0" name="mainAddressFlagCode" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="postalCode" minOccurs="0" name="postalCode" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="stateCode" minOccurs="0" name="stateCode" nillable="false" type="xsd:string"/>
+        </xsd:sequence>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+
+  <xsd:complexType name="showAddressBook">
+    <xsd:annotation>
+      <xsd:appinfo>
+        <map:java-type name="com_magicsoftware_edeveloper_MAGICXPI_19122016_193203__GetAddressBookRecord.ShowAddressBook"/>
+      </xsd:appinfo>
+    </xsd:annotation>
+    <xsd:complexContent>
+      <xsd:extension base="ns0:messageValueObject">
+        <xsd:sequence>
+          <xsd:element form="unqualified" map:java-field="addressBookResult" maxOccurs="unbounded" minOccurs="0" name="addressBookResult" nillable="true" type="ns0:addressBookResult"/>
+        </xsd:sequence>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+
+  <xsd:complexType name="parent">
+    <xsd:annotation>
+      <xsd:appinfo>
+        <map:java-type name="com_magicsoftware_edeveloper_MAGICXPI_19122016_193203__GetAddressBookRecord.Parent"/>
+      </xsd:appinfo>
+    </xsd:annotation>
+    <xsd:complexContent>
+      <xsd:extension base="ns0:valueObject">
+        <xsd:sequence>
+          <xsd:element form="unqualified" map:java-field="entityIdParent" minOccurs="0" name="entityIdParent" nillable="false" type="xsd:int"/>
+          <xsd:element form="unqualified" map:java-field="parentStructureTypeCode" minOccurs="0" name="parentStructureTypeCode" nillable="false" type="xsd:string"/>
+        </xsd:sequence>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+
+  <xsd:complexType name="getContact">
+    <xsd:annotation>
+      <xsd:appinfo>
+        <map:java-type name="com_magicsoftware_edeveloper_MAGICXPI_19122016_193203__GetAddressBookRecord.GetContact"/>
+      </xsd:appinfo>
+    </xsd:annotation>
+    <xsd:complexContent>
+      <xsd:extension base="ns0:valueObject">
+        <xsd:sequence>
+          <xsd:element form="unqualified" map:java-field="categoryCodesContact" minOccurs="0" name="categoryCodesContact" nillable="false" type="ns0:categoryCodesContact"/>
+          <xsd:element form="unqualified" map:java-field="contacTypeCode" minOccurs="0" name="contacTypeCode" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="contactID" minOccurs="0" name="contactID" nillable="false" type="xsd:int"/>
+          <xsd:element form="unqualified" map:java-field="contactTitle" minOccurs="0" name="contactTitle" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="dayOfBirth" minOccurs="0" name="dayOfBirth" nillable="false" type="xsd:int"/>
+          <xsd:element form="unqualified" map:java-field="description1" minOccurs="0" name="description1" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="displaySequence" minOccurs="0" name="displaySequence" nillable="false" type="xsd:decimal"/>
+          <xsd:element form="unqualified" map:java-field="entity" minOccurs="0" name="entity" nillable="false" type="ns0:entity"/>
+          <xsd:element form="unqualified" map:java-field="entityNameContact" minOccurs="0" name="entityNameContact" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="entityNameSecondary" minOccurs="0" name="entityNameSecondary" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="functionCode" minOccurs="0" name="functionCode" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="genderCode" minOccurs="0" name="genderCode" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="giveName" minOccurs="0" name="giveName" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="mailingNameSecondary" minOccurs="0" name="mailingNameSecondary" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="middleName" minOccurs="0" name="middleName" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="monthOfBirth" minOccurs="0" name="monthOfBirth" nillable="false" type="xsd:int"/>
+          <xsd:element form="unqualified" map:java-field="nameMailing" minOccurs="0" name="nameMailing" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="nickName" minOccurs="0" name="nickName" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="preferredContactMethod" minOccurs="0" name="preferredContactMethod" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="primaryContactCode" minOccurs="0" name="primaryContactCode" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="remark" minOccurs="0" name="remark" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="salutationName" minOccurs="0" name="salutationName" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="surname" minOccurs="0" name="surname" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="typeCode" minOccurs="0" name="typeCode" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="yearOfBirth" minOccurs="0" name="yearOfBirth" nillable="false" type="xsd:int"/>
+        </xsd:sequence>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+
+  <xsd:complexType name="addressBook">
+    <xsd:annotation>
+      <xsd:appinfo>
+        <map:java-type name="com_magicsoftware_edeveloper_MAGICXPI_19122016_193203__GetAddressBookRecord.AddressBook"/>
+      </xsd:appinfo>
+    </xsd:annotation>
+    <xsd:complexContent>
+      <xsd:extension base="ns0:valueObject">
+        <xsd:sequence>
+          <xsd:element form="unqualified" map:java-field="address" minOccurs="0" name="address" nillable="false" type="ns0:address"/>
+          <xsd:element form="unqualified" map:java-field="businessUnit" minOccurs="0" name="businessUnit" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="callSalesTeamAlignment" minOccurs="0" name="callSalesTeamAlignment" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="categoryCodesAddressBook" minOccurs="0" name="categoryCodesAddressBook" nillable="false" type="ns0:categoryCodesAddressBook"/>
+          <xsd:element form="unqualified" map:java-field="classifications" minOccurs="0" name="classifications" nillable="false" type="ns0:classifications"/>
+          <xsd:element form="unqualified" map:java-field="creditMessageCode" minOccurs="0" name="creditMessageCode" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="electronicAddresses" maxOccurs="unbounded" minOccurs="0" name="electronicAddresses" nillable="true" type="ns0:electronicAddress"/>
+          <xsd:element form="unqualified" map:java-field="employeeGroupApprovalsCode" minOccurs="0" name="employeeGroupApprovalsCode" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="entity" minOccurs="0" name="entity" nillable="false" type="ns0:entity"/>
+          <xsd:element form="unqualified" map:java-field="entityName" minOccurs="0" name="entityName" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="entityNameSecondary" minOccurs="0" name="entityNameSecondary" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="entityTaxIdAdditional" minOccurs="0" name="entityTaxIdAdditional" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="entityTypeCode" minOccurs="0" name="entityTypeCode" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="industryClassificationCode" minOccurs="0" name="industryClassificationCode" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="isEntityTypeEmployee" minOccurs="0" name="isEntityTypeEmployee" nillable="false" type="xsd:boolean"/>
+          <xsd:element form="unqualified" map:java-field="isEntityTypeNettingIndicator" minOccurs="0" name="isEntityTypeNettingIndicator" nillable="false" type="xsd:boolean"/>
+          <xsd:element form="unqualified" map:java-field="isEntityTypePayables" minOccurs="0" name="isEntityTypePayables" nillable="false" type="xsd:boolean"/>
+          <xsd:element form="unqualified" map:java-field="isEntityTypePurchaser" minOccurs="0" name="isEntityTypePurchaser" nillable="false" type="xsd:boolean"/>
+          <xsd:element form="unqualified" map:java-field="isEntityTypeReceivables" minOccurs="0" name="isEntityTypeReceivables" nillable="false" type="xsd:boolean"/>
+          <xsd:element form="unqualified" map:java-field="languageCode" minOccurs="0" name="languageCode" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="parent" minOccurs="0" name="parent" nillable="false" type="ns0:entity"/>
+          <xsd:element form="unqualified" map:java-field="personCorporationCode" minOccurs="0" name="personCorporationCode" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="phoneNumbers" maxOccurs="unbounded" minOccurs="0" name="phoneNumbers" nillable="true" type="ns0:phoneNumber"/>
+          <xsd:element form="unqualified" map:java-field="processing" minOccurs="0" name="processing" nillable="false" type="ns0:processing"/>
+          <xsd:element form="unqualified" map:java-field="relatedAddress1" minOccurs="0" name="relatedAddress1" nillable="false" type="ns0:entity"/>
+          <xsd:element form="unqualified" map:java-field="relatedAddress2" minOccurs="0" name="relatedAddress2" nillable="false" type="ns0:entity"/>
+          <xsd:element form="unqualified" map:java-field="relatedAddress3" minOccurs="0" name="relatedAddress3" nillable="false" type="ns0:entity"/>
+          <xsd:element form="unqualified" map:java-field="relatedAddress4" minOccurs="0" name="relatedAddress4" nillable="false" type="ns0:entity"/>
+          <xsd:element form="unqualified" map:java-field="relatedAddress5" minOccurs="0" name="relatedAddress5" nillable="false" type="ns0:entity"/>
+          <xsd:element form="unqualified" map:java-field="relatedAddress6" minOccurs="0" name="relatedAddress6" nillable="false" type="ns0:entity"/>
+          <xsd:element form="unqualified" map:java-field="remark" minOccurs="0" name="remark" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="statistics" minOccurs="0" name="statistics" nillable="false" type="ns0:statistics"/>
+          <xsd:element form="unqualified" map:java-field="stock" minOccurs="0" name="stock" nillable="false" type="ns0:stock"/>
+          <xsd:element form="unqualified" map:java-field="taxExemptCertificate" minOccurs="0" name="taxExemptCertificate" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="userReservedData" minOccurs="0" name="userReservedData" nillable="false" type="ns0:userReservedData"/>
+        </xsd:sequence>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+
+  <xsd:complexType name="lookupAddressBookResult">
+    <xsd:annotation>
+      <xsd:appinfo>
+        <map:java-type name="com_magicsoftware_edeveloper_MAGICXPI_19122016_193203__GetAddressBookRecord.LookupAddressBookResult"/>
+      </xsd:appinfo>
+    </xsd:annotation>
+    <xsd:complexContent>
+      <xsd:extension base="ns0:messageValueObject">
+        <xsd:sequence>
+          <xsd:element form="unqualified" map:java-field="categoryCodesAddressBook" minOccurs="0" name="categoryCodesAddressBook" nillable="false" type="ns0:categoryCodesAddressBook"/>
+          <xsd:element form="unqualified" map:java-field="entity" minOccurs="0" name="entity" nillable="false" type="ns0:entity"/>
+          <xsd:element form="unqualified" map:java-field="entityName" minOccurs="0" name="entityName" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="entityTypeCode" minOccurs="0" name="entityTypeCode" nillable="false" type="xsd:string"/>
+        </xsd:sequence>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+
+  <xsd:complexType name="valueObject">
+    <xsd:annotation>
+      <xsd:appinfo>
+        <map:java-type name="com_magicsoftware_edeveloper_MAGICXPI_19122016_193203__GetAddressBookRecord.ValueObject"/>
+      </xsd:appinfo>
+    </xsd:annotation>
+    <xsd:sequence/>
+  </xsd:complexType>
+
+  <xsd:complexType name="categoryCodesContact">
+    <xsd:annotation>
+      <xsd:appinfo>
+        <map:java-type name="com_magicsoftware_edeveloper_MAGICXPI_19122016_193203__GetAddressBookRecord.CategoryCodesContact"/>
+      </xsd:appinfo>
+    </xsd:annotation>
+    <xsd:complexContent>
+      <xsd:extension base="ns0:valueObject">
+        <xsd:sequence>
+          <xsd:element form="unqualified" map:java-field="categoryCode001" minOccurs="0" name="categoryCode001" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="categoryCode002" minOccurs="0" name="categoryCode002" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="categoryCode003" minOccurs="0" name="categoryCode003" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="categoryCode004" minOccurs="0" name="categoryCode004" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="categoryCode005" minOccurs="0" name="categoryCode005" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="categoryCode006" minOccurs="0" name="categoryCode006" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="categoryCode007" minOccurs="0" name="categoryCode007" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="categoryCode008" minOccurs="0" name="categoryCode008" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="categoryCode009" minOccurs="0" name="categoryCode009" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="categoryCode010" minOccurs="0" name="categoryCode010" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="categoryCode011" minOccurs="0" name="categoryCode011" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="categoryCode012" minOccurs="0" name="categoryCode012" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="categoryCode013" minOccurs="0" name="categoryCode013" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="categoryCode014" minOccurs="0" name="categoryCode014" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="categoryCode015" minOccurs="0" name="categoryCode015" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="categoryCode016" minOccurs="0" name="categoryCode016" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="categoryCode017" minOccurs="0" name="categoryCode017" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="categoryCode018" minOccurs="0" name="categoryCode018" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="categoryCode019" minOccurs="0" name="categoryCode019" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="categoryCode020" minOccurs="0" name="categoryCode020" nillable="false" type="xsd:string"/>
+        </xsd:sequence>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+
+  <xsd:complexType name="showContact">
+    <xsd:annotation>
+      <xsd:appinfo>
+        <map:java-type name="com_magicsoftware_edeveloper_MAGICXPI_19122016_193203__GetAddressBookRecord.ShowContact"/>
+      </xsd:appinfo>
+    </xsd:annotation>
+    <xsd:complexContent>
+      <xsd:extension base="ns0:messageValueObject">
+        <xsd:sequence>
+          <xsd:element form="unqualified" map:java-field="contactRecord" maxOccurs="unbounded" minOccurs="0" name="contactRecord" nillable="true" type="ns0:contactRecord"/>
+        </xsd:sequence>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+
+  <xsd:complexType name="processAddressBookV2">
+    <xsd:annotation>
+      <xsd:appinfo>
+        <map:java-type name="com_magicsoftware_edeveloper_MAGICXPI_19122016_193203__GetAddressBookRecord.ProcessAddressBookV2"/>
+      </xsd:appinfo>
+    </xsd:annotation>
+    <xsd:complexContent>
+      <xsd:extension base="ns0:valueObject">
+        <xsd:sequence>
+          <xsd:element form="unqualified" map:java-field="addressBook" minOccurs="0" name="addressBook" nillable="false" type="ns0:addressBookV2"/>
+        </xsd:sequence>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+
+  <xsd:complexType name="categoryCodesAddressBook">
+    <xsd:annotation>
+      <xsd:appinfo>
+        <map:java-type name="com_magicsoftware_edeveloper_MAGICXPI_19122016_193203__GetAddressBookRecord.CategoryCodesAddressBook"/>
+      </xsd:appinfo>
+    </xsd:annotation>
+    <xsd:complexContent>
+      <xsd:extension base="ns0:valueObject">
+        <xsd:sequence>
+          <xsd:element form="unqualified" map:java-field="categoryCode001" minOccurs="0" name="categoryCode001" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="categoryCode002" minOccurs="0" name="categoryCode002" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="categoryCode003" minOccurs="0" name="categoryCode003" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="categoryCode004" minOccurs="0" name="categoryCode004" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="categoryCode005" minOccurs="0" name="categoryCode005" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="categoryCode006" minOccurs="0" name="categoryCode006" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="categoryCode007" minOccurs="0" name="categoryCode007" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="categoryCode008" minOccurs="0" name="categoryCode008" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="categoryCode009" minOccurs="0" name="categoryCode009" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="categoryCode010" minOccurs="0" name="categoryCode010" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="categoryCode011" minOccurs="0" name="categoryCode011" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="categoryCode012" minOccurs="0" name="categoryCode012" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="categoryCode013" minOccurs="0" name="categoryCode013" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="categoryCode014" minOccurs="0" name="categoryCode014" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="categoryCode015" minOccurs="0" name="categoryCode015" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="categoryCode016" minOccurs="0" name="categoryCode016" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="categoryCode017" minOccurs="0" name="categoryCode017" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="categoryCode018" minOccurs="0" name="categoryCode018" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="categoryCode019" minOccurs="0" name="categoryCode019" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="categoryCode020" minOccurs="0" name="categoryCode020" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="categoryCode021" minOccurs="0" name="categoryCode021" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="categoryCode022" minOccurs="0" name="categoryCode022" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="categoryCode023" minOccurs="0" name="categoryCode023" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="categoryCode024" minOccurs="0" name="categoryCode024" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="categoryCode025" minOccurs="0" name="categoryCode025" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="categoryCode026" minOccurs="0" name="categoryCode026" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="categoryCode027" minOccurs="0" name="categoryCode027" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="categoryCode028" minOccurs="0" name="categoryCode028" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="categoryCode029" minOccurs="0" name="categoryCode029" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="categoryCode030" minOccurs="0" name="categoryCode030" nillable="false" type="xsd:string"/>
+        </xsd:sequence>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+
+  <xsd:complexType name="showAddressBookV2">
+    <xsd:annotation>
+      <xsd:appinfo>
+        <map:java-type name="com_magicsoftware_edeveloper_MAGICXPI_19122016_193203__GetAddressBookRecord.ShowAddressBookV2"/>
+      </xsd:appinfo>
+    </xsd:annotation>
+    <xsd:complexContent>
+      <xsd:extension base="ns0:messageValueObject">
+        <xsd:sequence>
+          <xsd:element form="unqualified" map:java-field="addressBookResult" maxOccurs="unbounded" minOccurs="0" name="addressBookResult" nillable="true" type="ns0:addressBookResultV2"/>
+        </xsd:sequence>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+
+  <xsd:complexType name="contactRecordV2">
+    <xsd:annotation>
+      <xsd:appinfo>
+        <map:java-type name="com_magicsoftware_edeveloper_MAGICXPI_19122016_193203__GetAddressBookRecord.ContactRecordV2"/>
+      </xsd:appinfo>
+    </xsd:annotation>
+    <xsd:complexContent>
+      <xsd:extension base="ns0:getContactV2">
+        <xsd:sequence>
+          <xsd:element form="unqualified" map:java-field="alternateAddress" maxOccurs="unbounded" minOccurs="0" name="alternateAddress" nillable="true" type="ns0:alternateAddressRecord"/>
+          <xsd:element form="unqualified" map:java-field="electronicAddress" maxOccurs="unbounded" minOccurs="0" name="electronicAddress" nillable="true" type="ns0:electronicAddressRecord"/>
+          <xsd:element form="unqualified" map:java-field="phone" maxOccurs="unbounded" minOccurs="0" name="phone" nillable="true" type="ns0:phoneNumberRecord"/>
+        </xsd:sequence>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+
+  <xsd:complexType name="userReservedData">
+    <xsd:annotation>
+      <xsd:appinfo>
+        <map:java-type name="com_magicsoftware_edeveloper_MAGICXPI_19122016_193203__GetAddressBookRecord.UserReservedData"/>
+      </xsd:appinfo>
+    </xsd:annotation>
+    <xsd:complexContent>
+      <xsd:extension base="ns0:valueObject">
+        <xsd:sequence>
+          <xsd:element form="unqualified" map:java-field="userReservedAmount" minOccurs="0" name="userReservedAmount" nillable="false" type="xsd:decimal"/>
+          <xsd:element form="unqualified" map:java-field="userReservedCode" minOccurs="0" name="userReservedCode" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="userReservedDate" minOccurs="0" name="userReservedDate" nillable="false" type="xsd:dateTime"/>
+          <xsd:element form="unqualified" map:java-field="userReservedNumber" minOccurs="0" name="userReservedNumber" nillable="false" type="xsd:int"/>
+          <xsd:element form="unqualified" map:java-field="userReservedReference" minOccurs="0" name="userReservedReference" nillable="false" type="xsd:string"/>
+        </xsd:sequence>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+
+  <xsd:complexType name="addressBookResultV2">
+    <xsd:annotation>
+      <xsd:appinfo>
+        <map:java-type name="com_magicsoftware_edeveloper_MAGICXPI_19122016_193203__GetAddressBookRecord.AddressBookResultV2"/>
+      </xsd:appinfo>
+    </xsd:annotation>
+    <xsd:complexContent>
+      <xsd:extension base="ns0:valueObject">
+        <xsd:sequence>
+          <xsd:element form="unqualified" map:java-field="address" minOccurs="0" name="address" nillable="false" type="ns0:address"/>
+          <xsd:element form="unqualified" map:java-field="businessUnit" minOccurs="0" name="businessUnit" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="categoryCodesAddressBook" minOccurs="0" name="categoryCodesAddressBook" nillable="false" type="ns0:categoryCodesAddressBook"/>
+          <xsd:element form="unqualified" map:java-field="classifications" minOccurs="0" name="classifications" nillable="false" type="ns0:classifications"/>
+          <xsd:element form="unqualified" map:java-field="creditMessageCode" minOccurs="0" name="creditMessageCode" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="description1" minOccurs="0" name="description1" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="electronicAddresses" maxOccurs="unbounded" minOccurs="0" name="electronicAddresses" nillable="true" type="ns0:electronicAddressRecord"/>
+          <xsd:element form="unqualified" map:java-field="employeeGroupApprovalsCode" minOccurs="0" name="employeeGroupApprovalsCode" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="entity" minOccurs="0" name="entity" nillable="false" type="ns0:entity"/>
+          <xsd:element form="unqualified" map:java-field="entityName" minOccurs="0" name="entityName" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="entityNameSecondary" minOccurs="0" name="entityNameSecondary" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="entityTaxIdAdditional" minOccurs="0" name="entityTaxIdAdditional" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="entityTypeCode" minOccurs="0" name="entityTypeCode" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="globalLocatorNumber" minOccurs="0" name="globalLocatorNumber" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="industryClassificationCode" minOccurs="0" name="industryClassificationCode" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="isEntityType3" minOccurs="0" name="isEntityType3" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="isEntityType4" minOccurs="0" name="isEntityType4" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="isEntityType5" minOccurs="0" name="isEntityType5" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="isEntityTypeEmployee" minOccurs="0" name="isEntityTypeEmployee" nillable="false" type="xsd:boolean"/>
+          <xsd:element form="unqualified" map:java-field="isEntityTypeNettingIndicator" minOccurs="0" name="isEntityTypeNettingIndicator" nillable="false" type="xsd:boolean"/>
+          <xsd:element form="unqualified" map:java-field="isEntityTypePayables" minOccurs="0" name="isEntityTypePayables" nillable="false" type="xsd:boolean"/>
+          <xsd:element form="unqualified" map:java-field="isEntityTypePurchaser" minOccurs="0" name="isEntityTypePurchaser" nillable="false" type="xsd:boolean"/>
+          <xsd:element form="unqualified" map:java-field="isEntityTypeReceivables" minOccurs="0" name="isEntityTypeReceivables" nillable="false" type="xsd:boolean"/>
+          <xsd:element form="unqualified" map:java-field="languageCode" minOccurs="0" name="languageCode" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="parents" maxOccurs="unbounded" minOccurs="0" name="parents" nillable="true" type="ns0:parent"/>
+          <xsd:element form="unqualified" map:java-field="personCorporationCode" minOccurs="0" name="personCorporationCode" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="phoneNumbers" maxOccurs="unbounded" minOccurs="0" name="phoneNumbers" nillable="true" type="ns0:phoneNumberRecord"/>
+          <xsd:element form="unqualified" map:java-field="relatedAddress" minOccurs="0" name="relatedAddress" nillable="false" type="ns0:relatedAddress"/>
+          <xsd:element form="unqualified" map:java-field="remark" minOccurs="0" name="remark" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="statistics" minOccurs="0" name="statistics" nillable="false" type="ns0:showStatistics"/>
+          <xsd:element form="unqualified" map:java-field="stock" minOccurs="0" name="stock" nillable="false" type="ns0:stock"/>
+          <xsd:element form="unqualified" map:java-field="subledgerInactiveCode" minOccurs="0" name="subledgerInactiveCode" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="taxExemptCertificate" minOccurs="0" name="taxExemptCertificate" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="userReservedData" minOccurs="0" name="userReservedData" nillable="false" type="ns0:userReservedData"/>
+        </xsd:sequence>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+
+  <xsd:complexType name="electronicAddressRecord">
+    <xsd:annotation>
+      <xsd:appinfo>
+        <map:java-type name="com_magicsoftware_edeveloper_MAGICXPI_19122016_193203__GetAddressBookRecord.ElectronicAddressRecord"/>
+      </xsd:appinfo>
+    </xsd:annotation>
+    <xsd:complexContent>
+      <xsd:extension base="ns0:valueObject">
+        <xsd:sequence>
+          <xsd:element form="unqualified" map:java-field="contactId" minOccurs="0" name="contactId" nillable="false" type="xsd:int"/>
+          <xsd:element form="unqualified" map:java-field="electronicAddress" minOccurs="0" name="electronicAddress" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="electronicAddressClassificationCode" minOccurs="0" name="electronicAddressClassificationCode" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="electronicAddressLineNumber" minOccurs="0" name="electronicAddressLineNumber" nillable="false" type="xsd:int"/>
+          <xsd:element form="unqualified" map:java-field="electronicAddressTypeCode" minOccurs="0" name="electronicAddressTypeCode" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="messageIndicatorCode" minOccurs="0" name="messageIndicatorCode" nillable="false" type="xsd:int"/>
+        </xsd:sequence>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+
+  <xsd:complexType name="classifications">
+    <xsd:annotation>
+      <xsd:appinfo>
+        <map:java-type name="com_magicsoftware_edeveloper_MAGICXPI_19122016_193203__GetAddressBookRecord.Classifications"/>
+      </xsd:appinfo>
+    </xsd:annotation>
+    <xsd:complexContent>
+      <xsd:extension base="ns0:valueObject">
+        <xsd:sequence>
+          <xsd:element form="unqualified" map:java-field="classificationCode001" minOccurs="0" name="classificationCode001" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="classificationCode002" minOccurs="0" name="classificationCode002" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="classificationCode003" minOccurs="0" name="classificationCode003" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="classificationCode004" minOccurs="0" name="classificationCode004" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="classificationCode005" minOccurs="0" name="classificationCode005" nillable="false" type="xsd:string"/>
+        </xsd:sequence>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+
+  <xsd:complexType name="alternateAddressRecord">
+    <xsd:annotation>
+      <xsd:appinfo>
+        <map:java-type name="com_magicsoftware_edeveloper_MAGICXPI_19122016_193203__GetAddressBookRecord.AlternateAddressRecord"/>
+      </xsd:appinfo>
+    </xsd:annotation>
+    <xsd:complexContent>
+      <xsd:extension base="ns0:valueObject">
+        <xsd:sequence>
+          <xsd:element form="unqualified" map:java-field="addressLine1" minOccurs="0" name="addressLine1" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="addressLine2" minOccurs="0" name="addressLine2" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="addressLine3" minOccurs="0" name="addressLine3" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="addressLine4" minOccurs="0" name="addressLine4" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="city" minOccurs="0" name="city" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="contactAddressTypeCode" minOccurs="0" name="contactAddressTypeCode" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="countryCode" minOccurs="0" name="countryCode" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="countyCode" minOccurs="0" name="countyCode" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="dateEffective" minOccurs="0" name="dateEffective" nillable="false" type="xsd:dateTime"/>
+          <xsd:element form="unqualified" map:java-field="mainAddressFlagCode" minOccurs="0" name="mainAddressFlagCode" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="postalCode" minOccurs="0" name="postalCode" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="stateCode" minOccurs="0" name="stateCode" nillable="false" type="xsd:string"/>
+        </xsd:sequence>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+
+  <xsd:complexType name="contact">
+    <xsd:annotation>
+      <xsd:appinfo>
+        <map:java-type name="com_magicsoftware_edeveloper_MAGICXPI_19122016_193203__GetAddressBookRecord.Contact"/>
+      </xsd:appinfo>
+    </xsd:annotation>
+    <xsd:complexContent>
+      <xsd:extension base="ns0:valueObject">
+        <xsd:sequence>
+          <xsd:element form="unqualified" map:java-field="alternateAddresses" maxOccurs="unbounded" minOccurs="0" name="alternateAddresses" nillable="true" type="ns0:alternateAddress"/>
+          <xsd:element form="unqualified" map:java-field="categoryCodesContact" minOccurs="0" name="categoryCodesContact" nillable="false" type="ns0:categoryCodesContact"/>
+          <xsd:element form="unqualified" map:java-field="contactId" minOccurs="0" name="contactId" nillable="false" type="xsd:int"/>
+          <xsd:element form="unqualified" map:java-field="contactTitle" minOccurs="0" name="contactTitle" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="contactTypeCode" minOccurs="0" name="contactTypeCode" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="dayOfBirth" minOccurs="0" name="dayOfBirth" nillable="false" type="xsd:int"/>
+          <xsd:element form="unqualified" map:java-field="description1" minOccurs="0" name="description1" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="displaySequence" minOccurs="0" name="displaySequence" nillable="false" type="xsd:decimal"/>
+          <xsd:element form="unqualified" map:java-field="electronicAddresses" maxOccurs="unbounded" minOccurs="0" name="electronicAddresses" nillable="true" type="ns0:electronicAddress"/>
+          <xsd:element form="unqualified" map:java-field="entity" minOccurs="0" name="entity" nillable="false" type="ns0:entity"/>
+          <xsd:element form="unqualified" map:java-field="entityNameContact" minOccurs="0" name="entityNameContact" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="entityNameSecondary" minOccurs="0" name="entityNameSecondary" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="functionCode" minOccurs="0" name="functionCode" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="genderCode" minOccurs="0" name="genderCode" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="givenName" minOccurs="0" name="givenName" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="mailingName" minOccurs="0" name="mailingName" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="mailingNameSecondary" minOccurs="0" name="mailingNameSecondary" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="middleName" minOccurs="0" name="middleName" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="monthOfBirth" minOccurs="0" name="monthOfBirth" nillable="false" type="xsd:int"/>
+          <xsd:element form="unqualified" map:java-field="nickName" minOccurs="0" name="nickName" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="phoneNumbers" maxOccurs="unbounded" minOccurs="0" name="phoneNumbers" nillable="true" type="ns0:phoneNumber"/>
+          <xsd:element form="unqualified" map:java-field="preferredContactMethodCode" minOccurs="0" name="preferredContactMethodCode" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="primaryContactCode" minOccurs="0" name="primaryContactCode" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="processing" minOccurs="0" name="processing" nillable="false" type="ns0:processing"/>
+          <xsd:element form="unqualified" map:java-field="remark" minOccurs="0" name="remark" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="salutationName" minOccurs="0" name="salutationName" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="surname" minOccurs="0" name="surname" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="typeCode" minOccurs="0" name="typeCode" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="yearOfBirth" minOccurs="0" name="yearOfBirth" nillable="false" type="xsd:int"/>
+        </xsd:sequence>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+
+  <xsd:complexType name="statistics">
+    <xsd:annotation>
+      <xsd:appinfo>
+        <map:java-type name="com_magicsoftware_edeveloper_MAGICXPI_19122016_193203__GetAddressBookRecord.Statistics"/>
+      </xsd:appinfo>
+    </xsd:annotation>
+    <xsd:complexContent>
+      <xsd:extension base="ns0:valueObject">
+        <xsd:sequence>
+          <xsd:element form="unqualified" map:java-field="dunBradStreetId" minOccurs="0" name="dunBradStreetId" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="numberOfEmployees" minOccurs="0" name="numberOfEmployees" nillable="false" type="xsd:int"/>
+          <xsd:element form="unqualified" map:java-field="rateGrowth" minOccurs="0" name="rateGrowth" nillable="false" type="xsd:int"/>
+          <xsd:element form="unqualified" map:java-field="revenueRangeCode" minOccurs="0" name="revenueRangeCode" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="yearCompanyFounded" minOccurs="0" name="yearCompanyFounded" nillable="false" type="xsd:string"/>
+        </xsd:sequence>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+
+  <xsd:complexType name="addressBookV2">
+    <xsd:annotation>
+      <xsd:appinfo>
+        <map:java-type name="com_magicsoftware_edeveloper_MAGICXPI_19122016_193203__GetAddressBookRecord.AddressBookV2"/>
+      </xsd:appinfo>
+    </xsd:annotation>
+    <xsd:complexContent>
+      <xsd:extension base="ns0:valueObject">
+        <xsd:sequence>
+          <xsd:element form="unqualified" map:java-field="address" minOccurs="0" name="address" nillable="false" type="ns0:address"/>
+          <xsd:element form="unqualified" map:java-field="businessUnit" minOccurs="0" name="businessUnit" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="callSalesTeamAlignment" minOccurs="0" name="callSalesTeamAlignment" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="categoryCodesAddressBook" minOccurs="0" name="categoryCodesAddressBook" nillable="false" type="ns0:categoryCodesAddressBook"/>
+          <xsd:element form="unqualified" map:java-field="classifications" minOccurs="0" name="classifications" nillable="false" type="ns0:classifications"/>
+          <xsd:element form="unqualified" map:java-field="creditMessageCode" minOccurs="0" name="creditMessageCode" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="electronicAddresses" maxOccurs="unbounded" minOccurs="0" name="electronicAddresses" nillable="true" type="ns0:electronicAddress"/>
+          <xsd:element form="unqualified" map:java-field="employeeGroupApprovalsCode" minOccurs="0" name="employeeGroupApprovalsCode" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="entity" minOccurs="0" name="entity" nillable="false" type="ns0:entity"/>
+          <xsd:element form="unqualified" map:java-field="entityName" minOccurs="0" name="entityName" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="entityNameSecondary" minOccurs="0" name="entityNameSecondary" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="entityTaxIdAdditional" minOccurs="0" name="entityTaxIdAdditional" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="entityTypeCode" minOccurs="0" name="entityTypeCode" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="globalLocatorNumber" minOccurs="0" name="globalLocatorNumber" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="industryClassificationCode" minOccurs="0" name="industryClassificationCode" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="isEntityTypeEmployee" minOccurs="0" name="isEntityTypeEmployee" nillable="false" type="xsd:boolean"/>
+          <xsd:element form="unqualified" map:java-field="isEntityTypeNettingIndicator" minOccurs="0" name="isEntityTypeNettingIndicator" nillable="false" type="xsd:boolean"/>
+          <xsd:element form="unqualified" map:java-field="isEntityTypePayables" minOccurs="0" name="isEntityTypePayables" nillable="false" type="xsd:boolean"/>
+          <xsd:element form="unqualified" map:java-field="isEntityTypePurchaser" minOccurs="0" name="isEntityTypePurchaser" nillable="false" type="xsd:boolean"/>
+          <xsd:element form="unqualified" map:java-field="isEntityTypeReceivables" minOccurs="0" name="isEntityTypeReceivables" nillable="false" type="xsd:boolean"/>
+          <xsd:element form="unqualified" map:java-field="languageCode" minOccurs="0" name="languageCode" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="parent" minOccurs="0" name="parent" nillable="false" type="ns0:entity"/>
+          <xsd:element form="unqualified" map:java-field="personCorporationCode" minOccurs="0" name="personCorporationCode" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="phoneNumbers" maxOccurs="unbounded" minOccurs="0" name="phoneNumbers" nillable="true" type="ns0:phoneNumber"/>
+          <xsd:element form="unqualified" map:java-field="processing" minOccurs="0" name="processing" nillable="false" type="ns0:processing"/>
+          <xsd:element form="unqualified" map:java-field="relatedAddress1" minOccurs="0" name="relatedAddress1" nillable="false" type="ns0:entity"/>
+          <xsd:element form="unqualified" map:java-field="relatedAddress2" minOccurs="0" name="relatedAddress2" nillable="false" type="ns0:entity"/>
+          <xsd:element form="unqualified" map:java-field="relatedAddress3" minOccurs="0" name="relatedAddress3" nillable="false" type="ns0:entity"/>
+          <xsd:element form="unqualified" map:java-field="relatedAddress4" minOccurs="0" name="relatedAddress4" nillable="false" type="ns0:entity"/>
+          <xsd:element form="unqualified" map:java-field="relatedAddress5" minOccurs="0" name="relatedAddress5" nillable="false" type="ns0:entity"/>
+          <xsd:element form="unqualified" map:java-field="relatedAddress6" minOccurs="0" name="relatedAddress6" nillable="false" type="ns0:entity"/>
+          <xsd:element form="unqualified" map:java-field="remark" minOccurs="0" name="remark" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="statistics" minOccurs="0" name="statistics" nillable="false" type="ns0:statistics"/>
+          <xsd:element form="unqualified" map:java-field="stock" minOccurs="0" name="stock" nillable="false" type="ns0:stock"/>
+          <xsd:element form="unqualified" map:java-field="taxExemptCertificate" minOccurs="0" name="taxExemptCertificate" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="userReservedData" minOccurs="0" name="userReservedData" nillable="false" type="ns0:userReservedData"/>
+        </xsd:sequence>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+
+  <xsd:complexType name="relatedAddress">
+    <xsd:annotation>
+      <xsd:appinfo>
+        <map:java-type name="com_magicsoftware_edeveloper_MAGICXPI_19122016_193203__GetAddressBookRecord.RelatedAddress"/>
+      </xsd:appinfo>
+    </xsd:annotation>
+    <xsd:complexContent>
+      <xsd:extension base="ns0:valueObject">
+        <xsd:sequence>
+          <xsd:element form="unqualified" map:java-field="entityIdRelated1" minOccurs="0" name="entityIdRelated1" nillable="false" type="xsd:int"/>
+          <xsd:element form="unqualified" map:java-field="entityIdRelated2" minOccurs="0" name="entityIdRelated2" nillable="false" type="xsd:int"/>
+          <xsd:element form="unqualified" map:java-field="entityIdRelated3" minOccurs="0" name="entityIdRelated3" nillable="false" type="xsd:int"/>
+          <xsd:element form="unqualified" map:java-field="entityIdRelated4" minOccurs="0" name="entityIdRelated4" nillable="false" type="xsd:int"/>
+          <xsd:element form="unqualified" map:java-field="entityIdRelated5" minOccurs="0" name="entityIdRelated5" nillable="false" type="xsd:int"/>
+          <xsd:element form="unqualified" map:java-field="entityIdRelated6" minOccurs="0" name="entityIdRelated6" nillable="false" type="xsd:int"/>
+        </xsd:sequence>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+
+  <xsd:complexType name="getContactV2">
+    <xsd:annotation>
+      <xsd:appinfo>
+        <map:java-type name="com_magicsoftware_edeveloper_MAGICXPI_19122016_193203__GetAddressBookRecord.GetContactV2"/>
+      </xsd:appinfo>
+    </xsd:annotation>
+    <xsd:complexContent>
+      <xsd:extension base="ns0:valueObject">
+        <xsd:sequence>
+          <xsd:element form="unqualified" map:java-field="categoryCodesContact" minOccurs="0" name="categoryCodesContact" nillable="false" type="ns0:categoryCodesContact"/>
+          <xsd:element form="unqualified" map:java-field="contactID" minOccurs="0" name="contactID" nillable="false" type="xsd:int"/>
+          <xsd:element form="unqualified" map:java-field="contactTitle" minOccurs="0" name="contactTitle" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="contactTypeCode" minOccurs="0" name="contactTypeCode" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="dayOfBirth" minOccurs="0" name="dayOfBirth" nillable="false" type="xsd:int"/>
+          <xsd:element form="unqualified" map:java-field="description1" minOccurs="0" name="description1" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="displaySequence" minOccurs="0" name="displaySequence" nillable="false" type="xsd:decimal"/>
+          <xsd:element form="unqualified" map:java-field="entity" minOccurs="0" name="entity" nillable="false" type="ns0:entity"/>
+          <xsd:element form="unqualified" map:java-field="entityNameContact" minOccurs="0" name="entityNameContact" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="entityNameSecondary" minOccurs="0" name="entityNameSecondary" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="functionCode" minOccurs="0" name="functionCode" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="genderCode" minOccurs="0" name="genderCode" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="giveName" minOccurs="0" name="giveName" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="mailingNameSecondary" minOccurs="0" name="mailingNameSecondary" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="middleName" minOccurs="0" name="middleName" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="monthOfBirth" minOccurs="0" name="monthOfBirth" nillable="false" type="xsd:int"/>
+          <xsd:element form="unqualified" map:java-field="nameMailing" minOccurs="0" name="nameMailing" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="nickName" minOccurs="0" name="nickName" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="preferredContactMethod" minOccurs="0" name="preferredContactMethod" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="primaryContactCode" minOccurs="0" name="primaryContactCode" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="remark" minOccurs="0" name="remark" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="salutationName" minOccurs="0" name="salutationName" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="surname" minOccurs="0" name="surname" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="typeCode" minOccurs="0" name="typeCode" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="yearOfBirth" minOccurs="0" name="yearOfBirth" nillable="false" type="xsd:int"/>
+        </xsd:sequence>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+
+  <xsd:complexType name="electronicAddress">
+    <xsd:annotation>
+      <xsd:appinfo>
+        <map:java-type name="com_magicsoftware_edeveloper_MAGICXPI_19122016_193203__GetAddressBookRecord.ElectronicAddress"/>
+      </xsd:appinfo>
+    </xsd:annotation>
+    <xsd:complexContent>
+      <xsd:extension base="ns0:valueObject">
+        <xsd:sequence>
+          <xsd:element form="unqualified" map:java-field="actionType" minOccurs="0" name="actionType" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="contactId" minOccurs="0" name="contactId" nillable="false" type="xsd:int"/>
+          <xsd:element form="unqualified" map:java-field="electronicAddress" minOccurs="0" name="electronicAddress" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="electronicAddressClassificationCode" minOccurs="0" name="electronicAddressClassificationCode" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="electronicAddressLineNumber" minOccurs="0" name="electronicAddressLineNumber" nillable="false" type="xsd:int"/>
+          <xsd:element form="unqualified" map:java-field="electronicAddressTypeCode" minOccurs="0" name="electronicAddressTypeCode" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="messageIndicatorCode" minOccurs="0" name="messageIndicatorCode" nillable="false" type="xsd:int"/>
+        </xsd:sequence>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+
+  <xsd:complexType name="addressBookResult">
+    <xsd:annotation>
+      <xsd:appinfo>
+        <map:java-type name="com_magicsoftware_edeveloper_MAGICXPI_19122016_193203__GetAddressBookRecord.AddressBookResult"/>
+      </xsd:appinfo>
+    </xsd:annotation>
+    <xsd:complexContent>
+      <xsd:extension base="ns0:valueObject">
+        <xsd:sequence>
+          <xsd:element form="unqualified" map:java-field="address" minOccurs="0" name="address" nillable="false" type="ns0:address"/>
+          <xsd:element form="unqualified" map:java-field="businessUnit" minOccurs="0" name="businessUnit" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="categoryCodesAddressBook" minOccurs="0" name="categoryCodesAddressBook" nillable="false" type="ns0:categoryCodesAddressBook"/>
+          <xsd:element form="unqualified" map:java-field="classifications" minOccurs="0" name="classifications" nillable="false" type="ns0:classifications"/>
+          <xsd:element form="unqualified" map:java-field="creditMessageCode" minOccurs="0" name="creditMessageCode" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="description1" minOccurs="0" name="description1" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="electronicAddresses" maxOccurs="unbounded" minOccurs="0" name="electronicAddresses" nillable="true" type="ns0:electronicAddressRecord"/>
+          <xsd:element form="unqualified" map:java-field="employeeGroupApprovalsCode" minOccurs="0" name="employeeGroupApprovalsCode" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="entity" minOccurs="0" name="entity" nillable="false" type="ns0:entity"/>
+          <xsd:element form="unqualified" map:java-field="entityName" minOccurs="0" name="entityName" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="entityNameSecondary" minOccurs="0" name="entityNameSecondary" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="entityTaxIdAdditional" minOccurs="0" name="entityTaxIdAdditional" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="entityTypeCode" minOccurs="0" name="entityTypeCode" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="industryClassificationCode" minOccurs="0" name="industryClassificationCode" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="isEntityType3" minOccurs="0" name="isEntityType3" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="isEntityType4" minOccurs="0" name="isEntityType4" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="isEntityType5" minOccurs="0" name="isEntityType5" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="isEntityTypeEmployee" minOccurs="0" name="isEntityTypeEmployee" nillable="false" type="xsd:boolean"/>
+          <xsd:element form="unqualified" map:java-field="isEntityTypeNettingIndicator" minOccurs="0" name="isEntityTypeNettingIndicator" nillable="false" type="xsd:boolean"/>
+          <xsd:element form="unqualified" map:java-field="isEntityTypePayables" minOccurs="0" name="isEntityTypePayables" nillable="false" type="xsd:boolean"/>
+          <xsd:element form="unqualified" map:java-field="isEntityTypePurchaser" minOccurs="0" name="isEntityTypePurchaser" nillable="false" type="xsd:boolean"/>
+          <xsd:element form="unqualified" map:java-field="isEntityTypeReceivables" minOccurs="0" name="isEntityTypeReceivables" nillable="false" type="xsd:boolean"/>
+          <xsd:element form="unqualified" map:java-field="languageCode" minOccurs="0" name="languageCode" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="parents" maxOccurs="unbounded" minOccurs="0" name="parents" nillable="true" type="ns0:parent"/>
+          <xsd:element form="unqualified" map:java-field="personCorporationCode" minOccurs="0" name="personCorporationCode" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="phoneNumbers" maxOccurs="unbounded" minOccurs="0" name="phoneNumbers" nillable="true" type="ns0:phoneNumberRecord"/>
+          <xsd:element form="unqualified" map:java-field="relatedAddress" minOccurs="0" name="relatedAddress" nillable="false" type="ns0:relatedAddress"/>
+          <xsd:element form="unqualified" map:java-field="remark" minOccurs="0" name="remark" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="statistics" minOccurs="0" name="statistics" nillable="false" type="ns0:showStatistics"/>
+          <xsd:element form="unqualified" map:java-field="stock" minOccurs="0" name="stock" nillable="false" type="ns0:stock"/>
+          <xsd:element form="unqualified" map:java-field="subledgerInactiveCode" minOccurs="0" name="subledgerInactiveCode" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="taxExemptCertificate" minOccurs="0" name="taxExemptCertificate" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="userReservedData" minOccurs="0" name="userReservedData" nillable="false" type="ns0:userReservedData"/>
+        </xsd:sequence>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+
+  <xsd:complexType name="confirmProcessContact">
+    <xsd:annotation>
+      <xsd:appinfo>
+        <map:java-type name="com_magicsoftware_edeveloper_MAGICXPI_19122016_193203__GetAddressBookRecord.ConfirmProcessContact"/>
+      </xsd:appinfo>
+    </xsd:annotation>
+    <xsd:complexContent>
+      <xsd:extension base="ns0:messageValueObject">
+        <xsd:sequence>
+          <xsd:element form="unqualified" map:java-field="alternateAddresses" maxOccurs="unbounded" minOccurs="0" name="alternateAddresses" nillable="true" type="ns0:alternateAddress"/>
+          <xsd:element form="unqualified" map:java-field="contactId" minOccurs="0" name="contactId" nillable="false" type="xsd:int"/>
+          <xsd:element form="unqualified" map:java-field="electronicAddresses" maxOccurs="unbounded" minOccurs="0" name="electronicAddresses" nillable="true" type="ns0:electronicAddress"/>
+          <xsd:element form="unqualified" map:java-field="entityID" minOccurs="0" name="entityID" nillable="false" type="xsd:int"/>
+          <xsd:element form="unqualified" map:java-field="phoneNumbers" maxOccurs="unbounded" minOccurs="0" name="phoneNumbers" nillable="true" type="ns0:phoneNumber"/>
+        </xsd:sequence>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+
+  <xsd:complexType name="BusinessServiceException">
+    <xsd:annotation>
+      <xsd:appinfo>
+        <map:java-type name="com_magicsoftware_edeveloper_MAGICXPI_19122016_193203__GetAddressBookRecord.BusinessServiceException"/>
+      </xsd:appinfo>
+    </xsd:annotation>
+    <xsd:sequence>
+      <xsd:element form="unqualified" minOccurs="0" name="message" nillable="false" type="xsd:string"/>
+      <xsd:element form="unqualified" minOccurs="0" name="requestID" nillable="false" type="xsd:string"/>
+    </xsd:sequence>
+  </xsd:complexType>
+
+  <xsd:complexType name="e1Message">
+    <xsd:annotation>
+      <xsd:appinfo>
+        <map:java-type name="com_magicsoftware_edeveloper_MAGICXPI_19122016_193203__GetAddressBookRecord.E1Message"/>
+      </xsd:appinfo>
+    </xsd:annotation>
+    <xsd:sequence>
+      <xsd:element form="unqualified" map:java-field="message" minOccurs="0" name="message" nillable="false" type="xsd:string"/>
+      <xsd:element form="unqualified" map:java-field="messagePrefix" minOccurs="0" name="messagePrefix" nillable="false" type="xsd:string"/>
+    </xsd:sequence>
+  </xsd:complexType>
+
+  <xsd:complexType name="address">
+    <xsd:annotation>
+      <xsd:appinfo>
+        <map:java-type name="com_magicsoftware_edeveloper_MAGICXPI_19122016_193203__GetAddressBookRecord.Address"/>
+      </xsd:appinfo>
+    </xsd:annotation>
+    <xsd:complexContent>
+      <xsd:extension base="ns0:valueObject">
+        <xsd:sequence>
+          <xsd:element form="unqualified" map:java-field="addressLine1" minOccurs="0" name="addressLine1" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="addressLine2" minOccurs="0" name="addressLine2" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="addressLine3" minOccurs="0" name="addressLine3" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="addressLine4" minOccurs="0" name="addressLine4" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="city" minOccurs="0" name="city" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="countryCode" minOccurs="0" name="countryCode" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="countyCode" minOccurs="0" name="countyCode" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="dateEffective" minOccurs="0" name="dateEffective" nillable="false" type="xsd:dateTime"/>
+          <xsd:element form="unqualified" map:java-field="mailingName" minOccurs="0" name="mailingName" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="mailingNameSecondary" minOccurs="0" name="mailingNameSecondary" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="postalCode" minOccurs="0" name="postalCode" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="stateCode" minOccurs="0" name="stateCode" nillable="false" type="xsd:string"/>
+        </xsd:sequence>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+
+  <xsd:element name="getAddressBookV2" nillable="true" type="ns0:getAddressBookV2"/>
+
+  <xsd:element name="processContact" nillable="true" type="ns0:processContact"/>
+
+  <xsd:element name="processAddressBook" nillable="true" type="ns0:processAddressBook"/>
+
+  <xsd:element name="lookupAddressBook" nillable="true" type="ns0:lookupAddressBook"/>
+
+  <xsd:element name="getAddressBook" nillable="true" type="ns0:getAddressBook"/>
+
+  <xsd:element name="getContactV2Response" nillable="true" type="ns0:showContactV2"/>
+
+  <xsd:element name="processAddressBookResponse" nillable="true" type="ns0:confirmProcessAddressBook"/>
+
+  <xsd:element name="lookupAddressBookResponse" nillable="true" type="ns0:showLookupAddressBook"/>
+
+  <xsd:element name="getAddressBookV2Response" nillable="true" type="ns0:showAddressBookV2"/>
+
+  <xsd:element name="getContact" nillable="true" type="ns0:getContact"/>
+
+  <xsd:element name="processAddressBookV2" nillable="true" type="ns0:processAddressBookV2"/>
+
+  <xsd:element name="getContactV2" nillable="true" type="ns0:getContactV2"/>
+
+  <xsd:element name="getContactResponse" nillable="true" type="ns0:showContact"/>
+
+  <xsd:element name="BusinessServiceException" type="ns0:BusinessServiceException"/>
+
+  <xsd:element name="processAddressBookV2Response" nillable="true" type="ns0:confirmProcessAddressBookV2"/>
+
+  <xsd:element name="getAddressBookResponse" nillable="true" type="ns0:showAddressBook"/>
+
+  <xsd:element name="processContactResponse" nillable="true" type="ns0:confirmProcessContact"/>
+
+</xs:schema>

@@ -1,0 +1,615 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mapper xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<MapperOrigin>DataMapperService</MapperOrigin>
+	
+			<ErrorFlowExpressionVal>PCMhJUAkPmdldEZsb3dOYW1lKDQpPCMhJUAkPg==</ErrorFlowExpressionVal>
+		
+		<SourceSchemas>
+		
+		
+				
+		<Schema xsi:type="XSDSchema">
+		<SchemaID>6</SchemaID>
+		<Order>1</Order>
+		<Name>MagentoOrderLineInfo</Name>
+				<SchemaLocation>Source</SchemaLocation>
+		<SchemaType>XSD</SchemaType>
+		
+									<Fields>
+															<Field xsi:type="XSDComplexField">
+							<Identifier>magentoCreateOrder</Identifier>
+							<Description></Description>
+							<FieldName>magentoCreateOrder</FieldName>
+							<NodeType>Complex</NodeType>
+							<Color>210</Color>
+							<MagicFieldType>A</MagicFieldType>
+							<MagicPicture>1000</MagicPicture>
+							<isUnicode>false</isUnicode>
+							
+														
+																												<UserPicture>1000</UserPicture>
+							<isNillable>false</isNillable>
+														<MaxInstance>1</MaxInstance>
+							<MinInstance>0</MinInstance>
+																												<LogError>False</LogError>
+																																			<From>0</From>
+							<Length>0</Length>
+							<CreateAllways>false</CreateAllways>
+														<Required>false</Required>
+							<Replication>0</Replication>
+							<AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+																											</Field>
+																					<Field xsi:type="XSDComplexField">
+							<Identifier>magentoCreateOrder/orderItems</Identifier>
+							<Description></Description>
+							<FieldName>orderItems</FieldName>
+							<NodeType>Complex</NodeType>
+							<Color>210</Color>
+							<MagicFieldType></MagicFieldType>
+							<MagicPicture></MagicPicture>
+							<isUnicode>false</isUnicode>
+							
+														
+																												<UserPicture></UserPicture>
+							<isNillable>false</isNillable>
+														<MaxInstance>0</MaxInstance>
+							<MinInstance>0</MinInstance>
+																												<LogError>false</LogError>
+																																			<From>0</From>
+							<Length>0</Length>
+							<CreateAllways>false</CreateAllways>
+														<Required>false</Required>
+							<Replication>0</Replication>
+							<AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+																													<Encoding>0</Encoding>
+													</Field>
+																					<Field xsi:type="SimpleXSDField">
+							<Identifier>magentoCreateOrder/orderItems/sku</Identifier>
+							<Description></Description>
+							<FieldName>sku</FieldName>
+							<NodeType>Simple</NodeType>
+							<Color>210</Color>
+							<MagicFieldType>A</MagicFieldType>
+							<MagicPicture>1000</MagicPicture>
+							<isUnicode>false</isUnicode>
+							
+														
+																						<ExternalFieldType>string</ExternalFieldType>
+																						<ExternalFieldPicture></ExternalFieldPicture>
+														<UserPicture>1000</UserPicture>
+							<isNillable>false</isNillable>
+														<MaxInstance>1</MaxInstance>
+							<MinInstance>0</MinInstance>
+																												<LogError>false</LogError>
+																																			<From>0</From>
+							<Length>0</Length>
+							<CreateAllways>false</CreateAllways>
+														<Required>false</Required>
+							<Replication>0</Replication>
+							<AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+																													<Encoding>0</Encoding>
+													</Field>
+																					<Field xsi:type="SimpleXSDField">
+							<Identifier>magentoCreateOrder/orderItems/qty</Identifier>
+							<Description></Description>
+							<FieldName>qty</FieldName>
+							<NodeType>Simple</NodeType>
+							<Color>210</Color>
+							<MagicFieldType>N</MagicFieldType>
+							<MagicPicture>10.2</MagicPicture>
+							<isUnicode>false</isUnicode>
+							
+														
+																						<ExternalFieldType>decimal</ExternalFieldType>
+																						<ExternalFieldPicture></ExternalFieldPicture>
+														<UserPicture>10.2</UserPicture>
+							<isNillable>false</isNillable>
+														<MaxInstance>1</MaxInstance>
+							<MinInstance>0</MinInstance>
+																												<LogError>false</LogError>
+																																			<From>0</From>
+							<Length>0</Length>
+							<CreateAllways>false</CreateAllways>
+														<Required>false</Required>
+							<Replication>0</Replication>
+							<AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+																													<Encoding>0</Encoding>
+													</Field>
+																					<Field xsi:type="SimpleXSDField">
+							<Identifier>magentoCreateOrder/orderItems/price</Identifier>
+							<Description></Description>
+							<FieldName>price</FieldName>
+							<NodeType>Simple</NodeType>
+							<Color>210</Color>
+							<MagicFieldType>N</MagicFieldType>
+							<MagicPicture>10.2</MagicPicture>
+							<isUnicode>false</isUnicode>
+							
+														
+																						<ExternalFieldType>decimal</ExternalFieldType>
+																						<ExternalFieldPicture></ExternalFieldPicture>
+														<UserPicture>10.2</UserPicture>
+							<isNillable>false</isNillable>
+														<MaxInstance>1</MaxInstance>
+							<MinInstance>0</MinInstance>
+																												<LogError>false</LogError>
+																																			<From>0</From>
+							<Length>0</Length>
+							<CreateAllways>false</CreateAllways>
+														<Required>false</Required>
+							<Replication>0</Replication>
+							<AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+																													<Encoding>0</Encoding>
+													</Field>
+														</Fields>
+						
+								
+																								<XSD>
+					<XSDSubType>File</XSDSubType>
+					<IFCModel></IFCModel>
+					<XsdFileName>Files\schemas\magentoOrderDataMapper.xsd</XsdFileName>
+					<RootSelected>magentoCreateOrder</RootSelected>
+					<isAppend>false</isAppend>
+					<isValidation>false</isValidation>
+					<RecursionDepth>1</RecursionDepth>
+					<AlwaysCreateNodes>false</AlwaysCreateNodes>
+					<DataDestination>Variable</DataDestination>
+					<DataExp>
+						<ExpressionVal>PCMhJUAkPmdldFZhck5hbWUoMiwnezVGMzlFQzFDLTcyN0YtNDQ2MS04NUNDLTUzMTg1OUM3MzlERn0nLDAsMCk8IyElQCQ+</ExpressionVal>
+						<ExpectedType>B</ExpectedType>
+						<Direction>I</Direction>
+					</DataExp>
+					<UseStreamingParser>false</UseStreamingParser>
+					<xmlFileEncoding>Project Encoding</xmlFileEncoding>
+										<TargetNamespace></TargetNamespace>
+																			</XSD>
+																
+										
+															</Schema>
+		
+				
+		
+		</SourceSchemas>
+				<DestinationSchemas>
+		
+		
+				
+		<Schema xsi:type="CallFlowSchema">
+		<SchemaID>3</SchemaID>
+		<Order>1</Order>
+		<Name>D1</Name>
+				<SchemaLocation>Destination</SchemaLocation>
+		<SchemaType>CallFlow</SchemaType>
+		
+									<Fields>
+															<Field xsi:type="ComplexField">
+							<Identifier>F3</Identifier>
+							<Description></Description>
+							<FieldName>...Add order line</FieldName>
+							<NodeType>Complex</NodeType>
+							<Color>210</Color>
+							<MagicFieldType></MagicFieldType>
+							<MagicPicture></MagicPicture>
+							<isUnicode>false</isUnicode>
+							
+														
+																												<UserPicture></UserPicture>
+							<isNillable>false</isNillable>
+														<MaxInstance>0</MaxInstance>
+							<MinInstance>0</MinInstance>
+																												<LogError>false</LogError>
+																																			<From>0</From>
+							<Length>0</Length>
+							<CreateAllways>false</CreateAllways>
+														<Required>false</Required>
+							<Replication>0</Replication>
+							<AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+																													<Encoding>0</Encoding>
+													</Field>
+																					<Field xsi:type="FieldCallFlow">
+							<Identifier>F3\{E11F228A-1D76-4709-847A-11F03FEBCBBF}</Identifier>
+							<Description></Description>
+							<FieldName>F.ComputerId</FieldName>
+							<NodeType>Simple</NodeType>
+							<Color>210</Color>
+							<MagicFieldType>A</MagicFieldType>
+							<MagicPicture>32</MagicPicture>
+							<isUnicode>false</isUnicode>
+							
+														
+														<Expression>
+								<ExpressionVal>PCMhJUAkPmdldFZhck5hbWUoMSwne0ZBRjZBMDk1LTQxQ0UtNDk1OC05RkEzLTE3NTBDNzhDQTM0Nn0nLDAsMCk8IyElQCQ+</ExpressionVal>
+								<ExpectedType>A</ExpectedType>
+								<Direction>I</Direction>
+							</Expression>
+																												<UserPicture>32</UserPicture>
+							<isNillable>false</isNillable>
+														<MaxInstance>0</MaxInstance>
+							<MinInstance>0</MinInstance>
+																												<LogError>false</LogError>
+																																			<From>0</From>
+							<Length>0</Length>
+							<CreateAllways>false</CreateAllways>
+														<Required>false</Required>
+							<Replication>0</Replication>
+							<AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+																													<Encoding>1</Encoding>
+													</Field>
+																					<Field xsi:type="FieldCallFlow">
+							<Identifier>F3\{18BF4C51-A000-4558-848A-C5F85EC2EC52}</Identifier>
+							<Description></Description>
+							<FieldName>F.JobNo</FieldName>
+							<NodeType>Simple</NodeType>
+							<Color>210</Color>
+							<MagicFieldType>A</MagicFieldType>
+							<MagicPicture>32</MagicPicture>
+							<isUnicode>false</isUnicode>
+							
+														
+														<Expression>
+								<ExpressionVal>PCMhJUAkPmdldFZhck5hbWUoMSwne0JFOUQzMDczLUZCNjctNEY3OS1BQzA4LUNBQzdEQTExQzk2MH0nLDAsMCk8IyElQCQ+</ExpressionVal>
+								<ExpectedType>A</ExpectedType>
+								<Direction>I</Direction>
+							</Expression>
+																												<UserPicture>32</UserPicture>
+							<isNillable>false</isNillable>
+														<MaxInstance>0</MaxInstance>
+							<MinInstance>0</MinInstance>
+																												<LogError>false</LogError>
+																																			<From>0</From>
+							<Length>0</Length>
+							<CreateAllways>false</CreateAllways>
+														<Required>false</Required>
+							<Replication>0</Replication>
+							<AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+																													<Encoding>1</Encoding>
+													</Field>
+																					<Field xsi:type="FieldCallFlow">
+							<Identifier>F3\{78659102-7345-4E12-BBFD-C989401E8D8B}</Identifier>
+							<Description></Description>
+							<FieldName>F.OrderNo</FieldName>
+							<NodeType>Simple</NodeType>
+							<Color>210</Color>
+							<MagicFieldType>A</MagicFieldType>
+							<MagicPicture>32</MagicPicture>
+							<isUnicode>false</isUnicode>
+							
+														
+														<Expression>
+								<ExpressionVal>PCMhJUAkPmdldFZhck5hbWUoMSwne0VGNUYzOEExLTkyQzctNDYzQi1BODNBLTgxNzg5NDdFRjY3Nn0nLDAsMCk8IyElQCQ+</ExpressionVal>
+								<ExpectedType>A</ExpectedType>
+								<Direction>I</Direction>
+							</Expression>
+																												<UserPicture>32</UserPicture>
+							<isNillable>false</isNillable>
+														<MaxInstance>0</MaxInstance>
+							<MinInstance>0</MinInstance>
+																												<LogError>false</LogError>
+																																			<From>0</From>
+							<Length>0</Length>
+							<CreateAllways>false</CreateAllways>
+														<Required>false</Required>
+							<Replication>0</Replication>
+							<AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+																													<Encoding>1</Encoding>
+													</Field>
+																					<Field xsi:type="FieldCallFlow">
+							<Identifier>F3\{2D2C5C58-2EB4-43B3-A3A2-11323369CF3D}</Identifier>
+							<Description></Description>
+							<FieldName>F.ProcessId</FieldName>
+							<NodeType>Simple</NodeType>
+							<Color>210</Color>
+							<MagicFieldType>A</MagicFieldType>
+							<MagicPicture>32</MagicPicture>
+							<isUnicode>false</isUnicode>
+							
+														
+														<Expression>
+								<ExpressionVal>PCMhJUAkPmdldFZhck5hbWUoMSwne0UwNzQzNDY2LUY0MTAtNEVBOC1BMjM4LTRBOTdFNEJENTg3RX0nLDAsMCk8IyElQCQ+</ExpressionVal>
+								<ExpectedType>A</ExpectedType>
+								<Direction>I</Direction>
+							</Expression>
+																												<UserPicture>32</UserPicture>
+							<isNillable>false</isNillable>
+														<MaxInstance>0</MaxInstance>
+							<MinInstance>0</MinInstance>
+																												<LogError>false</LogError>
+																																			<From>0</From>
+							<Length>0</Length>
+							<CreateAllways>false</CreateAllways>
+														<Required>false</Required>
+							<Replication>0</Replication>
+							<AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+																													<Encoding>1</Encoding>
+													</Field>
+																					<Field xsi:type="FieldCallFlow">
+							<Identifier>F3\{F2D1CA08-6B3D-4528-84E0-172047B33945}</Identifier>
+							<Description></Description>
+							<FieldName>F.ProgramId</FieldName>
+							<NodeType>Simple</NodeType>
+							<Color>210</Color>
+							<MagicFieldType>A</MagicFieldType>
+							<MagicPicture>32</MagicPicture>
+							<isUnicode>false</isUnicode>
+							
+														
+														<Expression>
+								<ExpressionVal>PCMhJUAkPmdldFZhck5hbWUoMSwnezdBMTU5MTFCLTc5MzctNDY0Qi04RkRBLUE4N0NCMTYwMzhDM30nLDAsMCk8IyElQCQ+</ExpressionVal>
+								<ExpectedType>A</ExpectedType>
+								<Direction>I</Direction>
+							</Expression>
+																												<UserPicture>32</UserPicture>
+							<isNillable>false</isNillable>
+														<MaxInstance>0</MaxInstance>
+							<MinInstance>0</MinInstance>
+																												<LogError>false</LogError>
+																																			<From>0</From>
+							<Length>0</Length>
+							<CreateAllways>false</CreateAllways>
+														<Required>false</Required>
+							<Replication>0</Replication>
+							<AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+																													<Encoding>1</Encoding>
+													</Field>
+																					<Field xsi:type="FieldCallFlow">
+							<Identifier>F3\{F0872931-0A85-4E58-B453-BDBAFEADE9BB}</Identifier>
+							<Description></Description>
+							<FieldName>F.TransactionId</FieldName>
+							<NodeType>Simple</NodeType>
+							<Color>210</Color>
+							<MagicFieldType>A</MagicFieldType>
+							<MagicPicture>32</MagicPicture>
+							<isUnicode>false</isUnicode>
+							
+														
+														<Expression>
+								<ExpressionVal>PCMhJUAkPmdldFZhck5hbWUoMSwnezUyN0I1RDEzLTRFQTMtNEI3MC1CRTkwLUY3NUIwOEM1NDlGOH0nLDAsMCk8IyElQCQ+</ExpressionVal>
+								<ExpectedType>A</ExpectedType>
+								<Direction>I</Direction>
+							</Expression>
+																												<UserPicture>32</UserPicture>
+							<isNillable>false</isNillable>
+														<MaxInstance>0</MaxInstance>
+							<MinInstance>0</MinInstance>
+																												<LogError>false</LogError>
+																																			<From>0</From>
+							<Length>0</Length>
+							<CreateAllways>false</CreateAllways>
+														<Required>false</Required>
+							<Replication>0</Replication>
+							<AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+																													<Encoding>1</Encoding>
+													</Field>
+																					<Field xsi:type="FieldCallFlow">
+							<Identifier>F3\{7AE019FA-70FC-4085-94AD-BD470463D19C}</Identifier>
+							<Description></Description>
+							<FieldName>F.Version</FieldName>
+							<NodeType>Simple</NodeType>
+							<Color>210</Color>
+							<MagicFieldType>A</MagicFieldType>
+							<MagicPicture>32</MagicPicture>
+							<isUnicode>false</isUnicode>
+							
+														
+														<Expression>
+								<ExpressionVal>PCMhJUAkPmdldFZhck5hbWUoMSwne0ZGMzFCOTQ3LUU0MTktNDY5RS1CRDQ1LTlCMzA0ODIwMjhGMH0nLDAsMCk8IyElQCQ+</ExpressionVal>
+								<ExpectedType>A</ExpectedType>
+								<Direction>I</Direction>
+							</Expression>
+																												<UserPicture>32</UserPicture>
+							<isNillable>false</isNillable>
+														<MaxInstance>0</MaxInstance>
+							<MinInstance>0</MinInstance>
+																												<LogError>false</LogError>
+																																			<From>0</From>
+							<Length>0</Length>
+							<CreateAllways>false</CreateAllways>
+														<Required>false</Required>
+							<Replication>0</Replication>
+							<AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+																													<Encoding>1</Encoding>
+													</Field>
+																					<Field xsi:type="FieldCallFlow">
+							<Identifier>F3\{DA3D788A-344A-4563-8874-1F3E715C9A4C}</Identifier>
+							<Description></Description>
+							<FieldName>F.ItemCode</FieldName>
+							<NodeType>Simple</NodeType>
+							<Color>210</Color>
+							<MagicFieldType>A</MagicFieldType>
+							<MagicPicture>26</MagicPicture>
+							<isUnicode>false</isUnicode>
+							
+														
+																												<UserPicture>26</UserPicture>
+							<isNillable>false</isNillable>
+														<MaxInstance>1</MaxInstance>
+							<MinInstance>0</MinInstance>
+																												<LogError>false</LogError>
+																																			<From>0</From>
+							<Length>0</Length>
+							<CreateAllways>false</CreateAllways>
+														<Required>false</Required>
+							<Replication>0</Replication>
+							<AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+																													<Encoding>1</Encoding>
+													</Field>
+																					<Field xsi:type="FieldCallFlow">
+							<Identifier>F3\{047C668A-6289-45F2-9235-75EB440C53AA}</Identifier>
+							<Description></Description>
+							<FieldName>F.ItemQuantity</FieldName>
+							<NodeType>Simple</NodeType>
+							<Color>210</Color>
+							<MagicFieldType>N</MagicFieldType>
+							<MagicPicture>N5</MagicPicture>
+							<isUnicode>false</isUnicode>
+							
+														
+																												<UserPicture>N5</UserPicture>
+							<isNillable>false</isNillable>
+														<MaxInstance>1</MaxInstance>
+							<MinInstance>0</MinInstance>
+																												<LogError>false</LogError>
+																																			<From>0</From>
+							<Length>0</Length>
+							<CreateAllways>false</CreateAllways>
+														<Required>false</Required>
+							<Replication>0</Replication>
+							<AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+																													<Encoding>0</Encoding>
+													</Field>
+																					<Field xsi:type="FieldCallFlow">
+							<Identifier>F3\{D36E49C8-5B2B-48EA-B5F9-22EBA1306393}</Identifier>
+							<Description></Description>
+							<FieldName>F.ItemUnitPrice</FieldName>
+							<NodeType>Simple</NodeType>
+							<Color>210</Color>
+							<MagicFieldType>N</MagicFieldType>
+							<MagicPicture>N12.2</MagicPicture>
+							<isUnicode>false</isUnicode>
+							
+														
+																												<UserPicture>N12.2</UserPicture>
+							<isNillable>false</isNillable>
+														<MaxInstance>1</MaxInstance>
+							<MinInstance>0</MinInstance>
+																												<LogError>false</LogError>
+																																			<From>0</From>
+							<Length>0</Length>
+							<CreateAllways>false</CreateAllways>
+														<Required>false</Required>
+							<Replication>0</Replication>
+							<AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+																													<Encoding>0</Encoding>
+													</Field>
+																					<Field xsi:type="FieldCallFlow">
+							<Identifier>F3\{050356C2-40FC-46D8-92D4-10A16326BDF4}</Identifier>
+							<Description></Description>
+							<FieldName>F.ItemLineNo</FieldName>
+							<NodeType>Simple</NodeType>
+							<Color>210</Color>
+							<MagicFieldType>N</MagicFieldType>
+							<MagicPicture>N5</MagicPicture>
+							<isUnicode>false</isUnicode>
+							
+														
+														<Expression>
+								<ExpressionVal>PCMhJUAkPmdldFZhck5hbWUoMSwne0NFOThBM0MyLUEwREYtNDRCQS1CNEY0LUY3QkI0QTVDQjY3M30nLDAsMCk8IyElQCQ+</ExpressionVal>
+								<ExpectedType>N</ExpectedType>
+								<Direction>I</Direction>
+							</Expression>
+																												<UserPicture>N5</UserPicture>
+							<isNillable>false</isNillable>
+														<MaxInstance>0</MaxInstance>
+							<MinInstance>0</MinInstance>
+																												<LogError>false</LogError>
+																																			<From>0</From>
+							<Length>0</Length>
+							<CreateAllways>false</CreateAllways>
+														<Required>false</Required>
+							<Replication>0</Replication>
+							<AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+																													<Encoding>0</Encoding>
+													</Field>
+																					<Field xsi:type="FieldCallFlow">
+							<Identifier>F3\{1FC36E1F-A239-4F40-AEF0-1DF120B9C29F}</Identifier>
+							<Description></Description>
+							<FieldName>F.Level</FieldName>
+							<NodeType>Simple</NodeType>
+							<Color>210</Color>
+							<MagicFieldType>N</MagicFieldType>
+							<MagicPicture>N12.4</MagicPicture>
+							<isUnicode>false</isUnicode>
+							
+														
+														<Expression>
+								<ExpressionVal>MA==</ExpressionVal>
+								<ExpectedType>N</ExpectedType>
+								<Direction>I</Direction>
+							</Expression>
+																												<UserPicture>N12.4</UserPicture>
+							<isNillable>false</isNillable>
+														<MaxInstance>0</MaxInstance>
+							<MinInstance>0</MinInstance>
+																												<LogError>false</LogError>
+																																			<From>0</From>
+							<Length>0</Length>
+							<CreateAllways>false</CreateAllways>
+														<Required>false</Required>
+							<Replication>0</Replication>
+							<AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+																													<Encoding>0</Encoding>
+													</Field>
+														</Fields>
+						
+								
+																																	<CallFlow>
+				<FlowRef>
+					<BPID>2</BPID>
+					<FlowID>
+						<ExpressionVal>PCMhJUAkPmdldEZsb3dOYW1lKDMpPCMhJUAkPg==</ExpressionVal>
+						<ExpectedType>N</ExpectedType>
+						<Direction>O</Direction>
+					</FlowID>
+				</FlowRef>
+				</CallFlow>
+							
+										
+															</Schema>
+		
+				
+		
+		</DestinationSchemas>
+			
+				<Connections>
+														<ConnectionData>
+						<SourceIdentifier>magentoCreateOrder/orderItems</SourceIdentifier>
+						<SourceSchemaID>6</SourceSchemaID>
+						<DestinationIdentifier>F3</DestinationIdentifier>
+						<DestinationSchemaID>3</DestinationSchemaID>
+					</ConnectionData>
+																			<ConnectionData>
+						<SourceIdentifier>magentoCreateOrder/orderItems/sku</SourceIdentifier>
+						<SourceSchemaID>6</SourceSchemaID>
+						<DestinationIdentifier>F3\{DA3D788A-344A-4563-8874-1F3E715C9A4C}</DestinationIdentifier>
+						<DestinationSchemaID>3</DestinationSchemaID>
+					</ConnectionData>
+																			<ConnectionData>
+						<SourceIdentifier>magentoCreateOrder/orderItems/qty</SourceIdentifier>
+						<SourceSchemaID>6</SourceSchemaID>
+						<DestinationIdentifier>F3\{047C668A-6289-45F2-9235-75EB440C53AA}</DestinationIdentifier>
+						<DestinationSchemaID>3</DestinationSchemaID>
+					</ConnectionData>
+																			<ConnectionData>
+						<SourceIdentifier>magentoCreateOrder/orderItems/price</SourceIdentifier>
+						<SourceSchemaID>6</SourceSchemaID>
+						<DestinationIdentifier>F3\{D36E49C8-5B2B-48EA-B5F9-22EBA1306393}</DestinationIdentifier>
+						<DestinationSchemaID>3</DestinationSchemaID>
+					</ConnectionData>
+												</Connections>
+	  <ColorNames>
+    <MapperColorItem>
+      <Color>203</Color>
+      <ColorDescription>Blue</ColorDescription>
+    </MapperColorItem>
+    <MapperColorItem>
+      <Color>205</Color>
+      <ColorDescription>Green</ColorDescription>
+    </MapperColorItem>
+    <MapperColorItem>
+      <Color>206</Color>
+      <ColorDescription>Purple</ColorDescription>
+    </MapperColorItem>
+    <MapperColorItem>
+      <Color>204</Color>
+      <ColorDescription>Yellow</ColorDescription>
+    </MapperColorItem>
+    <MapperColorItem>
+      <Color>202</Color>
+      <ColorDescription>Red</ColorDescription>
+    </MapperColorItem>
+    <MapperColorItem>
+      <Color>210</Color>
+      <ColorDescription>Default</ColorDescription>
+    </MapperColorItem>
+  </ColorNames>
+</Mapper>

@@ -1,0 +1,38 @@
+<ServiceConfig>
+	<Contracts>
+		<Contract>
+			<Name>CustomerService</Name>
+			<Structures>
+				<StructureInfo>
+					<AlternateStructure>AxdEntity_DirParty_DirOrganization</AlternateStructure>
+					<BaseStructure>AxdEntity_DirParty_DirPartyTable</BaseStructure>
+					<PropertyName>DirParty</PropertyName>
+					<PropertyXmlNamespace>http://schemas.microsoft.com/dynamics/2008/01/documents/Customer</PropertyXmlNamespace>
+				</StructureInfo>
+			</Structures>
+		</Contract>
+		<Contract>
+			<Name>VendTableService</Name>
+			<Structures>
+				<StructureInfo>
+					<AlternateStructure>AxdEntity_DirPartyTable_DirOrganization</AlternateStructure>
+					<BaseStructure>AxdEntity_DirPartyTable_DirPartyTable</BaseStructure> 
+					<PropertyName>DirPartyTable</PropertyName>
+					<PropertyXmlNamespace>http://schemas.microsoft.com/dynamics/2008/01/documents/VendTable</PropertyXmlNamespace>
+				</StructureInfo>
+			</Structures>
+		</Contract>
+		<Contract>
+			<Name>LeadsService</Name>
+			<Structures>
+				<StructureInfo>
+					<AlternateStructure>AxdEntity_DirParty_DirOrganization</AlternateStructure>
+					<BaseStructure>AxdEntity_DirParty_DirPartyTable</BaseStructure>
+					<PropertyName>DirParty</PropertyName>
+					<PropertyXmlNamespace>http://schemas.microsoft.com/dynamics/2008/01/documents/smmLeads</PropertyXmlNamespace>
+				</StructureInfo>
+			</Structures>
+		</Contract>
+
+	</Contracts>
+</ServiceConfig>

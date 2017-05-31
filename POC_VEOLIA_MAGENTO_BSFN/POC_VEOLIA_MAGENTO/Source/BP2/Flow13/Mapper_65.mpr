@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mapper xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<MapperOrigin>ComponentWithXMLInterface</MapperOrigin>
+	
+			<ErrorFlowExpressionVal>PCMhJUAkPmdldEZsb3dOYW1lKDQpPCMhJUAkPg==</ErrorFlowExpressionVal>
+			<DynamicSettings xsi:type="xsd:string">PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIiA/Pg0KPEpERVN0ZXA+DQoNCiAgPENvbmZpZ3VyYXRpb24+DQogICAgPElGQ05hbWUvPg0KICAgIDxJbnRlcmZhY2U+QjwvSW50ZXJmYWNlPg0KICAgIDxNb2R1bGU+QjQyMDAyMDA8L01vZHVsZT4NCiAgICA8QlNGTj5HZXRGNDIwMU9yZGVySW5mbzwvQlNGTj4NCiAgICA8RGlzY29ubmVjdD4wPC9EaXNjb25uZWN0Pg0KICAgIDxSZXN1bHRUYXJnZXRfQ29tYm8+MjwvUmVzdWx0VGFyZ2V0X0NvbWJvPg0KICAgIDxSZXN1bHRUYXJnZXRFeHA+DQogICAgICA8RXhwcmVzc2lvblZhbD5QQ01oSlVBa1BtZGxkRlpoY2s1aGJXVW9NU3duZTBZd05EVXhSRGhCTFRsRU9VSXROREJDTWkwNFFVUTJMVFZFTXprNU5EazFRelV4UlgwbkxEQXNNQ2s4SXlFbFFDUSs8L0V4cHJlc3Npb25WYWw+DQogICAgICA8RXhwZWN0ZWRUeXBlPkI8L0V4cGVjdGVkVHlwZT4NCiAgICAgIDxEaXJlY3Rpb24+TzwvRGlyZWN0aW9uPg0KICAgIDwvUmVzdWx0VGFyZ2V0RXhwPg0KICA8L0NvbmZpZ3VyYXRpb24+DQoNCjwvSkRFU3RlcD4NCg==</DynamicSettings>
+	
+		<DestinationSchemas>
+		
+		
+				
+		<Schema xsi:type="XSDSchema">
+		<SchemaID>3</SchemaID>
+		<Order>1</Order>
+		<Name>IFC_JD_Edwards</Name>
+				<SchemaLocation>Destination</SchemaLocation>
+		<SchemaType>XSD</SchemaType>
+		
+									<Fields>
+															<Field xsi:type="XSDComplexField">
+							<Identifier>B4200200.GetF4201OrderInfo</Identifier>
+							<Description></Description>
+							<FieldName>B4200200.GetF4201OrderInfo</FieldName>
+							<NodeType>Complex</NodeType>
+							<Color>210</Color>
+							<MagicFieldType>A</MagicFieldType>
+							<MagicPicture>1000</MagicPicture>
+							<isUnicode>false</isUnicode>
+							
+														
+																												<UserPicture>1000</UserPicture>
+							<isNillable>false</isNillable>
+														<MaxInstance>1</MaxInstance>
+							<MinInstance>0</MinInstance>
+																												<LogError>false</LogError>
+																																			<From></From>
+							<Length></Length>
+							<CreateAllways>false</CreateAllways>
+														<Required>false</Required>
+							<Replication>0</Replication>
+							<AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+																											</Field>
+																					<Field xsi:type="XSDComplexField">
+							<Identifier>B4200200.GetF4201OrderInfo/Data</Identifier>
+							<Description></Description>
+							<FieldName>Data</FieldName>
+							<NodeType>Complex</NodeType>
+							<Color>210</Color>
+							<MagicFieldType>A</MagicFieldType>
+							<MagicPicture>1000</MagicPicture>
+							<isUnicode>false</isUnicode>
+							
+														
+																												<UserPicture>1000</UserPicture>
+							<isNillable>false</isNillable>
+														<MaxInstance>1</MaxInstance>
+							<MinInstance>0</MinInstance>
+																												<LogError>false</LogError>
+																																			<From></From>
+							<Length></Length>
+							<CreateAllways>false</CreateAllways>
+														<Required>false</Required>
+							<Replication>0</Replication>
+							<AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+																											</Field>
+																					<Field xsi:type="XSDComplexField">
+							<Identifier>B4200200.GetF4201OrderInfo/Data/row</Identifier>
+							<Description></Description>
+							<FieldName>row</FieldName>
+							<NodeType>Complex</NodeType>
+							<Color>210</Color>
+							<MagicFieldType>A</MagicFieldType>
+							<MagicPicture>1000</MagicPicture>
+							<isUnicode>false</isUnicode>
+							
+														
+																												<UserPicture>1000</UserPicture>
+							<isNillable>false</isNillable>
+														<MaxInstance>1</MaxInstance>
+							<MinInstance>0</MinInstance>
+																												<LogError>false</LogError>
+																																			<From></From>
+							<Length></Length>
+							<CreateAllways>false</CreateAllways>
+														<Required>false</Required>
+							<Replication>0</Replication>
+							<AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+																											</Field>
+																					<Field xsi:type="SimpleXSDField">
+							<Identifier>B4200200.GetF4201OrderInfo/Data/row/mnOrderNumber</Identifier>
+							<Description></Description>
+							<FieldName>mnOrderNumber</FieldName>
+							<NodeType>Simple</NodeType>
+							<Color>210</Color>
+							<MagicFieldType>A</MagicFieldType>
+							<MagicPicture>32</MagicPicture>
+							<isUnicode>false</isUnicode>
+							
+														
+														<Expression>
+								<ExpressionVal>PCMhJUAkPmdldFZhck5hbWUoMSwnezA0RkY0RjBBLUIwRTItNDI2Qy04NzlCLTc2MjczNkMyQUE3Q30nLDAsMCk8IyElQCQ+</ExpressionVal>
+								<ExpectedType>A</ExpectedType>
+								<Direction>I</Direction>
+							</Expression>
+																						<ExternalFieldType>string</ExternalFieldType>
+																						<ExternalFieldPicture>32</ExternalFieldPicture>
+														<UserPicture>32</UserPicture>
+							<isNillable>false</isNillable>
+														<MaxInstance>1</MaxInstance>
+							<MinInstance>0</MinInstance>
+																												<LogError>false</LogError>
+																																			<From>0</From>
+							<Length>0</Length>
+							<CreateAllways>false</CreateAllways>
+														<Required>false</Required>
+							<Replication>0</Replication>
+							<AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+																													<Encoding>0</Encoding>
+													</Field>
+																					<Field xsi:type="SimpleXSDField">
+							<Identifier>B4200200.GetF4201OrderInfo/Data/row/szOrderType</Identifier>
+							<Description></Description>
+							<FieldName>szOrderType</FieldName>
+							<NodeType>Simple</NodeType>
+							<Color>210</Color>
+							<MagicFieldType>A</MagicFieldType>
+							<MagicPicture>3</MagicPicture>
+							<isUnicode>false</isUnicode>
+							
+														
+														<Expression>
+								<ExpressionVal>J1NPJw==</ExpressionVal>
+								<ExpectedType>A</ExpectedType>
+								<Direction>I</Direction>
+							</Expression>
+																						<ExternalFieldType>string</ExternalFieldType>
+																						<ExternalFieldPicture>3</ExternalFieldPicture>
+														<UserPicture>3</UserPicture>
+							<isNillable>false</isNillable>
+														<MaxInstance>1</MaxInstance>
+							<MinInstance>0</MinInstance>
+																												<LogError>false</LogError>
+																																			<From>0</From>
+							<Length>0</Length>
+							<CreateAllways>false</CreateAllways>
+														<Required>false</Required>
+							<Replication>0</Replication>
+							<AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+																													<Encoding>0</Encoding>
+													</Field>
+																					<Field xsi:type="SimpleXSDField">
+							<Identifier>B4200200.GetF4201OrderInfo/Data/row/szKeyCompany</Identifier>
+							<Description></Description>
+							<FieldName>szKeyCompany</FieldName>
+							<NodeType>Simple</NodeType>
+							<Color>210</Color>
+							<MagicFieldType>A</MagicFieldType>
+							<MagicPicture>6</MagicPicture>
+							<isUnicode>false</isUnicode>
+							
+														
+														<Expression>
+								<ExpressionVal>PCMhJUAkPmdldFZhck5hbWUoNCwnezYxMzU1ODg3LTlDRjQtNDQwNi1CREFFLTA2NURCMDIyRjQwRX0nLDAsMCk8IyElQCQ+</ExpressionVal>
+								<ExpectedType>A</ExpectedType>
+								<Direction>I</Direction>
+							</Expression>
+																						<ExternalFieldType>string</ExternalFieldType>
+																						<ExternalFieldPicture>6</ExternalFieldPicture>
+														<UserPicture>6</UserPicture>
+							<isNillable>false</isNillable>
+														<MaxInstance>1</MaxInstance>
+							<MinInstance>0</MinInstance>
+																												<LogError>false</LogError>
+																																			<From>0</From>
+							<Length>0</Length>
+							<CreateAllways>false</CreateAllways>
+														<Required>false</Required>
+							<Replication>0</Replication>
+							<AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+																													<Encoding>0</Encoding>
+													</Field>
+														</Fields>
+						
+								
+																								<XSD>
+					<XSDSubType>File</XSDSubType>
+					<IFCModel>JD Edwards EnterpriseOne</IFCModel>
+					<XsdFileName>%currentprojectdir%jdedwards\XSD\eppdent005_EPPD\B4200200.GetF4201OrderInfo.xsd</XsdFileName>
+					<RootSelected>B4200200.GetF4201OrderInfo</RootSelected>
+					<isAppend>false</isAppend>
+					<isValidation>false</isValidation>
+					<RecursionDepth>1</RecursionDepth>
+					<AlwaysCreateNodes>false</AlwaysCreateNodes>
+					<DataDestination>Variable</DataDestination>
+					<DataExp>
+						<ExpressionVal>PCMhJUAkPmdldFZhck5hbWUoMiwnMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDA4JywwLDApPCMhJUAkPg==</ExpressionVal>
+						<ExpectedType>B</ExpectedType>
+						<Direction>O</Direction>
+					</DataExp>
+					<UseStreamingParser>false</UseStreamingParser>
+					<xmlFileEncoding>Unicode(UTF-16)</xmlFileEncoding>
+										<TargetNamespace></TargetNamespace>
+																			</XSD>
+																					
+										
+															</Schema>
+		
+				
+		
+		</DestinationSchemas>
+			
+				<Connections>
+																</Connections>
+	  <ColorNames>
+    <MapperColorItem>
+      <Color>203</Color>
+      <ColorDescription>Blue</ColorDescription>
+    </MapperColorItem>
+    <MapperColorItem>
+      <Color>205</Color>
+      <ColorDescription>Green</ColorDescription>
+    </MapperColorItem>
+    <MapperColorItem>
+      <Color>206</Color>
+      <ColorDescription>Purple</ColorDescription>
+    </MapperColorItem>
+    <MapperColorItem>
+      <Color>204</Color>
+      <ColorDescription>Yellow</ColorDescription>
+    </MapperColorItem>
+    <MapperColorItem>
+      <Color>202</Color>
+      <ColorDescription>Red</ColorDescription>
+    </MapperColorItem>
+    <MapperColorItem>
+      <Color>210</Color>
+      <ColorDescription>Default</ColorDescription>
+    </MapperColorItem>
+  </ColorNames>
+</Mapper>

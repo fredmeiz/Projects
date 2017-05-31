@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Resource_Settings>
+  <Resource_Element>
+    <Main_Resource_ID>106</Main_Resource_ID>
+    <Main_Resource_Name>Email</Main_Resource_Name>
+    <Default_Resource>gmail</Default_Resource>
+    <Main_Resource_Defintion>
+      <Resource_Type_ID>1</Resource_Type_ID>
+      <Resource_Type_Name>gmail</Resource_Type_Name>
+      <Resource_Type_Description />
+      <Resource_Properties>
+        <ID>1</ID>
+        <Name>Server Type</Name>
+        <ExpressionValue>2</ExpressionValue>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>10</ID>
+        <Name>Password</Name>
+        <ExpressionValue>Ux06u/tLmF0FB9UBmZ4cww==</ExpressionValue>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>2</ID>
+        <Name>Incoming Mail Server</Name>
+        <ExpressionValue>pop.gmail.com</ExpressionValue>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>3</ID>
+        <Name>Incoming Port</Name>
+        <ExpressionValue>995</ExpressionValue>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>4</ID>
+        <Name>Incoming Secure Connection</Name>
+        <ExpressionValue>1</ExpressionValue>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>5</ID>
+        <Name>Outgoing Mail Server</Name>
+        <ExpressionValue>smtp.gmail.com</ExpressionValue>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>6</ID>
+        <Name>Outgoing Port</Name>
+        <ExpressionValue>465</ExpressionValue>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>7</ID>
+        <Name>Outgoing Secure Connection</Name>
+        <ExpressionValue>1</ExpressionValue>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>8</ID>
+        <Name>From Address</Name>
+        <ExpressionValue>magic.xpi.bworkshop@gmail.com</ExpressionValue>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>9</ID>
+        <Name>User</Name>
+        <ExpressionValue>magic.xpi.bworkshop@gmail.com</ExpressionValue>
+      </Resource_Properties>
+    </Main_Resource_Defintion>
+  </Resource_Element>
+  <Resource_Element>
+    <Main_Resource_ID>145</Main_Resource_ID>
+    <Main_Resource_Name>JD Edwards EnterpriseOne</Main_Resource_Name>
+    <Default_Resource>JDE_JPY920</Default_Resource>
+    <Main_Resource_Defintion>
+      <Resource_Type_ID>2</Resource_Type_ID>
+      <Resource_Type_Name>JDE_JPY920</Resource_Type_Name>
+      <Resource_Type_Description />
+      <Resource_Properties>
+        <ID>1</ID>
+        <Name>Server Name</Name>
+        <ExpressionValue>JDEENT01</ExpressionValue>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>2</ID>
+        <Name>Environment</Name>
+        <ExpressionValue>JPY920</ExpressionValue>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>3</ID>
+        <Name>User Name</Name>
+        <ExpressionValue>FML</ExpressionValue>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>4</ID>
+        <Name>Password</Name>
+        <ExpressionValue>serkMTp/r50=</ExpressionValue>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>5</ID>
+        <Name>Role</Name>
+        <ExpressionValue>*ALL</ExpressionValue>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>6</ID>
+        <Name>Connection Pool Size</Name>
+        <ExpressionValue>1</ExpressionValue>
+      </Resource_Properties>
+    </Main_Resource_Defintion>
+  </Resource_Element>
+</Resource_Settings>

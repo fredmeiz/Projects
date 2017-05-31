@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="JDEIFCSetup">
+		<xs:complexType>
+			<xs:sequence>
+								<xs:element name="magentoOrder" minOccurs="0" maxOccurs="unbounded">
+								<xs:complexType>
+					<xs:all>
+				
+													<xs:element name="order" type="xs:base64Binary" minOccurs="1"/>	
+							
+				
+					</xs:all>
+				</xs:complexType>
+								</xs:element>
+								<xs:element name="getQuantityAvailable" minOccurs="0" maxOccurs="unbounded">
+								<xs:complexType>
+					<xs:all>
+				
+						
+							<xs:element name="sku" type="xs:string" minOccurs="1"/>	
+							
+				
+					</xs:all>
+				</xs:complexType>
+								</xs:element>
+								<xs:element name="getOrderStatus" minOccurs="0" maxOccurs="unbounded">
+								<xs:complexType>
+					<xs:all>
+				
+						
+							<xs:element name="orderId" type="xs:base64Binary" minOccurs="1"/>	
+										
+					</xs:all>
+				</xs:complexType>
+								</xs:element>
+							</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

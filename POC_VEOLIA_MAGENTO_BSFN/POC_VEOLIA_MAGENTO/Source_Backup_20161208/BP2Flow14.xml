@@ -1,0 +1,503 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<Flows>
+
+ <Struct_tmp_tree>
+ <tmp_treeComp>
+  <proj_id>1</proj_id> 
+  <auto_expand>False</auto_expand> 
+  <BP_ID>2</BP_ID> 
+  <Son_ID>11</Son_ID> 
+  <fold_type>10</fold_type> 
+  <Flow_ID>14</Flow_ID> 
+  <TreeNodeName>...Magento Get Customer Info</TreeNodeName> 
+  <description></description> 
+  <transactional>0</transactional> 
+  <auto_start>0</auto_start> 
+  <auto_restart>0</auto_restart> 
+  <max_instances>0</max_instances> 
+  <err_comp></err_comp> 
+  <err_prg></err_prg> 
+  <logic_comp></logic_comp> 
+  <logic_prg></logic_prg> 
+  <auto_repeat>0</auto_repeat> 
+  <subscribe_name></subscribe_name> 
+  <subscribe_once>0</subscribe_once> 
+  <time_out>0</time_out> 
+  <recovery_policy>6</recovery_policy> 
+  <fold_table_id>2</fold_table_id> 
+  <cleanup_comp></cleanup_comp> 
+  <cleanup_prg></cleanup_prg> 
+  <emu_err_prg></emu_err_prg> 
+  <emu_logic_prg ></emu_logic_prg> 
+  <error_flow_id>11</error_flow_id> 
+  <logic_flow_id>0</logic_flow_id> 
+  <cleanup_flow_id>0</cleanup_flow_id> 
+  <order>4</order> 
+  <Right_ID>0</Right_ID> 
+  <PSS_Index>0</PSS_Index> 
+  <secure_called_flows>0</secure_called_flows> 
+  <disable_flow>0</disable_flow> 
+  <Error_BP_ID>2</Error_BP_ID> 
+  <Logic_BP_ID>0</Logic_BP_ID> 
+  <CleanUp_BP_ID>0</CleanUp_BP_ID> 
+  <IsLoaded>1</IsLoaded> 
+  <DB_Transaction>0</DB_Transaction> 
+  <DB_Transaction_String></DB_Transaction_String> 
+  <Timeout_Policy>6</Timeout_Policy> 
+  <InactiveFlow>True</InactiveFlow> 
+ </tmp_treeComp>
+ </Struct_tmp_tree>
+
+<IFC>
+<Struct_IFCInstance>
+<IFCInstanceComp>
+<topology_id>2</topology_id>
+<flow_id>14</flow_id>
+<ifc_icon>Flow_Data.gif</ifc_icon>
+<step>5</step>
+<ext_internal_use>0</ext_internal_use>
+<IFCDefinitionID>12</IFCDefinitionID>
+<Description></Description>
+<NodeID>1</NodeID>
+<InvocationComponent></InvocationComponent>
+<InvocationProgram></InvocationProgram>
+<Synchronize>1</Synchronize>
+<Transactional>0</Transactional>
+<CommitProgram></CommitProgram>
+<RollbackProgram></RollbackProgram>
+<WaitForCompletion>0</WaitForCompletion>
+<TimeOut>0</TimeOut>
+<CheckLogic>0</CheckLogic>
+<ActivationString></ActivationString>
+<ActivationBlob></ActivationBlob>
+<RecoveryPolicy></RecoveryPolicy>
+<Istrigger>0</Istrigger>
+<Name>Get Customer Info</Name>
+<XXXInvokeFlow_NOT_IN_USE>0</XXXInvokeFlow_NOT_IN_USE>
+<XXXInvokeFlowID_NOT_IN_USE>0</XXXInvokeFlowID_NOT_IN_USE>
+<XXXInvokeStepNo_NOT_IN_USE>0</XXXInvokeStepNo_NOT_IN_USE>
+<Service_Type_New4Services>12</Service_Type_New4Services>
+<IsSkipUserString>False</IsSkipUserString>
+<IsSkipUserBlob>False</IsSkipUserBlob>
+<IsSkipUserCode>False</IsSkipUserCode>
+<EmulationProgram></EmulationProgram>
+<Save_Point>0</Save_Point>
+<SavePointComponent></SavePointComponent>
+<SaveDataProgram></SaveDataProgram>
+<RestoreDataProgram></RestoreDataProgram>
+<Command_line></Command_line>
+<method_name></method_name>
+<return_XML_data>0</return_XML_data>
+<interface>0</interface>
+<IsSkipUserXML>False</IsSkipUserXML>
+<xsdpath></xsdpath>
+<errorhandling>0</errorhandling>
+<LoggingScope>0</LoggingScope>
+<StepLogging>0</StepLogging>
+<LogStringMsgDev>0</LogStringMsgDev>
+<DotNetServiceArgs></DotNetServiceArgs>
+<LogBLOBDev>0</LogBLOBDev>
+<LogBLOBDeploy></LogBLOBDeploy>
+<LogBLOBFileExt></LogBLOBFileExt>
+<AppServerID>0</AppServerID>
+<SPInfoExists>False</SPInfoExists>
+<DBTransactionLevel></DBTransactionLevel>
+<Use_Resource>False</Use_Resource>
+<Resource_Name></Resource_Name>
+<Resource_ExpID>0</Resource_ExpID>
+<Load_Server_services>False</Load_Server_services>
+<Ddam_Configuration_Data></Ddam_Configuration_Data>
+<Ddam_XmlXsd></Ddam_XmlXsd>
+<Deployment_Module_Name></Deployment_Module_Name>
+<DBTransactionString></DBTransactionString>
+<MapperConversionFail>false</MapperConversionFail>
+</IFCInstanceComp>
+<IFCInstanceComp>
+<topology_id>2</topology_id>
+<flow_id>14</flow_id>
+<ifc_icon>xslt.gif</ifc_icon>
+<step>8</step>
+<ext_internal_use>0</ext_internal_use>
+<IFCDefinitionID>132</IFCDefinitionID>
+<Description></Description>
+<NodeID>1</NodeID>
+<InvocationComponent>%ifclib%xslt\xsltifc.ecf</InvocationComponent>
+<InvocationProgram></InvocationProgram>
+<Synchronize>1</Synchronize>
+<Transactional>0</Transactional>
+<CommitProgram></CommitProgram>
+<RollbackProgram></RollbackProgram>
+<WaitForCompletion>0</WaitForCompletion>
+<TimeOut>0</TimeOut>
+<CheckLogic>0</CheckLogic>
+<ActivationString></ActivationString>
+<ActivationBlob>PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIiA/Pg0KPERBTV9BY3RpdmF0aW9uQkxPQj4NCg0KICA8TWV0aG9kcz4NCiAgICA8UmVjb3JkSVNOPjE8L1JlY29yZElTTj4NCiAgICA8T3JkZXJObz4xPC9PcmRlck5vPg0KICAgIDxNZXRob2RDb2RlPjI8L01ldGhvZENvZGU+DQogICAgPFB1YmxpY05hbWU+WFNMVFRyYW5zZm9ybUJMT0JTPC9QdWJsaWNOYW1lPg0KICAgIDxDb25kaXRpb25FeHBJRD4wPC9Db25kaXRpb25FeHBJRD4NCiAgICA8UGFyYW1ldGVycz4NCiAgICAgIDxQYXJhbWV0ZXJJRD4xPC9QYXJhbWV0ZXJJRD4NCiAgICAgIDxQYXJhbWV0ZXJUeXBlPkI8L1BhcmFtZXRlclR5cGU+DQogICAgICA8UGFyYW1ldGVyUGljdHVyZT48L1BhcmFtZXRlclBpY3R1cmU+DQogICAgICA8RGlyZWN0aW9uPkluPC9EaXJlY3Rpb24+DQogICAgICA8SW5fRXhwcmVzc2lvbklEPjM0PC9Jbl9FeHByZXNzaW9uSUQ+DQogICAgICA8T3V0X0V4cHJlc3Npb25JRD4wPC9PdXRfRXhwcmVzc2lvbklEPg0KICAgICAgPFhTREVsZW1lbnROYW1lPlhNTEJMT0I8L1hTREVsZW1lbnROYW1lPg0KICAgICAgPERpc3BsYXlTZXF1ZW5jZUlEPjE8L0Rpc3BsYXlTZXF1ZW5jZUlEPg0KICAgICAgPFZpc2liaWxpdHk+MDwvVmlzaWJpbGl0eT4NCiAgICAgIDxNYW5kYXRvcnk+MTwvTWFuZGF0b3J5Pg0KICAgICAgPFBhcmFtZXRlclZhbHVlU2VsZWN0aW9uVHlwZT5FPC9QYXJhbWV0ZXJWYWx1ZVNlbGVjdGlvblR5cGU+DQogICAgPC9QYXJhbWV0ZXJzPg0KICAgIDxQYXJhbWV0ZXJzPg0KICAgICAgPFBhcmFtZXRlcklEPjI8L1BhcmFtZXRlcklEPg0KICAgICAgPFBhcmFtZXRlclR5cGU+QTwvUGFyYW1ldGVyVHlwZT4NCiAgICAgIDxQYXJhbWV0ZXJQaWN0dXJlPjI2MDwvUGFyYW1ldGVyUGljdHVyZT4NCiAgICAgIDxEaXJlY3Rpb24+SW48L0RpcmVjdGlvbj4NCiAgICAgIDxJbl9FeHByZXNzaW9uSUQ+MzU8L0luX0V4cHJlc3Npb25JRD4NCiAgICAgIDxPdXRfRXhwcmVzc2lvbklEPjA8L091dF9FeHByZXNzaW9uSUQ+DQogICAgICA8WFNERWxlbWVudE5hbWU+WFNMVEZpbGU8L1hTREVsZW1lbnROYW1lPg0KICAgICAgPERpc3BsYXlTZXF1ZW5jZUlEPjI8L0Rpc3BsYXlTZXF1ZW5jZUlEPg0KICAgICAgPFZpc2liaWxpdHk+MDwvVmlzaWJpbGl0eT4NCiAgICAgIDxNYW5kYXRvcnk+MDwvTWFuZGF0b3J5Pg0KICAgICAgPFBhcmFtZXRlclZhbHVlU2VsZWN0aW9uVHlwZT5FPC9QYXJhbWV0ZXJWYWx1ZVNlbGVjdGlvblR5cGU+DQogICAgPC9QYXJhbWV0ZXJzPg0KICAgIDxQYXJhbWV0ZXJzPg0KICAgICAgPFBhcmFtZXRlcklEPjM8L1BhcmFtZXRlcklEPg0KICAgICAgPFBhcmFtZXRlclR5cGU+QjwvUGFyYW1ldGVyVHlwZT4NCiAgICAgIDxQYXJhbWV0ZXJQaWN0dXJlPjwvUGFyYW1ldGVyUGljdHVyZT4NCiAgICAgIDxEaXJlY3Rpb24+T3V0PC9EaXJlY3Rpb24+DQogICAgICA8SW5fRXhwcmVzc2lvbklEPjA8L0luX0V4cHJlc3Npb25JRD4NCiAgICAgIDxPdXRfRXhwcmVzc2lvbklEPjM2PC9PdXRfRXhwcmVzc2lvbklEPg0KICAgICAgPFhTREVsZW1lbnROYW1lPk91dHB1dEJMT0I8L1hTREVsZW1lbnROYW1lPg0KICAgICAgPERpc3BsYXlTZXF1ZW5jZUlEPjM8L0Rpc3BsYXlTZXF1ZW5jZUlEPg0KICAgICAgPFZpc2liaWxpdHk+MDwvVmlzaWJpbGl0eT4NCiAgICAgIDxNYW5kYXRvcnk+MDwvTWFuZGF0b3J5Pg0KICAgICAgPFBhcmFtZXRlclZhbHVlU2VsZWN0aW9uVHlwZT5QPC9QYXJhbWV0ZXJWYWx1ZVNlbGVjdGlvblR5cGU+DQogICAgPC9QYXJhbWV0ZXJzPg0KICAgIDxQYXJhbWV0ZXJzPg0KICAgICAgPFBhcmFtZXRlcklEPjQ8L1BhcmFtZXRlcklEPg0KICAgICAgPFBhcmFtZXRlclR5cGU+TjwvUGFyYW1ldGVyVHlwZT4NCiAgICAgIDxQYXJhbWV0ZXJQaWN0dXJlPjEyPC9QYXJhbWV0ZXJQaWN0dXJlPg0KICAgICAgPERpcmVjdGlvbj5PdXQ8L0RpcmVjdGlvbj4NCiAgICAgIDxJbl9FeHByZXNzaW9uSUQ+MDwvSW5fRXhwcmVzc2lvbklEPg0KICAgICAgPE91dF9FeHByZXNzaW9uSUQ+MDwvT3V0X0V4cHJlc3Npb25JRD4NCiAgICAgIDxYU0RFbGVtZW50TmFtZT5FcnJvckNvZGU8L1hTREVsZW1lbnROYW1lPg0KICAgICAgPERpc3BsYXlTZXF1ZW5jZUlEPjQ8L0Rpc3BsYXlTZXF1ZW5jZUlEPg0KICAgICAgPFZpc2liaWxpdHk+MDwvVmlzaWJpbGl0eT4NCiAgICAgIDxNYW5kYXRvcnk+MDwvTWFuZGF0b3J5Pg0KICAgICAgPFBhcmFtZXRlclZhbHVlU2VsZWN0aW9uVHlwZT5QPC9QYXJhbWV0ZXJWYWx1ZVNlbGVjdGlvblR5cGU+DQogICAgPC9QYXJhbWV0ZXJzPg0KICA8L01ldGhvZHM+DQoNCjwvREFNX0FjdGl2YXRpb25CTE9CPg0K</ActivationBlob>
+<RecoveryPolicy>A</RecoveryPolicy>
+<Istrigger>0</Istrigger>
+<Name>Get Body</Name>
+<XXXInvokeFlow_NOT_IN_USE>0</XXXInvokeFlow_NOT_IN_USE>
+<XXXInvokeFlowID_NOT_IN_USE>0</XXXInvokeFlowID_NOT_IN_USE>
+<XXXInvokeStepNo_NOT_IN_USE>0</XXXInvokeStepNo_NOT_IN_USE>
+<Service_Type_New4Services>0</Service_Type_New4Services>
+<IsSkipUserString>False</IsSkipUserString>
+<IsSkipUserBlob>False</IsSkipUserBlob>
+<IsSkipUserCode>False</IsSkipUserCode>
+<EmulationProgram></EmulationProgram>
+<Save_Point>0</Save_Point>
+<SavePointComponent></SavePointComponent>
+<SaveDataProgram></SaveDataProgram>
+<RestoreDataProgram></RestoreDataProgram>
+<Command_line></Command_line>
+<method_name></method_name>
+<return_XML_data>0</return_XML_data>
+<interface>2</interface>
+<IsSkipUserXML>False</IsSkipUserXML>
+<xsdpath></xsdpath>
+<errorhandling>0</errorhandling>
+<LoggingScope>1</LoggingScope>
+<StepLogging>2</StepLogging>
+<LogStringMsgDev>39</LogStringMsgDev>
+<DotNetServiceArgs></DotNetServiceArgs>
+<LogBLOBDev>40</LogBLOBDev>
+<LogBLOBDeploy></LogBLOBDeploy>
+<LogBLOBFileExt>txt</LogBLOBFileExt>
+<AppServerID>0</AppServerID>
+<SPInfoExists>False</SPInfoExists>
+<DBTransactionLevel></DBTransactionLevel>
+<Use_Resource>False</Use_Resource>
+<Resource_Name></Resource_Name>
+<Resource_ExpID>0</Resource_ExpID>
+<Load_Server_services>False</Load_Server_services>
+<Ddam_Configuration_Data></Ddam_Configuration_Data>
+<Ddam_XmlXsd></Ddam_XmlXsd>
+<Deployment_Module_Name></Deployment_Module_Name>
+<DBTransactionString></DBTransactionString>
+<MapperConversionFail>false</MapperConversionFail>
+</IFCInstanceComp>
+</Struct_IFCInstance>
+<Source_And_Destination_Object>
+ <StructNodesColors/>
+</Source_And_Destination_Object>
+</IFC>
+<Services>
+ <Struct_FlowDataService>
+ <FlowDataServiceComp>
+  <flow_id>14</flow_id> 
+  <step>5</step> 
+  <Action>1</Action> 
+  <target_type>2</target_type> 
+  <target_name>37</target_name> 
+  <data_type>6</data_type> 
+  <update_expression>38</update_expression> 
+  <update_expression_depl></update_expression_depl> 
+  <condition>0</condition> 
+  <condition_depl></condition_depl> 
+  <id>2</id> 
+  <target_name_depl></target_name_depl> 
+  <global>0</global> 
+  <ODSIndex>0</ODSIndex> 
+  <ODSIndexDepl></ODSIndexDepl> 
+  <BD_ID>2</BD_ID> 
+  <DynamicVariable>False</DynamicVariable> 
+  <UDS_Type></UDS_Type> 
+  <encoding>0</encoding> 
+ </FlowDataServiceComp>
+ </Struct_FlowDataService>
+
+</Services>
+
+ <Struct_Triggers/>
+
+ <Struct_Scheduler>
+ <SchedulerComp>
+  <ID>100001</ID>
+  <Description>Scheduler100001</Description>
+  <Flow_ID>14</Flow_ID>
+  <trigger_type>A</trigger_type>
+  <Months></Months>
+  <DaysOfWeek></DaysOfWeek>
+  <DaysInMonth></DaysInMonth>
+  <TimeInDay></TimeInDay>
+  <Interval>1</Interval>
+  <Start_Date>00/00/0000</Start_Date>
+  <EndDate>00/00/0000</EndDate>
+  <StartTime>00:00:00</StartTime>
+  <EndTime>00:00:00</EndTime>
+  <serverID>0</serverID>
+  <Operation>4</Operation>
+  <BP_ID>2</BP_ID>
+  <IntervalCalculateSchedRT>False</IntervalCalculateSchedRT>
+  <IntervalMinutesAfterTheHour>0</IntervalMinutesAfterTheHour>
+ </SchedulerComp>
+ </Struct_Scheduler>
+
+
+ <Struct_FlowLogic>
+ <FlowLogicComp>
+  <flow_id>14</flow_id>
+  <devexp>0</devexp>
+  <deployexp></deployexp>
+  <afterifc_step>5</afterifc_step>
+  <nextifc_step>8</nextifc_step>
+  <IsReturn>0</IsReturn>
+  <table_id>7</table_id>
+  <sortorder>1</sortorder>
+  <BP_ID>2</BP_ID>
+ </FlowLogicComp>
+ </Struct_FlowLogic>
+
+ <Struct_FlowSpace/>
+
+ <Struct_ErrorHandler>
+ <ErrorHandlerComp>
+  <toplogy_id>2</toplogy_id>
+  <flow_id>14</flow_id>
+  <FromCode>23</FromCode>
+  <ToCode>23</ToCode>
+  <Description>Called flow aborted</Description>
+  <ReturnCode>A</ReturnCode>
+  <Step>0</Step>
+  <Action>N</Action>
+  <ID>1</ID>
+  <Component_ID>999999999998</Component_ID>
+ </ErrorHandlerComp>
+ </Struct_ErrorHandler>
+
+ <Struct_Elements>
+ <ElementsComp>
+  <elementId>1</elementId> 
+  <elementtype>TAR</elementtype> 
+  <elementname></elementname> 
+  <elementdescription>This process has a simple http post.
+I do not know if it is encrypted. (not)
+It embeds 3 variables into a simple SOAP request.
+EnvVal(&apos;Magento_url&apos;) =&gt; changed to EnvVal(&apos;magentoEndpoint&apos;) 
+&amp;Trim( C.Magento_sessionId ) &amp;
+&amp;Trim( C.customerId )&amp;</elementdescription>
+  <objtype>10</objtype> 
+  <BP_ID>2</BP_ID> 
+  <etop_y1>263.000</etop_y1> 
+  <eleft_x1>37.000</eleft_x1> 
+  <ebottom_y2>387.000</ebottom_y2> 
+  <eright_x2>386.000</eright_x2> 
+  <interface></interface>
+  <wsdlfile_in></wsdlfile_in> 
+  <wsdlfile_out></wsdlfile_out>
+  <direction></direction>
+  <imagefile></imagefile> 
+  <bgcolor>12713983</bgcolor> 
+  <fgcolor>12713983</fgcolor> 
+  <fontId>0</fontId> 
+  <textlocation></textlocation> 
+  <arrowdirection></arrowdirection>
+  <pointer_x>0.000</pointer_x> 
+  <pointer_y>0.000</pointer_y> 
+  <application>0</application> 
+  <border_weight>1</border_weight> 
+  <user_message></user_message>
+  <showpointer>0</showpointer> 
+  <Ismax_TAR>1</Ismax_TAR> 
+  <Flow_ID>14</Flow_ID> 
+  <Document_Path></Document_Path>
+
+     <Struct_ElementsFlows>
+         </Struct_ElementsFlows>
+  
+     <Struct_FontProperties>
+         </Struct_FontProperties>
+  
+
+
+      
+      
+
+ </ElementsComp>
+ <ElementsComp>
+  <elementId>2</elementId> 
+  <elementtype>TAR</elementtype> 
+  <elementname></elementname> 
+  <elementdescription>Process just returns all the customer info, but in the Create Sales Order, we only use it in order to get the suffix information transferred to F.mnShipToNo.</elementdescription>
+  <objtype>10</objtype> 
+  <BP_ID>2</BP_ID> 
+  <etop_y1>288.000</etop_y1> 
+  <eleft_x1>417.000</eleft_x1> 
+  <ebottom_y2>390.000</ebottom_y2> 
+  <eright_x2>665.000</eright_x2> 
+  <interface></interface>
+  <wsdlfile_in></wsdlfile_in> 
+  <wsdlfile_out></wsdlfile_out>
+  <direction></direction>
+  <imagefile></imagefile> 
+  <bgcolor>12713983</bgcolor> 
+  <fgcolor>12713983</fgcolor> 
+  <fontId>0</fontId> 
+  <textlocation></textlocation> 
+  <arrowdirection></arrowdirection>
+  <pointer_x>0.000</pointer_x> 
+  <pointer_y>0.000</pointer_y> 
+  <application>0</application> 
+  <border_weight>1</border_weight> 
+  <user_message></user_message>
+  <showpointer>0</showpointer> 
+  <Ismax_TAR>1</Ismax_TAR> 
+  <Flow_ID>14</Flow_ID> 
+  <Document_Path></Document_Path>
+
+     <Struct_ElementsFlows>
+         </Struct_ElementsFlows>
+  
+     <Struct_FontProperties>
+         </Struct_FontProperties>
+  
+
+
+      
+      
+
+ </ElementsComp>
+ </Struct_Elements>
+
+ <Flow_Root>
+ <FlowRootComp>
+  <flow_id>14</flow_id>
+  <root_step_id>5</root_step_id>
+  <devexp>0</devexp>
+  <deployexp></deployexp>
+  <BP_ID>2</BP_ID>
+ </FlowRootComp>
+ </Flow_Root>
+
+<Struct_ExpressionTable>
+ <Expression_TableComp>
+  <Object_ID>2</Object_ID> 
+  <BP_ID>2</BP_ID> 
+  <Flow_ID>14</Flow_ID> 
+  <StepTrigger_ID>5</StepTrigger_ID> 
+  <Is_Trigger>0</Is_Trigger> 
+  <SubStep_ID>0</SubStep_ID> 
+  <MapperUpdate_ID>0</MapperUpdate_ID> 
+  <Expression_ID>37</Expression_ID> 
+  <Development_Expression>PCMhJUAkPmdldFZhck5hbWUoMiwnMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDA3JywwLDApPCMhJUAkPg==</Development_Expression> 
+  <Deployment_Expression></Deployment_Expression>
+  <Expression_Return_Attribute>A</Expression_Return_Attribute> 
+  <Range_String></Range_String>  
+  <Direction_InOrOut>N</Direction_InOrOut> 
+  <DeploymentGenerated>0</DeploymentGenerated> 
+  <ExpressionPath>PCE/U3RlcD8hPg0KPCE/SUQ/IT4yPCE/SUQ/IT4NCjwhP0NUUk5hbWU/IT5CX05hbWUgU2VsZWN0ICguLi4pXzAwMDE8IT9DVFJOYW1lPyE+DQo8IT9TdGVwPyE+</ExpressionPath> 
+  <isCopyIndication>False</isCopyIndication> 
+ </Expression_TableComp>
+ <Expression_TableComp>
+  <Object_ID>2</Object_ID> 
+  <BP_ID>2</BP_ID> 
+  <Flow_ID>14</Flow_ID> 
+  <StepTrigger_ID>5</StepTrigger_ID> 
+  <Is_Trigger>0</Is_Trigger> 
+  <SubStep_ID>0</SubStep_ID> 
+  <MapperUpdate_ID>0</MapperUpdate_ID> 
+  <Expression_ID>38</Expression_ID> 
+  <Development_Expression>aHR0cHBvc3QoIEVudlZhbCgnbWFnZW50b0VuZHBvaW50JykgICwnPHNvYXBlbnY6RW52ZWxvcGUgeG1sbnM6eHNpPSJodHRwOi8vd3d3LnczLm9yZy8yMDAxL1hNTFNjaGVtYS1pbnN0YW5jZSIgeG1sbnM6eHNkPSJodHRwOi8vd3d3LnczLm9yZy8yMDAxL1hNTFNjaGVtYSIgeG1sbnM6c29hcGVudj0iaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvc29hcC9lbnZlbG9wZS8iIHhtbG5zOnVybj0idXJuOk1hZ2VudG8iIHhtbG5zOnNvYXBlbmM9Imh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3NvYXAvZW5jb2RpbmcvIj4gICA8c29hcGVudjpIZWFkZXIvPiAgIDxzb2FwZW52OkJvZHk+ICAgICAgPHVybjpjdXN0b21lckN1c3RvbWVySW5mbyBzb2FwZW52OmVuY29kaW5nU3R5bGU9Imh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3NvYXAvZW5jb2RpbmcvIj4gICAgICAgICA8c2Vzc2lvbklkIHhzaTp0eXBlPSJ4c2Q6c3RyaW5nIj4nJlRyaW0oIDwjISVAJD5nZXRWYXJOYW1lKDIsJ3tDOEJBMDVDRC0yN0VCLTQ3RjQtQTE3NC1EMzc5NkZGMTBEOTh9JywwLDApPCMhJUAkPiApICYnPC9zZXNzaW9uSWQ+ICAgICAgICAgPGN1c3RvbWVySWQgeHNpOnR5cGU9InhzZDppbnQiPicmVHJpbSggPCMhJUAkPmdldFZhck5hbWUoMiwne0YxMTY1RkQ1LTNFODItNDcyNS05QkVCLTM4RTc3RENDQTg1OX0nLDAsMCk8IyElQCQ+ICkmJzwvY3VzdG9tZXJJZD4gPC91cm46Y3VzdG9tZXJDdXN0b21lckluZm8+ICAgPC9zb2FwZW52OkJvZHk+PC9zb2FwZW52OkVudmVsb3BlPicsJ1NPQVBBY3Rpb246ICJ1cm46TWFnZV9BcGlfTW9kZWxfU2VydmVyX1YyX0hhbmRsZXJBY3Rpb24iJywnQ29udGVudC1UeXBlOiB0ZXh0L3htbDtjaGFyc2V0PVVURi04Jyk=</Development_Expression> 
+  <Deployment_Expression></Deployment_Expression>
+  <Expression_Return_Attribute>A</Expression_Return_Attribute> 
+  <Range_String></Range_String>  
+  <Direction_InOrOut>I</Direction_InOrOut> 
+  <DeploymentGenerated>0</DeploymentGenerated> 
+  <ExpressionPath>PCE/U3RlcD8hPg0KPCE/SUQ/IT4yPCE/SUQ/IT4NCjwhP0NUUk5hbWU/IT51cGRhdGUgZXhwcmVzc2lvbjwhP0NUUk5hbWU/IT4NCjwhP1N0ZXA/IT4=</ExpressionPath> 
+  <isCopyIndication>False</isCopyIndication> 
+ </Expression_TableComp>
+ <Expression_TableComp>
+  <Object_ID>2</Object_ID> 
+  <BP_ID>2</BP_ID> 
+  <Flow_ID>14</Flow_ID> 
+  <StepTrigger_ID>8</StepTrigger_ID> 
+  <Is_Trigger>0</Is_Trigger> 
+  <SubStep_ID>1</SubStep_ID> 
+  <MapperUpdate_ID>0</MapperUpdate_ID> 
+  <Expression_ID>34</Expression_ID> 
+  <Development_Expression>PCMhJUAkPmdldFZhck5hbWUoMiwnMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDA3JywwLDApPCMhJUAkPg==</Development_Expression> 
+  <Deployment_Expression></Deployment_Expression>
+  <Expression_Return_Attribute>B</Expression_Return_Attribute> 
+  <Range_String></Range_String>  
+  <Direction_InOrOut>I</Direction_InOrOut> 
+  <DeploymentGenerated>0</DeploymentGenerated> 
+  <ExpressionPath>PCE/U3RlcD8hPg0KPCE/REFNPyE+DQo8IT9NZXRob2Q/IT4NCjwhP0lEPyE+MTwhP0lEPyE+DQo8IT9OYW1lPyE+WFNMVCBUcmFuc2Zvcm0oQkxPQlMpPCE/TmFtZT8hPg0KPCE/TWV0aG9kPyE+DQo8IT9QYXJhbT8hPg0KPCE/SUQ/IT4xPCE/SUQ/IT4NCjwhP05hbWU/IT5YTUwgQkxPQjwhP05hbWU/IT4NCjwhP0NUUk5hbWU/IT5QYXJhbWV0ZXIgVmFsdWU8IT9DVFJOYW1lPyE+DQo8IT9QYXJhbT8hPg0KPCE/REFNPyE+DQo8IT9TdGVwPyE+</ExpressionPath> 
+  <isCopyIndication>False</isCopyIndication> 
+ </Expression_TableComp>
+ <Expression_TableComp>
+  <Object_ID>2</Object_ID> 
+  <BP_ID>2</BP_ID> 
+  <Flow_ID>14</Flow_ID> 
+  <StepTrigger_ID>8</StepTrigger_ID> 
+  <Is_Trigger>0</Is_Trigger> 
+  <SubStep_ID>1</SubStep_ID> 
+  <MapperUpdate_ID>0</MapperUpdate_ID> 
+  <Expression_ID>35</Expression_ID> 
+  <Development_Expression>RW52VmFsICgnY3VycmVudHByb2plY3RkaXInKSYnXE1hZ2VudG9cZ2V0Ym9keS54c2x0Jw==</Development_Expression> 
+  <Deployment_Expression></Deployment_Expression>
+  <Expression_Return_Attribute>A</Expression_Return_Attribute> 
+  <Range_String></Range_String>  
+  <Direction_InOrOut>I</Direction_InOrOut> 
+  <DeploymentGenerated>0</DeploymentGenerated> 
+  <ExpressionPath>PCE/U3RlcD8hPg0KPCE/REFNPyE+DQo8IT9NZXRob2Q/IT4NCjwhP0lEPyE+MTwhP0lEPyE+DQo8IT9OYW1lPyE+WFNMVCBUcmFuc2Zvcm0oQkxPQlMpPCE/TmFtZT8hPg0KPCE/TWV0aG9kPyE+DQo8IT9QYXJhbT8hPg0KPCE/SUQ/IT4yPCE/SUQ/IT4NCjwhP05hbWU/IT5YU0xUIEZpbGU8IT9OYW1lPyE+DQo8IT9DVFJOYW1lPyE+UGFyYW1ldGVyIFZhbHVlPCE/Q1RSTmFtZT8hPg0KPCE/UGFyYW0/IT4NCjwhP0RBTT8hPg0KPCE/U3RlcD8hPg==</ExpressionPath> 
+  <isCopyIndication>False</isCopyIndication> 
+ </Expression_TableComp>
+ <Expression_TableComp>
+  <Object_ID>2</Object_ID> 
+  <BP_ID>2</BP_ID> 
+  <Flow_ID>14</Flow_ID> 
+  <StepTrigger_ID>8</StepTrigger_ID> 
+  <Is_Trigger>0</Is_Trigger> 
+  <SubStep_ID>1</SubStep_ID> 
+  <MapperUpdate_ID>0</MapperUpdate_ID> 
+  <Expression_ID>36</Expression_ID> 
+  <Development_Expression>PCMhJUAkPmdldFZhck5hbWUoMiwnezc1MEZBREUyLTFFMDctNEFGRS04Njc4LUMzOEE3Njc1RDYzMX0nLDAsMCk8IyElQCQ+</Development_Expression> 
+  <Deployment_Expression></Deployment_Expression>
+  <Expression_Return_Attribute>B</Expression_Return_Attribute> 
+  <Range_String></Range_String>  
+  <Direction_InOrOut>O</Direction_InOrOut> 
+  <DeploymentGenerated>0</DeploymentGenerated> 
+  <ExpressionPath>PCE/U3RlcD8hPg0KPCE/REFNPyE+DQo8IT9NZXRob2Q/IT4NCjwhP0lEPyE+MTwhP0lEPyE+DQo8IT9OYW1lPyE+WFNMVCBUcmFuc2Zvcm0oQkxPQlMpPCE/TmFtZT8hPg0KPCE/TWV0aG9kPyE+DQo8IT9QYXJhbT8hPg0KPCE/SUQ/IT4zPCE/SUQ/IT4NCjwhP05hbWU/IT5PdXRwdXQgQkxPQjwhP05hbWU/IT4NCjwhP0NUUk5hbWU/IT5QYXJhbWV0ZXIgVmFsdWU8IT9DVFJOYW1lPyE+DQo8IT9QYXJhbT8hPg0KPCE/REFNPyE+DQo8IT9TdGVwPyE+</ExpressionPath> 
+  <isCopyIndication>False</isCopyIndication> 
+ </Expression_TableComp>
+ <Expression_TableComp>
+  <Object_ID>2</Object_ID> 
+  <BP_ID>2</BP_ID> 
+  <Flow_ID>14</Flow_ID> 
+  <StepTrigger_ID>8</StepTrigger_ID> 
+  <Is_Trigger>0</Is_Trigger> 
+  <SubStep_ID>0</SubStep_ID> 
+  <MapperUpdate_ID>0</MapperUpdate_ID> 
+  <Expression_ID>39</Expression_ID> 
+  <Development_Expression>J0N1c3RvbWVyIEluZm8n</Development_Expression> 
+  <Deployment_Expression></Deployment_Expression>
+  <Expression_Return_Attribute>A</Expression_Return_Attribute> 
+  <Range_String></Range_String>  
+  <Direction_InOrOut>I</Direction_InOrOut> 
+  <DeploymentGenerated>0</DeploymentGenerated> 
+  <ExpressionPath>PCE/U3RlcD8hPg0KPCE/VGFiPyE+TG9nZ2luZzwhP1RhYj8hPg0KPCE/Q1RSTmFtZT8hPkxvZ1N0cmluZ01zZ18wMDAxPCE/Q1RSTmFtZT8hPg0KPCE/U3RlcD8hPg==</ExpressionPath> 
+  <isCopyIndication>False</isCopyIndication> 
+ </Expression_TableComp>
+ <Expression_TableComp>
+  <Object_ID>2</Object_ID> 
+  <BP_ID>2</BP_ID> 
+  <Flow_ID>14</Flow_ID> 
+  <StepTrigger_ID>8</StepTrigger_ID> 
+  <Is_Trigger>0</Is_Trigger> 
+  <SubStep_ID>0</SubStep_ID> 
+  <MapperUpdate_ID>0</MapperUpdate_ID> 
+  <Expression_ID>40</Expression_ID> 
+  <Development_Expression>PCMhJUAkPmdldFZhck5hbWUoMiwnezc1MEZBREUyLTFFMDctNEFGRS04Njc4LUMzOEE3Njc1RDYzMX0nLDAsMCk8IyElQCQ+</Development_Expression> 
+  <Deployment_Expression></Deployment_Expression>
+  <Expression_Return_Attribute>A</Expression_Return_Attribute> 
+  <Range_String></Range_String>  
+  <Direction_InOrOut>I</Direction_InOrOut> 
+  <DeploymentGenerated>0</DeploymentGenerated> 
+  <ExpressionPath>PCE/U3RlcD8hPg0KPCE/VGFiPyE+TG9nZ2luZzwhP1RhYj8hPg0KPCE/Q1RSTmFtZT8hPkxvZ0JMT0JfMDAwMTwhP0NUUk5hbWU/IT4NCjwhP1N0ZXA/IT4=</ExpressionPath> 
+  <isCopyIndication>False</isCopyIndication> 
+ </Expression_TableComp>
+ </Struct_ExpressionTable>
+
+ <Struct_MapperElementData/>
+
+ <Struct_MapperExpressionID/>
+
+</Flows>

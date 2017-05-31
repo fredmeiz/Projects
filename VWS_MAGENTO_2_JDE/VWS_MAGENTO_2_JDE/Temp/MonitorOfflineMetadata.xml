@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProjectData projectKey="e0c5fe81-6570-434c-8d95-b3d56ffdef05">
+  <BusinessProcess>
+    <ID>2</ID>
+    <Name>Magento JDE</Name>
+    <Flow>
+      <ID>1</ID>
+      <Name>Generic Error Flow</Name>
+      <Step>
+        <ID>2</ID>
+        <Name>Envoi Mail</Name>
+      </Step>
+      <Step>
+        <ID>4</ID>
+        <Name>Email</Name>
+      </Step>
+      <Step>
+        <ID>7</ID>
+        <Name>Create Attch</Name>
+      </Step>
+      <Step>
+        <ID>8</ID>
+        <Name>Prepare attch</Name>
+      </Step>
+      <Step>
+        <ID>9</ID>
+        <Name>Delete Attch</Name>
+      </Step>
+      <Step>
+        <ID>11</ID>
+        <Name>Update ODS MSG</Name>
+      </Step>
+      <Step>
+        <ID>12</ID>
+        <Name>desc Error</Name>
+      </Step>
+      <Step>
+        <ID>13</ID>
+        <Name>replay</Name>
+      </Step>
+      <Step>
+        <ID>15</ID>
+        <Name>Abort Flow Service</Name>
+      </Step>
+      <Step>
+        <ID>16</ID>
+        <Name>NOP Service</Name>
+      </Step>
+    </Flow>
+    <Flow>
+      <ID>2</ID>
+      <Name>Get Quantity Available</Name>
+      <Step>
+        <ID>27</ID>
+        <Name>Map Message to JDE WS Call</Name>
+      </Step>
+      <Step>
+        <ID>29</ID>
+        <Name>Map WS Response</Name>
+      </Step>
+      <Step>
+        <ID>36</ID>
+        <Name>show quantity available</Name>
+      </Step>
+      <Step>
+        <ID>37</ID>
+        <Name>Request to JDE</Name>
+      </Step>
+      <Step>
+        <ID>38</ID>
+        <Name>Response from JDE</Name>
+      </Step>
+      <Step>
+        <ID>39</ID>
+        <Name>Call JDE Inventory Manager</Name>
+      </Step>
+      <Step>
+        <ID>40</ID>
+        <Name>JDE Fault</Name>
+      </Step>
+      <Step>
+        <ID>41</ID>
+        <Name>Return ErrorString</Name>
+      </Step>
+      <Trigger>
+        <ID>2</ID>
+        <Name>getQuantityAvailable</Name>
+      </Trigger>
+    </Flow>
+    <Flow>
+      <ID>3</ID>
+      <Name>Magento Create Order</Name>
+      <Step>
+        <ID>21</ID>
+        <Name>Log Mage Data Before Mapping</Name>
+      </Step>
+      <Step>
+        <ID>24</ID>
+        <Name>Map Mage Data</Name>
+      </Step>
+      <Step>
+        <ID>27</ID>
+        <Name>Log Mage Data After Mapping</Name>
+      </Step>
+      <Step>
+        <ID>28</ID>
+        <Name>Capture Variables</Name>
+      </Step>
+      <Step>
+        <ID>29</ID>
+        <Name>Check Existing</Name>
+      </Step>
+      <Step>
+        <ID>30</ID>
+        <Name>Map Mage Order Lines</Name>
+      </Step>
+      <Step>
+        <ID>31</ID>
+        <Name>Log Mage Order Lines</Name>
+      </Step>
+      <Step>
+        <ID>32</ID>
+        <Name>Add Freight Line</Name>
+      </Step>
+      <Step>
+        <ID>33</ID>
+        <Name>Map JDE Request</Name>
+      </Step>
+      <Step>
+        <ID>34</ID>
+        <Name>Log JDE Input Before Post</Name>
+      </Step>
+      <Step>
+        <ID>35</ID>
+        <Name>Initialize HTTP Post Header</Name>
+      </Step>
+      <Step>
+        <ID>36</ID>
+        <Name>Post Message to JDE Endpoint</Name>
+      </Step>
+      <Step>
+        <ID>37</ID>
+        <Name>Log JDE HTTP Code</Name>
+      </Step>
+      <Step>
+        <ID>40</ID>
+        <Name>JDEOUT</Name>
+      </Step>
+      <Step>
+        <ID>41</ID>
+        <Name>Remove SOAP Envelope</Name>
+      </Step>
+      <Step>
+        <ID>42</ID>
+        <Name>Map JDE Response</Name>
+      </Step>
+      <Step>
+        <ID>47</ID>
+        <Name>Add order to CDE in ODS</Name>
+      </Step>
+      <Step>
+        <ID>50</ID>
+        <Name>Map JDE GetSalesOrder Call</Name>
+      </Step>
+      <Step>
+        <ID>51</ID>
+        <Name>Call JDEgetSalesOrder</Name>
+      </Step>
+      <Step>
+        <ID>52</ID>
+        <Name>Log JDEgetSalesOrderOut</Name>
+      </Step>
+      <Step>
+        <ID>53</ID>
+        <Name>Check Price</Name>
+      </Step>
+      <Step>
+        <ID>54</ID>
+        <Name>Send Warning Message</Name>
+      </Step>
+      <Step>
+        <ID>55</ID>
+        <Name>Log Any WS Warnings</Name>
+      </Step>
+      <Step>
+        <ID>56</ID>
+        <Name>Check Existing JDE Order</Name>
+      </Step>
+      <Step>
+        <ID>57</ID>
+        <Name>Duplicate Magento Order</Name>
+      </Step>
+      <Step>
+        <ID>58</ID>
+        <Name>Upd Warning with Price &amp; hold</Name>
+      </Step>
+      <Step>
+        <ID>60</ID>
+        <Name>Update ODS MSG</Name>
+      </Step>
+      <Step>
+        <ID>63</ID>
+        <Name>Log JDEgetSalesOrderIn</Name>
+      </Step>
+      <Step>
+        <ID>72</ID>
+        <Name>Notify HTTP Post Error (com)</Name>
+      </Step>
+      <Step>
+        <ID>73</ID>
+        <Name>Log HTTP POST ERROR</Name>
+      </Step>
+      <Step>
+        <ID>74</ID>
+        <Name>Update ODS MSG</Name>
+      </Step>
+      <Step>
+        <ID>76</ID>
+        <Name>Note Error in Flow</Name>
+      </Step>
+      <Step>
+        <ID>77</ID>
+        <Name>Notify HTTP Error Response</Name>
+      </Step>
+      <Step>
+        <ID>78</ID>
+        <Name>Get faultstring</Name>
+      </Step>
+      <Step>
+        <ID>79</ID>
+        <Name>Check Hold Code</Name>
+      </Step>
+      <Trigger>
+        <ID>3</ID>
+        <Name>magentoCreateOrder</Name>
+      </Trigger>
+    </Flow>
+    <Flow>
+      <ID>4</ID>
+      <Name>HealthCheck</Name>
+    </Flow>
+    <Flow>
+      <ID>5</ID>
+      <Name>Get Order Status</Name>
+      <Step>
+        <ID>44</ID>
+        <Name>Map Trigger Input</Name>
+      </Step>
+      <Step>
+        <ID>80</ID>
+        <Name>Lookup JDE Order Number</Name>
+      </Step>
+      <Step>
+        <ID>82</ID>
+        <Name>MapJDEInputs</Name>
+      </Step>
+      <Step>
+        <ID>83</ID>
+        <Name>JDEgetSalesOrderV4</Name>
+      </Step>
+      <Step>
+        <ID>84</ID>
+        <Name>Get JDE Order Status</Name>
+      </Step>
+      <Step>
+        <ID>86</ID>
+        <Name>Result of JDE call</Name>
+      </Step>
+      <Step>
+        <ID>89</ID>
+        <Name>JDE Get SO Error</Name>
+      </Step>
+      <Step>
+        <ID>91</ID>
+        <Name>Magento Order Requested</Name>
+      </Step>
+      <Step>
+        <ID>92</ID>
+        <Name>Debug Mode Goto Map Result</Name>
+      </Step>
+      <Step>
+        <ID>93</ID>
+        <Name>Using Debug Mode</Name>
+      </Step>
+      <Step>
+        <ID>94</ID>
+        <Name>Update ODS Status</Name>
+      </Step>
+      <Step>
+        <ID>95</ID>
+        <Name>Map to Result XML</Name>
+      </Step>
+      <Step>
+        <ID>96</ID>
+        <Name>Response</Name>
+      </Step>
+      <Trigger>
+        <ID>1</ID>
+        <Name>getOrderStatus</Name>
+      </Trigger>
+    </Flow>
+  </BusinessProcess>
+</ProjectData>

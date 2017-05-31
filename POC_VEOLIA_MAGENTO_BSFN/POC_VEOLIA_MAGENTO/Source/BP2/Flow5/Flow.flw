@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Flow>
+
+  <Properties>
+    <ID>5</ID>
+    <Order>11</Order>
+    <Name>Call UBE</Name>
+    <isInactive>false</isInactive>
+    <isDisabled>false</isDisabled>
+    <isTwoPhase>false</isTwoPhase>
+    <isAutoStart>false</isAutoStart>
+    <MaxInstances>0</MaxInstances>
+    <isAutoRepeat>false</isAutoRepeat>
+    <TimeoutPolicy>6</TimeoutPolicy>
+    <TimeOutVal>0</TimeOutVal>
+    <RecoveryPolicy>6</RecoveryPolicy>
+  </Properties>
+
+  <DrawProperties>
+    <RootStepID>1</RootStepID>
+    <HasTrigger>false</HasTrigger>
+  </DrawProperties>
+
+  <Steps>
+    <row_Step>
+      <Properties>
+        <isGoTo>false</isGoTo>
+        <ParentStepID>0</ParentStepID>
+        <SortOrder>0</SortOrder>
+        <ID>1</ID>
+        <Name>Call UBE</Name>
+        <IFCDefinition>145</IFCDefinition>
+        <ProcessMode>1</ProcessMode>
+        <isTwoPhase>false</isTwoPhase>
+        <isWait4Comp>false</isWait4Comp>
+        <isSavePoint>false</isSavePoint>
+        <CallLogicFlow>false</CallLogicFlow>
+        <isTrigger>false</isTrigger>
+      </Properties>
+      <LoggingInfo>
+        <Scope>1</Scope>
+        <Option>2</Option>
+        <MSGDetails>
+          <MSGString>
+            <ExpressionVal>J1VCRSBjYWxsIG91dHB1dCAtIGNoZWNrIGpvYiBuby4n</ExpressionVal>
+            <ExpectedType>A</ExpectedType>
+            <Direction>I</Direction>
+          </MSGString>
+          <MSGBLOB>
+            <ExpressionVal>PCMhJUAkPmdldFZhck5hbWUoMiwnMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDA3JywwLDApPCMhJUAkPg==</ExpressionVal>
+            <ExpectedType>B</ExpectedType>
+            <Direction>I</Direction>
+          </MSGBLOB>
+          <BLOBExtn>xml</BLOBExtn>
+        </MSGDetails>
+      </LoggingInfo>
+      <ResourceInfo>
+        <isDynamic>false</isDynamic>
+        <ResSerName>VWS</ResSerName>
+      </ResourceInfo>
+      <ConfigInfo>
+        <Interface>1</Interface>
+        <InvokeComp>%ifclib%jdedwards\jdedwardsifc.ecf</InvokeComp>
+        <DDAMConfigBLOB>PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIiA/Pg0KPEpERVN0ZXA+DQoNCiAgPENvbmZpZ3VyYXRpb24+DQogICAgPElGQ05hbWUvPg0KICAgIDxJbnRlcmZhY2U+QjwvSW50ZXJmYWNlPg0KICAgIDxNb2R1bGU+QjkxMzAwQzwvTW9kdWxlPg0KICAgIDxCU0ZOPkxhdW5jaEJhdGNoQXBwbGljYXRpb248L0JTRk4+DQogICAgPERpc2Nvbm5lY3Q+MDwvRGlzY29ubmVjdD4NCiAgICA8UmVzdWx0VGFyZ2V0X0NvbWJvPjI8L1Jlc3VsdFRhcmdldF9Db21ibz4NCiAgICA8UmVzdWx0VGFyZ2V0RXhwPg0KICAgICAgPEV4cHJlc3Npb25WYWw+UENNaEpVQWtQbWRsZEZaaGNrNWhiV1VvTWl3bk1EQXdNREF3TURBd01EQXdNREF3TURBd01EQXdNREF3TURBd01EQXdNREF3TURBd01EQTNKeXd3TERBcFBDTWhKVUFrUGc9PTwvRXhwcmVzc2lvblZhbD4NCiAgICAgIDxFeHBlY3RlZFR5cGU+QjwvRXhwZWN0ZWRUeXBlPg0KICAgICAgPERpcmVjdGlvbj5PPC9EaXJlY3Rpb24+DQogICAgPC9SZXN1bHRUYXJnZXRFeHA+DQogIDwvQ29uZmlndXJhdGlvbj4NCg0KPC9KREVTdGVwPg0K</DDAMConfigBLOB>
+        <DDAM_XMLXSD>jdedwards\XSD\amiedubae1_EPPD\B91300C.LaunchBatchApplication.xsd</DDAM_XMLXSD>
+      </ConfigInfo>
+    </row_Step>
+    <row_Step>
+      <Properties>
+        <isGoTo>false</isGoTo>
+        <ParentStepID>1</ParentStepID>
+        <SortOrder>1</SortOrder>
+        <ID>2</ID>
+        <Name>NOP Service</Name>
+        <IFCDefinition>22</IFCDefinition>
+        <ProcessMode>1</ProcessMode>
+        <isTwoPhase>false</isTwoPhase>
+        <isWait4Comp>false</isWait4Comp>
+        <isSavePoint>false</isSavePoint>
+        <CallLogicFlow>false</CallLogicFlow>
+        <isTrigger>false</isTrigger>
+      </Properties>
+      <LoggingInfo>
+        <Scope>0</Scope>
+      </LoggingInfo>
+      <iBoltService/>
+    </row_Step>
+  </Steps>
+
+</Flow>

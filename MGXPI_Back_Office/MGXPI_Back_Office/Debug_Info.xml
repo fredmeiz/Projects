@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DebuggerData>
+  <debuggerDataStudioVersion>0</debuggerDataStudioVersion>
+  <debuggerAttachSettings>
+    <DatabaseResourceName />
+    <IsInternalDB>true</IsInternalDB>
+  </debuggerAttachSettings>
+  <debuggerSettings>
+    <CleanRecovery>false</CleanRecovery>
+    <EndContextAfterLastStep>false</EndContextAfterLastStep>
+    <GracefulStopDuration>5</GracefulStopDuration>
+    <SchedulerRefreshInterval>5</SchedulerRefreshInterval>
+    <ContextViewActionTimeout>30</ContextViewActionTimeout>
+  </debuggerSettings>
+  <DebuggerInstractionsList>
+    <DebuggerInstruction>
+      <bpID>1</bpID>
+      <flowID>2</flowID>
+      <stepID>6</stepID>
+      <isGoToStep>false</isGoToStep>
+      <sourceStepID>0</sourceStepID>
+      <sortOrder>0</sortOrder>
+      <Type>Breakpoint</Type>
+      <BreakPointCondition>
+        <ExpectedType>L</ExpectedType>
+        <Direction>I</Direction>
+      </BreakPointCondition>
+    </DebuggerInstruction>
+    <DebuggerInstruction>
+      <bpID>1</bpID>
+      <flowID>1</flowID>
+      <stepID>0</stepID>
+      <isGoToStep>false</isGoToStep>
+      <sourceStepID>0</sourceStepID>
+      <sortOrder>0</sortOrder>
+      <Type>SuspendFlow</Type>
+    </DebuggerInstruction>
+    <DebuggerInstruction>
+      <bpID>1</bpID>
+      <flowID>4</flowID>
+      <stepID>6</stepID>
+      <isGoToStep>false</isGoToStep>
+      <sourceStepID>0</sourceStepID>
+      <sortOrder>0</sortOrder>
+      <Type>Breakpoint</Type>
+      <BreakPointCondition>
+        <ExpectedType>L</ExpectedType>
+        <Direction>I</Direction>
+      </BreakPointCondition>
+    </DebuggerInstruction>
+  </DebuggerInstractionsList>
+</DebuggerData>

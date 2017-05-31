@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Flow>
+  <Properties>
+    <ID>1</ID>
+    <Order>1</Order>
+    <Name>BSFN_BSSV</Name>
+    <isInactive>true</isInactive>
+    <isDisabled>false</isDisabled>
+    <isTwoPhase>false</isTwoPhase>
+    <isAutoStart>false</isAutoStart>
+    <MaxInstances>0</MaxInstances>
+    <isAutoRepeat>false</isAutoRepeat>
+    <PSSSubGUID>
+      <ExpectedType>A</ExpectedType>
+      <Direction>I</Direction>
+    </PSSSubGUID>
+    <isPSSSubOnce>false</isPSSSubOnce>
+    <TimeoutPolicy>6</TimeoutPolicy>
+    <TimeOutVal>0</TimeOutVal>
+    <HasDBTransaction>false</HasDBTransaction>
+    <DBTransactionString />
+    <RecoveryPolicy>6</RecoveryPolicy>
+    <isSecuredCall>false</isSecuredCall>
+    <ErrorFlow>
+      <BPID>0</BPID>
+      <FlowID>
+        <ExpectedType>N</ExpectedType>
+        <Direction>I</Direction>
+      </FlowID>
+    </ErrorFlow>
+    <LogicFlow>
+      <BPID>0</BPID>
+      <FlowID>
+        <ExpectedType>N</ExpectedType>
+        <Direction>I</Direction>
+      </FlowID>
+    </LogicFlow>
+    <CleanupFlow>
+      <BPID>0</BPID>
+      <FlowID>
+        <ExpectedType>N</ExpectedType>
+        <Direction>I</Direction>
+      </FlowID>
+    </CleanupFlow>
+    <Enablement>
+      <ResourceInfo>
+        <isDynamic>false</isDynamic>
+      </ResourceInfo>
+    </Enablement>
+  </Properties>
+  <DrawProperties>
+    <RootStepID>6</RootStepID>
+    <HasTrigger>true</HasTrigger>
+  </DrawProperties>
+  <Steps />
+  <Triggers />
+  <TextElements />
+  <Struct_Scheduler xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" />
+</Flow>

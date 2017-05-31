@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Resource_Settings>
+  <Resource_Element>
+    <Main_Resource_ID>106</Main_Resource_ID>
+    <Main_Resource_Name>Email</Main_Resource_Name>
+  </Resource_Element>
+  <Resource_Element>
+    <Main_Resource_ID>109</Main_Resource_ID>
+    <Main_Resource_Name>FTP</Main_Resource_Name>
+  </Resource_Element>
+  <Resource_Element>
+    <Main_Resource_ID>110</Main_Resource_ID>
+    <Main_Resource_Name>HTTP</Main_Resource_Name>
+  </Resource_Element>
+  <Resource_Element>
+    <Main_Resource_ID>111</Main_Resource_ID>
+    <Main_Resource_Name>IBM i</Main_Resource_Name>
+  </Resource_Element>
+  <Resource_Element>
+    <Main_Resource_ID>115</Main_Resource_ID>
+    <Main_Resource_Name>JMS</Main_Resource_Name>
+  </Resource_Element>
+  <Resource_Element>
+    <Main_Resource_ID>117</Main_Resource_ID>
+    <Main_Resource_Name>WebSphere MQ</Main_Resource_Name>
+  </Resource_Element>
+  <Resource_Element>
+    <Main_Resource_ID>118</Main_Resource_ID>
+    <Main_Resource_Name>MSMQ</Main_Resource_Name>
+  </Resource_Element>
+  <Resource_Element>
+    <Main_Resource_ID>121</Main_Resource_ID>
+    <Main_Resource_Name>Web Services</Main_Resource_Name>
+    <Default_Resource>JDE_OLD</Default_Resource>
+    <Main_Resource_Defintion>
+      <Resource_Type_ID>22</Resource_Type_ID>
+      <Resource_Type_Name>JDE_OLD</Resource_Type_Name>
+      <Resource_Type_Description />
+      <Resource_Type_Blob>TgB1AGwAbABCAGwAbwBiAA==</Resource_Type_Blob>
+      <Resource_Properties>
+        <ID>1</ID>
+        <Name>Web Service Provider</Name>
+        <ExpressionValue>WS</ExpressionValue>
+        <ExpressionValueBlob />
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>10</ID>
+        <Name>Fault data</Name>
+        <ExpressionValue />
+        <ExpressionValueBlob />
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>11</ID>
+        <Name>UDDI Server</Name>
+        <ExpressionValue />
+        <ExpressionValueBlob />
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>12</ID>
+        <Name>UDDI SelectedServer</Name>
+        <ExpressionValue />
+        <ExpressionValueBlob />
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>2</ID>
+        <Name>Web Service Name</Name>
+        <ExpressionValue>JDE</ExpressionValue>
+        <ExpressionValueBlob />
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>3</ID>
+        <Name>Service Namespace</Name>
+        <ExpressionValue>com.magicsoftware.magicxpi.amiedubamagic</ExpressionValue>
+        <ExpressionValueBlob />
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>4</ID>
+        <Name>SOAP version</Name>
+        <ExpressionValue>1</ExpressionValue>
+        <ExpressionValueBlob />
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>5</ID>
+        <Name>Operation type</Name>
+        <ExpressionValue>2</ExpressionValue>
+        <ExpressionValueBlob />
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>6</ID>
+        <Name>Attachment type</Name>
+        <ExpressionValue>1</ExpressionValue>
+        <ExpressionValueBlob />
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>7</ID>
+        <Name>Service WSDL</Name>
+        <ExpressionValue />
+        <ExpressionValueBlob />
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>8</ID>
+        <Name>Operations data</Name>
+        <ExpressionValue />
+        <ExpressionValueBlob>PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIiA/Pg0KPE9wZXJhdGlvbnNEYXRhPg0KDQogIDxPcGVyYXRpb24+DQogICAgPE9wZXJhdGlvbklEPjU8L09wZXJhdGlvbklEPg0KICAgIDxPcGVyYXRpb25OYW1lPm1hZ2VudG9PcmRlcjwvT3BlcmF0aW9uTmFtZT4NCiAgICA8UmVxdWVzdFNlY3VyaXR5PjwvUmVxdWVzdFNlY3VyaXR5Pg0KICAgIDxSZXNwb25zZVNlY3VyaXR5PjwvUmVzcG9uc2VTZWN1cml0eT4NCiAgICA8QXJndW1lbnQ+DQogICAgICA8SUQ+MTwvSUQ+DQogICAgICA8VHlwZT4xPC9UeXBlPg0KICAgICAgPE5hbWU+SGVhZGVyX0luPC9OYW1lPg0KICAgICAgPERpcmVjdGlvbj4xPC9EaXJlY3Rpb24+DQogICAgICA8RGF0YVR5cGU+QjwvRGF0YVR5cGU+DQogICAgICA8UGljdHVyZT48L1BpY3R1cmU+DQogICAgICA8U2NoZW1hPjwvU2NoZW1hPg0KICAgICAgPFhTRFR5cGU+PC9YU0RUeXBlPg0KICAgICAgPFJvb3RFbGVtZW50PjwvUm9vdEVsZW1lbnQ+DQogICAgICA8TmFtZVNwYWNlPjwvTmFtZVNwYWNlPg0KICAgIDwvQXJndW1lbnQ+DQogICAgPEFyZ3VtZW50Pg0KICAgICAgPElEPjI8L0lEPg0KICAgICAgPFR5cGU+MTwvVHlwZT4NCiAgICAgIDxOYW1lPkhlYWRlcl9PdXQ8L05hbWU+DQogICAgICA8RGlyZWN0aW9uPjI8L0RpcmVjdGlvbj4NCiAgICAgIDxEYXRhVHlwZT5CPC9EYXRhVHlwZT4NCiAgICAgIDxQaWN0dXJlPjwvUGljdHVyZT4NCiAgICAgIDxTY2hlbWE+PC9TY2hlbWE+DQogICAgICA8WFNEVHlwZT48L1hTRFR5cGU+DQogICAgICA8Um9vdEVsZW1lbnQ+PC9Sb290RWxlbWVudD4NCiAgICAgIDxOYW1lU3BhY2U+PC9OYW1lU3BhY2U+DQogICAgPC9Bcmd1bWVudD4NCiAgICA8QXJndW1lbnQ+DQogICAgICA8SUQ+MzwvSUQ+DQogICAgICA8VHlwZT40PC9UeXBlPg0KICAgICAgPE5hbWU+UmV0dXJuIFZhbDwvTmFtZT4NCiAgICAgIDxEaXJlY3Rpb24+MzwvRGlyZWN0aW9uPg0KICAgICAgPERhdGFUeXBlPkE8L0RhdGFUeXBlPg0KICAgICAgPFBpY3R1cmU+MzA8L1BpY3R1cmU+DQogICAgICA8U2NoZW1hPjwvU2NoZW1hPg0KICAgICAgPFhTRFR5cGU+eHNkOnN0cmluZzwvWFNEVHlwZT4NCiAgICAgIDxSb290RWxlbWVudD48L1Jvb3RFbGVtZW50Pg0KICAgICAgPE5hbWVTcGFjZT48L05hbWVTcGFjZT4NCiAgICA8L0FyZ3VtZW50Pg0KICAgIDxBcmd1bWVudD4NCiAgICAgIDxJRD40PC9JRD4NCiAgICAgIDxUeXBlPjI8L1R5cGU+DQogICAgICA8TmFtZT5vcmRlcjwvTmFtZT4NCiAgICAgIDxEaXJlY3Rpb24+MTwvRGlyZWN0aW9uPg0KICAgICAgPERhdGFUeXBlPkI8L0RhdGFUeXBlPg0KICAgICAgPFBpY3R1cmU+PC9QaWN0dXJlPg0KICAgICAgPFNjaGVtYT4lY3VycmVudHByb2plY3RkaXIlRmlsZXNcc2NoZW1hc1xtYWdlbnRvT3JkZXIueHNkPC9TY2hlbWE+DQogICAgICA8WFNEVHlwZT5YTUwgRG9jdW1lbnQ8L1hTRFR5cGU+DQogICAgICA8Um9vdEVsZW1lbnQ+bWFnZW50b0NyZWF0ZU9yZGVyPC9Sb290RWxlbWVudD4NCiAgICAgIDxOYW1lU3BhY2U+aHR0cDovL3N5c3RpbmV0LmNvbS93c2RsL2NvbS9tYWdpY3NvZnR3YXJlL21hZ2ljeHBpL2FtaWVkdWJhbWFnaWMvSkRFLzwvTmFtZVNwYWNlPg0KICAgIDwvQXJndW1lbnQ+DQogIDwvT3BlcmF0aW9uPg0KDQogIDxPcGVyYXRpb24+DQogICAgPE9wZXJhdGlvbklEPjY8L09wZXJhdGlvbklEPg0KICAgIDxPcGVyYXRpb25OYW1lPmdldFF1YW50aXR5QXZhaWxhYmxlPC9PcGVyYXRpb25OYW1lPg0KICAgIDxSZXF1ZXN0U2VjdXJpdHk+PC9SZXF1ZXN0U2VjdXJpdHk+DQogICAgPFJlc3BvbnNlU2VjdXJpdHk+PC9SZXNwb25zZVNlY3VyaXR5Pg0KICAgIDxBcmd1bWVudD4NCiAgICAgIDxJRD4xPC9JRD4NCiAgICAgIDxUeXBlPjE8L1R5cGU+DQogICAgICA8TmFtZT5IZWFkZXJfSW48L05hbWU+DQogICAgICA8RGlyZWN0aW9uPjE8L0RpcmVjdGlvbj4NCiAgICAgIDxEYXRhVHlwZT5CPC9EYXRhVHlwZT4NCiAgICAgIDxQaWN0dXJlPjwvUGljdHVyZT4NCiAgICAgIDxTY2hlbWE+PC9TY2hlbWE+DQogICAgICA8WFNEVHlwZT48L1hTRFR5cGU+DQogICAgICA8Um9vdEVsZW1lbnQ+PC9Sb290RWxlbWVudD4NCiAgICAgIDxOYW1lU3BhY2U+PC9OYW1lU3BhY2U+DQogICAgPC9Bcmd1bWVudD4NCiAgICA8QXJndW1lbnQ+DQogICAgICA8SUQ+MjwvSUQ+DQogICAgICA8VHlwZT4xPC9UeXBlPg0KICAgICAgPE5hbWU+SGVhZGVyX091dDwvTmFtZT4NCiAgICAgIDxEaXJlY3Rpb24+MjwvRGlyZWN0aW9uPg0KICAgICAgPERhdGFUeXBlPkI8L0RhdGFUeXBlPg0KICAgICAgPFBpY3R1cmU+PC9QaWN0dXJlPg0KICAgICAgPFNjaGVtYT48L1NjaGVtYT4NCiAgICAgIDxYU0RUeXBlPjwvWFNEVHlwZT4NCiAgICAgIDxSb290RWxlbWVudD48L1Jvb3RFbGVtZW50Pg0KICAgICAgPE5hbWVTcGFjZT48L05hbWVTcGFjZT4NCiAgICA8L0FyZ3VtZW50Pg0KICAgIDxBcmd1bWVudD4NCiAgICAgIDxJRD4zPC9JRD4NCiAgICAgIDxUeXBlPjQ8L1R5cGU+DQogICAgICA8TmFtZT5xdWFudGl0eUF2YWlsYWJsZTwvTmFtZT4NCiAgICAgIDxEaXJlY3Rpb24+MzwvRGlyZWN0aW9uPg0KICAgICAgPERhdGFUeXBlPkE8L0RhdGFUeXBlPg0KICAgICAgPFBpY3R1cmU+MzA8L1BpY3R1cmU+DQogICAgICA8U2NoZW1hPjwvU2NoZW1hPg0KICAgICAgPFhTRFR5cGU+eHNkOnN0cmluZzwvWFNEVHlwZT4NCiAgICAgIDxSb290RWxlbWVudD48L1Jvb3RFbGVtZW50Pg0KICAgICAgPE5hbWVTcGFjZT48L05hbWVTcGFjZT4NCiAgICA8L0FyZ3VtZW50Pg0KICAgIDxBcmd1bWVudD4NCiAgICAgIDxJRD40PC9JRD4NCiAgICAgIDxUeXBlPjI8L1R5cGU+DQogICAgICA8TmFtZT5za3U8L05hbWU+DQogICAgICA8RGlyZWN0aW9uPjE8L0RpcmVjdGlvbj4NCiAgICAgIDxEYXRhVHlwZT5BPC9EYXRhVHlwZT4NCiAgICAgIDxQaWN0dXJlPjMwPC9QaWN0dXJlPg0KICAgICAgPFNjaGVtYT48L1NjaGVtYT4NCiAgICAgIDxYU0RUeXBlPnhzZDpzdHJpbmc8L1hTRFR5cGU+DQogICAgICA8Um9vdEVsZW1lbnQ+PC9Sb290RWxlbWVudD4NCiAgICAgIDxOYW1lU3BhY2U+PC9OYW1lU3BhY2U+DQogICAgPC9Bcmd1bWVudD4NCiAgPC9PcGVyYXRpb24+DQoNCiAgPE9wZXJhdGlvbj4NCiAgICA8T3BlcmF0aW9uSUQ+NzwvT3BlcmF0aW9uSUQ+DQogICAgPE9wZXJhdGlvbk5hbWU+Z2V0T3JkZXJTdGF0dXM8L09wZXJhdGlvbk5hbWU+DQogICAgPFJlcXVlc3RTZWN1cml0eT48L1JlcXVlc3RTZWN1cml0eT4NCiAgICA8UmVzcG9uc2VTZWN1cml0eT48L1Jlc3BvbnNlU2VjdXJpdHk+DQogICAgPEFyZ3VtZW50Pg0KICAgICAgPElEPjE8L0lEPg0KICAgICAgPFR5cGU+MTwvVHlwZT4NCiAgICAgIDxOYW1lPkhlYWRlcl9JbjwvTmFtZT4NCiAgICAgIDxEaXJlY3Rpb24+MTwvRGlyZWN0aW9uPg0KICAgICAgPERhdGFUeXBlPkI8L0RhdGFUeXBlPg0KICAgICAgPFBpY3R1cmU+PC9QaWN0dXJlPg0KICAgICAgPFNjaGVtYT48L1NjaGVtYT4NCiAgICAgIDxYU0RUeXBlPjwvWFNEVHlwZT4NCiAgICAgIDxSb290RWxlbWVudD48L1Jvb3RFbGVtZW50Pg0KICAgICAgPE5hbWVTcGFjZT48L05hbWVTcGFjZT4NCiAgICA8L0FyZ3VtZW50Pg0KICAgIDxBcmd1bWVudD4NCiAgICAgIDxJRD4yPC9JRD4NCiAgICAgIDxUeXBlPjE8L1R5cGU+DQogICAgICA8TmFtZT5IZWFkZXJfT3V0PC9OYW1lPg0KICAgICAgPERpcmVjdGlvbj4yPC9EaXJlY3Rpb24+DQogICAgICA8RGF0YVR5cGU+QjwvRGF0YVR5cGU+DQogICAgICA8UGljdHVyZT48L1BpY3R1cmU+DQogICAgICA8U2NoZW1hPjwvU2NoZW1hPg0KICAgICAgPFhTRFR5cGU+PC9YU0RUeXBlPg0KICAgICAgPFJvb3RFbGVtZW50PjwvUm9vdEVsZW1lbnQ+DQogICAgICA8TmFtZVNwYWNlPjwvTmFtZVNwYWNlPg0KICAgIDwvQXJndW1lbnQ+DQogICAgPEFyZ3VtZW50Pg0KICAgICAgPElEPjM8L0lEPg0KICAgICAgPFR5cGU+NDwvVHlwZT4NCiAgICAgIDxOYW1lPlJldHVybiBWYWw8L05hbWU+DQogICAgICA8RGlyZWN0aW9uPjM8L0RpcmVjdGlvbj4NCiAgICAgIDxEYXRhVHlwZT5CPC9EYXRhVHlwZT4NCiAgICAgIDxQaWN0dXJlPjwvUGljdHVyZT4NCiAgICAgIDxTY2hlbWE+JWN1cnJlbnRwcm9qZWN0ZGlyJUZpbGVzXHNjaGVtYXNcb3JkZXJTdGF0dXNSZXR1cm4ueHNkPC9TY2hlbWE+DQogICAgICA8WFNEVHlwZT5YTUwgRG9jdW1lbnQ8L1hTRFR5cGU+DQogICAgICA8Um9vdEVsZW1lbnQ+c2FsZXNPcmRlckluZm88L1Jvb3RFbGVtZW50Pg0KICAgICAgPE5hbWVTcGFjZT5odHRwOi8vc3lzdGluZXQuY29tL3dzZGwvY29tL21hZ2ljc29mdHdhcmUvbWFnaWN4cGkvYW1pZWR1YmFtYWdpYy9KREUvPC9OYW1lU3BhY2U+DQogICAgPC9Bcmd1bWVudD4NCiAgICA8QXJndW1lbnQ+DQogICAgICA8SUQ+NDwvSUQ+DQogICAgICA8VHlwZT4yPC9UeXBlPg0KICAgICAgPE5hbWU+b3JkZXJJZDwvTmFtZT4NCiAgICAgIDxEaXJlY3Rpb24+MTwvRGlyZWN0aW9uPg0KICAgICAgPERhdGFUeXBlPkI8L0RhdGFUeXBlPg0KICAgICAgPFBpY3R1cmU+PC9QaWN0dXJlPg0KICAgICAgPFNjaGVtYT4lY3VycmVudHByb2plY3RkaXIlRmlsZXNcc2NoZW1hc1xvcmRlclN0YXR1c0lucHV0U2VydmljZS54c2Q8L1NjaGVtYT4NCiAgICAgIDxYU0RUeXBlPlhNTCBEb2N1bWVudDwvWFNEVHlwZT4NCiAgICAgIDxSb290RWxlbWVudD5nZXRPcmRlclN0YXR1czwvUm9vdEVsZW1lbnQ+DQogICAgICA8TmFtZVNwYWNlPmh0dHA6Ly9zeXN0aW5ldC5jb20vd3NkbC9jb20vbWFnaWNzb2Z0d2FyZS9tYWdpY3hwaS9hbWllZHViYW1hZ2ljL0pERS88L05hbWVTcGFjZT4NCiAgICA8L0FyZ3VtZW50Pg0KICA8L09wZXJhdGlvbj4NCg0KPC9PcGVyYXRpb25zRGF0YT4NCg==</ExpressionValueBlob>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>9</ID>
+        <Name>Management data</Name>
+        <ExpressionValue />
+        <ExpressionValueBlob>PD94bWwgdmVyc2lvbj0iMS4wIj8+DQo8TWFuYWdlbWVudERhdGEgeG1sbnM6eHNpPSJodHRwOi8vd3d3LnczLm9yZy8yMDAxL1hNTFNjaGVtYS1pbnN0YW5jZSIgeG1sbnM6eHNkPSJodHRwOi8vd3d3LnczLm9yZy8yMDAxL1hNTFNjaGVtYSI+DQogIDxTZXJ2aWNlTmFtZT5KREU8L1NlcnZpY2VOYW1lPg0KICA8U2VydmljZU5hbWVzcGFjZT5jb20ubWFnaWNzb2Z0d2FyZS5tYWdpY3hwaS5hbWllZHViYW1hZ2ljPC9TZXJ2aWNlTmFtZXNwYWNlPg0KICA8VVJMPmh0dHA6Ly9sb2NhbGhvc3Q6NjA2MC9KREUvPC9VUkw+DQogIDxFbmRwb2ludD5odHRwOi8vbG9jYWxob3N0OjYwNjAvSkRFLzwvRW5kcG9pbnQ+DQogIDxEZXBsb3ltZW50RGF0ZT4xMi8wNS8yMDE2PC9EZXBsb3ltZW50RGF0ZT4NCjwvTWFuYWdlbWVudERhdGE+</ExpressionValueBlob>
+      </Resource_Properties>
+    </Main_Resource_Defintion>
+    <Main_Resource_Defintion>
+      <Resource_Type_ID>23</Resource_Type_ID>
+      <Resource_Type_Name>JDE</Resource_Type_Name>
+      <Resource_Type_Description />
+      <Resource_Properties>
+        <ID>1</ID>
+        <Name>Web Service Provider</Name>
+        <ExpressionValue>WS</ExpressionValue>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>10</ID>
+        <Name>Fault data</Name>
+        <ExpressionValue />
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>11</ID>
+        <Name>UDDI Server</Name>
+        <ExpressionValue />
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>12</ID>
+        <Name>UDDI SelectedServer</Name>
+        <ExpressionValue />
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>2</ID>
+        <Name>Web Service Name</Name>
+        <ExpressionValue>JDE</ExpressionValue>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>3</ID>
+        <Name>Service Namespace</Name>
+        <ExpressionValue>com.magicsoftware.magicxpi.magicxpi</ExpressionValue>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>4</ID>
+        <Name>SOAP version</Name>
+        <ExpressionValue>1</ExpressionValue>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>5</ID>
+        <Name>Operation type</Name>
+        <ExpressionValue>2</ExpressionValue>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>6</ID>
+        <Name>Attachment type</Name>
+        <ExpressionValue>1</ExpressionValue>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>7</ID>
+        <Name>Service WSDL</Name>
+        <ExpressionValue />
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>8</ID>
+        <Name>Operations data</Name>
+        <ExpressionValue />
+        <ExpressionValueBlob>PD94bWwgdmVyc2lvbj0iMS4wIj8+DQo8T3BlcmF0aW9uc0RhdGEgeG1sbnM6eHNpPSJodHRwOi8vd3d3LnczLm9yZy8yMDAxL1hNTFNjaGVtYS1pbnN0YW5jZSIgeG1sbnM6eHNkPSJodHRwOi8vd3d3LnczLm9yZy8yMDAxL1hNTFNjaGVtYSI+DQogIDxPcGVyYXRpb24+DQogICAgPE9wZXJhdGlvbklEPjE8L09wZXJhdGlvbklEPg0KICAgIDxPcGVyYXRpb25OYW1lPm1hZ2VudG9PcmRlcjwvT3BlcmF0aW9uTmFtZT4NCiAgICA8UmVxdWVzdFNlY3VyaXR5Pk48L1JlcXVlc3RTZWN1cml0eT4NCiAgICA8UmVzcG9uc2VTZWN1cml0eT5OPC9SZXNwb25zZVNlY3VyaXR5Pg0KICAgIDxBcmd1bWVudD4NCiAgICAgIDxJRD4xPC9JRD4NCiAgICAgIDxUeXBlPjE8L1R5cGU+DQogICAgICA8TmFtZT5IZWFkZXJfSW48L05hbWU+DQogICAgICA8RGlyZWN0aW9uPjE8L0RpcmVjdGlvbj4NCiAgICAgIDxEYXRhVHlwZT5CPC9EYXRhVHlwZT4NCiAgICAgIDxQaWN0dXJlIC8+DQogICAgICA8WFNEVHlwZSAvPg0KICAgICAgPElzRGlydHk+dHJ1ZTwvSXNEaXJ0eT4NCiAgICA8L0FyZ3VtZW50Pg0KICAgIDxBcmd1bWVudD4NCiAgICAgIDxJRD4yPC9JRD4NCiAgICAgIDxUeXBlPjE8L1R5cGU+DQogICAgICA8TmFtZT5IZWFkZXJfT3V0PC9OYW1lPg0KICAgICAgPERpcmVjdGlvbj4yPC9EaXJlY3Rpb24+DQogICAgICA8RGF0YVR5cGU+QjwvRGF0YVR5cGU+DQogICAgICA8UGljdHVyZSAvPg0KICAgICAgPFhTRFR5cGUgLz4NCiAgICAgIDxJc0RpcnR5PnRydWU8L0lzRGlydHk+DQogICAgPC9Bcmd1bWVudD4NCiAgICA8QXJndW1lbnQ+DQogICAgICA8SUQ+MzwvSUQ+DQogICAgICA8VHlwZT40PC9UeXBlPg0KICAgICAgPE5hbWU+UmV0dXJuIFZhbDwvTmFtZT4NCiAgICAgIDxEaXJlY3Rpb24+NDwvRGlyZWN0aW9uPg0KICAgICAgPERhdGFUeXBlPkE8L0RhdGFUeXBlPg0KICAgICAgPFBpY3R1cmU+MzA8L1BpY3R1cmU+DQogICAgICA8WFNEVHlwZT54c2Q6c3RyaW5nPC9YU0RUeXBlPg0KICAgICAgPElzRGlydHk+dHJ1ZTwvSXNEaXJ0eT4NCiAgICA8L0FyZ3VtZW50Pg0KICAgIDxBcmd1bWVudD4NCiAgICAgIDxJRD40PC9JRD4NCiAgICAgIDxUeXBlPjI8L1R5cGU+DQogICAgICA8TmFtZT5vcmRlcjwvTmFtZT4NCiAgICAgIDxEaXJlY3Rpb24+MTwvRGlyZWN0aW9uPg0KICAgICAgPERhdGFUeXBlPkI8L0RhdGFUeXBlPg0KICAgICAgPFBpY3R1cmUgLz4NCiAgICAgIDxTY2hlbWE+QzpcVXNlcnNcQWRtaW5pc3RyYXRvclxEb2N1bWVudHNcTWFnaWNcUHJvamVjdHNcVldTX01BR0VOVE9fMl9KREVcVldTX01BR0VOVE9fMl9KREVcRmlsZXNcc2NoZW1hc1xtYWdlbnRvT3JkZXIueHNkPC9TY2hlbWE+DQogICAgICA8WFNEVHlwZT5YTUwgRG9jdW1lbnQ8L1hTRFR5cGU+DQogICAgICA8Um9vdEVsZW1lbnQ+bWFnZW50b0NyZWF0ZU9yZGVyPC9Sb290RWxlbWVudD4NCiAgICAgIDxOYW1lU3BhY2U+aHR0cDovL3N5c3RpbmV0LmNvbS93c2RsL2NvbS9tYWdpY3NvZnR3YXJlL21hZ2ljeHBpL2FtaWVkdWJhbWFnaWMvSkRFLzwvTmFtZVNwYWNlPg0KICAgICAgPElzRGlydHk+dHJ1ZTwvSXNEaXJ0eT4NCiAgICA8L0FyZ3VtZW50Pg0KICA8L09wZXJhdGlvbj4NCiAgPE9wZXJhdGlvbj4NCiAgICA8T3BlcmF0aW9uSUQ+MjwvT3BlcmF0aW9uSUQ+DQogICAgPE9wZXJhdGlvbk5hbWU+Z2V0UXVhbnRpdHlBdmFpbGFibGU8L09wZXJhdGlvbk5hbWU+DQogICAgPFJlcXVlc3RTZWN1cml0eT5OPC9SZXF1ZXN0U2VjdXJpdHk+DQogICAgPFJlc3BvbnNlU2VjdXJpdHk+TjwvUmVzcG9uc2VTZWN1cml0eT4NCiAgICA8QXJndW1lbnQ+DQogICAgICA8SUQ+MTwvSUQ+DQogICAgICA8VHlwZT4xPC9UeXBlPg0KICAgICAgPE5hbWU+SGVhZGVyX0luPC9OYW1lPg0KICAgICAgPERpcmVjdGlvbj4xPC9EaXJlY3Rpb24+DQogICAgICA8RGF0YVR5cGU+QjwvRGF0YVR5cGU+DQogICAgICA8UGljdHVyZSAvPg0KICAgICAgPFhTRFR5cGUgLz4NCiAgICAgIDxJc0RpcnR5PnRydWU8L0lzRGlydHk+DQogICAgPC9Bcmd1bWVudD4NCiAgICA8QXJndW1lbnQ+DQogICAgICA8SUQ+MjwvSUQ+DQogICAgICA8VHlwZT4xPC9UeXBlPg0KICAgICAgPE5hbWU+SGVhZGVyX091dDwvTmFtZT4NCiAgICAgIDxEaXJlY3Rpb24+MjwvRGlyZWN0aW9uPg0KICAgICAgPERhdGFUeXBlPkI8L0RhdGFUeXBlPg0KICAgICAgPFBpY3R1cmUgLz4NCiAgICAgIDxYU0RUeXBlIC8+DQogICAgICA8SXNEaXJ0eT50cnVlPC9Jc0RpcnR5Pg0KICAgIDwvQXJndW1lbnQ+DQogICAgPEFyZ3VtZW50Pg0KICAgICAgPElEPjM8L0lEPg0KICAgICAgPFR5cGU+NDwvVHlwZT4NCiAgICAgIDxOYW1lPnF1YW50aXR5QXZhaWxhYmxlPC9OYW1lPg0KICAgICAgPERpcmVjdGlvbj40PC9EaXJlY3Rpb24+DQogICAgICA8RGF0YVR5cGU+QTwvRGF0YVR5cGU+DQogICAgICA8UGljdHVyZT4zMDwvUGljdHVyZT4NCiAgICAgIDxYU0RUeXBlPnhzZDpzdHJpbmc8L1hTRFR5cGU+DQogICAgICA8SXNEaXJ0eT50cnVlPC9Jc0RpcnR5Pg0KICAgIDwvQXJndW1lbnQ+DQogICAgPEFyZ3VtZW50Pg0KICAgICAgPElEPjQ8L0lEPg0KICAgICAgPFR5cGU+MjwvVHlwZT4NCiAgICAgIDxOYW1lPnNrdTwvTmFtZT4NCiAgICAgIDxEaXJlY3Rpb24+MTwvRGlyZWN0aW9uPg0KICAgICAgPERhdGFUeXBlPkE8L0RhdGFUeXBlPg0KICAgICAgPFBpY3R1cmU+MzA8L1BpY3R1cmU+DQogICAgICA8WFNEVHlwZT54c2Q6c3RyaW5nPC9YU0RUeXBlPg0KICAgICAgPElzRGlydHk+dHJ1ZTwvSXNEaXJ0eT4NCiAgICA8L0FyZ3VtZW50Pg0KICA8L09wZXJhdGlvbj4NCiAgPE9wZXJhdGlvbj4NCiAgICA8T3BlcmF0aW9uSUQ+MzwvT3BlcmF0aW9uSUQ+DQogICAgPE9wZXJhdGlvbk5hbWU+Z2V0T3JkZXJTdGF0dXM8L09wZXJhdGlvbk5hbWU+DQogICAgPFJlcXVlc3RTZWN1cml0eT5OPC9SZXF1ZXN0U2VjdXJpdHk+DQogICAgPFJlc3BvbnNlU2VjdXJpdHk+TjwvUmVzcG9uc2VTZWN1cml0eT4NCiAgICA8QXJndW1lbnQ+DQogICAgICA8SUQ+MTwvSUQ+DQogICAgICA8VHlwZT4xPC9UeXBlPg0KICAgICAgPE5hbWU+SGVhZGVyX0luPC9OYW1lPg0KICAgICAgPERpcmVjdGlvbj4xPC9EaXJlY3Rpb24+DQogICAgICA8RGF0YVR5cGU+QjwvRGF0YVR5cGU+DQogICAgICA8UGljdHVyZSAvPg0KICAgICAgPFhTRFR5cGUgLz4NCiAgICAgIDxJc0RpcnR5PnRydWU8L0lzRGlydHk+DQogICAgPC9Bcmd1bWVudD4NCiAgICA8QXJndW1lbnQ+DQogICAgICA8SUQ+MjwvSUQ+DQogICAgICA8VHlwZT4xPC9UeXBlPg0KICAgICAgPE5hbWU+SGVhZGVyX091dDwvTmFtZT4NCiAgICAgIDxEaXJlY3Rpb24+MjwvRGlyZWN0aW9uPg0KICAgICAgPERhdGFUeXBlPkI8L0RhdGFUeXBlPg0KICAgICAgPFBpY3R1cmUgLz4NCiAgICAgIDxYU0RUeXBlIC8+DQogICAgICA8SXNEaXJ0eT50cnVlPC9Jc0RpcnR5Pg0KICAgIDwvQXJndW1lbnQ+DQogICAgPEFyZ3VtZW50Pg0KICAgICAgPElEPjM8L0lEPg0KICAgICAgPFR5cGU+NDwvVHlwZT4NCiAgICAgIDxOYW1lPlJldHVybiBWYWw8L05hbWU+DQogICAgICA8RGlyZWN0aW9uPjQ8L0RpcmVjdGlvbj4NCiAgICAgIDxEYXRhVHlwZT5CPC9EYXRhVHlwZT4NCiAgICAgIDxQaWN0dXJlIC8+DQogICAgICA8U2NoZW1hPkM6XFVzZXJzXEFkbWluaXN0cmF0b3JcRG9jdW1lbnRzXE1hZ2ljXFByb2plY3RzXFZXU19NQUdFTlRPXzJfSkRFXFZXU19NQUdFTlRPXzJfSkRFXEZpbGVzXHNjaGVtYXNcb3JkZXJTdGF0dXNSZXR1cm4ueHNkPC9TY2hlbWE+DQogICAgICA8WFNEVHlwZT5YTUwgRG9jdW1lbnQ8L1hTRFR5cGU+DQogICAgICA8Um9vdEVsZW1lbnQ+c2FsZXNPcmRlckluZm88L1Jvb3RFbGVtZW50Pg0KICAgICAgPE5hbWVTcGFjZT5odHRwOi8vc3lzdGluZXQuY29tL3dzZGwvY29tL21hZ2ljc29mdHdhcmUvbWFnaWN4cGkvYW1pZWR1YmFtYWdpYy9KREUvPC9OYW1lU3BhY2U+DQogICAgICA8SXNEaXJ0eT50cnVlPC9Jc0RpcnR5Pg0KICAgIDwvQXJndW1lbnQ+DQogICAgPEFyZ3VtZW50Pg0KICAgICAgPElEPjQ8L0lEPg0KICAgICAgPFR5cGU+MjwvVHlwZT4NCiAgICAgIDxOYW1lPm9yZGVySWQ8L05hbWU+DQogICAgICA8RGlyZWN0aW9uPjE8L0RpcmVjdGlvbj4NCiAgICAgIDxEYXRhVHlwZT5CPC9EYXRhVHlwZT4NCiAgICAgIDxQaWN0dXJlIC8+DQogICAgICA8U2NoZW1hPkM6XFVzZXJzXEFkbWluaXN0cmF0b3JcRG9jdW1lbnRzXE1hZ2ljXFByb2plY3RzXFZXU19NQUdFTlRPXzJfSkRFXFZXU19NQUdFTlRPXzJfSkRFXEZpbGVzXHNjaGVtYXNcb3JkZXJTdGF0dXNJbnB1dFNlcnZpY2UueHNkPC9TY2hlbWE+DQogICAgICA8WFNEVHlwZT5YTUwgRG9jdW1lbnQ8L1hTRFR5cGU+DQogICAgICA8Um9vdEVsZW1lbnQ+Z2V0T3JkZXJTdGF0dXM8L1Jvb3RFbGVtZW50Pg0KICAgICAgPE5hbWVTcGFjZT5odHRwOi8vc3lzdGluZXQuY29tL3dzZGwvY29tL21hZ2ljc29mdHdhcmUvbWFnaWN4cGkvYW1pZWR1YmFtYWdpYy9KREUvPC9OYW1lU3BhY2U+DQogICAgICA8SXNEaXJ0eT50cnVlPC9Jc0RpcnR5Pg0KICAgIDwvQXJndW1lbnQ+DQogIDwvT3BlcmF0aW9uPg0KPC9PcGVyYXRpb25zRGF0YT4=</ExpressionValueBlob>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>9</ID>
+        <Name>Management data</Name>
+        <ExpressionValue />
+        <ExpressionValueBlob>PD94bWwgdmVyc2lvbj0iMS4wIj8+DQo8TWFuYWdlbWVudERhdGEgeG1sbnM6eHNpPSJodHRwOi8vd3d3LnczLm9yZy8yMDAxL1hNTFNjaGVtYS1pbnN0YW5jZSIgeG1sbnM6eHNkPSJodHRwOi8vd3d3LnczLm9yZy8yMDAxL1hNTFNjaGVtYSI+DQogIDxTZXJ2aWNlTmFtZT5KREU8L1NlcnZpY2VOYW1lPg0KICA8U2VydmljZU5hbWVzcGFjZT5jb20ubWFnaWNzb2Z0d2FyZS5tYWdpY3hwaS5tYWdpY3hwaTwvU2VydmljZU5hbWVzcGFjZT4NCiAgPFVSTD5odHRwOi8vbG9jYWxob3N0OjYwNjAvSkRFLzwvVVJMPg0KICA8RW5kcG9pbnQ+aHR0cDovL2xvY2FsaG9zdDo2MDYwL0pERS88L0VuZHBvaW50Pg0KICA8RGVwbG95bWVudERhdGU+MjkvMTIvMjAxNjwvRGVwbG95bWVudERhdGU+DQo8L01hbmFnZW1lbnREYXRhPg==</ExpressionValueBlob>
+      </Resource_Properties>
+    </Main_Resource_Defintion>
+  </Resource_Element>
+  <Resource_Element>
+    <Main_Resource_ID>128</Main_Resource_ID>
+    <Main_Resource_Name>SAP B1 2004</Main_Resource_Name>
+  </Resource_Element>
+  <Resource_Element>
+    <Main_Resource_ID>133</Main_Resource_ID>
+    <Main_Resource_Name>SAP B1 2005</Main_Resource_Name>
+  </Resource_Element>
+  <Resource_Element>
+    <Main_Resource_ID>140</Main_Resource_ID>
+    <Main_Resource_Name>SAP R3</Main_Resource_Name>
+  </Resource_Element>
+  <Resource_Element>
+    <Main_Resource_ID>141</Main_Resource_ID>
+    <Main_Resource_Name>SAP B1 2007</Main_Resource_Name>
+  </Resource_Element>
+  <Resource_Element>
+    <Main_Resource_ID>143</Main_Resource_ID>
+    <Main_Resource_Name>Salesforce</Main_Resource_Name>
+  </Resource_Element>
+  <Resource_Element>
+    <Main_Resource_ID>149</Main_Resource_ID>
+    <Main_Resource_Name>HL7</Main_Resource_Name>
+  </Resource_Element>
+  <Resource_Element>
+    <Main_Resource_ID>153</Main_Resource_ID>
+    <Main_Resource_Name>SAP A1</Main_Resource_Name>
+  </Resource_Element>
+  <Resource_Element>
+    <Main_Resource_ID>157</Main_Resource_ID>
+    <Main_Resource_Name>Exchange</Main_Resource_Name>
+  </Resource_Element>
+  <Resource_Element>
+    <Main_Resource_ID>158</Main_Resource_ID>
+    <Main_Resource_Name>TCPListener</Main_Resource_Name>
+  </Resource_Element>
+  <Resource_Element>
+    <Main_Resource_ID>160</Main_Resource_ID>
+    <Main_Resource_Name>SAP B1 88</Main_Resource_Name>
+  </Resource_Element>
+  <Resource_Element>
+    <Main_Resource_ID>162</Main_Resource_ID>
+    <Main_Resource_Name>Sugar</Main_Resource_Name>
+  </Resource_Element>
+  <Resource_Element>
+    <Main_Resource_ID>20000</Main_Resource_ID>
+    <Main_Resource_Name>Scheduler</Main_Resource_Name>
+    <Default_Resource>Scheduler_1</Default_Resource>
+    <Main_Resource_Defintion>
+      <Resource_Type_ID>1</Resource_Type_ID>
+      <Resource_Type_Name>Scheduler_1</Resource_Type_Name>
+      <Resource_Type_Description>Scheduler_1</Resource_Type_Description>
+      <Resource_Properties>
+        <ID>1</ID>
+        <Name>Scheduler Data</Name>
+        <ExpressionValue>PD94bWwgdmVyc2lvbj0iMS4wIj8+DQo8U2NoZWR1bGVyIHhtbG5zOnhzaT0iaHR0cDovL3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEtaW5zdGFuY2UiIHhtbG5zOnhzZD0iaHR0cDovL3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEiPg0KICA8dHJpZ2dlcl90eXBlPkk8L3RyaWdnZXJfdHlwZT4NCiAgPFRpbWVJbkRheT48L1RpbWVJbkRheT4NCiAgPEludGVydmFsPjYwPC9JbnRlcnZhbD4NCiAgPFN0YXJ0X0RhdGU+MTAvMTIvMjAxNTwvU3RhcnRfRGF0ZT4NCiAgPEVuZERhdGU+MDAvMDAvMDAwMDwvRW5kRGF0ZT4NCiAgPFN0YXJ0VGltZT4wMDowMDowMDwvU3RhcnRUaW1lPg0KICA8RW5kVGltZT4wMDowMDowMDwvRW5kVGltZT4NCiAgPE9wZXJhdGlvbj4gICAwPC9PcGVyYXRpb24+DQogIDxJbnRlcnZhbENhbGN1bGF0ZVNjaGVkUlQ+dHJ1ZTwvSW50ZXJ2YWxDYWxjdWxhdGVTY2hlZFJUPg0KICA8SW50ZXJ2YWxNaW51dGVzQWZ0ZXJUaGVIb3VyPjA8L0ludGVydmFsTWludXRlc0FmdGVyVGhlSG91cj4NCiAgPERheXNPZldlZWs+PC9EYXlzT2ZXZWVrPg0KICA8TW9udGhzPjwvTW9udGhzPg0KICA8RGF5c0luTW9udGg+PC9EYXlzSW5Nb250aD4gDQo8L1NjaGVkdWxlcj4=</ExpressionValue>
+      </Resource_Properties>
+    </Main_Resource_Defintion>
+  </Resource_Element>
+  <Resource_Element>
+    <Main_Resource_ID>30000</Main_Resource_ID>
+    <Main_Resource_Name>Flow Enablement</Main_Resource_Name>
+  </Resource_Element>
+</Resource_Settings>

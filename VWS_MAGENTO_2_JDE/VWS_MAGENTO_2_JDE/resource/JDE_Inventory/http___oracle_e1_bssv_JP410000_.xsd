@@ -1,0 +1,1696 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<xs:schema targetNamespace="http://oracle.e1.bssv.JP410000/" xmlns:map="http://systinet.com/mapping/" xmlns:ns0="http://oracle.e1.bssv.JP410000/" xmlns:sns0="http://oracle.e1.bssv.JP410000/" xmlns:sns1="http://www.w3.org/2001/XMLSchema" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <xs:import namespace="http://www.w3.org/2001/XMLSchema"/>
+
+  <xsd:complexType name="getItemPrice">
+    <xsd:annotation>
+      <xsd:appinfo>
+        <map:java-type name="com_magicsoftware_edeveloper_WIN_SGTM04TLROE_24022016_105948__JDE_Inventory.GetItemPrice"/>
+      </xsd:appinfo>
+    </xsd:annotation>
+    <xsd:complexContent>
+      <xsd:extension base="ns0:valueObject">
+        <xsd:sequence>
+          <xsd:element form="unqualified" map:java-field="branchPlantList" minOccurs="0" name="branchPlantList" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="item" minOccurs="0" name="item" nillable="false" type="ns0:itemGroupCustomer"/>
+        </xsd:sequence>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+
+  <xsd:complexType name="itemMaster">
+    <xsd:annotation>
+      <xsd:appinfo>
+        <map:java-type name="com_magicsoftware_edeveloper_WIN_SGTM04TLROE_24022016_105948__JDE_Inventory.ItemMaster"/>
+      </xsd:appinfo>
+    </xsd:annotation>
+    <xsd:complexContent>
+      <xsd:extension base="ns0:valueObject">
+        <xsd:sequence>
+          <xsd:element form="unqualified" map:java-field="commodityClassCode" minOccurs="0" name="commodityClassCode" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="commodityClassCodeShipping" minOccurs="0" name="commodityClassCodeShipping" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="cycleCountCategory" minOccurs="0" name="cycleCountCategory" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="dispatchGroup" minOccurs="0" name="dispatchGroup" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="itemFlashMessageCode" minOccurs="0" name="itemFlashMessageCode" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="itemPriceGroupCode" minOccurs="0" name="itemPriceGroupCode" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="roundToWholeNumberCode" minOccurs="0" name="roundToWholeNumberCode" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="shippingConditionsCode" minOccurs="0" name="shippingConditionsCode" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="unitOfMeasureConversionCodeStandard" minOccurs="0" name="unitOfMeasureConversionCodeStandard" nillable="false" type="xsd:string"/>
+        </xsd:sequence>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+
+  <xsd:complexType name="itemGroupCustomer">
+    <xsd:annotation>
+      <xsd:appinfo>
+        <map:java-type name="com_magicsoftware_edeveloper_WIN_SGTM04TLROE_24022016_105948__JDE_Inventory.ItemGroupCustomer"/>
+      </xsd:appinfo>
+    </xsd:annotation>
+    <xsd:complexContent>
+      <xsd:extension base="ns0:valueObject">
+        <xsd:sequence>
+          <xsd:element form="unqualified" map:java-field="itemCatalog" minOccurs="0" name="itemCatalog" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="itemCustomer" minOccurs="0" name="itemCustomer" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="itemDescription" minOccurs="0" name="itemDescription" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="itemFreeForm" minOccurs="0" name="itemFreeForm" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="itemId" minOccurs="0" name="itemId" nillable="false" type="xsd:int"/>
+          <xsd:element form="unqualified" map:java-field="itemProduct" minOccurs="0" name="itemProduct" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="itemUOMPrimary" minOccurs="0" name="itemUOMPrimary" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="itemUOMSecondary" minOccurs="0" name="itemUOMSecondary" nillable="false" type="xsd:string"/>
+        </xsd:sequence>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+
+  <xsd:complexType name="potency">
+    <xsd:annotation>
+      <xsd:appinfo>
+        <map:java-type name="com_magicsoftware_edeveloper_WIN_SGTM04TLROE_24022016_105948__JDE_Inventory.Potency"/>
+      </xsd:appinfo>
+    </xsd:annotation>
+    <xsd:complexContent>
+      <xsd:extension base="ns0:valueObject">
+        <xsd:sequence>
+          <xsd:element form="unqualified" map:java-field="controlPotency" minOccurs="0" name="controlPotency" nillable="false" type="xsd:boolean"/>
+          <xsd:element form="unqualified" map:java-field="potencyFrom" minOccurs="0" name="potencyFrom" nillable="false" type="xsd:decimal"/>
+          <xsd:element form="unqualified" map:java-field="potencyStandard" minOccurs="0" name="potencyStandard" nillable="false" type="xsd:decimal"/>
+          <xsd:element form="unqualified" map:java-field="potencyTo" minOccurs="0" name="potencyTo" nillable="false" type="xsd:decimal"/>
+        </xsd:sequence>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+
+  <xsd:complexType name="quantities">
+    <xsd:annotation>
+      <xsd:appinfo>
+        <map:java-type name="com_magicsoftware_edeveloper_WIN_SGTM04TLROE_24022016_105948__JDE_Inventory.Quantities"/>
+      </xsd:appinfo>
+    </xsd:annotation>
+    <xsd:complexContent>
+      <xsd:extension base="ns0:valueObject">
+        <xsd:sequence>
+          <xsd:element form="unqualified" map:java-field="quantityOrderMultiples" minOccurs="0" name="quantityOrderMultiples" nillable="false" type="xsd:decimal"/>
+          <xsd:element form="unqualified" map:java-field="quantityReorder" minOccurs="0" name="quantityReorder" nillable="false" type="xsd:decimal"/>
+          <xsd:element form="unqualified" map:java-field="quantityReorderMaximum" minOccurs="0" name="quantityReorderMaximum" nillable="false" type="xsd:decimal"/>
+          <xsd:element form="unqualified" map:java-field="quantityReorderMinimum" minOccurs="0" name="quantityReorderMinimum" nillable="false" type="xsd:decimal"/>
+          <xsd:element form="unqualified" map:java-field="quantitySafetyStock" minOccurs="0" name="quantitySafetyStock" nillable="false" type="xsd:decimal"/>
+          <xsd:element form="unqualified" map:java-field="reorderPoint" minOccurs="0" name="reorderPoint" nillable="false" type="xsd:decimal"/>
+          <xsd:element form="unqualified" map:java-field="unitsPerContainer" minOccurs="0" name="unitsPerContainer" nillable="false" type="xsd:int"/>
+        </xsd:sequence>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+
+  <xsd:complexType name="entity">
+    <xsd:annotation>
+      <xsd:appinfo>
+        <map:java-type name="com_magicsoftware_edeveloper_WIN_SGTM04TLROE_24022016_105948__JDE_Inventory.Entity"/>
+      </xsd:appinfo>
+    </xsd:annotation>
+    <xsd:complexContent>
+      <xsd:extension base="ns0:valueObject">
+        <xsd:sequence>
+          <xsd:element form="unqualified" map:java-field="entityId" minOccurs="0" name="entityId" nillable="false" type="xsd:int"/>
+          <xsd:element form="unqualified" map:java-field="entityLongId" minOccurs="0" name="entityLongId" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="entityTaxId" minOccurs="0" name="entityTaxId" nillable="false" type="xsd:string"/>
+        </xsd:sequence>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+
+  <xsd:complexType name="insertInventoryItemStagingFieldsV2">
+    <xsd:annotation>
+      <xsd:appinfo>
+        <map:java-type name="com_magicsoftware_edeveloper_WIN_SGTM04TLROE_24022016_105948__JDE_Inventory.InsertInventoryItemStagingFieldsV2"/>
+      </xsd:appinfo>
+    </xsd:annotation>
+    <xsd:complexContent>
+      <xsd:extension base="ns0:valueObject">
+        <xsd:sequence>
+          <xsd:element form="unqualified" map:java-field="daysShelfLife" minOccurs="0" name="daysShelfLife" nillable="false" type="xsd:int"/>
+          <xsd:element form="unqualified" map:java-field="description1" minOccurs="0" name="description1" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="description2" minOccurs="0" name="description2" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="glClassCode" minOccurs="0" name="glClassCode" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="isCountryOfOriginRequired" minOccurs="0" name="isCountryOfOriginRequired" nillable="false" type="xsd:boolean"/>
+          <xsd:element form="unqualified" map:java-field="item" minOccurs="0" name="item" nillable="false" type="ns0:item"/>
+          <xsd:element form="unqualified" map:java-field="itemDimensions" minOccurs="0" name="itemDimensions" nillable="false" type="ns0:insertInventoryItemDimensions"/>
+          <xsd:element form="unqualified" map:java-field="itemGrade" minOccurs="0" name="itemGrade" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="lineTypeCode" minOccurs="0" name="lineTypeCode" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="lotProcessCode" minOccurs="0" name="lotProcessCode" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="lotStatusCode" minOccurs="0" name="lotStatusCode" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="processing" minOccurs="0" name="processing" nillable="false" type="ns0:inventoryItemStagingProcessing"/>
+          <xsd:element form="unqualified" map:java-field="serialNumberFlag" minOccurs="0" name="serialNumberFlag" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="stockingTypeCode" minOccurs="0" name="stockingTypeCode" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="upcNumber" minOccurs="0" name="upcNumber" nillable="false" type="xsd:string"/>
+        </xsd:sequence>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+
+  <xsd:complexType name="messageValueObject">
+    <xsd:annotation>
+      <xsd:appinfo>
+        <map:java-type name="com_magicsoftware_edeveloper_WIN_SGTM04TLROE_24022016_105948__JDE_Inventory.MessageValueObject"/>
+      </xsd:appinfo>
+    </xsd:annotation>
+    <xsd:complexContent>
+      <xsd:extension base="ns0:valueObject">
+        <xsd:sequence>
+          <xsd:element form="unqualified" map:java-field="e1MessageList" minOccurs="0" name="e1MessageList" nillable="false" type="ns0:e1MessageList"/>
+        </xsd:sequence>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+
+  <xsd:complexType name="branchPlantV2">
+    <xsd:annotation>
+      <xsd:appinfo>
+        <map:java-type name="com_magicsoftware_edeveloper_WIN_SGTM04TLROE_24022016_105948__JDE_Inventory.BranchPlantV2"/>
+      </xsd:appinfo>
+    </xsd:annotation>
+    <xsd:complexContent>
+      <xsd:extension base="ns0:valueObject">
+        <xsd:sequence>
+          <xsd:element form="unqualified" map:java-field="additionalUnitsOfMeasure" minOccurs="0" name="additionalUnitsOfMeasure" nillable="false" type="ns0:additionalUnitsOfMeasure"/>
+          <xsd:element form="unqualified" map:java-field="grade" minOccurs="0" name="grade" nillable="false" type="ns0:grade"/>
+          <xsd:element form="unqualified" map:java-field="item" minOccurs="0" name="item" nillable="false" type="ns0:item"/>
+          <xsd:element form="unqualified" map:java-field="itemBranch" minOccurs="0" name="itemBranch" nillable="false" type="ns0:itemBranch"/>
+          <xsd:element form="unqualified" map:java-field="itemMaster" minOccurs="0" name="itemMaster" nillable="false" type="ns0:itemMaster"/>
+          <xsd:element form="unqualified" map:java-field="lotProcessing" minOccurs="0" name="lotProcessing" nillable="false" type="ns0:lotProcessingV2"/>
+          <xsd:element form="unqualified" map:java-field="plantManufacturing" minOccurs="0" name="plantManufacturing" nillable="false" type="ns0:plantManufacturing"/>
+          <xsd:element form="unqualified" map:java-field="potency" minOccurs="0" name="potency" nillable="false" type="ns0:potency"/>
+          <xsd:element form="unqualified" map:java-field="purchasingCategoryCodes" minOccurs="0" name="purchasingCategoryCodes" nillable="false" type="ns0:purchasingCategoryCodes"/>
+          <xsd:element form="unqualified" map:java-field="quantities" minOccurs="0" name="quantities" nillable="false" type="ns0:quantities"/>
+          <xsd:element form="unqualified" map:java-field="salesCategoryCodes" minOccurs="0" name="salesCategoryCodes" nillable="false" type="ns0:salesCategoryCodes"/>
+          <xsd:element form="unqualified" map:java-field="userReservedData" minOccurs="0" name="userReservedData" nillable="false" type="ns0:userReservedData"/>
+        </xsd:sequence>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+
+  <xsd:complexType name="e1MessageList">
+    <xsd:annotation>
+      <xsd:appinfo>
+        <map:java-type name="[Lcom_magicsoftware_edeveloper_WIN_SGTM04TLROE_24022016_105948__JDE_Inventory.E1Message;"/>
+      </xsd:appinfo>
+    </xsd:annotation>
+    <xsd:sequence>
+      <xsd:element form="unqualified" maxOccurs="unbounded" minOccurs="0" name="e1Messages" nillable="true" type="ns0:e1Message"/>
+    </xsd:sequence>
+  </xsd:complexType>
+
+  <xsd:complexType name="lotProcessing">
+    <xsd:annotation>
+      <xsd:appinfo>
+        <map:java-type name="com_magicsoftware_edeveloper_WIN_SGTM04TLROE_24022016_105948__JDE_Inventory.LotProcessing"/>
+      </xsd:appinfo>
+    </xsd:annotation>
+    <xsd:complexContent>
+      <xsd:extension base="ns0:valueObject">
+        <xsd:sequence>
+          <xsd:element form="unqualified" map:java-field="allowShippingOfHeldLots" minOccurs="0" name="allowShippingOfHeldLots" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="commitmentDateMethodCode" minOccurs="0" name="commitmentDateMethodCode" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="daysBestBeforeResult" minOccurs="0" name="daysBestBeforeResult" nillable="false" type="xsd:int"/>
+          <xsd:element form="unqualified" map:java-field="daysEffectiveManufacturing" minOccurs="0" name="daysEffectiveManufacturing" nillable="false" type="xsd:int"/>
+          <xsd:element form="unqualified" map:java-field="daysEffectivePurchasing" minOccurs="0" name="daysEffectivePurchasing" nillable="false" type="xsd:int"/>
+          <xsd:element form="unqualified" map:java-field="daysSellByDefault" minOccurs="0" name="daysSellByDefault" nillable="false" type="xsd:int"/>
+          <xsd:element form="unqualified" map:java-field="daysShelfLife" minOccurs="0" name="daysShelfLife" nillable="false" type="xsd:int"/>
+          <xsd:element form="unqualified" map:java-field="daysUserLotDateDefault1" minOccurs="0" name="daysUserLotDateDefault1" nillable="false" type="xsd:int"/>
+          <xsd:element form="unqualified" map:java-field="daysUserLotDateDefault2" minOccurs="0" name="daysUserLotDateDefault2" nillable="false" type="xsd:int"/>
+          <xsd:element form="unqualified" map:java-field="daysUserLotDateDefault3" minOccurs="0" name="daysUserLotDateDefault3" nillable="false" type="xsd:int"/>
+          <xsd:element form="unqualified" map:java-field="daysUserLotDateDefault4" minOccurs="0" name="daysUserLotDateDefault4" nillable="false" type="xsd:int"/>
+          <xsd:element form="unqualified" map:java-field="daysUserLotDateDefault5" minOccurs="0" name="daysUserLotDateDefault5" nillable="false" type="xsd:int"/>
+          <xsd:element form="unqualified" map:java-field="isLotNumberAssigmentRestricted" minOccurs="0" name="isLotNumberAssigmentRestricted" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="isLotNumberPreAssigned" minOccurs="0" name="isLotNumberPreAssigned" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="lotAuditFlag" minOccurs="0" name="lotAuditFlag" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="lotExpirationDateMethodCode" minOccurs="0" name="lotExpirationDateMethodCode" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="lotFormatSpecial" minOccurs="0" name="lotFormatSpecial" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="lotProcessTypeCode" minOccurs="0" name="lotProcessTypeCode" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="lotStatusCode" minOccurs="0" name="lotStatusCode" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="lotStatusCodeExpanded" minOccurs="0" name="lotStatusCodeExpanded" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="serialNumberRequiredCode" minOccurs="0" name="serialNumberRequiredCode" nillable="false" type="xsd:string"/>
+        </xsd:sequence>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+
+  <xsd:complexType name="confirmInventoryItem">
+    <xsd:annotation>
+      <xsd:appinfo>
+        <map:java-type name="com_magicsoftware_edeveloper_WIN_SGTM04TLROE_24022016_105948__JDE_Inventory.ConfirmInventoryItem"/>
+      </xsd:appinfo>
+    </xsd:annotation>
+    <xsd:complexContent>
+      <xsd:extension base="ns0:messageValueObject">
+        <xsd:sequence>
+          <xsd:element form="unqualified" map:java-field="abcCode1SalesInv" minOccurs="0" name="abcCode1SalesInv" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="abcCode2MarginInv" minOccurs="0" name="abcCode2MarginInv" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="abcCode3InvestInv" minOccurs="0" name="abcCode3InvestInv" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="abcCodeOverrideIndica" minOccurs="0" name="abcCodeOverrideIndica" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="addressNumberPlanner" minOccurs="0" name="addressNumberPlanner" nillable="false" type="xsd:int"/>
+          <xsd:element form="unqualified" map:java-field="allocateByLot" minOccurs="0" name="allocateByLot" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="backordersAllowedYN" minOccurs="0" name="backordersAllowedYN" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="bulkPackedFlag" minOccurs="0" name="bulkPackedFlag" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="buyer" minOccurs="0" name="buyer" nillable="false" type="xsd:int"/>
+          <xsd:element form="unqualified" map:java-field="checkAvailabilityYN" minOccurs="0" name="checkAvailabilityYN" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="commissionCategory" minOccurs="0" name="commissionCategory" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="commitmentSpecificDays" minOccurs="0" name="commitmentSpecificDays" nillable="false" type="xsd:int"/>
+          <xsd:element form="unqualified" map:java-field="commodityCode" minOccurs="0" name="commodityCode" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="componentType" minOccurs="0" name="componentType" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="contractItem" minOccurs="0" name="contractItem" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="coproductsByproducts" minOccurs="0" name="coproductsByproducts" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="costLevel" minOccurs="0" name="costLevel" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="crossDockFlagYN" minOccurs="0" name="crossDockFlagYN" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="deferDamperDays" minOccurs="0" name="deferDamperDays" nillable="false" type="xsd:int"/>
+          <xsd:element form="unqualified" map:java-field="descriptionLine1" minOccurs="0" name="descriptionLine1" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="descriptionLine2" minOccurs="0" name="descriptionLine2" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="dispatchGroup" minOccurs="0" name="dispatchGroup" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="dualPickingProcessOption" minOccurs="0" name="dualPickingProcessOption" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="dualTolerance" minOccurs="0" name="dualTolerance" nillable="false" type="xsd:decimal"/>
+          <xsd:element form="unqualified" map:java-field="dualUnitOfMeasureItem" minOccurs="0" name="dualUnitOfMeasureItem" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="expediteDamperDays" minOccurs="0" name="expediteDamperDays" nillable="false" type="xsd:int"/>
+          <xsd:element form="unqualified" map:java-field="fifoProcessing" minOccurs="0" name="fifoProcessing" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="glCategory" minOccurs="0" name="glCategory" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="item" minOccurs="0" name="item" nillable="false" type="ns0:itemResponseSupplier"/>
+          <xsd:element form="unqualified" map:java-field="itemDimensions" minOccurs="0" name="itemDimensions" nillable="false" type="ns0:outputItemDimensions"/>
+          <xsd:element form="unqualified" map:java-field="itemFlashMessage" minOccurs="0" name="itemFlashMessage" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="layerCodeSource" minOccurs="0" name="layerCodeSource" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="levelPurchasingPrice" minOccurs="0" name="levelPurchasingPrice" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="lineType" minOccurs="0" name="lineType" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="lotAuditFlag" minOccurs="0" name="lotAuditFlag" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="lotStatusCode" minOccurs="0" name="lotStatusCode" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="lowLevelCode" minOccurs="0" name="lowLevelCode" nillable="false" type="xsd:int"/>
+          <xsd:element form="unqualified" map:java-field="makeBuyCode" minOccurs="0" name="makeBuyCode" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="marginMaintenancePer" minOccurs="0" name="marginMaintenancePer" nillable="false" type="xsd:decimal"/>
+          <xsd:element form="unqualified" map:java-field="orderRepriceCategory" minOccurs="0" name="orderRepriceCategory" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="orderWithYN" minOccurs="0" name="orderWithYN" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="percentMargin" minOccurs="0" name="percentMargin" nillable="false" type="xsd:decimal"/>
+          <xsd:element form="unqualified" map:java-field="priceLevel" minOccurs="0" name="priceLevel" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="pricingCategory" minOccurs="0" name="pricingCategory" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="printMessage1" minOccurs="0" name="printMessage1" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="productGroupFrom" minOccurs="0" name="productGroupFrom" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="purchasingEffectiveDays" minOccurs="0" name="purchasingEffectiveDays" nillable="false" type="xsd:int"/>
+          <xsd:element form="unqualified" map:java-field="repriceBasketPriceCat" minOccurs="0" name="repriceBasketPriceCat" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="safetyLeadtime" minOccurs="0" name="safetyLeadtime" nillable="false" type="xsd:int"/>
+          <xsd:element form="unqualified" map:java-field="searchText" minOccurs="0" name="searchText" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="searchTextCompressed" minOccurs="0" name="searchTextCompressed" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="segment1" minOccurs="0" name="segment1" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="segment10" minOccurs="0" name="segment10" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="segment2" minOccurs="0" name="segment2" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="segment3" minOccurs="0" name="segment3" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="segment4" minOccurs="0" name="segment4" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="segment5" minOccurs="0" name="segment5" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="segment6" minOccurs="0" name="segment6" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="segment7" minOccurs="0" name="segment7" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="segment8" minOccurs="0" name="segment8" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="segment9" minOccurs="0" name="segment9" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="sellByDefaultDays" minOccurs="0" name="sellByDefaultDays" nillable="false" type="xsd:int"/>
+          <xsd:element form="unqualified" map:java-field="serialNumberRequired" minOccurs="0" name="serialNumberRequired" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="shelfLifeDays" minOccurs="0" name="shelfLifeDays" nillable="false" type="xsd:int"/>
+          <xsd:element form="unqualified" map:java-field="stockingType" minOccurs="0" name="stockingType" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="typeWarranty" minOccurs="0" name="typeWarranty" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="unitofMeasureVolumeorWeI" minOccurs="0" name="unitofMeasureVolumeorWeI" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="userLotDate1DefaultDays" minOccurs="0" name="userLotDate1DefaultDays" nillable="false" type="xsd:int"/>
+          <xsd:element form="unqualified" map:java-field="userLotDate2DefaultDays" minOccurs="0" name="userLotDate2DefaultDays" nillable="false" type="xsd:int"/>
+          <xsd:element form="unqualified" map:java-field="userLotDate3DefaultDays" minOccurs="0" name="userLotDate3DefaultDays" nillable="false" type="xsd:int"/>
+          <xsd:element form="unqualified" map:java-field="userLotDate4DefaultDays" minOccurs="0" name="userLotDate4DefaultDays" nillable="false" type="xsd:int"/>
+          <xsd:element form="unqualified" map:java-field="userLotDate5DefaultDays" minOccurs="0" name="userLotDate5DefaultDays" nillable="false" type="xsd:int"/>
+          <xsd:element form="unqualified" map:java-field="userReservedAmount" minOccurs="0" name="userReservedAmount" nillable="false" type="xsd:decimal"/>
+          <xsd:element form="unqualified" map:java-field="userReservedCode" minOccurs="0" name="userReservedCode" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="userReservedDate" minOccurs="0" name="userReservedDate" nillable="false" type="xsd:dateTime"/>
+          <xsd:element form="unqualified" map:java-field="userReservedNumber" minOccurs="0" name="userReservedNumber" nillable="false" type="xsd:int"/>
+          <xsd:element form="unqualified" map:java-field="userReservedReference" minOccurs="0" name="userReservedReference" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="vendorManagedInventory" minOccurs="0" name="vendorManagedInventory" nillable="false" type="xsd:string"/>
+        </xsd:sequence>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+
+  <xsd:complexType name="itemGroupSupplier">
+    <xsd:annotation>
+      <xsd:appinfo>
+        <map:java-type name="com_magicsoftware_edeveloper_WIN_SGTM04TLROE_24022016_105948__JDE_Inventory.ItemGroupSupplier"/>
+      </xsd:appinfo>
+    </xsd:annotation>
+    <xsd:complexContent>
+      <xsd:extension base="ns0:valueObject">
+        <xsd:sequence>
+          <xsd:element form="unqualified" map:java-field="itemCatalog" minOccurs="0" name="itemCatalog" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="itemFreeForm" minOccurs="0" name="itemFreeForm" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="itemId" minOccurs="0" name="itemId" nillable="false" type="xsd:int"/>
+          <xsd:element form="unqualified" map:java-field="itemProduct" minOccurs="0" name="itemProduct" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="itemSupplier" minOccurs="0" name="itemSupplier" nillable="false" type="xsd:string"/>
+        </xsd:sequence>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+
+  <xsd:complexType name="confirmInventoryItemV2">
+    <xsd:annotation>
+      <xsd:appinfo>
+        <map:java-type name="com_magicsoftware_edeveloper_WIN_SGTM04TLROE_24022016_105948__JDE_Inventory.ConfirmInventoryItemV2"/>
+      </xsd:appinfo>
+    </xsd:annotation>
+    <xsd:complexContent>
+      <xsd:extension base="ns0:messageValueObject">
+        <xsd:sequence>
+          <xsd:element form="unqualified" map:java-field="abcCode1SalesInv" minOccurs="0" name="abcCode1SalesInv" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="abcCode2MarginInv" minOccurs="0" name="abcCode2MarginInv" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="abcCode3InvestInv" minOccurs="0" name="abcCode3InvestInv" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="abcCodeOverrideIndica" minOccurs="0" name="abcCodeOverrideIndica" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="addressNumberPlanner" minOccurs="0" name="addressNumberPlanner" nillable="false" type="xsd:int"/>
+          <xsd:element form="unqualified" map:java-field="allocateByLot" minOccurs="0" name="allocateByLot" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="backordersAllowedYN" minOccurs="0" name="backordersAllowedYN" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="bulkPackedFlag" minOccurs="0" name="bulkPackedFlag" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="buyer" minOccurs="0" name="buyer" nillable="false" type="xsd:int"/>
+          <xsd:element form="unqualified" map:java-field="checkAvailabilityYN" minOccurs="0" name="checkAvailabilityYN" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="commissionCategory" minOccurs="0" name="commissionCategory" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="commitmentSpecificDays" minOccurs="0" name="commitmentSpecificDays" nillable="false" type="xsd:int"/>
+          <xsd:element form="unqualified" map:java-field="commodityCode" minOccurs="0" name="commodityCode" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="componentType" minOccurs="0" name="componentType" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="contractItem" minOccurs="0" name="contractItem" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="coproductsByproducts" minOccurs="0" name="coproductsByproducts" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="costLevel" minOccurs="0" name="costLevel" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="crossDockFlagYN" minOccurs="0" name="crossDockFlagYN" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="deferDamperDays" minOccurs="0" name="deferDamperDays" nillable="false" type="xsd:int"/>
+          <xsd:element form="unqualified" map:java-field="descriptionLine1" minOccurs="0" name="descriptionLine1" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="descriptionLine2" minOccurs="0" name="descriptionLine2" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="dispatchGroup" minOccurs="0" name="dispatchGroup" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="dualPickingProcessOption" minOccurs="0" name="dualPickingProcessOption" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="dualTolerance" minOccurs="0" name="dualTolerance" nillable="false" type="xsd:decimal"/>
+          <xsd:element form="unqualified" map:java-field="dualUnitOfMeasureItem" minOccurs="0" name="dualUnitOfMeasureItem" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="expediteDamperDays" minOccurs="0" name="expediteDamperDays" nillable="false" type="xsd:int"/>
+          <xsd:element form="unqualified" map:java-field="fifoProcessing" minOccurs="0" name="fifoProcessing" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="glCategory" minOccurs="0" name="glCategory" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="isCountryOfOriginRequired" minOccurs="0" name="isCountryOfOriginRequired" nillable="false" type="xsd:boolean"/>
+          <xsd:element form="unqualified" map:java-field="item" minOccurs="0" name="item" nillable="false" type="ns0:itemResponseSupplier"/>
+          <xsd:element form="unqualified" map:java-field="itemDimensions" minOccurs="0" name="itemDimensions" nillable="false" type="ns0:outputItemDimensions"/>
+          <xsd:element form="unqualified" map:java-field="itemFlashMessage" minOccurs="0" name="itemFlashMessage" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="layerCodeSource" minOccurs="0" name="layerCodeSource" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="levelPurchasingPrice" minOccurs="0" name="levelPurchasingPrice" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="lineType" minOccurs="0" name="lineType" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="lotAuditFlag" minOccurs="0" name="lotAuditFlag" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="lotStatusCode" minOccurs="0" name="lotStatusCode" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="lowLevelCode" minOccurs="0" name="lowLevelCode" nillable="false" type="xsd:int"/>
+          <xsd:element form="unqualified" map:java-field="makeBuyCode" minOccurs="0" name="makeBuyCode" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="marginMaintenancePer" minOccurs="0" name="marginMaintenancePer" nillable="false" type="xsd:decimal"/>
+          <xsd:element form="unqualified" map:java-field="orderRepriceCategory" minOccurs="0" name="orderRepriceCategory" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="orderWithYN" minOccurs="0" name="orderWithYN" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="percentMargin" minOccurs="0" name="percentMargin" nillable="false" type="xsd:decimal"/>
+          <xsd:element form="unqualified" map:java-field="priceLevel" minOccurs="0" name="priceLevel" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="pricingCategory" minOccurs="0" name="pricingCategory" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="printMessage1" minOccurs="0" name="printMessage1" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="productGroupFrom" minOccurs="0" name="productGroupFrom" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="purchasingEffectiveDays" minOccurs="0" name="purchasingEffectiveDays" nillable="false" type="xsd:int"/>
+          <xsd:element form="unqualified" map:java-field="repriceBasketPriceCat" minOccurs="0" name="repriceBasketPriceCat" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="safetyLeadtime" minOccurs="0" name="safetyLeadtime" nillable="false" type="xsd:int"/>
+          <xsd:element form="unqualified" map:java-field="searchText" minOccurs="0" name="searchText" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="searchTextCompressed" minOccurs="0" name="searchTextCompressed" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="segment1" minOccurs="0" name="segment1" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="segment10" minOccurs="0" name="segment10" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="segment2" minOccurs="0" name="segment2" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="segment3" minOccurs="0" name="segment3" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="segment4" minOccurs="0" name="segment4" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="segment5" minOccurs="0" name="segment5" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="segment6" minOccurs="0" name="segment6" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="segment7" minOccurs="0" name="segment7" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="segment8" minOccurs="0" name="segment8" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="segment9" minOccurs="0" name="segment9" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="sellByDefaultDays" minOccurs="0" name="sellByDefaultDays" nillable="false" type="xsd:int"/>
+          <xsd:element form="unqualified" map:java-field="serialNumberRequired" minOccurs="0" name="serialNumberRequired" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="shelfLifeDays" minOccurs="0" name="shelfLifeDays" nillable="false" type="xsd:int"/>
+          <xsd:element form="unqualified" map:java-field="stockingType" minOccurs="0" name="stockingType" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="typeWarranty" minOccurs="0" name="typeWarranty" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="unitofMeasureVolumeorWeI" minOccurs="0" name="unitofMeasureVolumeorWeI" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="userLotDate1DefaultDays" minOccurs="0" name="userLotDate1DefaultDays" nillable="false" type="xsd:int"/>
+          <xsd:element form="unqualified" map:java-field="userLotDate2DefaultDays" minOccurs="0" name="userLotDate2DefaultDays" nillable="false" type="xsd:int"/>
+          <xsd:element form="unqualified" map:java-field="userLotDate3DefaultDays" minOccurs="0" name="userLotDate3DefaultDays" nillable="false" type="xsd:int"/>
+          <xsd:element form="unqualified" map:java-field="userLotDate4DefaultDays" minOccurs="0" name="userLotDate4DefaultDays" nillable="false" type="xsd:int"/>
+          <xsd:element form="unqualified" map:java-field="userLotDate5DefaultDays" minOccurs="0" name="userLotDate5DefaultDays" nillable="false" type="xsd:int"/>
+          <xsd:element form="unqualified" map:java-field="userReservedAmount" minOccurs="0" name="userReservedAmount" nillable="false" type="xsd:decimal"/>
+          <xsd:element form="unqualified" map:java-field="userReservedCode" minOccurs="0" name="userReservedCode" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="userReservedDate" minOccurs="0" name="userReservedDate" nillable="false" type="xsd:dateTime"/>
+          <xsd:element form="unqualified" map:java-field="userReservedNumber" minOccurs="0" name="userReservedNumber" nillable="false" type="xsd:int"/>
+          <xsd:element form="unqualified" map:java-field="userReservedReference" minOccurs="0" name="userReservedReference" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="vendorManagedInventory" minOccurs="0" name="vendorManagedInventory" nillable="false" type="xsd:string"/>
+        </xsd:sequence>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+
+  <xsd:complexType name="itemResponseCustomer">
+    <xsd:annotation>
+      <xsd:appinfo>
+        <map:java-type name="com_magicsoftware_edeveloper_WIN_SGTM04TLROE_24022016_105948__JDE_Inventory.ItemResponseCustomer"/>
+      </xsd:appinfo>
+    </xsd:annotation>
+    <xsd:complexContent>
+      <xsd:extension base="ns0:valueObject">
+        <xsd:sequence>
+          <xsd:element form="unqualified" map:java-field="itemCatalog" minOccurs="0" name="itemCatalog" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="itemCustomer" minOccurs="0" name="itemCustomer" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="itemId" minOccurs="0" name="itemId" nillable="false" type="xsd:int"/>
+          <xsd:element form="unqualified" map:java-field="itemProduct" minOccurs="0" name="itemProduct" nillable="false" type="xsd:string"/>
+        </xsd:sequence>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+
+  <xsd:complexType name="supplierCatalogPrice">
+    <xsd:annotation>
+      <xsd:appinfo>
+        <map:java-type name="com_magicsoftware_edeveloper_WIN_SGTM04TLROE_24022016_105948__JDE_Inventory.SupplierCatalogPrice"/>
+      </xsd:appinfo>
+    </xsd:annotation>
+    <xsd:complexContent>
+      <xsd:extension base="ns0:valueObject">
+        <xsd:sequence>
+          <xsd:element form="unqualified" map:java-field="agreementId" minOccurs="0" name="agreementId" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="agreementSupplement" minOccurs="0" name="agreementSupplement" nillable="false" type="xsd:int"/>
+          <xsd:element form="unqualified" map:java-field="businessUnit" minOccurs="0" name="businessUnit" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="catalogName" minOccurs="0" name="catalogName" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="currencyCode" minOccurs="0" name="currencyCode" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="dateEffectiveEnd" minOccurs="0" name="dateEffectiveEnd" nillable="false" type="xsd:dateTime"/>
+          <xsd:element form="unqualified" map:java-field="dateEffectiveStart" minOccurs="0" name="dateEffectiveStart" nillable="false" type="xsd:dateTime"/>
+          <xsd:element form="unqualified" map:java-field="documentCompany" minOccurs="0" name="documentCompany" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="documentLineNumber" minOccurs="0" name="documentLineNumber" nillable="false" type="xsd:decimal"/>
+          <xsd:element form="unqualified" map:java-field="documentNumber" minOccurs="0" name="documentNumber" nillable="false" type="xsd:int"/>
+          <xsd:element form="unqualified" map:java-field="documentType" minOccurs="0" name="documentType" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="item" minOccurs="0" name="item" nillable="false" type="ns0:itemResponseSupplier"/>
+          <xsd:element form="unqualified" map:java-field="priceUnit" minOccurs="0" name="priceUnit" nillable="false" type="xsd:decimal"/>
+          <xsd:element form="unqualified" map:java-field="quantityActual" minOccurs="0" name="quantityActual" nillable="false" type="xsd:decimal"/>
+          <xsd:element form="unqualified" map:java-field="supplier" minOccurs="0" name="supplier" nillable="false" type="ns0:entity"/>
+          <xsd:element form="unqualified" map:java-field="unitOfMeasureCode" minOccurs="0" name="unitOfMeasureCode" nillable="false" type="xsd:string"/>
+        </xsd:sequence>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+
+  <xsd:complexType name="getCalculatedAvailability">
+    <xsd:annotation>
+      <xsd:appinfo>
+        <map:java-type name="com_magicsoftware_edeveloper_WIN_SGTM04TLROE_24022016_105948__JDE_Inventory.GetCalculatedAvailability"/>
+      </xsd:appinfo>
+    </xsd:annotation>
+    <xsd:complexContent>
+      <xsd:extension base="ns0:valueObject">
+        <xsd:sequence>
+          <xsd:element form="unqualified" map:java-field="branchPlantList" minOccurs="0" name="branchPlantList" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="itemPrimary" minOccurs="0" name="itemPrimary" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="itemSecond" minOccurs="0" name="itemSecond" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="itemShort" minOccurs="0" name="itemShort" nillable="false" type="xsd:int"/>
+          <xsd:element form="unqualified" map:java-field="itemThird" minOccurs="0" name="itemThird" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="omitZeroQty" name="omitZeroQty" nillable="false" type="xsd:boolean"/>
+          <xsd:element form="unqualified" map:java-field="unitOfMeasure" minOccurs="0" name="unitOfMeasure" nillable="false" type="xsd:string"/>
+        </xsd:sequence>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+
+  <xsd:complexType name="itemPrice">
+    <xsd:annotation>
+      <xsd:appinfo>
+        <map:java-type name="com_magicsoftware_edeveloper_WIN_SGTM04TLROE_24022016_105948__JDE_Inventory.ItemPrice"/>
+      </xsd:appinfo>
+    </xsd:annotation>
+    <xsd:complexContent>
+      <xsd:extension base="ns0:valueObject">
+        <xsd:sequence>
+          <xsd:element form="unqualified" map:java-field="amtPricePerUnit2" minOccurs="0" name="amtPricePerUnit2" nillable="false" type="xsd:decimal"/>
+          <xsd:element form="unqualified" map:java-field="branchPlantDesc" minOccurs="0" name="branchPlantDesc" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="costCenter" minOccurs="0" name="costCenter" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="currencyCodeFrom" minOccurs="0" name="currencyCodeFrom" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="custGroup" minOccurs="0" name="custGroup" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="customerIDDesc" minOccurs="0" name="customerIDDesc" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="dateEffectiveJulian1" minOccurs="0" name="dateEffectiveJulian1" nillable="false" type="xsd:dateTime"/>
+          <xsd:element form="unqualified" map:java-field="dateExpiredJulian1" minOccurs="0" name="dateExpiredJulian1" nillable="false" type="xsd:dateTime"/>
+          <xsd:element form="unqualified" map:java-field="itemGroup" minOccurs="0" name="itemGroup" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="location" minOccurs="0" name="location" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="lot" minOccurs="0" name="lot" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="priceHierarchy" minOccurs="0" name="priceHierarchy" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="unitOfMeasureAsInput" minOccurs="0" name="unitOfMeasureAsInput" nillable="false" type="xsd:string"/>
+        </xsd:sequence>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+
+  <xsd:complexType name="plantManufacturing">
+    <xsd:annotation>
+      <xsd:appinfo>
+        <map:java-type name="com_magicsoftware_edeveloper_WIN_SGTM04TLROE_24022016_105948__JDE_Inventory.PlantManufacturing"/>
+      </xsd:appinfo>
+    </xsd:annotation>
+    <xsd:complexContent>
+      <xsd:extension base="ns0:valueObject">
+        <xsd:sequence>
+          <xsd:element form="unqualified" map:java-field="ECONumber" minOccurs="0" name="ECONumber" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="ECOReasonCode" minOccurs="0" name="ECOReasonCode" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="dateECO" minOccurs="0" name="dateECO" nillable="false" type="xsd:dateTime"/>
+          <xsd:element form="unqualified" map:java-field="daysCommitmentSpecific" minOccurs="0" name="daysCommitmentSpecific" nillable="false" type="xsd:int"/>
+          <xsd:element form="unqualified" map:java-field="daysDeferDamper" minOccurs="0" name="daysDeferDamper" nillable="false" type="xsd:int"/>
+          <xsd:element form="unqualified" map:java-field="daysExpiditeDamper" minOccurs="0" name="daysExpiditeDamper" nillable="false" type="xsd:int"/>
+          <xsd:element form="unqualified" map:java-field="daysShipmentLeadtimeFence" minOccurs="0" name="daysShipmentLeadtimeFence" nillable="false" type="xsd:int"/>
+          <xsd:element form="unqualified" map:java-field="daysTimeFenceFreeze" minOccurs="0" name="daysTimeFenceFreeze" nillable="false" type="xsd:int"/>
+          <xsd:element form="unqualified" map:java-field="daysTimeFenceManufacturing" minOccurs="0" name="daysTimeFenceManufacturing" nillable="false" type="xsd:int"/>
+          <xsd:element form="unqualified" map:java-field="daysTimeFenceMessage" minOccurs="0" name="daysTimeFenceMessage" nillable="false" type="xsd:int"/>
+          <xsd:element form="unqualified" map:java-field="daysTimeFencePlanning" minOccurs="0" name="daysTimeFencePlanning" nillable="false" type="xsd:int"/>
+          <xsd:element form="unqualified" map:java-field="hoursReplenishment" minOccurs="0" name="hoursReplenishment" nillable="false" type="xsd:decimal"/>
+          <xsd:element form="unqualified" map:java-field="hoursStandardMove" minOccurs="0" name="hoursStandardMove" nillable="false" type="xsd:decimal"/>
+          <xsd:element form="unqualified" map:java-field="hoursStandardQueue" minOccurs="0" name="hoursStandardQueue" nillable="false" type="xsd:decimal"/>
+          <xsd:element form="unqualified" map:java-field="hoursStandardSetupLabor" minOccurs="0" name="hoursStandardSetupLabor" nillable="false" type="xsd:decimal"/>
+          <xsd:element form="unqualified" map:java-field="isActiveIngredient" minOccurs="0" name="isActiveIngredient" nillable="false" type="xsd:boolean"/>
+          <xsd:element form="unqualified" map:java-field="issueAndReceiptCode" minOccurs="0" name="issueAndReceiptCode" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="issueTypeCode" minOccurs="0" name="issueTypeCode" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="itemRevisionLevel" minOccurs="0" name="itemRevisionLevel" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="leadtimeConversionFactor" minOccurs="0" name="leadtimeConversionFactor" nillable="false" type="xsd:decimal"/>
+          <xsd:element form="unqualified" map:java-field="leadtimeCumulative" minOccurs="0" name="leadtimeCumulative" nillable="false" type="xsd:int"/>
+          <xsd:element form="unqualified" map:java-field="leadtimeFixedOrVariableCode" minOccurs="0" name="leadtimeFixedOrVariableCode" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="leadtimeLevel" minOccurs="0" name="leadtimeLevel" nillable="false" type="xsd:int"/>
+          <xsd:element form="unqualified" map:java-field="leadtimeManufacturing" minOccurs="0" name="leadtimeManufacturing" nillable="false" type="xsd:int"/>
+          <xsd:element form="unqualified" map:java-field="leadtimePerUnit" minOccurs="0" name="leadtimePerUnit" nillable="false" type="xsd:decimal"/>
+          <xsd:element form="unqualified" map:java-field="leadtimeSafety" minOccurs="0" name="leadtimeSafety" nillable="false" type="xsd:int"/>
+          <xsd:element form="unqualified" map:java-field="lowLevelCode" minOccurs="0" name="lowLevelCode" nillable="false" type="xsd:int"/>
+          <xsd:element form="unqualified" map:java-field="makeOrBuyCode" minOccurs="0" name="makeOrBuyCode" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="orderPolicyCode" minOccurs="0" name="orderPolicyCode" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="orderPolicyNumber" minOccurs="0" name="orderPolicyNumber" nillable="false" type="xsd:int"/>
+          <xsd:element form="unqualified" map:java-field="planningCode" minOccurs="0" name="planningCode" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="planningFenceRuleCode" minOccurs="0" name="planningFenceRuleCode" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="quantityAccountingCost" minOccurs="0" name="quantityAccountingCost" nillable="false" type="xsd:decimal"/>
+          <xsd:element form="unqualified" map:java-field="quantityManufacturingLeadtime" minOccurs="0" name="quantityManufacturingLeadtime" nillable="false" type="xsd:decimal"/>
+          <xsd:element form="unqualified" map:java-field="shrinkFactorMethodCode" minOccurs="0" name="shrinkFactorMethodCode" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="shrinkFactorNumber" minOccurs="0" name="shrinkFactorNumber" nillable="false" type="xsd:decimal"/>
+          <xsd:element form="unqualified" map:java-field="timeBasisCode" minOccurs="0" name="timeBasisCode" nillable="false" type="xsd:string"/>
+        </xsd:sequence>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+
+  <xsd:complexType name="getItemBranchSearch">
+    <xsd:annotation>
+      <xsd:appinfo>
+        <map:java-type name="com_magicsoftware_edeveloper_WIN_SGTM04TLROE_24022016_105948__JDE_Inventory.GetItemBranchSearch"/>
+      </xsd:appinfo>
+    </xsd:annotation>
+    <xsd:complexContent>
+      <xsd:extension base="ns0:valueObject">
+        <xsd:sequence>
+          <xsd:element form="unqualified" map:java-field="branchCompany" minOccurs="0" name="branchCompany" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="branchPlant" minOccurs="0" name="branchPlant" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="branchType" minOccurs="0" name="branchType" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="description" minOccurs="0" name="description" nillable="false" type="xsd:string"/>
+        </xsd:sequence>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+
+  <xsd:complexType name="processSupplierCatalogPriceV2">
+    <xsd:annotation>
+      <xsd:appinfo>
+        <map:java-type name="com_magicsoftware_edeveloper_WIN_SGTM04TLROE_24022016_105948__JDE_Inventory.ProcessSupplierCatalogPriceV2"/>
+      </xsd:appinfo>
+    </xsd:annotation>
+    <xsd:complexContent>
+      <xsd:extension base="ns0:valueObject">
+        <xsd:sequence>
+          <xsd:element form="unqualified" map:java-field="businessUnit" minOccurs="0" name="businessUnit" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="catalogName" minOccurs="0" name="catalogName" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="currencyCode" minOccurs="0" name="currencyCode" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="dateEffectiveEnd" minOccurs="0" name="dateEffectiveEnd" nillable="false" type="xsd:dateTime"/>
+          <xsd:element form="unqualified" map:java-field="dateEffectiveStart" minOccurs="0" name="dateEffectiveStart" nillable="false" type="xsd:dateTime"/>
+          <xsd:element form="unqualified" map:java-field="item" minOccurs="0" name="item" nillable="false" type="ns0:itemGroupSupplier"/>
+          <xsd:element form="unqualified" map:java-field="priceUnit" minOccurs="0" name="priceUnit" nillable="false" type="xsd:decimal"/>
+          <xsd:element form="unqualified" map:java-field="processing" minOccurs="0" name="processing" nillable="false" type="ns0:supplierCatalogPriceProcessing"/>
+          <xsd:element form="unqualified" map:java-field="quantityActual" minOccurs="0" name="quantityActual" nillable="false" type="xsd:decimal"/>
+          <xsd:element form="unqualified" map:java-field="supplier" minOccurs="0" name="supplier" nillable="false" type="ns0:entity"/>
+          <xsd:element form="unqualified" map:java-field="supplierGLN" minOccurs="0" name="supplierGLN" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="unitOfMeasureCode" minOccurs="0" name="unitOfMeasureCode" nillable="false" type="xsd:string"/>
+        </xsd:sequence>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+
+  <xsd:complexType name="itemSearch">
+    <xsd:annotation>
+      <xsd:appinfo>
+        <map:java-type name="com_magicsoftware_edeveloper_WIN_SGTM04TLROE_24022016_105948__JDE_Inventory.ItemSearch"/>
+      </xsd:appinfo>
+    </xsd:annotation>
+    <xsd:complexContent>
+      <xsd:extension base="ns0:valueObject">
+        <xsd:sequence>
+          <xsd:element form="unqualified" map:java-field="itemCatalog" minOccurs="0" name="itemCatalog" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="itemDescription1" minOccurs="0" name="itemDescription1" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="itemDescription2" minOccurs="0" name="itemDescription2" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="itemFreeForm" minOccurs="0" name="itemFreeForm" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="itemId" minOccurs="0" name="itemId" nillable="false" type="ns0:mathNumeric"/>
+          <xsd:element form="unqualified" map:java-field="itemProduct" minOccurs="0" name="itemProduct" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="itemSearchText" minOccurs="0" name="itemSearchText" nillable="false" type="xsd:string"/>
+        </xsd:sequence>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+
+  <xsd:complexType name="purchasingCategoryCodes">
+    <xsd:annotation>
+      <xsd:appinfo>
+        <map:java-type name="com_magicsoftware_edeveloper_WIN_SGTM04TLROE_24022016_105948__JDE_Inventory.PurchasingCategoryCodes"/>
+      </xsd:appinfo>
+    </xsd:annotation>
+    <xsd:complexContent>
+      <xsd:extension base="ns0:valueObject">
+        <xsd:sequence>
+          <xsd:element form="unqualified" map:java-field="categoryCode001" minOccurs="0" name="categoryCode001" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="categoryCode002" minOccurs="0" name="categoryCode002" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="categoryCode003" minOccurs="0" name="categoryCode003" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="categoryCode004" minOccurs="0" name="categoryCode004" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="categoryCode005" minOccurs="0" name="categoryCode005" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="categoryCode006" minOccurs="0" name="categoryCode006" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="categoryCode007" minOccurs="0" name="categoryCode007" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="categoryCode008" minOccurs="0" name="categoryCode008" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="categoryCode009" minOccurs="0" name="categoryCode009" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="categoryCode010" minOccurs="0" name="categoryCode010" nillable="false" type="xsd:string"/>
+        </xsd:sequence>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+
+  <xsd:complexType name="valueObject">
+    <xsd:annotation>
+      <xsd:appinfo>
+        <map:java-type name="com_magicsoftware_edeveloper_WIN_SGTM04TLROE_24022016_105948__JDE_Inventory.ValueObject"/>
+      </xsd:appinfo>
+    </xsd:annotation>
+    <xsd:sequence/>
+  </xsd:complexType>
+
+  <xsd:complexType name="getItemAvailability">
+    <xsd:annotation>
+      <xsd:appinfo>
+        <map:java-type name="com_magicsoftware_edeveloper_WIN_SGTM04TLROE_24022016_105948__JDE_Inventory.GetItemAvailability"/>
+      </xsd:appinfo>
+    </xsd:annotation>
+    <xsd:complexContent>
+      <xsd:extension base="ns0:valueObject">
+        <xsd:sequence>
+          <xsd:element form="unqualified" map:java-field="businessUnit" minOccurs="0" name="businessUnit" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="item" minOccurs="0" name="item" nillable="false" type="ns0:itemGroupCustomer"/>
+          <xsd:element form="unqualified" map:java-field="transactionUnitOfMeasure" minOccurs="0" name="transactionUnitOfMeasure" nillable="false" type="xsd:string"/>
+        </xsd:sequence>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+
+  <xsd:complexType name="availabilityDetails">
+    <xsd:annotation>
+      <xsd:appinfo>
+        <map:java-type name="com_magicsoftware_edeveloper_WIN_SGTM04TLROE_24022016_105948__JDE_Inventory.AvailabilityDetails"/>
+      </xsd:appinfo>
+    </xsd:annotation>
+    <xsd:sequence>
+      <xsd:element form="unqualified" map:java-field="availableQuantity" minOccurs="0" name="availableQuantity" nillable="false" type="ns0:mathNumeric"/>
+      <xsd:element form="unqualified" map:java-field="businessUnit" minOccurs="0" name="businessUnit" nillable="false" type="xsd:string"/>
+      <xsd:element form="unqualified" map:java-field="glCategory" minOccurs="0" name="glCategory" nillable="false" type="xsd:string"/>
+      <xsd:element form="unqualified" map:java-field="location" minOccurs="0" name="location" nillable="false" type="xsd:string"/>
+      <xsd:element form="unqualified" map:java-field="lotNumber" minOccurs="0" name="lotNumber" nillable="false" type="xsd:string"/>
+      <xsd:element form="unqualified" map:java-field="lotStatus" minOccurs="0" name="lotStatus" nillable="false" type="xsd:string"/>
+      <xsd:element form="unqualified" map:java-field="primaryBin" minOccurs="0" name="primaryBin" nillable="false" type="xsd:string"/>
+    </xsd:sequence>
+  </xsd:complexType>
+
+  <xsd:complexType name="showItemSearch">
+    <xsd:annotation>
+      <xsd:appinfo>
+        <map:java-type name="com_magicsoftware_edeveloper_WIN_SGTM04TLROE_24022016_105948__JDE_Inventory.ShowItemSearch"/>
+      </xsd:appinfo>
+    </xsd:annotation>
+    <xsd:complexContent>
+      <xsd:extension base="ns0:messageValueObject">
+        <xsd:sequence>
+          <xsd:element form="unqualified" map:java-field="itemSearchDetails" maxOccurs="unbounded" minOccurs="0" name="itemSearchDetails" nillable="true" type="ns0:itemSearch"/>
+        </xsd:sequence>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+
+  <xsd:complexType name="salesCategoryCodes">
+    <xsd:annotation>
+      <xsd:appinfo>
+        <map:java-type name="com_magicsoftware_edeveloper_WIN_SGTM04TLROE_24022016_105948__JDE_Inventory.SalesCategoryCodes"/>
+      </xsd:appinfo>
+    </xsd:annotation>
+    <xsd:complexContent>
+      <xsd:extension base="ns0:valueObject">
+        <xsd:sequence>
+          <xsd:element form="unqualified" map:java-field="categoryCode001" minOccurs="0" name="categoryCode001" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="categoryCode002" minOccurs="0" name="categoryCode002" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="categoryCode003" minOccurs="0" name="categoryCode003" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="categoryCode004" minOccurs="0" name="categoryCode004" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="categoryCode005" minOccurs="0" name="categoryCode005" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="categoryCode006" minOccurs="0" name="categoryCode006" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="categoryCode007" minOccurs="0" name="categoryCode007" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="categoryCode008" minOccurs="0" name="categoryCode008" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="categoryCode009" minOccurs="0" name="categoryCode009" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="categoryCode010" minOccurs="0" name="categoryCode010" nillable="false" type="xsd:string"/>
+        </xsd:sequence>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+
+  <xsd:complexType name="showBranchPlantItem">
+    <xsd:annotation>
+      <xsd:appinfo>
+        <map:java-type name="com_magicsoftware_edeveloper_WIN_SGTM04TLROE_24022016_105948__JDE_Inventory.ShowBranchPlantItem"/>
+      </xsd:appinfo>
+    </xsd:annotation>
+    <xsd:complexContent>
+      <xsd:extension base="ns0:messageValueObject">
+        <xsd:sequence>
+          <xsd:element form="unqualified" map:java-field="branchPlant" maxOccurs="unbounded" minOccurs="0" name="branchPlant" nillable="true" type="ns0:branchPlant"/>
+        </xsd:sequence>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+
+  <xsd:complexType name="getItemSearch">
+    <xsd:annotation>
+      <xsd:appinfo>
+        <map:java-type name="com_magicsoftware_edeveloper_WIN_SGTM04TLROE_24022016_105948__JDE_Inventory.GetItemSearch"/>
+      </xsd:appinfo>
+    </xsd:annotation>
+    <xsd:complexContent>
+      <xsd:extension base="ns0:valueObject">
+        <xsd:sequence>
+          <xsd:element form="unqualified" map:java-field="itemCatalog" minOccurs="0" name="itemCatalog" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="itemDescription1" minOccurs="0" name="itemDescription1" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="itemDescription2" minOccurs="0" name="itemDescription2" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="itemId" minOccurs="0" name="itemId" nillable="false" type="ns0:mathNumeric"/>
+          <xsd:element form="unqualified" map:java-field="itemProduct" minOccurs="0" name="itemProduct" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="itemSearchText" minOccurs="0" name="itemSearchText" nillable="false" type="xsd:string"/>
+        </xsd:sequence>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+
+  <xsd:complexType name="branchPlant">
+    <xsd:annotation>
+      <xsd:appinfo>
+        <map:java-type name="com_magicsoftware_edeveloper_WIN_SGTM04TLROE_24022016_105948__JDE_Inventory.BranchPlant"/>
+      </xsd:appinfo>
+    </xsd:annotation>
+    <xsd:complexContent>
+      <xsd:extension base="ns0:valueObject">
+        <xsd:sequence>
+          <xsd:element form="unqualified" map:java-field="additionalUnitsOfMeasure" minOccurs="0" name="additionalUnitsOfMeasure" nillable="false" type="ns0:additionalUnitsOfMeasure"/>
+          <xsd:element form="unqualified" map:java-field="grade" minOccurs="0" name="grade" nillable="false" type="ns0:grade"/>
+          <xsd:element form="unqualified" map:java-field="item" minOccurs="0" name="item" nillable="false" type="ns0:item"/>
+          <xsd:element form="unqualified" map:java-field="itemBranch" minOccurs="0" name="itemBranch" nillable="false" type="ns0:itemBranch"/>
+          <xsd:element form="unqualified" map:java-field="itemMaster" minOccurs="0" name="itemMaster" nillable="false" type="ns0:itemMaster"/>
+          <xsd:element form="unqualified" map:java-field="lotProcessing" minOccurs="0" name="lotProcessing" nillable="false" type="ns0:lotProcessing"/>
+          <xsd:element form="unqualified" map:java-field="plantManufacturing" minOccurs="0" name="plantManufacturing" nillable="false" type="ns0:plantManufacturing"/>
+          <xsd:element form="unqualified" map:java-field="potency" minOccurs="0" name="potency" nillable="false" type="ns0:potency"/>
+          <xsd:element form="unqualified" map:java-field="purchasingCategoryCodes" minOccurs="0" name="purchasingCategoryCodes" nillable="false" type="ns0:purchasingCategoryCodes"/>
+          <xsd:element form="unqualified" map:java-field="quantities" minOccurs="0" name="quantities" nillable="false" type="ns0:quantities"/>
+          <xsd:element form="unqualified" map:java-field="salesCategoryCodes" minOccurs="0" name="salesCategoryCodes" nillable="false" type="ns0:salesCategoryCodes"/>
+          <xsd:element form="unqualified" map:java-field="userReservedData" minOccurs="0" name="userReservedData" nillable="false" type="ns0:userReservedData"/>
+        </xsd:sequence>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+
+  <xsd:complexType name="showSupplierCatalogPrice">
+    <xsd:annotation>
+      <xsd:appinfo>
+        <map:java-type name="com_magicsoftware_edeveloper_WIN_SGTM04TLROE_24022016_105948__JDE_Inventory.ShowSupplierCatalogPrice"/>
+      </xsd:appinfo>
+    </xsd:annotation>
+    <xsd:complexContent>
+      <xsd:extension base="ns0:messageValueObject">
+        <xsd:sequence>
+          <xsd:element form="unqualified" map:java-field="supplierCatalogPrice" maxOccurs="unbounded" minOccurs="0" name="supplierCatalogPrice" nillable="true" type="ns0:supplierCatalogPrice"/>
+        </xsd:sequence>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+
+  <xsd:complexType name="userReservedData">
+    <xsd:annotation>
+      <xsd:appinfo>
+        <map:java-type name="com_magicsoftware_edeveloper_WIN_SGTM04TLROE_24022016_105948__JDE_Inventory.UserReservedData"/>
+      </xsd:appinfo>
+    </xsd:annotation>
+    <xsd:complexContent>
+      <xsd:extension base="ns0:valueObject">
+        <xsd:sequence>
+          <xsd:element form="unqualified" map:java-field="userReservedAmount" minOccurs="0" name="userReservedAmount" nillable="false" type="xsd:decimal"/>
+          <xsd:element form="unqualified" map:java-field="userReservedCode" minOccurs="0" name="userReservedCode" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="userReservedDate" minOccurs="0" name="userReservedDate" nillable="false" type="xsd:dateTime"/>
+          <xsd:element form="unqualified" map:java-field="userReservedNumber" minOccurs="0" name="userReservedNumber" nillable="false" type="xsd:int"/>
+          <xsd:element form="unqualified" map:java-field="userReservedReference" minOccurs="0" name="userReservedReference" nillable="false" type="xsd:string"/>
+        </xsd:sequence>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+
+  <xsd:complexType name="availabilitySummary">
+    <xsd:annotation>
+      <xsd:appinfo>
+        <map:java-type name="com_magicsoftware_edeveloper_WIN_SGTM04TLROE_24022016_105948__JDE_Inventory.AvailabilitySummary"/>
+      </xsd:appinfo>
+    </xsd:annotation>
+    <xsd:sequence>
+      <xsd:element form="unqualified" map:java-field="availabilityDetails" maxOccurs="unbounded" minOccurs="0" name="availabilityDetails" nillable="true" type="ns0:availabilityDetails"/>
+      <xsd:element form="unqualified" map:java-field="availableQuantity" minOccurs="0" name="availableQuantity" nillable="false" type="ns0:mathNumeric"/>
+      <xsd:element form="unqualified" map:java-field="businessUnit" minOccurs="0" name="businessUnit" nillable="false" type="xsd:string"/>
+      <xsd:element form="unqualified" map:java-field="businessUnitDesc" minOccurs="0" name="businessUnitDesc" nillable="false" type="xsd:string"/>
+    </xsd:sequence>
+  </xsd:complexType>
+
+  <xsd:complexType name="inventoryItemStagingProcessing">
+    <xsd:annotation>
+      <xsd:appinfo>
+        <map:java-type name="com_magicsoftware_edeveloper_WIN_SGTM04TLROE_24022016_105948__JDE_Inventory.InventoryItemStagingProcessing"/>
+      </xsd:appinfo>
+    </xsd:annotation>
+    <xsd:complexContent>
+      <xsd:extension base="ns0:valueObject">
+        <xsd:sequence>
+          <xsd:element form="unqualified" map:java-field="actionTypeCode" minOccurs="0" name="actionTypeCode" nillable="false" type="xsd:string"/>
+        </xsd:sequence>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+
+  <xsd:complexType name="getBranchPlantItem">
+    <xsd:annotation>
+      <xsd:appinfo>
+        <map:java-type name="com_magicsoftware_edeveloper_WIN_SGTM04TLROE_24022016_105948__JDE_Inventory.GetBranchPlantItem"/>
+      </xsd:appinfo>
+    </xsd:annotation>
+    <xsd:complexContent>
+      <xsd:extension base="ns0:valueObject">
+        <xsd:sequence>
+          <xsd:element form="unqualified" map:java-field="branchPlant" minOccurs="0" name="branchPlant" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="buyer" minOccurs="0" name="buyer" nillable="false" type="ns0:entity"/>
+          <xsd:element form="unqualified" map:java-field="description1" minOccurs="0" name="description1" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="description2" minOccurs="0" name="description2" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="item" minOccurs="0" name="item" nillable="false" type="ns0:item"/>
+          <xsd:element form="unqualified" map:java-field="lineTypeCode" minOccurs="0" name="lineTypeCode" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="planner" minOccurs="0" name="planner" nillable="false" type="ns0:entity"/>
+          <xsd:element form="unqualified" map:java-field="purchasingCategoryCodes" minOccurs="0" name="purchasingCategoryCodes" nillable="false" type="ns0:purchasingCategoryCodes"/>
+          <xsd:element form="unqualified" map:java-field="salesCategoryCodes" minOccurs="0" name="salesCategoryCodes" nillable="false" type="ns0:salesCategoryCodes"/>
+          <xsd:element form="unqualified" map:java-field="stockingTypeCode" minOccurs="0" name="stockingTypeCode" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="supplier" minOccurs="0" name="supplier" nillable="false" type="ns0:entity"/>
+        </xsd:sequence>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+
+  <xsd:complexType name="itemBranch">
+    <xsd:annotation>
+      <xsd:appinfo>
+        <map:java-type name="com_magicsoftware_edeveloper_WIN_SGTM04TLROE_24022016_105948__JDE_Inventory.ItemBranch"/>
+      </xsd:appinfo>
+    </xsd:annotation>
+    <xsd:complexContent>
+      <xsd:extension base="ns0:valueObject">
+        <xsd:sequence>
+          <xsd:element form="unqualified" map:java-field="ABCCodeInvestment" minOccurs="0" name="ABCCodeInvestment" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="ABCCodeMargin" minOccurs="0" name="ABCCodeMargin" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="ABCCodeSales" minOccurs="0" name="ABCCodeSales" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="FIFOProcessing" minOccurs="0" name="FIFOProcessing" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="activityBasedCostingOverride" minOccurs="0" name="activityBasedCostingOverride" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="applyFrieghtCode" minOccurs="0" name="applyFrieghtCode" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="branchPlant" minOccurs="0" name="branchPlant" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="buyer" minOccurs="0" name="buyer" nillable="false" type="ns0:entity"/>
+          <xsd:element form="unqualified" map:java-field="checkAvailability" minOccurs="0" name="checkAvailability" nillable="false" type="xsd:boolean"/>
+          <xsd:element form="unqualified" map:java-field="commissionCategory" minOccurs="0" name="commissionCategory" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="commitmentMethodCode" minOccurs="0" name="commitmentMethodCode" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="componentTypeCode" minOccurs="0" name="componentTypeCode" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="constraintsCode" minOccurs="0" name="constraintsCode" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="countryCode" minOccurs="0" name="countryCode" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="dateLIFO" minOccurs="0" name="dateLIFO" nillable="false" type="xsd:dateTime"/>
+          <xsd:element form="unqualified" map:java-field="description1" minOccurs="0" name="description1" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="description2" minOccurs="0" name="description2" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="entityIdCarrier" minOccurs="0" name="entityIdCarrier" nillable="false" type="xsd:int"/>
+          <xsd:element form="unqualified" map:java-field="entityIdPreferredCarrier" minOccurs="0" name="entityIdPreferredCarrier" nillable="false" type="xsd:int"/>
+          <xsd:element form="unqualified" map:java-field="glClassCode" minOccurs="0" name="glClassCode" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="isBackOrderAllowed" minOccurs="0" name="isBackOrderAllowed" nillable="false" type="xsd:boolean"/>
+          <xsd:element form="unqualified" map:java-field="isMixedDatesOrLots" minOccurs="0" name="isMixedDatesOrLots" nillable="false" type="xsd:boolean"/>
+          <xsd:element form="unqualified" map:java-field="isOrderWith" minOccurs="0" name="isOrderWith" nillable="false" type="xsd:boolean"/>
+          <xsd:element form="unqualified" map:java-field="itemDisplayCode" minOccurs="0" name="itemDisplayCode" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="lineTypeCode" minOccurs="0" name="lineTypeCode" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="orderRepriceCategoryCode" minOccurs="0" name="orderRepriceCategoryCode" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="percentMargin" minOccurs="0" name="percentMargin" nillable="false" type="xsd:decimal"/>
+          <xsd:element form="unqualified" map:java-field="percentMarginMaintenance" minOccurs="0" name="percentMarginMaintenance" nillable="false" type="xsd:decimal"/>
+          <xsd:element form="unqualified" map:java-field="planner" minOccurs="0" name="planner" nillable="false" type="ns0:entity"/>
+          <xsd:element form="unqualified" map:java-field="primaryUnitOfMeasureCode" minOccurs="0" name="primaryUnitOfMeasureCode" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="printMessageCode" minOccurs="0" name="printMessageCode" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="priorityAlertLevel1" minOccurs="0" name="priorityAlertLevel1" nillable="false" type="xsd:decimal"/>
+          <xsd:element form="unqualified" map:java-field="priorityAlertLevel2" minOccurs="0" name="priorityAlertLevel2" nillable="false" type="xsd:decimal"/>
+          <xsd:element form="unqualified" map:java-field="processCrossDockingFlag" minOccurs="0" name="processCrossDockingFlag" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="productFamilyCode" minOccurs="0" name="productFamilyCode" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="quantityOrderMultiplesWorkOrder" minOccurs="0" name="quantityOrderMultiplesWorkOrder" nillable="false" type="xsd:int"/>
+          <xsd:element form="unqualified" map:java-field="quantityUnitsBatch" minOccurs="0" name="quantityUnitsBatch" nillable="false" type="xsd:decimal"/>
+          <xsd:element form="unqualified" map:java-field="repriceBasketPriceCode" minOccurs="0" name="repriceBasketPriceCode" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="serviceLevel" minOccurs="0" name="serviceLevel" nillable="false" type="xsd:decimal"/>
+          <xsd:element form="unqualified" map:java-field="stockingTypeCode" minOccurs="0" name="stockingTypeCode" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="supplier" minOccurs="0" name="supplier" nillable="false" type="ns0:entity"/>
+          <xsd:element form="unqualified" map:java-field="taxableCodePurchasing" minOccurs="0" name="taxableCodePurchasing" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="taxableCodeSales" minOccurs="0" name="taxableCodeSales" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="warrantyType" minOccurs="0" name="warrantyType" nillable="false" type="xsd:string"/>
+        </xsd:sequence>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+
+  <xsd:complexType name="showBranchPlantItemV2">
+    <xsd:annotation>
+      <xsd:appinfo>
+        <map:java-type name="com_magicsoftware_edeveloper_WIN_SGTM04TLROE_24022016_105948__JDE_Inventory.ShowBranchPlantItemV2"/>
+      </xsd:appinfo>
+    </xsd:annotation>
+    <xsd:complexContent>
+      <xsd:extension base="ns0:messageValueObject">
+        <xsd:sequence>
+          <xsd:element form="unqualified" map:java-field="branchPlant" maxOccurs="unbounded" minOccurs="0" name="branchPlant" nillable="true" type="ns0:branchPlantV2"/>
+        </xsd:sequence>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+
+  <xsd:complexType name="getSupplierCatalogPrice">
+    <xsd:annotation>
+      <xsd:appinfo>
+        <map:java-type name="com_magicsoftware_edeveloper_WIN_SGTM04TLROE_24022016_105948__JDE_Inventory.GetSupplierCatalogPrice"/>
+      </xsd:appinfo>
+    </xsd:annotation>
+    <xsd:complexContent>
+      <xsd:extension base="ns0:valueObject">
+        <xsd:sequence>
+          <xsd:element form="unqualified" map:java-field="agreementId" minOccurs="0" name="agreementId" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="agreementSupplement" minOccurs="0" name="agreementSupplement" nillable="false" type="xsd:int"/>
+          <xsd:element form="unqualified" map:java-field="businessUnit" minOccurs="0" name="businessUnit" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="catalogName" minOccurs="0" name="catalogName" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="currencyCode" minOccurs="0" name="currencyCode" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="dateEffectiveEnd" minOccurs="0" name="dateEffectiveEnd" nillable="false" type="xsd:dateTime"/>
+          <xsd:element form="unqualified" map:java-field="dateEffectiveStart" minOccurs="0" name="dateEffectiveStart" nillable="false" type="xsd:dateTime"/>
+          <xsd:element form="unqualified" map:java-field="documentCompany" minOccurs="0" name="documentCompany" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="documentLineNumber" minOccurs="0" name="documentLineNumber" nillable="false" type="xsd:decimal"/>
+          <xsd:element form="unqualified" map:java-field="documentNumber" minOccurs="0" name="documentNumber" nillable="false" type="xsd:int"/>
+          <xsd:element form="unqualified" map:java-field="documentType" minOccurs="0" name="documentType" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="item" minOccurs="0" name="item" nillable="false" type="ns0:itemGroupSupplier"/>
+          <xsd:element form="unqualified" map:java-field="priceUnit" minOccurs="0" name="priceUnit" nillable="false" type="xsd:decimal"/>
+          <xsd:element form="unqualified" map:java-field="quantityActual" minOccurs="0" name="quantityActual" nillable="false" type="xsd:decimal"/>
+          <xsd:element form="unqualified" map:java-field="supplier" minOccurs="0" name="supplier" nillable="false" type="ns0:entity"/>
+          <xsd:element form="unqualified" map:java-field="unitOfMeasureCode" minOccurs="0" name="unitOfMeasureCode" nillable="false" type="xsd:string"/>
+        </xsd:sequence>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+
+  <xsd:complexType name="insertInventoryItemDimensions">
+    <xsd:annotation>
+      <xsd:appinfo>
+        <map:java-type name="com_magicsoftware_edeveloper_WIN_SGTM04TLROE_24022016_105948__JDE_Inventory.InsertInventoryItemDimensions"/>
+      </xsd:appinfo>
+    </xsd:annotation>
+    <xsd:complexContent>
+      <xsd:extension base="ns0:valueObject">
+        <xsd:sequence>
+          <xsd:element form="unqualified" map:java-field="unitOfMeasureCodePricing" minOccurs="0" name="unitOfMeasureCodePricing" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="unitOfMeasureCodePrimary" minOccurs="0" name="unitOfMeasureCodePrimary" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="unitOfMeasureCodePurchasing" minOccurs="0" name="unitOfMeasureCodePurchasing" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="unitOfMeasureCodeSecondary" minOccurs="0" name="unitOfMeasureCodeSecondary" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="unitOfMeasureCodeUPCNumber" minOccurs="0" name="unitOfMeasureCodeUPCNumber" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="unitOfMeasureCodeVolume" minOccurs="0" name="unitOfMeasureCodeVolume" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="unitOfMeasureCodeWeight" minOccurs="0" name="unitOfMeasureCodeWeight" nillable="false" type="xsd:string"/>
+        </xsd:sequence>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+
+  <xsd:complexType name="insertInventoryItemStagingFields">
+    <xsd:annotation>
+      <xsd:appinfo>
+        <map:java-type name="com_magicsoftware_edeveloper_WIN_SGTM04TLROE_24022016_105948__JDE_Inventory.InsertInventoryItemStagingFields"/>
+      </xsd:appinfo>
+    </xsd:annotation>
+    <xsd:complexContent>
+      <xsd:extension base="ns0:valueObject">
+        <xsd:sequence>
+          <xsd:element form="unqualified" map:java-field="daysShelfLife" minOccurs="0" name="daysShelfLife" nillable="false" type="xsd:int"/>
+          <xsd:element form="unqualified" map:java-field="description1" minOccurs="0" name="description1" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="description2" minOccurs="0" name="description2" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="glClassCode" minOccurs="0" name="glClassCode" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="item" minOccurs="0" name="item" nillable="false" type="ns0:item"/>
+          <xsd:element form="unqualified" map:java-field="itemDimensions" minOccurs="0" name="itemDimensions" nillable="false" type="ns0:insertInventoryItemDimensions"/>
+          <xsd:element form="unqualified" map:java-field="itemGrade" minOccurs="0" name="itemGrade" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="lineTypeCode" minOccurs="0" name="lineTypeCode" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="lotProcessCode" minOccurs="0" name="lotProcessCode" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="lotStatusCode" minOccurs="0" name="lotStatusCode" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="processing" minOccurs="0" name="processing" nillable="false" type="ns0:inventoryItemStagingProcessing"/>
+          <xsd:element form="unqualified" map:java-field="serialNumberFlag" minOccurs="0" name="serialNumberFlag" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="stockingTypeCode" minOccurs="0" name="stockingTypeCode" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="upcNumber" minOccurs="0" name="upcNumber" nillable="false" type="xsd:string"/>
+        </xsd:sequence>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+
+  <xsd:complexType name="showItemAvailability">
+    <xsd:annotation>
+      <xsd:appinfo>
+        <map:java-type name="com_magicsoftware_edeveloper_WIN_SGTM04TLROE_24022016_105948__JDE_Inventory.ShowItemAvailability"/>
+      </xsd:appinfo>
+    </xsd:annotation>
+    <xsd:complexContent>
+      <xsd:extension base="ns0:messageValueObject">
+        <xsd:sequence>
+          <xsd:element form="unqualified" map:java-field="businessUnit" minOccurs="0" name="businessUnit" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="item" minOccurs="0" name="item" nillable="false" type="ns0:itemResponseCustomer"/>
+          <xsd:element form="unqualified" map:java-field="quantityAvailable" minOccurs="0" name="quantityAvailable" nillable="false" type="xsd:decimal"/>
+          <xsd:element form="unqualified" map:java-field="transactionUnitOfMeasure" minOccurs="0" name="transactionUnitOfMeasure" nillable="false" type="xsd:string"/>
+        </xsd:sequence>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+
+  <xsd:complexType name="showItemPrice">
+    <xsd:annotation>
+      <xsd:appinfo>
+        <map:java-type name="com_magicsoftware_edeveloper_WIN_SGTM04TLROE_24022016_105948__JDE_Inventory.ShowItemPrice"/>
+      </xsd:appinfo>
+    </xsd:annotation>
+    <xsd:complexContent>
+      <xsd:extension base="ns0:messageValueObject">
+        <xsd:sequence>
+          <xsd:element form="unqualified" map:java-field="detailedPriceInfo" maxOccurs="unbounded" minOccurs="0" name="detailedPriceInfo" nillable="true" type="ns0:itemPrice"/>
+          <xsd:element form="unqualified" map:java-field="item" minOccurs="0" name="item" nillable="false" type="ns0:itemGroupCustomer"/>
+          <xsd:element form="unqualified" map:java-field="itemDesc" minOccurs="0" name="itemDesc" nillable="false" type="xsd:string"/>
+        </xsd:sequence>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+
+  <xsd:complexType name="supplierCatalogPriceProcessing">
+    <xsd:annotation>
+      <xsd:appinfo>
+        <map:java-type name="com_magicsoftware_edeveloper_WIN_SGTM04TLROE_24022016_105948__JDE_Inventory.SupplierCatalogPriceProcessing"/>
+      </xsd:appinfo>
+    </xsd:annotation>
+    <xsd:complexContent>
+      <xsd:extension base="ns0:valueObject">
+        <xsd:sequence>
+          <xsd:element form="unqualified" map:java-field="actionType" minOccurs="0" name="actionType" nillable="false" type="xsd:string"/>
+        </xsd:sequence>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+
+  <xsd:complexType name="mathNumeric">
+    <xsd:annotation>
+      <xsd:appinfo>
+        <map:java-type name="com_magicsoftware_edeveloper_WIN_SGTM04TLROE_24022016_105948__JDE_Inventory.MathNumeric"/>
+      </xsd:appinfo>
+    </xsd:annotation>
+    <xsd:sequence>
+      <xsd:element form="unqualified" map:java-field="currencyCode" minOccurs="0" name="currencyCode" nillable="false" type="xsd:string"/>
+      <xsd:element form="unqualified" map:java-field="currencyDecimals" name="currencyDecimals" nillable="false" type="xsd:int"/>
+      <xsd:element form="unqualified" map:java-field="value" minOccurs="0" name="value" nillable="false" type="xsd:decimal"/>
+    </xsd:sequence>
+  </xsd:complexType>
+
+  <xsd:complexType name="getSupplierCatalogPriceV2">
+    <xsd:annotation>
+      <xsd:appinfo>
+        <map:java-type name="com_magicsoftware_edeveloper_WIN_SGTM04TLROE_24022016_105948__JDE_Inventory.GetSupplierCatalogPriceV2"/>
+      </xsd:appinfo>
+    </xsd:annotation>
+    <xsd:complexContent>
+      <xsd:extension base="ns0:valueObject">
+        <xsd:sequence>
+          <xsd:element form="unqualified" map:java-field="agreementId" minOccurs="0" name="agreementId" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="agreementSupplement" minOccurs="0" name="agreementSupplement" nillable="false" type="xsd:int"/>
+          <xsd:element form="unqualified" map:java-field="businessUnit" minOccurs="0" name="businessUnit" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="catalogName" minOccurs="0" name="catalogName" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="currencyCode" minOccurs="0" name="currencyCode" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="dateEffectiveEnd" minOccurs="0" name="dateEffectiveEnd" nillable="false" type="xsd:dateTime"/>
+          <xsd:element form="unqualified" map:java-field="dateEffectiveStart" minOccurs="0" name="dateEffectiveStart" nillable="false" type="xsd:dateTime"/>
+          <xsd:element form="unqualified" map:java-field="documentCompany" minOccurs="0" name="documentCompany" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="documentLineNumber" minOccurs="0" name="documentLineNumber" nillable="false" type="xsd:decimal"/>
+          <xsd:element form="unqualified" map:java-field="documentNumber" minOccurs="0" name="documentNumber" nillable="false" type="xsd:int"/>
+          <xsd:element form="unqualified" map:java-field="documentType" minOccurs="0" name="documentType" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="item" minOccurs="0" name="item" nillable="false" type="ns0:itemGroupSupplier"/>
+          <xsd:element form="unqualified" map:java-field="priceUnit" minOccurs="0" name="priceUnit" nillable="false" type="xsd:decimal"/>
+          <xsd:element form="unqualified" map:java-field="quantityActual" minOccurs="0" name="quantityActual" nillable="false" type="xsd:decimal"/>
+          <xsd:element form="unqualified" map:java-field="supplier" minOccurs="0" name="supplier" nillable="false" type="ns0:entity"/>
+          <xsd:element form="unqualified" map:java-field="supplierGLN" minOccurs="0" name="supplierGLN" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="unitOfMeasureCode" minOccurs="0" name="unitOfMeasureCode" nillable="false" type="xsd:string"/>
+        </xsd:sequence>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+
+  <xsd:complexType name="showCalculatedAvailability">
+    <xsd:annotation>
+      <xsd:appinfo>
+        <map:java-type name="com_magicsoftware_edeveloper_WIN_SGTM04TLROE_24022016_105948__JDE_Inventory.ShowCalculatedAvailability"/>
+      </xsd:appinfo>
+    </xsd:annotation>
+    <xsd:complexContent>
+      <xsd:extension base="ns0:messageValueObject">
+        <xsd:sequence>
+          <xsd:element form="unqualified" map:java-field="item" minOccurs="0" name="item" nillable="false" type="ns0:itemGroupCustomer"/>
+          <xsd:element form="unqualified" map:java-field="showCalculatedAvailability" maxOccurs="unbounded" minOccurs="0" name="showCalculatedAvailability" nillable="true" type="ns0:availabilitySummary"/>
+          <xsd:element form="unqualified" map:java-field="totalQtyAvailable" minOccurs="0" name="totalQtyAvailable" nillable="false" type="xsd:decimal"/>
+          <xsd:element form="unqualified" map:java-field="unitOfMeasure" minOccurs="0" name="unitOfMeasure" nillable="false" type="xsd:string"/>
+        </xsd:sequence>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+
+  <xsd:complexType name="grade">
+    <xsd:annotation>
+      <xsd:appinfo>
+        <map:java-type name="com_magicsoftware_edeveloper_WIN_SGTM04TLROE_24022016_105948__JDE_Inventory.Grade"/>
+      </xsd:appinfo>
+    </xsd:annotation>
+    <xsd:complexContent>
+      <xsd:extension base="ns0:valueObject">
+        <xsd:sequence>
+          <xsd:element form="unqualified" map:java-field="controlGrade" minOccurs="0" name="controlGrade" nillable="false" type="xsd:boolean"/>
+          <xsd:element form="unqualified" map:java-field="gradeCodeFrom" minOccurs="0" name="gradeCodeFrom" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="gradeCodeStandard" minOccurs="0" name="gradeCodeStandard" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="gradeCodeTo" minOccurs="0" name="gradeCodeTo" nillable="false" type="xsd:string"/>
+        </xsd:sequence>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+
+  <xsd:complexType name="confirmProcessSupplierCatalogPrice">
+    <xsd:annotation>
+      <xsd:appinfo>
+        <map:java-type name="com_magicsoftware_edeveloper_WIN_SGTM04TLROE_24022016_105948__JDE_Inventory.ConfirmProcessSupplierCatalogPrice"/>
+      </xsd:appinfo>
+    </xsd:annotation>
+    <xsd:complexContent>
+      <xsd:extension base="ns0:messageValueObject">
+        <xsd:sequence>
+          <xsd:element form="unqualified" map:java-field="businessUnit" minOccurs="0" name="businessUnit" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="catalogName" minOccurs="0" name="catalogName" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="currencyCode" minOccurs="0" name="currencyCode" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="dateEffectiveEnd" minOccurs="0" name="dateEffectiveEnd" nillable="false" type="xsd:dateTime"/>
+          <xsd:element form="unqualified" map:java-field="dateEffectiveStart" minOccurs="0" name="dateEffectiveStart" nillable="false" type="xsd:dateTime"/>
+          <xsd:element form="unqualified" map:java-field="item" minOccurs="0" name="item" nillable="false" type="ns0:itemResponseSupplier"/>
+          <xsd:element form="unqualified" map:java-field="priceUnit" minOccurs="0" name="priceUnit" nillable="false" type="xsd:decimal"/>
+          <xsd:element form="unqualified" map:java-field="quantityActual" minOccurs="0" name="quantityActual" nillable="false" type="xsd:decimal"/>
+          <xsd:element form="unqualified" map:java-field="supplier" minOccurs="0" name="supplier" nillable="false" type="ns0:entity"/>
+          <xsd:element form="unqualified" map:java-field="unitOfMeasureCode" minOccurs="0" name="unitOfMeasureCode" nillable="false" type="xsd:string"/>
+        </xsd:sequence>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+
+  <xsd:complexType name="showItemBranchSearch">
+    <xsd:annotation>
+      <xsd:appinfo>
+        <map:java-type name="com_magicsoftware_edeveloper_WIN_SGTM04TLROE_24022016_105948__JDE_Inventory.ShowItemBranchSearch"/>
+      </xsd:appinfo>
+    </xsd:annotation>
+    <xsd:complexContent>
+      <xsd:extension base="ns0:messageValueObject">
+        <xsd:sequence>
+          <xsd:element form="unqualified" map:java-field="itemBranchSearch" maxOccurs="unbounded" minOccurs="0" name="itemBranchSearch" nillable="true" type="ns0:itemBranchSearch"/>
+        </xsd:sequence>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+
+  <xsd:complexType name="insertInventoryItemStagingV2">
+    <xsd:annotation>
+      <xsd:appinfo>
+        <map:java-type name="[Lcom_magicsoftware_edeveloper_WIN_SGTM04TLROE_24022016_105948__JDE_Inventory.InsertInventoryItemStagingFieldsV2;"/>
+      </xsd:appinfo>
+    </xsd:annotation>
+    <xsd:complexContent>
+      <xsd:extension base="ns0:valueObject">
+        <xsd:sequence>
+          <xsd:element form="unqualified" maxOccurs="unbounded" minOccurs="0" name="insertInventoryItemStagingFields" nillable="true" type="ns0:insertInventoryItemStagingFieldsV2"/>
+        </xsd:sequence>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+
+  <xsd:complexType name="itemBranchSearch">
+    <xsd:annotation>
+      <xsd:appinfo>
+        <map:java-type name="com_magicsoftware_edeveloper_WIN_SGTM04TLROE_24022016_105948__JDE_Inventory.ItemBranchSearch"/>
+      </xsd:appinfo>
+    </xsd:annotation>
+    <xsd:complexContent>
+      <xsd:extension base="ns0:valueObject">
+        <xsd:sequence>
+          <xsd:element form="unqualified" map:java-field="branchCompany" minOccurs="0" name="branchCompany" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="branchPlant" minOccurs="0" name="branchPlant" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="branchType" minOccurs="0" name="branchType" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="description" minOccurs="0" name="description" nillable="false" type="xsd:string"/>
+        </xsd:sequence>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+
+  <xsd:complexType name="insertInventoryItemStaging">
+    <xsd:annotation>
+      <xsd:appinfo>
+        <map:java-type name="[Lcom_magicsoftware_edeveloper_WIN_SGTM04TLROE_24022016_105948__JDE_Inventory.InsertInventoryItemStagingFields;"/>
+      </xsd:appinfo>
+    </xsd:annotation>
+    <xsd:complexContent>
+      <xsd:extension base="ns0:valueObject">
+        <xsd:sequence>
+          <xsd:element form="unqualified" maxOccurs="unbounded" minOccurs="0" name="insertInventoryItemStagingFields" nillable="true" type="ns0:insertInventoryItemStagingFields"/>
+        </xsd:sequence>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+
+  <xsd:complexType name="processInventoryItemV2">
+    <xsd:annotation>
+      <xsd:appinfo>
+        <map:java-type name="com_magicsoftware_edeveloper_WIN_SGTM04TLROE_24022016_105948__JDE_Inventory.ProcessInventoryItemV2"/>
+      </xsd:appinfo>
+    </xsd:annotation>
+    <xsd:complexContent>
+      <xsd:extension base="ns0:valueObject">
+        <xsd:sequence>
+          <xsd:element form="unqualified" map:java-field="daysShelfLife" minOccurs="0" name="daysShelfLife" nillable="false" type="xsd:int"/>
+          <xsd:element form="unqualified" map:java-field="description1" minOccurs="0" name="description1" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="description2" minOccurs="0" name="description2" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="glClassCode" minOccurs="0" name="glClassCode" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="isCountryOfOriginRequired" minOccurs="0" name="isCountryOfOriginRequired" nillable="false" type="xsd:boolean"/>
+          <xsd:element form="unqualified" map:java-field="item" minOccurs="0" name="item" nillable="false" type="ns0:itemGroupSupplier"/>
+          <xsd:element form="unqualified" map:java-field="itemDimensions" minOccurs="0" name="itemDimensions" nillable="false" type="ns0:inputItemDimensions"/>
+          <xsd:element form="unqualified" map:java-field="lineTypeCode" minOccurs="0" name="lineTypeCode" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="lotProcessCode" minOccurs="0" name="lotProcessCode" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="lotStatusCode" minOccurs="0" name="lotStatusCode" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="processing" minOccurs="0" name="processing" nillable="false" type="ns0:inventoryItemProcessing"/>
+          <xsd:element form="unqualified" map:java-field="serialNumberFlag" minOccurs="0" name="serialNumberFlag" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="stockingTypeCode" minOccurs="0" name="stockingTypeCode" nillable="false" type="xsd:string"/>
+        </xsd:sequence>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+
+  <xsd:complexType name="confirmProcessSupplierCatalogPriceV2">
+    <xsd:annotation>
+      <xsd:appinfo>
+        <map:java-type name="com_magicsoftware_edeveloper_WIN_SGTM04TLROE_24022016_105948__JDE_Inventory.ConfirmProcessSupplierCatalogPriceV2"/>
+      </xsd:appinfo>
+    </xsd:annotation>
+    <xsd:complexContent>
+      <xsd:extension base="ns0:messageValueObject">
+        <xsd:sequence>
+          <xsd:element form="unqualified" map:java-field="businessUnit" minOccurs="0" name="businessUnit" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="catalogName" minOccurs="0" name="catalogName" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="currencyCode" minOccurs="0" name="currencyCode" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="dateEffectiveEnd" minOccurs="0" name="dateEffectiveEnd" nillable="false" type="xsd:dateTime"/>
+          <xsd:element form="unqualified" map:java-field="dateEffectiveStart" minOccurs="0" name="dateEffectiveStart" nillable="false" type="xsd:dateTime"/>
+          <xsd:element form="unqualified" map:java-field="item" minOccurs="0" name="item" nillable="false" type="ns0:itemResponseSupplier"/>
+          <xsd:element form="unqualified" map:java-field="priceUnit" minOccurs="0" name="priceUnit" nillable="false" type="xsd:decimal"/>
+          <xsd:element form="unqualified" map:java-field="quantityActual" minOccurs="0" name="quantityActual" nillable="false" type="xsd:decimal"/>
+          <xsd:element form="unqualified" map:java-field="supplier" minOccurs="0" name="supplier" nillable="false" type="ns0:entity"/>
+          <xsd:element form="unqualified" map:java-field="supplierGLN" minOccurs="0" name="supplierGLN" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="unitOfMeasureCode" minOccurs="0" name="unitOfMeasureCode" nillable="false" type="xsd:string"/>
+        </xsd:sequence>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+
+  <xsd:complexType name="BusinessServiceException">
+    <xsd:annotation>
+      <xsd:appinfo>
+        <map:java-type name="com_magicsoftware_edeveloper_WIN_SGTM04TLROE_24022016_105948__JDE_Inventory.BusinessServiceException"/>
+      </xsd:appinfo>
+    </xsd:annotation>
+    <xsd:sequence>
+      <xsd:element form="unqualified" minOccurs="0" name="message" nillable="false" type="xsd:string"/>
+      <xsd:element form="unqualified" minOccurs="0" name="requestID" nillable="false" type="xsd:string"/>
+    </xsd:sequence>
+  </xsd:complexType>
+
+  <xsd:complexType name="processInventoryItem">
+    <xsd:annotation>
+      <xsd:appinfo>
+        <map:java-type name="com_magicsoftware_edeveloper_WIN_SGTM04TLROE_24022016_105948__JDE_Inventory.ProcessInventoryItem"/>
+      </xsd:appinfo>
+    </xsd:annotation>
+    <xsd:complexContent>
+      <xsd:extension base="ns0:valueObject">
+        <xsd:sequence>
+          <xsd:element form="unqualified" map:java-field="daysShelfLife" minOccurs="0" name="daysShelfLife" nillable="false" type="xsd:int"/>
+          <xsd:element form="unqualified" map:java-field="description1" minOccurs="0" name="description1" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="description2" minOccurs="0" name="description2" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="glClassCode" minOccurs="0" name="glClassCode" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="item" minOccurs="0" name="item" nillable="false" type="ns0:itemGroupSupplier"/>
+          <xsd:element form="unqualified" map:java-field="itemDimensions" minOccurs="0" name="itemDimensions" nillable="false" type="ns0:inputItemDimensions"/>
+          <xsd:element form="unqualified" map:java-field="lineTypeCode" minOccurs="0" name="lineTypeCode" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="lotProcessCode" minOccurs="0" name="lotProcessCode" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="lotStatusCode" minOccurs="0" name="lotStatusCode" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="processing" minOccurs="0" name="processing" nillable="false" type="ns0:inventoryItemProcessing"/>
+          <xsd:element form="unqualified" map:java-field="serialNumberFlag" minOccurs="0" name="serialNumberFlag" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="stockingTypeCode" minOccurs="0" name="stockingTypeCode" nillable="false" type="xsd:string"/>
+        </xsd:sequence>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+
+  <xsd:complexType name="lotProcessingV2">
+    <xsd:annotation>
+      <xsd:appinfo>
+        <map:java-type name="com_magicsoftware_edeveloper_WIN_SGTM04TLROE_24022016_105948__JDE_Inventory.LotProcessingV2"/>
+      </xsd:appinfo>
+    </xsd:annotation>
+    <xsd:complexContent>
+      <xsd:extension base="ns0:valueObject">
+        <xsd:sequence>
+          <xsd:element form="unqualified" map:java-field="allowShippingOfHeldLots" minOccurs="0" name="allowShippingOfHeldLots" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="commitmentDateMethodCode" minOccurs="0" name="commitmentDateMethodCode" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="daysBestBeforeResult" minOccurs="0" name="daysBestBeforeResult" nillable="false" type="xsd:int"/>
+          <xsd:element form="unqualified" map:java-field="daysEffectiveManufacturing" minOccurs="0" name="daysEffectiveManufacturing" nillable="false" type="xsd:int"/>
+          <xsd:element form="unqualified" map:java-field="daysEffectivePurchasing" minOccurs="0" name="daysEffectivePurchasing" nillable="false" type="xsd:int"/>
+          <xsd:element form="unqualified" map:java-field="daysSellByDefault" minOccurs="0" name="daysSellByDefault" nillable="false" type="xsd:int"/>
+          <xsd:element form="unqualified" map:java-field="daysShelfLife" minOccurs="0" name="daysShelfLife" nillable="false" type="xsd:int"/>
+          <xsd:element form="unqualified" map:java-field="daysUserLotDateDefault1" minOccurs="0" name="daysUserLotDateDefault1" nillable="false" type="xsd:int"/>
+          <xsd:element form="unqualified" map:java-field="daysUserLotDateDefault2" minOccurs="0" name="daysUserLotDateDefault2" nillable="false" type="xsd:int"/>
+          <xsd:element form="unqualified" map:java-field="daysUserLotDateDefault3" minOccurs="0" name="daysUserLotDateDefault3" nillable="false" type="xsd:int"/>
+          <xsd:element form="unqualified" map:java-field="daysUserLotDateDefault4" minOccurs="0" name="daysUserLotDateDefault4" nillable="false" type="xsd:int"/>
+          <xsd:element form="unqualified" map:java-field="daysUserLotDateDefault5" minOccurs="0" name="daysUserLotDateDefault5" nillable="false" type="xsd:int"/>
+          <xsd:element form="unqualified" map:java-field="isCountryOfOriginRequired" minOccurs="0" name="isCountryOfOriginRequired" nillable="false" type="xsd:boolean"/>
+          <xsd:element form="unqualified" map:java-field="isLotNumberAssigmentRestricted" minOccurs="0" name="isLotNumberAssigmentRestricted" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="isLotNumberPreAssigned" minOccurs="0" name="isLotNumberPreAssigned" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="lotAuditFlag" minOccurs="0" name="lotAuditFlag" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="lotExpirationDateMethodCode" minOccurs="0" name="lotExpirationDateMethodCode" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="lotFormatSpecial" minOccurs="0" name="lotFormatSpecial" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="lotProcessTypeCode" minOccurs="0" name="lotProcessTypeCode" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="lotStatusCode" minOccurs="0" name="lotStatusCode" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="lotStatusCodeExpanded" minOccurs="0" name="lotStatusCodeExpanded" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="serialNumberRequiredCode" minOccurs="0" name="serialNumberRequiredCode" nillable="false" type="xsd:string"/>
+        </xsd:sequence>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+
+  <xsd:complexType name="confirmInventoryItemStaging">
+    <xsd:annotation>
+      <xsd:appinfo>
+        <map:java-type name="com_magicsoftware_edeveloper_WIN_SGTM04TLROE_24022016_105948__JDE_Inventory.ConfirmInventoryItemStaging"/>
+      </xsd:appinfo>
+    </xsd:annotation>
+    <xsd:complexContent>
+      <xsd:extension base="ns0:messageValueObject">
+        <xsd:sequence>
+          <xsd:element form="unqualified" map:java-field="numRowsInserted" name="numRowsInserted" nillable="false" type="xsd:long"/>
+        </xsd:sequence>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+
+  <xsd:complexType name="showSupplierCatalogPriceV2">
+    <xsd:annotation>
+      <xsd:appinfo>
+        <map:java-type name="com_magicsoftware_edeveloper_WIN_SGTM04TLROE_24022016_105948__JDE_Inventory.ShowSupplierCatalogPriceV2"/>
+      </xsd:appinfo>
+    </xsd:annotation>
+    <xsd:complexContent>
+      <xsd:extension base="ns0:messageValueObject">
+        <xsd:sequence>
+          <xsd:element form="unqualified" map:java-field="supplierCatalogPrice" maxOccurs="unbounded" minOccurs="0" name="supplierCatalogPrice" nillable="true" type="ns0:supplierCatalogPriceV2"/>
+        </xsd:sequence>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+
+  <xsd:complexType name="inventoryItemProcessing">
+    <xsd:annotation>
+      <xsd:appinfo>
+        <map:java-type name="com_magicsoftware_edeveloper_WIN_SGTM04TLROE_24022016_105948__JDE_Inventory.InventoryItemProcessing"/>
+      </xsd:appinfo>
+    </xsd:annotation>
+    <xsd:complexContent>
+      <xsd:extension base="ns0:valueObject">
+        <xsd:sequence>
+          <xsd:element form="unqualified" map:java-field="actionTypeCode" minOccurs="0" name="actionTypeCode" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="version" minOccurs="0" name="version" nillable="false" type="xsd:string"/>
+        </xsd:sequence>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+
+  <xsd:complexType name="e1Message">
+    <xsd:annotation>
+      <xsd:appinfo>
+        <map:java-type name="com_magicsoftware_edeveloper_WIN_SGTM04TLROE_24022016_105948__JDE_Inventory.E1Message"/>
+      </xsd:appinfo>
+    </xsd:annotation>
+    <xsd:sequence>
+      <xsd:element form="unqualified" map:java-field="message" minOccurs="0" name="message" nillable="false" type="xsd:string"/>
+      <xsd:element form="unqualified" map:java-field="messagePrefix" minOccurs="0" name="messagePrefix" nillable="false" type="xsd:string"/>
+    </xsd:sequence>
+  </xsd:complexType>
+
+  <xsd:complexType name="inputItemDimensions">
+    <xsd:annotation>
+      <xsd:appinfo>
+        <map:java-type name="com_magicsoftware_edeveloper_WIN_SGTM04TLROE_24022016_105948__JDE_Inventory.InputItemDimensions"/>
+      </xsd:appinfo>
+    </xsd:annotation>
+    <xsd:complexContent>
+      <xsd:extension base="ns0:valueObject">
+        <xsd:sequence>
+          <xsd:element form="unqualified" map:java-field="unitOfMeasureCodePrimary" minOccurs="0" name="unitOfMeasureCodePrimary" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="unitOfMeasureCodeVolume" minOccurs="0" name="unitOfMeasureCodeVolume" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="unitOfMeasureCodeWeight" minOccurs="0" name="unitOfMeasureCodeWeight" nillable="false" type="xsd:string"/>
+        </xsd:sequence>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+
+  <xsd:complexType name="processSupplierCatalogPrice">
+    <xsd:annotation>
+      <xsd:appinfo>
+        <map:java-type name="com_magicsoftware_edeveloper_WIN_SGTM04TLROE_24022016_105948__JDE_Inventory.ProcessSupplierCatalogPrice"/>
+      </xsd:appinfo>
+    </xsd:annotation>
+    <xsd:complexContent>
+      <xsd:extension base="ns0:valueObject">
+        <xsd:sequence>
+          <xsd:element form="unqualified" map:java-field="businessUnit" minOccurs="0" name="businessUnit" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="catalogName" minOccurs="0" name="catalogName" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="currencyCode" minOccurs="0" name="currencyCode" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="dateEffectiveEnd" minOccurs="0" name="dateEffectiveEnd" nillable="false" type="xsd:dateTime"/>
+          <xsd:element form="unqualified" map:java-field="dateEffectiveStart" minOccurs="0" name="dateEffectiveStart" nillable="false" type="xsd:dateTime"/>
+          <xsd:element form="unqualified" map:java-field="item" minOccurs="0" name="item" nillable="false" type="ns0:itemGroupSupplier"/>
+          <xsd:element form="unqualified" map:java-field="priceUnit" minOccurs="0" name="priceUnit" nillable="false" type="xsd:decimal"/>
+          <xsd:element form="unqualified" map:java-field="processing" minOccurs="0" name="processing" nillable="false" type="ns0:supplierCatalogPriceProcessing"/>
+          <xsd:element form="unqualified" map:java-field="quantityActual" minOccurs="0" name="quantityActual" nillable="false" type="xsd:decimal"/>
+          <xsd:element form="unqualified" map:java-field="supplier" minOccurs="0" name="supplier" nillable="false" type="ns0:entity"/>
+          <xsd:element form="unqualified" map:java-field="unitOfMeasureCode" minOccurs="0" name="unitOfMeasureCode" nillable="false" type="xsd:string"/>
+        </xsd:sequence>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+
+  <xsd:complexType name="itemResponseSupplier">
+    <xsd:annotation>
+      <xsd:appinfo>
+        <map:java-type name="com_magicsoftware_edeveloper_WIN_SGTM04TLROE_24022016_105948__JDE_Inventory.ItemResponseSupplier"/>
+      </xsd:appinfo>
+    </xsd:annotation>
+    <xsd:complexContent>
+      <xsd:extension base="ns0:valueObject">
+        <xsd:sequence>
+          <xsd:element form="unqualified" map:java-field="itemCatalog" minOccurs="0" name="itemCatalog" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="itemId" minOccurs="0" name="itemId" nillable="false" type="xsd:int"/>
+          <xsd:element form="unqualified" map:java-field="itemProduct" minOccurs="0" name="itemProduct" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="itemSupplier" minOccurs="0" name="itemSupplier" nillable="false" type="xsd:string"/>
+        </xsd:sequence>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+
+  <xsd:complexType name="additionalUnitsOfMeasure">
+    <xsd:annotation>
+      <xsd:appinfo>
+        <map:java-type name="com_magicsoftware_edeveloper_WIN_SGTM04TLROE_24022016_105948__JDE_Inventory.AdditionalUnitsOfMeasure"/>
+      </xsd:appinfo>
+    </xsd:annotation>
+    <xsd:complexContent>
+      <xsd:extension base="ns0:valueObject">
+        <xsd:sequence>
+          <xsd:element form="unqualified" map:java-field="APSPlanningUOM" minOccurs="0" name="APSPlanningUOM" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="cumulativeThresholdUOM" minOccurs="0" name="cumulativeThresholdUOM" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="dualUnitOfMeasureItem" minOccurs="0" name="dualUnitOfMeasureItem" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="operationalThresholdUOM" minOccurs="0" name="operationalThresholdUOM" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="unitOfMeasureAggregateUPC" minOccurs="0" name="unitOfMeasureAggregateUPC" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="unitOfMeasurePricing" minOccurs="0" name="unitOfMeasurePricing" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="unitOfMeasureProduction" minOccurs="0" name="unitOfMeasureProduction" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="unitOfMeasurePurchasing" minOccurs="0" name="unitOfMeasurePurchasing" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="unitOfMeasureSCCPI0" minOccurs="0" name="unitOfMeasureSCCPI0" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="unitOfMeasureSCCPI1" minOccurs="0" name="unitOfMeasureSCCPI1" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="unitOfMeasureSCCPI2" minOccurs="0" name="unitOfMeasureSCCPI2" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="unitOfMeasureSCCPI3" minOccurs="0" name="unitOfMeasureSCCPI3" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="unitOfMeasureSCCPI4" minOccurs="0" name="unitOfMeasureSCCPI4" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="unitOfMeasureSCCPI5" minOccurs="0" name="unitOfMeasureSCCPI5" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="unitOfMeasureSCCPI6" minOccurs="0" name="unitOfMeasureSCCPI6" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="unitOfMeasureSCCPI7" minOccurs="0" name="unitOfMeasureSCCPI7" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="unitOfMeasureSCCPI8" minOccurs="0" name="unitOfMeasureSCCPI8" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="unitOfMeasureSecondary" minOccurs="0" name="unitOfMeasureSecondary" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="unitOfMeasureShipping" minOccurs="0" name="unitOfMeasureShipping" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="unitOfMeasureStocking" minOccurs="0" name="unitOfMeasureStocking" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="unitOfMeasureUPC" minOccurs="0" name="unitOfMeasureUPC" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="unitOfMeasureVolume" minOccurs="0" name="unitOfMeasureVolume" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="unitOfMeasureVolumeorWeight" minOccurs="0" name="unitOfMeasureVolumeorWeight" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="unitOfMeasureWeight" minOccurs="0" name="unitOfMeasureWeight" nillable="false" type="xsd:string"/>
+        </xsd:sequence>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+
+  <xsd:complexType name="item">
+    <xsd:annotation>
+      <xsd:appinfo>
+        <map:java-type name="com_magicsoftware_edeveloper_WIN_SGTM04TLROE_24022016_105948__JDE_Inventory.Item"/>
+      </xsd:appinfo>
+    </xsd:annotation>
+    <xsd:complexContent>
+      <xsd:extension base="ns0:valueObject">
+        <xsd:sequence>
+          <xsd:element form="unqualified" map:java-field="itemCatalog" minOccurs="0" name="itemCatalog" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="itemId" minOccurs="0" name="itemId" nillable="false" type="xsd:int"/>
+          <xsd:element form="unqualified" map:java-field="itemProduct" minOccurs="0" name="itemProduct" nillable="false" type="xsd:string"/>
+        </xsd:sequence>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+
+  <xsd:complexType name="outputItemDimensions">
+    <xsd:annotation>
+      <xsd:appinfo>
+        <map:java-type name="com_magicsoftware_edeveloper_WIN_SGTM04TLROE_24022016_105948__JDE_Inventory.OutputItemDimensions"/>
+      </xsd:appinfo>
+    </xsd:annotation>
+    <xsd:complexContent>
+      <xsd:extension base="ns0:valueObject">
+        <xsd:sequence>
+          <xsd:element form="unqualified" map:java-field="unitOfMeasureComponent" minOccurs="0" name="unitOfMeasureComponent" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="unitOfMeasurePricing" minOccurs="0" name="unitOfMeasurePricing" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="unitOfMeasurePrimary" minOccurs="0" name="unitOfMeasurePrimary" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="unitOfMeasureProduction" minOccurs="0" name="unitOfMeasureProduction" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="unitOfMeasurePurchas" minOccurs="0" name="unitOfMeasurePurchas" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="unitOfMeasureSecondary" minOccurs="0" name="unitOfMeasureSecondary" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="unitOfMeasureShipping" minOccurs="0" name="unitOfMeasureShipping" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="unitOfMeasureStocking" minOccurs="0" name="unitOfMeasureStocking" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="unitOfMeasureVolume" minOccurs="0" name="unitOfMeasureVolume" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="unitOfMeasureWeight" minOccurs="0" name="unitOfMeasureWeight" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="volumeCubicDimensions" minOccurs="0" name="volumeCubicDimensions" nillable="false" type="xsd:decimal"/>
+        </xsd:sequence>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+
+  <xsd:complexType name="supplierCatalogPriceV2">
+    <xsd:annotation>
+      <xsd:appinfo>
+        <map:java-type name="com_magicsoftware_edeveloper_WIN_SGTM04TLROE_24022016_105948__JDE_Inventory.SupplierCatalogPriceV2"/>
+      </xsd:appinfo>
+    </xsd:annotation>
+    <xsd:complexContent>
+      <xsd:extension base="ns0:valueObject">
+        <xsd:sequence>
+          <xsd:element form="unqualified" map:java-field="agreementId" minOccurs="0" name="agreementId" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="agreementSupplement" minOccurs="0" name="agreementSupplement" nillable="false" type="xsd:int"/>
+          <xsd:element form="unqualified" map:java-field="businessUnit" minOccurs="0" name="businessUnit" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="catalogName" minOccurs="0" name="catalogName" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="currencyCode" minOccurs="0" name="currencyCode" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="dateEffectiveEnd" minOccurs="0" name="dateEffectiveEnd" nillable="false" type="xsd:dateTime"/>
+          <xsd:element form="unqualified" map:java-field="dateEffectiveStart" minOccurs="0" name="dateEffectiveStart" nillable="false" type="xsd:dateTime"/>
+          <xsd:element form="unqualified" map:java-field="documentCompany" minOccurs="0" name="documentCompany" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="documentLineNumber" minOccurs="0" name="documentLineNumber" nillable="false" type="xsd:decimal"/>
+          <xsd:element form="unqualified" map:java-field="documentNumber" minOccurs="0" name="documentNumber" nillable="false" type="xsd:int"/>
+          <xsd:element form="unqualified" map:java-field="documentType" minOccurs="0" name="documentType" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="item" minOccurs="0" name="item" nillable="false" type="ns0:itemResponseSupplier"/>
+          <xsd:element form="unqualified" map:java-field="priceUnit" minOccurs="0" name="priceUnit" nillable="false" type="xsd:decimal"/>
+          <xsd:element form="unqualified" map:java-field="quantityActual" minOccurs="0" name="quantityActual" nillable="false" type="xsd:decimal"/>
+          <xsd:element form="unqualified" map:java-field="supplier" minOccurs="0" name="supplier" nillable="false" type="ns0:entity"/>
+          <xsd:element form="unqualified" map:java-field="supplierGLN" minOccurs="0" name="supplierGLN" nillable="false" type="xsd:string"/>
+          <xsd:element form="unqualified" map:java-field="unitOfMeasureCode" minOccurs="0" name="unitOfMeasureCode" nillable="false" type="xsd:string"/>
+        </xsd:sequence>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+
+  <xsd:element name="getItemPrice" nillable="true" type="ns0:getItemPrice"/>
+
+  <xsd:element name="processInventoryItemResponse" nillable="true" type="ns0:confirmInventoryItem"/>
+
+  <xsd:element name="getSupplierCatalogPriceResponse" nillable="true" type="ns0:showSupplierCatalogPrice"/>
+
+  <xsd:element name="processInventoryItemV2Response" nillable="true" type="ns0:confirmInventoryItemV2"/>
+
+  <xsd:element name="getCalculatedAvailabilityResponse" nillable="true" type="ns0:showCalculatedAvailability"/>
+
+  <xsd:element name="getSupplierCatalogPriceV2Response" nillable="true" type="ns0:showSupplierCatalogPriceV2"/>
+
+  <xsd:element name="getItemAvailabilityResponse" nillable="true" type="ns0:showItemAvailability"/>
+
+  <xsd:element name="getCalculatedAvailability" nillable="true" type="ns0:getCalculatedAvailability"/>
+
+  <xsd:element name="getBranchPlantItemV2" nillable="true" type="ns0:getBranchPlantItem"/>
+
+  <xsd:element name="getItemBranchSearch" nillable="true" type="ns0:getItemBranchSearch"/>
+
+  <xsd:element name="processSupplierCatalogPriceV2" nillable="true" type="ns0:processSupplierCatalogPriceV2"/>
+
+  <xsd:element name="insertInventoryItemStagingResponse" nillable="true" type="ns0:confirmInventoryItemStaging"/>
+
+  <xsd:element name="getItemAvailability" nillable="true" type="ns0:getItemAvailability"/>
+
+  <xsd:element name="getItemSearch" nillable="true" type="ns0:getItemSearch"/>
+
+  <xsd:element name="getBranchPlantItem" nillable="true" type="ns0:getBranchPlantItem"/>
+
+  <xsd:element name="insertInventoryItemStagingV2Response" nillable="true" type="ns0:confirmInventoryItemStaging"/>
+
+  <xsd:element name="processSupplierCatalogPriceV2Response" nillable="true" type="ns0:confirmProcessSupplierCatalogPriceV2"/>
+
+  <xsd:element name="getSupplierCatalogPrice" nillable="true" type="ns0:getSupplierCatalogPrice"/>
+
+  <xsd:element name="getSupplierCatalogPriceV2" nillable="true" type="ns0:getSupplierCatalogPriceV2"/>
+
+  <xsd:element name="getItemPriceResponse" nillable="true" type="ns0:showItemPrice"/>
+
+  <xsd:element name="getBranchPlantItemV2Response" nillable="true" type="ns0:showBranchPlantItemV2"/>
+
+  <xsd:element name="getBranchPlantItemResponse" nillable="true" type="ns0:showBranchPlantItem"/>
+
+  <xsd:element name="insertInventoryItemStagingV2" nillable="true" type="ns0:insertInventoryItemStagingV2"/>
+
+  <xsd:element name="processSupplierCatalogPriceResponse" nillable="true" type="ns0:confirmProcessSupplierCatalogPrice"/>
+
+  <xsd:element name="getItemBranchSearchResponse" nillable="true" type="ns0:showItemBranchSearch"/>
+
+  <xsd:element name="insertInventoryItemStaging" nillable="true" type="ns0:insertInventoryItemStaging"/>
+
+  <xsd:element name="processInventoryItemV2" nillable="true" type="ns0:processInventoryItemV2"/>
+
+  <xsd:element name="BusinessServiceException" type="ns0:BusinessServiceException"/>
+
+  <xsd:element name="processInventoryItem" nillable="true" type="ns0:processInventoryItem"/>
+
+  <xsd:element name="getItemSearchResponse" nillable="true" type="ns0:showItemSearch"/>
+
+  <xsd:element name="processSupplierCatalogPrice" nillable="true" type="ns0:processSupplierCatalogPrice"/>
+
+</xs:schema>

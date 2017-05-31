@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ODSRepository>
+  <ODS d2p1:type="ODSRepositoryItem" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance">
+    <GUID>{6381E6A5-B5D8-4B61-8AB3-8B7520B035ED}</GUID>
+    <ID>1</ID>
+    <Name>O.CDE</Name>
+    <Order>1</Order>
+    <IsNameIncompatible>false</IsNameIncompatible>
+    <GlobalLocal>1</GlobalLocal>
+  </ODS>
+</ODSRepository>

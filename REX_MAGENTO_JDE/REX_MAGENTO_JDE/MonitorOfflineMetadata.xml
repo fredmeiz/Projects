@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProjectData projectKey="54656828-dd72-4a09-ae65-df1dd370dd58">
+  <BusinessProcess>
+    <ID>1</ID>
+    <Name>Magento JDE</Name>
+    <Flow>
+      <ID>5</ID>
+      <Name>Get Available Quantity</Name>
+      <Step>
+        <ID>63</ID>
+        <Name>Check default values</Name>
+      </Step>
+      <Step>
+        <ID>65</ID>
+        <Name>Map Message to JDE BSSV Call</Name>
+      </Step>
+      <Step>
+        <ID>70</ID>
+        <Name>Send Request to JDE</Name>
+      </Step>
+      <Step>
+        <ID>71</ID>
+        <Name>Call JDE BSSV Inventory Mgr</Name>
+      </Step>
+      <Step>
+        <ID>72</ID>
+        <Name>Map JDE BSSV Response</Name>
+      </Step>
+      <Step>
+        <ID>73</ID>
+        <Name>Show response from JDE</Name>
+      </Step>
+      <Step>
+        <ID>77</ID>
+        <Name>Show response from JDE</Name>
+      </Step>
+      <Step>
+        <ID>79</ID>
+        <Name>Display Available Quantity</Name>
+      </Step>
+      <Step>
+        <ID>84</ID>
+        <Name>Return Invalid Values</Name>
+      </Step>
+      <Trigger>
+        <ID>44</ID>
+        <Name>ItemAvailability</Name>
+      </Trigger>
+      <Trigger>
+        <ID>59</ID>
+        <Name>Web Services</Name>
+      </Trigger>
+    </Flow>
+    <Flow>
+      <ID>6</ID>
+      <Name>Get Order Status</Name>
+      <Step>
+        <ID>5</ID>
+        <Name>Map Trigger Input variables</Name>
+      </Step>
+      <Step>
+        <ID>6</ID>
+        <Name>Look Up JDE Order Number</Name>
+      </Step>
+      <Step>
+        <ID>7</ID>
+        <Name>Magento Order Requested</Name>
+      </Step>
+      <Step>
+        <ID>9</ID>
+        <Name>Map JDE Inputs</Name>
+      </Step>
+      <Step>
+        <ID>10</ID>
+        <Name>Debug Mode Goto Map Result</Name>
+      </Step>
+      <Step>
+        <ID>11</ID>
+        <Name>Call JDE BSSV Sales Order Mgr</Name>
+      </Step>
+      <Step>
+        <ID>12</ID>
+        <Name>Get JDE Order Status</Name>
+      </Step>
+      <Step>
+        <ID>13</ID>
+        <Name>JDE Get SO Error</Name>
+      </Step>
+      <Step>
+        <ID>14</ID>
+        <Name>Result of JDE call</Name>
+      </Step>
+      <Step>
+        <ID>15</ID>
+        <Name>Update ODS Status</Name>
+      </Step>
+      <Step>
+        <ID>16</ID>
+        <Name>Map To Result XML</Name>
+      </Step>
+      <Step>
+        <ID>17</ID>
+        <Name>Response</Name>
+      </Step>
+      <Step>
+        <ID>18</ID>
+        <Name>Using Debug Mode</Name>
+      </Step>
+      <Trigger>
+        <ID>4</ID>
+        <Name>Web Services</Name>
+      </Trigger>
+    </Flow>
+  </BusinessProcess>
+</ProjectData>

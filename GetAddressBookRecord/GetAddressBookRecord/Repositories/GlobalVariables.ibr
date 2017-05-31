@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<GlobalVarRepository xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Variable xsi:type="VariableRepositoryItem">
+    <GUID>000000000000000000000000000000000000004</GUID>
+    <Order>4</Order>
+    <Name>G.sys.ServerInstance</Name>
+    <Description>Server instance.</Description>
+    <Type>
+      <Type>N</Type>
+      <Picture>5.0</Picture>
+      <isUnicode>false</isUnicode>
+      <isNillable>false</isNillable>
+    </Type>
+    <IsSystemVariable>true</IsSystemVariable>
+  </Variable>
+  <Variable xsi:type="VariableRepositoryItem">
+    <GUID>000000000000000000000000000000000000022</GUID>
+    <Order>22</Order>
+    <Name>G.sys.ComponentLogging</Name>
+    <Description>Handles the control of the components global logging process.</Description>
+    <Type>
+      <Type>L</Type>
+      <Picture>1</Picture>
+      <isUnicode>false</isUnicode>
+      <isNillable>false</isNillable>
+    </Type>
+    <DefaultValue>
+      <ExpressionVal>J1RSVUUnTE9H</ExpressionVal>
+      <ExpectedType>L</ExpectedType>
+      <Direction>I</Direction>
+    </DefaultValue>
+    <IsSystemVariable>true</IsSystemVariable>
+  </Variable>
+</GlobalVarRepository>
+
+ 

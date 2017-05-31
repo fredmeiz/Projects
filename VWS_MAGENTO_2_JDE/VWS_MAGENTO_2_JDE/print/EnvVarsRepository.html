@@ -1,0 +1,1781 @@
+<HTML>
+<head>
+	<LINK rel="stylesheet" type="text/css" href="iBOLTPrint.css"
+</head>
+
+<body>
+
+<img src="MagicxpiStrip.jpg" height=150>
+
+<div>
+	<a href="#top"></a>
+	Project: <font size=2><b>VWS_MAGENTO_2_JDE</b></font>
+	&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;
+	<a href="#" onclick="javascript:window.print()"> Print </a>
+	<br> <hr> <br>
+</div>
+
+	<table border=0 width=100%>
+		<tr> <th colspan=2> Environment Variables List </th> </tr>
+					<tr><td> <a href="#MessagingComponentDir">MessagingComponentDir </td></tr>
+					<tr><td> <a href="#MessagingErrorLogFile">MessagingErrorLogFile </td></tr>
+					<tr><td> <a href="#magicxpi">magicxpi </td></tr>
+					<tr><td> <a href="#magicxpa">magicxpa </td></tr>
+					<tr><td> <a href="#ibolt">ibolt </td></tr>
+					<tr><td> <a href="#ifclib">ifclib </td></tr>
+					<tr><td> <a href="#projects">projects </td></tr>
+					<tr><td> <a href="#sl">sl </td></tr>
+					<tr><td> <a href="#serverid">serverid </td></tr>
+					<tr><td> <a href="#log">log </td></tr>
+					<tr><td> <a href="#java_path">java_path </td></tr>
+					<tr><td> <a href="#config">config </td></tr>
+					<tr><td> <a href="#HostName">HostName </td></tr>
+					<tr><td> <a href="#MachineName">MachineName </td></tr>
+					<tr><td> <a href="#Alias">Alias </td></tr>
+					<tr><td> <a href="#UserComponents">UserComponents </td></tr>
+					<tr><td> <a href="#UserResources">UserResources </td></tr>
+					<tr><td> <a href="#sql_blobsize">sql_blobsize </td></tr>
+					<tr><td> <a href="#date_format">date_format </td></tr>
+					<tr><td> <a href="#DB_NAME">DB_NAME </td></tr>
+					<tr><td> <a href="#DB_USER">DB_USER </td></tr>
+					<tr><td> <a href="#DB_PASSWORD">DB_PASSWORD </td></tr>
+					<tr><td> <a href="#currentprojectdir">currentprojectdir </td></tr>
+					<tr><td> <a href="#currentproject">currentproject </td></tr>
+					<tr><td> <a href="#webmonitorfilesystem">webmonitorfilesystem </td></tr>
+					<tr><td> <a href="#magentoWSDLURL">magentoWSDLURL </td></tr>
+					<tr><td> <a href="#magentoEndpoint">magentoEndpoint </td></tr>
+					<tr><td> <a href="#magentoUser">magentoUser </td></tr>
+					<tr><td> <a href="#magentoPassword">magentoPassword </td></tr>
+					<tr><td> <a href="#JDEuser">JDEuser </td></tr>
+					<tr><td> <a href="#JDEPassword">JDEPassword </td></tr>
+					<tr><td> <a href="#JDEBranchPlant">JDEBranchPlant </td></tr>
+					<tr><td> <a href="#JDECompany">JDECompany </td></tr>
+					<tr><td> <a href="#JDEOrderType">JDEOrderType </td></tr>
+					<tr><td> <a href="#JDEPricingAdjustmentSchedule">JDEPricingAdjustmentSchedule </td></tr>
+					<tr><td> <a href="#JDECustomerPriceGroupCode">JDECustomerPriceGroupCode </td></tr>
+					<tr><td> <a href="#JDEOrderLineTypeforStatus">JDEOrderLineTypeforStatus </td></tr>
+					<tr><td> <a href="#JDEFreightItem">JDEFreightItem </td></tr>
+					<tr><td> <a href="#JDEProcessingVersion">JDEProcessingVersion </td></tr>
+					<tr><td> <a href="#JDESiteDEV">JDESiteDEV </td></tr>
+					<tr><td> <a href="#JDESiteIAT">JDESiteIAT </td></tr>
+					<tr><td> <a href="#JDESiteUAT">JDESiteUAT </td></tr>
+					<tr><td> <a href="#JDESitePPD">JDESitePPD </td></tr>
+					<tr><td> <a href="#JDESitePRD">JDESitePRD </td></tr>
+					<tr><td> <a href="#JDEPathDEV">JDEPathDEV </td></tr>
+					<tr><td> <a href="#JDEPathIAT">JDEPathIAT </td></tr>
+					<tr><td> <a href="#JDEPathUAT">JDEPathUAT </td></tr>
+					<tr><td> <a href="#JDEPathPPD">JDEPathPPD </td></tr>
+					<tr><td> <a href="#JDEPathPRD">JDEPathPRD </td></tr>
+					<tr><td> <a href="#EnvJDE">EnvJDE </td></tr>
+					<tr><td> <a href="#EnvJDEsite">EnvJDEsite </td></tr>
+					<tr><td> <a href="#EnvJDEpath">EnvJDEpath </td></tr>
+					<tr><td> <a href="#emailFrom">emailFrom </td></tr>
+					<tr><td> <a href="#emailNotifyUAT">emailNotifyUAT </td></tr>
+					<tr><td> <a href="#emailNotifyIAT">emailNotifyIAT </td></tr>
+					<tr><td> <a href="#emailNotifyDEV">emailNotifyDEV </td></tr>
+					<tr><td> <a href="#emailUser">emailUser </td></tr>
+					<tr><td> <a href="#emailPassword">emailPassword </td></tr>
+					<tr><td> <a href="#aliasprojectdir">aliasprojectdir </td></tr>
+					<tr><td> <a href="#JDEWSInventoryManagerEndpoint">JDEWSInventoryManagerEndpoint </td></tr>
+					<tr><td> <a href="#JDEWSSalesOrderManagerEndpoint">JDEWSSalesOrderManagerEndpoint </td></tr>
+					<tr><td> <a href="#JDEWSSalesOrderManagerWSDL">JDEWSSalesOrderManagerWSDL </td></tr>
+					<tr><td> <a href="#JDEWSInventoryManagerWSDL">JDEWSInventoryManagerWSDL </td></tr>
+					<tr><td> <a href="#PREFIX">PREFIX </td></tr>
+					<tr><td> <a href="#DB_SERVER_NAME">DB_SERVER_NAME </td></tr>
+			</table>
+	<hr><br>
+
+		<a name="MessagingComponentDir" </a>
+	<table>
+		<tr> <td colspan=2> <b>MessagingComponentDir </b> </td> </tr>
+	</table>
+
+	<table border=0 width=100%>
+		<tr> <th colspan=2> General Properties </th> </tr>
+	</table>
+
+	<table border=0 width=100%>
+	<tr>
+		<td Class="Caption"> Topic Name: </td>
+		<td> MessagingComponentDir </td>
+	</tr>
+
+	<!--> <Table Row Data>
+	<table border=0 width=100%>
+	<tr>
+		<td Class="Caption"> Translation: </td>
+		<td> %magicxpa%Messaging%sl% </td>
+	</tr>
+	</table>
+
+	<div align=right><a href="#top">Return to Top</a> &nbsp;|&nbsp; <a href="#" onclick="javascript:window.print()">Print</a></div>
+	<br>	
+
+		<a name="MessagingErrorLogFile" </a>
+	<table>
+		<tr> <td colspan=2> <b>MessagingErrorLogFile </b> </td> </tr>
+	</table>
+
+	<table border=0 width=100%>
+		<tr> <th colspan=2> General Properties </th> </tr>
+	</table>
+
+	<table border=0 width=100%>
+	<tr>
+		<td Class="Caption"> Topic Name: </td>
+		<td> MessagingErrorLogFile </td>
+	</tr>
+
+	<!--> <Table Row Data>
+	<table border=0 width=100%>
+	<tr>
+		<td Class="Caption"> Translation: </td>
+		<td> %MessagingComponentDir%MG_message_err.log </td>
+	</tr>
+	</table>
+
+	<div align=right><a href="#top">Return to Top</a> &nbsp;|&nbsp; <a href="#" onclick="javascript:window.print()">Print</a></div>
+	<br>	
+
+		<a name="magicxpi" </a>
+	<table>
+		<tr> <td colspan=2> <b>magicxpi </b> </td> </tr>
+	</table>
+
+	<table border=0 width=100%>
+		<tr> <th colspan=2> General Properties </th> </tr>
+	</table>
+
+	<table border=0 width=100%>
+	<tr>
+		<td Class="Caption"> Topic Name: </td>
+		<td> magicxpi </td>
+	</tr>
+
+	<!--> <Table Row Data>
+	<table border=0 width=100%>
+	<tr>
+		<td Class="Caption"> Translation: </td>
+		<td> D:\Magic\xpi41%sl% </td>
+	</tr>
+	</table>
+
+	<div align=right><a href="#top">Return to Top</a> &nbsp;|&nbsp; <a href="#" onclick="javascript:window.print()">Print</a></div>
+	<br>	
+
+		<a name="magicxpa" </a>
+	<table>
+		<tr> <td colspan=2> <b>magicxpa </b> </td> </tr>
+	</table>
+
+	<table border=0 width=100%>
+		<tr> <th colspan=2> General Properties </th> </tr>
+	</table>
+
+	<table border=0 width=100%>
+	<tr>
+		<td Class="Caption"> Topic Name: </td>
+		<td> magicxpa </td>
+	</tr>
+
+	<!--> <Table Row Data>
+	<table border=0 width=100%>
+	<tr>
+		<td Class="Caption"> Translation: </td>
+		<td> %magicxpi% </td>
+	</tr>
+	</table>
+
+	<div align=right><a href="#top">Return to Top</a> &nbsp;|&nbsp; <a href="#" onclick="javascript:window.print()">Print</a></div>
+	<br>	
+
+		<a name="ibolt" </a>
+	<table>
+		<tr> <td colspan=2> <b>ibolt </b> </td> </tr>
+	</table>
+
+	<table border=0 width=100%>
+		<tr> <th colspan=2> General Properties </th> </tr>
+	</table>
+
+	<table border=0 width=100%>
+	<tr>
+		<td Class="Caption"> Topic Name: </td>
+		<td> ibolt </td>
+	</tr>
+
+	<!--> <Table Row Data>
+	<table border=0 width=100%>
+	<tr>
+		<td Class="Caption"> Translation: </td>
+		<td> %magicxpi% </td>
+	</tr>
+	</table>
+
+	<div align=right><a href="#top">Return to Top</a> &nbsp;|&nbsp; <a href="#" onclick="javascript:window.print()">Print</a></div>
+	<br>	
+
+		<a name="ifclib" </a>
+	<table>
+		<tr> <td colspan=2> <b>ifclib </b> </td> </tr>
+	</table>
+
+	<table border=0 width=100%>
+		<tr> <th colspan=2> General Properties </th> </tr>
+	</table>
+
+	<table border=0 width=100%>
+	<tr>
+		<td Class="Caption"> Topic Name: </td>
+		<td> ifclib </td>
+	</tr>
+
+	<!--> <Table Row Data>
+	<table border=0 width=100%>
+	<tr>
+		<td Class="Caption"> Translation: </td>
+		<td> %magicxpi%ifclib%sl% </td>
+	</tr>
+	</table>
+
+	<div align=right><a href="#top">Return to Top</a> &nbsp;|&nbsp; <a href="#" onclick="javascript:window.print()">Print</a></div>
+	<br>	
+
+		<a name="projects" </a>
+	<table>
+		<tr> <td colspan=2> <b>projects </b> </td> </tr>
+	</table>
+
+	<table border=0 width=100%>
+		<tr> <th colspan=2> General Properties </th> </tr>
+	</table>
+
+	<table border=0 width=100%>
+	<tr>
+		<td Class="Caption"> Topic Name: </td>
+		<td> projects </td>
+	</tr>
+
+	<!--> <Table Row Data>
+	<table border=0 width=100%>
+	<tr>
+		<td Class="Caption"> Translation: </td>
+		<td> %magicxpi%projects%sl% </td>
+	</tr>
+	</table>
+
+	<div align=right><a href="#top">Return to Top</a> &nbsp;|&nbsp; <a href="#" onclick="javascript:window.print()">Print</a></div>
+	<br>	
+
+		<a name="sl" </a>
+	<table>
+		<tr> <td colspan=2> <b>sl </b> </td> </tr>
+	</table>
+
+	<table border=0 width=100%>
+		<tr> <th colspan=2> General Properties </th> </tr>
+	</table>
+
+	<table border=0 width=100%>
+	<tr>
+		<td Class="Caption"> Topic Name: </td>
+		<td> sl </td>
+	</tr>
+
+	<!--> <Table Row Data>
+	<table border=0 width=100%>
+	<tr>
+		<td Class="Caption"> Translation: </td>
+		<td> \ </td>
+	</tr>
+	</table>
+
+	<div align=right><a href="#top">Return to Top</a> &nbsp;|&nbsp; <a href="#" onclick="javascript:window.print()">Print</a></div>
+	<br>	
+
+		<a name="serverid" </a>
+	<table>
+		<tr> <td colspan=2> <b>serverid </b> </td> </tr>
+	</table>
+
+	<table border=0 width=100%>
+		<tr> <th colspan=2> General Properties </th> </tr>
+	</table>
+
+	<table border=0 width=100%>
+	<tr>
+		<td Class="Caption"> Topic Name: </td>
+		<td> serverid </td>
+	</tr>
+
+	<!--> <Table Row Data>
+	<table border=0 width=100%>
+	<tr>
+		<td Class="Caption"> Translation: </td>
+		<td> 1 </td>
+	</tr>
+	</table>
+
+	<div align=right><a href="#top">Return to Top</a> &nbsp;|&nbsp; <a href="#" onclick="javascript:window.print()">Print</a></div>
+	<br>	
+
+		<a name="log" </a>
+	<table>
+		<tr> <td colspan=2> <b>log </b> </td> </tr>
+	</table>
+
+	<table border=0 width=100%>
+		<tr> <th colspan=2> General Properties </th> </tr>
+	</table>
+
+	<table border=0 width=100%>
+	<tr>
+		<td Class="Caption"> Topic Name: </td>
+		<td> log </td>
+	</tr>
+
+	<!--> <Table Row Data>
+	<table border=0 width=100%>
+	<tr>
+		<td Class="Caption"> Translation: </td>
+		<td> %magicxpi%logs%sl% </td>
+	</tr>
+	</table>
+
+	<div align=right><a href="#top">Return to Top</a> &nbsp;|&nbsp; <a href="#" onclick="javascript:window.print()">Print</a></div>
+	<br>	
+
+		<a name="java_path" </a>
+	<table>
+		<tr> <td colspan=2> <b>java_path </b> </td> </tr>
+	</table>
+
+	<table border=0 width=100%>
+		<tr> <th colspan=2> General Properties </th> </tr>
+	</table>
+
+	<table border=0 width=100%>
+	<tr>
+		<td Class="Caption"> Topic Name: </td>
+		<td> java_path </td>
+	</tr>
+
+	<!--> <Table Row Data>
+	<table border=0 width=100%>
+	<tr>
+		<td Class="Caption"> Translation: </td>
+		<td> %magicxpi%jre%sl%bin </td>
+	</tr>
+	</table>
+
+	<div align=right><a href="#top">Return to Top</a> &nbsp;|&nbsp; <a href="#" onclick="javascript:window.print()">Print</a></div>
+	<br>	
+
+		<a name="config" </a>
+	<table>
+		<tr> <td colspan=2> <b>config </b> </td> </tr>
+	</table>
+
+	<table border=0 width=100%>
+		<tr> <th colspan=2> General Properties </th> </tr>
+	</table>
+
+	<table border=0 width=100%>
+	<tr>
+		<td Class="Caption"> Topic Name: </td>
+		<td> config </td>
+	</tr>
+
+	<!--> <Table Row Data>
+	<table border=0 width=100%>
+	<tr>
+		<td Class="Caption"> Translation: </td>
+		<td> %magicxpi%config%sl% </td>
+	</tr>
+	</table>
+
+	<div align=right><a href="#top">Return to Top</a> &nbsp;|&nbsp; <a href="#" onclick="javascript:window.print()">Print</a></div>
+	<br>	
+
+		<a name="HostName" </a>
+	<table>
+		<tr> <td colspan=2> <b>HostName </b> </td> </tr>
+	</table>
+
+	<table border=0 width=100%>
+		<tr> <th colspan=2> General Properties </th> </tr>
+	</table>
+
+	<table border=0 width=100%>
+	<tr>
+		<td Class="Caption"> Topic Name: </td>
+		<td> HostName </td>
+	</tr>
+
+	<!--> <Table Row Data>
+	<table border=0 width=100%>
+	<tr>
+		<td Class="Caption"> Translation: </td>
+		<td> WIN-KM0FR11E7UK\4011 </td>
+	</tr>
+	</table>
+
+	<div align=right><a href="#top">Return to Top</a> &nbsp;|&nbsp; <a href="#" onclick="javascript:window.print()">Print</a></div>
+	<br>	
+
+		<a name="MachineName" </a>
+	<table>
+		<tr> <td colspan=2> <b>MachineName </b> </td> </tr>
+	</table>
+
+	<table border=0 width=100%>
+		<tr> <th colspan=2> General Properties </th> </tr>
+	</table>
+
+	<table border=0 width=100%>
+	<tr>
+		<td Class="Caption"> Topic Name: </td>
+		<td> MachineName </td>
+	</tr>
+
+	<!--> <Table Row Data>
+	<table border=0 width=100%>
+	<tr>
+		<td Class="Caption"> Translation: </td>
+		<td> WIN-KM0FR11E7UK </td>
+	</tr>
+	</table>
+
+	<div align=right><a href="#top">Return to Top</a> &nbsp;|&nbsp; <a href="#" onclick="javascript:window.print()">Print</a></div>
+	<br>	
+
+		<a name="Alias" </a>
+	<table>
+		<tr> <td colspan=2> <b>Alias </b> </td> </tr>
+	</table>
+
+	<table border=0 width=100%>
+		<tr> <th colspan=2> General Properties </th> </tr>
+	</table>
+
+	<table border=0 width=100%>
+	<tr>
+		<td Class="Caption"> Topic Name: </td>
+		<td> Alias </td>
+	</tr>
+
+	<!--> <Table Row Data>
+	<table border=0 width=100%>
+	<tr>
+		<td Class="Caption"> Translation: </td>
+		<td> magicxpi4_1 </td>
+	</tr>
+	</table>
+
+	<div align=right><a href="#top">Return to Top</a> &nbsp;|&nbsp; <a href="#" onclick="javascript:window.print()">Print</a></div>
+	<br>	
+
+		<a name="UserComponents" </a>
+	<table>
+		<tr> <td colspan=2> <b>UserComponents </b> </td> </tr>
+	</table>
+
+	<table border=0 width=100%>
+		<tr> <th colspan=2> General Properties </th> </tr>
+	</table>
+
+	<table border=0 width=100%>
+	<tr>
+		<td Class="Caption"> Topic Name: </td>
+		<td> UserComponents </td>
+	</tr>
+
+	<!--> <Table Row Data>
+	<table border=0 width=100%>
+	<tr>
+		<td Class="Caption"> Translation: </td>
+		<td> %magicxpi%User Resources%sl%Components%sl% </td>
+	</tr>
+	</table>
+
+	<div align=right><a href="#top">Return to Top</a> &nbsp;|&nbsp; <a href="#" onclick="javascript:window.print()">Print</a></div>
+	<br>	
+
+		<a name="UserResources" </a>
+	<table>
+		<tr> <td colspan=2> <b>UserResources </b> </td> </tr>
+	</table>
+
+	<table border=0 width=100%>
+		<tr> <th colspan=2> General Properties </th> </tr>
+	</table>
+
+	<table border=0 width=100%>
+	<tr>
+		<td Class="Caption"> Topic Name: </td>
+		<td> UserResources </td>
+	</tr>
+
+	<!--> <Table Row Data>
+	<table border=0 width=100%>
+	<tr>
+		<td Class="Caption"> Translation: </td>
+		<td> %magicxpi%User Resources%sl%Services%sl% </td>
+	</tr>
+	</table>
+
+	<div align=right><a href="#top">Return to Top</a> &nbsp;|&nbsp; <a href="#" onclick="javascript:window.print()">Print</a></div>
+	<br>	
+
+		<a name="sql_blobsize" </a>
+	<table>
+		<tr> <td colspan=2> <b>sql_blobsize </b> </td> </tr>
+	</table>
+
+	<table border=0 width=100%>
+		<tr> <th colspan=2> General Properties </th> </tr>
+	</table>
+
+	<table border=0 width=100%>
+	<tr>
+		<td Class="Caption"> Topic Name: </td>
+		<td> sql_blobsize </td>
+	</tr>
+
+	<!--> <Table Row Data>
+	<table border=0 width=100%>
+	<tr>
+		<td Class="Caption"> Translation: </td>
+		<td> 1000000 </td>
+	</tr>
+	</table>
+
+	<div align=right><a href="#top">Return to Top</a> &nbsp;|&nbsp; <a href="#" onclick="javascript:window.print()">Print</a></div>
+	<br>	
+
+		<a name="date_format" </a>
+	<table>
+		<tr> <td colspan=2> <b>date_format </b> </td> </tr>
+	</table>
+
+	<table border=0 width=100%>
+		<tr> <th colspan=2> General Properties </th> </tr>
+	</table>
+
+	<table border=0 width=100%>
+	<tr>
+		<td Class="Caption"> Topic Name: </td>
+		<td> date_format </td>
+	</tr>
+
+	<!--> <Table Row Data>
+	<table border=0 width=100%>
+	<tr>
+		<td Class="Caption"> Translation: </td>
+		<td> YYYY-MM-DD </td>
+	</tr>
+	</table>
+
+	<div align=right><a href="#top">Return to Top</a> &nbsp;|&nbsp; <a href="#" onclick="javascript:window.print()">Print</a></div>
+	<br>	
+
+		<a name="DB_NAME" </a>
+	<table>
+		<tr> <td colspan=2> <b>DB_NAME </b> </td> </tr>
+	</table>
+
+	<table border=0 width=100%>
+		<tr> <th colspan=2> General Properties </th> </tr>
+	</table>
+
+	<table border=0 width=100%>
+	<tr>
+		<td Class="Caption"> Topic Name: </td>
+		<td> DB_NAME </td>
+	</tr>
+
+	<!--> <Table Row Data>
+	<table border=0 width=100%>
+	<tr>
+		<td Class="Caption"> Translation: </td>
+		<td> magicXPIdb </td>
+	</tr>
+	</table>
+
+	<div align=right><a href="#top">Return to Top</a> &nbsp;|&nbsp; <a href="#" onclick="javascript:window.print()">Print</a></div>
+	<br>	
+
+		<a name="DB_USER" </a>
+	<table>
+		<tr> <td colspan=2> <b>DB_USER </b> </td> </tr>
+	</table>
+
+	<table border=0 width=100%>
+		<tr> <th colspan=2> General Properties </th> </tr>
+	</table>
+
+	<table border=0 width=100%>
+	<tr>
+		<td Class="Caption"> Topic Name: </td>
+		<td> DB_USER </td>
+	</tr>
+
+	<!--> <Table Row Data>
+	<table border=0 width=100%>
+	<tr>
+		<td Class="Caption"> Translation: </td>
+		<td> magic </td>
+	</tr>
+	</table>
+
+	<div align=right><a href="#top">Return to Top</a> &nbsp;|&nbsp; <a href="#" onclick="javascript:window.print()">Print</a></div>
+	<br>	
+
+		<a name="DB_PASSWORD" </a>
+	<table>
+		<tr> <td colspan=2> <b>DB_PASSWORD </b> </td> </tr>
+	</table>
+
+	<table border=0 width=100%>
+		<tr> <th colspan=2> General Properties </th> </tr>
+	</table>
+
+	<table border=0 width=100%>
+	<tr>
+		<td Class="Caption"> Topic Name: </td>
+		<td> DB_PASSWORD </td>
+	</tr>
+
+	<!--> <Table Row Data>
+	<table border=0 width=100%>
+	<tr>
+		<td Class="Caption"> Translation: </td>
+		<td> magicxpi </td>
+	</tr>
+	</table>
+
+	<div align=right><a href="#top">Return to Top</a> &nbsp;|&nbsp; <a href="#" onclick="javascript:window.print()">Print</a></div>
+	<br>	
+
+		<a name="currentprojectdir" </a>
+	<table>
+		<tr> <td colspan=2> <b>currentprojectdir </b> </td> </tr>
+	</table>
+
+	<table border=0 width=100%>
+		<tr> <th colspan=2> General Properties </th> </tr>
+	</table>
+
+	<table border=0 width=100%>
+	<tr>
+		<td Class="Caption"> Topic Name: </td>
+		<td> currentprojectdir </td>
+	</tr>
+
+	<!--> <Table Row Data>
+	<table border=0 width=100%>
+	<tr>
+		<td Class="Caption"> Translation: </td>
+		<td> %projects%VWS_MAGENTO_2_JDE%sl% </td>
+	</tr>
+	</table>
+
+	<div align=right><a href="#top">Return to Top</a> &nbsp;|&nbsp; <a href="#" onclick="javascript:window.print()">Print</a></div>
+	<br>	
+
+		<a name="currentproject" </a>
+	<table>
+		<tr> <td colspan=2> <b>currentproject </b> </td> </tr>
+	</table>
+
+	<table border=0 width=100%>
+		<tr> <th colspan=2> General Properties </th> </tr>
+	</table>
+
+	<table border=0 width=100%>
+	<tr>
+		<td Class="Caption"> Topic Name: </td>
+		<td> currentproject </td>
+	</tr>
+
+	<!--> <Table Row Data>
+	<table border=0 width=100%>
+	<tr>
+		<td Class="Caption"> Translation: </td>
+		<td> %currentprojectdir%VWS_MAGENTO_2_JDE.ibs </td>
+	</tr>
+	</table>
+
+	<div align=right><a href="#top">Return to Top</a> &nbsp;|&nbsp; <a href="#" onclick="javascript:window.print()">Print</a></div>
+	<br>	
+
+		<a name="webmonitorfilesystem" </a>
+	<table>
+		<tr> <td colspan=2> <b>webmonitorfilesystem </b> </td> </tr>
+	</table>
+
+	<table border=0 width=100%>
+		<tr> <th colspan=2> General Properties </th> </tr>
+	</table>
+
+	<table border=0 width=100%>
+	<tr>
+		<td Class="Caption"> Topic Name: </td>
+		<td> webmonitorfilesystem </td>
+	</tr>
+
+	<!--> <Table Row Data>
+	<table border=0 width=100%>
+	<tr>
+		<td Class="Caption"> Translation: </td>
+		<td> %ibolt%scripts%sl%webmonitor%sl% </td>
+	</tr>
+	</table>
+
+	<div align=right><a href="#top">Return to Top</a> &nbsp;|&nbsp; <a href="#" onclick="javascript:window.print()">Print</a></div>
+	<br>	
+
+		<a name="magentoWSDLURL" </a>
+	<table>
+		<tr> <td colspan=2> <b>magentoWSDLURL </b> </td> </tr>
+	</table>
+
+	<table border=0 width=100%>
+		<tr> <th colspan=2> General Properties </th> </tr>
+	</table>
+
+	<table border=0 width=100%>
+	<tr>
+		<td Class="Caption"> Topic Name: </td>
+		<td> magentoWSDLURL </td>
+	</tr>
+
+	<!--> <Table Row Data>
+	<table border=0 width=100%>
+	<tr>
+		<td Class="Caption"> Translation: </td>
+		<td> http://10.152.195.26/index.php/api/v2_soap/?wsdl </td>
+	</tr>
+	</table>
+
+	<div align=right><a href="#top">Return to Top</a> &nbsp;|&nbsp; <a href="#" onclick="javascript:window.print()">Print</a></div>
+	<br>	
+
+		<a name="magentoEndpoint" </a>
+	<table>
+		<tr> <td colspan=2> <b>magentoEndpoint </b> </td> </tr>
+	</table>
+
+	<table border=0 width=100%>
+		<tr> <th colspan=2> General Properties </th> </tr>
+	</table>
+
+	<table border=0 width=100%>
+	<tr>
+		<td Class="Caption"> Topic Name: </td>
+		<td> magentoEndpoint </td>
+	</tr>
+
+	<!--> <Table Row Data>
+	<table border=0 width=100%>
+	<tr>
+		<td Class="Caption"> Translation: </td>
+		<td> http://10.152.195.26/index.php/api/v2_soap/index/ </td>
+	</tr>
+	</table>
+
+	<div align=right><a href="#top">Return to Top</a> &nbsp;|&nbsp; <a href="#" onclick="javascript:window.print()">Print</a></div>
+	<br>	
+
+		<a name="magentoUser" </a>
+	<table>
+		<tr> <td colspan=2> <b>magentoUser </b> </td> </tr>
+	</table>
+
+	<table border=0 width=100%>
+		<tr> <th colspan=2> General Properties </th> </tr>
+	</table>
+
+	<table border=0 width=100%>
+	<tr>
+		<td Class="Caption"> Topic Name: </td>
+		<td> magentoUser </td>
+	</tr>
+
+	<!--> <Table Row Data>
+	<table border=0 width=100%>
+	<tr>
+		<td Class="Caption"> Translation: </td>
+		<td> Magic </td>
+	</tr>
+	</table>
+
+	<div align=right><a href="#top">Return to Top</a> &nbsp;|&nbsp; <a href="#" onclick="javascript:window.print()">Print</a></div>
+	<br>	
+
+		<a name="magentoPassword" </a>
+	<table>
+		<tr> <td colspan=2> <b>magentoPassword </b> </td> </tr>
+	</table>
+
+	<table border=0 width=100%>
+		<tr> <th colspan=2> General Properties </th> </tr>
+	</table>
+
+	<table border=0 width=100%>
+	<tr>
+		<td Class="Caption"> Topic Name: </td>
+		<td> magentoPassword </td>
+	</tr>
+
+	<!--> <Table Row Data>
+	<table border=0 width=100%>
+	<tr>
+		<td Class="Caption"> Translation: </td>
+		<td> magicxpi </td>
+	</tr>
+	</table>
+
+	<div align=right><a href="#top">Return to Top</a> &nbsp;|&nbsp; <a href="#" onclick="javascript:window.print()">Print</a></div>
+	<br>	
+
+		<a name="JDEuser" </a>
+	<table>
+		<tr> <td colspan=2> <b>JDEuser </b> </td> </tr>
+	</table>
+
+	<table border=0 width=100%>
+		<tr> <th colspan=2> General Properties </th> </tr>
+	</table>
+
+	<table border=0 width=100%>
+	<tr>
+		<td Class="Caption"> Topic Name: </td>
+		<td> JDEuser </td>
+	</tr>
+
+	<!--> <Table Row Data>
+	<table border=0 width=100%>
+	<tr>
+		<td Class="Caption"> Translation: </td>
+		<td> FRMAGXPI01 </td>
+	</tr>
+	</table>
+
+	<div align=right><a href="#top">Return to Top</a> &nbsp;|&nbsp; <a href="#" onclick="javascript:window.print()">Print</a></div>
+	<br>	
+
+		<a name="JDEPassword" </a>
+	<table>
+		<tr> <td colspan=2> <b>JDEPassword </b> </td> </tr>
+	</table>
+
+	<table border=0 width=100%>
+		<tr> <th colspan=2> General Properties </th> </tr>
+	</table>
+
+	<table border=0 width=100%>
+	<tr>
+		<td Class="Caption"> Topic Name: </td>
+		<td> JDEPassword </td>
+	</tr>
+
+	<!--> <Table Row Data>
+	<table border=0 width=100%>
+	<tr>
+		<td Class="Caption"> Translation: </td>
+		<td> FRMA6XP! </td>
+	</tr>
+	</table>
+
+	<div align=right><a href="#top">Return to Top</a> &nbsp;|&nbsp; <a href="#" onclick="javascript:window.print()">Print</a></div>
+	<br>	
+
+		<a name="JDEBranchPlant" </a>
+	<table>
+		<tr> <td colspan=2> <b>JDEBranchPlant </b> </td> </tr>
+	</table>
+
+	<table border=0 width=100%>
+		<tr> <th colspan=2> General Properties </th> </tr>
+	</table>
+
+	<table border=0 width=100%>
+	<tr>
+		<td Class="Caption"> Topic Name: </td>
+		<td> JDEBranchPlant </td>
+	</tr>
+
+	<!--> <Table Row Data>
+	<table border=0 width=100%>
+	<tr>
+		<td Class="Caption"> Translation: </td>
+		<td> 225000 </td>
+	</tr>
+	</table>
+
+	<div align=right><a href="#top">Return to Top</a> &nbsp;|&nbsp; <a href="#" onclick="javascript:window.print()">Print</a></div>
+	<br>	
+
+		<a name="JDECompany" </a>
+	<table>
+		<tr> <td colspan=2> <b>JDECompany </b> </td> </tr>
+	</table>
+
+	<table border=0 width=100%>
+		<tr> <th colspan=2> General Properties </th> </tr>
+	</table>
+
+	<table border=0 width=100%>
+	<tr>
+		<td Class="Caption"> Topic Name: </td>
+		<td> JDECompany </td>
+	</tr>
+
+	<!--> <Table Row Data>
+	<table border=0 width=100%>
+	<tr>
+		<td Class="Caption"> Translation: </td>
+		<td> 00225 </td>
+	</tr>
+	</table>
+
+	<div align=right><a href="#top">Return to Top</a> &nbsp;|&nbsp; <a href="#" onclick="javascript:window.print()">Print</a></div>
+	<br>	
+
+		<a name="JDEOrderType" </a>
+	<table>
+		<tr> <td colspan=2> <b>JDEOrderType </b> </td> </tr>
+	</table>
+
+	<table border=0 width=100%>
+		<tr> <th colspan=2> General Properties </th> </tr>
+	</table>
+
+	<table border=0 width=100%>
+	<tr>
+		<td Class="Caption"> Topic Name: </td>
+		<td> JDEOrderType </td>
+	</tr>
+
+	<!--> <Table Row Data>
+	<table border=0 width=100%>
+	<tr>
+		<td Class="Caption"> Translation: </td>
+		<td> SO </td>
+	</tr>
+	</table>
+
+	<div align=right><a href="#top">Return to Top</a> &nbsp;|&nbsp; <a href="#" onclick="javascript:window.print()">Print</a></div>
+	<br>	
+
+		<a name="JDEPricingAdjustmentSchedule" </a>
+	<table>
+		<tr> <td colspan=2> <b>JDEPricingAdjustmentSchedule </b> </td> </tr>
+	</table>
+
+	<table border=0 width=100%>
+		<tr> <th colspan=2> General Properties </th> </tr>
+	</table>
+
+	<table border=0 width=100%>
+	<tr>
+		<td Class="Caption"> Topic Name: </td>
+		<td> JDEPricingAdjustmentSchedule </td>
+	</tr>
+
+	<!--> <Table Row Data>
+	<table border=0 width=100%>
+	<tr>
+		<td Class="Caption"> Translation: </td>
+		<td> FEMAGSC </td>
+	</tr>
+	</table>
+
+	<div align=right><a href="#top">Return to Top</a> &nbsp;|&nbsp; <a href="#" onclick="javascript:window.print()">Print</a></div>
+	<br>	
+
+		<a name="JDECustomerPriceGroupCode" </a>
+	<table>
+		<tr> <td colspan=2> <b>JDECustomerPriceGroupCode </b> </td> </tr>
+	</table>
+
+	<table border=0 width=100%>
+		<tr> <th colspan=2> General Properties </th> </tr>
+	</table>
+
+	<table border=0 width=100%>
+	<tr>
+		<td Class="Caption"> Topic Name: </td>
+		<td> JDECustomerPriceGroupCode </td>
+	</tr>
+
+	<!--> <Table Row Data>
+	<table border=0 width=100%>
+	<tr>
+		<td Class="Caption"> Translation: </td>
+		<td> FE5LIST </td>
+	</tr>
+	</table>
+
+	<div align=right><a href="#top">Return to Top</a> &nbsp;|&nbsp; <a href="#" onclick="javascript:window.print()">Print</a></div>
+	<br>	
+
+		<a name="JDEOrderLineTypeforStatus" </a>
+	<table>
+		<tr> <td colspan=2> <b>JDEOrderLineTypeforStatus </b> </td> </tr>
+	</table>
+
+	<table border=0 width=100%>
+		<tr> <th colspan=2> General Properties </th> </tr>
+	</table>
+
+	<table border=0 width=100%>
+	<tr>
+		<td Class="Caption"> Topic Name: </td>
+		<td> JDEOrderLineTypeforStatus </td>
+	</tr>
+
+	<!--> <Table Row Data>
+	<table border=0 width=100%>
+	<tr>
+		<td Class="Caption"> Translation: </td>
+		<td> S </td>
+	</tr>
+	</table>
+
+	<div align=right><a href="#top">Return to Top</a> &nbsp;|&nbsp; <a href="#" onclick="javascript:window.print()">Print</a></div>
+	<br>	
+
+		<a name="JDEFreightItem" </a>
+	<table>
+		<tr> <td colspan=2> <b>JDEFreightItem </b> </td> </tr>
+	</table>
+
+	<table border=0 width=100%>
+		<tr> <th colspan=2> General Properties </th> </tr>
+	</table>
+
+	<table border=0 width=100%>
+	<tr>
+		<td Class="Caption"> Topic Name: </td>
+		<td> JDEFreightItem </td>
+	</tr>
+
+	<!--> <Table Row Data>
+	<table border=0 width=100%>
+	<tr>
+		<td Class="Caption"> Translation: </td>
+		<td> R110SAL000001 </td>
+	</tr>
+	</table>
+
+	<div align=right><a href="#top">Return to Top</a> &nbsp;|&nbsp; <a href="#" onclick="javascript:window.print()">Print</a></div>
+	<br>	
+
+		<a name="JDEProcessingVersion" </a>
+	<table>
+		<tr> <td colspan=2> <b>JDEProcessingVersion </b> </td> </tr>
+	</table>
+
+	<table border=0 width=100%>
+		<tr> <th colspan=2> General Properties </th> </tr>
+	</table>
+
+	<table border=0 width=100%>
+	<tr>
+		<td Class="Caption"> Topic Name: </td>
+		<td> JDEProcessingVersion </td>
+	</tr>
+
+	<!--> <Table Row Data>
+	<table border=0 width=100%>
+	<tr>
+		<td Class="Caption"> Translation: </td>
+		<td> ANS0002 </td>
+	</tr>
+	</table>
+
+	<div align=right><a href="#top">Return to Top</a> &nbsp;|&nbsp; <a href="#" onclick="javascript:window.print()">Print</a></div>
+	<br>	
+
+		<a name="JDESiteDEV" </a>
+	<table>
+		<tr> <td colspan=2> <b>JDESiteDEV </b> </td> </tr>
+	</table>
+
+	<table border=0 width=100%>
+		<tr> <th colspan=2> General Properties </th> </tr>
+	</table>
+
+	<table border=0 width=100%>
+	<tr>
+		<td Class="Caption"> Topic Name: </td>
+		<td> JDESiteDEV </td>
+	</tr>
+
+	<!--> <Table Row Data>
+	<table border=0 width=100%>
+	<tr>
+		<td Class="Caption"> Translation: </td>
+		<td> dveol8 </td>
+	</tr>
+	</table>
+
+	<div align=right><a href="#top">Return to Top</a> &nbsp;|&nbsp; <a href="#" onclick="javascript:window.print()">Print</a></div>
+	<br>	
+
+		<a name="JDESiteIAT" </a>
+	<table>
+		<tr> <td colspan=2> <b>JDESiteIAT </b> </td> </tr>
+	</table>
+
+	<table border=0 width=100%>
+		<tr> <th colspan=2> General Properties </th> </tr>
+	</table>
+
+	<table border=0 width=100%>
+	<tr>
+		<td Class="Caption"> Topic Name: </td>
+		<td> JDESiteIAT </td>
+	</tr>
+
+	<!--> <Table Row Data>
+	<table border=0 width=100%>
+	<tr>
+		<td Class="Caption"> Translation: </td>
+		<td> sveol8 </td>
+	</tr>
+	</table>
+
+	<div align=right><a href="#top">Return to Top</a> &nbsp;|&nbsp; <a href="#" onclick="javascript:window.print()">Print</a></div>
+	<br>	
+
+		<a name="JDESiteUAT" </a>
+	<table>
+		<tr> <td colspan=2> <b>JDESiteUAT </b> </td> </tr>
+	</table>
+
+	<table border=0 width=100%>
+		<tr> <th colspan=2> General Properties </th> </tr>
+	</table>
+
+	<table border=0 width=100%>
+	<tr>
+		<td Class="Caption"> Topic Name: </td>
+		<td> JDESiteUAT </td>
+	</tr>
+
+	<!--> <Table Row Data>
+	<table border=0 width=100%>
+	<tr>
+		<td Class="Caption"> Translation: </td>
+		<td> sveol28 </td>
+	</tr>
+	</table>
+
+	<div align=right><a href="#top">Return to Top</a> &nbsp;|&nbsp; <a href="#" onclick="javascript:window.print()">Print</a></div>
+	<br>	
+
+		<a name="JDESitePPD" </a>
+	<table>
+		<tr> <td colspan=2> <b>JDESitePPD </b> </td> </tr>
+	</table>
+
+	<table border=0 width=100%>
+		<tr> <th colspan=2> General Properties </th> </tr>
+	</table>
+
+	<table border=0 width=100%>
+	<tr>
+		<td Class="Caption"> Topic Name: </td>
+		<td> JDESitePPD </td>
+	</tr>
+
+	<!--> <Table Row Data>
+	<table border=0 width=100%>
+	<tr>
+		<td Class="Caption"> Translation: </td>
+		<td> jdetveol38 </td>
+	</tr>
+	</table>
+
+	<div align=right><a href="#top">Return to Top</a> &nbsp;|&nbsp; <a href="#" onclick="javascript:window.print()">Print</a></div>
+	<br>	
+
+		<a name="JDESitePRD" </a>
+	<table>
+		<tr> <td colspan=2> <b>JDESitePRD </b> </td> </tr>
+	</table>
+
+	<table border=0 width=100%>
+		<tr> <th colspan=2> General Properties </th> </tr>
+	</table>
+
+	<table border=0 width=100%>
+	<tr>
+		<td Class="Caption"> Topic Name: </td>
+		<td> JDESitePRD </td>
+	</tr>
+
+	<!--> <Table Row Data>
+	<table border=0 width=100%>
+	<tr>
+		<td Class="Caption"> Translation: </td>
+		<td> pveol8 </td>
+	</tr>
+	</table>
+
+	<div align=right><a href="#top">Return to Top</a> &nbsp;|&nbsp; <a href="#" onclick="javascript:window.print()">Print</a></div>
+	<br>	
+
+		<a name="JDEPathDEV" </a>
+	<table>
+		<tr> <td colspan=2> <b>JDEPathDEV </b> </td> </tr>
+	</table>
+
+	<table border=0 width=100%>
+		<tr> <th colspan=2> General Properties </th> </tr>
+	</table>
+
+	<table border=0 width=100%>
+	<tr>
+		<td Class="Caption"> Topic Name: </td>
+		<td> JDEPathDEV </td>
+	</tr>
+
+	<!--> <Table Row Data>
+	<table border=0 width=100%>
+	<tr>
+		<td Class="Caption"> Translation: </td>
+		<td> DV910 </td>
+	</tr>
+	</table>
+
+	<div align=right><a href="#top">Return to Top</a> &nbsp;|&nbsp; <a href="#" onclick="javascript:window.print()">Print</a></div>
+	<br>	
+
+		<a name="JDEPathIAT" </a>
+	<table>
+		<tr> <td colspan=2> <b>JDEPathIAT </b> </td> </tr>
+	</table>
+
+	<table border=0 width=100%>
+		<tr> <th colspan=2> General Properties </th> </tr>
+	</table>
+
+	<table border=0 width=100%>
+	<tr>
+		<td Class="Caption"> Topic Name: </td>
+		<td> JDEPathIAT </td>
+	</tr>
+
+	<!--> <Table Row Data>
+	<table border=0 width=100%>
+	<tr>
+		<td Class="Caption"> Translation: </td>
+		<td> IAT910 </td>
+	</tr>
+	</table>
+
+	<div align=right><a href="#top">Return to Top</a> &nbsp;|&nbsp; <a href="#" onclick="javascript:window.print()">Print</a></div>
+	<br>	
+
+		<a name="JDEPathUAT" </a>
+	<table>
+		<tr> <td colspan=2> <b>JDEPathUAT </b> </td> </tr>
+	</table>
+
+	<table border=0 width=100%>
+		<tr> <th colspan=2> General Properties </th> </tr>
+	</table>
+
+	<table border=0 width=100%>
+	<tr>
+		<td Class="Caption"> Topic Name: </td>
+		<td> JDEPathUAT </td>
+	</tr>
+
+	<!--> <Table Row Data>
+	<table border=0 width=100%>
+	<tr>
+		<td Class="Caption"> Translation: </td>
+		<td> UAT910 </td>
+	</tr>
+	</table>
+
+	<div align=right><a href="#top">Return to Top</a> &nbsp;|&nbsp; <a href="#" onclick="javascript:window.print()">Print</a></div>
+	<br>	
+
+		<a name="JDEPathPPD" </a>
+	<table>
+		<tr> <td colspan=2> <b>JDEPathPPD </b> </td> </tr>
+	</table>
+
+	<table border=0 width=100%>
+		<tr> <th colspan=2> General Properties </th> </tr>
+	</table>
+
+	<table border=0 width=100%>
+	<tr>
+		<td Class="Caption"> Topic Name: </td>
+		<td> JDEPathPPD </td>
+	</tr>
+
+	<!--> <Table Row Data>
+	<table border=0 width=100%>
+	<tr>
+		<td Class="Caption"> Translation: </td>
+		<td> PPD910 </td>
+	</tr>
+	</table>
+
+	<div align=right><a href="#top">Return to Top</a> &nbsp;|&nbsp; <a href="#" onclick="javascript:window.print()">Print</a></div>
+	<br>	
+
+		<a name="JDEPathPRD" </a>
+	<table>
+		<tr> <td colspan=2> <b>JDEPathPRD </b> </td> </tr>
+	</table>
+
+	<table border=0 width=100%>
+		<tr> <th colspan=2> General Properties </th> </tr>
+	</table>
+
+	<table border=0 width=100%>
+	<tr>
+		<td Class="Caption"> Topic Name: </td>
+		<td> JDEPathPRD </td>
+	</tr>
+
+	<!--> <Table Row Data>
+	<table border=0 width=100%>
+	<tr>
+		<td Class="Caption"> Translation: </td>
+		<td> PD910 </td>
+	</tr>
+	</table>
+
+	<div align=right><a href="#top">Return to Top</a> &nbsp;|&nbsp; <a href="#" onclick="javascript:window.print()">Print</a></div>
+	<br>	
+
+		<a name="EnvJDE" </a>
+	<table>
+		<tr> <td colspan=2> <b>EnvJDE </b> </td> </tr>
+	</table>
+
+	<table border=0 width=100%>
+		<tr> <th colspan=2> General Properties </th> </tr>
+	</table>
+
+	<table border=0 width=100%>
+	<tr>
+		<td Class="Caption"> Topic Name: </td>
+		<td> EnvJDE </td>
+	</tr>
+
+	<!--> <Table Row Data>
+	<table border=0 width=100%>
+	<tr>
+		<td Class="Caption"> Translation: </td>
+		<td> IAT </td>
+	</tr>
+	</table>
+
+	<div align=right><a href="#top">Return to Top</a> &nbsp;|&nbsp; <a href="#" onclick="javascript:window.print()">Print</a></div>
+	<br>	
+
+		<a name="EnvJDEsite" </a>
+	<table>
+		<tr> <td colspan=2> <b>EnvJDEsite </b> </td> </tr>
+	</table>
+
+	<table border=0 width=100%>
+		<tr> <th colspan=2> General Properties </th> </tr>
+	</table>
+
+	<table border=0 width=100%>
+	<tr>
+		<td Class="Caption"> Topic Name: </td>
+		<td> EnvJDEsite </td>
+	</tr>
+
+	<!--> <Table Row Data>
+	<table border=0 width=100%>
+	<tr>
+		<td Class="Caption"> Translation: </td>
+		<td> %JDESiteIAT% </td>
+	</tr>
+	</table>
+
+	<div align=right><a href="#top">Return to Top</a> &nbsp;|&nbsp; <a href="#" onclick="javascript:window.print()">Print</a></div>
+	<br>	
+
+		<a name="EnvJDEpath" </a>
+	<table>
+		<tr> <td colspan=2> <b>EnvJDEpath </b> </td> </tr>
+	</table>
+
+	<table border=0 width=100%>
+		<tr> <th colspan=2> General Properties </th> </tr>
+	</table>
+
+	<table border=0 width=100%>
+	<tr>
+		<td Class="Caption"> Topic Name: </td>
+		<td> EnvJDEpath </td>
+	</tr>
+
+	<!--> <Table Row Data>
+	<table border=0 width=100%>
+	<tr>
+		<td Class="Caption"> Translation: </td>
+		<td> %JDEPathIAT% </td>
+	</tr>
+	</table>
+
+	<div align=right><a href="#top">Return to Top</a> &nbsp;|&nbsp; <a href="#" onclick="javascript:window.print()">Print</a></div>
+	<br>	
+
+		<a name="emailFrom" </a>
+	<table>
+		<tr> <td colspan=2> <b>emailFrom </b> </td> </tr>
+	</table>
+
+	<table border=0 width=100%>
+		<tr> <th colspan=2> General Properties </th> </tr>
+	</table>
+
+	<table border=0 width=100%>
+	<tr>
+		<td Class="Caption"> Topic Name: </td>
+		<td> emailFrom </td>
+	</tr>
+
+	<!--> <Table Row Data>
+	<table border=0 width=100%>
+	<tr>
+		<td Class="Caption"> Translation: </td>
+		<td> Magento2JDE%EnvJDE%@veolia.com </td>
+	</tr>
+	</table>
+
+	<div align=right><a href="#top">Return to Top</a> &nbsp;|&nbsp; <a href="#" onclick="javascript:window.print()">Print</a></div>
+	<br>	
+
+		<a name="emailNotifyUAT" </a>
+	<table>
+		<tr> <td colspan=2> <b>emailNotifyUAT </b> </td> </tr>
+	</table>
+
+	<table border=0 width=100%>
+		<tr> <th colspan=2> General Properties </th> </tr>
+	</table>
+
+	<table border=0 width=100%>
+	<tr>
+		<td Class="Caption"> Topic Name: </td>
+		<td> emailNotifyUAT </td>
+	</tr>
+
+	<!--> <Table Row Data>
+	<table border=0 width=100%>
+	<tr>
+		<td Class="Caption"> Translation: </td>
+		<td> vireak.som-external@veolia.com,jason.dinkel@veolia.com,jimmy.nacibide@veolia.com,david.emond@veolia.com,laurent.delgado@veolia.com,sophie.liu@veolia.com,laetitia.paczka@veolia.com </td>
+	</tr>
+	</table>
+
+	<div align=right><a href="#top">Return to Top</a> &nbsp;|&nbsp; <a href="#" onclick="javascript:window.print()">Print</a></div>
+	<br>	
+
+		<a name="emailNotifyIAT" </a>
+	<table>
+		<tr> <td colspan=2> <b>emailNotifyIAT </b> </td> </tr>
+	</table>
+
+	<table border=0 width=100%>
+		<tr> <th colspan=2> General Properties </th> </tr>
+	</table>
+
+	<table border=0 width=100%>
+	<tr>
+		<td Class="Caption"> Topic Name: </td>
+		<td> emailNotifyIAT </td>
+	</tr>
+
+	<!--> <Table Row Data>
+	<table border=0 width=100%>
+	<tr>
+		<td Class="Caption"> Translation: </td>
+		<td> vireak.som-external@veolia.com,jason.dinkel@veolia.com,jimmy.nacibide@veolia.com </td>
+	</tr>
+	</table>
+
+	<div align=right><a href="#top">Return to Top</a> &nbsp;|&nbsp; <a href="#" onclick="javascript:window.print()">Print</a></div>
+	<br>	
+
+		<a name="emailNotifyDEV" </a>
+	<table>
+		<tr> <td colspan=2> <b>emailNotifyDEV </b> </td> </tr>
+	</table>
+
+	<table border=0 width=100%>
+		<tr> <th colspan=2> General Properties </th> </tr>
+	</table>
+
+	<table border=0 width=100%>
+	<tr>
+		<td Class="Caption"> Topic Name: </td>
+		<td> emailNotifyDEV </td>
+	</tr>
+
+	<!--> <Table Row Data>
+	<table border=0 width=100%>
+	<tr>
+		<td Class="Caption"> Translation: </td>
+		<td> vireak.som-external@veolia.com,jason.dinkel@veolia.com </td>
+	</tr>
+	</table>
+
+	<div align=right><a href="#top">Return to Top</a> &nbsp;|&nbsp; <a href="#" onclick="javascript:window.print()">Print</a></div>
+	<br>	
+
+		<a name="emailUser" </a>
+	<table>
+		<tr> <td colspan=2> <b>emailUser </b> </td> </tr>
+	</table>
+
+	<table border=0 width=100%>
+		<tr> <th colspan=2> General Properties </th> </tr>
+	</table>
+
+	<table border=0 width=100%>
+	<tr>
+		<td Class="Caption"> Topic Name: </td>
+		<td> emailUser </td>
+	</tr>
+
+	<!--> <Table Row Data>
+	<table border=0 width=100%>
+	<tr>
+		<td Class="Caption"> Translation: </td>
+		<td> vws\aws-smtp.service </td>
+	</tr>
+	</table>
+
+	<div align=right><a href="#top">Return to Top</a> &nbsp;|&nbsp; <a href="#" onclick="javascript:window.print()">Print</a></div>
+	<br>	
+
+		<a name="emailPassword" </a>
+	<table>
+		<tr> <td colspan=2> <b>emailPassword </b> </td> </tr>
+	</table>
+
+	<table border=0 width=100%>
+		<tr> <th colspan=2> General Properties </th> </tr>
+	</table>
+
+	<table border=0 width=100%>
+	<tr>
+		<td Class="Caption"> Topic Name: </td>
+		<td> emailPassword </td>
+	</tr>
+
+	<!--> <Table Row Data>
+	<table border=0 width=100%>
+	<tr>
+		<td Class="Caption"> Translation: </td>
+		<td> VeoliaAmazon2015 </td>
+	</tr>
+	</table>
+
+	<div align=right><a href="#top">Return to Top</a> &nbsp;|&nbsp; <a href="#" onclick="javascript:window.print()">Print</a></div>
+	<br>	
+
+		<a name="aliasprojectdir" </a>
+	<table>
+		<tr> <td colspan=2> <b>aliasprojectdir </b> </td> </tr>
+	</table>
+
+	<table border=0 width=100%>
+		<tr> <th colspan=2> General Properties </th> </tr>
+	</table>
+
+	<table border=0 width=100%>
+	<tr>
+		<td Class="Caption"> Topic Name: </td>
+		<td> aliasprojectdir </td>
+	</tr>
+
+	<!--> <Table Row Data>
+	<table border=0 width=100%>
+	<tr>
+		<td Class="Caption"> Translation: </td>
+		<td> %projects%VWS_MAGENTO_2_JDE%sl% </td>
+	</tr>
+	</table>
+
+	<div align=right><a href="#top">Return to Top</a> &nbsp;|&nbsp; <a href="#" onclick="javascript:window.print()">Print</a></div>
+	<br>	
+
+		<a name="JDEWSInventoryManagerEndpoint" </a>
+	<table>
+		<tr> <td colspan=2> <b>JDEWSInventoryManagerEndpoint </b> </td> </tr>
+	</table>
+
+	<table border=0 width=100%>
+		<tr> <th colspan=2> General Properties </th> </tr>
+	</table>
+
+	<table border=0 width=100%>
+	<tr>
+		<td Class="Caption"> Topic Name: </td>
+		<td> JDEWSInventoryManagerEndpoint </td>
+	</tr>
+
+	<!--> <Table Row Data>
+	<table border=0 width=100%>
+	<tr>
+		<td Class="Caption"> Translation: </td>
+		<td> https://%EnvJDEsite%.oracleoutsourcing.com/%EnvJDEpath%/InventoryManager </td>
+	</tr>
+	</table>
+
+	<div align=right><a href="#top">Return to Top</a> &nbsp;|&nbsp; <a href="#" onclick="javascript:window.print()">Print</a></div>
+	<br>	
+
+		<a name="JDEWSSalesOrderManagerEndpoint" </a>
+	<table>
+		<tr> <td colspan=2> <b>JDEWSSalesOrderManagerEndpoint </b> </td> </tr>
+	</table>
+
+	<table border=0 width=100%>
+		<tr> <th colspan=2> General Properties </th> </tr>
+	</table>
+
+	<table border=0 width=100%>
+	<tr>
+		<td Class="Caption"> Topic Name: </td>
+		<td> JDEWSSalesOrderManagerEndpoint </td>
+	</tr>
+
+	<!--> <Table Row Data>
+	<table border=0 width=100%>
+	<tr>
+		<td Class="Caption"> Translation: </td>
+		<td> https://%EnvJDEsite%.oracleoutsourcing.com/%EnvJDEpath%/SalesOrderManager </td>
+	</tr>
+	</table>
+
+	<div align=right><a href="#top">Return to Top</a> &nbsp;|&nbsp; <a href="#" onclick="javascript:window.print()">Print</a></div>
+	<br>	
+
+		<a name="JDEWSSalesOrderManagerWSDL" </a>
+	<table>
+		<tr> <td colspan=2> <b>JDEWSSalesOrderManagerWSDL </b> </td> </tr>
+	</table>
+
+	<table border=0 width=100%>
+		<tr> <th colspan=2> General Properties </th> </tr>
+	</table>
+
+	<table border=0 width=100%>
+	<tr>
+		<td Class="Caption"> Topic Name: </td>
+		<td> JDEWSSalesOrderManagerWSDL </td>
+	</tr>
+
+	<!--> <Table Row Data>
+	<table border=0 width=100%>
+	<tr>
+		<td Class="Caption"> Translation: </td>
+		<td> %JDEWSSalesOrderManagerEndpoint%?WSDL </td>
+	</tr>
+	</table>
+
+	<div align=right><a href="#top">Return to Top</a> &nbsp;|&nbsp; <a href="#" onclick="javascript:window.print()">Print</a></div>
+	<br>	
+
+		<a name="JDEWSInventoryManagerWSDL" </a>
+	<table>
+		<tr> <td colspan=2> <b>JDEWSInventoryManagerWSDL </b> </td> </tr>
+	</table>
+
+	<table border=0 width=100%>
+		<tr> <th colspan=2> General Properties </th> </tr>
+	</table>
+
+	<table border=0 width=100%>
+	<tr>
+		<td Class="Caption"> Topic Name: </td>
+		<td> JDEWSInventoryManagerWSDL </td>
+	</tr>
+
+	<!--> <Table Row Data>
+	<table border=0 width=100%>
+	<tr>
+		<td Class="Caption"> Translation: </td>
+		<td> %JDEWSInventoryManagerEndpoint%?WSDL </td>
+	</tr>
+	</table>
+
+	<div align=right><a href="#top">Return to Top</a> &nbsp;|&nbsp; <a href="#" onclick="javascript:window.print()">Print</a></div>
+	<br>	
+
+		<a name="PREFIX" </a>
+	<table>
+		<tr> <td colspan=2> <b>PREFIX </b> </td> </tr>
+	</table>
+
+	<table border=0 width=100%>
+		<tr> <th colspan=2> General Properties </th> </tr>
+	</table>
+
+	<table border=0 width=100%>
+	<tr>
+		<td Class="Caption"> Topic Name: </td>
+		<td> PREFIX </td>
+	</tr>
+
+	<!--> <Table Row Data>
+	<table border=0 width=100%>
+	<tr>
+		<td Class="Caption"> Translation: </td>
+		<td>  </td>
+	</tr>
+	</table>
+
+	<div align=right><a href="#top">Return to Top</a> &nbsp;|&nbsp; <a href="#" onclick="javascript:window.print()">Print</a></div>
+	<br>	
+
+		<a name="DB_SERVER_NAME" </a>
+	<table>
+		<tr> <td colspan=2> <b>DB_SERVER_NAME </b> </td> </tr>
+	</table>
+
+	<table border=0 width=100%>
+		<tr> <th colspan=2> General Properties </th> </tr>
+	</table>
+
+	<table border=0 width=100%>
+	<tr>
+		<td Class="Caption"> Topic Name: </td>
+		<td> DB_SERVER_NAME </td>
+	</tr>
+
+	<!--> <Table Row Data>
+	<table border=0 width=100%>
+	<tr>
+		<td Class="Caption"> Translation: </td>
+		<td>  </td>
+	</tr>
+	</table>
+
+	<div align=right><a href="#top">Return to Top</a> &nbsp;|&nbsp; <a href="#" onclick="javascript:window.print()">Print</a></div>
+	<br>	
+
+	
+</body>
+
+</HTML>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProjectRepository>
+  <Project>
+    <InternalVer>
+      <row>
+        <Ver>1.0</Ver>
+      </row>
+    </InternalVer>
+    <Properties>
+      <DefaultResourceFile>resources.xml</DefaultResourceFile>
+      <DefaultServiceFile>services.xml</DefaultServiceFile>
+      <iBoltVer>04.50001</iBoltVer>
+      <Name>MGXPI_Back_Office</Name>
+      <Owner>Magic Software Enterprises Ltd</Owner>
+      <Description />
+      <Last_Edited>19/12/2016 4:15:33 PM</Last_Edited>
+      <ProjVer>c3hOcDBPaXlZcjExRkt4Y2piYTV6dz09</ProjVer>
+      <Encoding>West European</Encoding>
+      <ResourceFile>resources.xml</ResourceFile>
+      <ServiceFile>services.xml</ServiceFile>
+      <DebugMode>false</DebugMode>
+      <IsResSerPropChanged>false</IsResSerPropChanged>
+    </Properties>
+    <EnvInfo>
+      <WebMonitor />
+      <ErrMail>
+        <ResourceDescription />
+      </ErrMail>
+    </EnvInfo>
+    <SecurityInfo>
+      <Type>0</Type>
+      <IPPort>0</IPPort>
+      <AuditTrail>0</AuditTrail>
+    </SecurityInfo>
+    <InterCompInfo>
+      <Type>0</Type>
+      <ContextFactory />
+      <URL />
+      <ConnFactoryName />
+      <ReceiveQName />
+      <RequestQName />
+      <User />
+      <Password />
+    </InterCompInfo>
+    <VCInfo>
+      <AUXPath />
+      <isActive>false</isActive>
+      <Provider />
+      <User />
+      <Password />
+      <isOffline>false</isOffline>
+      <ProjName />
+      <ProjPath />
+      <GUID />
+      <LocalProjPath />
+    </VCInfo>
+    <FlowAndBpLastId>
+      <LastFlowId>5</LastFlowId>
+      <LastBpId>1</LastBpId>
+    </FlowAndBpLastId>
+    <ServerSettings>
+      <ClearModeInfo>
+        <ODS>1</ODS>
+        <MSG>1</MSG>
+        <PSS>1</PSS>
+        <LCK>1</LCK>
+      </ClearModeInfo>
+    </ServerSettings>
+  </Project>
+</ProjectRepository>

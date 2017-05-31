@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Flow>
+
+  <Properties>
+    <ID>15</ID>
+    <Order>15</Order>
+    <Name>Get Cde relation</Name>
+    <isInactive>false</isInactive>
+    <isDisabled>false</isDisabled>
+    <isTwoPhase>false</isTwoPhase>
+    <isAutoStart>false</isAutoStart>
+    <MaxInstances>0</MaxInstances>
+    <isAutoRepeat>false</isAutoRepeat>
+    <TimeoutPolicy>6</TimeoutPolicy>
+    <TimeOutVal>0</TimeOutVal>
+    <RecoveryPolicy>6</RecoveryPolicy>
+  </Properties>
+
+  <DrawProperties>
+    <RootStepID>1</RootStepID>
+    <HasTrigger>true</HasTrigger>
+  </DrawProperties>
+
+  <Steps>
+    <row_Step>
+      <Properties>
+        <isGoTo>false</isGoTo>
+        <ParentStepID>0</ParentStepID>
+        <SortOrder>0</SortOrder>
+        <ID>1</ID>
+        <Name>QueryODS</Name>
+        <IFCDefinition>11</IFCDefinition>
+        <ProcessMode>1</ProcessMode>
+        <isTwoPhase>false</isTwoPhase>
+        <isWait4Comp>false</isWait4Comp>
+        <isSavePoint>false</isSavePoint>
+        <CallLogicFlow>false</CallLogicFlow>
+        <isTrigger>false</isTrigger>
+      </Properties>
+      <LoggingInfo>
+        <Scope>0</Scope>
+      </LoggingInfo>
+      <MapperInfo>
+        <DBTransLevel>Mapper</DBTransLevel>
+        <ErrorHandling>Continue</ErrorHandling>
+      </MapperInfo>
+      <iBoltService/>
+    </row_Step>
+  </Steps>
+
+  <Triggers>
+    <row_Trigger>
+      <Properties>
+        <ID>1</ID>
+        <Name>HTTP</Name>
+        <IFCDefinition>110</IFCDefinition>
+        <isTrigger>true</isTrigger>
+      </Properties>
+      <LoggingInfo>
+        <Scope>0</Scope>
+      </LoggingInfo>
+      <ResourceInfo>
+        <isDynamic>false</isDynamic>
+        <ResSerName>JDE SRV</ResSerName>
+      </ResourceInfo>
+      <ConfigInfo>
+        <InvokeComp>%ifclib%http\httpifc.ecf</InvokeComp>
+        <InvokeProg>GetODSCde</InvokeProg>
+        <ActivationBLOB>PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIiA/Pg0KPEh0dHA+DQoNCiAgPE5hbWU+SkRFIFNSVjwvTmFtZT4NCg0KICA8T3BlcmF0aW9uPg0KICAgIDxJRD4xPC9JRD4NCiAgICA8T3BlcmF0aW9uTmFtZT5HZXRPRFNDZGU8L09wZXJhdGlvbk5hbWU+DQogICAgPEFyZ3VtZW50Pg0KICAgICAgPEFyZ3VtZW50SUQ+MTwvQXJndW1lbnRJRD4NCiAgICAgIDxBcmd1bWVudE5hbWU+UGFnaW5hdGlvbjwvQXJndW1lbnROYW1lPg0KICAgICAgPERhdGFUeXBlPk48L0RhdGFUeXBlPg0KICAgICAgPERhdGFUeXBlUGljdHVyZT4xMi40PC9EYXRhVHlwZVBpY3R1cmU+DQogICAgICA8TWFwcGluZ0V4cD4NCiAgICAgICAgPEV4cHJlc3Npb25WYWw+UENNaEpVQWtQbWRsZEZaaGNrNWhiV1VvTVN3bmV6a3hSRFpDT0RoRExVVTFSVVF0TkRZM09DMUJSVUpDTFRWRE5FSkZNakExTWpORU5uMG5MREFzTUNrOEl5RWxRQ1ErPC9FeHByZXNzaW9uVmFsPg0KICAgICAgICA8RXhwZWN0ZWRUeXBlPk48L0V4cGVjdGVkVHlwZT4NCiAgICAgICAgPERpcmVjdGlvbj5PPC9EaXJlY3Rpb24+DQogICAgICA8L01hcHBpbmdFeHA+DQogICAgICA8RGVmYXVsdFZhbHVlLz4NCiAgICAgIDxNYW5kYXRvcnk+MDwvTWFuZGF0b3J5Pg0KICAgIDwvQXJndW1lbnQ+DQogIDwvT3BlcmF0aW9uPg0KDQogIDxSZXR1cm5WYWx1ZUV4cD4NCiAgICA8RXhwcmVzc2lvblZhbD5QQ01oSlVBa1BtZGxkRlpoY2s1aGJXVW9NU3duZXpjM05rRTBNVVV5TFRjNFJEa3RORGN6TWkxQ016Z3pMVGN3TmpNMFFrVXhORE15TTMwbkxEQXNNQ2s4SXlFbFFDUSs8L0V4cHJlc3Npb25WYWw+DQogICAgPEV4cGVjdGVkVHlwZT5CPC9FeHBlY3RlZFR5cGU+DQogICAgPERpcmVjdGlvbj5JPC9EaXJlY3Rpb24+DQogIDwvUmV0dXJuVmFsdWVFeHA+DQoNCjwvSHR0cD4NCg==</ActivationBLOB>
+      </ConfigInfo>
+    </row_Trigger>
+  </Triggers>
+
+</Flow>

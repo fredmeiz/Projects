@@ -1,0 +1,856 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mapper>
+  <MapperOrigin>DataMapperService</MapperOrigin>
+  <SourceSchemas>
+    <Schema d3p1:type="XSDSchema" xmlns:d3p1="http://www.w3.org/2001/XMLSchema-instance">
+      <SchemaID>6</SchemaID>
+      <Order>1</Order>
+      <Name>S2</Name>
+      <Description />
+      <SchemaLocation>Source</SchemaLocation>
+      <SchemaType>XSD</SchemaType>
+      <Fields>
+        <Field d3p1:type="XSDComplexField">
+          <Identifier>magentoOrderLines</Identifier>
+          <Description />
+          <FieldName>magentoOrderLines</FieldName>
+          <NodeType>Complex</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Condition>
+            <ExpectedType>L</ExpectedType>
+            <Direction>I</Direction>
+          </Condition>
+          <ReplicatedCount>0</ReplicatedCount>
+          <MaxInstance>1</MaxInstance>
+          <MultiUpdates />
+          <Filter>
+            <ExpectedType>L</ExpectedType>
+            <Direction>I</Direction>
+          </Filter>
+          <IsMultiSimple>false</IsMultiSimple>
+          <MinInstance>0</MinInstance>
+        </Field>
+        <Field d3p1:type="XSDComplexField">
+          <Identifier>magentoOrderLines/orderItems</Identifier>
+          <Description />
+          <FieldName>orderItems</FieldName>
+          <NodeType>Complex</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Condition>
+            <ExpectedType>L</ExpectedType>
+            <Direction>I</Direction>
+          </Condition>
+          <ReplicatedCount>0</ReplicatedCount>
+          <MaxInstance>0</MaxInstance>
+          <MultiUpdates />
+          <Filter>
+            <ExpectedType>L</ExpectedType>
+            <Direction>I</Direction>
+          </Filter>
+          <IsMultiSimple>false</IsMultiSimple>
+          <MinInstance>0</MinInstance>
+        </Field>
+        <Field d3p1:type="SimpleXSDField">
+          <Identifier>magentoOrderLines/orderItems/sku</Identifier>
+          <Description />
+          <FieldName>sku</FieldName>
+          <NodeType>Simple</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Expression>
+            <ExpectedType />
+            <Direction>I</Direction>
+          </Expression>
+          <MagicFieldType>A</MagicFieldType>
+          <MagicPicture>1000</MagicPicture>
+          <isUnicode>false</isUnicode>
+          <ExternalFieldType>string</ExternalFieldType>
+          <ExternalFieldPicture />
+          <UserPicture>1000</UserPicture>
+          <isNillable>false</isNillable>
+          <AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+          <Required>false</Required>
+          <Condition>
+            <ExpectedType>L</ExpectedType>
+            <Direction>I</Direction>
+          </Condition>
+          <CreateAllways>false</CreateAllways>
+          <MaxInstance>1</MaxInstance>
+          <MinInstance>0</MinInstance>
+        </Field>
+        <Field d3p1:type="SimpleXSDField">
+          <Identifier>magentoOrderLines/orderItems/qty</Identifier>
+          <Description />
+          <FieldName>qty</FieldName>
+          <NodeType>Simple</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Expression>
+            <ExpectedType />
+            <Direction>I</Direction>
+          </Expression>
+          <MagicFieldType>N</MagicFieldType>
+          <MagicPicture>10.2</MagicPicture>
+          <isUnicode>false</isUnicode>
+          <ExternalFieldType>decimal</ExternalFieldType>
+          <ExternalFieldPicture />
+          <UserPicture>10.2</UserPicture>
+          <isNillable>false</isNillable>
+          <AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+          <Required>false</Required>
+          <Condition>
+            <ExpectedType>L</ExpectedType>
+            <Direction>I</Direction>
+          </Condition>
+          <CreateAllways>false</CreateAllways>
+          <MaxInstance>1</MaxInstance>
+          <MinInstance>0</MinInstance>
+        </Field>
+        <Field d3p1:type="SimpleXSDField">
+          <Identifier>magentoOrderLines/orderItems/price</Identifier>
+          <Description />
+          <FieldName>price</FieldName>
+          <NodeType>Simple</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Expression>
+            <ExpectedType />
+            <Direction>I</Direction>
+          </Expression>
+          <MagicFieldType>N</MagicFieldType>
+          <MagicPicture>10.2</MagicPicture>
+          <isUnicode>false</isUnicode>
+          <ExternalFieldType>decimal</ExternalFieldType>
+          <ExternalFieldPicture />
+          <UserPicture>10.2</UserPicture>
+          <isNillable>false</isNillable>
+          <AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+          <Required>false</Required>
+          <Condition>
+            <ExpectedType>L</ExpectedType>
+            <Direction>I</Direction>
+          </Condition>
+          <CreateAllways>false</CreateAllways>
+          <MaxInstance>1</MaxInstance>
+          <MinInstance>0</MinInstance>
+        </Field>
+      </Fields>
+      <XSD>
+        <XSDSubType>File</XSDSubType>
+        <IFCModel />
+        <XsdFileName>Files\schemas\magentoOrderLinesDataMapper.xsd</XsdFileName>
+        <RootSelected>magentoOrderLines</RootSelected>
+        <isAppend>false</isAppend>
+        <isValidation>false</isValidation>
+        <RecursionDepth>1</RecursionDepth>
+        <AlwaysCreateNodes>false</AlwaysCreateNodes>
+        <DataDestination>Variable</DataDestination>
+        <DataExp>
+          <ExpressionVal>PCMhJUAkPmdldFZhck5hbWUoMSwnezI3QUJBRTg0LTlBRDEtNDQxMi04MkMxLTlFN0ExOUJGRTg3RH0nLDAsMCk8IyElQCQ+</ExpressionVal>
+          <RuntimeExpression>R2V0UGFyYW0gKCcwMDAwMDAwMDAwMDIwMDAwMDAwMDAwMDNGLk1hZ2VudG9PcmRlckxpbmVzJyk=</RuntimeExpression>
+          <ExpectedType>B</ExpectedType>
+          <Direction>I</Direction>
+        </DataExp>
+        <xmlFileEncoding>Project Encoding</xmlFileEncoding>
+        <UseStreamingParser>false</UseStreamingParser>
+        <TargetNamespace />
+        <NameSpaces />
+        <DataFormats />
+      </XSD>
+    </Schema>
+    <Schema d3p1:type="XSDSchema" xmlns:d3p1="http://www.w3.org/2001/XMLSchema-instance">
+      <SchemaID>7</SchemaID>
+      <Order>2</Order>
+      <Name>S1</Name>
+      <Description />
+      <SchemaLocation>Source</SchemaLocation>
+      <SchemaType>XSD</SchemaType>
+      <Fields>
+        <Field d3p1:type="XSDComplexField">
+          <Identifier>magentoCreateOrder</Identifier>
+          <Description />
+          <FieldName>magentoCreateOrder</FieldName>
+          <NodeType>Complex</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Condition>
+            <ExpectedType>L</ExpectedType>
+            <Direction>I</Direction>
+          </Condition>
+          <ReplicatedCount>0</ReplicatedCount>
+          <MaxInstance>1</MaxInstance>
+          <MultiUpdates />
+          <Filter>
+            <ExpectedType>L</ExpectedType>
+            <Direction>I</Direction>
+          </Filter>
+          <IsMultiSimple>false</IsMultiSimple>
+          <MinInstance>0</MinInstance>
+        </Field>
+        <Field d3p1:type="SimpleXSDField">
+          <Identifier>magentoCreateOrder/orderId</Identifier>
+          <Description />
+          <FieldName>orderId</FieldName>
+          <NodeType>Simple</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Expression>
+            <ExpectedType />
+            <Direction>I</Direction>
+          </Expression>
+          <MagicFieldType>A</MagicFieldType>
+          <MagicPicture>1000</MagicPicture>
+          <isUnicode>false</isUnicode>
+          <ExternalFieldType>string</ExternalFieldType>
+          <ExternalFieldPicture />
+          <UserPicture>1000</UserPicture>
+          <isNillable>false</isNillable>
+          <AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+          <Required>false</Required>
+          <Condition>
+            <ExpectedType>L</ExpectedType>
+            <Direction>I</Direction>
+          </Condition>
+          <CreateAllways>false</CreateAllways>
+          <MaxInstance>1</MaxInstance>
+          <MinInstance>0</MinInstance>
+        </Field>
+        <Field d3p1:type="SimpleXSDField">
+          <Identifier>magentoCreateOrder/createdAt</Identifier>
+          <Description />
+          <FieldName>createdAt</FieldName>
+          <NodeType>Simple</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Expression>
+            <ExpectedType />
+            <Direction>I</Direction>
+          </Expression>
+          <MagicFieldType>D</MagicFieldType>
+          <MagicPicture>YYYY-MM-DD</MagicPicture>
+          <isUnicode>false</isUnicode>
+          <ExternalFieldType>date</ExternalFieldType>
+          <ExternalFieldPicture />
+          <UserPicture>YYYY-MM-DD</UserPicture>
+          <isNillable>false</isNillable>
+          <AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+          <Required>false</Required>
+          <Condition>
+            <ExpectedType>L</ExpectedType>
+            <Direction>I</Direction>
+          </Condition>
+          <CreateAllways>false</CreateAllways>
+          <MaxInstance>1</MaxInstance>
+          <MinInstance>0</MinInstance>
+        </Field>
+        <Field d3p1:type="SimpleXSDField">
+          <Identifier>magentoCreateOrder/shippingId</Identifier>
+          <Description />
+          <FieldName>shippingId</FieldName>
+          <NodeType>Simple</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Expression>
+            <ExpectedType />
+            <Direction>I</Direction>
+          </Expression>
+          <MagicFieldType>A</MagicFieldType>
+          <MagicPicture>1000</MagicPicture>
+          <isUnicode>false</isUnicode>
+          <ExternalFieldType>string</ExternalFieldType>
+          <ExternalFieldPicture />
+          <UserPicture>1000</UserPicture>
+          <isNillable>false</isNillable>
+          <AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+          <Required>false</Required>
+          <Condition>
+            <ExpectedType>L</ExpectedType>
+            <Direction>I</Direction>
+          </Condition>
+          <CreateAllways>false</CreateAllways>
+          <MaxInstance>1</MaxInstance>
+          <MinInstance>0</MinInstance>
+        </Field>
+        <Field d3p1:type="SimpleXSDField">
+          <Identifier>magentoCreateOrder/orderCurrencyCode</Identifier>
+          <Description />
+          <FieldName>orderCurrencyCode</FieldName>
+          <NodeType>Simple</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Expression>
+            <ExpectedType />
+            <Direction>I</Direction>
+          </Expression>
+          <MagicFieldType>A</MagicFieldType>
+          <MagicPicture>1000</MagicPicture>
+          <isUnicode>false</isUnicode>
+          <ExternalFieldType>string</ExternalFieldType>
+          <ExternalFieldPicture />
+          <UserPicture>1000</UserPicture>
+          <isNillable>false</isNillable>
+          <AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+          <Required>false</Required>
+          <Condition>
+            <ExpectedType>L</ExpectedType>
+            <Direction>I</Direction>
+          </Condition>
+          <CreateAllways>false</CreateAllways>
+          <MaxInstance>1</MaxInstance>
+          <MinInstance>0</MinInstance>
+        </Field>
+      </Fields>
+      <XSD>
+        <XSDSubType>File</XSDSubType>
+        <IFCModel />
+        <XsdFileName>Files\schemas\magentoOrderDataMapper.xsd</XsdFileName>
+        <RootSelected>magentoCreateOrder</RootSelected>
+        <isAppend>false</isAppend>
+        <isValidation>false</isValidation>
+        <RecursionDepth>1</RecursionDepth>
+        <AlwaysCreateNodes>false</AlwaysCreateNodes>
+        <DataDestination>Variable</DataDestination>
+        <DataExp>
+          <ExpressionVal>PCMhJUAkPmdldFZhck5hbWUoMiwnezVGMzlFQzFDLTcyN0YtNDQ2MS04NUNDLTUzMTg1OUM3MzlERn0nLDAsMCk8IyElQCQ+</ExpressionVal>
+          <RuntimeExpression>R2V0UGFyYW0gKCdDLm1hZ1RyaWdnZXJEYXRhJyk=</RuntimeExpression>
+          <ExpectedType>B</ExpectedType>
+          <Direction>I</Direction>
+        </DataExp>
+        <xmlFileEncoding>Project Encoding</xmlFileEncoding>
+        <UseStreamingParser>false</UseStreamingParser>
+        <TargetNamespace />
+        <NameSpaces />
+        <DataFormats />
+      </XSD>
+    </Schema>
+  </SourceSchemas>
+  <DestinationSchemas>
+    <Schema d3p1:type="TemplateSchema" xmlns:d3p1="http://www.w3.org/2001/XMLSchema-instance">
+      <SchemaID>8</SchemaID>
+      <Order>1</Order>
+      <Name>D2</Name>
+      <Description />
+      <SchemaLocation>Destination</SchemaLocation>
+      <SchemaType>Template</SchemaType>
+      <Fields>
+        <Field d3p1:type="ComplexField">
+          <Identifier>Root</Identifier>
+          <Description />
+          <FieldName>Root</FieldName>
+          <NodeType>Complex</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Condition>
+            <ExpectedType>L</ExpectedType>
+            <Direction>I</Direction>
+          </Condition>
+          <ReplicatedCount>0</ReplicatedCount>
+          <MaxInstance>0</MaxInstance>
+          <MultiUpdates />
+        </Field>
+        <Field d3p1:type="FieldTemplate">
+          <Identifier>Root/JDEUSER</Identifier>
+          <Description />
+          <FieldName>JDEUSER</FieldName>
+          <NodeType>Simple</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Expression>
+            <ExpressionVal>RW52VmFsICgnSkRFdXNlcicp</ExpressionVal>
+            <RuntimeExpression>RW52VmFsICgnSkRFdXNlcicp</RuntimeExpression>
+            <ExpectedType>A</ExpectedType>
+            <Direction>I</Direction>
+          </Expression>
+          <MagicFieldType>A</MagicFieldType>
+          <MagicPicture>1000</MagicPicture>
+          <isUnicode>false</isUnicode>
+          <UserPicture>1000</UserPicture>
+          <isNillable>false</isNillable>
+          <AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+        </Field>
+        <Field d3p1:type="FieldTemplate">
+          <Identifier>Root/JDEPASSWORD</Identifier>
+          <Description />
+          <FieldName>JDEPASSWORD</FieldName>
+          <NodeType>Simple</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Expression>
+            <ExpressionVal>RW52VmFsICgnSkRFUGFzc3dvcmQnKQ==</ExpressionVal>
+            <RuntimeExpression>RW52VmFsICgnSkRFUGFzc3dvcmQnKQ==</RuntimeExpression>
+            <ExpectedType>A</ExpectedType>
+            <Direction>I</Direction>
+          </Expression>
+          <MagicFieldType>A</MagicFieldType>
+          <MagicPicture>1000</MagicPicture>
+          <isUnicode>false</isUnicode>
+          <UserPicture>1000</UserPicture>
+          <isNillable>false</isNillable>
+          <AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+        </Field>
+        <Field d3p1:type="FieldTemplate">
+          <Identifier>Root/BusinessUnit</Identifier>
+          <Description />
+          <FieldName>BusinessUnit</FieldName>
+          <NodeType>Simple</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Expression>
+            <ExpressionVal>RW52VmFsICgnSkRFQnJhbmNoUGxhbnQnKQ==</ExpressionVal>
+            <RuntimeExpression>RW52VmFsICgnSkRFQnJhbmNoUGxhbnQnKQ==</RuntimeExpression>
+            <ExpectedType>A</ExpectedType>
+            <Direction>I</Direction>
+          </Expression>
+          <MagicFieldType>A</MagicFieldType>
+          <MagicPicture>1000</MagicPicture>
+          <isUnicode>false</isUnicode>
+          <UserPicture>1000</UserPicture>
+          <isNillable>false</isNillable>
+          <AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+        </Field>
+        <Field d3p1:type="FieldTemplate">
+          <Identifier>Root/Company</Identifier>
+          <Description />
+          <FieldName>Company</FieldName>
+          <NodeType>Simple</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Expression>
+            <ExpressionVal>RW52VmFsICgnSkRFQ29tcGFueScp</ExpressionVal>
+            <RuntimeExpression>RW52VmFsICgnSkRFQ29tcGFueScp</RuntimeExpression>
+            <ExpectedType>A</ExpectedType>
+            <Direction>I</Direction>
+          </Expression>
+          <MagicFieldType>A</MagicFieldType>
+          <MagicPicture>1000</MagicPicture>
+          <isUnicode>false</isUnicode>
+          <UserPicture>1000</UserPicture>
+          <isNillable>false</isNillable>
+          <AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+        </Field>
+        <Field d3p1:type="FieldTemplate">
+          <Identifier>Root/currencyCodeTo</Identifier>
+          <Description />
+          <FieldName>currencyCodeTo</FieldName>
+          <NodeType>Simple</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Expression>
+            <ExpectedType />
+            <Direction>I</Direction>
+          </Expression>
+          <MagicFieldType>A</MagicFieldType>
+          <MagicPicture>1000</MagicPicture>
+          <isUnicode>false</isUnicode>
+          <UserPicture>1000</UserPicture>
+          <isNillable>false</isNillable>
+          <AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+        </Field>
+        <Field d3p1:type="FieldTemplate">
+          <Identifier>Root/CustomerPO</Identifier>
+          <Description />
+          <FieldName>CustomerPO</FieldName>
+          <NodeType>Simple</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Expression>
+            <ExpressionVal>VVRGOEZyb21BbnNpICggPCMhJUAkPmdldFZhck5hbWUoMSwnezcwNUQxN0U0LTU1RjEtNENCMS1BQzA1LTY0N0IwNUVBRDRGOH0nLDAsMCk8IyElQCQ+ICk=</ExpressionVal>
+            <RuntimeExpression>VVRGOEZyb21BbnNpICggR2V0UGFyYW0gKCcwMDAwMDAwMDAwMDIwMDAwMDAwMDAwMDNGLnN6UmVmZXJlbmNlJykgKQ==</RuntimeExpression>
+            <ExpectedType>A</ExpectedType>
+            <Direction>I</Direction>
+          </Expression>
+          <MagicFieldType>A</MagicFieldType>
+          <MagicPicture>1000</MagicPicture>
+          <isUnicode>false</isUnicode>
+          <UserPicture>1000</UserPicture>
+          <isNillable>false</isNillable>
+          <AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+        </Field>
+        <Field d3p1:type="FieldTemplate">
+          <Identifier>Root/AdjustmentScheduleCode</Identifier>
+          <Description />
+          <FieldName>AdjustmentScheduleCode</FieldName>
+          <NodeType>Simple</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Expression>
+            <ExpressionVal>RW52VmFsICgnSkRFUHJpY2luZ0FkanVzdG1lbnRTY2hlZHVsZScp</ExpressionVal>
+            <RuntimeExpression>RW52VmFsICgnSkRFUHJpY2luZ0FkanVzdG1lbnRTY2hlZHVsZScp</RuntimeExpression>
+            <ExpectedType>A</ExpectedType>
+            <Direction>I</Direction>
+          </Expression>
+          <MagicFieldType>A</MagicFieldType>
+          <MagicPicture>1000</MagicPicture>
+          <isUnicode>false</isUnicode>
+          <UserPicture>1000</UserPicture>
+          <isNillable>false</isNillable>
+          <AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+        </Field>
+        <Field d3p1:type="FieldTemplate">
+          <Identifier>Root/CustomerPriceGroupCode</Identifier>
+          <Description />
+          <FieldName>CustomerPriceGroupCode</FieldName>
+          <NodeType>Simple</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Expression>
+            <ExpressionVal>RW52VmFsICgnSkRFQ3VzdG9tZXJQcmljZUdyb3VwQ29kZScp</ExpressionVal>
+            <RuntimeExpression>RW52VmFsICgnSkRFQ3VzdG9tZXJQcmljZUdyb3VwQ29kZScp</RuntimeExpression>
+            <ExpectedType>A</ExpectedType>
+            <Direction>I</Direction>
+          </Expression>
+          <MagicFieldType>A</MagicFieldType>
+          <MagicPicture>1000</MagicPicture>
+          <isUnicode>false</isUnicode>
+          <UserPicture>1000</UserPicture>
+          <isNillable>false</isNillable>
+          <AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+        </Field>
+        <Field d3p1:type="FieldTemplate">
+          <Identifier>Root/dateOrdered</Identifier>
+          <Description />
+          <FieldName>dateOrdered</FieldName>
+          <NodeType>Simple</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Expression>
+            <ExpectedType />
+            <Direction>I</Direction>
+          </Expression>
+          <MagicFieldType>A</MagicFieldType>
+          <MagicPicture>1000</MagicPicture>
+          <isUnicode>false</isUnicode>
+          <UserPicture>1000</UserPicture>
+          <isNillable>false</isNillable>
+          <AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+        </Field>
+        <Field d3p1:type="FieldTemplate">
+          <Identifier>Root/dateRequested</Identifier>
+          <Description>Today + 2 days</Description>
+          <FieldName>dateRequested</FieldName>
+          <NodeType>Simple</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Expression>
+            <ExpressionVal>RFN0ciAoRGF0ZSAoKSsyLCdZWVlZLU1NLUREJyk=</ExpressionVal>
+            <RuntimeExpression>RFN0ciAoRGF0ZSAoKSsyLCdZWVlZLU1NLUREJyk=</RuntimeExpression>
+            <ExpectedType>A</ExpectedType>
+            <Direction>I</Direction>
+          </Expression>
+          <MagicFieldType>A</MagicFieldType>
+          <MagicPicture>1000</MagicPicture>
+          <isUnicode>false</isUnicode>
+          <UserPicture>1000</UserPicture>
+          <isNillable>false</isNillable>
+          <AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+        </Field>
+        <Field d3p1:type="ComplexField">
+          <Identifier>Root/Repeat1</Identifier>
+          <Description />
+          <FieldName>Repeat1</FieldName>
+          <NodeType>Complex</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Condition>
+            <ExpectedType>L</ExpectedType>
+            <Direction>I</Direction>
+          </Condition>
+          <ReplicatedCount>0</ReplicatedCount>
+          <MaxInstance>0</MaxInstance>
+          <MultiUpdates />
+        </Field>
+        <Field d3p1:type="FieldTemplate">
+          <Identifier>Root/Repeat1/itemProduct</Identifier>
+          <Description />
+          <FieldName>itemProduct</FieldName>
+          <NodeType>Simple</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Expression>
+            <ExpectedType />
+            <Direction>I</Direction>
+          </Expression>
+          <MagicFieldType>A</MagicFieldType>
+          <MagicPicture>1000</MagicPicture>
+          <isUnicode>false</isUnicode>
+          <UserPicture>1000</UserPicture>
+          <isNillable>false</isNillable>
+          <AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+        </Field>
+        <Field d3p1:type="FieldTemplate">
+          <Identifier>Root/Repeat1/quantityOrdered</Identifier>
+          <Description />
+          <FieldName>quantityOrdered</FieldName>
+          <NodeType>Simple</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Expression>
+            <ExpectedType />
+            <Direction>I</Direction>
+          </Expression>
+          <MagicFieldType>A</MagicFieldType>
+          <MagicPicture>1000</MagicPicture>
+          <isUnicode>false</isUnicode>
+          <UserPicture>1000</UserPicture>
+          <isNillable>false</isNillable>
+          <AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+        </Field>
+        <Field d3p1:type="FieldTemplate">
+          <Identifier>Root/Repeat1/priceUnitDomestic</Identifier>
+          <Description />
+          <FieldName>priceUnitDomestic</FieldName>
+          <NodeType>Simple</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Expression>
+            <ExpectedType />
+            <Direction>I</Direction>
+          </Expression>
+          <MagicFieldType>A</MagicFieldType>
+          <MagicPicture>1000</MagicPicture>
+          <isUnicode>false</isUnicode>
+          <UserPicture>1000</UserPicture>
+          <isNillable>false</isNillable>
+          <AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+        </Field>
+        <Field d3p1:type="FieldTemplate">
+          <Identifier>Root/Repeat1/userReservedAmount</Identifier>
+          <Description />
+          <FieldName>userReservedAmount</FieldName>
+          <NodeType>Simple</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Expression>
+            <ExpectedType />
+            <Direction>I</Direction>
+          </Expression>
+          <MagicFieldType>A</MagicFieldType>
+          <MagicPicture>1000</MagicPicture>
+          <isUnicode>false</isUnicode>
+          <UserPicture>1000</UserPicture>
+          <isNillable>false</isNillable>
+          <AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+        </Field>
+        <Field d3p1:type="FieldTemplate">
+          <Identifier>Root/OrderTakenBy</Identifier>
+          <Description />
+          <FieldName>OrderTakenBy</FieldName>
+          <NodeType>Simple</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Expression>
+            <ExpressionVal>RW52VmFsICgnSkRFdXNlcicp</ExpressionVal>
+            <RuntimeExpression>RW52VmFsICgnSkRFdXNlcicp</RuntimeExpression>
+            <ExpectedType>A</ExpectedType>
+            <Direction>I</Direction>
+          </Expression>
+          <MagicFieldType>A</MagicFieldType>
+          <MagicPicture>1000</MagicPicture>
+          <isUnicode>false</isUnicode>
+          <UserPicture>1000</UserPicture>
+          <isNillable>false</isNillable>
+          <AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+        </Field>
+        <Field d3p1:type="FieldTemplate">
+          <Identifier>Root/processingVersion</Identifier>
+          <Description />
+          <FieldName>processingVersion</FieldName>
+          <NodeType>Simple</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Expression>
+            <ExpressionVal>RW52VmFsICgnSkRFUHJvY2Vzc2luZ1ZlcnNpb24nKQ==</ExpressionVal>
+            <RuntimeExpression>RW52VmFsICgnSkRFUHJvY2Vzc2luZ1ZlcnNpb24nKQ==</RuntimeExpression>
+            <ExpectedType>A</ExpectedType>
+            <Direction>I</Direction>
+          </Expression>
+          <MagicFieldType>A</MagicFieldType>
+          <MagicPicture>1000</MagicPicture>
+          <isUnicode>false</isUnicode>
+          <UserPicture>1000</UserPicture>
+          <isNillable>false</isNillable>
+          <AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+        </Field>
+        <Field d3p1:type="FieldTemplate">
+          <Identifier>Root/documentCompany</Identifier>
+          <Description />
+          <FieldName>documentCompany</FieldName>
+          <NodeType>Simple</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Expression>
+            <ExpressionVal>RW52VmFsICgnSkRFQ29tcGFueScp</ExpressionVal>
+            <RuntimeExpression>RW52VmFsICgnSkRFQ29tcGFueScp</RuntimeExpression>
+            <ExpectedType>A</ExpectedType>
+            <Direction>I</Direction>
+          </Expression>
+          <MagicFieldType>A</MagicFieldType>
+          <MagicPicture>1000</MagicPicture>
+          <isUnicode>false</isUnicode>
+          <UserPicture>1000</UserPicture>
+          <isNillable>false</isNillable>
+          <AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+        </Field>
+        <Field d3p1:type="FieldTemplate">
+          <Identifier>Root/documentTypeCode</Identifier>
+          <Description />
+          <FieldName>documentTypeCode</FieldName>
+          <NodeType>Simple</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Expression>
+            <ExpressionVal>RW52VmFsICgnSkRFT3JkZXJUeXBlJyk=</ExpressionVal>
+            <RuntimeExpression>RW52VmFsICgnSkRFT3JkZXJUeXBlJyk=</RuntimeExpression>
+            <ExpectedType>A</ExpectedType>
+            <Direction>I</Direction>
+          </Expression>
+          <MagicFieldType>A</MagicFieldType>
+          <MagicPicture>1000</MagicPicture>
+          <isUnicode>false</isUnicode>
+          <UserPicture>1000</UserPicture>
+          <isNillable>false</isNillable>
+          <AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+        </Field>
+        <Field d3p1:type="FieldTemplate">
+          <Identifier>Root/shipToentityId</Identifier>
+          <Description />
+          <FieldName>shipToentityId</FieldName>
+          <NodeType>Simple</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Expression>
+            <ExpectedType />
+            <Direction>I</Direction>
+          </Expression>
+          <MagicFieldType>A</MagicFieldType>
+          <MagicPicture>1000</MagicPicture>
+          <isUnicode>false</isUnicode>
+          <UserPicture>1000</UserPicture>
+          <isNillable>false</isNillable>
+          <AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+        </Field>
+        <Field d3p1:type="FieldTemplate">
+          <Identifier>Root/userReservedReference</Identifier>
+          <Description />
+          <FieldName>userReservedReference</FieldName>
+          <NodeType>Simple</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Expression>
+            <ExpectedType />
+            <Direction>I</Direction>
+          </Expression>
+          <MagicFieldType>A</MagicFieldType>
+          <MagicPicture>1000</MagicPicture>
+          <isUnicode>false</isUnicode>
+          <UserPicture>1000</UserPicture>
+          <isNillable>false</isNillable>
+          <AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+        </Field>
+      </Fields>
+      <Template>
+        <TplFile>document\Template JDE processSalesOrderV5.tpl</TplFile>
+        <DataDestination>Variable</DataDestination>
+        <DataExp>
+          <ExpressionVal>PCMhJUAkPmdldFZhck5hbWUoMSwnezE0N0JDMTZFLUMwRTEtNDdERS04MzY2LUE3NDVCQjUwQzZDM30nLDAsMCk8IyElQCQ+</ExpressionVal>
+          <RuntimeExpression>U2V0UGFyYW0gKCcwMDAwMDAwMDAwMDIwMDAwMDAwMDAwMDNGLkpERVdTU2FsZXNJTicsPCRNR19WQUxVRSQ+KQ==</RuntimeExpression>
+          <ExpectedType>B</ExpectedType>
+          <Direction>O</Direction>
+        </DataExp>
+        <isUnicode>true</isUnicode>
+        <Append>false</Append>
+      </Template>
+    </Schema>
+  </DestinationSchemas>
+  <Connections>
+    <ConnectionData>
+      <SourceIdentifier>magentoCreateOrder</SourceIdentifier>
+      <SourceSchemaID>7</SourceSchemaID>
+      <DestinationIdentifier>Root</DestinationIdentifier>
+      <DestinationSchemaID>8</DestinationSchemaID>
+    </ConnectionData>
+    <ConnectionData>
+      <SourceIdentifier>magentoCreateOrder/orderCurrencyCode</SourceIdentifier>
+      <SourceSchemaID>7</SourceSchemaID>
+      <DestinationIdentifier>Root/currencyCodeTo</DestinationIdentifier>
+      <DestinationSchemaID>8</DestinationSchemaID>
+    </ConnectionData>
+    <ConnectionData>
+      <SourceIdentifier>magentoCreateOrder/createdAt</SourceIdentifier>
+      <SourceSchemaID>7</SourceSchemaID>
+      <DestinationIdentifier>Root/dateOrdered</DestinationIdentifier>
+      <DestinationSchemaID>8</DestinationSchemaID>
+    </ConnectionData>
+    <ConnectionData>
+      <SourceIdentifier>magentoOrderLines/orderItems</SourceIdentifier>
+      <SourceSchemaID>6</SourceSchemaID>
+      <DestinationIdentifier>Root/Repeat1</DestinationIdentifier>
+      <DestinationSchemaID>8</DestinationSchemaID>
+    </ConnectionData>
+    <ConnectionData>
+      <SourceIdentifier>magentoOrderLines/orderItems/sku</SourceIdentifier>
+      <SourceSchemaID>6</SourceSchemaID>
+      <DestinationIdentifier>Root/Repeat1/itemProduct</DestinationIdentifier>
+      <DestinationSchemaID>8</DestinationSchemaID>
+    </ConnectionData>
+    <ConnectionData>
+      <SourceIdentifier>magentoOrderLines/orderItems/qty</SourceIdentifier>
+      <SourceSchemaID>6</SourceSchemaID>
+      <DestinationIdentifier>Root/Repeat1/quantityOrdered</DestinationIdentifier>
+      <DestinationSchemaID>8</DestinationSchemaID>
+    </ConnectionData>
+    <ConnectionData>
+      <SourceIdentifier>magentoOrderLines/orderItems/price</SourceIdentifier>
+      <SourceSchemaID>6</SourceSchemaID>
+      <DestinationIdentifier>Root/Repeat1/priceUnitDomestic</DestinationIdentifier>
+      <DestinationSchemaID>8</DestinationSchemaID>
+    </ConnectionData>
+    <ConnectionData>
+      <SourceIdentifier>magentoOrderLines/orderItems/price</SourceIdentifier>
+      <SourceSchemaID>6</SourceSchemaID>
+      <DestinationIdentifier>Root/Repeat1/userReservedAmount</DestinationIdentifier>
+      <DestinationSchemaID>8</DestinationSchemaID>
+    </ConnectionData>
+    <ConnectionData>
+      <SourceIdentifier>magentoCreateOrder/shippingId</SourceIdentifier>
+      <SourceSchemaID>7</SourceSchemaID>
+      <DestinationIdentifier>Root/shipToentityId</DestinationIdentifier>
+      <DestinationSchemaID>8</DestinationSchemaID>
+    </ConnectionData>
+    <ConnectionData>
+      <SourceIdentifier>magentoCreateOrder/orderId</SourceIdentifier>
+      <SourceSchemaID>7</SourceSchemaID>
+      <DestinationIdentifier>Root/userReservedReference</DestinationIdentifier>
+      <DestinationSchemaID>8</DestinationSchemaID>
+    </ConnectionData>
+  </Connections>
+  <ColorNames>
+    <MapperColorItem>
+      <Color>203</Color>
+      <ColorDescription>Blue</ColorDescription>
+    </MapperColorItem>
+    <MapperColorItem>
+      <Color>205</Color>
+      <ColorDescription>Green</ColorDescription>
+    </MapperColorItem>
+    <MapperColorItem>
+      <Color>206</Color>
+      <ColorDescription>Purple</ColorDescription>
+    </MapperColorItem>
+    <MapperColorItem>
+      <Color>204</Color>
+      <ColorDescription>Yellow</ColorDescription>
+    </MapperColorItem>
+    <MapperColorItem>
+      <Color>202</Color>
+      <ColorDescription>Red</ColorDescription>
+    </MapperColorItem>
+    <MapperColorItem>
+      <Color>210</Color>
+      <ColorDescription>Default</ColorDescription>
+    </MapperColorItem>
+  </ColorNames>
+  <ErrorFlowExpressionVal>PCMhJUAkPmdldEZsb3dOYW1lKDEpPCMhJUAkPg==</ErrorFlowExpressionVal>
+</Mapper>

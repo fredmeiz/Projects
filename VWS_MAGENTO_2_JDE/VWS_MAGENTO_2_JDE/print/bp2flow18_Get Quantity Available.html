@@ -1,0 +1,2309 @@
+<HTML>
+<head>
+	<LINK rel="stylesheet" type="text/css" href="iBOLTPrint.css"
+</head>
+
+<body>
+
+<img src="MagicxpiStrip.jpg" height=150>
+
+<div>
+	<a href="#top"></a>
+	Project: <font size=2><b>VWS_MAGENTO_2_JDE </b></font>
+	&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;
+	<a href="ProjectProperties.html" target="contentFrame"> Properties </a>
+	&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;
+	<a href="#" onclick="javascript:window.print()"> Print </a>
+	<br> <hr> <br>
+
+	<a href="top2_Topology - 1.html"> Magento JDE </a> > Get Quantity Available <hr>
+</div>
+
+<div>
+	<a href="#properties"> Flow Properties </a> <br>
+	<a href="#graphical"> Graphical View </a> <br>
+	<table border=0 width=100%>
+			<tr><td> </td></tr>
+		
+			<tr><td>Flow Variables </td></tr>
+					<tr><td>&nbsp;&nbsp;&nbsp; <a href="#F.BeginDoc_OUT"> F.BeginDoc_OUT  </a> </td></tr>
+					<tr><td>&nbsp;&nbsp;&nbsp; <a href="#F.JDEFAULTTEST"> F.JDEFAULTTEST  </a> </td></tr>
+					<tr><td>&nbsp;&nbsp;&nbsp; <a href="#F.JDEGetQuantityAvailable_Faul"> F.JDEGetQuantityAvailable_Faul  </a> </td></tr>
+					<tr><td>&nbsp;&nbsp;&nbsp; <a href="#F.JDEGetQuantityAvailable_IN"> F.JDEGetQuantityAvailable_IN  </a> </td></tr>
+					<tr><td>&nbsp;&nbsp;&nbsp; <a href="#F.JDEGetQuantityAvailable_OUT"> F.JDEGetQuantityAvailable_OUT  </a> </td></tr>
+					<tr><td>&nbsp;&nbsp;&nbsp; <a href="#F.MessageBSFNQty"> F.MessageBSFNQty  </a> </td></tr>
+					<tr><td>&nbsp;&nbsp;&nbsp; <a href="#F.MessageBSFNSku"> F.MessageBSFNSku  </a> </td></tr>
+					<tr><td>&nbsp;&nbsp;&nbsp; <a href="#F.MessageDescQty"> F.MessageDescQty  </a> </td></tr>
+					<tr><td>&nbsp;&nbsp;&nbsp; <a href="#F.MessageDescSku"> F.MessageDescSku  </a> </td></tr>
+					<tr><td>&nbsp;&nbsp;&nbsp; <a href="#F.MessageLevelQty"> F.MessageLevelQty  </a> </td></tr>
+					<tr><td>&nbsp;&nbsp;&nbsp; <a href="#F.MessageLevelSku"> F.MessageLevelSku  </a> </td></tr>
+					<tr><td>&nbsp;&nbsp;&nbsp; <a href="#F.errorString"> F.errorString  </a> </td></tr>
+					<tr><td>&nbsp;&nbsp;&nbsp; <a href="#F.mnQuantityAvailable"> F.mnQuantityAvailable  </a> </td></tr>
+					<tr><td>&nbsp;&nbsp;&nbsp; <a href="#F.sku"> F.sku  </a> </td></tr>
+		
+			<tr><td>Flow Errors </td></tr>
+		
+			<tr><td>&nbsp;&nbsp;&nbsp; <a href="#Errors 550 to 550"> Errors 550 to 550  </a> </td></tr>
+		
+			<tr><td>Triggers </td></tr>
+		
+			<tr><td>&nbsp;&nbsp;&nbsp; <a href="#getQuantityAvailable0"> getQuantityAvailable  </a> </td></tr>
+		
+			<tr><td>Steps </td></tr>
+		
+			<tr><td>&nbsp;&nbsp;&nbsp; <a href="#Map Message to JDE WS Call27"> Map Message to JDE WS Call  </a> </td></tr>
+					<tr><td>&nbsp;&nbsp;&nbsp; <a href="#Map WS Response29"> Map WS Response  </a> </td></tr>
+					<tr><td>&nbsp;&nbsp;&nbsp; <a href="#show quantity available36"> show quantity available  </a> </td></tr>
+					<tr><td>&nbsp;&nbsp;&nbsp; <a href="#Request to JDE37"> Request to JDE  </a> </td></tr>
+					<tr><td>&nbsp;&nbsp;&nbsp; <a href="#Response from JDE38"> Response from JDE  </a> </td></tr>
+					<tr><td>&nbsp;&nbsp;&nbsp; <a href="#Call JDE Inventory Manager39"> Call JDE Inventory Manager  </a> </td></tr>
+					<tr><td>&nbsp;&nbsp;&nbsp; <a href="#JDE Fault40"> JDE Fault  </a> </td></tr>
+					<tr><td>&nbsp;&nbsp;&nbsp; <a href="#Return ErrorString41"> Return ErrorString  </a> </td></tr>
+				</table>
+	<br> <hr> <br>
+</div>
+
+
+<a name="properties"> <b><u> Flow Properties </u></b> </a>
+
+<table border=0 width=100%>
+	<tr class=head1> <th> General Properties </th> </tr>
+</table>
+
+<table border=0 width=100%>
+	<tr> <td Class="Caption"> Name: </td> <td> <font size=2>  Get Quantity Available &nbsp; </font> </td> </tr>
+	<tr> <td Class="Caption"> ID: </td> <td>   18 &nbsp; </td> </tr>
+	<tr> <td Class="Caption"> Description: </td> <td>  &nbsp; </td> </tr>
+	<tr> <td Class="Caption"> Flow Enable / Disable: </td> <td> Enabled &nbsp; </td> </tr>
+	<tr> <td Class="Caption"> Flow Active / Inactive: </td> <td> Active &nbsp; </td> </tr>
+	<tr> <td Class="Caption"> Auto Start: </td> <td> No &nbsp; </td> </tr>
+	<tr> <td Class="Caption"> Max Instances: </td> <td> Unlimited &nbsp; </td> </tr>
+	<tr> <td Class="Caption"> Auto Repeat: </td> <td> No &nbsp; </td> </tr>
+	<tr> <td Class="Caption"> Recovery Policy: </td> <td> None &nbsp; </td> </tr>
+	<tr> <td Class="Caption"> Timeout Policy: </td> <td> None &nbsp; </td> <td> Unlimited &nbsp; </td> </tr>
+	<tr> <td Class="Caption"> DB transaction:  </td> <td> No &nbsp; </td> 
+		<td> DB Name:  </td> <td>  &nbsp; </td> </tr>
+	
+	<tr> <th colspan=4> External </th> </tr>
+	<tr> <td Class="Caption"> Error Flow:  </td> <td>  &nbsp; </td> </tr>
+	<tr> <td Class="Caption"> Logic Flow:  </td> <td>  &nbsp; </td> </tr>
+	<tr> <td Class="Caption"> Cleanup Recovery Flow:  </td> <td>  &nbsp; </td> </tr>
+	<tr> <td Class="Caption"> Subscribe Name:  </td> <td>  &nbsp; </td> </tr>
+	<tr> <td Class="Caption"> Subscribe Once:  </td> <td> No &nbsp; </td> </tr>
+		
+	<tr> <th colspan=4> Enablement </th> </tr>
+	<tr> <td Class="Caption"> Activation Type:  </td> <td> Always &nbsp; </td> </tr>
+	<tr> <td Class="Caption"> Selected Option :  </td> <td>  &nbsp; </td> </tr>
+	<tr> <td Class="Caption"> Flow Enablement Dates:  </td> <td>  &nbsp; </td> </tr>
+	<tr> <td Class="Caption"> Flow Enablement Times:  </td> <td>  &nbsp; </td> </tr>
+
+</table>
+
+<div align=right><a href="#top">Return to Top</a> &nbsp;|&nbsp; <a href="#" onclick="javascript:window.print()">Print</a></div>
+
+
+<br><br>
+<!-- ====================== Page Break!	=============================== -->
+<p class="BreakPage"></p>		<!-- This command will make the printer breake a page -->
+<p>
+	<img src="MagicxpiStrip.jpg" height=150></p>
+	<p align=left>Project: <font size=2><b>VWS_MAGENTO_2_JDE </b></font> <br>	<!-- Then (in the new page) output the page header -->
+	<a href="top2_Topology - 1.html"> Magento JDE </a> > Get Quantity Available <br><br>
+</p>
+<!-- ====================== Page Break!	=============================== -->
+
+<a name="graphical"> <b><u> Graphical View </u></b> </a>
+	
+				<table border=0 cellpadding=0 cellspacing=0 width=1024>
+			<tr> <!-- This is a fictive tag: 1 -->
+							<td> <img src="flow18bp2jpeg1.jpg" width="512" height="512"> </td>
+							<td> <img src="flow18bp2jpeg2.jpg" width="512" height="512"> </td>
+						</tr>
+		</table>
+		<div align=right><a href="#top">Return to Top</a> &nbsp;|&nbsp; <a href="#" onclick="javascript:window.print()">Print</a></div>
+
+
+
+
+	<!-- ====================== Page Break!	=============================== -->
+	<p class="BreakPage"></p>		<!-- This command will make the printer breake a page -->
+	<p>
+		<img src="MagicxpiStrip.jpg" height=150></p>
+		<p align=left>Project: <font size=2><b>VWS_MAGENTO_2_JDE </b></font> <br>	<!-- Then (in the new page) output the page header -->
+		Magento JDE > Get Quantity Available <br><br>
+	</p>
+	<span> <b><u> Variables </u></b> </span> <br><br>
+	<!-- ====================== Page Break!	=============================== -->
+
+	
+	<a name="F.BeginDoc_OUT">
+		<b> F.BeginDoc_OUT </b>
+	</a>
+
+	<table border=0 width=100%>
+		<tr class=head1> <th> General Properties </th> </tr>
+	</table>
+
+	<table border=0 width=100%>
+		<tr> <td Class="Caption"> Description: </td> <td>  &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Type: </td> <td> Blob &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Length: </td> <td> 0 &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Default Value: </td> <td>  &nbsp; </td> </tr>
+	</table>
+	
+	<div align=right><a href="#top">Return to Top</a> &nbsp;|&nbsp; <a href="#" onclick="javascript:window.print()">Print</a></div>
+	<br>
+
+	
+	<a name="F.JDEFAULTTEST">
+		<b> F.JDEFAULTTEST </b>
+	</a>
+
+	<table border=0 width=100%>
+		<tr class=head1> <th> General Properties </th> </tr>
+	</table>
+
+	<table border=0 width=100%>
+		<tr> <td Class="Caption"> Description: </td> <td>  &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Type: </td> <td> Alpha &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Length: </td> <td> 500 &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Default Value: </td> <td>  &nbsp; </td> </tr>
+	</table>
+	
+	<div align=right><a href="#top">Return to Top</a> &nbsp;|&nbsp; <a href="#" onclick="javascript:window.print()">Print</a></div>
+	<br>
+
+	
+	<a name="F.JDEGetQuantityAvailable_Faul">
+		<b> F.JDEGetQuantityAvailable_Faul </b>
+	</a>
+
+	<table border=0 width=100%>
+		<tr class=head1> <th> General Properties </th> </tr>
+	</table>
+
+	<table border=0 width=100%>
+		<tr> <td Class="Caption"> Description: </td> <td>  &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Type: </td> <td> Blob &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Length: </td> <td> 0 &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Default Value: </td> <td>  &nbsp; </td> </tr>
+	</table>
+	
+	<div align=right><a href="#top">Return to Top</a> &nbsp;|&nbsp; <a href="#" onclick="javascript:window.print()">Print</a></div>
+	<br>
+
+	
+	<a name="F.JDEGetQuantityAvailable_IN">
+		<b> F.JDEGetQuantityAvailable_IN </b>
+	</a>
+
+	<table border=0 width=100%>
+		<tr class=head1> <th> General Properties </th> </tr>
+	</table>
+
+	<table border=0 width=100%>
+		<tr> <td Class="Caption"> Description: </td> <td>  &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Type: </td> <td> Blob &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Length: </td> <td> 0 &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Default Value: </td> <td>  &nbsp; </td> </tr>
+	</table>
+	
+	<div align=right><a href="#top">Return to Top</a> &nbsp;|&nbsp; <a href="#" onclick="javascript:window.print()">Print</a></div>
+	<br>
+
+	
+	<a name="F.JDEGetQuantityAvailable_OUT">
+		<b> F.JDEGetQuantityAvailable_OUT </b>
+	</a>
+
+	<table border=0 width=100%>
+		<tr class=head1> <th> General Properties </th> </tr>
+	</table>
+
+	<table border=0 width=100%>
+		<tr> <td Class="Caption"> Description: </td> <td>  &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Type: </td> <td> Blob &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Length: </td> <td> 0 &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Default Value: </td> <td>  &nbsp; </td> </tr>
+	</table>
+	
+	<div align=right><a href="#top">Return to Top</a> &nbsp;|&nbsp; <a href="#" onclick="javascript:window.print()">Print</a></div>
+	<br>
+
+			<!-- ====================== Page Break!	=============================== -->
+		<p class="BreakPage"></p>		<!-- This command will make the printer breake a page -->
+		<p>
+			<img src="MagicxpiStrip.jpg" height=150></p>
+			<p align=left>Project: <font size=2><b>VWS_MAGENTO_2_JDE </b></font> <br>	<!-- Then (in the new page) output the page header -->
+			Topology - 1 > Get Quantity Available <br><br>
+		</p>
+		<span> <b><u> Variables </u></b> </span> <br><br>
+		<!-- ====================== Page Break!	=============================== -->
+	
+	<a name="F.MessageBSFNQty">
+		<b> F.MessageBSFNQty </b>
+	</a>
+
+	<table border=0 width=100%>
+		<tr class=head1> <th> General Properties </th> </tr>
+	</table>
+
+	<table border=0 width=100%>
+		<tr> <td Class="Caption"> Description: </td> <td>  &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Type: </td> <td> Blob &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Length: </td> <td> 0 &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Default Value: </td> <td>  &nbsp; </td> </tr>
+	</table>
+	
+	<div align=right><a href="#top">Return to Top</a> &nbsp;|&nbsp; <a href="#" onclick="javascript:window.print()">Print</a></div>
+	<br>
+
+	
+	<a name="F.MessageBSFNSku">
+		<b> F.MessageBSFNSku </b>
+	</a>
+
+	<table border=0 width=100%>
+		<tr class=head1> <th> General Properties </th> </tr>
+	</table>
+
+	<table border=0 width=100%>
+		<tr> <td Class="Caption"> Description: </td> <td>  &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Type: </td> <td> Blob &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Length: </td> <td> 0 &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Default Value: </td> <td>  &nbsp; </td> </tr>
+	</table>
+	
+	<div align=right><a href="#top">Return to Top</a> &nbsp;|&nbsp; <a href="#" onclick="javascript:window.print()">Print</a></div>
+	<br>
+
+	
+	<a name="F.MessageDescQty">
+		<b> F.MessageDescQty </b>
+	</a>
+
+	<table border=0 width=100%>
+		<tr class=head1> <th> General Properties </th> </tr>
+	</table>
+
+	<table border=0 width=100%>
+		<tr> <td Class="Caption"> Description: </td> <td>  &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Type: </td> <td> Alpha &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Length: </td> <td> 30 &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Default Value: </td> <td>  &nbsp; </td> </tr>
+	</table>
+	
+	<div align=right><a href="#top">Return to Top</a> &nbsp;|&nbsp; <a href="#" onclick="javascript:window.print()">Print</a></div>
+	<br>
+
+	
+	<a name="F.MessageDescSku">
+		<b> F.MessageDescSku </b>
+	</a>
+
+	<table border=0 width=100%>
+		<tr class=head1> <th> General Properties </th> </tr>
+	</table>
+
+	<table border=0 width=100%>
+		<tr> <td Class="Caption"> Description: </td> <td>  &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Type: </td> <td> Alpha &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Length: </td> <td> 30 &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Default Value: </td> <td>  &nbsp; </td> </tr>
+	</table>
+	
+	<div align=right><a href="#top">Return to Top</a> &nbsp;|&nbsp; <a href="#" onclick="javascript:window.print()">Print</a></div>
+	<br>
+
+	
+	<a name="F.MessageLevelQty">
+		<b> F.MessageLevelQty </b>
+	</a>
+
+	<table border=0 width=100%>
+		<tr class=head1> <th> General Properties </th> </tr>
+	</table>
+
+	<table border=0 width=100%>
+		<tr> <td Class="Caption"> Description: </td> <td>  &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Type: </td> <td> Numeric &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Length: </td> <td> 12.4 &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Default Value: </td> <td>  &nbsp; </td> </tr>
+	</table>
+	
+	<div align=right><a href="#top">Return to Top</a> &nbsp;|&nbsp; <a href="#" onclick="javascript:window.print()">Print</a></div>
+	<br>
+
+			<!-- ====================== Page Break!	=============================== -->
+		<p class="BreakPage"></p>		<!-- This command will make the printer breake a page -->
+		<p>
+			<img src="MagicxpiStrip.jpg" height=150></p>
+			<p align=left>Project: <font size=2><b>VWS_MAGENTO_2_JDE </b></font> <br>	<!-- Then (in the new page) output the page header -->
+			Topology - 1 > Get Quantity Available <br><br>
+		</p>
+		<span> <b><u> Variables </u></b> </span> <br><br>
+		<!-- ====================== Page Break!	=============================== -->
+	
+	<a name="F.MessageLevelSku">
+		<b> F.MessageLevelSku </b>
+	</a>
+
+	<table border=0 width=100%>
+		<tr class=head1> <th> General Properties </th> </tr>
+	</table>
+
+	<table border=0 width=100%>
+		<tr> <td Class="Caption"> Description: </td> <td>  &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Type: </td> <td> Numeric &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Length: </td> <td> 12.4 &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Default Value: </td> <td>  &nbsp; </td> </tr>
+	</table>
+	
+	<div align=right><a href="#top">Return to Top</a> &nbsp;|&nbsp; <a href="#" onclick="javascript:window.print()">Print</a></div>
+	<br>
+
+	
+	<a name="F.errorString">
+		<b> F.errorString </b>
+	</a>
+
+	<table border=0 width=100%>
+		<tr class=head1> <th> General Properties </th> </tr>
+	</table>
+
+	<table border=0 width=100%>
+		<tr> <td Class="Caption"> Description: </td> <td> Combine MessageDesc here to export to web service result &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Type: </td> <td> Alpha &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Length: </td> <td> 500 &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Default Value: </td> <td>  &nbsp; </td> </tr>
+	</table>
+	
+	<div align=right><a href="#top">Return to Top</a> &nbsp;|&nbsp; <a href="#" onclick="javascript:window.print()">Print</a></div>
+	<br>
+
+	
+	<a name="F.mnQuantityAvailable">
+		<b> F.mnQuantityAvailable </b>
+	</a>
+
+	<table border=0 width=100%>
+		<tr class=head1> <th> General Properties </th> </tr>
+	</table>
+
+	<table border=0 width=100%>
+		<tr> <td Class="Caption"> Description: </td> <td> Output for CalculateAvailabilty Flow &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Type: </td> <td> Alpha &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Length: </td> <td> 30 &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Default Value: </td> <td>  &nbsp; </td> </tr>
+	</table>
+	
+	<div align=right><a href="#top">Return to Top</a> &nbsp;|&nbsp; <a href="#" onclick="javascript:window.print()">Print</a></div>
+	<br>
+
+	
+	<a name="F.sku">
+		<b> F.sku </b>
+	</a>
+
+	<table border=0 width=100%>
+		<tr class=head1> <th> General Properties </th> </tr>
+	</table>
+
+	<table border=0 width=100%>
+		<tr> <td Class="Caption"> Description: </td> <td> Input/Output for CalculateAvailability Flow &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Type: </td> <td> Alpha &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Length: </td> <td> 30 &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Default Value: </td> <td>  &nbsp; </td> </tr>
+	</table>
+	
+	<div align=right><a href="#top">Return to Top</a> &nbsp;|&nbsp; <a href="#" onclick="javascript:window.print()">Print</a></div>
+	<br>
+
+
+
+
+	<!-- ====================== Page Break!	=============================== -->
+	<p class="BreakPage"></p>		<!-- This command will make the printer breake a page -->
+	<p>
+		<img src="MagicxpiStrip.jpg" height=150></p>
+		<p align=left>Project: <font size=2><b>VWS_MAGENTO_2_JDE </b></font> <br>	<!-- Then (in the new page) output the page header -->
+		Magento JDE > Get Quantity Available <br><br>
+	</p>
+	<span> <b><u> Errors </u></b> </span> <br><br>
+	<!-- ====================== Page Break!	=============================== -->
+
+	
+	<a name="Errors 550 to 550">
+		<b> Errors 550 to 550 </b>
+	</a>
+
+	<table border=0 width=100%>
+		<tr class=head1> <th> General Properties </th> </tr>
+	</table>
+
+	<table border=0 width=100%>
+		<tr> <td Class="Caption"> Component Name: </td> <td> Web Services &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> From: </td> <td>  550 &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> To: </td> <td>  550 &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Description: </td> <td> WebService Error &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Policy: </td> <td> Jump &nbsp; </td> </tr>
+					<tr> <td Class="Caption"> Step: </td> <td> Map Message to JDE WS Call &nbsp; </td> </tr>
+				<tr> <td Class="Caption"> Notification: </td> <td> No action &nbsp; </td> </tr>
+	</table>
+	
+	<div align=right><a href="#top">Return to Top</a> &nbsp;|&nbsp; <a href="#" onclick="javascript:window.print()">Print</a></div>
+	<br>
+
+
+
+
+
+	<!-- ====================== Page Break!	=============================== -->
+	<p class="BreakPage"></p>		<!-- This command will make the printer breake a page -->
+	<p>
+		<img src="MagicxpiStrip.jpg" height=150></p>
+		<p align=left>Project: <font size=2><b>VWS_MAGENTO_2_JDE </b></font> <br>	<!-- Then (in the new page) output the page header -->
+		Magento JDE > Get Quantity Available <br><br>
+	</p>
+	<span> <b><u> Steps </u></b> </span> <br><br>
+	<!-- ====================== Page Break!	=============================== -->
+	
+	<a name="getQuantityAvailable0">
+		<img src="icons\wsifc.gif" width="32" height="32"> &nbsp;
+		<b> getQuantityAvailable </b>
+	</a>
+
+	<table border=0 width=100%>
+		<tr class=head1> <th> General Properties </th> </tr>
+	</table>
+
+				<table border=0 width=100%>
+		<!-- Genral Tab -->
+		<tr> <td Class="Caption"> ID: </td> <td> 2 &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Magic xpi Server: </td> <td>    1 Magic xpi 4.1 &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Description: </td> <td>  &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Processing Mode: </td> <td> Linear &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Wait for Completion: </td> <td> No &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Interface: </td> <td>  &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Condition: </td> <td>  &nbsp; </td> </tr>
+		</table>
+
+		<!-- Advanced Tab -->
+		<table border=0 width=100%>
+			<tr class=head1> <th> Advanced </th> </tr>
+		</table>
+
+		<table border=0 width=100%>
+		
+		<tr> <td Class="Caption"> Save Point: </td> <td> No &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Call Logic Flow: </td> <td> No &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Return XML Data: </td> <td> No &nbsp; </td> </tr>
+		</table>
+
+		<table border=0 width=100%>
+			<tr> <th colspan=2> Logging </th> </tr>
+		</table>
+
+		<table border=0 width=100%>
+		<tr> <td Class="Caption"> Logging Scope: </td> <td> No &nbsp; </td> </tr>
+				<tr> <td Class="Caption"> String Message: </td> <td>  &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> BLOB: </td> <td>  &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> File Extension: </td> <td>  &nbsp; </td> </tr>
+
+		<!-- Settings Tab -- All 2 new Tags -->
+		<table border=0 width=100%>
+			<tr> <th colspan=2> Settings </th> </tr>
+		</table>
+
+		<table border=0 width=100%>
+		<tr> <td Class="Caption"> Service / Resource Name: </td> <td> JDE &nbsp; </td>
+					<td> Name:  </td> </tr>
+
+		<tr> <td Class="Caption"> Service / Resource Description: </td> <td>  &nbsp; </td> </tr>
+		</table>
+
+		
+		
+		
+		
+		<!--If there are any Invoke Flow Arguments Defined-->
+				<!--End of Invoke Flow Aruments-->
+
+		
+		
+		
+		
+		
+		<!--Flow Data Service-->
+				<!--End of Flow Data Service-->
+
+		<!--Refresh Conversion Service-->
+				<!--End of Refresh Conversion Service-->
+
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+			<!--Trigger HTML Include Section-->
+			<HTML>
+<head>
+	<LINK rel="stylesheet" type="text/css" href="iBOLTPrint.css"
+</head>
+
+<body>
+
+<!--Polling Triggers Configuration Section-->
+
+	
+<!--End of Polling Trigger Configuration Section-->
+
+<!--Extranal Triggers Configuration Section-->
+<!--COM - Configuration Section-->
+	<!--Ent of COM Configuration Section-->
+
+<!--EJB Configuration Section-->
+	<!--Ent of EJB Configuration Section-->
+
+<!--Web Service Configuration Section-->
+		<table border=0 width=100%>
+		<tr class=head1> <th> Service Details </th> </tr>
+	</table>
+					<table border=0 width=100%>
+				<tr> <td Class="Caption">Service Name: </td> <td> JDE </td></tr>
+				<tr> <td Class="Caption">Operation Name: </td> <td> getQuantityAvailable </td></tr>
+			</table>
+			
+			<br>
+			<table border=1 width=100%>
+			<tr class=head1> 
+				<td>Name</td><td>Type</td><td>Picture</td>
+				<td>Direction</td><td>Mapping Variable</td>
+			</tr>
+			</table>
+		
+		<table border=1 width=100%>
+						<tr class="MG_Odd_Row">
+			<td>Header_In</td><td>BLOB</td><td></td>
+			<td>In</td><td></td>
+		</tr>
+				<tr class="MG_Even_Row">
+			<td>Header_Out</td><td>BLOB</td><td></td>
+			<td>Both</td><td></td>
+		</tr>
+				<tr class="MG_Odd_Row">
+			<td>quantityAvailable</td><td>Alpha</td><td>30</td>
+			<td>Out</td><td>F.mnQuantityAvailable</td>
+		</tr>
+				<tr class="MG_Even_Row">
+			<td>sku</td><td>Alpha</td><td>30</td>
+			<td>In</td><td>F.sku</td>
+		</tr>
+						</table>
+
+		<table border=0 width=100%>
+			<tr> <td Class="Caption">Arguments XML location: </td> <td>  </td></tr>
+		</table>
+	<!--Ent of Web Service Configuration Section-->
+
+<!--HTTP Configuration Section-->
+	<!--Ent of HTTP Configuration Section-->
+
+<!--Directory Scanner Configuration Section-->
+	<!--Ent of Directory Scanner-->
+
+
+<!--Domino Configuration Section-->
+	<!--Ent of Domino-->
+
+<!--JCC Configuration Section-->
+	<!--Ent of JCC-->
+
+<!--EJB Connector Configuration Section-->
+	<!--Ent of EJB Connector Configuration Section-->
+
+<!--Web Service Configuration Section (Step Area)-->
+	<!--Ent of Web Service (Step Area)-->
+
+<!--W4 Configuration Section-->
+	<!--End of W4 Configuration Section-->
+
+<!--SAP Configuration Section-->
+	<!--End of SAP Configuration Section-->
+
+<!--SAPR3 Configuration Section-->
+	<!--End of SAP R3 Configuration Section-->
+<!--SalesForce Trigger Configuration Section-->
+	<!--End of SalesForce Trigger Configuration Section-->
+<!--TCPListener - Configuration Section-->
+	
+<!--End of TCPListener Trigger Configuration Section-->
+
+<!--HL7 - Configuration Section-->
+	<!--SugarCRM Trigger Configuration Section-->
+	<!--End of SugarCRM Trigger Configuration Section-->
+
+</body>
+</html>
+				<!--End of Trigger HTML Include Section-->
+
+			<!--SAP Method Interface - Intermediate Screen-->
+				<!--End of SAP Method Interface - Intermediate Screen-->
+
+			<!--SAP XML Interface - Intermediate Screen-->
+				<!--End of SAP XML Interface - Intermediate Screen-->
+
+
+			<!--SalesForce XML Interface - Intermediate Screen-->
+			<!--End of SaleseFroce XML Interface - Intermediate Screen-->
+		
+			<!--SAPR3 XML Interface - Intermediate Screen-->
+			<!--End of SAPR3 XML Interface - Intermediate Screen-->
+		
+		<!--SugarCRM XML Interface - Intermediate Screen-->
+			<!--End of SugarCRM XML Interface - Intermediate Screen-->
+		
+			<!--Method Interface-->
+	 		<!--Endif of MethodInterface-->
+		<!--End of Method Interface-->
+		
+		<!--Data Mapper Schema Record Properties-->
+			<!--End of Data Mapper Schema Record Properties-->
+
+	<div align=right><a href="#top">Return to Top</a> &nbsp;|&nbsp; <a href="#" onclick="javascript:window.print()">Print</a></div>
+			<!-- ====================== Page Break!	=============================== -->
+		<p class="BreakPage"></p>		<!-- This command will make the printer breake a page -->
+		<p>
+			<img src="MagicxpiStrip.jpg" height=150></p>
+			<p align=left>Project: <font size=2><b>VWS_MAGENTO_2_JDE </b></font> <br>	<!-- Then (in the new page) output the page header -->
+			Topology - 1 > Get Quantity Available <br><br>
+			<span> <b><u> Steps </u></b> </span> <br><br>
+		</p>
+		<!-- ====================== Page Break!	=============================== -->
+	
+	<a name="Map Message to JDE WS Call27">
+		<img src="icons\Data_Mapper.gif" width="32" height="32"> &nbsp;
+		<b> Map Message to JDE WS Call </b>
+	</a>
+
+	<table border=0 width=100%>
+		<tr class=head1> <th> General Properties </th> </tr>
+	</table>
+
+		
+		
+		
+		
+		<!--If there are any Invoke Flow Arguments Defined-->
+				<!--End of Invoke Flow Aruments-->
+
+		
+		
+		
+		
+				<table border=0 width=100%>
+		<tr> <td Class="Caption"> ID: </td> <td> 27 &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Description: </td> <td>  &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Processing Mode: </td> <td> Linear &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Wait for Completion: </td> <td> No &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Condition: </td> <td>  &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Save Point: </td> <td> No &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Error Behavior: </td> <td> Continue &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> DB Transaction Level: </td> <td> Mapper &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Magic xpi Server: </td> <td>    1 Magic xpi 4.1 &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Call Logic Flow: </td> <td> No &nbsp; </td> </tr>
+		</table>
+		
+		<!--Flow Data Service-->
+				<!--End of Flow Data Service-->
+
+		<!--Refresh Conversion Service-->
+				<!--End of Refresh Conversion Service-->
+
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+			<!--Trigger HTML Include Section-->
+				<!--End of Trigger HTML Include Section-->
+
+			<!--SAP Method Interface - Intermediate Screen-->
+				<!--End of SAP Method Interface - Intermediate Screen-->
+
+			<!--SAP XML Interface - Intermediate Screen-->
+				<!--End of SAP XML Interface - Intermediate Screen-->
+
+
+			<!--SalesForce XML Interface - Intermediate Screen-->
+			<!--End of SaleseFroce XML Interface - Intermediate Screen-->
+		
+			<!--SAPR3 XML Interface - Intermediate Screen-->
+			<!--End of SAPR3 XML Interface - Intermediate Screen-->
+		
+		<!--SugarCRM XML Interface - Intermediate Screen-->
+			<!--End of SugarCRM XML Interface - Intermediate Screen-->
+		
+			<!--Method Interface-->
+	 		<!--Endif of MethodInterface-->
+		<!--End of Method Interface-->
+		
+		<!--Data Mapper Schema Record Properties-->
+			<HTML>
+<head>
+	<LINK rel="stylesheet" type="text/css" href="<!$MG_CSSPath>"
+</head>
+
+<body>
+		<!--XML Interface-->
+				<br>
+			<table border=0 width=100%>
+				<tr class=head1> <th> Source / Destination Management </th> </tr>
+			</table>
+			
+			<table border=0 width=100%>
+			<tr align=top>
+			
+			<td valign=top width=50%>
+				<table border=1>
+				<tr>
+					<td colspan=3 align=center><b> Source </b></td>
+				</tr>
+
+				<tr class=head1>
+					<td width=7%> ID </td> 
+					<td width=31%> Name </td> 
+					<td width=12%> Type </td>
+				</tr>
+
+									<tr>
+						<td width=7%> <!$MG_SourceID> </td>
+						<td width=31%> <a href="#<!$MG_SourceNameLink>"> <!$MG_SourceName> </a> </td>
+						<td width=12%> <!$MG_SourceType> </td>
+					</tr>
+								</table>
+			</td>
+			<td>&nbsp;</td>
+			<td valign=top width=50%>
+				<table border=1>
+				<tr>
+					<td colspan=3 align=center><b>Destination </b></td>
+				</tr>
+
+				<tr class=head1>
+					<td width=7%> ID </td> 
+					<td width=31%> Name </td> 
+					<td width=12%> Type </td>
+				</tr>
+									<tr>
+						<td width=7%>    1 </td>
+						<td width=31%> <a href="#D1273"> D1 </a> </td>
+						<td width=12%> XML </td>
+					</tr>
+								</table>
+			</td>
+			</div>
+			</tr>
+			</table>
+			<div align=right><a href="#top">Return to Top</a> &nbsp;|&nbsp; <a href="#" onclick="javascript:window.print()">Print</a></div>
+			<br>
+		<!--End of XML Interface-->
+
+	<!--Display Schema Details of each schema(Source/Destination)-->
+				<!--Mapper - Database(1) Properties Section-->
+					<!--End - Database Properties Section-->
+
+			<!--Mapper - Flat File(2) Properties Section -->
+					<!--End - Flat File Properties Section-->
+
+
+			<!--Mapper - XML(3) Properties Section-->
+					<a name="D1273"> </a>
+			<table border=0 width=100%>
+				<tr> <th> D1 - XML - Properties </th> </tr>
+			</table>
+		
+			<table border=0 width=100%>
+			<tr>
+				<td Class="Caption"> Name: </td> <td> D1 </td>
+			</tr>
+			<tr>
+				<td Class="Caption"> Description: </td> <td>  </td>
+			</tr>
+			<tr>
+				<td Class="Caption"> XSD File: </td> <td> resource\JDE_InventoryManager\http___oracle_e1_bssv_JP410000_.xsd </td>
+			</tr>
+			<tr>
+				<td Class="Caption"> Data Destination: </td> <td> Variable </td> 
+				<td> Name: F.JDEGetQuantityAvailable_IN </td> 
+			</tr>
+			<tr>
+				<td Class="Caption"> XML Root: </td> <td> getItemAvailability </td> 
+			</tr>
+			<tr>
+				<td Class="Caption"> XML Validation: </td> <td> No </td> 
+			</tr>
+			<tr>
+				<td Class="Caption"> Recursion Depth: </td> <td>    1 </td> 
+			</tr>
+
+							<tr>
+					<td Class="Caption"> Append Data: </td> <td> No </td> 
+				</tr>
+				<tr>
+					<td Class="Caption"> XML file encoding: </td> <td> Project Encoding </td> 
+				</tr>
+				<tr>
+				<td Class="Caption"> Create Empty Alpha Node: </td> <td> Yes </td> 
+				</tr>
+						</table>
+
+			<div align=right><a href="#top">Return to Top</a> &nbsp;|&nbsp; <a href="#" onclick="javascript:window.print()">Print</a></div>
+			<br>
+					<!--End - XML Properties Section-->
+
+
+			<!--Mapper - IFC Model(4) Properties Section-->
+					<!--End - IFC Model(4) Properties Section-->
+
+			<!--Mapper - Flow Variable(5) Properties Section-->
+					<!--End - Flow Variable Properties Section-->
+
+			<!--Mapper - ODS(6) Properties Section-->
+					<!--End - ODS Properties Section-->
+
+			<!--Mapper - Call Flow(7) Properties Section-->
+					<!--End - Call Flow Properties Section-->
+
+
+			<!--Mapper - Template(8) Properties Section -->
+					<!--End - Template Properties Section-->
+
+			<!--Mapper - UDS(9) Properties Section-->
+					<!--End - UDS Properties Section-->
+		<!--End of displaying Schema Details of each schema(Source/Destination)-->
+
+	<!--Data Mapper Actual Mappings Section-->
+
+			<table border=0 width=100%>
+			<tr> <th> Data Mappings </th> </tr>
+		</table>
+					<table border=0 width=100%>  
+			<tr align=top>
+			
+			<td valign=top align=center width=50%>
+								
+					<b> Source  </b>
+				
+				
+							</td>
+
+			<td>&nbsp;</td>
+
+			<td valign=top align=center width=50%>
+								
+					<b> Destination D1 </b>
+				
+				
+							</div>
+			</tr>
+			</table>
+					<table border=0 width=100%>  
+			<tr align=top>
+			
+			<td valign=top align=center width=50%>
+				
+								<table width=100% border=1>
+									<tr>
+						<td colspan=2 align=center><b> . </b></td>
+					</tr>
+
+					<tr class=head1>
+						<td width=50%> <b> Properties </b></td> <td width=50%><b> Values </b></td>
+					</tr>
+
+					<tr>
+						<td width=50%> Node Type </td> <td width=50%>  </td>
+					</tr>
+					<tr>
+						<td width=50%> Path </td> <td width=50%>  </td>
+					</tr>
+					<tr>
+						<td width=50%> Data Type </td> <td width=50%>  </td>
+					</tr>
+					<tr>
+						<td width=50%> String Date </td> <td width=50%> No </td>
+					</tr>
+					<tr>
+						<td width=50%> Internal attribute </td> <td width=50%>  </td>
+					</tr>
+										<tr>
+						<td width=50%> Picture </td> <td width=50%>  </td>
+					</tr>
+					<tr>
+						<td width=50%> Condition </td> <td width=50%>  </td>
+					</tr>
+
+				
+				</table>
+							</td>
+
+			<td>&nbsp;</td>
+
+			<td valign=top align=center width=50%>
+				
+								<table width=100% border=1>
+									<tr>
+						<td colspan=2 align=center><b> D1.businessUnit </b></td>
+					</tr>
+
+					<tr class=head1>
+						<td width=50%> <b> Properties </b> </td> <td width=50%> <b> Values </b> </td>
+					</tr>
+
+					<tr>
+						<td width=50%> Node Type </td> <td width=50%> Simple </td>
+					</tr>
+					<tr>
+						<td width=50%> Path </td> <td width=50%> Destination/S3/ns0:getItemAvailability/businessUnit </td>
+					</tr>
+					<tr>
+						<td width=50%> Data Type </td> <td width=50%> Alpha </td>
+					</tr>
+					<tr>
+						<td width=50%> String Date </td> <td width=50%> No </td>
+					</tr>
+					<tr>
+						<td width=50%> Internal attribute </td> <td width=50%> Alpha </td>
+					</tr>
+										<tr>
+						<td width=50%> Picture </td> <td width=50%> 1000 </td>
+					</tr>
+					<tr>
+						<td width=50%> Calculated Value </td> <td width=50%> EnvVal ('JDEBranchPlant') </td>
+					</tr>
+					<tr>
+						<td width=50%> Condition </td> <td width=50%>  </td>
+					</tr>
+					<tr>
+						<td width=50%> Log Error : No </td> <td width=50%>  </td>
+					</tr>
+				
+				</table>
+			</td>
+						</div>
+			</tr>
+			</table>
+					<table border=0 width=100%>  
+			<tr align=top>
+			
+			<td valign=top align=center width=50%>
+				
+								<table width=100% border=1>
+				
+					<tr>
+						<td colspan=2 align=center><b> . </b></td>
+					</tr>
+
+					<tr class=head1>
+						<td width=50%> <b> Properties </b></td> <td width=50%><b> Values </b></td>
+					</tr>
+
+					<tr>
+						<td width=50%> Node Type </td> <td width=50%>  </td>
+					</tr>
+					<tr>
+						<td width=50%> Path </td> <td width=50%>  </td>
+					</tr>
+					<tr>
+						<td width=50%> Data Type </td> <td width=50%>  </td>
+					</tr>
+					<tr>
+						<td width=50%> String Date </td> <td width=50%> No </td>
+					</tr>
+					<tr>
+						<td width=50%> Internal attribute </td> <td width=50%>  </td>
+					</tr>
+										<tr>
+						<td width=50%> Picture </td> <td width=50%>  </td>
+					</tr>
+					<tr>
+						<td width=50%> Condition </td> <td width=50%>  </td>
+					</tr>
+
+								</table>
+							</td>
+
+			<td>&nbsp;</td>
+
+			<td valign=top align=center width=50%>
+				
+								<table width=100% border=1>
+				
+					<tr>
+						<td colspan=2 align=center><b> D1.itemProduct </b></td>
+					</tr>
+
+					<tr class=head1>
+						<td width=50%> <b> Properties </b> </td> <td width=50%> <b> Values </b> </td>
+					</tr>
+
+					<tr>
+						<td width=50%> Node Type </td> <td width=50%> Simple </td>
+					</tr>
+					<tr>
+						<td width=50%> Path </td> <td width=50%> Destination/S3/ns0:getItemAvailability/item/itemProduct </td>
+					</tr>
+					<tr>
+						<td width=50%> Data Type </td> <td width=50%> Alpha </td>
+					</tr>
+					<tr>
+						<td width=50%> String Date </td> <td width=50%> No </td>
+					</tr>
+					<tr>
+						<td width=50%> Internal attribute </td> <td width=50%> Alpha </td>
+					</tr>
+										<tr>
+						<td width=50%> Picture </td> <td width=50%> 1000 </td>
+					</tr>
+					<tr>
+						<td width=50%> Calculated Value </td> <td width=50%> F.sku </td>
+					</tr>
+					<tr>
+						<td width=50%> Condition </td> <td width=50%>  </td>
+					</tr>
+					<tr>
+						<td width=50%> Log Error : No </td> <td width=50%>  </td>
+					</tr>
+								</table>
+			</td>
+						</div>
+			</tr>
+			</table>
+			
+	<!--End Data Mapper Mappings Screen-->
+
+</body>
+</html>
+			<!--End of Data Mapper Schema Record Properties-->
+
+	<div align=right><a href="#top">Return to Top</a> &nbsp;|&nbsp; <a href="#" onclick="javascript:window.print()">Print</a></div>
+	
+	<a name="Map WS Response29">
+		<img src="icons\Data_Mapper.gif" width="32" height="32"> &nbsp;
+		<b> Map WS Response </b>
+	</a>
+
+	<table border=0 width=100%>
+		<tr class=head1> <th> General Properties </th> </tr>
+	</table>
+
+		
+		
+		
+		
+		<!--If there are any Invoke Flow Arguments Defined-->
+				<!--End of Invoke Flow Aruments-->
+
+		
+		
+		
+		
+				<table border=0 width=100%>
+		<tr> <td Class="Caption"> ID: </td> <td> 29 &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Description: </td> <td>  &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Processing Mode: </td> <td> Linear &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Wait for Completion: </td> <td> No &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Condition: </td> <td>  &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Save Point: </td> <td> No &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Error Behavior: </td> <td> Continue &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> DB Transaction Level: </td> <td> Mapper &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Magic xpi Server: </td> <td>    1 Magic xpi 4.1 &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Call Logic Flow: </td> <td> No &nbsp; </td> </tr>
+		</table>
+		
+		<!--Flow Data Service-->
+				<!--End of Flow Data Service-->
+
+		<!--Refresh Conversion Service-->
+				<!--End of Refresh Conversion Service-->
+
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+			<!--Trigger HTML Include Section-->
+				<!--End of Trigger HTML Include Section-->
+
+			<!--SAP Method Interface - Intermediate Screen-->
+				<!--End of SAP Method Interface - Intermediate Screen-->
+
+			<!--SAP XML Interface - Intermediate Screen-->
+				<!--End of SAP XML Interface - Intermediate Screen-->
+
+
+			<!--SalesForce XML Interface - Intermediate Screen-->
+			<!--End of SaleseFroce XML Interface - Intermediate Screen-->
+		
+			<!--SAPR3 XML Interface - Intermediate Screen-->
+			<!--End of SAPR3 XML Interface - Intermediate Screen-->
+		
+		<!--SugarCRM XML Interface - Intermediate Screen-->
+			<!--End of SugarCRM XML Interface - Intermediate Screen-->
+		
+			<!--Method Interface-->
+	 		<!--Endif of MethodInterface-->
+		<!--End of Method Interface-->
+		
+		<!--Data Mapper Schema Record Properties-->
+			<HTML>
+<head>
+	<LINK rel="stylesheet" type="text/css" href="<!$MG_CSSPath>"
+</head>
+
+<body>
+		<!--XML Interface-->
+				<br>
+			<table border=0 width=100%>
+				<tr class=head1> <th> Source / Destination Management </th> </tr>
+			</table>
+			
+			<table border=0 width=100%>
+			<tr align=top>
+			
+			<td valign=top width=50%>
+				<table border=1>
+				<tr>
+					<td colspan=3 align=center><b> Source </b></td>
+				</tr>
+
+				<tr class=head1>
+					<td width=7%> ID </td> 
+					<td width=31%> Name </td> 
+					<td width=12%> Type </td>
+				</tr>
+
+									<tr>
+						<td width=7%>    1 </td>
+						<td width=31%> <a href="#S1293"> S1 </a> </td>
+						<td width=12%> XML </td>
+					</tr>
+								</table>
+			</td>
+			<td>&nbsp;</td>
+			<td valign=top width=50%>
+				<table border=1>
+				<tr>
+					<td colspan=3 align=center><b>Destination </b></td>
+				</tr>
+
+				<tr class=head1>
+					<td width=7%> ID </td> 
+					<td width=31%> Name </td> 
+					<td width=12%> Type </td>
+				</tr>
+									<tr>
+						<td width=7%>    1 </td>
+						<td width=31%> <a href="#D2295"> D2 </a> </td>
+						<td width=12%> Variables </td>
+					</tr>
+								</table>
+			</td>
+			</div>
+			</tr>
+			</table>
+			<div align=right><a href="#top">Return to Top</a> &nbsp;|&nbsp; <a href="#" onclick="javascript:window.print()">Print</a></div>
+			<br>
+		<!--End of XML Interface-->
+
+	<!--Display Schema Details of each schema(Source/Destination)-->
+				<!--Mapper - Database(1) Properties Section-->
+					<!--End - Database Properties Section-->
+
+			<!--Mapper - Flat File(2) Properties Section -->
+					<!--End - Flat File Properties Section-->
+
+
+			<!--Mapper - XML(3) Properties Section-->
+					<a name="S1293"> </a>
+			<table border=0 width=100%>
+				<tr> <th> S1 - XML - Properties </th> </tr>
+			</table>
+		
+			<table border=0 width=100%>
+			<tr>
+				<td Class="Caption"> Name: </td> <td> S1 </td>
+			</tr>
+			<tr>
+				<td Class="Caption"> Description: </td> <td>  </td>
+			</tr>
+			<tr>
+				<td Class="Caption"> XSD File: </td> <td> resource\JDE_InventoryManager\http___oracle_e1_bssv_JP410000_.xsd </td>
+			</tr>
+			<tr>
+				<td Class="Caption"> Data Source: </td> <td> Variable </td> 
+				<td> Name: F.JDEGetQuantityAvailable_OUT </td> 
+			</tr>
+			<tr>
+				<td Class="Caption"> XML Root: </td> <td> getItemAvailabilityResponse </td> 
+			</tr>
+			<tr>
+				<td Class="Caption"> XML Validation: </td> <td> No </td> 
+			</tr>
+			<tr>
+				<td Class="Caption"> Recursion Depth: </td> <td>    1 </td> 
+			</tr>
+
+						</table>
+
+			<div align=right><a href="#top">Return to Top</a> &nbsp;|&nbsp; <a href="#" onclick="javascript:window.print()">Print</a></div>
+			<br>
+					<!--End - XML Properties Section-->
+
+
+			<!--Mapper - IFC Model(4) Properties Section-->
+					<!--End - IFC Model(4) Properties Section-->
+
+			<!--Mapper - Flow Variable(5) Properties Section-->
+					<!--End - Flow Variable Properties Section-->
+
+			<!--Mapper - ODS(6) Properties Section-->
+					<!--End - ODS Properties Section-->
+
+			<!--Mapper - Call Flow(7) Properties Section-->
+					<!--End - Call Flow Properties Section-->
+
+
+			<!--Mapper - Template(8) Properties Section -->
+					<!--End - Template Properties Section-->
+
+			<!--Mapper - UDS(9) Properties Section-->
+					<!--End - UDS Properties Section-->
+				<!--Mapper - Database(1) Properties Section-->
+					<!--End - Database Properties Section-->
+
+			<!--Mapper - Flat File(2) Properties Section -->
+					<!--End - Flat File Properties Section-->
+
+
+			<!--Mapper - XML(3) Properties Section-->
+					<!--End - XML Properties Section-->
+
+
+			<!--Mapper - IFC Model(4) Properties Section-->
+					<!--End - IFC Model(4) Properties Section-->
+
+			<!--Mapper - Flow Variable(5) Properties Section-->
+								<a name="D2295"> </a>
+			<table border=0 width=100%>
+				<tr> <th> D2 - Variables - Properties </th> </tr>
+			</table>
+			<table border=0 width=100%>
+				<tr> <td Class="Caption"> Name: </td> <td> D2 </td> </tr>
+			</table>
+							
+			
+			
+					<!--End - Flow Variable Properties Section-->
+
+			<!--Mapper - ODS(6) Properties Section-->
+					<!--End - ODS Properties Section-->
+
+			<!--Mapper - Call Flow(7) Properties Section-->
+					<!--End - Call Flow Properties Section-->
+
+
+			<!--Mapper - Template(8) Properties Section -->
+					<!--End - Template Properties Section-->
+
+			<!--Mapper - UDS(9) Properties Section-->
+					<!--End - UDS Properties Section-->
+				<!--Mapper - Database(1) Properties Section-->
+					<!--End - Database Properties Section-->
+
+			<!--Mapper - Flat File(2) Properties Section -->
+					<!--End - Flat File Properties Section-->
+
+
+			<!--Mapper - XML(3) Properties Section-->
+					<!--End - XML Properties Section-->
+
+
+			<!--Mapper - IFC Model(4) Properties Section-->
+					<!--End - IFC Model(4) Properties Section-->
+
+			<!--Mapper - Flow Variable(5) Properties Section-->
+									
+									<table border=0 width=100%>
+				<tr> <td Class="Caption"> Variable Name: </td> <td> F.mnQuantityAvailable </td></tr>
+			</table>
+						
+							<div align=right><a href="#top">Return to Top</a> &nbsp;|&nbsp; <a href="#" onclick="javascript:window.print()">Print</a></div>
+				<br>
+			
+					<!--End - Flow Variable Properties Section-->
+
+			<!--Mapper - ODS(6) Properties Section-->
+					<!--End - ODS Properties Section-->
+
+			<!--Mapper - Call Flow(7) Properties Section-->
+					<!--End - Call Flow Properties Section-->
+
+
+			<!--Mapper - Template(8) Properties Section -->
+					<!--End - Template Properties Section-->
+
+			<!--Mapper - UDS(9) Properties Section-->
+					<!--End - UDS Properties Section-->
+		<!--End of displaying Schema Details of each schema(Source/Destination)-->
+
+	<!--Data Mapper Actual Mappings Section-->
+
+			<table border=0 width=100%>
+			<tr> <th> Data Mappings </th> </tr>
+		</table>
+					<table border=0 width=100%>  
+			<tr align=top>
+			
+			<td valign=top align=center width=50%>
+								
+					<b> Source S1 </b>
+				
+				
+							</td>
+
+			<td>&nbsp;</td>
+
+			<td valign=top align=center width=50%>
+								
+					<b> Destination D2 </b>
+				
+				
+							</div>
+			</tr>
+			</table>
+					<table border=0 width=100%>  
+			<tr align=top>
+			
+			<td valign=top align=center width=50%>
+				
+								<table width=100% border=1>
+									<tr>
+						<td colspan=2 align=center><b> S1.getItemAvailabilityResponse </b></td>
+					</tr>
+
+					<tr class=head1>
+						<td width=50%> <b> Properties </b></td> <td width=50%><b> Values </b></td>
+					</tr>
+
+					<tr>
+						<td width=50%> Node Type </td> <td width=50%> Compound </td>
+					</tr>
+					<tr>
+						<td width=50%> Path </td> <td width=50%> Source/S3/getItemAvailabilityResponse </td>
+					</tr>
+					<tr>
+						<td width=50%> Data Type </td> <td width=50%>  </td>
+					</tr>
+					<tr>
+						<td width=50%> String Date </td> <td width=50%> No </td>
+					</tr>
+					<tr>
+						<td width=50%> Internal attribute </td> <td width=50%>  </td>
+					</tr>
+										<tr>
+						<td width=50%> Picture </td> <td width=50%>  </td>
+					</tr>
+					<tr>
+						<td width=50%> Condition </td> <td width=50%>  </td>
+					</tr>
+
+				
+				</table>
+							</td>
+
+			<td>&nbsp;</td>
+
+			<td valign=top align=center width=50%>
+				
+								<table width=100% border=1>
+									<tr>
+						<td colspan=2 align=center><b> D2.Instance </b></td>
+					</tr>
+
+					<tr class=head1>
+						<td width=50%> <b> Properties </b> </td> <td width=50%> <b> Values </b> </td>
+					</tr>
+
+					<tr>
+						<td width=50%> Node Type </td> <td width=50%> Compound </td>
+					</tr>
+					<tr>
+						<td width=50%> Path </td> <td width=50%> Destination/S5/Instance </td>
+					</tr>
+					<tr>
+						<td width=50%> Data Type </td> <td width=50%>  </td>
+					</tr>
+					<tr>
+						<td width=50%> String Date </td> <td width=50%> No </td>
+					</tr>
+					<tr>
+						<td width=50%> Internal attribute </td> <td width=50%>  </td>
+					</tr>
+										<tr>
+						<td width=50%> Content encoding </td> <td width=50%>  </td>
+					</tr>
+										<tr>
+						<td width=50%> Picture </td> <td width=50%>  </td>
+					</tr>
+					<tr>
+						<td width=50%> Calculated Value </td> <td width=50%>  </td>
+					</tr>
+					<tr>
+						<td width=50%> Condition </td> <td width=50%>  </td>
+					</tr>
+					<tr>
+						<td width=50%> Log Error : No </td> <td width=50%>  </td>
+					</tr>
+				
+				</table>
+			</td>
+						</div>
+			</tr>
+			</table>
+					<table border=0 width=100%>  
+			<tr align=top>
+			
+			<td valign=top align=center width=50%>
+				
+								<table width=100% border=1>
+				
+					<tr>
+						<td colspan=2 align=center><b> S1.quantityAvailable </b></td>
+					</tr>
+
+					<tr class=head1>
+						<td width=50%> <b> Properties </b></td> <td width=50%><b> Values </b></td>
+					</tr>
+
+					<tr>
+						<td width=50%> Node Type </td> <td width=50%> Simple </td>
+					</tr>
+					<tr>
+						<td width=50%> Path </td> <td width=50%> Source/S3/getItemAvailabilityResponse/quantityAvailable </td>
+					</tr>
+					<tr>
+						<td width=50%> Data Type </td> <td width=50%> Numeric </td>
+					</tr>
+					<tr>
+						<td width=50%> String Date </td> <td width=50%> No </td>
+					</tr>
+					<tr>
+						<td width=50%> Internal attribute </td> <td width=50%> Numeric </td>
+					</tr>
+										<tr>
+						<td width=50%> Picture </td> <td width=50%> 10.2 </td>
+					</tr>
+					<tr>
+						<td width=50%> Condition </td> <td width=50%>  </td>
+					</tr>
+
+								</table>
+							</td>
+
+			<td>&nbsp;</td>
+
+			<td valign=top align=center width=50%>
+				
+								<table width=100% border=1>
+				
+					<tr>
+						<td colspan=2 align=center><b> D2.F.mnQuantityAvailable </b></td>
+					</tr>
+
+					<tr class=head1>
+						<td width=50%> <b> Properties </b> </td> <td width=50%> <b> Values </b> </td>
+					</tr>
+
+					<tr>
+						<td width=50%> Node Type </td> <td width=50%> Simple </td>
+					</tr>
+					<tr>
+						<td width=50%> Path </td> <td width=50%> Destination/S5/Instance/F.mnQuantityAvailable </td>
+					</tr>
+					<tr>
+						<td width=50%> Data Type </td> <td width=50%> Alpha </td>
+					</tr>
+					<tr>
+						<td width=50%> String Date </td> <td width=50%> No </td>
+					</tr>
+					<tr>
+						<td width=50%> Internal attribute </td> <td width=50%> Alpha </td>
+					</tr>
+										<tr>
+						<td width=50%> Content encoding </td> <td width=50%> Unicode </td>
+					</tr>
+										<tr>
+						<td width=50%> Picture </td> <td width=50%> 30 </td>
+					</tr>
+					<tr>
+						<td width=50%> Calculated Value </td> <td width=50%>  </td>
+					</tr>
+					<tr>
+						<td width=50%> Condition </td> <td width=50%>  </td>
+					</tr>
+					<tr>
+						<td width=50%> Log Error : No </td> <td width=50%>  </td>
+					</tr>
+								</table>
+			</td>
+						</div>
+			</tr>
+			</table>
+			
+	<!--End Data Mapper Mappings Screen-->
+
+</body>
+</html>
+			<!--End of Data Mapper Schema Record Properties-->
+
+	<div align=right><a href="#top">Return to Top</a> &nbsp;|&nbsp; <a href="#" onclick="javascript:window.print()">Print</a></div>
+	
+	<a name="show quantity available36">
+		<img src="icons\BAM.gif" width="32" height="32"> &nbsp;
+		<b> show quantity available </b>
+	</a>
+
+	<table border=0 width=100%>
+		<tr class=head1> <th> General Properties </th> </tr>
+	</table>
+
+		
+		
+		
+		
+		<!--If there are any Invoke Flow Arguments Defined-->
+				<!--End of Invoke Flow Aruments-->
+
+		
+		
+		
+		
+		
+		<!--Flow Data Service-->
+				<!--End of Flow Data Service-->
+
+		<!--Refresh Conversion Service-->
+				<!--End of Refresh Conversion Service-->
+
+		
+		
+		
+		
+		
+		
+		
+				<table border=0 width=100%>
+		<tr> <td Class="Caption"> ID: </td> <td> 36 &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Description: </td> <td>  &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Processing Mode: </td> <td> Linear &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Wait for Completion: </td> <td> No &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Condition: </td> <td>  &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Save Point: </td> <td> No &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Magic xpi Server: </td> <td>    1 Magic xpi 4.1 &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Call Logic Flow: </td> <td> No &nbsp; </td> </tr>
+
+		<tr> <td Class="Caption"> Message: </td> <td> 'SKU '& F.sku &' Quantity Available:  '& F.mnQuantityAvailable &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Blob: </td> <td>  &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> File Extension: </td> <td>  &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Category: </td> <td>  &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Priority: </td> <td>  &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Status: </td> <td>  &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> User key 1: </td> <td>  &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> User key 2: </td> <td>  &nbsp; </td> </tr>
+		</table>
+		
+		
+		
+		
+		
+			<!--Trigger HTML Include Section-->
+				<!--End of Trigger HTML Include Section-->
+
+			<!--SAP Method Interface - Intermediate Screen-->
+				<!--End of SAP Method Interface - Intermediate Screen-->
+
+			<!--SAP XML Interface - Intermediate Screen-->
+				<!--End of SAP XML Interface - Intermediate Screen-->
+
+
+			<!--SalesForce XML Interface - Intermediate Screen-->
+			<!--End of SaleseFroce XML Interface - Intermediate Screen-->
+		
+			<!--SAPR3 XML Interface - Intermediate Screen-->
+			<!--End of SAPR3 XML Interface - Intermediate Screen-->
+		
+		<!--SugarCRM XML Interface - Intermediate Screen-->
+			<!--End of SugarCRM XML Interface - Intermediate Screen-->
+		
+			<!--Method Interface-->
+	 		<!--Endif of MethodInterface-->
+		<!--End of Method Interface-->
+		
+		<!--Data Mapper Schema Record Properties-->
+			                             
+			<!--End of Data Mapper Schema Record Properties-->
+
+	<div align=right><a href="#top">Return to Top</a> &nbsp;|&nbsp; <a href="#" onclick="javascript:window.print()">Print</a></div>
+			<!-- ====================== Page Break!	=============================== -->
+		<p class="BreakPage"></p>		<!-- This command will make the printer breake a page -->
+		<p>
+			<img src="MagicxpiStrip.jpg" height=150></p>
+			<p align=left>Project: <font size=2><b>VWS_MAGENTO_2_JDE </b></font> <br>	<!-- Then (in the new page) output the page header -->
+			Topology - 1 > Get Quantity Available <br><br>
+			<span> <b><u> Steps </u></b> </span> <br><br>
+		</p>
+		<!-- ====================== Page Break!	=============================== -->
+	
+	<a name="Request to JDE37">
+		<img src="icons\BAM.gif" width="32" height="32"> &nbsp;
+		<b> Request to JDE </b>
+	</a>
+
+	<table border=0 width=100%>
+		<tr class=head1> <th> General Properties </th> </tr>
+	</table>
+
+		
+		
+		
+		
+		<!--If there are any Invoke Flow Arguments Defined-->
+				<!--End of Invoke Flow Aruments-->
+
+		
+		
+		
+		
+		
+		<!--Flow Data Service-->
+				<!--End of Flow Data Service-->
+
+		<!--Refresh Conversion Service-->
+				<!--End of Refresh Conversion Service-->
+
+		
+		
+		
+		
+		
+		
+		
+				<table border=0 width=100%>
+		<tr> <td Class="Caption"> ID: </td> <td> 37 &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Description: </td> <td>  &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Processing Mode: </td> <td> Linear &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Wait for Completion: </td> <td> No &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Condition: </td> <td>  &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Save Point: </td> <td> No &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Magic xpi Server: </td> <td>    1 Magic xpi 4.1 &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Call Logic Flow: </td> <td> No &nbsp; </td> </tr>
+
+		<tr> <td Class="Caption"> Message: </td> <td> 'Request to JDE_InventoryManager' &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Blob: </td> <td> F.JDEGetQuantityAvailable_IN &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> File Extension: </td> <td> XML &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Category: </td> <td>  &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Priority: </td> <td>  &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Status: </td> <td>  &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> User key 1: </td> <td>  &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> User key 2: </td> <td>  &nbsp; </td> </tr>
+		</table>
+		
+		
+		
+		
+		
+			<!--Trigger HTML Include Section-->
+				<!--End of Trigger HTML Include Section-->
+
+			<!--SAP Method Interface - Intermediate Screen-->
+				<!--End of SAP Method Interface - Intermediate Screen-->
+
+			<!--SAP XML Interface - Intermediate Screen-->
+				<!--End of SAP XML Interface - Intermediate Screen-->
+
+
+			<!--SalesForce XML Interface - Intermediate Screen-->
+			<!--End of SaleseFroce XML Interface - Intermediate Screen-->
+		
+			<!--SAPR3 XML Interface - Intermediate Screen-->
+			<!--End of SAPR3 XML Interface - Intermediate Screen-->
+		
+		<!--SugarCRM XML Interface - Intermediate Screen-->
+			<!--End of SugarCRM XML Interface - Intermediate Screen-->
+		
+			<!--Method Interface-->
+	 		<!--Endif of MethodInterface-->
+		<!--End of Method Interface-->
+		
+		<!--Data Mapper Schema Record Properties-->
+			                             
+			<!--End of Data Mapper Schema Record Properties-->
+
+	<div align=right><a href="#top">Return to Top</a> &nbsp;|&nbsp; <a href="#" onclick="javascript:window.print()">Print</a></div>
+			<!-- ====================== Page Break!	=============================== -->
+		<p class="BreakPage"></p>		<!-- This command will make the printer breake a page -->
+		<p>
+			<img src="MagicxpiStrip.jpg" height=150></p>
+			<p align=left>Project: <font size=2><b>VWS_MAGENTO_2_JDE </b></font> <br>	<!-- Then (in the new page) output the page header -->
+			Topology - 1 > Get Quantity Available <br><br>
+			<span> <b><u> Steps </u></b> </span> <br><br>
+		</p>
+		<!-- ====================== Page Break!	=============================== -->
+	
+	<a name="Response from JDE38">
+		<img src="icons\BAM.gif" width="32" height="32"> &nbsp;
+		<b> Response from JDE </b>
+	</a>
+
+	<table border=0 width=100%>
+		<tr class=head1> <th> General Properties </th> </tr>
+	</table>
+
+		
+		
+		
+		
+		<!--If there are any Invoke Flow Arguments Defined-->
+				<!--End of Invoke Flow Aruments-->
+
+		
+		
+		
+		
+		
+		<!--Flow Data Service-->
+				<!--End of Flow Data Service-->
+
+		<!--Refresh Conversion Service-->
+				<!--End of Refresh Conversion Service-->
+
+		
+		
+		
+		
+		
+		
+		
+				<table border=0 width=100%>
+		<tr> <td Class="Caption"> ID: </td> <td> 38 &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Description: </td> <td>  &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Processing Mode: </td> <td> Linear &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Wait for Completion: </td> <td> No &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Condition: </td> <td> ISNULL( F.JDEGetQuantityAvailable_Faul ) &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Save Point: </td> <td> No &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Magic xpi Server: </td> <td>    1 Magic xpi 4.1 &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Call Logic Flow: </td> <td> No &nbsp; </td> </tr>
+
+		<tr> <td Class="Caption"> Message: </td> <td> 'Response from JDE_Inventory' &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Blob: </td> <td> F.JDEGetQuantityAvailable_OUT &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> File Extension: </td> <td> XML &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Category: </td> <td>  &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Priority: </td> <td>  &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Status: </td> <td>  &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> User key 1: </td> <td>  &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> User key 2: </td> <td>  &nbsp; </td> </tr>
+		</table>
+		
+		
+		
+		
+		
+			<!--Trigger HTML Include Section-->
+				<!--End of Trigger HTML Include Section-->
+
+			<!--SAP Method Interface - Intermediate Screen-->
+				<!--End of SAP Method Interface - Intermediate Screen-->
+
+			<!--SAP XML Interface - Intermediate Screen-->
+				<!--End of SAP XML Interface - Intermediate Screen-->
+
+
+			<!--SalesForce XML Interface - Intermediate Screen-->
+			<!--End of SaleseFroce XML Interface - Intermediate Screen-->
+		
+			<!--SAPR3 XML Interface - Intermediate Screen-->
+			<!--End of SAPR3 XML Interface - Intermediate Screen-->
+		
+		<!--SugarCRM XML Interface - Intermediate Screen-->
+			<!--End of SugarCRM XML Interface - Intermediate Screen-->
+		
+			<!--Method Interface-->
+	 		<!--Endif of MethodInterface-->
+		<!--End of Method Interface-->
+		
+		<!--Data Mapper Schema Record Properties-->
+			                             
+			<!--End of Data Mapper Schema Record Properties-->
+
+	<div align=right><a href="#top">Return to Top</a> &nbsp;|&nbsp; <a href="#" onclick="javascript:window.print()">Print</a></div>
+	
+	<a name="Call JDE Inventory Manager39">
+		<img src="icons\wsifc.gif" width="32" height="32"> &nbsp;
+		<b> Call JDE Inventory Manager </b>
+	</a>
+
+	<table border=0 width=100%>
+		<tr class=head1> <th> General Properties </th> </tr>
+	</table>
+
+		
+		
+		
+		
+		<!--If there are any Invoke Flow Arguments Defined-->
+				<!--End of Invoke Flow Aruments-->
+
+		
+		
+		
+		
+		
+		<!--Flow Data Service-->
+				<!--End of Flow Data Service-->
+
+		<!--Refresh Conversion Service-->
+				<!--End of Refresh Conversion Service-->
+
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+				<table border=0 width=100%>
+			<tr> <td Class="Caption"> ID: </td> <td> 39 &nbsp; </td> </tr>
+			<tr> <td Class="Caption"> Description: </td> <td>  &nbsp; </td> </tr>
+			<tr> <td Class="Caption"> Processing Mode: </td> <td> Linear &nbsp; </td> </tr>
+			<tr> <td Class="Caption"> Wait for Completion: </td> <td> No &nbsp; </td> </tr>
+			<tr> <td Class="Caption"> Condition: </td> <td>  &nbsp; </td> </tr>
+			<tr> <td Class="Caption"> Save Point: </td> <td> No &nbsp; </td> </tr>
+			<tr> <td Class="Caption"> Magic xpi Server: </td> <td>    1 Magic xpi 4.1 &nbsp; </td> </tr>
+			<tr> <td Class="Caption"> Call Logic Flow: </td> <td> No &nbsp; </td> </tr>
+		</table>
+		
+		
+			<!--Trigger HTML Include Section-->
+			<HTML>
+<head>
+	<LINK rel="stylesheet" type="text/css" href="iBOLTPrint.css"
+</head>
+
+<body>
+
+<!--Polling Triggers Configuration Section-->
+
+	
+<!--End of Polling Trigger Configuration Section-->
+
+<!--Extranal Triggers Configuration Section-->
+<!--COM - Configuration Section-->
+	<!--Ent of COM Configuration Section-->
+
+<!--EJB Configuration Section-->
+	<!--Ent of EJB Configuration Section-->
+
+<!--Web Service Configuration Section-->
+	<!--Ent of Web Service Configuration Section-->
+
+<!--HTTP Configuration Section-->
+	<!--Ent of HTTP Configuration Section-->
+
+<!--Directory Scanner Configuration Section-->
+	<!--Ent of Directory Scanner-->
+
+
+<!--Domino Configuration Section-->
+	<!--Ent of Domino-->
+
+<!--JCC Configuration Section-->
+	<!--Ent of JCC-->
+
+<!--EJB Connector Configuration Section-->
+	<!--Ent of EJB Connector Configuration Section-->
+
+<!--Web Service Configuration Section (Step Area)-->
+		<table border=0 width=100%>
+		<tr class=head1> <th> WebService Consumer Details </th> </tr>
+	</table>
+			<!--Main Table Details-->
+					<table border=0 width=100%>
+				<tr> <td Class="Caption">Resource Name: </td> <td> JDE_InventoryManager </td></tr>
+				<tr> <td Class="Caption">Operation Name: </td> <td> getItemAvailability </td></tr>
+			</table>
+			
+			<br>
+			<table border=1 width=100%>
+			<tr class=head1> 
+				<td>Name</td><td>Type</td><td>Picture</td>
+				<td>Direction</td><td>Mapping Variable</td>
+			</tr>
+			</table>
+		
+		<table border=1 width=100%>
+						<tr class="MG_Odd_Row">
+			<td>getItemAvailability</td><td>BLOB</td><td>50</td>
+			<td>In</td><td>F.JDEGetQuantityAvailable_IN</td>
+		</tr>
+				<tr class="MG_Even_Row">
+			<td>getItemAvailabilityResponse</td><td>BLOB</td><td>50</td>
+			<td>Return</td><td>F.JDEGetQuantityAvailable_OUT</td>
+		</tr>
+						</table>
+
+		<table border=0 width=100%>
+			<tr> <td Class="Caption"> Fault: </td> <td> F.JDEGetQuantityAvailable_Faul </td></tr>
+		</table>
+		<br>
+			<!--End of Main Table Details-->
+
+			<!--Header Table Details-->
+		<table border=0 width=100%>
+			<tr class=head1> <th> Header Details </th> </tr>
+		</table>
+
+		<table border=1 width=100%>
+		<tr class=head1> 
+			<td>Name</td><td>Direction</td><td>Mapping Variable</td>
+		</tr>
+		</table>
+
+		<table border=1 width=100%>
+								<tr class="MG_Odd_Row">
+				<td>Header_In</td><td>In</td><td></td>
+			</tr>
+						<tr class="MG_Even_Row">
+				<td>Header_Out</td><td>Out</td><td></td>
+			</tr>
+							</table>
+		<br>
+			<!--End of Header Table Details-->
+
+			<!--Attachment Table Details-->
+		<table border=0 width=100%>
+			<tr class=head1> <th> Attachment Details </th> </tr>
+		</table>
+
+		<table border=1 width=100%>
+		<tr class=head1> 
+			<td>Name</td><td>Direction</td><td>Mapping Variable</td>
+		</tr>
+		</table>
+
+		<table border=1 width=100%>
+				</table>
+		<br>
+			<!--End Attachment Table Details-->
+
+			<!--Identity Table Details-->
+		<table border=0 width=100%>
+			<tr class=head1> <th> Identity Details </th> </tr>
+		</table>
+
+		<table border=0 width=100%>
+			<tr> <td Class="Caption"> Identity: </td> <td>  </td></tr>
+			<tr> <td Class="Caption"> Identity Password: </td> <td>  </td></tr>
+		</table>
+			<!--End of Identity Table Details-->
+
+	<!--Ent of Web Service (Step Area)-->
+
+<!--W4 Configuration Section-->
+	<!--End of W4 Configuration Section-->
+
+<!--SAP Configuration Section-->
+	<!--End of SAP Configuration Section-->
+
+<!--SAPR3 Configuration Section-->
+	<!--End of SAP R3 Configuration Section-->
+<!--SalesForce Trigger Configuration Section-->
+	<!--End of SalesForce Trigger Configuration Section-->
+<!--TCPListener - Configuration Section-->
+	
+<!--End of TCPListener Trigger Configuration Section-->
+
+<!--HL7 - Configuration Section-->
+	<!--SugarCRM Trigger Configuration Section-->
+	<!--End of SugarCRM Trigger Configuration Section-->
+
+</body>
+</html>
+				<!--End of Trigger HTML Include Section-->
+
+			<!--SAP Method Interface - Intermediate Screen-->
+				<!--End of SAP Method Interface - Intermediate Screen-->
+
+			<!--SAP XML Interface - Intermediate Screen-->
+				<!--End of SAP XML Interface - Intermediate Screen-->
+
+
+			<!--SalesForce XML Interface - Intermediate Screen-->
+			<!--End of SaleseFroce XML Interface - Intermediate Screen-->
+		
+			<!--SAPR3 XML Interface - Intermediate Screen-->
+			<!--End of SAPR3 XML Interface - Intermediate Screen-->
+		
+		<!--SugarCRM XML Interface - Intermediate Screen-->
+			<!--End of SugarCRM XML Interface - Intermediate Screen-->
+		
+			<!--Method Interface-->
+	 		<!--Endif of MethodInterface-->
+		<!--End of Method Interface-->
+		
+		<!--Data Mapper Schema Record Properties-->
+			                             
+			<!--End of Data Mapper Schema Record Properties-->
+
+	<div align=right><a href="#top">Return to Top</a> &nbsp;|&nbsp; <a href="#" onclick="javascript:window.print()">Print</a></div>
+	
+	<a name="JDE Fault40">
+		<img src="icons\BAM.gif" width="32" height="32"> &nbsp;
+		<b> JDE Fault </b>
+	</a>
+
+	<table border=0 width=100%>
+		<tr class=head1> <th> General Properties </th> </tr>
+	</table>
+
+		
+		
+		
+		
+		<!--If there are any Invoke Flow Arguments Defined-->
+				<!--End of Invoke Flow Aruments-->
+
+		
+		
+		
+		
+		
+		<!--Flow Data Service-->
+				<!--End of Flow Data Service-->
+
+		<!--Refresh Conversion Service-->
+				<!--End of Refresh Conversion Service-->
+
+		
+		
+		
+		
+		
+		
+		
+				<table border=0 width=100%>
+		<tr> <td Class="Caption"> ID: </td> <td> 40 &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Description: </td> <td>  &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Processing Mode: </td> <td> Linear &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Wait for Completion: </td> <td> No &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Condition: </td> <td> NOT(ISNULL( F.JDEGetQuantityAvailable_Faul )) &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Save Point: </td> <td> No &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Magic xpi Server: </td> <td>    1 Magic xpi 4.1 &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Call Logic Flow: </td> <td> No &nbsp; </td> </tr>
+
+		<tr> <td Class="Caption"> Message: </td> <td> C.sys.LastErrorDescription &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Blob: </td> <td> F.JDEGetQuantityAvailable_Faul &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> File Extension: </td> <td> XML &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Category: </td> <td>  &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Priority: </td> <td>  &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Status: </td> <td>  &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> User key 1: </td> <td>  &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> User key 2: </td> <td>  &nbsp; </td> </tr>
+		</table>
+		
+		
+		
+		
+		
+			<!--Trigger HTML Include Section-->
+				<!--End of Trigger HTML Include Section-->
+
+			<!--SAP Method Interface - Intermediate Screen-->
+				<!--End of SAP Method Interface - Intermediate Screen-->
+
+			<!--SAP XML Interface - Intermediate Screen-->
+				<!--End of SAP XML Interface - Intermediate Screen-->
+
+
+			<!--SalesForce XML Interface - Intermediate Screen-->
+			<!--End of SaleseFroce XML Interface - Intermediate Screen-->
+		
+			<!--SAPR3 XML Interface - Intermediate Screen-->
+			<!--End of SAPR3 XML Interface - Intermediate Screen-->
+		
+		<!--SugarCRM XML Interface - Intermediate Screen-->
+			<!--End of SugarCRM XML Interface - Intermediate Screen-->
+		
+			<!--Method Interface-->
+	 		<!--Endif of MethodInterface-->
+		<!--End of Method Interface-->
+		
+		<!--Data Mapper Schema Record Properties-->
+			                             
+			<!--End of Data Mapper Schema Record Properties-->
+
+	<div align=right><a href="#top">Return to Top</a> &nbsp;|&nbsp; <a href="#" onclick="javascript:window.print()">Print</a></div>
+			<!-- ====================== Page Break!	=============================== -->
+		<p class="BreakPage"></p>		<!-- This command will make the printer breake a page -->
+		<p>
+			<img src="MagicxpiStrip.jpg" height=150></p>
+			<p align=left>Project: <font size=2><b>VWS_MAGENTO_2_JDE </b></font> <br>	<!-- Then (in the new page) output the page header -->
+			Topology - 1 > Get Quantity Available <br><br>
+			<span> <b><u> Steps </u></b> </span> <br><br>
+		</p>
+		<!-- ====================== Page Break!	=============================== -->
+	
+	<a name="Return ErrorString41">
+		<img src="icons\Flow_Data.gif" width="32" height="32"> &nbsp;
+		<b> Return ErrorString </b>
+	</a>
+
+	<table border=0 width=100%>
+		<tr class=head1> <th> General Properties </th> </tr>
+	</table>
+
+		
+		
+		
+		
+		<!--If there are any Invoke Flow Arguments Defined-->
+				<!--End of Invoke Flow Aruments-->
+
+		
+		
+		
+		
+		
+		<!--Flow Data Service-->
+					<table border=0 width=100%>
+				<tr> <td Class="Caption"> Description:</td> <td> Add Qty Error Description </td> </tr>
+				<tr> <td Class="Caption"> Magic xpi Server: </td> <td>    1 Magic xpi 4.1 &nbsp; </td> </tr>
+				<tr> <td Class="Caption"> Processing Mode: </td> <td> Linear &nbsp; </td> </tr>
+				<tr> <td Class="Caption"> Wait for Completion: </td> <td> No &nbsp; </td> </tr>
+				<tr> <td Class="Caption"> Save Point: </td> <td> No &nbsp; </td> </tr>
+				<tr> <td Class="Caption"> Call Logic Flow: </td> <td> No &nbsp; </td> </tr>
+				<tr> <td Class="Caption"> Condition: </td> <td>  &nbsp; </td> </tr>
+			</table>
+
+			<table border=1 width=100%>
+			<tr class=head1>
+				<td width=10%> Action </td>
+				<td width=10%> Type </td>
+				<td width=9%> Dynamic </td>
+				<td width=10%> Name </td>
+				<td width=10%> Data Type </td>
+				<td width=15%> Encoding </td>
+				<td width=6%> Index </td>
+				<td width=15%> Update Expression </td>
+				<td width=15%> Condition </td>
+			</tr>
+
+						<tr class="MG_Odd_Row">	
+				<td width=10%> Update </td>
+				<td width=10%> Flow </td>
+				<td width=9%> No </td>
+				<td width=10%> F.errorString </td>
+				<td width=10%> Alpha </td>
+				<td width=10%> Ansi </td>
+				<td width=6%>    0 </td>
+				<td width=15%> C.sys.LastErrorDescription </td>
+				<td width=15%> &nbsp </td>
+			</tr>
+						<tr class="MG_Even_Row">	
+				<td width=10%> Update </td>
+				<td width=10%> Flow </td>
+				<td width=9%> No </td>
+				<td width=10%> F.mnQuantityAvailable </td>
+				<td width=10%> Alpha </td>
+				<td width=10%> Ansi </td>
+				<td width=6%>    0 </td>
+				<td width=15%> '-1' </td>
+				<td width=15%> &nbsp </td>
+			</tr>
+						</table>
+				<!--End of Flow Data Service-->
+
+		<!--Refresh Conversion Service-->
+				<!--End of Refresh Conversion Service-->
+
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+			<!--Trigger HTML Include Section-->
+				<!--End of Trigger HTML Include Section-->
+
+			<!--SAP Method Interface - Intermediate Screen-->
+				<!--End of SAP Method Interface - Intermediate Screen-->
+
+			<!--SAP XML Interface - Intermediate Screen-->
+				<!--End of SAP XML Interface - Intermediate Screen-->
+
+
+			<!--SalesForce XML Interface - Intermediate Screen-->
+			<!--End of SaleseFroce XML Interface - Intermediate Screen-->
+		
+			<!--SAPR3 XML Interface - Intermediate Screen-->
+			<!--End of SAPR3 XML Interface - Intermediate Screen-->
+		
+		<!--SugarCRM XML Interface - Intermediate Screen-->
+			<!--End of SugarCRM XML Interface - Intermediate Screen-->
+		
+			<!--Method Interface-->
+	 		<!--Endif of MethodInterface-->
+		<!--End of Method Interface-->
+		
+		<!--Data Mapper Schema Record Properties-->
+			                             
+			<!--End of Data Mapper Schema Record Properties-->
+
+	<div align=right><a href="#top">Return to Top</a> &nbsp;|&nbsp; <a href="#" onclick="javascript:window.print()">Print</a></div>
+ <!--End Repeat for Steps -->
+ <!--Endif of Steps-->
+
+
+</body>
+</html>

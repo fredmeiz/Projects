@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<FlowVariables>
+							<Variable d2p1:type="VariableRepositoryItem" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance">
+			<GUID>{62D037A6-9E03-4F54-9A6E-1B3CBB05C55D}</GUID>
+			<ID>1</ID>
+			<Order>37</Order>
+			<Name>F.Body</Name>
+						<Type>
+				<Type>A</Type>
+				<Picture>100</Picture>
+									<isUnicode>false</isUnicode>
+													<isNillable>false</isNillable>
+							</Type>
+													<isDeleted>false</isDeleted>
+						<IsSystemVariable>false</IsSystemVariable>
+			<IsNameIncompatible>false</IsNameIncompatible>
+			</Variable>
+									<Variable d2p1:type="VariableRepositoryItem" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance">
+			<GUID>{9B697F8D-A6D6-4B65-B74B-02C93B4E3468}</GUID>
+			<ID>2</ID>
+			<Order>38</Order>
+			<Name>F.Counter</Name>
+						<Type>
+				<Type>N</Type>
+				<Picture>12.0</Picture>
+									<isUnicode>false</isUnicode>
+													<isNillable>false</isNillable>
+							</Type>
+									<DefaultValue>
+				<ExpressionVal>MA==</ExpressionVal>
+				<ExpectedType>N</ExpectedType>
+				<Direction>I</Direction>
+			</DefaultValue>
+										<isDeleted>false</isDeleted>
+						<IsSystemVariable>false</IsSystemVariable>
+			<IsNameIncompatible>false</IsNameIncompatible>
+			</Variable>
+									<Variable d2p1:type="VariableRepositoryItem" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance">
+			<GUID>{4D599858-2FEB-4EBD-A0AC-F1F5DD1C87E9}</GUID>
+			<ID>3</ID>
+			<Order>39</Order>
+			<Name>F.FromAdd</Name>
+						<Type>
+				<Type>A</Type>
+				<Picture>100</Picture>
+									<isUnicode>false</isUnicode>
+													<isNillable>false</isNillable>
+							</Type>
+													<isDeleted>false</isDeleted>
+						<IsSystemVariable>false</IsSystemVariable>
+			<IsNameIncompatible>false</IsNameIncompatible>
+			</Variable>
+									<Variable d2p1:type="VariableRepositoryItem" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance">
+			<GUID>{D47686AD-04CB-4F0B-B1E5-F3C9AF737411}</GUID>
+			<ID>4</ID>
+			<Order>43</Order>
+			<Name>F.ToAdd</Name>
+						<Type>
+				<Type>A</Type>
+				<Picture>100</Picture>
+									<isUnicode>false</isUnicode>
+													<isNillable>false</isNillable>
+							</Type>
+													<isDeleted>false</isDeleted>
+						<IsSystemVariable>false</IsSystemVariable>
+			<IsNameIncompatible>false</IsNameIncompatible>
+			</Variable>
+					</FlowVariables>
+	

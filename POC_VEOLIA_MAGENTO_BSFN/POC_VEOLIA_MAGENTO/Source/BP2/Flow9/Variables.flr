@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<FlowVariables>
+							<Variable d2p1:type="VariableRepositoryItem" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance">
+			<GUID>{A82C9E38-C1BA-46D9-975E-649A8F09D14D}</GUID>
+			<ID>1</ID>
+			<Order>338</Order>
+			<Name>F.Magento_Order_Number</Name>
+						<Type>
+				<Type>N</Type>
+				<Picture>10.0</Picture>
+									<isUnicode>false</isUnicode>
+													<isNillable>false</isNillable>
+							</Type>
+													<isDeleted>false</isDeleted>
+						<IsSystemVariable>false</IsSystemVariable>
+			<IsNameIncompatible>false</IsNameIncompatible>
+			</Variable>
+					</FlowVariables>
+	

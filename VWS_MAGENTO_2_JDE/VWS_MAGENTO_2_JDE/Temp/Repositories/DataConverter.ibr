@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ConverterRepository>
+  <Converter d2p1:type="ConverterRepositoryItem" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance">
+    <GUID>{DCF3BA82-9234-4C06-A0A8-C3119156C84B}</GUID>
+    <ID>1</ID>
+    <Name>V.cde</Name>
+    <Order>1</Order>
+    <IsNameIncompatible>false</IsNameIncompatible>
+    <Delimiter>,</Delimiter>
+    <FilePath>conversion\cde</FilePath>
+    <isDynamic>false</isDynamic>
+  </Converter>
+  <Converter d2p1:type="ConverterRepositoryItem" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance">
+    <GUID>{D03A5316-61AC-4BF8-BD3B-2BB6BDDA62FD}</GUID>
+    <ID>2</ID>
+    <Name>V.cdestatus</Name>
+    <Order>2</Order>
+    <IsNameIncompatible>false</IsNameIncompatible>
+    <Delimiter>;</Delimiter>
+    <FilePath>conversion\cdestatus</FilePath>
+    <isDynamic>false</isDynamic>
+  </Converter>
+</ConverterRepository>

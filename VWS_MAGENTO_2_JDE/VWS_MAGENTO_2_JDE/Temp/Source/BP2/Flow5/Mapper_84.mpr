@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mapper>
+  <MapperOrigin>DataMapperService</MapperOrigin>
+  <SourceSchemas>
+    <Schema d3p1:type="XSDSchema" xmlns:d3p1="http://www.w3.org/2001/XMLSchema-instance">
+      <SchemaID>5</SchemaID>
+      <Order>1</Order>
+      <Name>S1</Name>
+      <Description />
+      <SchemaLocation>Source</SchemaLocation>
+      <SchemaType>XSD</SchemaType>
+      <Fields>
+        <Field d3p1:type="XSDComplexField">
+          <Identifier>getSalesOrderV4Response</Identifier>
+          <Description />
+          <FieldName>getSalesOrderV4Response</FieldName>
+          <NodeType>Complex</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Condition>
+            <ExpectedType>L</ExpectedType>
+            <Direction>I</Direction>
+          </Condition>
+          <ReplicatedCount>0</ReplicatedCount>
+          <MaxInstance>1</MaxInstance>
+          <MultiUpdates />
+          <Filter>
+            <ExpectedType>L</ExpectedType>
+            <Direction>I</Direction>
+          </Filter>
+          <IsMultiSimple>false</IsMultiSimple>
+          <MinInstance>0</MinInstance>
+        </Field>
+        <Field d3p1:type="XSDComplexField">
+          <Identifier>getSalesOrderV4Response/header</Identifier>
+          <Description />
+          <FieldName>header</FieldName>
+          <NodeType>Complex</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Condition>
+            <ExpectedType>L</ExpectedType>
+            <Direction>I</Direction>
+          </Condition>
+          <ReplicatedCount>0</ReplicatedCount>
+          <MaxInstance>79228162514264337593543950335</MaxInstance>
+          <MultiUpdates />
+          <Filter>
+            <ExpectedType>L</ExpectedType>
+            <Direction>I</Direction>
+          </Filter>
+          <IsMultiSimple>false</IsMultiSimple>
+          <MinInstance>0</MinInstance>
+        </Field>
+        <Field d3p1:type="XSDComplexField">
+          <Identifier>getSalesOrderV4Response/header/detail</Identifier>
+          <Description />
+          <FieldName>detail</FieldName>
+          <NodeType>Complex</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Condition>
+            <ExpectedType>L</ExpectedType>
+            <Direction>I</Direction>
+          </Condition>
+          <ReplicatedCount>0</ReplicatedCount>
+          <MaxInstance>0</MaxInstance>
+          <MultiUpdates />
+          <Filter>
+            <ExpectedType>L</ExpectedType>
+            <Direction>I</Direction>
+          </Filter>
+          <IsMultiSimple>false</IsMultiSimple>
+          <MinInstance>0</MinInstance>
+        </Field>
+        <Field d3p1:type="SimpleXSDField">
+          <Identifier>getSalesOrderV4Response/header/detail/statusCodeNext</Identifier>
+          <Description />
+          <FieldName>statusCodeNext</FieldName>
+          <NodeType>Simple</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Expression>
+            <ExpectedType />
+            <Direction>I</Direction>
+          </Expression>
+          <MagicFieldType>A</MagicFieldType>
+          <MagicPicture>1000</MagicPicture>
+          <isUnicode>false</isUnicode>
+          <ExternalFieldType>string</ExternalFieldType>
+          <ExternalFieldPicture />
+          <UserPicture>1000</UserPicture>
+          <isNillable>false</isNillable>
+          <AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+          <Required>false</Required>
+          <Condition>
+            <ExpectedType>L</ExpectedType>
+            <Direction>I</Direction>
+          </Condition>
+          <CreateAllways>false</CreateAllways>
+          <MaxInstance>1</MaxInstance>
+          <MinInstance>0</MinInstance>
+        </Field>
+        <Field d3p1:type="SimpleXSDField">
+          <Identifier>getSalesOrderV4Response/header/holdOrderCode</Identifier>
+          <Description />
+          <FieldName>holdOrderCode</FieldName>
+          <NodeType>Simple</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Expression>
+            <ExpectedType />
+            <Direction>I</Direction>
+          </Expression>
+          <MagicFieldType>A</MagicFieldType>
+          <MagicPicture>1000</MagicPicture>
+          <isUnicode>false</isUnicode>
+          <ExternalFieldType>string</ExternalFieldType>
+          <ExternalFieldPicture />
+          <UserPicture>1000</UserPicture>
+          <isNillable>false</isNillable>
+          <AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+          <Required>false</Required>
+          <Condition>
+            <ExpectedType>L</ExpectedType>
+            <Direction>I</Direction>
+          </Condition>
+          <CreateAllways>false</CreateAllways>
+          <MaxInstance>1</MaxInstance>
+          <MinInstance>0</MinInstance>
+        </Field>
+        <Field d3p1:type="SimpleXSDField">
+          <Identifier>getSalesOrderV4Response/header/detail/lineTypeCode</Identifier>
+          <Description />
+          <FieldName>lineTypeCode</FieldName>
+          <NodeType>Simple</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Expression>
+            <ExpectedType />
+            <Direction>I</Direction>
+          </Expression>
+          <MagicFieldType>A</MagicFieldType>
+          <MagicPicture>1000</MagicPicture>
+          <isUnicode>false</isUnicode>
+          <ExternalFieldType />
+          <ExternalFieldPicture />
+          <UserPicture />
+          <isNillable>false</isNillable>
+          <AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+          <Required>false</Required>
+          <Condition>
+            <ExpectedType>L</ExpectedType>
+            <Direction>I</Direction>
+          </Condition>
+          <CreateAllways>false</CreateAllways>
+          <MaxInstance>1</MaxInstance>
+          <MinInstance>0</MinInstance>
+        </Field>
+        <Field d3p1:type="SimpleXSDField">
+          <Identifier>getSalesOrderV4Response/header/detail/statusCodeLast</Identifier>
+          <Description />
+          <FieldName>statusCodeLast</FieldName>
+          <NodeType>Simple</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Expression>
+            <ExpectedType />
+            <Direction>I</Direction>
+          </Expression>
+          <MagicFieldType>A</MagicFieldType>
+          <MagicPicture>1000</MagicPicture>
+          <isUnicode>false</isUnicode>
+          <ExternalFieldType>string</ExternalFieldType>
+          <ExternalFieldPicture />
+          <UserPicture />
+          <isNillable>false</isNillable>
+          <AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+          <Required>false</Required>
+          <Condition>
+            <ExpectedType>L</ExpectedType>
+            <Direction>I</Direction>
+          </Condition>
+          <CreateAllways>false</CreateAllways>
+          <MaxInstance>1</MaxInstance>
+          <MinInstance>0</MinInstance>
+        </Field>
+      </Fields>
+      <XSD>
+        <XSDSubType>File</XSDSubType>
+        <IFCModel />
+        <XsdFileName>resource\JDE_SalesOrderManager\http___oracle_e1_bssv_JP420000_.xsd</XsdFileName>
+        <RootSelected>getSalesOrderV4Response</RootSelected>
+        <isAppend>false</isAppend>
+        <isValidation>false</isValidation>
+        <RecursionDepth>1</RecursionDepth>
+        <AlwaysCreateNodes>false</AlwaysCreateNodes>
+        <DataDestination>Variable</DataDestination>
+        <DataExp>
+          <ExpressionVal>PCMhJUAkPmdldFZhck5hbWUoMSwne0ZCMjA0MThGLTI0OTYtNDJFMS1BQTBCLUM0RUY3OThFRUFFM30nLDAsMCk8IyElQCQ+</ExpressionVal>
+          <RuntimeExpression>R2V0UGFyYW0gKCcwMDAwMDAwMDAwMDIwMDAwMDAwMDAwMDVGLldTX0pERU9VVCcp</RuntimeExpression>
+          <ExpectedType>B</ExpectedType>
+          <Direction>I</Direction>
+        </DataExp>
+        <xmlFileEncoding>Project Encoding</xmlFileEncoding>
+        <UseStreamingParser>false</UseStreamingParser>
+        <TargetNamespace>http://oracle.e1.bssv.JP420000/</TargetNamespace>
+        <NameSpaces>
+          <XSDNameSpace>
+            <NS>ns0</NS>
+            <Alias>map</Alias>
+            <NSVector>http://systinet.com/mapping/</NSVector>
+          </XSDNameSpace>
+          <XSDNameSpace>
+            <NS>ns1</NS>
+            <Alias>ns0</Alias>
+            <NSVector>http://oracle.e1.bssv.JP420000/</NSVector>
+          </XSDNameSpace>
+          <XSDNameSpace>
+            <NS>ns2</NS>
+            <Alias>sns1</Alias>
+            <NSVector>http://www.w3.org/2001/XMLSchema</NSVector>
+          </XSDNameSpace>
+        </NameSpaces>
+        <DataFormats />
+      </XSD>
+    </Schema>
+  </SourceSchemas>
+  <DestinationSchemas>
+    <Schema d3p1:type="VariableSchema" xmlns:d3p1="http://www.w3.org/2001/XMLSchema-instance">
+      <SchemaID>3</SchemaID>
+      <Order>1</Order>
+      <Name>JDEOrderStatus</Name>
+      <Description />
+      <SchemaLocation>Destination</SchemaLocation>
+      <SchemaType>Variable</SchemaType>
+      <Fields>
+        <Field d3p1:type="ComplexField">
+          <Identifier>3</Identifier>
+          <Description />
+          <FieldName>Instance</FieldName>
+          <NodeType>Complex</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Condition>
+            <ExpressionVal>KCggPCMhJUAkPmdldE5vZGVOYW1lKDUvZ2V0U2FsZXNPcmRlclY0UmVzcG9uc2UvaGVhZGVyL2RldGFpbC9zdGF0dXNDb2RlTGFzdCk8IyElQCQ+ID4gJzk5MCcpIA0KT1IoIDwjISVAJD5nZXROb2RlTmFtZSg1L2dldFNhbGVzT3JkZXJWNFJlc3BvbnNlL2hlYWRlci9kZXRhaWwvc3RhdHVzQ29kZUxhc3QpPCMhJUAkPiA8ICc5ODAnKSkgDQpBTkQgKCA8IyElQCQ+Z2V0Tm9kZU5hbWUoNS9nZXRTYWxlc09yZGVyVjRSZXNwb25zZS9oZWFkZXIvZGV0YWlsL2xpbmVUeXBlQ29kZSk8IyElQCQ+ID0gJ1MnKSANCkFORCAoICggPCMhJUAkPmdldE5vZGVOYW1lKDUvZ2V0U2FsZXNPcmRlclY0UmVzcG9uc2UvaGVhZGVyL2RldGFpbC9zdGF0dXNDb2RlTmV4dCk8IyElQCQ+IDwgPCMhJUAkPmdldFZhck5hbWUoMSwne0FBMzA0RjIyLTk1NkUtNDBDMC04MUIyLTcyQzNDNkE5NjQyQ30nLDAsMCk8IyElQCQ+ICkgDQpPUiAoIDwjISVAJD5nZXRWYXJOYW1lKDEsJ3tBQTMwNEYyMi05NTZFLTQwQzAtODFCMi03MkMzQzZBOTY0MkN9JywwLDApPCMhJUAkPiA9ICcnICkp</ExpressionVal>
+            <RuntimeExpression>KCggeG1sZ2V0KDAsMSwnL2dldFNhbGVzT3JkZXJWNFJlc3BvbnNlWycmdHJpbShzdHIoZ2V0cGFyYW0oJ1NfMl81Xzg0XzVfZ2V0U2FsZXNPcmRlclY0UmVzcG9uc2UnKSwnJykpJiddJyYnL2hlYWRlclsnJnRyaW0oc3RyKGdldHBhcmFtKCdTXzJfNV84NF81X2dldFNhbGVzT3JkZXJWNFJlc3BvbnNlL2hlYWRlcicpLCcnKSkmJ10nJicvZGV0YWlsWycmdHJpbShzdHIoZ2V0cGFyYW0oJ1NfMl81Xzg0XzVfZ2V0U2FsZXNPcmRlclY0UmVzcG9uc2UvaGVhZGVyL2RldGFpbCcpLCcnKSkmJ10nJicvc3RhdHVzQ29kZUxhc3QnLCcnLFNoYXJlZFZhbEdldCgnSUJfTnVsbGlmWE1MU291cmNlTm9uRXhpc3RlbnRUYWdWYWx1ZScpKSA+ICc5OTAnKSANCk9SKCB4bWxnZXQoMCwxLCcvZ2V0U2FsZXNPcmRlclY0UmVzcG9uc2VbJyZ0cmltKHN0cihnZXRwYXJhbSgnU18yXzVfODRfNV9nZXRTYWxlc09yZGVyVjRSZXNwb25zZScpLCcnKSkmJ10nJicvaGVhZGVyWycmdHJpbShzdHIoZ2V0cGFyYW0oJ1NfMl81Xzg0XzVfZ2V0U2FsZXNPcmRlclY0UmVzcG9uc2UvaGVhZGVyJyksJycpKSYnXScmJy9kZXRhaWxbJyZ0cmltKHN0cihnZXRwYXJhbSgnU18yXzVfODRfNV9nZXRTYWxlc09yZGVyVjRSZXNwb25zZS9oZWFkZXIvZGV0YWlsJyksJycpKSYnXScmJy9zdGF0dXNDb2RlTGFzdCcsJycsU2hhcmVkVmFsR2V0KCdJQl9OdWxsaWZYTUxTb3VyY2VOb25FeGlzdGVudFRhZ1ZhbHVlJykpIDwgJzk4MCcpKSANCkFORCAoIHhtbGdldCgwLDEsJy9nZXRTYWxlc09yZGVyVjRSZXNwb25zZVsnJnRyaW0oc3RyKGdldHBhcmFtKCdTXzJfNV84NF81X2dldFNhbGVzT3JkZXJWNFJlc3BvbnNlJyksJycpKSYnXScmJy9oZWFkZXJbJyZ0cmltKHN0cihnZXRwYXJhbSgnU18yXzVfODRfNV9nZXRTYWxlc09yZGVyVjRSZXNwb25zZS9oZWFkZXInKSwnJykpJiddJyYnL2RldGFpbFsnJnRyaW0oc3RyKGdldHBhcmFtKCdTXzJfNV84NF81X2dldFNhbGVzT3JkZXJWNFJlc3BvbnNlL2hlYWRlci9kZXRhaWwnKSwnJykpJiddJyYnL2xpbmVUeXBlQ29kZScsJycsU2hhcmVkVmFsR2V0KCdJQl9OdWxsaWZYTUxTb3VyY2VOb25FeGlzdGVudFRhZ1ZhbHVlJykpID0gJ1MnKSANCkFORCAoICggeG1sZ2V0KDAsMSwnL2dldFNhbGVzT3JkZXJWNFJlc3BvbnNlWycmdHJpbShzdHIoZ2V0cGFyYW0oJ1NfMl81Xzg0XzVfZ2V0U2FsZXNPcmRlclY0UmVzcG9uc2UnKSwnJykpJiddJyYnL2hlYWRlclsnJnRyaW0oc3RyKGdldHBhcmFtKCdTXzJfNV84NF81X2dldFNhbGVzT3JkZXJWNFJlc3BvbnNlL2hlYWRlcicpLCcnKSkmJ10nJicvZGV0YWlsWycmdHJpbShzdHIoZ2V0cGFyYW0oJ1NfMl81Xzg0XzVfZ2V0U2FsZXNPcmRlclY0UmVzcG9uc2UvaGVhZGVyL2RldGFpbCcpLCcnKSkmJ10nJicvc3RhdHVzQ29kZU5leHQnLCcnLFNoYXJlZFZhbEdldCgnSUJfTnVsbGlmWE1MU291cmNlTm9uRXhpc3RlbnRUYWdWYWx1ZScpKSA8IEdldFBhcmFtICgnMDAwMDAwMDAwMDAyMDAwMDAwMDAwMDA1Ri5vcmRlclN0YXR1c0pERScpICkgDQpPUiAoIEdldFBhcmFtICgnMDAwMDAwMDAwMDAyMDAwMDAwMDAwMDA1Ri5vcmRlclN0YXR1c0pERScpID0gJycgKSk=</RuntimeExpression>
+            <ExpectedType>L</ExpectedType>
+            <Direction>I</Direction>
+          </Condition>
+          <ReplicatedCount>0</ReplicatedCount>
+          <MaxInstance>0</MaxInstance>
+          <MultiUpdates />
+        </Field>
+        <Field d3p1:type="FieldVariable">
+          <Identifier>{BC2BAAA0-42B1-4C14-AB55-87D7D70412AC}</Identifier>
+          <Description />
+          <FieldName>F.JDEHoldCode</FieldName>
+          <NodeType>Simple</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Expression>
+            <ExpectedType />
+            <Direction>I</Direction>
+          </Expression>
+          <MagicFieldType>A</MagicFieldType>
+          <MagicPicture>2</MagicPicture>
+          <isUnicode>false</isUnicode>
+          <UserPicture>2</UserPicture>
+          <isNillable>false</isNillable>
+          <AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+          <Encoding>1</Encoding>
+        </Field>
+        <Field d3p1:type="FieldVariable">
+          <Identifier>{AA304F22-956E-40C0-81B2-72C3C6A9642C}</Identifier>
+          <Description />
+          <FieldName>F.orderStatusJDE</FieldName>
+          <NodeType>Simple</NodeType>
+          <IsVirtual>false</IsVirtual>
+          <Color>210</Color>
+          <Expression>
+            <ExpectedType />
+            <Direction>I</Direction>
+          </Expression>
+          <MagicFieldType>A</MagicFieldType>
+          <MagicPicture>30</MagicPicture>
+          <isUnicode>false</isUnicode>
+          <UserPicture>30</UserPicture>
+          <isNillable>false</isNillable>
+          <AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+          <Encoding>1</Encoding>
+        </Field>
+      </Fields>
+      <Variables>
+        <Variables>
+          <Variable>
+            <VarGUID>{BC2BAAA0-42B1-4C14-AB55-87D7D70412AC}</VarGUID>
+          </Variable>
+          <Variable>
+            <VarGUID>{AA304F22-956E-40C0-81B2-72C3C6A9642C}</VarGUID>
+          </Variable>
+        </Variables>
+      </Variables>
+    </Schema>
+  </DestinationSchemas>
+  <Connections>
+    <ConnectionData>
+      <SourceIdentifier>getSalesOrderV4Response/header/detail</SourceIdentifier>
+      <SourceSchemaID>5</SourceSchemaID>
+      <DestinationIdentifier>3</DestinationIdentifier>
+      <DestinationSchemaID>3</DestinationSchemaID>
+    </ConnectionData>
+    <ConnectionData>
+      <SourceIdentifier>getSalesOrderV4Response/header/holdOrderCode</SourceIdentifier>
+      <SourceSchemaID>5</SourceSchemaID>
+      <DestinationIdentifier>{BC2BAAA0-42B1-4C14-AB55-87D7D70412AC}</DestinationIdentifier>
+      <DestinationSchemaID>3</DestinationSchemaID>
+    </ConnectionData>
+    <ConnectionData>
+      <SourceIdentifier>getSalesOrderV4Response/header/detail/statusCodeNext</SourceIdentifier>
+      <SourceSchemaID>5</SourceSchemaID>
+      <DestinationIdentifier>{AA304F22-956E-40C0-81B2-72C3C6A9642C}</DestinationIdentifier>
+      <DestinationSchemaID>3</DestinationSchemaID>
+    </ConnectionData>
+  </Connections>
+  <ColorNames>
+    <MapperColorItem>
+      <Color>203</Color>
+      <ColorDescription>Blue</ColorDescription>
+    </MapperColorItem>
+    <MapperColorItem>
+      <Color>205</Color>
+      <ColorDescription>Green</ColorDescription>
+    </MapperColorItem>
+    <MapperColorItem>
+      <Color>206</Color>
+      <ColorDescription>Purple</ColorDescription>
+    </MapperColorItem>
+    <MapperColorItem>
+      <Color>204</Color>
+      <ColorDescription>Yellow</ColorDescription>
+    </MapperColorItem>
+    <MapperColorItem>
+      <Color>202</Color>
+      <ColorDescription>Red</ColorDescription>
+    </MapperColorItem>
+    <MapperColorItem>
+      <Color>210</Color>
+      <ColorDescription>Default</ColorDescription>
+    </MapperColorItem>
+  </ColorNames>
+  <ErrorFlowExpressionVal>PCMhJUAkPmdldEZsb3dOYW1lKDEpPCMhJUAkPg==</ErrorFlowExpressionVal>
+</Mapper>

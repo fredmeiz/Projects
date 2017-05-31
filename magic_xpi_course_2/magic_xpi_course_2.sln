@@ -1,0 +1,19 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# XPIStudio Solution File, Format Version 11.00
+Project("{52618B1E-3179-42A6-9502-D84BAA764068}") = "magic_xpi_course_2", "magic_xpi_course_2\magic_xpi_course_2.mgxpiproj", "{fe1d96dd-d7e3-46c6-acbb-18453bacccc5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{fe1d96dd-d7e3-46c6-acbb-18453bacccc5}.Debug|x86.ActiveCfg = Debug|x86
+		{fe1d96dd-d7e3-46c6-acbb-18453bacccc5}.Debug|x86.Build.0 = Debug|x86
+		{fe1d96dd-d7e3-46c6-acbb-18453bacccc5}.Release|x86.ActiveCfg = Release|x86
+		{fe1d96dd-d7e3-46c6-acbb-18453bacccc5}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

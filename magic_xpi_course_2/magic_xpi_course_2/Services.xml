@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Resource_Settings>
+  <Resource_Element>
+    <Main_Resource_ID>106</Main_Resource_ID>
+    <Main_Resource_Name>Email</Main_Resource_Name>
+  </Resource_Element>
+  <Resource_Element>
+    <Main_Resource_ID>109</Main_Resource_ID>
+    <Main_Resource_Name>FTP</Main_Resource_Name>
+  </Resource_Element>
+  <Resource_Element>
+    <Main_Resource_ID>110</Main_Resource_ID>
+    <Main_Resource_Name>HTTP</Main_Resource_Name>
+  </Resource_Element>
+  <Resource_Element>
+    <Main_Resource_ID>111</Main_Resource_ID>
+    <Main_Resource_Name>IBM i</Main_Resource_Name>
+  </Resource_Element>
+  <Resource_Element>
+    <Main_Resource_ID>115</Main_Resource_ID>
+    <Main_Resource_Name>JMS</Main_Resource_Name>
+  </Resource_Element>
+  <Resource_Element>
+    <Main_Resource_ID>117</Main_Resource_ID>
+    <Main_Resource_Name>WebSphere MQ</Main_Resource_Name>
+  </Resource_Element>
+  <Resource_Element>
+    <Main_Resource_ID>118</Main_Resource_ID>
+    <Main_Resource_Name>MSMQ</Main_Resource_Name>
+  </Resource_Element>
+  <Resource_Element>
+    <Main_Resource_ID>121</Main_Resource_ID>
+    <Main_Resource_Name>Web Services</Main_Resource_Name>
+  </Resource_Element>
+  <Resource_Element>
+    <Main_Resource_ID>128</Main_Resource_ID>
+    <Main_Resource_Name>SAP B1 2004</Main_Resource_Name>
+  </Resource_Element>
+  <Resource_Element>
+    <Main_Resource_ID>133</Main_Resource_ID>
+    <Main_Resource_Name>SAP B1 2005</Main_Resource_Name>
+  </Resource_Element>
+  <Resource_Element>
+    <Main_Resource_ID>140</Main_Resource_ID>
+    <Main_Resource_Name>SAP R3</Main_Resource_Name>
+  </Resource_Element>
+  <Resource_Element>
+    <Main_Resource_ID>141</Main_Resource_ID>
+    <Main_Resource_Name>SAP B1 2007</Main_Resource_Name>
+  </Resource_Element>
+  <Resource_Element>
+    <Main_Resource_ID>143</Main_Resource_ID>
+    <Main_Resource_Name>Salesforce</Main_Resource_Name>
+  </Resource_Element>
+  <Resource_Element>
+    <Main_Resource_ID>149</Main_Resource_ID>
+    <Main_Resource_Name>HL7</Main_Resource_Name>
+  </Resource_Element>
+  <Resource_Element>
+    <Main_Resource_ID>153</Main_Resource_ID>
+    <Main_Resource_Name>SAP A1</Main_Resource_Name>
+  </Resource_Element>
+  <Resource_Element>
+    <Main_Resource_ID>157</Main_Resource_ID>
+    <Main_Resource_Name>Exchange</Main_Resource_Name>
+  </Resource_Element>
+  <Resource_Element>
+    <Main_Resource_ID>158</Main_Resource_ID>
+    <Main_Resource_Name>TCPListener</Main_Resource_Name>
+  </Resource_Element>
+  <Resource_Element>
+    <Main_Resource_ID>160</Main_Resource_ID>
+    <Main_Resource_Name>SAP B1 88</Main_Resource_Name>
+  </Resource_Element>
+  <Resource_Element>
+    <Main_Resource_ID>162</Main_Resource_ID>
+    <Main_Resource_Name>Sugar</Main_Resource_Name>
+  </Resource_Element>
+  <Resource_Element>
+    <Main_Resource_ID>20000</Main_Resource_ID>
+    <Main_Resource_Name>Scheduler</Main_Resource_Name>
+  </Resource_Element>
+  <Resource_Element>
+    <Main_Resource_ID>30000</Main_Resource_ID>
+    <Main_Resource_Name>Flow Enablement</Main_Resource_Name>
+  </Resource_Element>
+</Resource_Settings>

@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Flow>
+
+  <Properties>
+    <ID>2</ID>
+    <Order>1</Order>
+    <Name>Main Flow</Name>
+    <isInactive>false</isInactive>
+    <isDisabled>false</isDisabled>
+    <isTwoPhase>false</isTwoPhase>
+    <isAutoStart>false</isAutoStart>
+    <MaxInstances>0</MaxInstances>
+    <isAutoRepeat>false</isAutoRepeat>
+    <TimeoutPolicy>6</TimeoutPolicy>
+    <TimeOutVal>0</TimeOutVal>
+    <RecoveryPolicy>6</RecoveryPolicy>
+    <Enablement>
+      <ResourceInfo>
+        <isDynamic>false</isDynamic>
+        <ResSerName/>
+      </ResourceInfo>
+    </Enablement>
+  </Properties>
+
+  <DrawProperties>
+    <RootStepID>1</RootStepID>
+    <HasTrigger>false</HasTrigger>
+  </DrawProperties>
+
+  <Steps>
+    <row_Step>
+      <Properties>
+        <isGoTo>false</isGoTo>
+        <ParentStepID>0</ParentStepID>
+        <SortOrder>0</SortOrder>
+        <ID>1</ID>
+        <Name>Just For placeholder</Name>
+        <IFCDefinition>22</IFCDefinition>
+        <ProcessMode>1</ProcessMode>
+        <isTwoPhase>false</isTwoPhase>
+        <isWait4Comp>false</isWait4Comp>
+        <isSavePoint>false</isSavePoint>
+        <CallLogicFlow>false</CallLogicFlow>
+        <isTrigger>false</isTrigger>
+      </Properties>
+      <LoggingInfo>
+        <Scope>0</Scope>
+      </LoggingInfo>
+      <iBoltService/>
+    </row_Step>
+    <row_Step>
+      <Properties>
+        <isGoTo>false</isGoTo>
+        <ParentStepID>5</ParentStepID>
+        <SortOrder>2</SortOrder>
+        <ID>4</ID>
+        <Name>Wait for 5 seconds</Name>
+        <IFCDefinition>10</IFCDefinition>
+        <ProcessMode>1</ProcessMode>
+        <isTwoPhase>false</isTwoPhase>
+        <isWait4Comp>false</isWait4Comp>
+        <isSavePoint>false</isSavePoint>
+        <CallLogicFlow>false</CallLogicFlow>
+        <isTrigger>false</isTrigger>
+      </Properties>
+      <LoggingInfo>
+        <Scope>0</Scope>
+      </LoggingInfo>
+      <iBoltService>
+        <Delay>
+          <IntervalExp>
+            <ExpressionVal>NTA=</ExpressionVal>
+            <ExpectedType>N</ExpectedType>
+            <Direction>I</Direction>
+          </IntervalExp>
+        </Delay>
+      </iBoltService>
+    </row_Step>
+    <row_Step>
+      <Properties>
+        <isGoTo>false</isGoTo>
+        <ParentStepID>1</ParentStepID>
+        <SortOrder>1</SortOrder>
+        <ID>5</ID>
+        <Name>Invoke Method Interface</Name>
+        <Description/>
+        <IFCDefinition>7</IFCDefinition>
+        <ProcessMode>1</ProcessMode>
+        <isTwoPhase>false</isTwoPhase>
+        <isWait4Comp>false</isWait4Comp>
+        <isSavePoint>false</isSavePoint>
+        <CallLogicFlow>false</CallLogicFlow>
+        <isTrigger>false</isTrigger>
+      </Properties>
+      <LoggingInfo>
+        <Scope>0</Scope>
+      </LoggingInfo>
+      <iBoltService>
+        <InvokeFlow>
+          <isByExp>0</isByExp>
+          <FlowInfo>
+            <BPID>1</BPID>
+            <FlowID>
+              <ExpressionVal>PCMhJUAkPmdldEZsb3dOYW1lKDEpPCMhJUAkPg==</ExpressionVal>
+              <ExpectedType>N</ExpectedType>
+              <Direction>I</Direction>
+            </FlowID>
+          </FlowInfo>
+        </InvokeFlow>
+      </iBoltService>
+    </row_Step>
+    <row_Step>
+      <Properties>
+        <isGoTo>false</isGoTo>
+        <ParentStepID>4</ParentStepID>
+        <SortOrder>1</SortOrder>
+        <ID>6</ID>
+        <Name>Invoke XML interface</Name>
+        <IFCDefinition>7</IFCDefinition>
+        <ProcessMode>1</ProcessMode>
+        <isTwoPhase>false</isTwoPhase>
+        <isWait4Comp>false</isWait4Comp>
+        <isSavePoint>false</isSavePoint>
+        <CallLogicFlow>false</CallLogicFlow>
+        <isTrigger>false</isTrigger>
+      </Properties>
+      <LoggingInfo>
+        <Scope>0</Scope>
+      </LoggingInfo>
+      <iBoltService>
+        <InvokeFlow>
+          <isByExp>0</isByExp>
+          <FlowInfo>
+            <BPID>1</BPID>
+            <FlowID>
+              <ExpressionVal>PCMhJUAkPmdldEZsb3dOYW1lKDMpPCMhJUAkPg==</ExpressionVal>
+              <ExpectedType>N</ExpectedType>
+              <Direction>I</Direction>
+            </FlowID>
+          </FlowInfo>
+        </InvokeFlow>
+      </iBoltService>
+    </row_Step>
+  </Steps>
+
+  <TextElements>
+    <row_Element>
+      <ID>1</ID>
+      <Description>The purpose of this flow is to invoke the required flows. Firstly, it will call  the Method flow, which shows you how to use the Method interface. Secondly, it calls the XML flow, which shows you how to use the XML interface.</Description>
+      <TextLocation>Left</TextLocation>
+      <Font>1</Font>
+      <Color>12713983</Color>
+      <BorderStyle>1</BorderStyle>
+    </row_Element>
+  </TextElements>
+
+</Flow>

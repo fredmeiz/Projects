@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DebuggerData>
+  <debuggerDataStudioVersion>0</debuggerDataStudioVersion>
+  <debuggerAttachSettings>
+    <DatabaseResourceName />
+    <IsInternalDB>true</IsInternalDB>
+  </debuggerAttachSettings>
+  <debuggerSettings>
+    <CleanRecovery>false</CleanRecovery>
+    <EndContextAfterLastStep>false</EndContextAfterLastStep>
+    <GracefulStopDuration>5</GracefulStopDuration>
+    <SchedulerRefreshInterval>5</SchedulerRefreshInterval>
+    <ContextViewActionTimeout>30</ContextViewActionTimeout>
+  </debuggerSettings>
+  <DebuggerInstractionsList>
+    <DebuggerInstruction>
+      <bpID>2</bpID>
+      <flowID>2</flowID>
+      <stepID>0</stepID>
+      <isGoToStep>false</isGoToStep>
+      <sourceStepID>0</sourceStepID>
+      <sortOrder>0</sortOrder>
+      <Type>SuspendFlow</Type>
+    </DebuggerInstruction>
+  </DebuggerInstractionsList>
+</DebuggerData>

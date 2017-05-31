@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mapper xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<MapperOrigin>DataMapperService</MapperOrigin>
+	
+			<ErrorFlowExpressionVal>PCMhJUAkPmdldEZsb3dOYW1lKDEpPCMhJUAkPg==</ErrorFlowExpressionVal>
+		
+		<SourceSchemas>
+		
+		
+				
+		<Schema xsi:type="XSDSchema">
+		<SchemaID>5</SchemaID>
+		<Order>1</Order>
+		<Name>S1</Name>
+				<SchemaLocation>Source</SchemaLocation>
+		<SchemaType>XSD</SchemaType>
+		
+									<Fields>
+															<Field xsi:type="XSDComplexField">
+							<Identifier>getSalesOrderV4Response</Identifier>
+							<Description></Description>
+							<FieldName>getSalesOrderV4Response</FieldName>
+							<NodeType>Complex</NodeType>
+							<Color>210</Color>
+							<MagicFieldType>A</MagicFieldType>
+							<MagicPicture>1000</MagicPicture>
+							<isUnicode>false</isUnicode>
+							
+														
+																												<UserPicture>1000</UserPicture>
+							<isNillable>false</isNillable>
+														<MaxInstance>1</MaxInstance>
+							<MinInstance>0</MinInstance>
+																												<LogError>False</LogError>
+																																			<From>0</From>
+							<Length>0</Length>
+							<CreateAllways>false</CreateAllways>
+														<Required>false</Required>
+							<Replication>0</Replication>
+							<AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+																											</Field>
+																					<Field xsi:type="XSDComplexField">
+							<Identifier>getSalesOrderV4Response/header</Identifier>
+							<Description></Description>
+							<FieldName>header</FieldName>
+							<NodeType>Complex</NodeType>
+							<Color>210</Color>
+							<MagicFieldType>A</MagicFieldType>
+							<MagicPicture>1000</MagicPicture>
+							<isUnicode>false</isUnicode>
+							
+														
+																												<UserPicture>1000</UserPicture>
+							<isNillable>false</isNillable>
+														<MaxInstance>79228162514264337593543950335</MaxInstance>
+							<MinInstance>0</MinInstance>
+																												<LogError>False</LogError>
+																																			<From>0</From>
+							<Length>0</Length>
+							<CreateAllways>false</CreateAllways>
+														<Required>false</Required>
+							<Replication>0</Replication>
+							<AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+																											</Field>
+																					<Field xsi:type="XSDComplexField">
+							<Identifier>getSalesOrderV4Response/header/detail</Identifier>
+							<Description></Description>
+							<FieldName>detail</FieldName>
+							<NodeType>Complex</NodeType>
+							<Color>210</Color>
+							<MagicFieldType></MagicFieldType>
+							<MagicPicture></MagicPicture>
+							<isUnicode>false</isUnicode>
+							
+														
+																												<UserPicture></UserPicture>
+							<isNillable>true</isNillable>
+														<MaxInstance>0</MaxInstance>
+							<MinInstance>0</MinInstance>
+																												<LogError>false</LogError>
+																																			<From>0</From>
+							<Length>0</Length>
+							<CreateAllways>false</CreateAllways>
+														<Required>false</Required>
+							<Replication>0</Replication>
+							<AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+																													<Encoding>0</Encoding>
+													</Field>
+																					<Field xsi:type="SimpleXSDField">
+							<Identifier>getSalesOrderV4Response/header/detail/statusCodeNext</Identifier>
+							<Description></Description>
+							<FieldName>statusCodeNext</FieldName>
+							<NodeType>Simple</NodeType>
+							<Color>210</Color>
+							<MagicFieldType>A</MagicFieldType>
+							<MagicPicture>1000</MagicPicture>
+							<isUnicode>false</isUnicode>
+							
+														
+																						<ExternalFieldType>string</ExternalFieldType>
+																						<ExternalFieldPicture></ExternalFieldPicture>
+														<UserPicture>1000</UserPicture>
+							<isNillable>false</isNillable>
+														<MaxInstance>1</MaxInstance>
+							<MinInstance>0</MinInstance>
+																												<LogError>false</LogError>
+																																			<From>0</From>
+							<Length>0</Length>
+							<CreateAllways>false</CreateAllways>
+														<Required>false</Required>
+							<Replication>0</Replication>
+							<AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+																													<Encoding>0</Encoding>
+													</Field>
+																					<Field xsi:type="SimpleXSDField">
+							<Identifier>getSalesOrderV4Response/header/holdOrderCode</Identifier>
+							<Description></Description>
+							<FieldName>holdOrderCode</FieldName>
+							<NodeType>Simple</NodeType>
+							<Color>210</Color>
+							<MagicFieldType>A</MagicFieldType>
+							<MagicPicture>1000</MagicPicture>
+							<isUnicode>false</isUnicode>
+							
+														
+																						<ExternalFieldType>string</ExternalFieldType>
+																						<ExternalFieldPicture></ExternalFieldPicture>
+														<UserPicture>1000</UserPicture>
+							<isNillable>false</isNillable>
+														<MaxInstance>1</MaxInstance>
+							<MinInstance>0</MinInstance>
+																												<LogError>false</LogError>
+																																			<From>0</From>
+							<Length>0</Length>
+							<CreateAllways>false</CreateAllways>
+														<Required>false</Required>
+							<Replication>0</Replication>
+							<AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+																													<Encoding>0</Encoding>
+													</Field>
+																					<Field xsi:type="SimpleXSDField">
+							<Identifier>getSalesOrderV4Response/header/detail/lineTypeCode</Identifier>
+							<Description></Description>
+							<FieldName>lineTypeCode</FieldName>
+							<NodeType>Simple</NodeType>
+							<Color>210</Color>
+							<MagicFieldType>A</MagicFieldType>
+							<MagicPicture>1000</MagicPicture>
+							<isUnicode>false</isUnicode>
+							
+														
+																						<ExternalFieldType></ExternalFieldType>
+																						<ExternalFieldPicture></ExternalFieldPicture>
+														<UserPicture></UserPicture>
+							<isNillable>false</isNillable>
+														<MaxInstance>1</MaxInstance>
+							<MinInstance>0</MinInstance>
+																												<LogError>false</LogError>
+																																			<From>0</From>
+							<Length>0</Length>
+							<CreateAllways>false</CreateAllways>
+														<Required>false</Required>
+							<Replication>0</Replication>
+							<AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+																											</Field>
+																					<Field xsi:type="SimpleXSDField">
+							<Identifier>getSalesOrderV4Response/header/detail/statusCodeLast</Identifier>
+							<Description></Description>
+							<FieldName>statusCodeLast</FieldName>
+							<NodeType>Simple</NodeType>
+							<Color>210</Color>
+							<MagicFieldType>A</MagicFieldType>
+							<MagicPicture>1000</MagicPicture>
+							<isUnicode>false</isUnicode>
+							
+														
+																						<ExternalFieldType>string</ExternalFieldType>
+																						<ExternalFieldPicture></ExternalFieldPicture>
+														<UserPicture></UserPicture>
+							<isNillable>false</isNillable>
+														<MaxInstance>1</MaxInstance>
+							<MinInstance>0</MinInstance>
+																												<LogError>false</LogError>
+																																			<From>0</From>
+							<Length>0</Length>
+							<CreateAllways>false</CreateAllways>
+														<Required>false</Required>
+							<Replication>0</Replication>
+							<AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+																											</Field>
+														</Fields>
+						
+								
+																								<XSD>
+					<XSDSubType>File</XSDSubType>
+					<IFCModel></IFCModel>
+					<XsdFileName>resource\JDE_SalesOrderManager\http___oracle_e1_bssv_JP420000_.xsd</XsdFileName>
+					<RootSelected>getSalesOrderV4Response</RootSelected>
+					<isAppend>false</isAppend>
+					<isValidation>false</isValidation>
+					<RecursionDepth>1</RecursionDepth>
+					<AlwaysCreateNodes>false</AlwaysCreateNodes>
+					<DataDestination>Variable</DataDestination>
+					<DataExp>
+						<ExpressionVal>PCMhJUAkPmdldFZhck5hbWUoMSwne0ZCMjA0MThGLTI0OTYtNDJFMS1BQTBCLUM0RUY3OThFRUFFM30nLDAsMCk8IyElQCQ+</ExpressionVal>
+						<ExpectedType>B</ExpectedType>
+						<Direction>I</Direction>
+					</DataExp>
+					<UseStreamingParser>false</UseStreamingParser>
+					<xmlFileEncoding>Project Encoding</xmlFileEncoding>
+										<TargetNamespace>http://oracle.e1.bssv.JP420000/</TargetNamespace>
+											<NameSpaces>
+																								<XSDNameSpace>
+										<Enum>0</Enum>
+										<Alias>map</Alias>
+										<NS>ns0</NS>
+										<NSVector>http://systinet.com/mapping/</NSVector>
+									</XSDNameSpace>
+																																<XSDNameSpace>
+										<Enum>0</Enum>
+										<Alias>ns0</Alias>
+										<NS>ns1</NS>
+										<NSVector>http://oracle.e1.bssv.JP420000/</NSVector>
+									</XSDNameSpace>
+																																<XSDNameSpace>
+										<Enum>0</Enum>
+										<Alias>sns1</Alias>
+										<NS>ns2</NS>
+										<NSVector>http://www.w3.org/2001/XMLSchema</NSVector>
+									</XSDNameSpace>
+																					</NameSpaces>
+																			</XSD>
+																					
+										
+															</Schema>
+		
+				
+		
+		</SourceSchemas>
+				<DestinationSchemas>
+		
+		
+				
+		<Schema xsi:type="VariableSchema">
+		<SchemaID>3</SchemaID>
+		<Order>1</Order>
+		<Name>JDEOrderStatus</Name>
+				<SchemaLocation>Destination</SchemaLocation>
+		<SchemaType>Variable</SchemaType>
+		
+									<Fields>
+															<Field xsi:type="ComplexField">
+							<Identifier>3</Identifier>
+							<Description></Description>
+							<FieldName>Instance</FieldName>
+							<NodeType>Complex</NodeType>
+							<Color>210</Color>
+							<MagicFieldType></MagicFieldType>
+							<MagicPicture></MagicPicture>
+							<isUnicode>false</isUnicode>
+							
+														
+																												<UserPicture></UserPicture>
+							<isNillable>false</isNillable>
+														<Condition>
+								<ExpressionVal>KCggPCMhJUAkPmdldE5vZGVOYW1lKDUvZ2V0U2FsZXNPcmRlclY0UmVzcG9uc2UvaGVhZGVyL2RldGFpbC9zdGF0dXNDb2RlTGFzdCk8IyElQCQ+ID4gJzk5MCcpIA0KT1IoIDwjISVAJD5nZXROb2RlTmFtZSg1L2dldFNhbGVzT3JkZXJWNFJlc3BvbnNlL2hlYWRlci9kZXRhaWwvc3RhdHVzQ29kZUxhc3QpPCMhJUAkPiA8ICc5ODAnKSkgDQpBTkQgKCA8IyElQCQ+Z2V0Tm9kZU5hbWUoNS9nZXRTYWxlc09yZGVyVjRSZXNwb25zZS9oZWFkZXIvZGV0YWlsL2xpbmVUeXBlQ29kZSk8IyElQCQ+ID0gJ1MnKSANCkFORCAoICggPCMhJUAkPmdldE5vZGVOYW1lKDUvZ2V0U2FsZXNPcmRlclY0UmVzcG9uc2UvaGVhZGVyL2RldGFpbC9zdGF0dXNDb2RlTmV4dCk8IyElQCQ+IDwgPCMhJUAkPmdldFZhck5hbWUoMSwne0FBMzA0RjIyLTk1NkUtNDBDMC04MUIyLTcyQzNDNkE5NjQyQ30nLDAsMCk8IyElQCQ+ICkgDQpPUiAoIDwjISVAJD5nZXRWYXJOYW1lKDEsJ3tBQTMwNEYyMi05NTZFLTQwQzAtODFCMi03MkMzQzZBOTY0MkN9JywwLDApPCMhJUAkPiA9ICcnICkp</ExpressionVal>
+								<ExpectedType>L</ExpectedType>
+								<Direction>I</Direction>
+							</Condition>
+														<MaxInstance>0</MaxInstance>
+							<MinInstance>0</MinInstance>
+																												<LogError>false</LogError>
+																																			<From>0</From>
+							<Length>0</Length>
+							<CreateAllways>false</CreateAllways>
+														<Required>false</Required>
+							<Replication>0</Replication>
+							<AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+																													<Encoding>0</Encoding>
+													</Field>
+																					<Field xsi:type="FieldVariable">
+							<Identifier>{BC2BAAA0-42B1-4C14-AB55-87D7D70412AC}</Identifier>
+							<Description></Description>
+							<FieldName>F.JDEHoldCode</FieldName>
+							<NodeType>Simple</NodeType>
+							<Color>210</Color>
+							<MagicFieldType>A</MagicFieldType>
+							<MagicPicture>2</MagicPicture>
+							<isUnicode>false</isUnicode>
+							
+														
+																												<UserPicture>2</UserPicture>
+							<isNillable>false</isNillable>
+														<MaxInstance>1</MaxInstance>
+							<MinInstance>0</MinInstance>
+																												<LogError>false</LogError>
+																																			<From>0</From>
+							<Length>0</Length>
+							<CreateAllways>false</CreateAllways>
+														<Required>false</Required>
+							<Replication>0</Replication>
+							<AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+																													<Encoding>1</Encoding>
+													</Field>
+																					<Field xsi:type="FieldVariable">
+							<Identifier>{AA304F22-956E-40C0-81B2-72C3C6A9642C}</Identifier>
+							<Description></Description>
+							<FieldName>F.orderStatusJDE</FieldName>
+							<NodeType>Simple</NodeType>
+							<Color>210</Color>
+							<MagicFieldType>A</MagicFieldType>
+							<MagicPicture>30</MagicPicture>
+							<isUnicode>false</isUnicode>
+							
+														
+																												<UserPicture>30</UserPicture>
+							<isNillable>false</isNillable>
+														<MaxInstance>1</MaxInstance>
+							<MinInstance>0</MinInstance>
+																												<LogError>false</LogError>
+																																			<From>0</From>
+							<Length>0</Length>
+							<CreateAllways>false</CreateAllways>
+														<Required>false</Required>
+							<Replication>0</Replication>
+							<AlwaysUseCustomPicture>false</AlwaysUseCustomPicture>
+																													<Encoding>1</Encoding>
+													</Field>
+														</Fields>
+						
+								
+																									<Variables>
+				<Variables>
+																		<Variable>
+								<VarGUID>{BC2BAAA0-42B1-4C14-AB55-87D7D70412AC}</VarGUID>
+							</Variable>
+																								<Variable>
+								<VarGUID>{AA304F22-956E-40C0-81B2-72C3C6A9642C}</VarGUID>
+							</Variable>
+															</Variables>
+			</Variables>	
+														
+										
+															</Schema>
+		
+				
+		
+		</DestinationSchemas>
+			
+				<Connections>
+														<ConnectionData>
+						<SourceIdentifier>getSalesOrderV4Response/header/detail</SourceIdentifier>
+						<SourceSchemaID>5</SourceSchemaID>
+						<DestinationIdentifier>3</DestinationIdentifier>
+						<DestinationSchemaID>3</DestinationSchemaID>
+					</ConnectionData>
+																			<ConnectionData>
+						<SourceIdentifier>getSalesOrderV4Response/header/holdOrderCode</SourceIdentifier>
+						<SourceSchemaID>5</SourceSchemaID>
+						<DestinationIdentifier>{BC2BAAA0-42B1-4C14-AB55-87D7D70412AC}</DestinationIdentifier>
+						<DestinationSchemaID>3</DestinationSchemaID>
+					</ConnectionData>
+																			<ConnectionData>
+						<SourceIdentifier>getSalesOrderV4Response/header/detail/statusCodeNext</SourceIdentifier>
+						<SourceSchemaID>5</SourceSchemaID>
+						<DestinationIdentifier>{AA304F22-956E-40C0-81B2-72C3C6A9642C}</DestinationIdentifier>
+						<DestinationSchemaID>3</DestinationSchemaID>
+					</ConnectionData>
+												</Connections>
+	  <ColorNames>
+    <MapperColorItem>
+      <Color>203</Color>
+      <ColorDescription>Blue</ColorDescription>
+    </MapperColorItem>
+    <MapperColorItem>
+      <Color>205</Color>
+      <ColorDescription>Green</ColorDescription>
+    </MapperColorItem>
+    <MapperColorItem>
+      <Color>206</Color>
+      <ColorDescription>Purple</ColorDescription>
+    </MapperColorItem>
+    <MapperColorItem>
+      <Color>204</Color>
+      <ColorDescription>Yellow</ColorDescription>
+    </MapperColorItem>
+    <MapperColorItem>
+      <Color>202</Color>
+      <ColorDescription>Red</ColorDescription>
+    </MapperColorItem>
+    <MapperColorItem>
+      <Color>210</Color>
+      <ColorDescription>Default</ColorDescription>
+    </MapperColorItem>
+  </ColorNames>
+</Mapper>

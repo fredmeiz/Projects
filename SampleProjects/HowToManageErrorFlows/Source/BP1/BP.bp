@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" ?>
+<BP>
+	<ID>1</ID>
+	<Name>Sample Of Error Flow</Name>
+
+			<Properties>
+			<ID>1</ID>
+			<Order>1</Order>
+			<Name>Sample Of Error Flow</Name>
+			<Description></Description>
+		</Properties>
+		
+
+	
+ 
+	
+</BP>

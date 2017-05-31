@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProjectRepository>
+<Project >
+	<InternalVer>
+					<row>
+			<Ver>1.0</Ver>
+		</row>
+				</InternalVer>
+	
+	<Properties>
+		<iBoltVer>4.40000</iBoltVer>
+		<Name>POC_VEOLIA_MAGENTO</Name>
+		<Owner>Magic Software Enterprises Ltd</Owner>
+				<Last_Edited>19/07/2016 at 15:09:01</Last_Edited>
+					<ProjVer>R0xaNmxwcThCRTZqNjZ4OG82enY3UT09</ProjVer>
+				<Encoding>West European</Encoding>
+		<ResourceFile>resources.xml</ResourceFile>
+		<ServiceFile>services.xml</ServiceFile>
+	</Properties>
+
+	
+	<SecurityInfo>
+		<Type>0</Type>
+													</SecurityInfo>
+
+	<InterCompInfo>
+		<Type>0</Type>
+															</InterCompInfo>
+
+	    <FlowAndBpLastId>
+      <LastFlowId>17</LastFlowId>
+      <LastBpId>2</LastBpId>
+    </FlowAndBpLastId>
+	<ServerSettings>
+	<ClearModeInfo>
+		<ODS>1</ODS>
+		<MSG>1</MSG>
+		<PSS>1</PSS>
+		<LCK>1</LCK>
+	</ClearModeInfo>
+	</ServerSettings>
+</Project>
+</ProjectRepository>

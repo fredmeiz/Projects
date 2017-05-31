@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" ?>
+<BP>
+	<ID>2</ID>
+	<Name>MSMQ With AppSpecific</Name>
+
+			<Properties>
+			<ID>2</ID>
+			<Order>2</Order>
+			<Name>MSMQ With AppSpecific</Name>
+			<Description></Description>
+		</Properties>
+		
+
+	
+ 
+	
+</BP>

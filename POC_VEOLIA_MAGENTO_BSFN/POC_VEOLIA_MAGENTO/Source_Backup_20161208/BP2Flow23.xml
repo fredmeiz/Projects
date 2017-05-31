@@ -1,0 +1,1946 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<Flows>
+
+ <Struct_tmp_tree>
+ <tmp_treeComp>
+  <proj_id>1</proj_id> 
+  <auto_expand>False</auto_expand> 
+  <BP_ID>2</BP_ID> 
+  <Son_ID>18</Son_ID> 
+  <fold_type>10</fold_type> 
+  <Flow_ID>23</Flow_ID> 
+  <TreeNodeName>Get Cde relation</TreeNodeName> 
+  <description></description> 
+  <transactional>0</transactional> 
+  <auto_start>0</auto_start> 
+  <auto_restart>0</auto_restart> 
+  <max_instances>0</max_instances> 
+  <err_comp></err_comp> 
+  <err_prg></err_prg> 
+  <logic_comp></logic_comp> 
+  <logic_prg></logic_prg> 
+  <auto_repeat>0</auto_repeat> 
+  <subscribe_name></subscribe_name> 
+  <subscribe_once>0</subscribe_once> 
+  <time_out>0</time_out> 
+  <recovery_policy>6</recovery_policy> 
+  <fold_table_id>0</fold_table_id> 
+  <cleanup_comp></cleanup_comp> 
+  <cleanup_prg></cleanup_prg> 
+  <emu_err_prg></emu_err_prg> 
+  <emu_logic_prg ></emu_logic_prg> 
+  <error_flow_id>0</error_flow_id> 
+  <logic_flow_id>0</logic_flow_id> 
+  <cleanup_flow_id>0</cleanup_flow_id> 
+  <order>15</order> 
+  <Right_ID>0</Right_ID> 
+  <PSS_Index>0</PSS_Index> 
+  <secure_called_flows>0</secure_called_flows> 
+  <disable_flow>0</disable_flow> 
+  <Error_BP_ID>0</Error_BP_ID> 
+  <Logic_BP_ID>0</Logic_BP_ID> 
+  <CleanUp_BP_ID>0</CleanUp_BP_ID> 
+  <IsLoaded>1</IsLoaded> 
+  <DB_Transaction>0</DB_Transaction> 
+  <DB_Transaction_String></DB_Transaction_String> 
+  <Timeout_Policy>6</Timeout_Policy> 
+  <InactiveFlow>False</InactiveFlow> 
+ </tmp_treeComp>
+ </Struct_tmp_tree>
+
+<IFC>
+<Struct_IFCInstance>
+<IFCInstanceComp>
+<topology_id>2</topology_id>
+<flow_id>23</flow_id>
+<ifc_icon>HTTPifc.gif</ifc_icon>
+<step>0</step>
+<ext_internal_use>1</ext_internal_use>
+<IFCDefinitionID>110</IFCDefinitionID>
+<Description></Description>
+<NodeID>1</NodeID>
+<InvocationComponent>%ifclib%http\httpifc.ecf</InvocationComponent>
+<InvocationProgram></InvocationProgram>
+<Synchronize>1</Synchronize>
+<Transactional>0</Transactional>
+<CommitProgram></CommitProgram>
+<RollbackProgram></RollbackProgram>
+<WaitForCompletion>0</WaitForCompletion>
+<TimeOut>0</TimeOut>
+<CheckLogic>0</CheckLogic>
+<ActivationString></ActivationString>
+<ActivationBlob>PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIiA/Pg0KPEh0dHA+DQoNCiAgPE5hbWU+SkRFIFNSVjwvTmFtZT4NCg0KICA8T3BlcmF0aW9uPg0KICAgIDxJRD4xPC9JRD4NCiAgICA8T3BlcmF0aW9uTmFtZT5HZXRPRFNDZGU8L09wZXJhdGlvbk5hbWU+DQogICAgPEFyZ3VtZW50Pg0KICAgICAgPEFyZ3VtZW50SUQ+MTwvQXJndW1lbnRJRD4NCiAgICAgIDxBcmd1bWVudE5hbWU+UGFnaW5hdGlvbjwvQXJndW1lbnROYW1lPg0KICAgICAgPERhdGFUeXBlPk48L0RhdGFUeXBlPg0KICAgICAgPERhdGFUeXBlUGljdHVyZT4xMi40PC9EYXRhVHlwZVBpY3R1cmU+DQogICAgICA8TWFwcGluZ0V4cElEPjI8L01hcHBpbmdFeHBJRD4NCiAgICAgIDxEZWZhdWx0VmFsdWU+PC9EZWZhdWx0VmFsdWU+DQogICAgICA8TWFuZGF0b3J5PjA8L01hbmRhdG9yeT4NCiAgICA8L0FyZ3VtZW50Pg0KICA8L09wZXJhdGlvbj4NCg0KICA8UmV0dXJuVmFsdWVFeHBuSUQ+MTwvUmV0dXJuVmFsdWVFeHBuSUQ+DQoNCiAgPFZhbGlkYXRpb25FeHBuSUQ+MDwvVmFsaWRhdGlvbkV4cG5JRD4NCg0KPC9IdHRwPg0K</ActivationBlob>
+<RecoveryPolicy>A</RecoveryPolicy>
+<Istrigger>1</Istrigger>
+<Name>HTTP</Name>
+<XXXInvokeFlow_NOT_IN_USE>0</XXXInvokeFlow_NOT_IN_USE>
+<XXXInvokeFlowID_NOT_IN_USE>0</XXXInvokeFlowID_NOT_IN_USE>
+<XXXInvokeStepNo_NOT_IN_USE>0</XXXInvokeStepNo_NOT_IN_USE>
+<Service_Type_New4Services>0</Service_Type_New4Services>
+<IsSkipUserString>False</IsSkipUserString>
+<IsSkipUserBlob>False</IsSkipUserBlob>
+<IsSkipUserCode>False</IsSkipUserCode>
+<EmulationProgram></EmulationProgram>
+<Save_Point>0</Save_Point>
+<SavePointComponent></SavePointComponent>
+<SaveDataProgram></SaveDataProgram>
+<RestoreDataProgram></RestoreDataProgram>
+<Command_line></Command_line>
+<method_name></method_name>
+<return_XML_data>0</return_XML_data>
+<interface>0</interface>
+<IsSkipUserXML>False</IsSkipUserXML>
+<xsdpath></xsdpath>
+<errorhandling>0</errorhandling>
+<LoggingScope>0</LoggingScope>
+<StepLogging>1</StepLogging>
+<LogStringMsgDev>0</LogStringMsgDev>
+<DotNetServiceArgs></DotNetServiceArgs>
+<LogBLOBDev>0</LogBLOBDev>
+<LogBLOBDeploy></LogBLOBDeploy>
+<LogBLOBFileExt></LogBLOBFileExt>
+<AppServerID>0</AppServerID>
+<SPInfoExists>False</SPInfoExists>
+<DBTransactionLevel></DBTransactionLevel>
+<Use_Resource>False</Use_Resource>
+<Resource_Name>JDE SRV</Resource_Name>
+<Resource_ExpID>0</Resource_ExpID>
+<Load_Server_services>False</Load_Server_services>
+<Ddam_Configuration_Data></Ddam_Configuration_Data>
+<Ddam_XmlXsd></Ddam_XmlXsd>
+<Deployment_Module_Name></Deployment_Module_Name>
+<DBTransactionString></DBTransactionString>
+<MapperConversionFail>false</MapperConversionFail>
+</IFCInstanceComp>
+<IFCInstanceComp>
+<topology_id>2</topology_id>
+<flow_id>23</flow_id>
+<ifc_icon>Data_Mapper.gif</ifc_icon>
+<step>1</step>
+<ext_internal_use>0</ext_internal_use>
+<IFCDefinitionID>11</IFCDefinitionID>
+<Description></Description>
+<NodeID>1</NodeID>
+<InvocationComponent></InvocationComponent>
+<InvocationProgram></InvocationProgram>
+<Synchronize>1</Synchronize>
+<Transactional>0</Transactional>
+<CommitProgram></CommitProgram>
+<RollbackProgram></RollbackProgram>
+<WaitForCompletion>0</WaitForCompletion>
+<TimeOut>0</TimeOut>
+<CheckLogic>0</CheckLogic>
+<ActivationString>generate</ActivationString>
+<ActivationBlob></ActivationBlob>
+<RecoveryPolicy></RecoveryPolicy>
+<Istrigger>0</Istrigger>
+<Name>QueryODS</Name>
+<XXXInvokeFlow_NOT_IN_USE>0</XXXInvokeFlow_NOT_IN_USE>
+<XXXInvokeFlowID_NOT_IN_USE>0</XXXInvokeFlowID_NOT_IN_USE>
+<XXXInvokeStepNo_NOT_IN_USE>0</XXXInvokeStepNo_NOT_IN_USE>
+<Service_Type_New4Services>11</Service_Type_New4Services>
+<IsSkipUserString>False</IsSkipUserString>
+<IsSkipUserBlob>False</IsSkipUserBlob>
+<IsSkipUserCode>False</IsSkipUserCode>
+<EmulationProgram></EmulationProgram>
+<Save_Point>0</Save_Point>
+<SavePointComponent></SavePointComponent>
+<SaveDataProgram></SaveDataProgram>
+<RestoreDataProgram></RestoreDataProgram>
+<Command_line></Command_line>
+<method_name></method_name>
+<return_XML_data>0</return_XML_data>
+<interface>0</interface>
+<IsSkipUserXML>False</IsSkipUserXML>
+<xsdpath></xsdpath>
+<errorhandling>0</errorhandling>
+<LoggingScope>0</LoggingScope>
+<StepLogging>0</StepLogging>
+<LogStringMsgDev>0</LogStringMsgDev>
+<DotNetServiceArgs></DotNetServiceArgs>
+<LogBLOBDev>0</LogBLOBDev>
+<LogBLOBDeploy></LogBLOBDeploy>
+<LogBLOBFileExt></LogBLOBFileExt>
+<AppServerID>0</AppServerID>
+<SPInfoExists>False</SPInfoExists>
+<DBTransactionLevel>M</DBTransactionLevel>
+<Use_Resource>False</Use_Resource>
+<Resource_Name></Resource_Name>
+<Resource_ExpID>0</Resource_ExpID>
+<Load_Server_services>False</Load_Server_services>
+<Ddam_Configuration_Data></Ddam_Configuration_Data>
+<Ddam_XmlXsd></Ddam_XmlXsd>
+<Deployment_Module_Name></Deployment_Module_Name>
+<DBTransactionString></DBTransactionString>
+<MapperConversionFail>false</MapperConversionFail>
+</IFCInstanceComp>
+</Struct_IFCInstance>
+<Source_And_Destination_Object>
+<Struct_Schema_Details>
+<Schema_DetailsComp>
+<Schema_ID>3</Schema_ID>
+<Schema_Name>ODSQuery</Schema_Name>
+<Test_file></Test_file>
+<Schema_Path></Schema_Path>
+<Modified_date>01/01/1901</Modified_date>
+<Modified_Time>00:00:00</Modified_Time>
+<XSD_Encoding_Internal></XSD_Encoding_Internal>
+<StartPositionPathDelmited></StartPositionPathDelmited>
+<Application_database></Application_database>
+<Read_Document_Program>False</Read_Document_Program>
+<Write_Document_Program>False</Write_Document_Program>
+<Component_Directory></Component_Directory>
+<Serial_number>3</Serial_number>
+<Expose_Models>False</Expose_Models>
+<DataType>1</DataType>
+<ValidCheck_xml_contextFarw_cf>0</ValidCheck_xml_contextFarw_cf>
+<SchemaCreationCode>0</SchemaCreationCode>
+<SchemaLeft>0</SchemaLeft>
+<SchemaHight>0</SchemaHight>
+<SchemaWidth>0</SchemaWidth>
+<SchemaType>1</SchemaType>
+<DB_sub_type>0</DB_sub_type>
+<IFC_DefinitionID>0</IFC_DefinitionID>
+<data_source_FlowId_CallFlow>0</data_source_FlowId_CallFlow>
+<file_blob_path>0</file_blob_path>
+<Direct_mapping>False</Direct_mapping>
+<TopologyId>2</TopologyId>
+<FlowId>23</FlowId>
+<StepNum>1</StepNum>
+<Delimited_Positional></Delimited_Positional>
+<Default_delimiter></Default_delimiter>
+<Record_delimiter></Record_delimiter>
+<Is_Record_in_Modify_Mode>True</Is_Record_in_Modify_Mode>
+<SchemaDisplayNumber>1</SchemaDisplayNumber>
+<Append_data_destination>0</Append_data_destination>
+<XSD_default_root></XSD_default_root>
+<RecursionDepth>0</RecursionDepth>
+<isStartPositionActive_Alpha></isStartPositionActive_Alpha>
+<SchemaVersion>1</SchemaVersion>
+<ErrorFlowID>0</ErrorFlowID>
+<Schema_Description></Schema_Description>
+<UDSFlowVarDelimited></UDSFlowVarDelimited>
+<UDS_name_dev>0</UDS_name_dev>
+<UDS_name_depl></UDS_name_depl>
+<UDS_model>0</UDS_model>
+<UDS_sort>0</UDS_sort>
+<Clear_UDS>False</Clear_UDS>
+<ErrorBPID>0</ErrorBPID>
+<BPID_For_CallFlow>0</BPID_For_CallFlow>
+<DisplayFieldOrder>0</DisplayFieldOrder>
+<SchemaHasStartingPoint>False</SchemaHasStartingPoint>
+<DBDisconnect>False</DBDisconnect>
+<UnicodeSupport>0</UnicodeSupport>
+<CreateEmptyAlphaNodes>False</CreateEmptyAlphaNodes>
+<XMLInterfaceToFlatFile>false</XMLInterfaceToFlatFile>
+<CreateTitleForFlatFile>false</CreateTitleForFlatFile>
+<StructFlatFiles>
+</StructFlatFiles>
+<StructODSNodes>
+</StructODSNodes>
+<StructFlowVariablesNodes>
+</StructFlowVariablesNodes>
+<StructUpdateNodeDefinition>
+</StructUpdateNodeDefinition>
+<StructSchemaNameSpaceMap>
+</StructSchemaNameSpaceMap>
+<Struct_New_Default_values>
+</Struct_New_Default_values>
+<Struct_ElementReplications>
+</Struct_ElementReplications>
+<StructWizardTbl1>
+<Wizard_Table_No_1Comp>
+<Collection_Table_ID>C4</Collection_Table_ID> 
+<Unique_identifier>1</Unique_identifier> 
+<Available_Description>odsserverid</Available_Description> 
+<Selected_Description>ifs_ods.odsserverid</Selected_Description> 
+<Available>0</Available> 
+<Selected>1</Selected> 
+<Order>1</Order> 
+<Details>SQL_DOUBLE,</Details> 
+<SchemaID>3</SchemaID> 
+<Database_Choice>False</Database_Choice> 
+<Login_Owner>False</Login_Owner> 
+<BP_ID>2</BP_ID> 
+<Flow_ID>23</Flow_ID> 
+<Step_ID>1</Step_ID> 
+</Wizard_Table_No_1Comp>
+
+
+<Wizard_Table_No_1Comp>
+<Collection_Table_ID>C4</Collection_Table_ID> 
+<Unique_identifier>10</Unique_identifier> 
+<Available_Description>global</Available_Description> 
+<Selected_Description>ifs_ods.global</Selected_Description> 
+<Available>0</Available> 
+<Selected>1</Selected> 
+<Order>10</Order> 
+<Details>SQL_SMALLINT,</Details> 
+<SchemaID>3</SchemaID> 
+<Database_Choice>False</Database_Choice> 
+<Login_Owner>False</Login_Owner> 
+<BP_ID>2</BP_ID> 
+<Flow_ID>23</Flow_ID> 
+<Step_ID>1</Step_ID> 
+</Wizard_Table_No_1Comp>
+
+
+<Wizard_Table_No_1Comp>
+<Collection_Table_ID>C4</Collection_Table_ID> 
+<Unique_identifier>11</Unique_identifier> 
+<Available_Description>createdate</Available_Description> 
+<Selected_Description>ifs_ods.createdate</Selected_Description> 
+<Available>0</Available> 
+<Selected>1</Selected> 
+<Order>11</Order> 
+<Details>SQL_DATE,</Details> 
+<SchemaID>3</SchemaID> 
+<Database_Choice>False</Database_Choice> 
+<Login_Owner>False</Login_Owner> 
+<BP_ID>2</BP_ID> 
+<Flow_ID>23</Flow_ID> 
+<Step_ID>1</Step_ID> 
+</Wizard_Table_No_1Comp>
+
+
+<Wizard_Table_No_1Comp>
+<Collection_Table_ID>C4</Collection_Table_ID> 
+<Unique_identifier>12</Unique_identifier> 
+<Available_Description>createtime</Available_Description> 
+<Selected_Description>ifs_ods.createtime</Selected_Description> 
+<Available>0</Available> 
+<Selected>1</Selected> 
+<Order>12</Order> 
+<Details>SQL_CHAR,</Details> 
+<SchemaID>3</SchemaID> 
+<Database_Choice>False</Database_Choice> 
+<Login_Owner>False</Login_Owner> 
+<BP_ID>2</BP_ID> 
+<Flow_ID>23</Flow_ID> 
+<Step_ID>1</Step_ID> 
+</Wizard_Table_No_1Comp>
+
+
+<Wizard_Table_No_1Comp>
+<Collection_Table_ID>C4</Collection_Table_ID> 
+<Unique_identifier>13</Unique_identifier> 
+<Available_Description>modifydate</Available_Description> 
+<Selected_Description>ifs_ods.modifydate</Selected_Description> 
+<Available>0</Available> 
+<Selected>1</Selected> 
+<Order>13</Order> 
+<Details>SQL_DATE,</Details> 
+<SchemaID>3</SchemaID> 
+<Database_Choice>False</Database_Choice> 
+<Login_Owner>False</Login_Owner> 
+<BP_ID>2</BP_ID> 
+<Flow_ID>23</Flow_ID> 
+<Step_ID>1</Step_ID> 
+</Wizard_Table_No_1Comp>
+
+
+<Wizard_Table_No_1Comp>
+<Collection_Table_ID>C4</Collection_Table_ID> 
+<Unique_identifier>14</Unique_identifier> 
+<Available_Description>modifytime</Available_Description> 
+<Selected_Description>ifs_ods.modifytime</Selected_Description> 
+<Available>0</Available> 
+<Selected>1</Selected> 
+<Order>14</Order> 
+<Details>SQL_CHAR,</Details> 
+<SchemaID>3</SchemaID> 
+<Database_Choice>False</Database_Choice> 
+<Login_Owner>False</Login_Owner> 
+<BP_ID>2</BP_ID> 
+<Flow_ID>23</Flow_ID> 
+<Step_ID>1</Step_ID> 
+</Wizard_Table_No_1Comp>
+
+
+<Wizard_Table_No_1Comp>
+<Collection_Table_ID>C4</Collection_Table_ID> 
+<Unique_identifier>15</Unique_identifier> 
+<Available_Description>serverid</Available_Description> 
+<Selected_Description>ifs_ods.serverid</Selected_Description> 
+<Available>0</Available> 
+<Selected>1</Selected> 
+<Order>15</Order> 
+<Details>SQL_DOUBLE,</Details> 
+<SchemaID>3</SchemaID> 
+<Database_Choice>False</Database_Choice> 
+<Login_Owner>False</Login_Owner> 
+<BP_ID>2</BP_ID> 
+<Flow_ID>23</Flow_ID> 
+<Step_ID>1</Step_ID> 
+</Wizard_Table_No_1Comp>
+
+
+<Wizard_Table_No_1Comp>
+<Collection_Table_ID>C4</Collection_Table_ID> 
+<Unique_identifier>16</Unique_identifier> 
+<Available_Description>versionkey</Available_Description> 
+<Selected_Description>ifs_ods.versionkey</Selected_Description> 
+<Available>0</Available> 
+<Selected>1</Selected> 
+<Order>16</Order> 
+<Details>SQL_VARCHAR,</Details> 
+<SchemaID>3</SchemaID> 
+<Database_Choice>False</Database_Choice> 
+<Login_Owner>False</Login_Owner> 
+<BP_ID>2</BP_ID> 
+<Flow_ID>23</Flow_ID> 
+<Step_ID>1</Step_ID> 
+</Wizard_Table_No_1Comp>
+
+
+<Wizard_Table_No_1Comp>
+<Collection_Table_ID>C4</Collection_Table_ID> 
+<Unique_identifier>17</Unique_identifier> 
+<Available_Description>odsindex</Available_Description> 
+<Selected_Description>ifs_ods.odsindex</Selected_Description> 
+<Available>0</Available> 
+<Selected>1</Selected> 
+<Order>17</Order> 
+<Details>SQL_DOUBLE,</Details> 
+<SchemaID>3</SchemaID> 
+<Database_Choice>False</Database_Choice> 
+<Login_Owner>False</Login_Owner> 
+<BP_ID>2</BP_ID> 
+<Flow_ID>23</Flow_ID> 
+<Step_ID>1</Step_ID> 
+</Wizard_Table_No_1Comp>
+
+
+<Wizard_Table_No_1Comp>
+<Collection_Table_ID>C4</Collection_Table_ID> 
+<Unique_identifier>18</Unique_identifier> 
+<Available_Description>projectkey</Available_Description> 
+<Selected_Description>ifs_ods.projectkey</Selected_Description> 
+<Available>0</Available> 
+<Selected>1</Selected> 
+<Order>18</Order> 
+<Details>SQL_VARCHAR,</Details> 
+<SchemaID>3</SchemaID> 
+<Database_Choice>False</Database_Choice> 
+<Login_Owner>False</Login_Owner> 
+<BP_ID>2</BP_ID> 
+<Flow_ID>23</Flow_ID> 
+<Step_ID>1</Step_ID> 
+</Wizard_Table_No_1Comp>
+
+
+<Wizard_Table_No_1Comp>
+<Collection_Table_ID>C4</Collection_Table_ID> 
+<Unique_identifier>2</Unique_identifier> 
+<Available_Description>fsid</Available_Description> 
+<Selected_Description>ifs_ods.fsid</Selected_Description> 
+<Available>0</Available> 
+<Selected>1</Selected> 
+<Order>2</Order> 
+<Details>SQL_DOUBLE,</Details> 
+<SchemaID>3</SchemaID> 
+<Database_Choice>False</Database_Choice> 
+<Login_Owner>False</Login_Owner> 
+<BP_ID>2</BP_ID> 
+<Flow_ID>23</Flow_ID> 
+<Step_ID>1</Step_ID> 
+</Wizard_Table_No_1Comp>
+
+
+<Wizard_Table_No_1Comp>
+<Collection_Table_ID>C4</Collection_Table_ID> 
+<Unique_identifier>3</Unique_identifier> 
+<Available_Description>userkey</Available_Description> 
+<Selected_Description>ifs_ods.userkey</Selected_Description> 
+<Available>0</Available> 
+<Selected>1</Selected> 
+<Order>3</Order> 
+<Details>SQL_VARCHAR,</Details> 
+<SchemaID>3</SchemaID> 
+<Database_Choice>False</Database_Choice> 
+<Login_Owner>False</Login_Owner> 
+<BP_ID>2</BP_ID> 
+<Flow_ID>23</Flow_ID> 
+<Step_ID>1</Step_ID> 
+</Wizard_Table_No_1Comp>
+
+
+<Wizard_Table_No_1Comp>
+<Collection_Table_ID>C4</Collection_Table_ID> 
+<Unique_identifier>4</Unique_identifier> 
+<Available_Description>userstring</Available_Description> 
+<Selected_Description>ifs_ods.userstring</Selected_Description> 
+<Available>0</Available> 
+<Selected>1</Selected> 
+<Order>4</Order> 
+<Details>SQL_WLONGVARCHAR,</Details> 
+<SchemaID>3</SchemaID> 
+<Database_Choice>False</Database_Choice> 
+<Login_Owner>False</Login_Owner> 
+<BP_ID>2</BP_ID> 
+<Flow_ID>23</Flow_ID> 
+<Step_ID>1</Step_ID> 
+</Wizard_Table_No_1Comp>
+
+
+<Wizard_Table_No_1Comp>
+<Collection_Table_ID>C4</Collection_Table_ID> 
+<Unique_identifier>5</Unique_identifier> 
+<Available_Description>usernumber</Available_Description> 
+<Selected_Description>ifs_ods.usernumber</Selected_Description> 
+<Available>0</Available> 
+<Selected>1</Selected> 
+<Order>5</Order> 
+<Details>SQL_DOUBLE,</Details> 
+<SchemaID>3</SchemaID> 
+<Database_Choice>False</Database_Choice> 
+<Login_Owner>False</Login_Owner> 
+<BP_ID>2</BP_ID> 
+<Flow_ID>23</Flow_ID> 
+<Step_ID>1</Step_ID> 
+</Wizard_Table_No_1Comp>
+
+
+<Wizard_Table_No_1Comp>
+<Collection_Table_ID>C4</Collection_Table_ID> 
+<Unique_identifier>6</Unique_identifier> 
+<Available_Description>userlogical</Available_Description> 
+<Selected_Description>ifs_ods.userlogical</Selected_Description> 
+<Available>0</Available> 
+<Selected>1</Selected> 
+<Order>6</Order> 
+<Details>SQL_SMALLINT,</Details> 
+<SchemaID>3</SchemaID> 
+<Database_Choice>False</Database_Choice> 
+<Login_Owner>False</Login_Owner> 
+<BP_ID>2</BP_ID> 
+<Flow_ID>23</Flow_ID> 
+<Step_ID>1</Step_ID> 
+</Wizard_Table_No_1Comp>
+
+
+<Wizard_Table_No_1Comp>
+<Collection_Table_ID>C4</Collection_Table_ID> 
+<Unique_identifier>7</Unique_identifier> 
+<Available_Description>userdate</Available_Description> 
+<Selected_Description>ifs_ods.userdate</Selected_Description> 
+<Available>0</Available> 
+<Selected>1</Selected> 
+<Order>7</Order> 
+<Details>SQL_DATE,</Details> 
+<SchemaID>3</SchemaID> 
+<Database_Choice>False</Database_Choice> 
+<Login_Owner>False</Login_Owner> 
+<BP_ID>2</BP_ID> 
+<Flow_ID>23</Flow_ID> 
+<Step_ID>1</Step_ID> 
+</Wizard_Table_No_1Comp>
+
+
+<Wizard_Table_No_1Comp>
+<Collection_Table_ID>C4</Collection_Table_ID> 
+<Unique_identifier>8</Unique_identifier> 
+<Available_Description>usertime</Available_Description> 
+<Selected_Description>ifs_ods.usertime</Selected_Description> 
+<Available>0</Available> 
+<Selected>1</Selected> 
+<Order>8</Order> 
+<Details>SQL_CHAR,</Details> 
+<SchemaID>3</SchemaID> 
+<Database_Choice>False</Database_Choice> 
+<Login_Owner>False</Login_Owner> 
+<BP_ID>2</BP_ID> 
+<Flow_ID>23</Flow_ID> 
+<Step_ID>1</Step_ID> 
+</Wizard_Table_No_1Comp>
+
+
+<Wizard_Table_No_1Comp>
+<Collection_Table_ID>C4</Collection_Table_ID> 
+<Unique_identifier>9</Unique_identifier> 
+<Available_Description>userblob</Available_Description> 
+<Selected_Description>ifs_ods.userblob</Selected_Description> 
+<Available>0</Available> 
+<Selected>1</Selected> 
+<Order>9</Order> 
+<Details>SQL_LONGVARBINARY,</Details> 
+<SchemaID>3</SchemaID> 
+<Database_Choice>False</Database_Choice> 
+<Login_Owner>False</Login_Owner> 
+<BP_ID>2</BP_ID> 
+<Flow_ID>23</Flow_ID> 
+<Step_ID>1</Step_ID> 
+</Wizard_Table_No_1Comp>
+
+
+<Wizard_Table_No_1Comp>
+<Collection_Table_ID>DBMagi</Collection_Table_ID> 
+<Unique_identifier>.4</Unique_identifier> 
+<Available_Description>ifs_ods</Available_Description> 
+<Selected_Description>ifs_ods</Selected_Description> 
+<Available>0</Available> 
+<Selected>1</Selected> 
+<Order>4</Order> 
+<Details></Details> 
+<SchemaID>3</SchemaID> 
+<Database_Choice>False</Database_Choice> 
+<Login_Owner>False</Login_Owner> 
+<BP_ID>2</BP_ID> 
+<Flow_ID>23</Flow_ID> 
+<Step_ID>1</Step_ID> 
+</Wizard_Table_No_1Comp>
+
+
+<Wizard_Table_No_1Comp>
+<Collection_Table_ID>OrdBy</Collection_Table_ID> 
+<Unique_identifier>1</Unique_identifier> 
+<Available_Description>13</Available_Description> 
+<Selected_Description></Selected_Description> 
+<Available>0</Available> 
+<Selected>0</Selected> 
+<Order>1</Order> 
+<Details></Details> 
+<SchemaID>3</SchemaID> 
+<Database_Choice>False</Database_Choice> 
+<Login_Owner>False</Login_Owner> 
+<BP_ID>2</BP_ID> 
+<Flow_ID>23</Flow_ID> 
+<Step_ID>1</Step_ID> 
+</Wizard_Table_No_1Comp>
+
+
+<Wizard_Table_No_1Comp>
+<Collection_Table_ID>OrdBy</Collection_Table_ID> 
+<Unique_identifier>2</Unique_identifier> 
+<Available_Description>14</Available_Description> 
+<Selected_Description></Selected_Description> 
+<Available>0</Available> 
+<Selected>0</Selected> 
+<Order>2</Order> 
+<Details></Details> 
+<SchemaID>3</SchemaID> 
+<Database_Choice>False</Database_Choice> 
+<Login_Owner>False</Login_Owner> 
+<BP_ID>2</BP_ID> 
+<Flow_ID>23</Flow_ID> 
+<Step_ID>1</Step_ID> 
+</Wizard_Table_No_1Comp>
+</StructWizardTbl1>
+<StructWizardTbl2>
+<Wizard_Table_No_2Comp>
+<Avilable_F_Selected_T>True</Avilable_F_Selected_T> 
+<ExpandNode>True</ExpandNode> 
+<ParentTreeNode>0</ParentTreeNode> 
+<SonTreeNode_Unique>-1</SonTreeNode_Unique> 
+<TableNo.1_Unique_Identifier></TableNo.1_Unique_Identifier> 
+<Available_Description>&lt;No columns selected&gt;</Available_Description> 
+<TableNameNode-DisplayBoth>True</TableNameNode-DisplayBoth> 
+<SchemaID>3</SchemaID> 
+<BP_ID>2</BP_ID> 
+<Flow_ID>23</Flow_ID> 
+<Step_ID>1</Step_ID> 
+</Wizard_Table_No_2Comp>
+
+
+<Wizard_Table_No_2Comp>
+<Avilable_F_Selected_T>True</Avilable_F_Selected_T> 
+<ExpandNode>True</ExpandNode> 
+<ParentTreeNode>0</ParentTreeNode> 
+<SonTreeNode_Unique>1</SonTreeNode_Unique> 
+<TableNo.1_Unique_Identifier>4</TableNo.1_Unique_Identifier> 
+<Available_Description>ifs_ods (Owner: )</Available_Description> 
+<TableNameNode-DisplayBoth>False</TableNameNode-DisplayBoth> 
+<SchemaID>3</SchemaID> 
+<BP_ID>2</BP_ID> 
+<Flow_ID>23</Flow_ID> 
+<Step_ID>1</Step_ID> 
+</Wizard_Table_No_2Comp>
+
+
+<Wizard_Table_No_2Comp>
+<Avilable_F_Selected_T>True</Avilable_F_Selected_T> 
+<ExpandNode>False</ExpandNode> 
+<ParentTreeNode>1</ParentTreeNode> 
+<SonTreeNode_Unique>1000</SonTreeNode_Unique> 
+<TableNo.1_Unique_Identifier>4.1</TableNo.1_Unique_Identifier> 
+<Available_Description>odsserverid</Available_Description> 
+<TableNameNode-DisplayBoth>False</TableNameNode-DisplayBoth> 
+<SchemaID>3</SchemaID> 
+<BP_ID>2</BP_ID> 
+<Flow_ID>23</Flow_ID> 
+<Step_ID>1</Step_ID> 
+</Wizard_Table_No_2Comp>
+
+
+<Wizard_Table_No_2Comp>
+<Avilable_F_Selected_T>True</Avilable_F_Selected_T> 
+<ExpandNode>False</ExpandNode> 
+<ParentTreeNode>1</ParentTreeNode> 
+<SonTreeNode_Unique>1001</SonTreeNode_Unique> 
+<TableNo.1_Unique_Identifier>4.2</TableNo.1_Unique_Identifier> 
+<Available_Description>fsid</Available_Description> 
+<TableNameNode-DisplayBoth>False</TableNameNode-DisplayBoth> 
+<SchemaID>3</SchemaID> 
+<BP_ID>2</BP_ID> 
+<Flow_ID>23</Flow_ID> 
+<Step_ID>1</Step_ID> 
+</Wizard_Table_No_2Comp>
+
+
+<Wizard_Table_No_2Comp>
+<Avilable_F_Selected_T>True</Avilable_F_Selected_T> 
+<ExpandNode>False</ExpandNode> 
+<ParentTreeNode>1</ParentTreeNode> 
+<SonTreeNode_Unique>1002</SonTreeNode_Unique> 
+<TableNo.1_Unique_Identifier>4.3</TableNo.1_Unique_Identifier> 
+<Available_Description>userkey</Available_Description> 
+<TableNameNode-DisplayBoth>False</TableNameNode-DisplayBoth> 
+<SchemaID>3</SchemaID> 
+<BP_ID>2</BP_ID> 
+<Flow_ID>23</Flow_ID> 
+<Step_ID>1</Step_ID> 
+</Wizard_Table_No_2Comp>
+
+
+<Wizard_Table_No_2Comp>
+<Avilable_F_Selected_T>True</Avilable_F_Selected_T> 
+<ExpandNode>False</ExpandNode> 
+<ParentTreeNode>1</ParentTreeNode> 
+<SonTreeNode_Unique>1003</SonTreeNode_Unique> 
+<TableNo.1_Unique_Identifier>4.4</TableNo.1_Unique_Identifier> 
+<Available_Description>userstring</Available_Description> 
+<TableNameNode-DisplayBoth>False</TableNameNode-DisplayBoth> 
+<SchemaID>3</SchemaID> 
+<BP_ID>2</BP_ID> 
+<Flow_ID>23</Flow_ID> 
+<Step_ID>1</Step_ID> 
+</Wizard_Table_No_2Comp>
+
+
+<Wizard_Table_No_2Comp>
+<Avilable_F_Selected_T>True</Avilable_F_Selected_T> 
+<ExpandNode>False</ExpandNode> 
+<ParentTreeNode>1</ParentTreeNode> 
+<SonTreeNode_Unique>1004</SonTreeNode_Unique> 
+<TableNo.1_Unique_Identifier>4.5</TableNo.1_Unique_Identifier> 
+<Available_Description>usernumber</Available_Description> 
+<TableNameNode-DisplayBoth>False</TableNameNode-DisplayBoth> 
+<SchemaID>3</SchemaID> 
+<BP_ID>2</BP_ID> 
+<Flow_ID>23</Flow_ID> 
+<Step_ID>1</Step_ID> 
+</Wizard_Table_No_2Comp>
+
+
+<Wizard_Table_No_2Comp>
+<Avilable_F_Selected_T>True</Avilable_F_Selected_T> 
+<ExpandNode>False</ExpandNode> 
+<ParentTreeNode>1</ParentTreeNode> 
+<SonTreeNode_Unique>1005</SonTreeNode_Unique> 
+<TableNo.1_Unique_Identifier>4.6</TableNo.1_Unique_Identifier> 
+<Available_Description>userlogical</Available_Description> 
+<TableNameNode-DisplayBoth>False</TableNameNode-DisplayBoth> 
+<SchemaID>3</SchemaID> 
+<BP_ID>2</BP_ID> 
+<Flow_ID>23</Flow_ID> 
+<Step_ID>1</Step_ID> 
+</Wizard_Table_No_2Comp>
+
+
+<Wizard_Table_No_2Comp>
+<Avilable_F_Selected_T>True</Avilable_F_Selected_T> 
+<ExpandNode>False</ExpandNode> 
+<ParentTreeNode>1</ParentTreeNode> 
+<SonTreeNode_Unique>1006</SonTreeNode_Unique> 
+<TableNo.1_Unique_Identifier>4.7</TableNo.1_Unique_Identifier> 
+<Available_Description>userdate</Available_Description> 
+<TableNameNode-DisplayBoth>False</TableNameNode-DisplayBoth> 
+<SchemaID>3</SchemaID> 
+<BP_ID>2</BP_ID> 
+<Flow_ID>23</Flow_ID> 
+<Step_ID>1</Step_ID> 
+</Wizard_Table_No_2Comp>
+
+
+<Wizard_Table_No_2Comp>
+<Avilable_F_Selected_T>True</Avilable_F_Selected_T> 
+<ExpandNode>False</ExpandNode> 
+<ParentTreeNode>1</ParentTreeNode> 
+<SonTreeNode_Unique>1007</SonTreeNode_Unique> 
+<TableNo.1_Unique_Identifier>4.8</TableNo.1_Unique_Identifier> 
+<Available_Description>usertime</Available_Description> 
+<TableNameNode-DisplayBoth>False</TableNameNode-DisplayBoth> 
+<SchemaID>3</SchemaID> 
+<BP_ID>2</BP_ID> 
+<Flow_ID>23</Flow_ID> 
+<Step_ID>1</Step_ID> 
+</Wizard_Table_No_2Comp>
+
+
+<Wizard_Table_No_2Comp>
+<Avilable_F_Selected_T>True</Avilable_F_Selected_T> 
+<ExpandNode>False</ExpandNode> 
+<ParentTreeNode>1</ParentTreeNode> 
+<SonTreeNode_Unique>1008</SonTreeNode_Unique> 
+<TableNo.1_Unique_Identifier>4.9</TableNo.1_Unique_Identifier> 
+<Available_Description>userblob</Available_Description> 
+<TableNameNode-DisplayBoth>False</TableNameNode-DisplayBoth> 
+<SchemaID>3</SchemaID> 
+<BP_ID>2</BP_ID> 
+<Flow_ID>23</Flow_ID> 
+<Step_ID>1</Step_ID> 
+</Wizard_Table_No_2Comp>
+
+
+<Wizard_Table_No_2Comp>
+<Avilable_F_Selected_T>True</Avilable_F_Selected_T> 
+<ExpandNode>False</ExpandNode> 
+<ParentTreeNode>1</ParentTreeNode> 
+<SonTreeNode_Unique>1009</SonTreeNode_Unique> 
+<TableNo.1_Unique_Identifier>4.10</TableNo.1_Unique_Identifier> 
+<Available_Description>global</Available_Description> 
+<TableNameNode-DisplayBoth>False</TableNameNode-DisplayBoth> 
+<SchemaID>3</SchemaID> 
+<BP_ID>2</BP_ID> 
+<Flow_ID>23</Flow_ID> 
+<Step_ID>1</Step_ID> 
+</Wizard_Table_No_2Comp>
+
+
+<Wizard_Table_No_2Comp>
+<Avilable_F_Selected_T>True</Avilable_F_Selected_T> 
+<ExpandNode>False</ExpandNode> 
+<ParentTreeNode>1</ParentTreeNode> 
+<SonTreeNode_Unique>1010</SonTreeNode_Unique> 
+<TableNo.1_Unique_Identifier>4.11</TableNo.1_Unique_Identifier> 
+<Available_Description>createdate</Available_Description> 
+<TableNameNode-DisplayBoth>False</TableNameNode-DisplayBoth> 
+<SchemaID>3</SchemaID> 
+<BP_ID>2</BP_ID> 
+<Flow_ID>23</Flow_ID> 
+<Step_ID>1</Step_ID> 
+</Wizard_Table_No_2Comp>
+
+
+<Wizard_Table_No_2Comp>
+<Avilable_F_Selected_T>True</Avilable_F_Selected_T> 
+<ExpandNode>False</ExpandNode> 
+<ParentTreeNode>1</ParentTreeNode> 
+<SonTreeNode_Unique>1011</SonTreeNode_Unique> 
+<TableNo.1_Unique_Identifier>4.12</TableNo.1_Unique_Identifier> 
+<Available_Description>createtime</Available_Description> 
+<TableNameNode-DisplayBoth>False</TableNameNode-DisplayBoth> 
+<SchemaID>3</SchemaID> 
+<BP_ID>2</BP_ID> 
+<Flow_ID>23</Flow_ID> 
+<Step_ID>1</Step_ID> 
+</Wizard_Table_No_2Comp>
+
+
+<Wizard_Table_No_2Comp>
+<Avilable_F_Selected_T>True</Avilable_F_Selected_T> 
+<ExpandNode>False</ExpandNode> 
+<ParentTreeNode>1</ParentTreeNode> 
+<SonTreeNode_Unique>1012</SonTreeNode_Unique> 
+<TableNo.1_Unique_Identifier>4.13</TableNo.1_Unique_Identifier> 
+<Available_Description>modifydate</Available_Description> 
+<TableNameNode-DisplayBoth>False</TableNameNode-DisplayBoth> 
+<SchemaID>3</SchemaID> 
+<BP_ID>2</BP_ID> 
+<Flow_ID>23</Flow_ID> 
+<Step_ID>1</Step_ID> 
+</Wizard_Table_No_2Comp>
+
+
+<Wizard_Table_No_2Comp>
+<Avilable_F_Selected_T>True</Avilable_F_Selected_T> 
+<ExpandNode>False</ExpandNode> 
+<ParentTreeNode>1</ParentTreeNode> 
+<SonTreeNode_Unique>1013</SonTreeNode_Unique> 
+<TableNo.1_Unique_Identifier>4.14</TableNo.1_Unique_Identifier> 
+<Available_Description>modifytime</Available_Description> 
+<TableNameNode-DisplayBoth>False</TableNameNode-DisplayBoth> 
+<SchemaID>3</SchemaID> 
+<BP_ID>2</BP_ID> 
+<Flow_ID>23</Flow_ID> 
+<Step_ID>1</Step_ID> 
+</Wizard_Table_No_2Comp>
+
+
+<Wizard_Table_No_2Comp>
+<Avilable_F_Selected_T>True</Avilable_F_Selected_T> 
+<ExpandNode>False</ExpandNode> 
+<ParentTreeNode>1</ParentTreeNode> 
+<SonTreeNode_Unique>1014</SonTreeNode_Unique> 
+<TableNo.1_Unique_Identifier>4.15</TableNo.1_Unique_Identifier> 
+<Available_Description>serverid</Available_Description> 
+<TableNameNode-DisplayBoth>False</TableNameNode-DisplayBoth> 
+<SchemaID>3</SchemaID> 
+<BP_ID>2</BP_ID> 
+<Flow_ID>23</Flow_ID> 
+<Step_ID>1</Step_ID> 
+</Wizard_Table_No_2Comp>
+
+
+<Wizard_Table_No_2Comp>
+<Avilable_F_Selected_T>True</Avilable_F_Selected_T> 
+<ExpandNode>False</ExpandNode> 
+<ParentTreeNode>1</ParentTreeNode> 
+<SonTreeNode_Unique>1015</SonTreeNode_Unique> 
+<TableNo.1_Unique_Identifier>4.16</TableNo.1_Unique_Identifier> 
+<Available_Description>versionkey</Available_Description> 
+<TableNameNode-DisplayBoth>False</TableNameNode-DisplayBoth> 
+<SchemaID>3</SchemaID> 
+<BP_ID>2</BP_ID> 
+<Flow_ID>23</Flow_ID> 
+<Step_ID>1</Step_ID> 
+</Wizard_Table_No_2Comp>
+
+
+<Wizard_Table_No_2Comp>
+<Avilable_F_Selected_T>True</Avilable_F_Selected_T> 
+<ExpandNode>False</ExpandNode> 
+<ParentTreeNode>1</ParentTreeNode> 
+<SonTreeNode_Unique>1016</SonTreeNode_Unique> 
+<TableNo.1_Unique_Identifier>4.17</TableNo.1_Unique_Identifier> 
+<Available_Description>odsindex</Available_Description> 
+<TableNameNode-DisplayBoth>False</TableNameNode-DisplayBoth> 
+<SchemaID>3</SchemaID> 
+<BP_ID>2</BP_ID> 
+<Flow_ID>23</Flow_ID> 
+<Step_ID>1</Step_ID> 
+</Wizard_Table_No_2Comp>
+
+
+<Wizard_Table_No_2Comp>
+<Avilable_F_Selected_T>True</Avilable_F_Selected_T> 
+<ExpandNode>False</ExpandNode> 
+<ParentTreeNode>1</ParentTreeNode> 
+<SonTreeNode_Unique>1017</SonTreeNode_Unique> 
+<TableNo.1_Unique_Identifier>4.18</TableNo.1_Unique_Identifier> 
+<Available_Description>projectkey</Available_Description> 
+<TableNameNode-DisplayBoth>False</TableNameNode-DisplayBoth> 
+<SchemaID>3</SchemaID> 
+<BP_ID>2</BP_ID> 
+<Flow_ID>23</Flow_ID> 
+<Step_ID>1</Step_ID> 
+</Wizard_Table_No_2Comp>
+</StructWizardTbl2>
+<StructWizardTbl3>
+<Wizard_Table_No_3Comp>
+<SchemaID>3</SchemaID> 
+<Selected_Database>Magicxpi</Selected_Database> 
+<Selected_Table_Tables></Selected_Table_Tables> 
+<Selected_Owner_Target>%DB_USER%</Selected_Owner_Target> 
+<WhereClause>aWZzX29kcy51c2Vya2V5IGxpa2UgJ0NERV8lJyBMSU1JVCA8P0YucGFnaW5hdGlvbj8+LCAxMDA=</WhereClause> 
+<SQL_Statment>U0VMRUNUIGlmc19vZHMub2Rzc2VydmVyaWQgLCBpZnNfb2RzLmZzaWQgLCBpZnNfb2RzLnVzZXJrZXkgLCBpZnNfb2RzLnVzZXJzdHJpbmcgLCBpZnNfb2RzLnVzZXJudW1iZXIgLCBpZnNfb2RzLnVzZXJsb2dpY2FsICwgaWZzX29kcy51c2VyZGF0ZSAsIGlmc19vZHMudXNlcnRpbWUgLCBpZnNfb2RzLnVzZXJibG9iICwgaWZzX29kcy5nbG9iYWwgLCBpZnNfb2RzLmNyZWF0ZWRhdGUgLCBpZnNfb2RzLmNyZWF0ZXRpbWUgLCBpZnNfb2RzLm1vZGlmeWRhdGUgLCBpZnNfb2RzLm1vZGlmeXRpbWUgLCBpZnNfb2RzLnNlcnZlcmlkICwgaWZzX29kcy52ZXJzaW9ua2V5ICwgaWZzX29kcy5vZHNpbmRleCAsIGlmc19vZHMucHJvamVjdGtleSBGUk9NIGlmc19vZHMgV0hFUkUgaWZzX29kcy51c2Vya2V5IGxpa2UgJ0NERV8lJyBPUkRFUiBCWSBpZnNfb2RzLm1vZGlmeWRhdGUgZGVzYyAsaWZzX29kcy5tb2RpZnl0aW1lIGRlc2MgTElNSVQgPD9GLnBhZ2luYXRpb24/PiwgMTAw</SQL_Statment> 
+<Interface_Type-Simple_2_Wiz_1>1</Interface_Type-Simple_2_Wiz_1> 
+<Base_64>False</Base_64> 
+<BP_ID>2</BP_ID> 
+<Flow_ID>23</Flow_ID> 
+<Step_ID>1</Step_ID> 
+</Wizard_Table_No_3Comp>
+</StructWizardTbl3>
+<StructDB_Gen>
+<DB_GenComp>
+<MagicFldID>1</MagicFldID> 
+<S_D>S</S_D>
+<Schema_ID>3</Schema_ID> 
+<FldName>odsserverid</FldName> 
+<MagicType>N</MagicType> 
+<MagicAtt>N7.3</MagicAtt> 
+<FldPath>Source/S3/Record/odsserverid</FldPath> 
+<DB_DataType>SQL_DOUBLE</DB_DataType> 
+<MagicStoredSize>8</MagicStoredSize> 
+<MagicStoredAsNumber>6</MagicStoredAsNumber> 
+<BP_ID>2</BP_ID> 
+<Flow_ID>23</Flow_ID> 
+<Step_ID>1</Step_ID> 
+<FLDNAME2>odsserverid</FLDNAME2> 
+<PI_Compound_ID>3</PI_Compound_ID> 
+<PI_Parent_ID>3</PI_Parent_ID> 
+<P_XSD_DateType>SQL_DOUBLE(10)</P_XSD_DateType> 
+<PI_ElementPath>Source/S3/Record/odsserverid</PI_ElementPath> 
+<isDateTime>0</isDateTime> 
+<PI_DBAlias>odsserverid</PI_DBAlias> 
+<PI_NullAllowed>True</PI_NullAllowed> 
+</DB_GenComp>
+
+
+<DB_GenComp>
+<MagicFldID>2</MagicFldID> 
+<S_D>S</S_D>
+<Schema_ID>3</Schema_ID> 
+<FldName>fsid</FldName> 
+<MagicType>N</MagicType> 
+<MagicAtt>N7.3</MagicAtt> 
+<FldPath>Source/S3/Record/fsid</FldPath> 
+<DB_DataType>SQL_DOUBLE</DB_DataType> 
+<MagicStoredSize>8</MagicStoredSize> 
+<MagicStoredAsNumber>6</MagicStoredAsNumber> 
+<BP_ID>2</BP_ID> 
+<Flow_ID>23</Flow_ID> 
+<Step_ID>1</Step_ID> 
+<FLDNAME2>fsid</FLDNAME2> 
+<PI_Compound_ID>3</PI_Compound_ID> 
+<PI_Parent_ID>3</PI_Parent_ID> 
+<P_XSD_DateType>SQL_DOUBLE(10)</P_XSD_DateType> 
+<PI_ElementPath>Source/S3/Record/fsid</PI_ElementPath> 
+<isDateTime>0</isDateTime> 
+<PI_DBAlias>fsid</PI_DBAlias> 
+<PI_NullAllowed>True</PI_NullAllowed> 
+</DB_GenComp>
+
+
+<DB_GenComp>
+<MagicFldID>3</MagicFldID> 
+<S_D>S</S_D>
+<Schema_ID>3</Schema_ID> 
+<FldName>userkey</FldName> 
+<MagicType>A</MagicType> 
+<MagicAtt>30</MagicAtt> 
+<FldPath>Source/S3/Record/userkey</FldPath> 
+<DB_DataType>SQL_VARCHAR</DB_DataType> 
+<MagicStoredSize></MagicStoredSize> 
+<MagicStoredAsNumber>3</MagicStoredAsNumber> 
+<BP_ID>2</BP_ID> 
+<Flow_ID>23</Flow_ID> 
+<Step_ID>1</Step_ID> 
+<FLDNAME2>userkey</FLDNAME2> 
+<PI_Compound_ID>3</PI_Compound_ID> 
+<PI_Parent_ID>3</PI_Parent_ID> 
+<P_XSD_DateType>SQL_VARCHAR(30)</P_XSD_DateType> 
+<PI_ElementPath>Source/S3/Record/userkey</PI_ElementPath> 
+<isDateTime>0</isDateTime> 
+<PI_DBAlias>userkey</PI_DBAlias> 
+<PI_NullAllowed>True</PI_NullAllowed> 
+</DB_GenComp>
+
+
+<DB_GenComp>
+<MagicFldID>4</MagicFldID> 
+<S_D>S</S_D>
+<Schema_ID>3</Schema_ID> 
+<FldName>userstring</FldName> 
+<MagicType>B</MagicType> 
+<MagicAtt></MagicAtt> 
+<FldPath>Source/S3/Record/userstring</FldPath> 
+<DB_DataType>SQL_WLONGVARCHAR</DB_DataType> 
+<MagicStoredSize></MagicStoredSize> 
+<MagicStoredAsNumber>3</MagicStoredAsNumber> 
+<BP_ID>2</BP_ID> 
+<Flow_ID>23</Flow_ID> 
+<Step_ID>1</Step_ID> 
+<FLDNAME2>userstring</FLDNAME2> 
+<PI_Compound_ID>3</PI_Compound_ID> 
+<PI_Parent_ID>3</PI_Parent_ID> 
+<P_XSD_DateType>SQL_WLONGVARCHAR(65535)</P_XSD_DateType> 
+<PI_ElementPath>Source/S3/Record/userstring</PI_ElementPath> 
+<isDateTime>0</isDateTime> 
+<PI_DBAlias>userstring</PI_DBAlias> 
+<PI_NullAllowed>True</PI_NullAllowed> 
+</DB_GenComp>
+
+
+<DB_GenComp>
+<MagicFldID>5</MagicFldID> 
+<S_D>S</S_D>
+<Schema_ID>3</Schema_ID> 
+<FldName>usernumber</FldName> 
+<MagicType>N</MagicType> 
+<MagicAtt>N7.3</MagicAtt> 
+<FldPath>Source/S3/Record/usernumber</FldPath> 
+<DB_DataType>SQL_DOUBLE</DB_DataType> 
+<MagicStoredSize>8</MagicStoredSize> 
+<MagicStoredAsNumber>6</MagicStoredAsNumber> 
+<BP_ID>2</BP_ID> 
+<Flow_ID>23</Flow_ID> 
+<Step_ID>1</Step_ID> 
+<FLDNAME2>usernumber</FLDNAME2> 
+<PI_Compound_ID>3</PI_Compound_ID> 
+<PI_Parent_ID>3</PI_Parent_ID> 
+<P_XSD_DateType>SQL_DOUBLE(10)</P_XSD_DateType> 
+<PI_ElementPath>Source/S3/Record/usernumber</PI_ElementPath> 
+<isDateTime>0</isDateTime> 
+<PI_DBAlias>usernumber</PI_DBAlias> 
+<PI_NullAllowed>True</PI_NullAllowed> 
+</DB_GenComp>
+
+
+<DB_GenComp>
+<MagicFldID>6</MagicFldID> 
+<S_D>S</S_D>
+<Schema_ID>3</Schema_ID> 
+<FldName>userlogical</FldName> 
+<MagicType>N</MagicType> 
+<MagicAtt>N5</MagicAtt> 
+<FldPath>Source/S3/Record/userlogical</FldPath> 
+<DB_DataType>SQL_SMALLINT</DB_DataType> 
+<MagicStoredSize>2</MagicStoredSize> 
+<MagicStoredAsNumber>4</MagicStoredAsNumber> 
+<BP_ID>2</BP_ID> 
+<Flow_ID>23</Flow_ID> 
+<Step_ID>1</Step_ID> 
+<FLDNAME2>userlogical</FLDNAME2> 
+<PI_Compound_ID>3</PI_Compound_ID> 
+<PI_Parent_ID>3</PI_Parent_ID> 
+<P_XSD_DateType>SQL_SMALLINT(5)</P_XSD_DateType> 
+<PI_ElementPath>Source/S3/Record/userlogical</PI_ElementPath> 
+<isDateTime>0</isDateTime> 
+<PI_DBAlias>userlogical</PI_DBAlias> 
+<PI_NullAllowed>True</PI_NullAllowed> 
+</DB_GenComp>
+
+
+<DB_GenComp>
+<MagicFldID>7</MagicFldID> 
+<S_D>S</S_D>
+<Schema_ID>3</Schema_ID> 
+<FldName>userdate</FldName> 
+<MagicType>D</MagicType> 
+<MagicAtt>YYYY/MM/DD</MagicAtt> 
+<FldPath>Source/S3/Record/userdate</FldPath> 
+<DB_DataType>SQL_DATE</DB_DataType> 
+<MagicStoredSize>8</MagicStoredSize> 
+<MagicStoredAsNumber>19</MagicStoredAsNumber> 
+<BP_ID>2</BP_ID> 
+<Flow_ID>23</Flow_ID> 
+<Step_ID>1</Step_ID> 
+<FLDNAME2>userdate</FLDNAME2> 
+<PI_Compound_ID>3</PI_Compound_ID> 
+<PI_Parent_ID>3</PI_Parent_ID> 
+<P_XSD_DateType>SQL_DATE(10)</P_XSD_DateType> 
+<PI_ElementPath>Source/S3/Record/userdate</PI_ElementPath> 
+<isDateTime>0</isDateTime> 
+<PI_DBAlias>userdate</PI_DBAlias> 
+<PI_NullAllowed>True</PI_NullAllowed> 
+</DB_GenComp>
+
+
+<DB_GenComp>
+<MagicFldID>8</MagicFldID> 
+<S_D>S</S_D>
+<Schema_ID>3</Schema_ID> 
+<FldName>usertime</FldName> 
+<MagicType>A</MagicType> 
+<MagicAtt>9</MagicAtt> 
+<FldPath>Source/S3/Record/usertime</FldPath> 
+<DB_DataType>SQL_CHAR</DB_DataType> 
+<MagicStoredSize></MagicStoredSize> 
+<MagicStoredAsNumber>3</MagicStoredAsNumber> 
+<BP_ID>2</BP_ID> 
+<Flow_ID>23</Flow_ID> 
+<Step_ID>1</Step_ID> 
+<FLDNAME2>usertime</FLDNAME2> 
+<PI_Compound_ID>3</PI_Compound_ID> 
+<PI_Parent_ID>3</PI_Parent_ID> 
+<P_XSD_DateType>SQL_CHAR(9)</P_XSD_DateType> 
+<PI_ElementPath>Source/S3/Record/usertime</PI_ElementPath> 
+<isDateTime>0</isDateTime> 
+<PI_DBAlias>usertime</PI_DBAlias> 
+<PI_NullAllowed>True</PI_NullAllowed> 
+</DB_GenComp>
+
+
+<DB_GenComp>
+<MagicFldID>9</MagicFldID> 
+<S_D>S</S_D>
+<Schema_ID>3</Schema_ID> 
+<FldName>userblob</FldName> 
+<MagicType>B</MagicType> 
+<MagicAtt></MagicAtt> 
+<FldPath>Source/S3/Record/userblob</FldPath> 
+<DB_DataType>SQL_LONGVARBINARY</DB_DataType> 
+<MagicStoredSize>12</MagicStoredSize> 
+<MagicStoredAsNumber>29</MagicStoredAsNumber> 
+<BP_ID>2</BP_ID> 
+<Flow_ID>23</Flow_ID> 
+<Step_ID>1</Step_ID> 
+<FLDNAME2>userblob</FLDNAME2> 
+<PI_Compound_ID>3</PI_Compound_ID> 
+<PI_Parent_ID>3</PI_Parent_ID> 
+<P_XSD_DateType>SQL_LONGVARBINARY(16777215)</P_XSD_DateType> 
+<PI_ElementPath>Source/S3/Record/userblob</PI_ElementPath> 
+<isDateTime>0</isDateTime> 
+<PI_DBAlias>userblob</PI_DBAlias> 
+<PI_NullAllowed>True</PI_NullAllowed> 
+</DB_GenComp>
+
+
+<DB_GenComp>
+<MagicFldID>10</MagicFldID> 
+<S_D>S</S_D>
+<Schema_ID>3</Schema_ID> 
+<FldName>global</FldName> 
+<MagicType>N</MagicType> 
+<MagicAtt>N5</MagicAtt> 
+<FldPath>Source/S3/Record/global</FldPath> 
+<DB_DataType>SQL_SMALLINT</DB_DataType> 
+<MagicStoredSize>2</MagicStoredSize> 
+<MagicStoredAsNumber>4</MagicStoredAsNumber> 
+<BP_ID>2</BP_ID> 
+<Flow_ID>23</Flow_ID> 
+<Step_ID>1</Step_ID> 
+<FLDNAME2>global</FLDNAME2> 
+<PI_Compound_ID>3</PI_Compound_ID> 
+<PI_Parent_ID>3</PI_Parent_ID> 
+<P_XSD_DateType>SQL_SMALLINT(5)</P_XSD_DateType> 
+<PI_ElementPath>Source/S3/Record/global</PI_ElementPath> 
+<isDateTime>0</isDateTime> 
+<PI_DBAlias>global</PI_DBAlias> 
+<PI_NullAllowed>True</PI_NullAllowed> 
+</DB_GenComp>
+
+
+<DB_GenComp>
+<MagicFldID>11</MagicFldID> 
+<S_D>S</S_D>
+<Schema_ID>3</Schema_ID> 
+<FldName>createdate</FldName> 
+<MagicType>D</MagicType> 
+<MagicAtt>YYYY/MM/DD</MagicAtt> 
+<FldPath>Source/S3/Record/createdate</FldPath> 
+<DB_DataType>SQL_DATE</DB_DataType> 
+<MagicStoredSize>8</MagicStoredSize> 
+<MagicStoredAsNumber>19</MagicStoredAsNumber> 
+<BP_ID>2</BP_ID> 
+<Flow_ID>23</Flow_ID> 
+<Step_ID>1</Step_ID> 
+<FLDNAME2>createdate</FLDNAME2> 
+<PI_Compound_ID>3</PI_Compound_ID> 
+<PI_Parent_ID>3</PI_Parent_ID> 
+<P_XSD_DateType>SQL_DATE(10)</P_XSD_DateType> 
+<PI_ElementPath>Source/S3/Record/createdate</PI_ElementPath> 
+<isDateTime>0</isDateTime> 
+<PI_DBAlias>createdate</PI_DBAlias> 
+<PI_NullAllowed>True</PI_NullAllowed> 
+</DB_GenComp>
+
+
+<DB_GenComp>
+<MagicFldID>12</MagicFldID> 
+<S_D>S</S_D>
+<Schema_ID>3</Schema_ID> 
+<FldName>createtime</FldName> 
+<MagicType>A</MagicType> 
+<MagicAtt>9</MagicAtt> 
+<FldPath>Source/S3/Record/createtime</FldPath> 
+<DB_DataType>SQL_CHAR</DB_DataType> 
+<MagicStoredSize></MagicStoredSize> 
+<MagicStoredAsNumber>3</MagicStoredAsNumber> 
+<BP_ID>2</BP_ID> 
+<Flow_ID>23</Flow_ID> 
+<Step_ID>1</Step_ID> 
+<FLDNAME2>createtime</FLDNAME2> 
+<PI_Compound_ID>3</PI_Compound_ID> 
+<PI_Parent_ID>3</PI_Parent_ID> 
+<P_XSD_DateType>SQL_CHAR(9)</P_XSD_DateType> 
+<PI_ElementPath>Source/S3/Record/createtime</PI_ElementPath> 
+<isDateTime>0</isDateTime> 
+<PI_DBAlias>createtime</PI_DBAlias> 
+<PI_NullAllowed>True</PI_NullAllowed> 
+</DB_GenComp>
+
+
+<DB_GenComp>
+<MagicFldID>13</MagicFldID> 
+<S_D>S</S_D>
+<Schema_ID>3</Schema_ID> 
+<FldName>modifydate</FldName> 
+<MagicType>D</MagicType> 
+<MagicAtt>YYYY/MM/DD</MagicAtt> 
+<FldPath>Source/S3/Record/modifydate</FldPath> 
+<DB_DataType>SQL_DATE</DB_DataType> 
+<MagicStoredSize>8</MagicStoredSize> 
+<MagicStoredAsNumber>19</MagicStoredAsNumber> 
+<BP_ID>2</BP_ID> 
+<Flow_ID>23</Flow_ID> 
+<Step_ID>1</Step_ID> 
+<FLDNAME2>modifydate</FLDNAME2> 
+<PI_Compound_ID>3</PI_Compound_ID> 
+<PI_Parent_ID>3</PI_Parent_ID> 
+<P_XSD_DateType>SQL_DATE(10)</P_XSD_DateType> 
+<PI_ElementPath>Source/S3/Record/modifydate</PI_ElementPath> 
+<isDateTime>0</isDateTime> 
+<PI_DBAlias>modifydate</PI_DBAlias> 
+<PI_NullAllowed>True</PI_NullAllowed> 
+</DB_GenComp>
+
+
+<DB_GenComp>
+<MagicFldID>14</MagicFldID> 
+<S_D>S</S_D>
+<Schema_ID>3</Schema_ID> 
+<FldName>modifytime</FldName> 
+<MagicType>A</MagicType> 
+<MagicAtt>9</MagicAtt> 
+<FldPath>Source/S3/Record/modifytime</FldPath> 
+<DB_DataType>SQL_CHAR</DB_DataType> 
+<MagicStoredSize></MagicStoredSize> 
+<MagicStoredAsNumber>3</MagicStoredAsNumber> 
+<BP_ID>2</BP_ID> 
+<Flow_ID>23</Flow_ID> 
+<Step_ID>1</Step_ID> 
+<FLDNAME2>modifytime</FLDNAME2> 
+<PI_Compound_ID>3</PI_Compound_ID> 
+<PI_Parent_ID>3</PI_Parent_ID> 
+<P_XSD_DateType>SQL_CHAR(9)</P_XSD_DateType> 
+<PI_ElementPath>Source/S3/Record/modifytime</PI_ElementPath> 
+<isDateTime>0</isDateTime> 
+<PI_DBAlias>modifytime</PI_DBAlias> 
+<PI_NullAllowed>True</PI_NullAllowed> 
+</DB_GenComp>
+
+
+<DB_GenComp>
+<MagicFldID>15</MagicFldID> 
+<S_D>S</S_D>
+<Schema_ID>3</Schema_ID> 
+<FldName>serverid</FldName> 
+<MagicType>N</MagicType> 
+<MagicAtt>N7.3</MagicAtt> 
+<FldPath>Source/S3/Record/serverid</FldPath> 
+<DB_DataType>SQL_DOUBLE</DB_DataType> 
+<MagicStoredSize>8</MagicStoredSize> 
+<MagicStoredAsNumber>6</MagicStoredAsNumber> 
+<BP_ID>2</BP_ID> 
+<Flow_ID>23</Flow_ID> 
+<Step_ID>1</Step_ID> 
+<FLDNAME2>serverid</FLDNAME2> 
+<PI_Compound_ID>3</PI_Compound_ID> 
+<PI_Parent_ID>3</PI_Parent_ID> 
+<P_XSD_DateType>SQL_DOUBLE(10)</P_XSD_DateType> 
+<PI_ElementPath>Source/S3/Record/serverid</PI_ElementPath> 
+<isDateTime>0</isDateTime> 
+<PI_DBAlias>serverid</PI_DBAlias> 
+<PI_NullAllowed>True</PI_NullAllowed> 
+</DB_GenComp>
+
+
+<DB_GenComp>
+<MagicFldID>16</MagicFldID> 
+<S_D>S</S_D>
+<Schema_ID>3</Schema_ID> 
+<FldName>versionkey</FldName> 
+<MagicType>A</MagicType> 
+<MagicAtt>30</MagicAtt> 
+<FldPath>Source/S3/Record/versionkey</FldPath> 
+<DB_DataType>SQL_VARCHAR</DB_DataType> 
+<MagicStoredSize></MagicStoredSize> 
+<MagicStoredAsNumber>3</MagicStoredAsNumber> 
+<BP_ID>2</BP_ID> 
+<Flow_ID>23</Flow_ID> 
+<Step_ID>1</Step_ID> 
+<FLDNAME2>versionkey</FLDNAME2> 
+<PI_Compound_ID>3</PI_Compound_ID> 
+<PI_Parent_ID>3</PI_Parent_ID> 
+<P_XSD_DateType>SQL_VARCHAR(30)</P_XSD_DateType> 
+<PI_ElementPath>Source/S3/Record/versionkey</PI_ElementPath> 
+<isDateTime>0</isDateTime> 
+<PI_DBAlias>versionkey</PI_DBAlias> 
+<PI_NullAllowed>True</PI_NullAllowed> 
+</DB_GenComp>
+
+
+<DB_GenComp>
+<MagicFldID>17</MagicFldID> 
+<S_D>S</S_D>
+<Schema_ID>3</Schema_ID> 
+<FldName>odsindex</FldName> 
+<MagicType>N</MagicType> 
+<MagicAtt>N7.3</MagicAtt> 
+<FldPath>Source/S3/Record/odsindex</FldPath> 
+<DB_DataType>SQL_DOUBLE</DB_DataType> 
+<MagicStoredSize>8</MagicStoredSize> 
+<MagicStoredAsNumber>6</MagicStoredAsNumber> 
+<BP_ID>2</BP_ID> 
+<Flow_ID>23</Flow_ID> 
+<Step_ID>1</Step_ID> 
+<FLDNAME2>odsindex</FLDNAME2> 
+<PI_Compound_ID>3</PI_Compound_ID> 
+<PI_Parent_ID>3</PI_Parent_ID> 
+<P_XSD_DateType>SQL_DOUBLE(10)</P_XSD_DateType> 
+<PI_ElementPath>Source/S3/Record/odsindex</PI_ElementPath> 
+<isDateTime>0</isDateTime> 
+<PI_DBAlias>odsindex</PI_DBAlias> 
+<PI_NullAllowed>True</PI_NullAllowed> 
+</DB_GenComp>
+
+
+<DB_GenComp>
+<MagicFldID>18</MagicFldID> 
+<S_D>S</S_D>
+<Schema_ID>3</Schema_ID> 
+<FldName>projectkey</FldName> 
+<MagicType>A</MagicType> 
+<MagicAtt>30</MagicAtt> 
+<FldPath>Source/S3/Record/projectkey</FldPath> 
+<DB_DataType>SQL_VARCHAR</DB_DataType> 
+<MagicStoredSize></MagicStoredSize> 
+<MagicStoredAsNumber>3</MagicStoredAsNumber> 
+<BP_ID>2</BP_ID> 
+<Flow_ID>23</Flow_ID> 
+<Step_ID>1</Step_ID> 
+<FLDNAME2>projectkey</FLDNAME2> 
+<PI_Compound_ID>3</PI_Compound_ID> 
+<PI_Parent_ID>3</PI_Parent_ID> 
+<P_XSD_DateType>SQL_VARCHAR(30)</P_XSD_DateType> 
+<PI_ElementPath>Source/S3/Record/projectkey</PI_ElementPath> 
+<isDateTime>0</isDateTime> 
+<PI_DBAlias>projectkey</PI_DBAlias> 
+<PI_NullAllowed>False</PI_NullAllowed> 
+</DB_GenComp>
+</StructDB_Gen>
+</Schema_DetailsComp>
+<Schema_DetailsComp>
+<Schema_ID>4</Schema_ID>
+<Schema_Name>D1</Schema_Name>
+<Test_file></Test_file>
+<Schema_Path>document\ods.tpl</Schema_Path>
+<Modified_date>01/01/1901</Modified_date>
+<Modified_Time>00:00:00</Modified_Time>
+<XSD_Encoding_Internal></XSD_Encoding_Internal>
+<StartPositionPathDelmited></StartPositionPathDelmited>
+<Application_database></Application_database>
+<Read_Document_Program>False</Read_Document_Program>
+<Write_Document_Program>False</Write_Document_Program>
+<Component_Directory></Component_Directory>
+<Serial_number>4</Serial_number>
+<Expose_Models>False</Expose_Models>
+<DataType>8</DataType>
+<ValidCheck_xml_contextFarw_cf>0</ValidCheck_xml_contextFarw_cf>
+<SchemaCreationCode>0</SchemaCreationCode>
+<SchemaLeft>0</SchemaLeft>
+<SchemaHight>0</SchemaHight>
+<SchemaWidth>0</SchemaWidth>
+<SchemaType>2</SchemaType>
+<DB_sub_type>2</DB_sub_type>
+<IFC_DefinitionID>0</IFC_DefinitionID>
+<data_source_FlowId_CallFlow>2</data_source_FlowId_CallFlow>
+<file_blob_path>4</file_blob_path>
+<Direct_mapping>False</Direct_mapping>
+<TopologyId>2</TopologyId>
+<FlowId>23</FlowId>
+<StepNum>1</StepNum>
+<Delimited_Positional></Delimited_Positional>
+<Default_delimiter></Default_delimiter>
+<Record_delimiter></Record_delimiter>
+<Is_Record_in_Modify_Mode>False</Is_Record_in_Modify_Mode>
+<SchemaDisplayNumber>1</SchemaDisplayNumber>
+<Append_data_destination>0</Append_data_destination>
+<XSD_default_root></XSD_default_root>
+<RecursionDepth>0</RecursionDepth>
+<isStartPositionActive_Alpha></isStartPositionActive_Alpha>
+<SchemaVersion>1</SchemaVersion>
+<ErrorFlowID>0</ErrorFlowID>
+<Schema_Description></Schema_Description>
+<UDSFlowVarDelimited></UDSFlowVarDelimited>
+<UDS_name_dev>0</UDS_name_dev>
+<UDS_name_depl></UDS_name_depl>
+<UDS_model>0</UDS_model>
+<UDS_sort>0</UDS_sort>
+<Clear_UDS>False</Clear_UDS>
+<ErrorBPID>0</ErrorBPID>
+<BPID_For_CallFlow>0</BPID_For_CallFlow>
+<DisplayFieldOrder>0</DisplayFieldOrder>
+<SchemaHasStartingPoint>False</SchemaHasStartingPoint>
+<DBDisconnect>False</DBDisconnect>
+<UnicodeSupport>0</UnicodeSupport>
+<CreateEmptyAlphaNodes>True</CreateEmptyAlphaNodes>
+<XMLInterfaceToFlatFile>false</XMLInterfaceToFlatFile>
+<CreateTitleForFlatFile>false</CreateTitleForFlatFile>
+<StructFlatFiles>
+</StructFlatFiles>
+<StructODSNodes>
+</StructODSNodes>
+<StructFlowVariablesNodes>
+</StructFlowVariablesNodes>
+<StructWizardTbl1>
+</StructWizardTbl1>
+<StructWizardTbl2>
+</StructWizardTbl2>
+<StructWizardTbl3>
+</StructWizardTbl3>
+<StructUpdateNodeDefinition>
+</StructUpdateNodeDefinition>
+<StructSchemaNameSpaceMap>
+</StructSchemaNameSpaceMap>
+<StructDB_Gen>
+</StructDB_Gen>
+<Struct_New_Default_values>
+</Struct_New_Default_values>
+<Struct_ElementReplications>
+</Struct_ElementReplications>
+</Schema_DetailsComp>
+ </Struct_Schema_Details>
+ <StructConversionConnections>
+<CN ST="1">
+<SR ID="0" TP="" SI="0" AT="" PC=""></SR>
+<SN></SN>
+<DS ID="4" TP="S" DI="8" AT="A" PC="1000">Destination/S4/Root/Repeat1/DateModified</DS>
+<DN>DateModified</DN>
+<EX>8</EX>
+<DA>Destination/S4/Root/Repeat1/DateModified</DA>
+<SE>0</SE>
+<DE>0</DE>
+<SL></SL>
+<DL>1/1/1/4</DL>
+<SP></SP>
+<DP>/-1/-1/-1</DP>
+</CN>
+<CN ST="1">
+<SR ID="3" TP="C" SI="3" AT="" PC="">Source/S3/Record</SR>
+<SN>Record</SN>
+<DS ID="4" TP="C" DI="4" AT="" PC="">Destination/S4/Root/Repeat1</DS>
+<DN>Repeat1</DN>
+<DA>Destination/S4/Root/Repeat1</DA>
+<SE>0</SE>
+<DE>0</DE>
+<SL>1/1</SL>
+<DL>1/1/1</DL>
+<SP>/-1</SP>
+<DP>/-1/-1</DP>
+</CN>
+<CN ST="1">
+<SR ID="3" TP="S" SI="6" AT="A" PC="30">Source/S3/Record/userkey</SR>
+<SN>userkey</SN>
+<DS ID="4" TP="S" DI="6" AT="A" PC="1000">Destination/S4/Root/Repeat1/MagentoID</DS>
+<DN>MagentoID</DN>
+<EX>5</EX>
+<DA>Destination/S4/Root/Repeat1/MagentoID</DA>
+<SE>0</SE>
+<DE>0</DE>
+<SM>1</SM>
+<DM>1</DM>
+<SL>1/1/3</SL>
+<DL>1/1/1/2</DL>
+<SP>/-1/1</SP>
+<DP>/-1/-1/1</DP>
+</CN>
+<CN ST="1">
+<SR ID="3" TP="S" SI="7" AT="B" PC="">Source/S3/Record/userstring</SR>
+<SN>userstring</SN>
+<DS ID="4" TP="S" DI="9" AT="A" PC="1000">Destination/S4/Root/Repeat1/Status</DS>
+<DN>Status</DN>
+<DA>Destination/S4/Root/Repeat1/Status</DA>
+<SE>0</SE>
+<DE>0</DE>
+<SM>1</SM>
+<DM>1</DM>
+<SL>1/1/4</SL>
+<DL>1/1/1/5</DL>
+<SP>/-1/1</SP>
+<DP>/-1/-1/1</DP>
+</CN>
+<CN ST="1">
+<SR ID="3" TP="S" SI="8" AT="N" PC="N7.3">Source/S3/Record/usernumber</SR>
+<SN>usernumber</SN>
+<DS ID="4" TP="S" DI="10" AT="A" PC="1000">Destination/S4/Root/Repeat1/JDEID</DS>
+<DN>JDEID</DN>
+<EX>10</EX>
+<DA>Destination/S4/Root/Repeat1/JDEID</DA>
+<SE>0</SE>
+<DE>0</DE>
+<SM>1</SM>
+<DM>1</DM>
+<SL>1/1/5</SL>
+<DL>1/1/1/6</DL>
+<SP>/-1/1</SP>
+<DP>/-1/-1/1</DP>
+</CN>
+<CN ST="1">
+<SR ID="3" TP="S" SI="14" AT="D" PC="YYYY/MM/DD">Source/S3/Record/createdate</SR>
+<SN>createdate</SN>
+<DS ID="4" TP="S" DI="7" AT="A" PC="1000">Destination/S4/Root/Repeat1/DateCreated</DS>
+<DN>DateCreated</DN>
+<EX>9</EX>
+<DA>Destination/S4/Root/Repeat1/DateCreated</DA>
+<SE>0</SE>
+<DE>0</DE>
+<SM>1</SM>
+<DM>1</DM>
+<SL>1/1/11</SL>
+<DL>1/1/1/3</DL>
+<SP>/-1/1</SP>
+<DP>/-1/-1/1</DP>
+</CN>
+</StructConversionConnections>
+ <StructNodesColors/>
+</Source_And_Destination_Object>
+</IFC>
+<Services>
+
+</Services>
+
+ <Struct_Triggers>
+ <TriggersComp>
+  <topology_id>2</topology_id>
+  <flow_id>23</flow_id>
+  <TRIG_ID_STEP_NO>1</TRIG_ID_STEP_NO>
+  <IFCDefinitionID>110</IFCDefinitionID>
+  <Description></Description>
+  <NodeID>1</NodeID>
+  <Component>%ifclib%http\httpifc.ecf</Component>
+  <Name>HTTP</Name>
+  <Emulation_program></Emulation_program>
+  <emulation_component></emulation_component>
+  <activation_string></activation_string>
+  <activation_blob>PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIiA/Pg0KPEh0dHA+DQoNCiAgPE5hbWU+SkRFIFNSVjwvTmFtZT4NCg0KICA8T3BlcmF0aW9uPg0KICAgIDxJRD4xPC9JRD4NCiAgICA8T3BlcmF0aW9uTmFtZT5HZXRPRFNDZGU8L09wZXJhdGlvbk5hbWU+DQogICAgPEFyZ3VtZW50Pg0KICAgICAgPEFyZ3VtZW50SUQ+MTwvQXJndW1lbnRJRD4NCiAgICAgIDxBcmd1bWVudE5hbWU+UGFnaW5hdGlvbjwvQXJndW1lbnROYW1lPg0KICAgICAgPERhdGFUeXBlPk48L0RhdGFUeXBlPg0KICAgICAgPERhdGFUeXBlUGljdHVyZT4xMi40PC9EYXRhVHlwZVBpY3R1cmU+DQogICAgICA8TWFwcGluZ0V4cElEPjI8L01hcHBpbmdFeHBJRD4NCiAgICAgIDxEZWZhdWx0VmFsdWU+PC9EZWZhdWx0VmFsdWU+DQogICAgICA8TWFuZGF0b3J5PjA8L01hbmRhdG9yeT4NCiAgICA8L0FyZ3VtZW50Pg0KICA8L09wZXJhdGlvbj4NCg0KICA8UmV0dXJuVmFsdWVFeHBuSUQ+MTwvUmV0dXJuVmFsdWVFeHBuSUQ+DQoNCiAgPFZhbGlkYXRpb25FeHBuSUQ+MDwvVmFsaWRhdGlvbkV4cG5JRD4NCg0KPC9IdHRwPg0K</activation_blob>
+  <return_XML_result>0</return_XML_result>
+  <method_name>GetODSCde</method_name>
+  <trigger_type>0</trigger_type>
+  <schedulerID>0</schedulerID>
+  <ServiceName>JDE SRV</ServiceName>
+ </TriggersComp>
+ </Struct_Triggers>
+
+ <Struct_Scheduler/>
+
+
+ <Struct_FlowLogic/>
+
+ <Struct_FlowSpace>
+ <FlowSpaceComp>
+  <flow_id>23</flow_id>
+  <data_key>F.pagination</data_key>
+  <data_description></data_description>
+  <data_type>N</data_type>
+  <data_len>8.00000</data_len>
+  <default_value>0</default_value>
+  <blob_viewer_component></blob_viewer_component>
+  <blob_viewer_program></blob_viewer_program>
+  <internal_index>391</internal_index>
+  <global>False</global>
+  <internal_sort>False</internal_sort>
+  <default_value_depl></default_value_depl>
+  <uds_type></uds_type>
+  <BP_ID>2</BP_ID>
+  <GUID>{91D6B88C-E5ED-4678-AEBB-5C4BE20523D6}</GUID>
+  <Deleted>0</Deleted>
+ </FlowSpaceComp>
+ <FlowSpaceComp>
+  <flow_id>23</flow_id>
+  <data_key>F.reponseHTML</data_key>
+  <data_description></data_description>
+  <data_type>B</data_type>
+  <data_len>0.00000</data_len>
+  <default_value>0</default_value>
+  <blob_viewer_component></blob_viewer_component>
+  <blob_viewer_program></blob_viewer_program>
+  <internal_index>392</internal_index>
+  <global>False</global>
+  <internal_sort>False</internal_sort>
+  <default_value_depl></default_value_depl>
+  <uds_type></uds_type>
+  <BP_ID>2</BP_ID>
+  <GUID>{776A41E2-78D9-4732-B383-70634BE14323}</GUID>
+  <Deleted>0</Deleted>
+ </FlowSpaceComp>
+ </Struct_FlowSpace>
+
+ <Struct_ErrorHandler/>
+
+ <Struct_Elements/>
+
+ <Flow_Root>
+ <FlowRootComp>
+  <flow_id>23</flow_id>
+  <root_step_id>1</root_step_id>
+  <devexp>0</devexp>
+  <deployexp></deployexp>
+  <BP_ID>2</BP_ID>
+ </FlowRootComp>
+ </Flow_Root>
+
+<Struct_ExpressionTable>
+ <Expression_TableComp>
+  <Object_ID>2</Object_ID> 
+  <BP_ID>2</BP_ID> 
+  <Flow_ID>23</Flow_ID> 
+  <StepTrigger_ID>1</StepTrigger_ID> 
+  <Is_Trigger>0</Is_Trigger> 
+  <SubStep_ID>4</SubStep_ID> 
+  <MapperUpdate_ID>0</MapperUpdate_ID> 
+  <Expression_ID>4</Expression_ID> 
+  <Development_Expression>PCMhJUAkPmdldFZhck5hbWUoMSwnezc3NkE0MUUyLTc4RDktNDczMi1CMzgzLTcwNjM0QkUxNDMyM30nLDAsMCk8IyElQCQ+</Development_Expression> 
+  <Deployment_Expression></Deployment_Expression>
+  <Expression_Return_Attribute>B</Expression_Return_Attribute> 
+  <Range_String></Range_String>  
+  <Direction_InOrOut>O</Direction_InOrOut> 
+  <DeploymentGenerated>0</DeploymentGenerated> 
+  <ExpressionPath>PCE/TWFwcGVyPyE+IDwhP01hcHBlcj8hPjwhP1NjaGVtYT8hPjwhP0lEPyE+NDwhP0lEPyE+PCE/TmFtZT8hPkQxPCE/TmFtZT8hPjwhP1Byb3BlcnRpZXM/IT48IT9DVFJOYW1lPyE+Qi1Ccm93c2UgRGF0YVNyYy4uLl8wMDAxPCE/Q1RSTmFtZT8hPjwhP1Byb3BlcnRpZXM/IT48IT9TY2hlbWE/IT4=</ExpressionPath> 
+  <isCopyIndication>False</isCopyIndication> 
+ </Expression_TableComp>
+ <Expression_TableComp>
+  <Object_ID>2</Object_ID> 
+  <BP_ID>2</BP_ID> 
+  <Flow_ID>23</Flow_ID> 
+  <StepTrigger_ID>1</StepTrigger_ID> 
+  <Is_Trigger>0</Is_Trigger> 
+  <SubStep_ID>4</SubStep_ID> 
+  <MapperUpdate_ID>0</MapperUpdate_ID> 
+  <Expression_ID>5</Expression_ID> 
+  <Development_Expression>c3RydG9rZW4oPEAjJCElPmdldE5vZGVQYXRoKDEpPEAjJCElPiAsMiwnXycp</Development_Expression> 
+  <Deployment_Expression></Deployment_Expression>
+  <Expression_Return_Attribute>A</Expression_Return_Attribute> 
+  <Range_String></Range_String>  
+  <Direction_InOrOut>I</Direction_InOrOut> 
+  <DeploymentGenerated>0</DeploymentGenerated> 
+  <ExpressionPath>PCE/TWFwcGVyPyE+IDwhP01hcHBlcj8hPjwhP1NjaGVtYT8hPjwhP0lEPyE+NDwhP0lEPyE+PCE/TmFtZT8hPkQxPCE/TmFtZT8hPjwhP05vZGU/IT48IT9QYXRoPyE+RGVzdGluYXRpb24vUzQvUm9vdC9SZXBlYXQxL01hZ2VudG9JRDwhP1BhdGg/IT48IT9DVFJOYW1lPyE+Vl9jYWxjIHZhbHVlXzAwMDE8IT9DVFJOYW1lPyE+PCE/Tm9kZT8hPjwhP1NjaGVtYT8hPg==</ExpressionPath> 
+  <isCopyIndication>False</isCopyIndication> 
+ </Expression_TableComp>
+ <Expression_TableComp>
+  <Object_ID>2</Object_ID> 
+  <BP_ID>2</BP_ID> 
+  <Flow_ID>23</Flow_ID> 
+  <StepTrigger_ID>1</StepTrigger_ID> 
+  <Is_Trigger>0</Is_Trigger> 
+  <SubStep_ID>4</SubStep_ID> 
+  <MapperUpdate_ID>0</MapperUpdate_ID> 
+  <Expression_ID>8</Expression_ID> 
+  <Development_Expression>RFN0cig8QCMkISU+Z2V0Tm9kZVBhdGgoNCk8QCMkISU+ICwgJ0REL01NL1lZWVknKSAmICcgJyAmICA8QCMkISU+Z2V0Tm9kZVBhdGgoNSk8QCMkISU+</Development_Expression> 
+  <Deployment_Expression></Deployment_Expression>
+  <Expression_Return_Attribute>A</Expression_Return_Attribute> 
+  <Range_String></Range_String>  
+  <Direction_InOrOut>I</Direction_InOrOut> 
+  <DeploymentGenerated>0</DeploymentGenerated> 
+  <ExpressionPath>PCE/TWFwcGVyPyE+IDwhP01hcHBlcj8hPjwhP1NjaGVtYT8hPjwhP0lEPyE+NDwhP0lEPyE+PCE/TmFtZT8hPkQxPCE/TmFtZT8hPjwhP05vZGU/IT48IT9QYXRoPyE+RGVzdGluYXRpb24vUzQvUm9vdC9SZXBlYXQxL0RhdGVNb2RpZmllZDwhP1BhdGg/IT48IT9DVFJOYW1lPyE+Vl9jYWxjIHZhbHVlXzAwMDE8IT9DVFJOYW1lPyE+PCE/Tm9kZT8hPjwhP1NjaGVtYT8hPg==</ExpressionPath> 
+  <isCopyIndication>False</isCopyIndication> 
+ </Expression_TableComp>
+ <Expression_TableComp>
+  <Object_ID>2</Object_ID> 
+  <BP_ID>2</BP_ID> 
+  <Flow_ID>23</Flow_ID> 
+  <StepTrigger_ID>1</StepTrigger_ID> 
+  <Is_Trigger>0</Is_Trigger> 
+  <SubStep_ID>4</SubStep_ID> 
+  <MapperUpdate_ID>0</MapperUpdate_ID> 
+  <Expression_ID>9</Expression_ID> 
+  <Development_Expression>RFN0ciggPEAjJCElPmdldE5vZGVQYXRoKDYpPEAjJCElPiAsICdERC9NTS9ZWVlZJykgJiAnICcgJiA8QCMkISU+Z2V0Tm9kZVBhdGgoNyk8QCMkISU+</Development_Expression> 
+  <Deployment_Expression></Deployment_Expression>
+  <Expression_Return_Attribute>A</Expression_Return_Attribute> 
+  <Range_String></Range_String>  
+  <Direction_InOrOut>I</Direction_InOrOut> 
+  <DeploymentGenerated>0</DeploymentGenerated> 
+  <ExpressionPath>PCE/TWFwcGVyPyE+IDwhP01hcHBlcj8hPjwhP1NjaGVtYT8hPjwhP0lEPyE+NDwhP0lEPyE+PCE/TmFtZT8hPkQxPCE/TmFtZT8hPjwhP05vZGU/IT48IT9QYXRoPyE+RGVzdGluYXRpb24vUzQvUm9vdC9SZXBlYXQxL0RhdGVDcmVhdGVkPCE/UGF0aD8hPjwhP0NUUk5hbWU/IT5WX2NhbGMgdmFsdWVfMDAwMTwhP0NUUk5hbWU/IT48IT9Ob2RlPyE+PCE/U2NoZW1hPyE+</ExpressionPath> 
+  <isCopyIndication>False</isCopyIndication> 
+ </Expression_TableComp>
+ <Expression_TableComp>
+  <Object_ID>2</Object_ID> 
+  <BP_ID>2</BP_ID> 
+  <Flow_ID>23</Flow_ID> 
+  <StepTrigger_ID>1</StepTrigger_ID> 
+  <Is_Trigger>0</Is_Trigger> 
+  <SubStep_ID>4</SubStep_ID> 
+  <MapperUpdate_ID>0</MapperUpdate_ID> 
+  <Expression_ID>10</Expression_ID> 
+  <Development_Expression>U3RyKDxAIyQhJT5nZXROb2RlUGF0aCg4KTxAIyQhJT4gLCcxOCcp</Development_Expression> 
+  <Deployment_Expression></Deployment_Expression>
+  <Expression_Return_Attribute>A</Expression_Return_Attribute> 
+  <Range_String></Range_String>  
+  <Direction_InOrOut>I</Direction_InOrOut> 
+  <DeploymentGenerated>0</DeploymentGenerated> 
+  <ExpressionPath>PCE/TWFwcGVyPyE+IDwhP01hcHBlcj8hPjwhP1NjaGVtYT8hPjwhP0lEPyE+NDwhP0lEPyE+PCE/TmFtZT8hPkQxPCE/TmFtZT8hPjwhP05vZGU/IT48IT9QYXRoPyE+RGVzdGluYXRpb24vUzQvUm9vdC9SZXBlYXQxL0pERUlEPCE/UGF0aD8hPjwhP0NUUk5hbWU/IT5WX2NhbGMgdmFsdWVfMDAwMTwhP0NUUk5hbWU/IT48IT9Ob2RlPyE+PCE/U2NoZW1hPyE+</ExpressionPath> 
+  <isCopyIndication>False</isCopyIndication> 
+ </Expression_TableComp>
+ <Expression_TableComp>
+  <Object_ID>2</Object_ID> 
+  <BP_ID>2</BP_ID> 
+  <Flow_ID>23</Flow_ID> 
+  <StepTrigger_ID>1</StepTrigger_ID> 
+  <Is_Trigger>1</Is_Trigger> 
+  <SubStep_ID>0</SubStep_ID> 
+  <MapperUpdate_ID>0</MapperUpdate_ID> 
+  <Expression_ID>1</Expression_ID> 
+  <Development_Expression>PCMhJUAkPmdldFZhck5hbWUoMSwnezc3NkE0MUUyLTc4RDktNDczMi1CMzgzLTcwNjM0QkUxNDMyM30nLDAsMCk8IyElQCQ+</Development_Expression> 
+  <Deployment_Expression></Deployment_Expression>
+  <Expression_Return_Attribute>B</Expression_Return_Attribute> 
+  <Range_String></Range_String>  
+  <Direction_InOrOut>I</Direction_InOrOut> 
+  <DeploymentGenerated>0</DeploymentGenerated> 
+  <ExpressionPath>PCE/VHJpZ2dlcj8hPg0KPCE/Q29uZmlnPyE+DQo8IT9JRD8hPjA8IT9JRD8hPg0KPCE/Q1RSTmFtZT8hPkJ1dF9SZXR1cm5WYWx1ZTwhP0NUUk5hbWU/IT4NCjwhP0NvbmZpZz8hPg0KPCE/VHJpZ2dlcj8hPg==</ExpressionPath> 
+  <isCopyIndication>False</isCopyIndication> 
+ </Expression_TableComp>
+ <Expression_TableComp>
+  <Object_ID>2</Object_ID> 
+  <BP_ID>2</BP_ID> 
+  <Flow_ID>23</Flow_ID> 
+  <StepTrigger_ID>1</StepTrigger_ID> 
+  <Is_Trigger>1</Is_Trigger> 
+  <SubStep_ID>1</SubStep_ID> 
+  <MapperUpdate_ID>0</MapperUpdate_ID> 
+  <Expression_ID>2</Expression_ID> 
+  <Development_Expression>PCMhJUAkPmdldFZhck5hbWUoMSwnezkxRDZCODhDLUU1RUQtNDY3OC1BRUJCLTVDNEJFMjA1MjNENn0nLDAsMCk8IyElQCQ+</Development_Expression> 
+  <Deployment_Expression></Deployment_Expression>
+  <Expression_Return_Attribute>N</Expression_Return_Attribute> 
+  <Range_String></Range_String>  
+  <Direction_InOrOut>O</Direction_InOrOut> 
+  <DeploymentGenerated>0</DeploymentGenerated> 
+  <ExpressionPath>PCE/VHJpZ2dlcj8hPg0KPCE/Q29uZmlnPyE+DQo8IT9JRD8hPjE8IT9JRD8hPg0KPCE/Q1RSTmFtZT8hPlZfUGFyYW1ldGVyVmFyaWFibGVFeHByZXNzaW9uPCE/Q1RSTmFtZT8hPg0KPCE/Q29uZmlnPyE+DQo8IT9UcmlnZ2VyPyE+</ExpressionPath> 
+  <isCopyIndication>False</isCopyIndication> 
+ </Expression_TableComp>
+ </Struct_ExpressionTable>
+
+ <Struct_MapperElementData>
+ <MapperElementData_TableComp>
+  <TransactionLevel>0</TransactionLevel>
+  <BP_ID>2</BP_ID>
+  <Flow_ID>23</Flow_ID>
+  <Step_ID>1</Step_ID>
+  <SchemaID_SubstepId>4</SchemaID_SubstepId>
+  <ID_UniqueNumber>1</ID_UniqueNumber>
+  <ElementNodePath>Source/S3/Record/userkey</ElementNodePath>
+  <ElementType></ElementType>
+  <ElementAttribute>A</ElementAttribute>
+  <ElementPicture>30</ElementPicture>
+  <CurrentMaxOccurance>1</CurrentMaxOccurance>
+  <SourceMaxccurance>-1</SourceMaxccurance>
+  <SrcNullSupport>0</SrcNullSupport>
+  <DesNullSupport>0</DesNullSupport>
+  <XMLDataFormat></XMLDataFormat>
+ </MapperElementData_TableComp>
+ <MapperElementData_TableComp>
+  <TransactionLevel>0</TransactionLevel>
+  <BP_ID>2</BP_ID>
+  <Flow_ID>23</Flow_ID>
+  <Step_ID>1</Step_ID>
+  <SchemaID_SubstepId>4</SchemaID_SubstepId>
+  <ID_UniqueNumber>4</ID_UniqueNumber>
+  <ElementNodePath>Source/S3/Record/modifydate</ElementNodePath>
+  <ElementType></ElementType>
+  <ElementAttribute>D</ElementAttribute>
+  <ElementPicture>YYYY/MM/DD</ElementPicture>
+  <CurrentMaxOccurance></CurrentMaxOccurance>
+  <SourceMaxccurance></SourceMaxccurance>
+  <SrcNullSupport>0</SrcNullSupport>
+  <DesNullSupport>0</DesNullSupport>
+  <XMLDataFormat></XMLDataFormat>
+ </MapperElementData_TableComp>
+ <MapperElementData_TableComp>
+  <TransactionLevel>0</TransactionLevel>
+  <BP_ID>2</BP_ID>
+  <Flow_ID>23</Flow_ID>
+  <Step_ID>1</Step_ID>
+  <SchemaID_SubstepId>4</SchemaID_SubstepId>
+  <ID_UniqueNumber>5</ID_UniqueNumber>
+  <ElementNodePath>Source/S3/Record/modifytime</ElementNodePath>
+  <ElementType></ElementType>
+  <ElementAttribute>A</ElementAttribute>
+  <ElementPicture>9</ElementPicture>
+  <CurrentMaxOccurance></CurrentMaxOccurance>
+  <SourceMaxccurance></SourceMaxccurance>
+  <SrcNullSupport>0</SrcNullSupport>
+  <DesNullSupport>0</DesNullSupport>
+  <XMLDataFormat></XMLDataFormat>
+ </MapperElementData_TableComp>
+ <MapperElementData_TableComp>
+  <TransactionLevel>0</TransactionLevel>
+  <BP_ID>2</BP_ID>
+  <Flow_ID>23</Flow_ID>
+  <Step_ID>1</Step_ID>
+  <SchemaID_SubstepId>4</SchemaID_SubstepId>
+  <ID_UniqueNumber>6</ID_UniqueNumber>
+  <ElementNodePath>Source/S3/Record/createdate</ElementNodePath>
+  <ElementType></ElementType>
+  <ElementAttribute>D</ElementAttribute>
+  <ElementPicture>YYYY/MM/DD</ElementPicture>
+  <CurrentMaxOccurance>1</CurrentMaxOccurance>
+  <SourceMaxccurance>-1</SourceMaxccurance>
+  <SrcNullSupport>0</SrcNullSupport>
+  <DesNullSupport>0</DesNullSupport>
+  <XMLDataFormat></XMLDataFormat>
+ </MapperElementData_TableComp>
+ <MapperElementData_TableComp>
+  <TransactionLevel>0</TransactionLevel>
+  <BP_ID>2</BP_ID>
+  <Flow_ID>23</Flow_ID>
+  <Step_ID>1</Step_ID>
+  <SchemaID_SubstepId>4</SchemaID_SubstepId>
+  <ID_UniqueNumber>7</ID_UniqueNumber>
+  <ElementNodePath>Source/S3/Record/createtime</ElementNodePath>
+  <ElementType>S</ElementType>
+  <ElementAttribute>A</ElementAttribute>
+  <ElementPicture>9</ElementPicture>
+  <CurrentMaxOccurance>1</CurrentMaxOccurance>
+  <SourceMaxccurance>-1</SourceMaxccurance>
+  <SrcNullSupport>0</SrcNullSupport>
+  <DesNullSupport>0</DesNullSupport>
+  <XMLDataFormat></XMLDataFormat>
+ </MapperElementData_TableComp>
+ <MapperElementData_TableComp>
+  <TransactionLevel>0</TransactionLevel>
+  <BP_ID>2</BP_ID>
+  <Flow_ID>23</Flow_ID>
+  <Step_ID>1</Step_ID>
+  <SchemaID_SubstepId>4</SchemaID_SubstepId>
+  <ID_UniqueNumber>8</ID_UniqueNumber>
+  <ElementNodePath>Source/S3/Record/usernumber</ElementNodePath>
+  <ElementType></ElementType>
+  <ElementAttribute>N</ElementAttribute>
+  <ElementPicture>N7.3</ElementPicture>
+  <CurrentMaxOccurance>1</CurrentMaxOccurance>
+  <SourceMaxccurance>-1</SourceMaxccurance>
+  <SrcNullSupport>0</SrcNullSupport>
+  <DesNullSupport>0</DesNullSupport>
+  <XMLDataFormat></XMLDataFormat>
+ </MapperElementData_TableComp>
+ </Struct_MapperElementData>
+
+ <Struct_MapperExpressionID>
+ <MapperExpressionID_TableComp>
+  <TransactionLevel>0</TransactionLevel>
+  <BP_ID>2</BP_ID>
+  <Flow_ID>23</Flow_ID>
+  <Step_ID>1</Step_ID>
+  <SchemaID_SubstepId>4</SchemaID_SubstepId>
+  <ID>1</ID>
+  <ExpressionID>5</ExpressionID>
+ </MapperExpressionID_TableComp>
+ <MapperExpressionID_TableComp>
+  <TransactionLevel>0</TransactionLevel>
+  <BP_ID>2</BP_ID>
+  <Flow_ID>23</Flow_ID>
+  <Step_ID>1</Step_ID>
+  <SchemaID_SubstepId>4</SchemaID_SubstepId>
+  <ID>4</ID>
+  <ExpressionID>8</ExpressionID>
+ </MapperExpressionID_TableComp>
+ <MapperExpressionID_TableComp>
+  <TransactionLevel>0</TransactionLevel>
+  <BP_ID>2</BP_ID>
+  <Flow_ID>23</Flow_ID>
+  <Step_ID>1</Step_ID>
+  <SchemaID_SubstepId>4</SchemaID_SubstepId>
+  <ID>5</ID>
+  <ExpressionID>8</ExpressionID>
+ </MapperExpressionID_TableComp>
+ <MapperExpressionID_TableComp>
+  <TransactionLevel>0</TransactionLevel>
+  <BP_ID>2</BP_ID>
+  <Flow_ID>23</Flow_ID>
+  <Step_ID>1</Step_ID>
+  <SchemaID_SubstepId>4</SchemaID_SubstepId>
+  <ID>6</ID>
+  <ExpressionID>9</ExpressionID>
+ </MapperExpressionID_TableComp>
+ <MapperExpressionID_TableComp>
+  <TransactionLevel>0</TransactionLevel>
+  <BP_ID>2</BP_ID>
+  <Flow_ID>23</Flow_ID>
+  <Step_ID>1</Step_ID>
+  <SchemaID_SubstepId>4</SchemaID_SubstepId>
+  <ID>7</ID>
+  <ExpressionID>9</ExpressionID>
+ </MapperExpressionID_TableComp>
+ <MapperExpressionID_TableComp>
+  <TransactionLevel>0</TransactionLevel>
+  <BP_ID>2</BP_ID>
+  <Flow_ID>23</Flow_ID>
+  <Step_ID>1</Step_ID>
+  <SchemaID_SubstepId>4</SchemaID_SubstepId>
+  <ID>8</ID>
+  <ExpressionID>10</ExpressionID>
+ </MapperExpressionID_TableComp>
+ </Struct_MapperExpressionID>
+
+</Flows>

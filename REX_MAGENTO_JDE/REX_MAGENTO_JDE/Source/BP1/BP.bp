@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<BP>
+  <ID>1</ID>
+  <Name>Magento JDE</Name>
+  <FlowsSortOrder>5,6</FlowsSortOrder>
+  <Properties>
+    <ID>1</ID>
+    <Order>0</Order>
+    <Name>Magento JDE</Name>
+  </Properties>
+</BP>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Flow>
+
+  <Properties>
+    <ID>4</ID>
+    <Order>2</Order>
+    <Name>MsmqTrigger</Name>
+    <isInactive>false</isInactive>
+    <isDisabled>false</isDisabled>
+    <isTwoPhase>false</isTwoPhase>
+    <isAutoStart>false</isAutoStart>
+    <MaxInstances>0</MaxInstances>
+    <isAutoRepeat>false</isAutoRepeat>
+    <TimeoutPolicy>6</TimeoutPolicy>
+    <TimeOutVal>0</TimeOutVal>
+    <RecoveryPolicy>6</RecoveryPolicy>
+  </Properties>
+
+  <DrawProperties>
+    <RootStepID>1</RootStepID>
+    <HasTrigger>true</HasTrigger>
+  </DrawProperties>
+
+  <Steps>
+    <row_Step>
+      <Properties>
+        <isGoTo>false</isGoTo>
+        <ParentStepID>0</ParentStepID>
+        <SortOrder>0</SortOrder>
+        <ID>1</ID>
+        <Name>Show OutPut</Name>
+        <IFCDefinition>6</IFCDefinition>
+        <ProcessMode>1</ProcessMode>
+        <isTwoPhase>false</isTwoPhase>
+        <isWait4Comp>false</isWait4Comp>
+        <isSavePoint>false</isSavePoint>
+        <CallLogicFlow>false</CallLogicFlow>
+        <isTrigger>false</isTrigger>
+      </Properties>
+      <LoggingInfo>
+        <Scope>0</Scope>
+      </LoggingInfo>
+      <iBoltService>
+        <SaveMSG>
+          <MSGString>
+            <ExpressionVal>PCMhJUAkPmdldFZhck5hbWUoMywne0FGOUY2QjE1LUE1MzEtNDY4NS1BMkRCLUM3QkNGNzU5MDk1NX0nLDAsMCk8IyElQCQ+</ExpressionVal>
+            <ExpectedType>A</ExpectedType>
+            <Direction>I</Direction>
+          </MSGString>
+          <MSGBLOB>
+            <ExpressionVal>PCMhJUAkPmdldFZhck5hbWUoMywne0FFMDM2QjczLTdDMzQtNEM0RC05MjJGLTFERjY4NzA4NkMwQn0nLDAsMCk8IyElQCQ+</ExpressionVal>
+            <ExpectedType>B</ExpectedType>
+            <Direction>I</Direction>
+          </MSGBLOB>
+          <BLOBExtn>txt</BLOBExtn>
+        </SaveMSG>
+      </iBoltService>
+    </row_Step>
+  </Steps>
+
+  <Triggers>
+    <row_Trigger>
+      <Properties>
+        <ID>1</ID>
+        <Name>Receives Message</Name>
+        <IFCDefinition>118</IFCDefinition>
+        <isTrigger>true</isTrigger>
+      </Properties>
+      <LoggingInfo>
+        <Scope>0</Scope>
+      </LoggingInfo>
+      <ResourceInfo>
+        <isDynamic>false</isDynamic>
+        <ResSerName>Resource Attached</ResSerName>
+      </ResourceInfo>
+      <ConfigInfo>
+        <InvokeComp>%ifclib%msmq\msmqifc.ecf</InvokeComp>
+        <ActivationBLOB>PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIiA/Pg0KPE1TTVE+DQoNCiAgPFF1ZXVlTmFtZUV4cD4NCiAgICA8RXhwcmVzc2lvblZhbD5QQ01oSlVBa1BtZGxkRlpoY2s1aGJXVW9NeXduZTBNeU1rRkJPREEyTFRkRU1ERXRORFV5UXkwNE4wRkZMVGMzTVRRMFJFTTFOekkwTm4wbkxEQXNNQ2s4SXlFbFFDUSs8L0V4cHJlc3Npb25WYWw+DQogICAgPEV4cGVjdGVkVHlwZT5BPC9FeHBlY3RlZFR5cGU+DQogICAgPERpcmVjdGlvbj5JPC9EaXJlY3Rpb24+DQogIDwvUXVldWVOYW1lRXhwPg0KDQogIDxUcmFuc2FjdGlvblF1ZXVlRXhwPg0KICAgIDxFeHByZXNzaW9uVmFsPkowNG48L0V4cHJlc3Npb25WYWw+DQogICAgPEV4cGVjdGVkVHlwZT5BPC9FeHBlY3RlZFR5cGU+DQogICAgPERpcmVjdGlvbj5JPC9EaXJlY3Rpb24+DQogIDwvVHJhbnNhY3Rpb25RdWV1ZUV4cD4NCg0KICA8TWVzc2FnZUlkZW50aWZpZXJFeHA+DQogICAgPEV4cHJlc3Npb25WYWw+TUE9PTwvRXhwcmVzc2lvblZhbD4NCiAgICA8RXhwZWN0ZWRUeXBlPk48L0V4cGVjdGVkVHlwZT4NCiAgICA8RGlyZWN0aW9uPkk8L0RpcmVjdGlvbj4NCiAgPC9NZXNzYWdlSWRlbnRpZmllckV4cD4NCg0KICA8UmVzdWx0WE1MRXhwPg0KICAgIDxFeHByZXNzaW9uVmFsPlBDTWhKVUFrUG1kbGRGWmhjazVoYldVb01pd25NREF3TURBd01EQXdNREF3TURBd01EQXdNREF3TURBd01EQXdNREF3TURBd01EQXdNREE0Snl3d0xEQXBQQ01oSlVBa1BnPT08L0V4cHJlc3Npb25WYWw+DQogICAgPEV4cGVjdGVkVHlwZT5CPC9FeHBlY3RlZFR5cGU+DQogICAgPERpcmVjdGlvbj5PPC9EaXJlY3Rpb24+DQogIDwvUmVzdWx0WE1MRXhwPg0KDQogIDxNZXNzYWdlQ29udGVudEV4cD4NCiAgICA8RXhwcmVzc2lvblZhbD5QQ01oSlVBa1BtZGxkRlpoY2s1aGJXVW9NeXduZTBGRk1ETTJRamN6TFRkRE16UXRORU0wUkMwNU1qSkdMVEZFUmpZNE56QTROa013UW4wbkxEQXNNQ2s4SXlFbFFDUSs8L0V4cHJlc3Npb25WYWw+DQogICAgPEV4cGVjdGVkVHlwZT5CPC9FeHBlY3RlZFR5cGU+DQogICAgPERpcmVjdGlvbj5PPC9EaXJlY3Rpb24+DQogIDwvTWVzc2FnZUNvbnRlbnRFeHA+DQoNCiAgPE1lc3NhZ2VUeXBlRXhwPg0KICAgIDxFeHByZXNzaW9uVmFsPlBDTWhKVUFrUG1kbGRGWmhjazVoYldVb015d25lMEZHT1VZMlFqRTFMVUUxTXpFdE5EWTROUzFCTWtSQ0xVTTNRa05HTnpVNU1EazFOWDBuTERBc01DazhJeUVsUUNRKzwvRXhwcmVzc2lvblZhbD4NCiAgICA8RXhwZWN0ZWRUeXBlPkE8L0V4cGVjdGVkVHlwZT4NCiAgICA8RGlyZWN0aW9uPk88L0RpcmVjdGlvbj4NCiAgPC9NZXNzYWdlVHlwZUV4cD4NCg0KICA8UmV0cnlJbnRlcnZhbEV4cD4NCiAgICA8RXhwcmVzc2lvblZhbD5NekE9PC9FeHByZXNzaW9uVmFsPg0KICAgIDxFeHBlY3RlZFR5cGU+TjwvRXhwZWN0ZWRUeXBlPg0KICAgIDxEaXJlY3Rpb24+STwvRGlyZWN0aW9uPg0KICA8L1JldHJ5SW50ZXJ2YWxFeHA+DQoNCiAgPFNoYXJlRXhwPg0KICAgIDxFeHByZXNzaW9uVmFsPkowRW48L0V4cHJlc3Npb25WYWw+DQogICAgPEV4cGVjdGVkVHlwZT5BPC9FeHBlY3RlZFR5cGU+DQogICAgPERpcmVjdGlvbj5JPC9EaXJlY3Rpb24+DQogIDwvU2hhcmVFeHA+DQoNCjwvTVNNUT4NCg==</ActivationBLOB>
+      </ConfigInfo>
+    </row_Trigger>
+  </Triggers>
+
+  <TextElements>
+    <row_Element>
+      <ID>1</ID>
+      <Description>The MSMQ Trigger receives any messages that have been sent.</Description>
+      <TextLocation>Left</TextLocation>
+      <Font>1</Font>
+      <Color>8454143</Color>
+      <BorderStyle>1</BorderStyle>
+    </row_Element>
+  </TextElements>
+
+</Flow>

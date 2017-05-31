@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Resource_Settings>
+  <Resource_Element>
+    <Main_Resource_ID>121</Main_Resource_ID>
+    <Main_Resource_Name>Web Services</Main_Resource_Name>
+    <Default_Resource>GetAvailableQuantity</Default_Resource>
+    <Main_Resource_Defintion>
+      <Resource_Type_ID>3</Resource_Type_ID>
+      <Resource_Type_Name>GetAvailableQuantity</Resource_Type_Name>
+      <Resource_Type_Description />
+      <Resource_Properties>
+        <ID>1</ID>
+        <Name>Web Service Provider</Name>
+        <ExpressionValue>SYSTINET</ExpressionValue>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>10</ID>
+        <Name>Fault data</Name>
+        <ExpressionValue />
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>11</ID>
+        <Name>UDDI Server</Name>
+        <ExpressionValue />
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>12</ID>
+        <Name>UDDI SelectedServer</Name>
+        <ExpressionValue />
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>2</ID>
+        <Name>Web Service Name</Name>
+        <ExpressionValue>GetAvailableQuantityFromJDE</ExpressionValue>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>3</ID>
+        <Name>Service Namespace</Name>
+        <ExpressionValue>com.magicsoftware.magicxpi.magicxpi</ExpressionValue>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>4</ID>
+        <Name>SOAP version</Name>
+        <ExpressionValue>1</ExpressionValue>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>5</ID>
+        <Name>Operation type</Name>
+        <ExpressionValue>2</ExpressionValue>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>6</ID>
+        <Name>Attachment type</Name>
+        <ExpressionValue>1</ExpressionValue>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>7</ID>
+        <Name>Service WSDL</Name>
+        <ExpressionValue />
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>8</ID>
+        <Name>Operations data</Name>
+        <ExpressionValue />
+        <ExpressionValueBlob>PD94bWwgdmVyc2lvbj0iMS4wIj8+DQo8T3BlcmF0aW9uc0RhdGEgeG1sbnM6eHNpPSJodHRwOi8vd3d3LnczLm9yZy8yMDAxL1hNTFNjaGVtYS1pbnN0YW5jZSIgeG1sbnM6eHNkPSJodHRwOi8vd3d3LnczLm9yZy8yMDAxL1hNTFNjaGVtYSI+DQogIDxPcGVyYXRpb24+DQogICAgPE9wZXJhdGlvbklEPjE8L09wZXJhdGlvbklEPg0KICAgIDxPcGVyYXRpb25OYW1lPkdldEF2YWlsYWJsZVF1YW50aXR5PC9PcGVyYXRpb25OYW1lPg0KICAgIDxSZXF1ZXN0U2VjdXJpdHk+TjwvUmVxdWVzdFNlY3VyaXR5Pg0KICAgIDxSZXNwb25zZVNlY3VyaXR5Pk48L1Jlc3BvbnNlU2VjdXJpdHk+DQogICAgPEFyZ3VtZW50Pg0KICAgICAgPElEPjE8L0lEPg0KICAgICAgPFR5cGU+MTwvVHlwZT4NCiAgICAgIDxOYW1lPkhlYWRlcl9JbjwvTmFtZT4NCiAgICAgIDxEaXJlY3Rpb24+MTwvRGlyZWN0aW9uPg0KICAgICAgPERhdGFUeXBlPkI8L0RhdGFUeXBlPg0KICAgICAgPFBpY3R1cmUgLz4NCiAgICAgIDxYU0RUeXBlIC8+DQogICAgICA8SXNEaXJ0eT50cnVlPC9Jc0RpcnR5Pg0KICAgIDwvQXJndW1lbnQ+DQogICAgPEFyZ3VtZW50Pg0KICAgICAgPElEPjI8L0lEPg0KICAgICAgPFR5cGU+MTwvVHlwZT4NCiAgICAgIDxOYW1lPkhlYWRlcl9PdXQ8L05hbWU+DQogICAgICA8RGlyZWN0aW9uPjI8L0RpcmVjdGlvbj4NCiAgICAgIDxEYXRhVHlwZT5CPC9EYXRhVHlwZT4NCiAgICAgIDxQaWN0dXJlIC8+DQogICAgICA8WFNEVHlwZSAvPg0KICAgICAgPElzRGlydHk+dHJ1ZTwvSXNEaXJ0eT4NCiAgICA8L0FyZ3VtZW50Pg0KICAgIDxBcmd1bWVudD4NCiAgICAgIDxJRD4zPC9JRD4NCiAgICAgIDxUeXBlPjQ8L1R5cGU+DQogICAgICA8TmFtZT5BdmFpbGFibGVRdWFudGl0eTwvTmFtZT4NCiAgICAgIDxEaXJlY3Rpb24+NDwvRGlyZWN0aW9uPg0KICAgICAgPERhdGFUeXBlPkE8L0RhdGFUeXBlPg0KICAgICAgPFBpY3R1cmU+MzA8L1BpY3R1cmU+DQogICAgICA8WFNEVHlwZT54c2Q6c3RyaW5nPC9YU0RUeXBlPg0KICAgICAgPElzRGlydHk+dHJ1ZTwvSXNEaXJ0eT4NCiAgICA8L0FyZ3VtZW50Pg0KICAgIDxBcmd1bWVudD4NCiAgICAgIDxJRD40PC9JRD4NCiAgICAgIDxUeXBlPjI8L1R5cGU+DQogICAgICA8TmFtZT5TS1U8L05hbWU+DQogICAgICA8RGlyZWN0aW9uPjE8L0RpcmVjdGlvbj4NCiAgICAgIDxEYXRhVHlwZT5BPC9EYXRhVHlwZT4NCiAgICAgIDxQaWN0dXJlPjMwPC9QaWN0dXJlPg0KICAgICAgPFhTRFR5cGU+eHNkOnN0cmluZzwvWFNEVHlwZT4NCiAgICAgIDxJc0RpcnR5PnRydWU8L0lzRGlydHk+DQogICAgPC9Bcmd1bWVudD4NCiAgICA8QXJndW1lbnQ+DQogICAgICA8SUQ+NTwvSUQ+DQogICAgICA8VHlwZT4yPC9UeXBlPg0KICAgICAgPE5hbWU+QnVzaW5lc3NVbml0PC9OYW1lPg0KICAgICAgPERpcmVjdGlvbj4xPC9EaXJlY3Rpb24+DQogICAgICA8RGF0YVR5cGU+QTwvRGF0YVR5cGU+DQogICAgICA8UGljdHVyZT4zMDwvUGljdHVyZT4NCiAgICAgIDxYU0RUeXBlPnhzZDpzdHJpbmc8L1hTRFR5cGU+DQogICAgICA8SXNEaXJ0eT50cnVlPC9Jc0RpcnR5Pg0KICAgIDwvQXJndW1lbnQ+DQogIDwvT3BlcmF0aW9uPg0KICA8T3BlcmF0aW9uPg0KICAgIDxPcGVyYXRpb25JRD4zPC9PcGVyYXRpb25JRD4NCiAgICA8T3BlcmF0aW9uTmFtZT5HZXRBdmFpbGFibGVRdWFudGl0eVhNTDwvT3BlcmF0aW9uTmFtZT4NCiAgICA8UmVxdWVzdFNlY3VyaXR5Pk48L1JlcXVlc3RTZWN1cml0eT4NCiAgICA8UmVzcG9uc2VTZWN1cml0eT5OPC9SZXNwb25zZVNlY3VyaXR5Pg0KICAgIDxBcmd1bWVudD4NCiAgICAgIDxJRD4xPC9JRD4NCiAgICAgIDxUeXBlPjE8L1R5cGU+DQogICAgICA8TmFtZT5IZWFkZXJfSW48L05hbWU+DQogICAgICA8RGlyZWN0aW9uPjE8L0RpcmVjdGlvbj4NCiAgICAgIDxEYXRhVHlwZT5CPC9EYXRhVHlwZT4NCiAgICAgIDxQaWN0dXJlIC8+DQogICAgICA8WFNEVHlwZSAvPg0KICAgICAgPElzRGlydHk+dHJ1ZTwvSXNEaXJ0eT4NCiAgICA8L0FyZ3VtZW50Pg0KICAgIDxBcmd1bWVudD4NCiAgICAgIDxJRD4yPC9JRD4NCiAgICAgIDxUeXBlPjE8L1R5cGU+DQogICAgICA8TmFtZT5IZWFkZXJfT3V0PC9OYW1lPg0KICAgICAgPERpcmVjdGlvbj4yPC9EaXJlY3Rpb24+DQogICAgICA8RGF0YVR5cGU+QjwvRGF0YVR5cGU+DQogICAgICA8UGljdHVyZSAvPg0KICAgICAgPFhTRFR5cGUgLz4NCiAgICAgIDxJc0RpcnR5PnRydWU8L0lzRGlydHk+DQogICAgPC9Bcmd1bWVudD4NCiAgICA8QXJndW1lbnQ+DQogICAgICA8SUQ+MzwvSUQ+DQogICAgICA8VHlwZT40PC9UeXBlPg0KICAgICAgPE5hbWU+QlNTVlJlc3BvbnNlPC9OYW1lPg0KICAgICAgPERpcmVjdGlvbj40PC9EaXJlY3Rpb24+DQogICAgICA8RGF0YVR5cGU+QjwvRGF0YVR5cGU+DQogICAgICA8UGljdHVyZSAvPg0KICAgICAgPFNjaGVtYT5DOlxVc2Vyc1xBZG1pbmlzdHJhdG9yXERvY3VtZW50c1xNYWdpY1xQcm9qZWN0c1xSRVhfTUFHRU5UT19KREVcUkVYX01BR0VOVE9fSkRFXFJlc291cmNlXEdldEF2YWlsYWJsZVF0eUZyb21KREVCU1NWXGh0dHBfX19vcmFjbGVfZTFfYnNzdl9KUDQxMDAwMF8ueHNkPC9TY2hlbWE+DQogICAgICA8WFNEVHlwZT5YTUwgRG9jdW1lbnQ8L1hTRFR5cGU+DQogICAgICA8Um9vdEVsZW1lbnQ+Z2V0SXRlbUF2YWlsYWJpbGl0eVJlc3BvbnNlPC9Sb290RWxlbWVudD4NCiAgICAgIDxOYW1lU3BhY2U+aHR0cDovL29yYWNsZS5lMS5ic3N2LkpQNDEwMDAwLzwvTmFtZVNwYWNlPg0KICAgICAgPElzRGlydHk+dHJ1ZTwvSXNEaXJ0eT4NCiAgICA8L0FyZ3VtZW50Pg0KICAgIDxBcmd1bWVudD4NCiAgICAgIDxJRD40PC9JRD4NCiAgICAgIDxUeXBlPjI8L1R5cGU+DQogICAgICA8TmFtZT5TS1U8L05hbWU+DQogICAgICA8RGlyZWN0aW9uPjE8L0RpcmVjdGlvbj4NCiAgICAgIDxEYXRhVHlwZT5BPC9EYXRhVHlwZT4NCiAgICAgIDxQaWN0dXJlPjMwPC9QaWN0dXJlPg0KICAgICAgPFhTRFR5cGU+eHNkOnN0cmluZzwvWFNEVHlwZT4NCiAgICAgIDxJc0RpcnR5PnRydWU8L0lzRGlydHk+DQogICAgPC9Bcmd1bWVudD4NCiAgICA8QXJndW1lbnQ+DQogICAgICA8SUQ+NTwvSUQ+DQogICAgICA8VHlwZT4yPC9UeXBlPg0KICAgICAgPE5hbWU+QXJndW1lbnQxPC9OYW1lPg0KICAgICAgPERpcmVjdGlvbj4xPC9EaXJlY3Rpb24+DQogICAgICA8RGF0YVR5cGU+QTwvRGF0YVR5cGU+DQogICAgICA8UGljdHVyZT4zMDwvUGljdHVyZT4NCiAgICAgIDxYU0RUeXBlPnhzZDpzdHJpbmc8L1hTRFR5cGU+DQogICAgICA8SXNEaXJ0eT50cnVlPC9Jc0RpcnR5Pg0KICAgIDwvQXJndW1lbnQ+DQogIDwvT3BlcmF0aW9uPg0KPC9PcGVyYXRpb25zRGF0YT4=</ExpressionValueBlob>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>9</ID>
+        <Name>Management data</Name>
+        <ExpressionValue />
+        <ExpressionValueBlob>PD94bWwgdmVyc2lvbj0iMS4wIj8+DQo8TWFuYWdlbWVudERhdGEgeG1sbnM6eHNpPSJodHRwOi8vd3d3LnczLm9yZy8yMDAxL1hNTFNjaGVtYS1pbnN0YW5jZSIgeG1sbnM6eHNkPSJodHRwOi8vd3d3LnczLm9yZy8yMDAxL1hNTFNjaGVtYSI+DQogIDxTZXJ2aWNlTmFtZT5HZXRBdmFpbGFibGVRdWFudGl0eUZyb21KREU8L1NlcnZpY2VOYW1lPg0KICA8U2VydmljZU5hbWVzcGFjZT5jb20ubWFnaWNzb2Z0d2FyZS5tYWdpY3hwaS5tYWdpY3hwaTwvU2VydmljZU5hbWVzcGFjZT4NCiAgPFVSTD5odHRwOi8vbG9jYWxob3N0OjYwNjAvR2V0QXZhaWxhYmxlUXVhbnRpdHlGcm9tSkRFLzwvVVJMPg0KICA8RW5kcG9pbnQ+aHR0cDovL2xvY2FsaG9zdDo2MDYwL0dldEF2YWlsYWJsZVF1YW50aXR5RnJvbUpERS88L0VuZHBvaW50Pg0KICA8RGVwbG95bWVudERhdGU+MjkvMTIvMjAxNjwvRGVwbG95bWVudERhdGU+DQo8L01hbmFnZW1lbnREYXRhPg==</ExpressionValueBlob>
+      </Resource_Properties>
+    </Main_Resource_Defintion>
+    <Main_Resource_Defintion>
+      <Resource_Type_ID>4</Resource_Type_ID>
+      <Resource_Type_Name>GetOrderStatus</Resource_Type_Name>
+      <Resource_Type_Description />
+      <Resource_Properties>
+        <ID>1</ID>
+        <Name>Web Service Provider</Name>
+        <ExpressionValue>SYSTINET</ExpressionValue>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>10</ID>
+        <Name>Fault data</Name>
+        <ExpressionValue />
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>11</ID>
+        <Name>UDDI Server</Name>
+        <ExpressionValue />
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>12</ID>
+        <Name>UDDI SelectedServer</Name>
+        <ExpressionValue />
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>2</ID>
+        <Name>Web Service Name</Name>
+        <ExpressionValue>GetOrderStatus</ExpressionValue>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>3</ID>
+        <Name>Service Namespace</Name>
+        <ExpressionValue>com.magicsoftware.magicxpi.magicxpi</ExpressionValue>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>4</ID>
+        <Name>SOAP version</Name>
+        <ExpressionValue>1</ExpressionValue>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>5</ID>
+        <Name>Operation type</Name>
+        <ExpressionValue>2</ExpressionValue>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>6</ID>
+        <Name>Attachment type</Name>
+        <ExpressionValue>1</ExpressionValue>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>7</ID>
+        <Name>Service WSDL</Name>
+        <ExpressionValue />
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>8</ID>
+        <Name>Operations data</Name>
+        <ExpressionValue />
+        <ExpressionValueBlob>PD94bWwgdmVyc2lvbj0iMS4wIj8+DQo8T3BlcmF0aW9uc0RhdGEgeG1sbnM6eHNpPSJodHRwOi8vd3d3LnczLm9yZy8yMDAxL1hNTFNjaGVtYS1pbnN0YW5jZSIgeG1sbnM6eHNkPSJodHRwOi8vd3d3LnczLm9yZy8yMDAxL1hNTFNjaGVtYSI+DQogIDxPcGVyYXRpb24+DQogICAgPE9wZXJhdGlvbklEPjE8L09wZXJhdGlvbklEPg0KICAgIDxPcGVyYXRpb25OYW1lPkdldE9yZGVyU3RhdHVzPC9PcGVyYXRpb25OYW1lPg0KICAgIDxSZXF1ZXN0U2VjdXJpdHk+TjwvUmVxdWVzdFNlY3VyaXR5Pg0KICAgIDxSZXNwb25zZVNlY3VyaXR5Pk48L1Jlc3BvbnNlU2VjdXJpdHk+DQogICAgPEFyZ3VtZW50Pg0KICAgICAgPElEPjE8L0lEPg0KICAgICAgPFR5cGU+MTwvVHlwZT4NCiAgICAgIDxOYW1lPkhlYWRlcl9JbjwvTmFtZT4NCiAgICAgIDxEaXJlY3Rpb24+MTwvRGlyZWN0aW9uPg0KICAgICAgPERhdGFUeXBlPkI8L0RhdGFUeXBlPg0KICAgICAgPFBpY3R1cmUgLz4NCiAgICAgIDxYU0RUeXBlIC8+DQogICAgICA8SXNEaXJ0eT50cnVlPC9Jc0RpcnR5Pg0KICAgIDwvQXJndW1lbnQ+DQogICAgPEFyZ3VtZW50Pg0KICAgICAgPElEPjI8L0lEPg0KICAgICAgPFR5cGU+MTwvVHlwZT4NCiAgICAgIDxOYW1lPkhlYWRlcl9PdXQ8L05hbWU+DQogICAgICA8RGlyZWN0aW9uPjI8L0RpcmVjdGlvbj4NCiAgICAgIDxEYXRhVHlwZT5CPC9EYXRhVHlwZT4NCiAgICAgIDxQaWN0dXJlIC8+DQogICAgICA8WFNEVHlwZSAvPg0KICAgICAgPElzRGlydHk+dHJ1ZTwvSXNEaXJ0eT4NCiAgICA8L0FyZ3VtZW50Pg0KICAgIDxBcmd1bWVudD4NCiAgICAgIDxJRD4zPC9JRD4NCiAgICAgIDxUeXBlPjQ8L1R5cGU+DQogICAgICA8TmFtZT5SZXR1cm4gVmFsPC9OYW1lPg0KICAgICAgPERpcmVjdGlvbj40PC9EaXJlY3Rpb24+DQogICAgICA8RGF0YVR5cGU+QjwvRGF0YVR5cGU+DQogICAgICA8UGljdHVyZSAvPg0KICAgICAgPFNjaGVtYT5DOlxVc2Vyc1xBZG1pbmlzdHJhdG9yXERvY3VtZW50c1xNYWdpY1xQcm9qZWN0c1xSRVhfTUFHRU5UT19KREVcUkVYX01BR0VOVE9fSkRFXEZpbGVzXHNjaGVtYXNcb3JkZXJTdGF0dXNSZXR1cm4ueHNkPC9TY2hlbWE+DQogICAgICA8WFNEVHlwZT5YTUwgRG9jdW1lbnQ8L1hTRFR5cGU+DQogICAgICA8Um9vdEVsZW1lbnQ+c2FsZXNPcmRlckluZm88L1Jvb3RFbGVtZW50Pg0KICAgICAgPE5hbWVTcGFjZT5odHRwOi8vc3lzdGluZXQuY29tL3dzZGwvY29tL21hZ2ljc29mdHdhcmUvbWFnaWN4cGkvbWFnaWN4cGkvSkRFLzwvTmFtZVNwYWNlPg0KICAgICAgPElzRGlydHk+dHJ1ZTwvSXNEaXJ0eT4NCiAgICA8L0FyZ3VtZW50Pg0KICAgIDxBcmd1bWVudD4NCiAgICAgIDxJRD40PC9JRD4NCiAgICAgIDxUeXBlPjI8L1R5cGU+DQogICAgICA8TmFtZT5PcmRlcklkPC9OYW1lPg0KICAgICAgPERpcmVjdGlvbj4xPC9EaXJlY3Rpb24+DQogICAgICA8RGF0YVR5cGU+QjwvRGF0YVR5cGU+DQogICAgICA8UGljdHVyZSAvPg0KICAgICAgPFNjaGVtYT5DOlxVc2Vyc1xBZG1pbmlzdHJhdG9yXERvY3VtZW50c1xNYWdpY1xQcm9qZWN0c1xSRVhfTUFHRU5UT19KREVcUkVYX01BR0VOVE9fSkRFXEZpbGVzXHNjaGVtYXNcb3JkZXJTdGF0dXNJbnB1dFNlcnZpY2UueHNkPC9TY2hlbWE+DQogICAgICA8WFNEVHlwZT5YTUwgRG9jdW1lbnQ8L1hTRFR5cGU+DQogICAgICA8Um9vdEVsZW1lbnQ+Z2V0T3JkZXJTdGF0dXM8L1Jvb3RFbGVtZW50Pg0KICAgICAgPE5hbWVTcGFjZT5odHRwOi8vc3lzdGluZXQuY29tL3dzZGwvY29tL21hZ2ljc29mdHdhcmUvbWFnaWN4cGkvbWFnaWN4cGkvSkRFLzwvTmFtZVNwYWNlPg0KICAgICAgPElzRGlydHk+dHJ1ZTwvSXNEaXJ0eT4NCiAgICA8L0FyZ3VtZW50Pg0KICA8L09wZXJhdGlvbj4NCjwvT3BlcmF0aW9uc0RhdGE+</ExpressionValueBlob>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>9</ID>
+        <Name>Management data</Name>
+        <ExpressionValue />
+        <ExpressionValueBlob>PD94bWwgdmVyc2lvbj0iMS4wIj8+DQo8TWFuYWdlbWVudERhdGEgeG1sbnM6eHNpPSJodHRwOi8vd3d3LnczLm9yZy8yMDAxL1hNTFNjaGVtYS1pbnN0YW5jZSIgeG1sbnM6eHNkPSJodHRwOi8vd3d3LnczLm9yZy8yMDAxL1hNTFNjaGVtYSI+DQogIDxTZXJ2aWNlTmFtZT5HZXRPcmRlclN0YXR1czwvU2VydmljZU5hbWU+DQogIDxTZXJ2aWNlTmFtZXNwYWNlPmNvbS5tYWdpY3NvZnR3YXJlLm1hZ2ljeHBpLm1hZ2ljeHBpPC9TZXJ2aWNlTmFtZXNwYWNlPg0KICA8VVJMPmh0dHA6Ly9sb2NhbGhvc3Q6NjA2MC9HZXRPcmRlclN0YXR1cy88L1VSTD4NCiAgPEVuZHBvaW50Pmh0dHA6Ly9sb2NhbGhvc3Q6NjA2MC9HZXRPcmRlclN0YXR1cy88L0VuZHBvaW50Pg0KICA8RGVwbG95bWVudERhdGU+MjkvMTIvMjAxNjwvRGVwbG95bWVudERhdGU+DQo8L01hbmFnZW1lbnREYXRhPg==</ExpressionValueBlob>
+      </Resource_Properties>
+    </Main_Resource_Defintion>
+  </Resource_Element>
+</Resource_Settings>

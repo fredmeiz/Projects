@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProjectData projectKey="c6c2343a-2905-4d52-9c0c-fa497d3cea88">
+  <BusinessProcess>
+    <ID>1</ID>
+    <Name>Business Process-1</Name>
+    <Flow>
+      <ID>2</ID>
+      <Name>HTTPTrigger_BSSV</Name>
+      <Step>
+        <ID>6</ID>
+        <Name>BAM Utility</Name>
+      </Step>
+      <Step>
+        <ID>12</ID>
+        <Name>Web Services</Name>
+      </Step>
+      <Step>
+        <ID>13</ID>
+        <Name>Data Mapper</Name>
+      </Step>
+      <Step>
+        <ID>16</ID>
+        <Name>File Management</Name>
+      </Step>
+      <Step>
+        <ID>24</ID>
+        <Name>Data Mapper</Name>
+      </Step>
+      <Trigger>
+        <ID>22</ID>
+        <Name>HTTP</Name>
+      </Trigger>
+      <Trigger>
+        <ID>26</ID>
+        <Name>HTTP</Name>
+      </Trigger>
+    </Flow>
+    <Flow>
+      <ID>3</ID>
+      <Name>BSFN+EMAIL</Name>
+      <Step>
+        <ID>6</ID>
+        <Name>BAM Utility</Name>
+      </Step>
+      <Step>
+        <ID>8</ID>
+        <Name>JD Edwards EnterpriseOne</Name>
+      </Step>
+      <Step>
+        <ID>9</ID>
+        <Name>File Management</Name>
+      </Step>
+      <Step>
+        <ID>11</ID>
+        <Name>Save Message</Name>
+      </Step>
+      <Step>
+        <ID>14</ID>
+        <Name>Data Mapper</Name>
+      </Step>
+      <Step>
+        <ID>15</ID>
+        <Name>Gmail</Name>
+      </Step>
+      <Trigger>
+        <ID>5</ID>
+        <Name>Directory Scanner</Name>
+      </Trigger>
+    </Flow>
+    <Flow>
+      <ID>4</ID>
+      <Name>WebserviceTrigger_BSSV</Name>
+      <Step>
+        <ID>6</ID>
+        <Name>BAM Utility</Name>
+      </Step>
+      <Step>
+        <ID>12</ID>
+        <Name>Web Services</Name>
+      </Step>
+      <Step>
+        <ID>13</ID>
+        <Name>Data Mapper</Name>
+      </Step>
+      <Step>
+        <ID>16</ID>
+        <Name>File Management</Name>
+      </Step>
+      <Step>
+        <ID>24</ID>
+        <Name>Data Mapper</Name>
+      </Step>
+      <Trigger>
+        <ID>39</ID>
+        <Name>Web Services</Name>
+      </Trigger>
+      <Trigger>
+        <ID>40</ID>
+        <Name>Web Services</Name>
+      </Trigger>
+    </Flow>
+    <Flow>
+      <ID>5</ID>
+      <Name>GetAvailableQuantity</Name>
+      <Step>
+        <ID>6</ID>
+        <Name>BAM Utility</Name>
+      </Step>
+      <Step>
+        <ID>13</ID>
+        <Name>Data Mapper</Name>
+      </Step>
+      <Step>
+        <ID>41</ID>
+        <Name>Web Services</Name>
+      </Step>
+      <Step>
+        <ID>42</ID>
+        <Name>Data Mapper</Name>
+      </Step>
+      <Trigger>
+        <ID>44</ID>
+        <Name>Web Services</Name>
+      </Trigger>
+      <Trigger>
+        <ID>47</ID>
+        <Name>Web Services</Name>
+      </Trigger>
+    </Flow>
+    <Flow>
+      <ID>1</ID>
+      <Name>BSFN_BSSV</Name>
+    </Flow>
+  </BusinessProcess>
+</ProjectData>

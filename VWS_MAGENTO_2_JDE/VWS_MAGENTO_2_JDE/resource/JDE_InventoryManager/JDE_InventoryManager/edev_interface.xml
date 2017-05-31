@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<EDEV_WS_CONSUMER ClassName="com_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager/InventoryManager" PortName="InventoryManagerPort" ServiceURI="http://oracle.e1.bssv.JP410000/" WsdlUrl="https://dveol8.oracleoutsourcing.com/DV910/InventoryManager?WSDL">
+
+  <Security>
+    <Level>2</Level>
+    <Type>1</Type>
+    <Timestamps>0</Timestamps>
+    <SignAlgo>0</SignAlgo>
+    <EncryptAlgo>0</EncryptAlgo>
+  </Security>
+
+  <OPERATION Name="getBranchPlantItem" Signature="(Lcom_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager/GetBranchPlantItem;)Lcom_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager/ShowBranchPlantItem;">
+    <Security>
+      <Scope>0</Scope>
+      <Request>
+        <AuthenticateWay>0</AuthenticateWay>
+      </Request>
+      <Response>
+        <AuthenticateWay>0</AuthenticateWay>
+      </Response>
+    </Security>
+    <Argument Name="getBranchPlantItem">
+      <Direction>IN</Direction>
+      <Attribute>A</Attribute>
+      <JavaDetails>
+        <SchemaFile>http___oracle_e1_bssv_JP410000_.xsd</SchemaFile>
+        <ArgNsURI>http://oracle.e1.bssv.JP410000/</ArgNsURI>
+        <JavaType>com_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager.GetBranchPlantItem</JavaType>
+      </JavaDetails>
+    </Argument>
+    <ReturnValue Name="getBranchPlantItemResponse">
+      <Attribute>A</Attribute>
+      <JavaDetails>
+        <SchemaFile>http___oracle_e1_bssv_JP410000_.xsd</SchemaFile>
+        <ArgNsURI>http://oracle.e1.bssv.JP410000/</ArgNsURI>
+        <JavaType>com_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager.ShowBranchPlantItem</JavaType>
+      </JavaDetails>
+    </ReturnValue>
+  </OPERATION>
+
+  <OPERATION Name="getBranchPlantItemV2" Signature="(Lcom_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager/GetBranchPlantItem;)Lcom_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager/ShowBranchPlantItemV2;">
+    <Security>
+      <Scope>0</Scope>
+      <Request>
+        <AuthenticateWay>0</AuthenticateWay>
+      </Request>
+      <Response>
+        <AuthenticateWay>0</AuthenticateWay>
+      </Response>
+    </Security>
+    <Argument Name="getBranchPlantItemV2">
+      <Direction>IN</Direction>
+      <Attribute>A</Attribute>
+      <JavaDetails>
+        <SchemaFile>http___oracle_e1_bssv_JP410000_.xsd</SchemaFile>
+        <ArgNsURI>http://oracle.e1.bssv.JP410000/</ArgNsURI>
+        <JavaType>com_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager.GetBranchPlantItem</JavaType>
+      </JavaDetails>
+    </Argument>
+    <ReturnValue Name="getBranchPlantItemV2Response">
+      <Attribute>A</Attribute>
+      <JavaDetails>
+        <SchemaFile>http___oracle_e1_bssv_JP410000_.xsd</SchemaFile>
+        <ArgNsURI>http://oracle.e1.bssv.JP410000/</ArgNsURI>
+        <JavaType>com_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager.ShowBranchPlantItemV2</JavaType>
+      </JavaDetails>
+    </ReturnValue>
+  </OPERATION>
+
+  <OPERATION Name="getCalculatedAvailability" Signature="(Lcom_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager/GetCalculatedAvailability;)Lcom_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager/ShowCalculatedAvailability;">
+    <Security>
+      <Scope>0</Scope>
+      <Request>
+        <AuthenticateWay>0</AuthenticateWay>
+      </Request>
+      <Response>
+        <AuthenticateWay>0</AuthenticateWay>
+      </Response>
+    </Security>
+    <Argument Name="getCalculatedAvailability">
+      <Direction>IN</Direction>
+      <Attribute>A</Attribute>
+      <JavaDetails>
+        <SchemaFile>http___oracle_e1_bssv_JP410000_.xsd</SchemaFile>
+        <ArgNsURI>http://oracle.e1.bssv.JP410000/</ArgNsURI>
+        <JavaType>com_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager.GetCalculatedAvailability</JavaType>
+      </JavaDetails>
+    </Argument>
+    <ReturnValue Name="getCalculatedAvailabilityResponse">
+      <Attribute>A</Attribute>
+      <JavaDetails>
+        <SchemaFile>http___oracle_e1_bssv_JP410000_.xsd</SchemaFile>
+        <ArgNsURI>http://oracle.e1.bssv.JP410000/</ArgNsURI>
+        <JavaType>com_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager.ShowCalculatedAvailability</JavaType>
+      </JavaDetails>
+    </ReturnValue>
+  </OPERATION>
+
+  <OPERATION Name="getItemAvailability" Signature="(Lcom_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager/GetItemAvailability;)Lcom_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager/ShowItemAvailability;">
+    <Security>
+      <Scope>0</Scope>
+      <Request>
+        <AuthenticateWay>0</AuthenticateWay>
+      </Request>
+      <Response>
+        <AuthenticateWay>0</AuthenticateWay>
+      </Response>
+    </Security>
+    <Argument Name="getItemAvailability">
+      <Direction>IN</Direction>
+      <Attribute>A</Attribute>
+      <JavaDetails>
+        <SchemaFile>http___oracle_e1_bssv_JP410000_.xsd</SchemaFile>
+        <ArgNsURI>http://oracle.e1.bssv.JP410000/</ArgNsURI>
+        <JavaType>com_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager.GetItemAvailability</JavaType>
+      </JavaDetails>
+    </Argument>
+    <ReturnValue Name="getItemAvailabilityResponse">
+      <Attribute>A</Attribute>
+      <JavaDetails>
+        <SchemaFile>http___oracle_e1_bssv_JP410000_.xsd</SchemaFile>
+        <ArgNsURI>http://oracle.e1.bssv.JP410000/</ArgNsURI>
+        <JavaType>com_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager.ShowItemAvailability</JavaType>
+      </JavaDetails>
+    </ReturnValue>
+  </OPERATION>
+
+  <OPERATION Name="getItemBranchSearch" Signature="(Lcom_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager/GetItemBranchSearch;)Lcom_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager/ShowItemBranchSearch;">
+    <Security>
+      <Scope>0</Scope>
+      <Request>
+        <AuthenticateWay>0</AuthenticateWay>
+      </Request>
+      <Response>
+        <AuthenticateWay>0</AuthenticateWay>
+      </Response>
+    </Security>
+    <Argument Name="getItemBranchSearch">
+      <Direction>IN</Direction>
+      <Attribute>A</Attribute>
+      <JavaDetails>
+        <SchemaFile>http___oracle_e1_bssv_JP410000_.xsd</SchemaFile>
+        <ArgNsURI>http://oracle.e1.bssv.JP410000/</ArgNsURI>
+        <JavaType>com_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager.GetItemBranchSearch</JavaType>
+      </JavaDetails>
+    </Argument>
+    <ReturnValue Name="getItemBranchSearchResponse">
+      <Attribute>A</Attribute>
+      <JavaDetails>
+        <SchemaFile>http___oracle_e1_bssv_JP410000_.xsd</SchemaFile>
+        <ArgNsURI>http://oracle.e1.bssv.JP410000/</ArgNsURI>
+        <JavaType>com_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager.ShowItemBranchSearch</JavaType>
+      </JavaDetails>
+    </ReturnValue>
+  </OPERATION>
+
+  <OPERATION Name="getItemPrice" Signature="(Lcom_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager/GetItemPrice;)Lcom_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager/ShowItemPrice;">
+    <Security>
+      <Scope>0</Scope>
+      <Request>
+        <AuthenticateWay>0</AuthenticateWay>
+      </Request>
+      <Response>
+        <AuthenticateWay>0</AuthenticateWay>
+      </Response>
+    </Security>
+    <Argument Name="getItemPrice">
+      <Direction>IN</Direction>
+      <Attribute>A</Attribute>
+      <JavaDetails>
+        <SchemaFile>http___oracle_e1_bssv_JP410000_.xsd</SchemaFile>
+        <ArgNsURI>http://oracle.e1.bssv.JP410000/</ArgNsURI>
+        <JavaType>com_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager.GetItemPrice</JavaType>
+      </JavaDetails>
+    </Argument>
+    <ReturnValue Name="getItemPriceResponse">
+      <Attribute>A</Attribute>
+      <JavaDetails>
+        <SchemaFile>http___oracle_e1_bssv_JP410000_.xsd</SchemaFile>
+        <ArgNsURI>http://oracle.e1.bssv.JP410000/</ArgNsURI>
+        <JavaType>com_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager.ShowItemPrice</JavaType>
+      </JavaDetails>
+    </ReturnValue>
+  </OPERATION>
+
+  <OPERATION Name="getItemSearch" Signature="(Lcom_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager/GetItemSearch;)Lcom_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager/ShowItemSearch;">
+    <Security>
+      <Scope>0</Scope>
+      <Request>
+        <AuthenticateWay>0</AuthenticateWay>
+      </Request>
+      <Response>
+        <AuthenticateWay>0</AuthenticateWay>
+      </Response>
+    </Security>
+    <Argument Name="getItemSearch">
+      <Direction>IN</Direction>
+      <Attribute>A</Attribute>
+      <JavaDetails>
+        <SchemaFile>http___oracle_e1_bssv_JP410000_.xsd</SchemaFile>
+        <ArgNsURI>http://oracle.e1.bssv.JP410000/</ArgNsURI>
+        <JavaType>com_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager.GetItemSearch</JavaType>
+      </JavaDetails>
+    </Argument>
+    <ReturnValue Name="getItemSearchResponse">
+      <Attribute>A</Attribute>
+      <JavaDetails>
+        <SchemaFile>http___oracle_e1_bssv_JP410000_.xsd</SchemaFile>
+        <ArgNsURI>http://oracle.e1.bssv.JP410000/</ArgNsURI>
+        <JavaType>com_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager.ShowItemSearch</JavaType>
+      </JavaDetails>
+    </ReturnValue>
+  </OPERATION>
+
+  <OPERATION Name="getSupplierCatalogPrice" Signature="(Lcom_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager/GetSupplierCatalogPrice;)Lcom_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager/ShowSupplierCatalogPrice;">
+    <Security>
+      <Scope>0</Scope>
+      <Request>
+        <AuthenticateWay>0</AuthenticateWay>
+      </Request>
+      <Response>
+        <AuthenticateWay>0</AuthenticateWay>
+      </Response>
+    </Security>
+    <Argument Name="getSupplierCatalogPrice">
+      <Direction>IN</Direction>
+      <Attribute>A</Attribute>
+      <JavaDetails>
+        <SchemaFile>http___oracle_e1_bssv_JP410000_.xsd</SchemaFile>
+        <ArgNsURI>http://oracle.e1.bssv.JP410000/</ArgNsURI>
+        <JavaType>com_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager.GetSupplierCatalogPrice</JavaType>
+      </JavaDetails>
+    </Argument>
+    <ReturnValue Name="getSupplierCatalogPriceResponse">
+      <Attribute>A</Attribute>
+      <JavaDetails>
+        <SchemaFile>http___oracle_e1_bssv_JP410000_.xsd</SchemaFile>
+        <ArgNsURI>http://oracle.e1.bssv.JP410000/</ArgNsURI>
+        <JavaType>com_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager.ShowSupplierCatalogPrice</JavaType>
+      </JavaDetails>
+    </ReturnValue>
+  </OPERATION>
+
+  <OPERATION Name="getSupplierCatalogPriceV2" Signature="(Lcom_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager/GetSupplierCatalogPriceV2;)Lcom_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager/ShowSupplierCatalogPriceV2;">
+    <Security>
+      <Scope>0</Scope>
+      <Request>
+        <AuthenticateWay>0</AuthenticateWay>
+      </Request>
+      <Response>
+        <AuthenticateWay>0</AuthenticateWay>
+      </Response>
+    </Security>
+    <Argument Name="getSupplierCatalogPriceV2">
+      <Direction>IN</Direction>
+      <Attribute>A</Attribute>
+      <JavaDetails>
+        <SchemaFile>http___oracle_e1_bssv_JP410000_.xsd</SchemaFile>
+        <ArgNsURI>http://oracle.e1.bssv.JP410000/</ArgNsURI>
+        <JavaType>com_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager.GetSupplierCatalogPriceV2</JavaType>
+      </JavaDetails>
+    </Argument>
+    <ReturnValue Name="getSupplierCatalogPriceV2Response">
+      <Attribute>A</Attribute>
+      <JavaDetails>
+        <SchemaFile>http___oracle_e1_bssv_JP410000_.xsd</SchemaFile>
+        <ArgNsURI>http://oracle.e1.bssv.JP410000/</ArgNsURI>
+        <JavaType>com_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager.ShowSupplierCatalogPriceV2</JavaType>
+      </JavaDetails>
+    </ReturnValue>
+  </OPERATION>
+
+  <OPERATION Name="insertInventoryItemStaging" Signature="([Lcom_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager/InsertInventoryItemStagingFields;)Lcom_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager/ConfirmInventoryItemStaging;">
+    <Security>
+      <Scope>0</Scope>
+      <Request>
+        <AuthenticateWay>0</AuthenticateWay>
+      </Request>
+      <Response>
+        <AuthenticateWay>0</AuthenticateWay>
+      </Response>
+    </Security>
+    <Argument Name="insertInventoryItemStaging">
+      <Direction>IN</Direction>
+      <Attribute>A</Attribute>
+      <JavaDetails>
+        <SchemaFile>http___oracle_e1_bssv_JP410000_.xsd</SchemaFile>
+        <ArgNsURI>http://oracle.e1.bssv.JP410000/</ArgNsURI>
+        <JavaType>[Lcom_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager.InsertInventoryItemStagingFields;</JavaType>
+      </JavaDetails>
+    </Argument>
+    <ReturnValue Name="insertInventoryItemStagingResponse">
+      <Attribute>A</Attribute>
+      <JavaDetails>
+        <SchemaFile>http___oracle_e1_bssv_JP410000_.xsd</SchemaFile>
+        <ArgNsURI>http://oracle.e1.bssv.JP410000/</ArgNsURI>
+        <JavaType>com_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager.ConfirmInventoryItemStaging</JavaType>
+      </JavaDetails>
+    </ReturnValue>
+  </OPERATION>
+
+  <OPERATION Name="insertInventoryItemStagingV2" Signature="([Lcom_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager/InsertInventoryItemStagingFieldsV2;)Lcom_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager/ConfirmInventoryItemStaging;">
+    <Security>
+      <Scope>0</Scope>
+      <Request>
+        <AuthenticateWay>0</AuthenticateWay>
+      </Request>
+      <Response>
+        <AuthenticateWay>0</AuthenticateWay>
+      </Response>
+    </Security>
+    <Argument Name="insertInventoryItemStagingV2">
+      <Direction>IN</Direction>
+      <Attribute>A</Attribute>
+      <JavaDetails>
+        <SchemaFile>http___oracle_e1_bssv_JP410000_.xsd</SchemaFile>
+        <ArgNsURI>http://oracle.e1.bssv.JP410000/</ArgNsURI>
+        <JavaType>[Lcom_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager.InsertInventoryItemStagingFieldsV2;</JavaType>
+      </JavaDetails>
+    </Argument>
+    <ReturnValue Name="insertInventoryItemStagingV2Response">
+      <Attribute>A</Attribute>
+      <JavaDetails>
+        <SchemaFile>http___oracle_e1_bssv_JP410000_.xsd</SchemaFile>
+        <ArgNsURI>http://oracle.e1.bssv.JP410000/</ArgNsURI>
+        <JavaType>com_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager.ConfirmInventoryItemStaging</JavaType>
+      </JavaDetails>
+    </ReturnValue>
+  </OPERATION>
+
+  <OPERATION Name="processInventoryItem" Signature="(Lcom_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager/ProcessInventoryItem;)Lcom_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager/ConfirmInventoryItem;">
+    <Security>
+      <Scope>0</Scope>
+      <Request>
+        <AuthenticateWay>0</AuthenticateWay>
+      </Request>
+      <Response>
+        <AuthenticateWay>0</AuthenticateWay>
+      </Response>
+    </Security>
+    <Argument Name="processInventoryItem">
+      <Direction>IN</Direction>
+      <Attribute>A</Attribute>
+      <JavaDetails>
+        <SchemaFile>http___oracle_e1_bssv_JP410000_.xsd</SchemaFile>
+        <ArgNsURI>http://oracle.e1.bssv.JP410000/</ArgNsURI>
+        <JavaType>com_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager.ProcessInventoryItem</JavaType>
+      </JavaDetails>
+    </Argument>
+    <ReturnValue Name="processInventoryItemResponse">
+      <Attribute>A</Attribute>
+      <JavaDetails>
+        <SchemaFile>http___oracle_e1_bssv_JP410000_.xsd</SchemaFile>
+        <ArgNsURI>http://oracle.e1.bssv.JP410000/</ArgNsURI>
+        <JavaType>com_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager.ConfirmInventoryItem</JavaType>
+      </JavaDetails>
+    </ReturnValue>
+  </OPERATION>
+
+  <OPERATION Name="processInventoryItemV2" Signature="(Lcom_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager/ProcessInventoryItemV2;)Lcom_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager/ConfirmInventoryItemV2;">
+    <Security>
+      <Scope>0</Scope>
+      <Request>
+        <AuthenticateWay>0</AuthenticateWay>
+      </Request>
+      <Response>
+        <AuthenticateWay>0</AuthenticateWay>
+      </Response>
+    </Security>
+    <Argument Name="processInventoryItemV2">
+      <Direction>IN</Direction>
+      <Attribute>A</Attribute>
+      <JavaDetails>
+        <SchemaFile>http___oracle_e1_bssv_JP410000_.xsd</SchemaFile>
+        <ArgNsURI>http://oracle.e1.bssv.JP410000/</ArgNsURI>
+        <JavaType>com_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager.ProcessInventoryItemV2</JavaType>
+      </JavaDetails>
+    </Argument>
+    <ReturnValue Name="processInventoryItemV2Response">
+      <Attribute>A</Attribute>
+      <JavaDetails>
+        <SchemaFile>http___oracle_e1_bssv_JP410000_.xsd</SchemaFile>
+        <ArgNsURI>http://oracle.e1.bssv.JP410000/</ArgNsURI>
+        <JavaType>com_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager.ConfirmInventoryItemV2</JavaType>
+      </JavaDetails>
+    </ReturnValue>
+  </OPERATION>
+
+  <OPERATION Name="processSupplierCatalogPrice" Signature="(Lcom_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager/ProcessSupplierCatalogPrice;)Lcom_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager/ConfirmProcessSupplierCatalogPrice;">
+    <Security>
+      <Scope>0</Scope>
+      <Request>
+        <AuthenticateWay>0</AuthenticateWay>
+      </Request>
+      <Response>
+        <AuthenticateWay>0</AuthenticateWay>
+      </Response>
+    </Security>
+    <Argument Name="processSupplierCatalogPrice">
+      <Direction>IN</Direction>
+      <Attribute>A</Attribute>
+      <JavaDetails>
+        <SchemaFile>http___oracle_e1_bssv_JP410000_.xsd</SchemaFile>
+        <ArgNsURI>http://oracle.e1.bssv.JP410000/</ArgNsURI>
+        <JavaType>com_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager.ProcessSupplierCatalogPrice</JavaType>
+      </JavaDetails>
+    </Argument>
+    <ReturnValue Name="processSupplierCatalogPriceResponse">
+      <Attribute>A</Attribute>
+      <JavaDetails>
+        <SchemaFile>http___oracle_e1_bssv_JP410000_.xsd</SchemaFile>
+        <ArgNsURI>http://oracle.e1.bssv.JP410000/</ArgNsURI>
+        <JavaType>com_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager.ConfirmProcessSupplierCatalogPrice</JavaType>
+      </JavaDetails>
+    </ReturnValue>
+  </OPERATION>
+
+  <OPERATION Name="processSupplierCatalogPriceV2" Signature="(Lcom_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager/ProcessSupplierCatalogPriceV2;)Lcom_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager/ConfirmProcessSupplierCatalogPriceV2;">
+    <Security>
+      <Scope>0</Scope>
+      <Request>
+        <AuthenticateWay>0</AuthenticateWay>
+      </Request>
+      <Response>
+        <AuthenticateWay>0</AuthenticateWay>
+      </Response>
+    </Security>
+    <Argument Name="processSupplierCatalogPriceV2">
+      <Direction>IN</Direction>
+      <Attribute>A</Attribute>
+      <JavaDetails>
+        <SchemaFile>http___oracle_e1_bssv_JP410000_.xsd</SchemaFile>
+        <ArgNsURI>http://oracle.e1.bssv.JP410000/</ArgNsURI>
+        <JavaType>com_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager.ProcessSupplierCatalogPriceV2</JavaType>
+      </JavaDetails>
+    </Argument>
+    <ReturnValue Name="processSupplierCatalogPriceV2Response">
+      <Attribute>A</Attribute>
+      <JavaDetails>
+        <SchemaFile>http___oracle_e1_bssv_JP410000_.xsd</SchemaFile>
+        <ArgNsURI>http://oracle.e1.bssv.JP410000/</ArgNsURI>
+        <JavaType>com_magicsoftware_edeveloper_WIN_KM0FR11E7UK_29032016_120003__JDE_InventoryManager.ConfirmProcessSupplierCatalogPriceV2</JavaType>
+      </JavaDetails>
+    </ReturnValue>
+  </OPERATION>
+
+</EDEV_WS_CONSUMER>

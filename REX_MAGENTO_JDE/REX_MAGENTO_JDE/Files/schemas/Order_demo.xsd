@@ -1,0 +1,39 @@
+<!-- edited with XMLSpy v2007 sp2 (http://www.altova.com) by Regev (private) -->
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<xsd:element name="Order" type="OrderType"/>
+	<xsd:complexType name="OrderType">
+		<xsd:sequence>
+			<xsd:element name="OrderNumber" type="xsd:integer" minOccurs="0"/>
+			<xsd:element name="OrderType" type="xsd:string" minOccurs="0"/>
+			<xsd:element name="Order_Total" type="xsd:decimal" minOccurs="0"/>
+			<xsd:element name="Currency" type="xsd:string" minOccurs="0"/>
+			<xsd:element name="Header" type="HeaderInfo"/>
+			<xsd:element name="items" type="Items"/>
+		</xsd:sequence>
+	</xsd:complexType>
+	<xsd:complexType name="HeaderInfo">
+		<xsd:sequence>
+			<xsd:element name="Company" type="xsd:string"/>
+			<xsd:element name="BusinessUnit" type="xsd:string"/>
+			<xsd:element name="SoldTo" type="xsd:string"/>
+		</xsd:sequence>
+		<xsd:attribute name="ShipTo">
+			<xsd:simpleType>
+				<xsd:restriction base="xsd:string"/>
+			</xsd:simpleType>
+		</xsd:attribute>
+	</xsd:complexType>
+	<xsd:complexType name="Items">
+		<xsd:sequence>
+			<xsd:element name="item" maxOccurs="unbounded">
+				<xsd:complexType>
+					<xsd:sequence>
+						<xsd:element name="ID" type="xsd:string"/>
+						<xsd:element name="Quantity" type="xsd:positiveInteger"/>
+						<xsd:element name="Price" type="xsd:decimal" minOccurs="0"/>
+					</xsd:sequence>
+				</xsd:complexType>
+			</xsd:element>
+		</xsd:sequence>
+	</xsd:complexType>
+</xsd:schema>

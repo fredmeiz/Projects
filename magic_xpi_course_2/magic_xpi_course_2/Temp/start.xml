@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Magicxpi_Startup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Projects>
+    <Project Name="magic_xpi_course_2" ProjectsDirPath="C:\Magic_xpi_4.5\Projects\magic_xpi_course_2\">
+      <Servers>
+        <Server host="WIN-OTFPSMPSITP" alternateHosts="">
+          <ProjectsDirPath>
+          </ProjectsDirPath>
+          <NumberOfWorkers>10</NumberOfWorkers>
+          <NumberOfInstances>1</NumberOfInstances>
+          <Triggers load="true">
+          </Triggers>
+          <Scheduler load="true" />
+          <AutoStart load="true" />
+        </Server>
+      </Servers>
+    </Project>
+  </Projects>
+</Magicxpi_Startup>

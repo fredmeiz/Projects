@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Struct_Servers>
+
+  <ServerComp>
+    <ID>1</ID>
+    <Name>Magic xpi Server</Name>
+    <Description>Default Magic xpi Server.</Description>
+    <Location/>
+    <ServerOpMode/>
+    <IboltPlatform/>
+    <Machine>1</Machine>
+    <SynchMSG>0</SynchMSG>
+    <srv_ini_file>Magic xpi Server1.ini</srv_ini_file>
+    <ServerType>P</ServerType>
+    <ODS_Server>0</ODS_Server>
+    <MSG_Server>0</MSG_Server>
+    <PSS_Server>0</PSS_Server>
+    <LCK_Server>0</LCK_Server>
+    <RCV_Server>0</RCV_Server>
+    <clear_ODS>1</clear_ODS>
+    <clear_PSS>1</clear_PSS>
+    <clearLock>1</clearLock>
+    <clear_RCV>1</clear_RCV>
+    <port_no.>0</port_no.>
+    <path_separator/>
+    <server_log_location/>
+    <max_concurrent_request>0</max_concurrent_request>
+    <date_format/>
+    <depl_HostName/>
+    <LoggingMsgStr>,1,3,4,5,9,14,15,50,</LoggingMsgStr>
+    <Resource_Name>Default Magic xpi Server</Resource_Name>
+    <Resource_Expressionid>1</Resource_Expressionid>
+  </ServerComp>
+
+  <ServerComp>
+    <ID>2</ID>
+    <Name>Magic xpi 4.1</Name>
+    <Description>Default iBOLT Server.</Description>
+    <Location/>
+    <ServerOpMode/>
+    <IboltPlatform/>
+    <Machine>1</Machine>
+    <SynchMSG>0</SynchMSG>
+    <srv_ini_file>Magic xpi 4.11.ini</srv_ini_file>
+    <ServerType>P</ServerType>
+    <ODS_Server>0</ODS_Server>
+    <MSG_Server>0</MSG_Server>
+    <PSS_Server>0</PSS_Server>
+    <LCK_Server>0</LCK_Server>
+    <RCV_Server>0</RCV_Server>
+    <clear_ODS>0</clear_ODS>
+    <clear_PSS>1</clear_PSS>
+    <clearLock>1</clearLock>
+    <clear_RCV>1</clear_RCV>
+    <port_no.>0</port_no.>
+    <path_separator/>
+    <server_log_location/>
+    <max_concurrent_request>0</max_concurrent_request>
+    <date_format/>
+    <depl_HostName/>
+    <LoggingMsgStr>,1,3,4,5,9,14,15,50,</LoggingMsgStr>
+    <Resource_Name>Default iBOLT Server</Resource_Name>
+    <Resource_Expressionid>7</Resource_Expressionid>
+  </ServerComp>
+
+  <Expression_Table_Struct>
+    <Expression_TableComp>
+      <Object_ID>30</Object_ID>
+      <BP_ID>0</BP_ID>
+      <Flow_ID>0</Flow_ID>
+      <StepTrigger_ID>0</StepTrigger_ID>
+      <Is_Trigger>0</Is_Trigger>
+      <SubStep_ID>0</SubStep_ID>
+      <MapperUpdate_ID>0</MapperUpdate_ID>
+      <Expression_ID>1</Expression_ID>
+      <Development_Expression>'Default Magic xpi Server'</Development_Expression>
+      <Deployment_Expression></Deployment_Expression>
+      <Expression_Return_Attribute>A</Expression_Return_Attribute>
+      <Range_String></Range_String>
+      <Direction_InOrOut>I</Direction_InOrOut>
+      <DeploymentGenerated>0</DeploymentGenerated>
+      <ExpressionPath></ExpressionPath>
+      <isCopyIndication>0</isCopyIndication>
+      <ElementVector></ElementVector>
+    </Expression_TableComp>
+    <Expression_TableComp>
+      <Object_ID>30</Object_ID>
+      <BP_ID>0</BP_ID>
+      <Flow_ID>0</Flow_ID>
+      <StepTrigger_ID>0</StepTrigger_ID>
+      <Is_Trigger>0</Is_Trigger>
+      <SubStep_ID>0</SubStep_ID>
+      <MapperUpdate_ID>0</MapperUpdate_ID>
+      <Expression_ID>7</Expression_ID>
+      <Development_Expression>'Default iBOLT Server'</Development_Expression>
+      <Deployment_Expression></Deployment_Expression>
+      <Expression_Return_Attribute>A</Expression_Return_Attribute>
+      <Range_String></Range_String>
+      <Direction_InOrOut>I</Direction_InOrOut>
+      <DeploymentGenerated>0</DeploymentGenerated>
+      <ExpressionPath></ExpressionPath>
+      <isCopyIndication>0</isCopyIndication>
+      <ElementVector></ElementVector>
+    </Expression_TableComp>
+  </Expression_Table_Struct>
+
+</Struct_Servers>

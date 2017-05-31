@@ -1,0 +1,5322 @@
+<HTML>
+<head>
+	<LINK rel="stylesheet" type="text/css" href="iBOLTPrint.css"
+</head>
+
+<body>
+
+<img src="MagicxpiStrip.jpg" height=150>
+
+<div>
+	<a href="#top"></a>
+	Project: <font size=2><b>VWS_MAGENTO_2_JDE </b></font>
+	&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;
+	<a href="ProjectProperties.html" target="contentFrame"> Properties </a>
+	&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;
+	<a href="#" onclick="javascript:window.print()"> Print </a>
+	<br> <hr> <br>
+
+	<a href="top2_Topology - 1.html"> Magento JDE </a> > HealthCheck <hr>
+</div>
+
+<div>
+	<a href="#properties"> Flow Properties </a> <br>
+	<a href="#graphical"> Graphical View </a> <br>
+	<table border=0 width=100%>
+			<tr><td> </td></tr>
+		
+			<tr><td>Flow Variables </td></tr>
+					<tr><td>&nbsp;&nbsp;&nbsp; <a href="#F.Fault"> F.Fault  </a> </td></tr>
+					<tr><td>&nbsp;&nbsp;&nbsp; <a href="#F.GetAuditInfo_OUT"> F.GetAuditInfo_OUT  </a> </td></tr>
+					<tr><td>&nbsp;&nbsp;&nbsp; <a href="#F.LastJDEOrderInfo"> F.LastJDEOrderInfo  </a> </td></tr>
+					<tr><td>&nbsp;&nbsp;&nbsp; <a href="#F.dbsize"> F.dbsize  </a> </td></tr>
+					<tr><td>&nbsp;&nbsp;&nbsp; <a href="#F.freeC"> F.freeC  </a> </td></tr>
+					<tr><td>&nbsp;&nbsp;&nbsp; <a href="#F.freeD"> F.freeD  </a> </td></tr>
+					<tr><td>&nbsp;&nbsp;&nbsp; <a href="#F.hostname"> F.hostname  </a> </td></tr>
+		
+			<tr><td>Flow Schedules </td></tr>
+		
+			<tr><td>&nbsp;&nbsp;&nbsp; <a href="#recheck"> recheck  </a> </td></tr>
+		
+			<tr><td>Triggers </td></tr>
+		
+			<tr><td>&nbsp;&nbsp;&nbsp; <a href="#Scheduler Service0"> Scheduler Service  </a> </td></tr>
+					<tr><td>&nbsp;&nbsp;&nbsp; <a href="#HTTP0"> HTTP  </a> </td></tr>
+		
+			<tr><td>Steps </td></tr>
+		
+			<tr><td>&nbsp;&nbsp;&nbsp; <a href="#Magento Login1"> Magento Login  </a> </td></tr>
+					<tr><td>&nbsp;&nbsp;&nbsp; <a href="#GetAuditInfo2"> GetAuditInfo  </a> </td></tr>
+					<tr><td>&nbsp;&nbsp;&nbsp; <a href="#appel Magento3"> appel Magento  </a> </td></tr>
+					<tr><td>&nbsp;&nbsp;&nbsp; <a href="#appel JDE5"> appel JDE  </a> </td></tr>
+					<tr><td>&nbsp;&nbsp;&nbsp; <a href="#Reponse JDE6"> Reponse JDE  </a> </td></tr>
+					<tr><td>&nbsp;&nbsp;&nbsp; <a href="#reponse HTML7"> reponse HTML  </a> </td></tr>
+					<tr><td>&nbsp;&nbsp;&nbsp; <a href="#write file9"> write file  </a> </td></tr>
+					<tr><td>&nbsp;&nbsp;&nbsp; <a href="#AWS get id10"> AWS get id  </a> </td></tr>
+					<tr><td>&nbsp;&nbsp;&nbsp; <a href="#Flow Data Service11"> Flow Data Service  </a> </td></tr>
+					<tr><td>&nbsp;&nbsp;&nbsp; <a href="#reponse AWS12"> reponse AWS  </a> </td></tr>
+					<tr><td>&nbsp;&nbsp;&nbsp; <a href="#file free c:13"> file free c:  </a> </td></tr>
+					<tr><td>&nbsp;&nbsp;&nbsp; <a href="#reponse bytes free14"> reponse bytes free  </a> </td></tr>
+					<tr><td>&nbsp;&nbsp;&nbsp; <a href="#Flow Data Service15"> Flow Data Service  </a> </td></tr>
+					<tr><td>&nbsp;&nbsp;&nbsp; <a href="#file free d:16"> file free d:  </a> </td></tr>
+					<tr><td>&nbsp;&nbsp;&nbsp; <a href="#reponse bytes free17"> reponse bytes free  </a> </td></tr>
+					<tr><td>&nbsp;&nbsp;&nbsp; <a href="#Flow Data Service18"> Flow Data Service  </a> </td></tr>
+					<tr><td>&nbsp;&nbsp;&nbsp; <a href="#query db size19"> query db size  </a> </td></tr>
+					<tr><td>&nbsp;&nbsp;&nbsp; <a href="#query order last info20"> query order last info  </a> </td></tr>
+				</table>
+	<br> <hr> <br>
+</div>
+
+
+<a name="properties"> <b><u> Flow Properties </u></b> </a>
+
+<table border=0 width=100%>
+	<tr class=head1> <th> General Properties </th> </tr>
+</table>
+
+<table border=0 width=100%>
+	<tr> <td Class="Caption"> Name: </td> <td> <font size=2>  HealthCheck &nbsp; </font> </td> </tr>
+	<tr> <td Class="Caption"> ID: </td> <td>   25 &nbsp; </td> </tr>
+	<tr> <td Class="Caption"> Description: </td> <td>  &nbsp; </td> </tr>
+	<tr> <td Class="Caption"> Flow Enable / Disable: </td> <td> Enabled &nbsp; </td> </tr>
+	<tr> <td Class="Caption"> Flow Active / Inactive: </td> <td> Inactive &nbsp; </td> </tr>
+	<tr> <td Class="Caption"> Auto Start: </td> <td> No &nbsp; </td> </tr>
+	<tr> <td Class="Caption"> Max Instances: </td> <td> Unlimited &nbsp; </td> </tr>
+	<tr> <td Class="Caption"> Auto Repeat: </td> <td> No &nbsp; </td> </tr>
+	<tr> <td Class="Caption"> Recovery Policy: </td> <td> None &nbsp; </td> </tr>
+	<tr> <td Class="Caption"> Timeout Policy: </td> <td> None &nbsp; </td> <td> Unlimited &nbsp; </td> </tr>
+	<tr> <td Class="Caption"> DB transaction:  </td> <td> No &nbsp; </td> 
+		<td> DB Name:  </td> <td>  &nbsp; </td> </tr>
+	
+	<tr> <th colspan=4> External </th> </tr>
+	<tr> <td Class="Caption"> Error Flow:  </td> <td>  &nbsp; </td> </tr>
+	<tr> <td Class="Caption"> Logic Flow:  </td> <td>  &nbsp; </td> </tr>
+	<tr> <td Class="Caption"> Cleanup Recovery Flow:  </td> <td>  &nbsp; </td> </tr>
+	<tr> <td Class="Caption"> Subscribe Name:  </td> <td>  &nbsp; </td> </tr>
+	<tr> <td Class="Caption"> Subscribe Once:  </td> <td> No &nbsp; </td> </tr>
+		
+	<tr> <th colspan=4> Enablement </th> </tr>
+	<tr> <td Class="Caption"> Activation Type:  </td> <td> Always &nbsp; </td> </tr>
+	<tr> <td Class="Caption"> Selected Option :  </td> <td>  &nbsp; </td> </tr>
+	<tr> <td Class="Caption"> Flow Enablement Dates:  </td> <td>  &nbsp; </td> </tr>
+	<tr> <td Class="Caption"> Flow Enablement Times:  </td> <td>  &nbsp; </td> </tr>
+
+</table>
+
+<div align=right><a href="#top">Return to Top</a> &nbsp;|&nbsp; <a href="#" onclick="javascript:window.print()">Print</a></div>
+
+
+<br><br>
+<!-- ====================== Page Break!	=============================== -->
+<p class="BreakPage"></p>		<!-- This command will make the printer breake a page -->
+<p>
+	<img src="MagicxpiStrip.jpg" height=150></p>
+	<p align=left>Project: <font size=2><b>VWS_MAGENTO_2_JDE </b></font> <br>	<!-- Then (in the new page) output the page header -->
+	<a href="top2_Topology - 1.html"> Magento JDE </a> > HealthCheck <br><br>
+</p>
+<!-- ====================== Page Break!	=============================== -->
+
+<a name="graphical"> <b><u> Graphical View </u></b> </a>
+	
+				<table border=0 cellpadding=0 cellspacing=0 width=1024>
+			<tr> <!-- This is a fictive tag: 1 -->
+							<td> <img src="flow25bp2jpeg1.jpg" width="341" height="341"> </td>
+							<td> <img src="flow25bp2jpeg2.jpg" width="341" height="341"> </td>
+			
+			</tr>
+		</table>
+			<table border=0 cellpadding=0 cellspacing=0 width=1024>
+			<tr> <!-- This is a fictive tag: 2 -->
+			
+				<td> <img src="flow25bp2jpeg3.jpg" width="341" height="341"> </td>
+							<td> <img src="flow25bp2jpeg4.jpg" width="341" height="341"> </td>
+			
+			</tr>
+		</table>
+			<table border=0 cellpadding=0 cellspacing=0 width=1024>
+			<tr> <!-- This is a fictive tag: 3 -->
+			
+				<td> <img src="flow25bp2jpeg5.jpg" width="341" height="341"> </td>
+							<td> <img src="flow25bp2jpeg6.jpg" width="341" height="341"> </td>
+						</tr>
+		</table>
+		<div align=right><a href="#top">Return to Top</a> &nbsp;|&nbsp; <a href="#" onclick="javascript:window.print()">Print</a></div>
+
+
+
+
+	<!-- ====================== Page Break!	=============================== -->
+	<p class="BreakPage"></p>		<!-- This command will make the printer breake a page -->
+	<p>
+		<img src="MagicxpiStrip.jpg" height=150></p>
+		<p align=left>Project: <font size=2><b>VWS_MAGENTO_2_JDE </b></font> <br>	<!-- Then (in the new page) output the page header -->
+		Magento JDE > HealthCheck <br><br>
+	</p>
+	<span> <b><u> Variables </u></b> </span> <br><br>
+	<!-- ====================== Page Break!	=============================== -->
+
+	
+	<a name="F.Fault">
+		<b> F.Fault </b>
+	</a>
+
+	<table border=0 width=100%>
+		<tr class=head1> <th> General Properties </th> </tr>
+	</table>
+
+	<table border=0 width=100%>
+		<tr> <td Class="Caption"> Description: </td> <td>  &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Type: </td> <td> Blob &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Length: </td> <td> 0 &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Default Value: </td> <td>  &nbsp; </td> </tr>
+	</table>
+	
+	<div align=right><a href="#top">Return to Top</a> &nbsp;|&nbsp; <a href="#" onclick="javascript:window.print()">Print</a></div>
+	<br>
+
+	
+	<a name="F.GetAuditInfo_OUT">
+		<b> F.GetAuditInfo_OUT </b>
+	</a>
+
+	<table border=0 width=100%>
+		<tr class=head1> <th> General Properties </th> </tr>
+	</table>
+
+	<table border=0 width=100%>
+		<tr> <td Class="Caption"> Description: </td> <td>  &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Type: </td> <td> Blob &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Length: </td> <td> 0 &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Default Value: </td> <td>  &nbsp; </td> </tr>
+	</table>
+	
+	<div align=right><a href="#top">Return to Top</a> &nbsp;|&nbsp; <a href="#" onclick="javascript:window.print()">Print</a></div>
+	<br>
+
+	
+	<a name="F.LastJDEOrderInfo">
+		<b> F.LastJDEOrderInfo </b>
+	</a>
+
+	<table border=0 width=100%>
+		<tr class=head1> <th> General Properties </th> </tr>
+	</table>
+
+	<table border=0 width=100%>
+		<tr> <td Class="Caption"> Description: </td> <td>  &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Type: </td> <td> Alpha &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Length: </td> <td> 300 &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Default Value: </td> <td>  &nbsp; </td> </tr>
+	</table>
+	
+	<div align=right><a href="#top">Return to Top</a> &nbsp;|&nbsp; <a href="#" onclick="javascript:window.print()">Print</a></div>
+	<br>
+
+	
+	<a name="F.dbsize">
+		<b> F.dbsize </b>
+	</a>
+
+	<table border=0 width=100%>
+		<tr class=head1> <th> General Properties </th> </tr>
+	</table>
+
+	<table border=0 width=100%>
+		<tr> <td Class="Caption"> Description: </td> <td>  &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Type: </td> <td> Alpha &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Length: </td> <td> 30 &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Default Value: </td> <td>  &nbsp; </td> </tr>
+	</table>
+	
+	<div align=right><a href="#top">Return to Top</a> &nbsp;|&nbsp; <a href="#" onclick="javascript:window.print()">Print</a></div>
+	<br>
+
+	
+	<a name="F.freeC">
+		<b> F.freeC </b>
+	</a>
+
+	<table border=0 width=100%>
+		<tr class=head1> <th> General Properties </th> </tr>
+	</table>
+
+	<table border=0 width=100%>
+		<tr> <td Class="Caption"> Description: </td> <td>  &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Type: </td> <td> Alpha &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Length: </td> <td> 200 &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Default Value: </td> <td>  &nbsp; </td> </tr>
+	</table>
+	
+	<div align=right><a href="#top">Return to Top</a> &nbsp;|&nbsp; <a href="#" onclick="javascript:window.print()">Print</a></div>
+	<br>
+
+			<!-- ====================== Page Break!	=============================== -->
+		<p class="BreakPage"></p>		<!-- This command will make the printer breake a page -->
+		<p>
+			<img src="MagicxpiStrip.jpg" height=150></p>
+			<p align=left>Project: <font size=2><b>VWS_MAGENTO_2_JDE </b></font> <br>	<!-- Then (in the new page) output the page header -->
+			Topology - 1 > HealthCheck <br><br>
+		</p>
+		<span> <b><u> Variables </u></b> </span> <br><br>
+		<!-- ====================== Page Break!	=============================== -->
+	
+	<a name="F.freeD">
+		<b> F.freeD </b>
+	</a>
+
+	<table border=0 width=100%>
+		<tr class=head1> <th> General Properties </th> </tr>
+	</table>
+
+	<table border=0 width=100%>
+		<tr> <td Class="Caption"> Description: </td> <td>  &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Type: </td> <td> Alpha &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Length: </td> <td> 200 &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Default Value: </td> <td>  &nbsp; </td> </tr>
+	</table>
+	
+	<div align=right><a href="#top">Return to Top</a> &nbsp;|&nbsp; <a href="#" onclick="javascript:window.print()">Print</a></div>
+	<br>
+
+	
+	<a name="F.hostname">
+		<b> F.hostname </b>
+	</a>
+
+	<table border=0 width=100%>
+		<tr class=head1> <th> General Properties </th> </tr>
+	</table>
+
+	<table border=0 width=100%>
+		<tr> <td Class="Caption"> Description: </td> <td>  &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Type: </td> <td> Alpha &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Length: </td> <td> 100 &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Default Value: </td> <td>  &nbsp; </td> </tr>
+	</table>
+	
+	<div align=right><a href="#top">Return to Top</a> &nbsp;|&nbsp; <a href="#" onclick="javascript:window.print()">Print</a></div>
+	<br>
+
+
+
+
+
+
+
+
+	<!-- ====================== Page Break!	=============================== -->
+	<p class="BreakPage"></p>		<!-- This command will make the printer breake a page -->
+	<p>
+		<img src="MagicxpiStrip.jpg" height=150></p>
+		<p align=left>Project: <font size=2><b>VWS_MAGENTO_2_JDE </b></font> <br>	<!-- Then (in the new page) output the page header -->
+		Magento JDE > HealthCheck <br><br>
+	</p>
+	<span> <b><u> Schedules </u></b> </span> <br><br>
+	<!-- ====================== Page Break!	=============================== -->
+	
+	<a name="recheck">
+		<b> recheck </b>
+	</a>
+
+	<table border=0 width=100%>
+		<tr class=head1> <th> General Properties </th> </tr>
+	</table>
+
+	<table border=0 width=100%>
+		<tr> <td Class="Caption"> Schedule Type: </td> <td> Interval &nbsp; </td> </tr>
+							<tr> <td Class="Caption"> Calculate Scheduler runtime at startup: </td> <td> Yes &nbsp; </td> </tr>
+							<tr> <td Class="Caption"> Days: </td> <td>   0 &nbsp; </td> </tr>
+				<tr> <td Class="Caption"> Hours: </td> <td>  0 &nbsp; </td> </tr>
+				<tr> <td Class="Caption"> Minutes: </td> <td>  1 &nbsp; </td> </tr>
+				<tr> <td Class="Caption"> Seconds: </td> <td>  0 &nbsp; </td> </tr>
+												</table>
+	
+	<div align=right><a href="#top">Return to Top</a> &nbsp;|&nbsp; <a href="#" onclick="javascript:window.print()">Print</a></div>
+	<br>
+
+	<!-- ====================== Page Break!	=============================== -->
+	<p class="BreakPage"></p>		<!-- This command will make the printer breake a page -->
+	<p>
+		<img src="MagicxpiStrip.jpg" height=150></p>
+		<p align=left>Project: <font size=2><b>VWS_MAGENTO_2_JDE </b></font> <br>	<!-- Then (in the new page) output the page header -->
+		Magento JDE > HealthCheck <br><br>
+	</p>
+	<span> <b><u> Steps </u></b> </span> <br><br>
+	<!-- ====================== Page Break!	=============================== -->
+	
+	<a name="Scheduler Service0">
+		<img src="icons\Schedual_Event.gif" width="32" height="32"> &nbsp;
+		<b> Scheduler Service </b>
+	</a>
+
+	<table border=0 width=100%>
+		<tr class=head1> <th> General Properties </th> </tr>
+	</table>
+
+		
+		
+		
+		
+		<!--If there are any Invoke Flow Arguments Defined-->
+				<!--End of Invoke Flow Aruments-->
+
+		
+		
+		
+		
+		
+		<!--Flow Data Service-->
+				<!--End of Flow Data Service-->
+
+		<!--Refresh Conversion Service-->
+				<!--End of Refresh Conversion Service-->
+
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+			<!--Trigger HTML Include Section-->
+			
+				<!--End of Trigger HTML Include Section-->
+
+			<!--SAP Method Interface - Intermediate Screen-->
+				<!--End of SAP Method Interface - Intermediate Screen-->
+
+			<!--SAP XML Interface - Intermediate Screen-->
+				<!--End of SAP XML Interface - Intermediate Screen-->
+
+
+			<!--SalesForce XML Interface - Intermediate Screen-->
+			<!--End of SaleseFroce XML Interface - Intermediate Screen-->
+		
+			<!--SAPR3 XML Interface - Intermediate Screen-->
+			<!--End of SAPR3 XML Interface - Intermediate Screen-->
+		
+		<!--SugarCRM XML Interface - Intermediate Screen-->
+			<!--End of SugarCRM XML Interface - Intermediate Screen-->
+		
+			<!--Method Interface-->
+	 		<!--Endif of MethodInterface-->
+		<!--End of Method Interface-->
+		
+		<!--Data Mapper Schema Record Properties-->
+			<!--End of Data Mapper Schema Record Properties-->
+
+	<div align=right><a href="#top">Return to Top</a> &nbsp;|&nbsp; <a href="#" onclick="javascript:window.print()">Print</a></div>
+			<!-- ====================== Page Break!	=============================== -->
+		<p class="BreakPage"></p>		<!-- This command will make the printer breake a page -->
+		<p>
+			<img src="MagicxpiStrip.jpg" height=150></p>
+			<p align=left>Project: <font size=2><b>VWS_MAGENTO_2_JDE </b></font> <br>	<!-- Then (in the new page) output the page header -->
+			Topology - 1 > HealthCheck <br><br>
+			<span> <b><u> Steps </u></b> </span> <br><br>
+		</p>
+		<!-- ====================== Page Break!	=============================== -->
+	
+	<a name="HTTP0">
+		<img src="icons\HTTPifc.gif" width="32" height="32"> &nbsp;
+		<b> HTTP </b>
+	</a>
+
+	<table border=0 width=100%>
+		<tr class=head1> <th> General Properties </th> </tr>
+	</table>
+
+				<table border=0 width=100%>
+		<!-- Genral Tab -->
+		<tr> <td Class="Caption"> ID: </td> <td> 2 &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Magic xpi Server: </td> <td>    1 Magic xpi 4.1 &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Description: </td> <td>  &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Processing Mode: </td> <td> Linear &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Wait for Completion: </td> <td> No &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Interface: </td> <td>  &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Condition: </td> <td>  &nbsp; </td> </tr>
+		</table>
+
+		<!-- Advanced Tab -->
+		<table border=0 width=100%>
+			<tr class=head1> <th> Advanced </th> </tr>
+		</table>
+
+		<table border=0 width=100%>
+		
+		<tr> <td Class="Caption"> Save Point: </td> <td> No &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Call Logic Flow: </td> <td> No &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Return XML Data: </td> <td> No &nbsp; </td> </tr>
+		</table>
+
+		<table border=0 width=100%>
+			<tr> <th colspan=2> Logging </th> </tr>
+		</table>
+
+		<table border=0 width=100%>
+		<tr> <td Class="Caption"> Logging Scope: </td> <td> No &nbsp; </td> </tr>
+				<tr> <td Class="Caption"> String Message: </td> <td>  &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> BLOB: </td> <td>  &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> File Extension: </td> <td>  &nbsp; </td> </tr>
+
+		<!-- Settings Tab -- All 2 new Tags -->
+		<table border=0 width=100%>
+			<tr> <th colspan=2> Settings </th> </tr>
+		</table>
+
+		<table border=0 width=100%>
+		<tr> <td Class="Caption"> Service / Resource Name: </td> <td> Health &nbsp; </td>
+					<td> Name:  </td> </tr>
+
+		<tr> <td Class="Caption"> Service / Resource Description: </td> <td>  &nbsp; </td> </tr>
+		</table>
+
+		
+		
+		
+		
+		<!--If there are any Invoke Flow Arguments Defined-->
+				<!--End of Invoke Flow Aruments-->
+
+		
+		
+		
+		
+		
+		<!--Flow Data Service-->
+				<!--End of Flow Data Service-->
+
+		<!--Refresh Conversion Service-->
+				<!--End of Refresh Conversion Service-->
+
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+			<!--Trigger HTML Include Section-->
+			<HTML>
+<head>
+	<LINK rel="stylesheet" type="text/css" href="iBOLTPrint.css"
+</head>
+
+<body>
+
+<!--Polling Triggers Configuration Section-->
+
+	
+<!--End of Polling Trigger Configuration Section-->
+
+<!--Extranal Triggers Configuration Section-->
+<!--COM - Configuration Section-->
+	<!--Ent of COM Configuration Section-->
+
+<!--EJB Configuration Section-->
+	<!--Ent of EJB Configuration Section-->
+
+<!--Web Service Configuration Section-->
+	<!--Ent of Web Service Configuration Section-->
+
+<!--HTTP Configuration Section-->
+		<table border=0 width=100%>
+		<tr class=head1> <th> Trigger Configuration  </th> </tr>
+	</table>
+
+				<table border=0 width=100%>
+			<tr> <td Class="Caption">Service Name: </td> <td> Health </td></tr>
+			<tr> <td Class="Caption">Endpoint Name: </td> <td> LoadBalancer </td></tr>
+		</table>
+
+			<br>
+			<table border=1 width=100%>
+			<tr class=head1> 
+				<td>Argument Name</td><td>Data Type</td><td>Format</td><td>Mandatory</td><td>Mapping Variable</td>
+			</tr>
+			</table>
+		
+		<table border=1 width=100%>
+				</table>
+
+		<br>
+		<table border=0 width=100%>
+			<tr> <td Class="Caption">Arguments XML location: </td> <td>  </td></tr>
+			<tr> <td Class="Caption">ReturnValue: </td> <td> C.HTTP_Body </td></tr>
+			<tr> <td Class="Caption">Validation Expression: </td> <td>  </td></tr>
+		</table>
+	<!--Ent of HTTP Configuration Section-->
+
+<!--Directory Scanner Configuration Section-->
+	<!--Ent of Directory Scanner-->
+
+
+<!--Domino Configuration Section-->
+	<!--Ent of Domino-->
+
+<!--JCC Configuration Section-->
+	<!--Ent of JCC-->
+
+<!--EJB Connector Configuration Section-->
+	<!--Ent of EJB Connector Configuration Section-->
+
+<!--Web Service Configuration Section (Step Area)-->
+	<!--Ent of Web Service (Step Area)-->
+
+<!--W4 Configuration Section-->
+	<!--End of W4 Configuration Section-->
+
+<!--SAP Configuration Section-->
+	<!--End of SAP Configuration Section-->
+
+<!--SAPR3 Configuration Section-->
+	<!--End of SAP R3 Configuration Section-->
+<!--SalesForce Trigger Configuration Section-->
+	<!--End of SalesForce Trigger Configuration Section-->
+<!--TCPListener - Configuration Section-->
+	
+<!--End of TCPListener Trigger Configuration Section-->
+
+<!--HL7 - Configuration Section-->
+	<!--SugarCRM Trigger Configuration Section-->
+	<!--End of SugarCRM Trigger Configuration Section-->
+
+</body>
+</html>
+				<!--End of Trigger HTML Include Section-->
+
+			<!--SAP Method Interface - Intermediate Screen-->
+				<!--End of SAP Method Interface - Intermediate Screen-->
+
+			<!--SAP XML Interface - Intermediate Screen-->
+				<!--End of SAP XML Interface - Intermediate Screen-->
+
+
+			<!--SalesForce XML Interface - Intermediate Screen-->
+			<!--End of SaleseFroce XML Interface - Intermediate Screen-->
+		
+			<!--SAPR3 XML Interface - Intermediate Screen-->
+			<!--End of SAPR3 XML Interface - Intermediate Screen-->
+		
+		<!--SugarCRM XML Interface - Intermediate Screen-->
+			<!--End of SugarCRM XML Interface - Intermediate Screen-->
+		
+			<!--Method Interface-->
+	 		<!--Endif of MethodInterface-->
+		<!--End of Method Interface-->
+		
+		<!--Data Mapper Schema Record Properties-->
+			<!--End of Data Mapper Schema Record Properties-->
+
+	<div align=right><a href="#top">Return to Top</a> &nbsp;|&nbsp; <a href="#" onclick="javascript:window.print()">Print</a></div>
+			<!-- ====================== Page Break!	=============================== -->
+		<p class="BreakPage"></p>		<!-- This command will make the printer breake a page -->
+		<p>
+			<img src="MagicxpiStrip.jpg" height=150></p>
+			<p align=left>Project: <font size=2><b>VWS_MAGENTO_2_JDE </b></font> <br>	<!-- Then (in the new page) output the page header -->
+			Topology - 1 > HealthCheck <br><br>
+			<span> <b><u> Steps </u></b> </span> <br><br>
+		</p>
+		<!-- ====================== Page Break!	=============================== -->
+	
+	<a name="Magento Login1">
+		<img src="icons\wsifc.gif" width="32" height="32"> &nbsp;
+		<b> Magento Login </b>
+	</a>
+
+	<table border=0 width=100%>
+		<tr class=head1> <th> General Properties </th> </tr>
+	</table>
+
+		
+		
+		
+		
+		<!--If there are any Invoke Flow Arguments Defined-->
+				<!--End of Invoke Flow Aruments-->
+
+		
+		
+		
+		
+		
+		<!--Flow Data Service-->
+				<!--End of Flow Data Service-->
+
+		<!--Refresh Conversion Service-->
+				<!--End of Refresh Conversion Service-->
+
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+				<table border=0 width=100%>
+			<tr> <td Class="Caption"> ID: </td> <td> 1 &nbsp; </td> </tr>
+			<tr> <td Class="Caption"> Description: </td> <td>  &nbsp; </td> </tr>
+			<tr> <td Class="Caption"> Processing Mode: </td> <td> Linear &nbsp; </td> </tr>
+			<tr> <td Class="Caption"> Wait for Completion: </td> <td> No &nbsp; </td> </tr>
+			<tr> <td Class="Caption"> Condition: </td> <td>  &nbsp; </td> </tr>
+			<tr> <td Class="Caption"> Save Point: </td> <td> No &nbsp; </td> </tr>
+			<tr> <td Class="Caption"> Magic xpi Server: </td> <td>    1 Magic xpi 4.1 &nbsp; </td> </tr>
+			<tr> <td Class="Caption"> Call Logic Flow: </td> <td> No &nbsp; </td> </tr>
+		</table>
+		
+		
+			<!--Trigger HTML Include Section-->
+			<HTML>
+<head>
+	<LINK rel="stylesheet" type="text/css" href="iBOLTPrint.css"
+</head>
+
+<body>
+
+<!--Polling Triggers Configuration Section-->
+
+	
+<!--End of Polling Trigger Configuration Section-->
+
+<!--Extranal Triggers Configuration Section-->
+<!--COM - Configuration Section-->
+	<!--Ent of COM Configuration Section-->
+
+<!--EJB Configuration Section-->
+	<!--Ent of EJB Configuration Section-->
+
+<!--Web Service Configuration Section-->
+	<!--Ent of Web Service Configuration Section-->
+
+<!--HTTP Configuration Section-->
+	<!--Ent of HTTP Configuration Section-->
+
+<!--Directory Scanner Configuration Section-->
+	<!--Ent of Directory Scanner-->
+
+
+<!--Domino Configuration Section-->
+	<!--Ent of Domino-->
+
+<!--JCC Configuration Section-->
+	<!--Ent of JCC-->
+
+<!--EJB Connector Configuration Section-->
+	<!--Ent of EJB Connector Configuration Section-->
+
+<!--Web Service Configuration Section (Step Area)-->
+		<table border=0 width=100%>
+		<tr class=head1> <th> WebService Consumer Details </th> </tr>
+	</table>
+			<!--Main Table Details-->
+					<table border=0 width=100%>
+				<tr> <td Class="Caption">Resource Name: </td> <td> testMagento </td></tr>
+				<tr> <td Class="Caption">Operation Name: </td> <td> login </td></tr>
+			</table>
+			
+			<br>
+			<table border=1 width=100%>
+			<tr class=head1> 
+				<td>Name</td><td>Type</td><td>Picture</td>
+				<td>Direction</td><td>Mapping Variable</td>
+			</tr>
+			</table>
+		
+		<table border=1 width=100%>
+						<tr class="MG_Odd_Row">
+			<td>username</td><td>Alpha</td><td>50</td>
+			<td>In</td><td>EnvVal ('magentoUser')</td>
+		</tr>
+				<tr class="MG_Even_Row">
+			<td>apiKey</td><td>Alpha</td><td>50</td>
+			<td>In</td><td>EnvVal ('magentoPassword')</td>
+		</tr>
+				<tr class="MG_Odd_Row">
+			<td>ReturnValue</td><td>Alpha</td><td>50</td>
+			<td>Return</td><td>C.Magento_sessionId</td>
+		</tr>
+						</table>
+
+		<table border=0 width=100%>
+			<tr> <td Class="Caption"> Fault: </td> <td> F.Fault </td></tr>
+		</table>
+		<br>
+			<!--End of Main Table Details-->
+
+			<!--Header Table Details-->
+		<table border=0 width=100%>
+			<tr class=head1> <th> Header Details </th> </tr>
+		</table>
+
+		<table border=1 width=100%>
+		<tr class=head1> 
+			<td>Name</td><td>Direction</td><td>Mapping Variable</td>
+		</tr>
+		</table>
+
+		<table border=1 width=100%>
+				</table>
+		<br>
+			<!--End of Header Table Details-->
+
+			<!--Attachment Table Details-->
+		<table border=0 width=100%>
+			<tr class=head1> <th> Attachment Details </th> </tr>
+		</table>
+
+		<table border=1 width=100%>
+		<tr class=head1> 
+			<td>Name</td><td>Direction</td><td>Mapping Variable</td>
+		</tr>
+		</table>
+
+		<table border=1 width=100%>
+				</table>
+		<br>
+			<!--End Attachment Table Details-->
+
+			<!--Identity Table Details-->
+		<table border=0 width=100%>
+			<tr class=head1> <th> Identity Details </th> </tr>
+		</table>
+
+		<table border=0 width=100%>
+			<tr> <td Class="Caption"> Identity: </td> <td>  </td></tr>
+			<tr> <td Class="Caption"> Identity Password: </td> <td>  </td></tr>
+		</table>
+			<!--End of Identity Table Details-->
+
+	<!--Ent of Web Service (Step Area)-->
+
+<!--W4 Configuration Section-->
+	<!--End of W4 Configuration Section-->
+
+<!--SAP Configuration Section-->
+	<!--End of SAP Configuration Section-->
+
+<!--SAPR3 Configuration Section-->
+	<!--End of SAP R3 Configuration Section-->
+<!--SalesForce Trigger Configuration Section-->
+	<!--End of SalesForce Trigger Configuration Section-->
+<!--TCPListener - Configuration Section-->
+	
+<!--End of TCPListener Trigger Configuration Section-->
+
+<!--HL7 - Configuration Section-->
+	<!--SugarCRM Trigger Configuration Section-->
+	<!--End of SugarCRM Trigger Configuration Section-->
+
+</body>
+</html>
+				<!--End of Trigger HTML Include Section-->
+
+			<!--SAP Method Interface - Intermediate Screen-->
+				<!--End of SAP Method Interface - Intermediate Screen-->
+
+			<!--SAP XML Interface - Intermediate Screen-->
+				<!--End of SAP XML Interface - Intermediate Screen-->
+
+
+			<!--SalesForce XML Interface - Intermediate Screen-->
+			<!--End of SaleseFroce XML Interface - Intermediate Screen-->
+		
+			<!--SAPR3 XML Interface - Intermediate Screen-->
+			<!--End of SAPR3 XML Interface - Intermediate Screen-->
+		
+		<!--SugarCRM XML Interface - Intermediate Screen-->
+			<!--End of SugarCRM XML Interface - Intermediate Screen-->
+		
+			<!--Method Interface-->
+	 		<!--Endif of MethodInterface-->
+		<!--End of Method Interface-->
+		
+		<!--Data Mapper Schema Record Properties-->
+			                             
+			<!--End of Data Mapper Schema Record Properties-->
+
+	<div align=right><a href="#top">Return to Top</a> &nbsp;|&nbsp; <a href="#" onclick="javascript:window.print()">Print</a></div>
+			<!-- ====================== Page Break!	=============================== -->
+		<p class="BreakPage"></p>		<!-- This command will make the printer breake a page -->
+		<p>
+			<img src="MagicxpiStrip.jpg" height=150></p>
+			<p align=left>Project: <font size=2><b>VWS_MAGENTO_2_JDE </b></font> <br>	<!-- Then (in the new page) output the page header -->
+			Topology - 1 > HealthCheck <br><br>
+			<span> <b><u> Steps </u></b> </span> <br><br>
+		</p>
+		<!-- ====================== Page Break!	=============================== -->
+	
+	<a name="GetAuditInfo2">
+		<img src="icons\jdeifc.gif" width="32" height="32"> &nbsp;
+		<b> GetAuditInfo </b>
+	</a>
+
+	<table border=0 width=100%>
+		<tr class=head1> <th> General Properties </th> </tr>
+	</table>
+
+				<table border=0 width=100%>
+		<!-- Genral Tab -->
+		<tr> <td Class="Caption"> ID: </td> <td> 2 &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Magic xpi Server: </td> <td>    1 Magic xpi 4.1 &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Description: </td> <td>  &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Processing Mode: </td> <td> Linear &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Wait for Completion: </td> <td> No &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Interface: </td> <td> XML &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Condition: </td> <td>  &nbsp; </td> </tr>
+		</table>
+
+		<!-- Advanced Tab -->
+		<table border=0 width=100%>
+			<tr class=head1> <th> Advanced </th> </tr>
+		</table>
+
+		<table border=0 width=100%>
+		
+		<tr> <td Class="Caption"> Save Point: </td> <td> No &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Call Logic Flow: </td> <td> No &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Return XML Data: </td> <td> No &nbsp; </td> </tr>
+		</table>
+
+		<table border=0 width=100%>
+			<tr> <th colspan=2> Logging </th> </tr>
+		</table>
+
+		<table border=0 width=100%>
+		<tr> <td Class="Caption"> Logging Scope: </td> <td> No &nbsp; </td> </tr>
+				<tr> <td Class="Caption"> Step Logging Options: </td> <td> Before &nbsp; </td> </tr>
+				<tr> <td Class="Caption"> String Message: </td> <td>  &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> BLOB: </td> <td>  &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> File Extension: </td> <td>  &nbsp; </td> </tr>
+
+		<!-- Settings Tab -- All 2 new Tags -->
+		<table border=0 width=100%>
+			<tr> <th colspan=2> Settings </th> </tr>
+		</table>
+
+		<table border=0 width=100%>
+		<tr> <td Class="Caption"> Service / Resource Name: </td> <td> VWS &nbsp; </td>
+					<td> Name:  </td> </tr>
+
+		<tr> <td Class="Caption"> Service / Resource Description: </td> <td>  &nbsp; </td> </tr>
+		</table>
+
+		
+		
+		
+		
+		<!--If there are any Invoke Flow Arguments Defined-->
+				<!--End of Invoke Flow Aruments-->
+
+		
+		
+		
+		
+		
+		<!--Flow Data Service-->
+				<!--End of Flow Data Service-->
+
+		<!--Refresh Conversion Service-->
+				<!--End of Refresh Conversion Service-->
+
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+			<!--Trigger HTML Include Section-->
+				<!--End of Trigger HTML Include Section-->
+
+			<!--SAP Method Interface - Intermediate Screen-->
+				<!--End of SAP Method Interface - Intermediate Screen-->
+
+			<!--SAP XML Interface - Intermediate Screen-->
+				<!--End of SAP XML Interface - Intermediate Screen-->
+
+
+			<!--SalesForce XML Interface - Intermediate Screen-->
+			<!--End of SaleseFroce XML Interface - Intermediate Screen-->
+		
+			<!--SAPR3 XML Interface - Intermediate Screen-->
+			<!--End of SAPR3 XML Interface - Intermediate Screen-->
+		
+		<!--SugarCRM XML Interface - Intermediate Screen-->
+			<!--End of SugarCRM XML Interface - Intermediate Screen-->
+		
+			<!--Method Interface-->
+	 		<!--Endif of MethodInterface-->
+		<!--End of Method Interface-->
+		
+		<!--Data Mapper Schema Record Properties-->
+			<HTML>
+<head>
+	<LINK rel="stylesheet" type="text/css" href="<!$MG_CSSPath>"
+</head>
+
+<body>
+		<!--XML Interface-->
+				<br>
+			<table border=0 width=100%>
+				<tr class=head1> <th> Source / Destination Management </th> </tr>
+			</table>
+			
+			<table border=0 width=100%>
+			<tr align=top>
+			
+			<td valign=top width=50%>
+				<table border=1>
+				<tr>
+					<td colspan=3 align=center><b> Source </b></td>
+				</tr>
+
+				<tr class=head1>
+					<td width=7%> ID </td> 
+					<td width=31%> Name </td> 
+					<td width=12%> Type </td>
+				</tr>
+
+									<tr>
+						<td width=7%> <!$MG_SourceID> </td>
+						<td width=31%> <a href="#<!$MG_SourceNameLink>"> <!$MG_SourceName> </a> </td>
+						<td width=12%> <!$MG_SourceType> </td>
+					</tr>
+								</table>
+			</td>
+			<td>&nbsp;</td>
+			<td valign=top width=50%>
+				<table border=1>
+				<tr>
+					<td colspan=3 align=center><b>Destination </b></td>
+				</tr>
+
+				<tr class=head1>
+					<td width=7%> ID </td> 
+					<td width=31%> Name </td> 
+					<td width=12%> Type </td>
+				</tr>
+									<tr>
+						<td width=7%>    1 </td>
+						<td width=31%> <a href="#IFC_JD_Edwards23"> IFC_JD_Edwards </a> </td>
+						<td width=12%> IFC Model </td>
+					</tr>
+								</table>
+			</td>
+			</div>
+			</tr>
+			</table>
+			<div align=right><a href="#top">Return to Top</a> &nbsp;|&nbsp; <a href="#" onclick="javascript:window.print()">Print</a></div>
+			<br>
+		<!--End of XML Interface-->
+
+	<!--Display Schema Details of each schema(Source/Destination)-->
+				<!--Mapper - Database(1) Properties Section-->
+					<!--End - Database Properties Section-->
+
+			<!--Mapper - Flat File(2) Properties Section -->
+					<!--End - Flat File Properties Section-->
+
+
+			<!--Mapper - XML(3) Properties Section-->
+					<!--End - XML Properties Section-->
+
+
+			<!--Mapper - IFC Model(4) Properties Section-->
+					<a name="IFC_JD_Edwards23"> </a>
+			<table border=0 width=100%>
+				<tr> <th> IFC_JD_Edwards - IFC Model - Properties </th> </tr>
+			</table>
+		
+			<table border=0 width=100%>
+			<tr>
+				<td Class="Caption"> Name: </td> <td> IFC_JD_Edwards </td>
+			</tr>
+			<tr>
+				<td Class="Caption"> Description: </td> <td>  </td>
+			</tr>
+			<tr>
+				<td Class="Caption"> Flow Component: </td> <td> JD Edwards </td>
+			</tr>
+			<tr>
+				<td Class="Caption"> Data Destination: </td> <td> Variable </td> 
+				<td> Name: C.UserXML  </td> 
+			</tr>
+			<tr>
+				<td Class="Caption"> XML Validation: </td> <td>No</td> 
+			</tr>
+			<tr>
+				<td Class="Caption"> Create Empty Alpha Node: </td> <td> No </td> 
+			</tr>
+							<tr>
+					<td Class="Caption"> Recursion Depth: </td> <td>    1 </td> 
+				</tr>
+			
+			</table>
+
+					<!--End - IFC Model(4) Properties Section-->
+
+			<!--Mapper - Flow Variable(5) Properties Section-->
+					<!--End - Flow Variable Properties Section-->
+
+			<!--Mapper - ODS(6) Properties Section-->
+					<!--End - ODS Properties Section-->
+
+			<!--Mapper - Call Flow(7) Properties Section-->
+					<!--End - Call Flow Properties Section-->
+
+
+			<!--Mapper - Template(8) Properties Section -->
+					<!--End - Template Properties Section-->
+
+			<!--Mapper - UDS(9) Properties Section-->
+					<!--End - UDS Properties Section-->
+		<!--End of displaying Schema Details of each schema(Source/Destination)-->
+
+	<!--Data Mapper Actual Mappings Section-->
+
+	
+	<!--End Data Mapper Mappings Screen-->
+
+</body>
+</html>
+			<!--End of Data Mapper Schema Record Properties-->
+
+	<div align=right><a href="#top">Return to Top</a> &nbsp;|&nbsp; <a href="#" onclick="javascript:window.print()">Print</a></div>
+			<!-- ====================== Page Break!	=============================== -->
+		<p class="BreakPage"></p>		<!-- This command will make the printer breake a page -->
+		<p>
+			<img src="MagicxpiStrip.jpg" height=150></p>
+			<p align=left>Project: <font size=2><b>VWS_MAGENTO_2_JDE </b></font> <br>	<!-- Then (in the new page) output the page header -->
+			Topology - 1 > HealthCheck <br><br>
+			<span> <b><u> Steps </u></b> </span> <br><br>
+		</p>
+		<!-- ====================== Page Break!	=============================== -->
+	
+	<a name="appel Magento3">
+		<img src="icons\Save_Message.gif" width="32" height="32"> &nbsp;
+		<b> appel Magento </b>
+	</a>
+
+	<table border=0 width=100%>
+		<tr class=head1> <th> General Properties </th> </tr>
+	</table>
+
+		
+		
+		
+		
+		<!--If there are any Invoke Flow Arguments Defined-->
+				<!--End of Invoke Flow Aruments-->
+
+		
+		
+		
+				<table border=0 width=100%>
+		<tr> <td Class="Caption"> ID: </td> <td> 3 &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Description: </td> <td>  &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Processing Mode: </td> <td> Linear &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Wait for Completion: </td> <td> No &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Condition: </td> <td>  &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Save Point: </td> <td> No &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Magic xpi Server: </td> <td>    1 Magic xpi 4.1 &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Call Logic Flow: </td> <td> No &nbsp; </td> </tr>
+
+		<tr> <td Class="Caption"> Message: </td> <td> 'reponse Magento ' &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Blob: </td> <td> C.Magento_sessionId &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> File Extension: </td> <td> txt &nbsp; </td> </tr>
+		</table>
+		
+		
+		<!--Flow Data Service-->
+				<!--End of Flow Data Service-->
+
+		<!--Refresh Conversion Service-->
+				<!--End of Refresh Conversion Service-->
+
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+			<!--Trigger HTML Include Section-->
+				<!--End of Trigger HTML Include Section-->
+
+			<!--SAP Method Interface - Intermediate Screen-->
+				<!--End of SAP Method Interface - Intermediate Screen-->
+
+			<!--SAP XML Interface - Intermediate Screen-->
+				<!--End of SAP XML Interface - Intermediate Screen-->
+
+
+			<!--SalesForce XML Interface - Intermediate Screen-->
+			<!--End of SaleseFroce XML Interface - Intermediate Screen-->
+		
+			<!--SAPR3 XML Interface - Intermediate Screen-->
+			<!--End of SAPR3 XML Interface - Intermediate Screen-->
+		
+		<!--SugarCRM XML Interface - Intermediate Screen-->
+			<!--End of SugarCRM XML Interface - Intermediate Screen-->
+		
+			<!--Method Interface-->
+	 		<!--Endif of MethodInterface-->
+		<!--End of Method Interface-->
+		
+		<!--Data Mapper Schema Record Properties-->
+			                             
+			<!--End of Data Mapper Schema Record Properties-->
+
+	<div align=right><a href="#top">Return to Top</a> &nbsp;|&nbsp; <a href="#" onclick="javascript:window.print()">Print</a></div>
+	
+	<a name="appel JDE5">
+		<img src="icons\Save_Message.gif" width="32" height="32"> &nbsp;
+		<b> appel JDE </b>
+	</a>
+
+	<table border=0 width=100%>
+		<tr class=head1> <th> General Properties </th> </tr>
+	</table>
+
+		
+		
+		
+		
+		<!--If there are any Invoke Flow Arguments Defined-->
+				<!--End of Invoke Flow Aruments-->
+
+		
+		
+		
+				<table border=0 width=100%>
+		<tr> <td Class="Caption"> ID: </td> <td> 5 &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Description: </td> <td>  &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Processing Mode: </td> <td> Linear &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Wait for Completion: </td> <td> No &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Condition: </td> <td>  &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Save Point: </td> <td> No &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Magic xpi Server: </td> <td>    1 Magic xpi 4.1 &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Call Logic Flow: </td> <td> No &nbsp; </td> </tr>
+
+		<tr> <td Class="Caption"> Message: </td> <td> 'Appel JDE' &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Blob: </td> <td> C.UserXML &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> File Extension: </td> <td> xml &nbsp; </td> </tr>
+		</table>
+		
+		
+		<!--Flow Data Service-->
+				<!--End of Flow Data Service-->
+
+		<!--Refresh Conversion Service-->
+				<!--End of Refresh Conversion Service-->
+
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+			<!--Trigger HTML Include Section-->
+				<!--End of Trigger HTML Include Section-->
+
+			<!--SAP Method Interface - Intermediate Screen-->
+				<!--End of SAP Method Interface - Intermediate Screen-->
+
+			<!--SAP XML Interface - Intermediate Screen-->
+				<!--End of SAP XML Interface - Intermediate Screen-->
+
+
+			<!--SalesForce XML Interface - Intermediate Screen-->
+			<!--End of SaleseFroce XML Interface - Intermediate Screen-->
+		
+			<!--SAPR3 XML Interface - Intermediate Screen-->
+			<!--End of SAPR3 XML Interface - Intermediate Screen-->
+		
+		<!--SugarCRM XML Interface - Intermediate Screen-->
+			<!--End of SugarCRM XML Interface - Intermediate Screen-->
+		
+			<!--Method Interface-->
+	 		<!--Endif of MethodInterface-->
+		<!--End of Method Interface-->
+		
+		<!--Data Mapper Schema Record Properties-->
+			                             
+			<!--End of Data Mapper Schema Record Properties-->
+
+	<div align=right><a href="#top">Return to Top</a> &nbsp;|&nbsp; <a href="#" onclick="javascript:window.print()">Print</a></div>
+	
+	<a name="Reponse JDE6">
+		<img src="icons\Save_Message.gif" width="32" height="32"> &nbsp;
+		<b> Reponse JDE </b>
+	</a>
+
+	<table border=0 width=100%>
+		<tr class=head1> <th> General Properties </th> </tr>
+	</table>
+
+		
+		
+		
+		
+		<!--If there are any Invoke Flow Arguments Defined-->
+				<!--End of Invoke Flow Aruments-->
+
+		
+		
+		
+				<table border=0 width=100%>
+		<tr> <td Class="Caption"> ID: </td> <td> 6 &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Description: </td> <td>  &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Processing Mode: </td> <td> Linear &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Wait for Completion: </td> <td> No &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Condition: </td> <td>  &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Save Point: </td> <td> No &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Magic xpi Server: </td> <td>    1 Magic xpi 4.1 &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Call Logic Flow: </td> <td> No &nbsp; </td> </tr>
+
+		<tr> <td Class="Caption"> Message: </td> <td> 'Reponse JDE' &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Blob: </td> <td> F.GetAuditInfo_OUT &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> File Extension: </td> <td> xml &nbsp; </td> </tr>
+		</table>
+		
+		
+		<!--Flow Data Service-->
+				<!--End of Flow Data Service-->
+
+		<!--Refresh Conversion Service-->
+				<!--End of Refresh Conversion Service-->
+
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+			<!--Trigger HTML Include Section-->
+				<!--End of Trigger HTML Include Section-->
+
+			<!--SAP Method Interface - Intermediate Screen-->
+				<!--End of SAP Method Interface - Intermediate Screen-->
+
+			<!--SAP XML Interface - Intermediate Screen-->
+				<!--End of SAP XML Interface - Intermediate Screen-->
+
+
+			<!--SalesForce XML Interface - Intermediate Screen-->
+			<!--End of SaleseFroce XML Interface - Intermediate Screen-->
+		
+			<!--SAPR3 XML Interface - Intermediate Screen-->
+			<!--End of SAPR3 XML Interface - Intermediate Screen-->
+		
+		<!--SugarCRM XML Interface - Intermediate Screen-->
+			<!--End of SugarCRM XML Interface - Intermediate Screen-->
+		
+			<!--Method Interface-->
+	 		<!--Endif of MethodInterface-->
+		<!--End of Method Interface-->
+		
+		<!--Data Mapper Schema Record Properties-->
+			                             
+			<!--End of Data Mapper Schema Record Properties-->
+
+	<div align=right><a href="#top">Return to Top</a> &nbsp;|&nbsp; <a href="#" onclick="javascript:window.print()">Print</a></div>
+			<!-- ====================== Page Break!	=============================== -->
+		<p class="BreakPage"></p>		<!-- This command will make the printer breake a page -->
+		<p>
+			<img src="MagicxpiStrip.jpg" height=150></p>
+			<p align=left>Project: <font size=2><b>VWS_MAGENTO_2_JDE </b></font> <br>	<!-- Then (in the new page) output the page header -->
+			Topology - 1 > HealthCheck <br><br>
+			<span> <b><u> Steps </u></b> </span> <br><br>
+		</p>
+		<!-- ====================== Page Break!	=============================== -->
+	
+	<a name="reponse HTML7">
+		<img src="icons\Data_Mapper.gif" width="32" height="32"> &nbsp;
+		<b> reponse HTML </b>
+	</a>
+
+	<table border=0 width=100%>
+		<tr class=head1> <th> General Properties </th> </tr>
+	</table>
+
+		
+		
+		
+		
+		<!--If there are any Invoke Flow Arguments Defined-->
+				<!--End of Invoke Flow Aruments-->
+
+		
+		
+		
+		
+				<table border=0 width=100%>
+		<tr> <td Class="Caption"> ID: </td> <td> 7 &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Description: </td> <td>  &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Processing Mode: </td> <td> Linear &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Wait for Completion: </td> <td> No &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Condition: </td> <td>  &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Save Point: </td> <td> No &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Error Behavior: </td> <td> Continue &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> DB Transaction Level: </td> <td> Mapper &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Magic xpi Server: </td> <td>    1 Magic xpi 4.1 &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Call Logic Flow: </td> <td> No &nbsp; </td> </tr>
+		</table>
+		
+		<!--Flow Data Service-->
+				<!--End of Flow Data Service-->
+
+		<!--Refresh Conversion Service-->
+				<!--End of Refresh Conversion Service-->
+
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+			<!--Trigger HTML Include Section-->
+				<!--End of Trigger HTML Include Section-->
+
+			<!--SAP Method Interface - Intermediate Screen-->
+				<!--End of SAP Method Interface - Intermediate Screen-->
+
+			<!--SAP XML Interface - Intermediate Screen-->
+				<!--End of SAP XML Interface - Intermediate Screen-->
+
+
+			<!--SalesForce XML Interface - Intermediate Screen-->
+			<!--End of SaleseFroce XML Interface - Intermediate Screen-->
+		
+			<!--SAPR3 XML Interface - Intermediate Screen-->
+			<!--End of SAPR3 XML Interface - Intermediate Screen-->
+		
+		<!--SugarCRM XML Interface - Intermediate Screen-->
+			<!--End of SugarCRM XML Interface - Intermediate Screen-->
+		
+			<!--Method Interface-->
+	 		<!--Endif of MethodInterface-->
+		<!--End of Method Interface-->
+		
+		<!--Data Mapper Schema Record Properties-->
+			<HTML>
+<head>
+	<LINK rel="stylesheet" type="text/css" href="<!$MG_CSSPath>"
+</head>
+
+<body>
+		<!--XML Interface-->
+				<br>
+			<table border=0 width=100%>
+				<tr class=head1> <th> Source / Destination Management </th> </tr>
+			</table>
+			
+			<table border=0 width=100%>
+			<tr align=top>
+			
+			<td valign=top width=50%>
+				<table border=1>
+				<tr>
+					<td colspan=3 align=center><b> Source </b></td>
+				</tr>
+
+				<tr class=head1>
+					<td width=7%> ID </td> 
+					<td width=31%> Name </td> 
+					<td width=12%> Type </td>
+				</tr>
+
+									<tr>
+						<td width=7%>    1 </td>
+						<td width=31%> <a href="#S173"> S1 </a> </td>
+						<td width=12%> Variables </td>
+					</tr>
+								</table>
+			</td>
+			<td>&nbsp;</td>
+			<td valign=top width=50%>
+				<table border=1>
+				<tr>
+					<td colspan=3 align=center><b>Destination </b></td>
+				</tr>
+
+				<tr class=head1>
+					<td width=7%> ID </td> 
+					<td width=31%> Name </td> 
+					<td width=12%> Type </td>
+				</tr>
+									<tr>
+						<td width=7%>    1 </td>
+						<td width=31%> <a href="#D174"> D1 </a> </td>
+						<td width=12%> Template </td>
+					</tr>
+								</table>
+			</td>
+			</div>
+			</tr>
+			</table>
+			<div align=right><a href="#top">Return to Top</a> &nbsp;|&nbsp; <a href="#" onclick="javascript:window.print()">Print</a></div>
+			<br>
+		<!--End of XML Interface-->
+
+	<!--Display Schema Details of each schema(Source/Destination)-->
+				<!--Mapper - Database(1) Properties Section-->
+					<!--End - Database Properties Section-->
+
+			<!--Mapper - Flat File(2) Properties Section -->
+					<!--End - Flat File Properties Section-->
+
+
+			<!--Mapper - XML(3) Properties Section-->
+					<!--End - XML Properties Section-->
+
+
+			<!--Mapper - IFC Model(4) Properties Section-->
+					<!--End - IFC Model(4) Properties Section-->
+
+			<!--Mapper - Flow Variable(5) Properties Section-->
+								<a name="S173"> </a>
+			<table border=0 width=100%>
+				<tr> <th> S1 - Variables - Properties </th> </tr>
+			</table>
+			<table border=0 width=100%>
+				<tr> <td Class="Caption"> Name: </td> <td> S1 </td> </tr>
+			</table>
+							
+			
+			
+					<!--End - Flow Variable Properties Section-->
+
+			<!--Mapper - ODS(6) Properties Section-->
+					<!--End - ODS Properties Section-->
+
+			<!--Mapper - Call Flow(7) Properties Section-->
+					<!--End - Call Flow Properties Section-->
+
+
+			<!--Mapper - Template(8) Properties Section -->
+					<!--End - Template Properties Section-->
+
+			<!--Mapper - UDS(9) Properties Section-->
+					<!--End - UDS Properties Section-->
+				<!--Mapper - Database(1) Properties Section-->
+					<!--End - Database Properties Section-->
+
+			<!--Mapper - Flat File(2) Properties Section -->
+					<!--End - Flat File Properties Section-->
+
+
+			<!--Mapper - XML(3) Properties Section-->
+					<!--End - XML Properties Section-->
+
+
+			<!--Mapper - IFC Model(4) Properties Section-->
+					<!--End - IFC Model(4) Properties Section-->
+
+			<!--Mapper - Flow Variable(5) Properties Section-->
+									
+									<table border=0 width=100%>
+				<tr> <td Class="Caption"> Variable Name: </td> <td> C.Magento_sessionId </td></tr>
+			</table>
+			
+			
+			
+					<!--End - Flow Variable Properties Section-->
+
+			<!--Mapper - ODS(6) Properties Section-->
+					<!--End - ODS Properties Section-->
+
+			<!--Mapper - Call Flow(7) Properties Section-->
+					<!--End - Call Flow Properties Section-->
+
+
+			<!--Mapper - Template(8) Properties Section -->
+					<!--End - Template Properties Section-->
+
+			<!--Mapper - UDS(9) Properties Section-->
+					<!--End - UDS Properties Section-->
+				<!--Mapper - Database(1) Properties Section-->
+					<!--End - Database Properties Section-->
+
+			<!--Mapper - Flat File(2) Properties Section -->
+					<!--End - Flat File Properties Section-->
+
+
+			<!--Mapper - XML(3) Properties Section-->
+					<!--End - XML Properties Section-->
+
+
+			<!--Mapper - IFC Model(4) Properties Section-->
+					<!--End - IFC Model(4) Properties Section-->
+
+			<!--Mapper - Flow Variable(5) Properties Section-->
+									
+						
+			<table border=0 width=100%>
+				<tr> <td Class="Caption"> Variable Name: </td> <td> F.GetAuditInfo_OUT </td></tr>
+			</table>
+			
+			
+			
+					<!--End - Flow Variable Properties Section-->
+
+			<!--Mapper - ODS(6) Properties Section-->
+					<!--End - ODS Properties Section-->
+
+			<!--Mapper - Call Flow(7) Properties Section-->
+					<!--End - Call Flow Properties Section-->
+
+
+			<!--Mapper - Template(8) Properties Section -->
+					<!--End - Template Properties Section-->
+
+			<!--Mapper - UDS(9) Properties Section-->
+					<!--End - UDS Properties Section-->
+				<!--Mapper - Database(1) Properties Section-->
+					<!--End - Database Properties Section-->
+
+			<!--Mapper - Flat File(2) Properties Section -->
+					<!--End - Flat File Properties Section-->
+
+
+			<!--Mapper - XML(3) Properties Section-->
+					<!--End - XML Properties Section-->
+
+
+			<!--Mapper - IFC Model(4) Properties Section-->
+					<!--End - IFC Model(4) Properties Section-->
+
+			<!--Mapper - Flow Variable(5) Properties Section-->
+									
+						
+			<table border=0 width=100%>
+				<tr> <td Class="Caption"> Variable Name: </td> <td> F.LastJDEOrderInfo </td></tr>
+			</table>
+			
+			
+			
+					<!--End - Flow Variable Properties Section-->
+
+			<!--Mapper - ODS(6) Properties Section-->
+					<!--End - ODS Properties Section-->
+
+			<!--Mapper - Call Flow(7) Properties Section-->
+					<!--End - Call Flow Properties Section-->
+
+
+			<!--Mapper - Template(8) Properties Section -->
+					<!--End - Template Properties Section-->
+
+			<!--Mapper - UDS(9) Properties Section-->
+					<!--End - UDS Properties Section-->
+				<!--Mapper - Database(1) Properties Section-->
+					<!--End - Database Properties Section-->
+
+			<!--Mapper - Flat File(2) Properties Section -->
+					<!--End - Flat File Properties Section-->
+
+
+			<!--Mapper - XML(3) Properties Section-->
+					<!--End - XML Properties Section-->
+
+
+			<!--Mapper - IFC Model(4) Properties Section-->
+					<!--End - IFC Model(4) Properties Section-->
+
+			<!--Mapper - Flow Variable(5) Properties Section-->
+									
+						
+			<table border=0 width=100%>
+				<tr> <td Class="Caption"> Variable Name: </td> <td> F.dbsize </td></tr>
+			</table>
+			
+			
+			
+					<!--End - Flow Variable Properties Section-->
+
+			<!--Mapper - ODS(6) Properties Section-->
+					<!--End - ODS Properties Section-->
+
+			<!--Mapper - Call Flow(7) Properties Section-->
+					<!--End - Call Flow Properties Section-->
+
+
+			<!--Mapper - Template(8) Properties Section -->
+					<!--End - Template Properties Section-->
+
+			<!--Mapper - UDS(9) Properties Section-->
+					<!--End - UDS Properties Section-->
+				<!--Mapper - Database(1) Properties Section-->
+					<!--End - Database Properties Section-->
+
+			<!--Mapper - Flat File(2) Properties Section -->
+					<!--End - Flat File Properties Section-->
+
+
+			<!--Mapper - XML(3) Properties Section-->
+					<!--End - XML Properties Section-->
+
+
+			<!--Mapper - IFC Model(4) Properties Section-->
+					<!--End - IFC Model(4) Properties Section-->
+
+			<!--Mapper - Flow Variable(5) Properties Section-->
+									
+						
+			<table border=0 width=100%>
+				<tr> <td Class="Caption"> Variable Name: </td> <td> F.freeC </td></tr>
+			</table>
+			
+			
+			
+					<!--End - Flow Variable Properties Section-->
+
+			<!--Mapper - ODS(6) Properties Section-->
+					<!--End - ODS Properties Section-->
+
+			<!--Mapper - Call Flow(7) Properties Section-->
+					<!--End - Call Flow Properties Section-->
+
+
+			<!--Mapper - Template(8) Properties Section -->
+					<!--End - Template Properties Section-->
+
+			<!--Mapper - UDS(9) Properties Section-->
+					<!--End - UDS Properties Section-->
+				<!--Mapper - Database(1) Properties Section-->
+					<!--End - Database Properties Section-->
+
+			<!--Mapper - Flat File(2) Properties Section -->
+					<!--End - Flat File Properties Section-->
+
+
+			<!--Mapper - XML(3) Properties Section-->
+					<!--End - XML Properties Section-->
+
+
+			<!--Mapper - IFC Model(4) Properties Section-->
+					<!--End - IFC Model(4) Properties Section-->
+
+			<!--Mapper - Flow Variable(5) Properties Section-->
+									
+						
+			<table border=0 width=100%>
+				<tr> <td Class="Caption"> Variable Name: </td> <td> F.freeD </td></tr>
+			</table>
+			
+			
+			
+					<!--End - Flow Variable Properties Section-->
+
+			<!--Mapper - ODS(6) Properties Section-->
+					<!--End - ODS Properties Section-->
+
+			<!--Mapper - Call Flow(7) Properties Section-->
+					<!--End - Call Flow Properties Section-->
+
+
+			<!--Mapper - Template(8) Properties Section -->
+					<!--End - Template Properties Section-->
+
+			<!--Mapper - UDS(9) Properties Section-->
+					<!--End - UDS Properties Section-->
+				<!--Mapper - Database(1) Properties Section-->
+					<!--End - Database Properties Section-->
+
+			<!--Mapper - Flat File(2) Properties Section -->
+					<!--End - Flat File Properties Section-->
+
+
+			<!--Mapper - XML(3) Properties Section-->
+					<!--End - XML Properties Section-->
+
+
+			<!--Mapper - IFC Model(4) Properties Section-->
+					<!--End - IFC Model(4) Properties Section-->
+
+			<!--Mapper - Flow Variable(5) Properties Section-->
+									
+						
+			<table border=0 width=100%>
+				<tr> <td Class="Caption"> Variable Name: </td> <td> F.hostname </td></tr>
+			</table>
+						
+							<div align=right><a href="#top">Return to Top</a> &nbsp;|&nbsp; <a href="#" onclick="javascript:window.print()">Print</a></div>
+				<br>
+			
+					<!--End - Flow Variable Properties Section-->
+
+			<!--Mapper - ODS(6) Properties Section-->
+					<!--End - ODS Properties Section-->
+
+			<!--Mapper - Call Flow(7) Properties Section-->
+					<!--End - Call Flow Properties Section-->
+
+
+			<!--Mapper - Template(8) Properties Section -->
+					<!--End - Template Properties Section-->
+
+			<!--Mapper - UDS(9) Properties Section-->
+					<!--End - UDS Properties Section-->
+				<!--Mapper - Database(1) Properties Section-->
+					<!--End - Database Properties Section-->
+
+			<!--Mapper - Flat File(2) Properties Section -->
+					<!--End - Flat File Properties Section-->
+
+
+			<!--Mapper - XML(3) Properties Section-->
+					<!--End - XML Properties Section-->
+
+
+			<!--Mapper - IFC Model(4) Properties Section-->
+					<!--End - IFC Model(4) Properties Section-->
+
+			<!--Mapper - Flow Variable(5) Properties Section-->
+					<!--End - Flow Variable Properties Section-->
+
+			<!--Mapper - ODS(6) Properties Section-->
+					<!--End - ODS Properties Section-->
+
+			<!--Mapper - Call Flow(7) Properties Section-->
+					<!--End - Call Flow Properties Section-->
+
+
+			<!--Mapper - Template(8) Properties Section -->
+					<a name="D174"> </a>
+			<table border=0 width=100%>
+				<tr> <th> D1 - Template - Properties </th> </tr>
+			</table>
+		
+			<table border=0 width=100%>
+			<tr>
+				<td Class="Caption"> Name: </td> <td> D1 </td>
+			</tr>
+			<tr> 
+				<td Class="Caption"> Description: </td> <td>  </td> 
+			</tr>
+			<tr>
+				<td Class="Caption"> Template File: </td> <td> document\healthCheck.tpl </td>
+			</tr>
+			<tr>
+				<td Class="Caption"> Data Destination: </td> <td> Variable </td> 
+				<td> Name: C.HTTP_Body </td> 
+			</tr>
+			<tr>
+				<td Class="Caption"> Append Data: </td> <td> No </td> 
+			</tr>
+			</table>
+
+			<div align=right><a href="#top">Return to Top</a> &nbsp;|&nbsp; <a href="#" onclick="javascript:window.print()">Print</a></div>
+			<br>
+					<!--End - Template Properties Section-->
+
+			<!--Mapper - UDS(9) Properties Section-->
+					<!--End - UDS Properties Section-->
+		<!--End of displaying Schema Details of each schema(Source/Destination)-->
+
+	<!--Data Mapper Actual Mappings Section-->
+
+			<table border=0 width=100%>
+			<tr> <th> Data Mappings </th> </tr>
+		</table>
+					<table border=0 width=100%>  
+			<tr align=top>
+			
+			<td valign=top align=center width=50%>
+								
+					<b> Source S1 </b>
+				
+				
+							</td>
+
+			<td>&nbsp;</td>
+
+			<td valign=top align=center width=50%>
+								
+					<b> Destination D1 </b>
+				
+				
+							</div>
+			</tr>
+			</table>
+					<table border=0 width=100%>  
+			<tr align=top>
+			
+			<td valign=top align=center width=50%>
+				
+								<table width=100% border=1>
+									<tr>
+						<td colspan=2 align=center><b> S1.Instance </b></td>
+					</tr>
+
+					<tr class=head1>
+						<td width=50%> <b> Properties </b></td> <td width=50%><b> Values </b></td>
+					</tr>
+
+					<tr>
+						<td width=50%> Node Type </td> <td width=50%> Compound </td>
+					</tr>
+					<tr>
+						<td width=50%> Path </td> <td width=50%> Source/S3/Instance </td>
+					</tr>
+					<tr>
+						<td width=50%> Data Type </td> <td width=50%>  </td>
+					</tr>
+					<tr>
+						<td width=50%> String Date </td> <td width=50%> No </td>
+					</tr>
+					<tr>
+						<td width=50%> Internal attribute </td> <td width=50%>  </td>
+					</tr>
+										<tr>
+						<td width=50%> Content encoding </td> <td width=50%>  </td>
+					</tr>
+										<tr>
+						<td width=50%> Picture </td> <td width=50%>  </td>
+					</tr>
+					<tr>
+						<td width=50%> Condition </td> <td width=50%>  </td>
+					</tr>
+
+				
+				</table>
+							</td>
+
+			<td>&nbsp;</td>
+
+			<td valign=top align=center width=50%>
+				
+								<table width=100% border=1>
+									<tr>
+						<td colspan=2 align=center><b> D1.Root </b></td>
+					</tr>
+
+					<tr class=head1>
+						<td width=50%> <b> Properties </b> </td> <td width=50%> <b> Values </b> </td>
+					</tr>
+
+					<tr>
+						<td width=50%> Node Type </td> <td width=50%> Compound </td>
+					</tr>
+					<tr>
+						<td width=50%> Path </td> <td width=50%> Destination/S4/Root </td>
+					</tr>
+					<tr>
+						<td width=50%> Data Type </td> <td width=50%>  </td>
+					</tr>
+					<tr>
+						<td width=50%> String Date </td> <td width=50%> No </td>
+					</tr>
+					<tr>
+						<td width=50%> Internal attribute </td> <td width=50%>  </td>
+					</tr>
+										<tr>
+						<td width=50%> Picture </td> <td width=50%>  </td>
+					</tr>
+					<tr>
+						<td width=50%> Calculated Value </td> <td width=50%>  </td>
+					</tr>
+					<tr>
+						<td width=50%> Condition </td> <td width=50%>  </td>
+					</tr>
+					<tr>
+						<td width=50%> Log Error : No </td> <td width=50%>  </td>
+					</tr>
+				
+				</table>
+			</td>
+						</div>
+			</tr>
+			</table>
+					<table border=0 width=100%>  
+			<tr align=top>
+			
+			<td valign=top align=center width=50%>
+				
+								<table width=100% border=1>
+				
+					<tr>
+						<td colspan=2 align=center><b> . </b></td>
+					</tr>
+
+					<tr class=head1>
+						<td width=50%> <b> Properties </b></td> <td width=50%><b> Values </b></td>
+					</tr>
+
+					<tr>
+						<td width=50%> Node Type </td> <td width=50%>  </td>
+					</tr>
+					<tr>
+						<td width=50%> Path </td> <td width=50%>  </td>
+					</tr>
+					<tr>
+						<td width=50%> Data Type </td> <td width=50%>  </td>
+					</tr>
+					<tr>
+						<td width=50%> String Date </td> <td width=50%> No </td>
+					</tr>
+					<tr>
+						<td width=50%> Internal attribute </td> <td width=50%>  </td>
+					</tr>
+										<tr>
+						<td width=50%> Picture </td> <td width=50%>  </td>
+					</tr>
+					<tr>
+						<td width=50%> Condition </td> <td width=50%>  </td>
+					</tr>
+
+				
+				</table>
+							</td>
+
+			<td>&nbsp;</td>
+
+			<td valign=top align=center width=50%>
+				
+								<table width=100% border=1>
+				
+					<tr>
+						<td colspan=2 align=center><b> D1.Date </b></td>
+					</tr>
+
+					<tr class=head1>
+						<td width=50%> <b> Properties </b> </td> <td width=50%> <b> Values </b> </td>
+					</tr>
+
+					<tr>
+						<td width=50%> Node Type </td> <td width=50%> Simple </td>
+					</tr>
+					<tr>
+						<td width=50%> Path </td> <td width=50%> Destination/S4/Root/Date </td>
+					</tr>
+					<tr>
+						<td width=50%> Data Type </td> <td width=50%> Alpha </td>
+					</tr>
+					<tr>
+						<td width=50%> String Date </td> <td width=50%> No </td>
+					</tr>
+					<tr>
+						<td width=50%> Internal attribute </td> <td width=50%> Alpha </td>
+					</tr>
+										<tr>
+						<td width=50%> Picture </td> <td width=50%> 1000 </td>
+					</tr>
+					<tr>
+						<td width=50%> Calculated Value </td> <td width=50%> DStr (Date (),'MM-DD-YYYY') </td>
+					</tr>
+					<tr>
+						<td width=50%> Condition </td> <td width=50%>  </td>
+					</tr>
+					<tr>
+						<td width=50%> Log Error : No </td> <td width=50%>  </td>
+					</tr>
+				
+				</table>
+			</td>
+						</div>
+			</tr>
+			</table>
+					<table border=0 width=100%>  
+			<tr align=top>
+			
+			<td valign=top align=center width=50%>
+				
+								<table width=100% border=1>
+				
+					<tr>
+						<td colspan=2 align=center><b> S1.F.LastJDEOrderInfo </b></td>
+					</tr>
+
+					<tr class=head1>
+						<td width=50%> <b> Properties </b></td> <td width=50%><b> Values </b></td>
+					</tr>
+
+					<tr>
+						<td width=50%> Node Type </td> <td width=50%> Simple </td>
+					</tr>
+					<tr>
+						<td width=50%> Path </td> <td width=50%> Source/S3/Instance/F.LastJDEOrderInfo </td>
+					</tr>
+					<tr>
+						<td width=50%> Data Type </td> <td width=50%> Alpha </td>
+					</tr>
+					<tr>
+						<td width=50%> String Date </td> <td width=50%> No </td>
+					</tr>
+					<tr>
+						<td width=50%> Internal attribute </td> <td width=50%> Alpha </td>
+					</tr>
+										<tr>
+						<td width=50%> Content encoding </td> <td width=50%> Unicode </td>
+					</tr>
+										<tr>
+						<td width=50%> Picture </td> <td width=50%> 300 </td>
+					</tr>
+					<tr>
+						<td width=50%> Condition </td> <td width=50%>  </td>
+					</tr>
+
+				
+				</table>
+							</td>
+
+			<td>&nbsp;</td>
+
+			<td valign=top align=center width=50%>
+				
+								<table width=100% border=1>
+				
+					<tr>
+						<td colspan=2 align=center><b> D1.JDEOrder </b></td>
+					</tr>
+
+					<tr class=head1>
+						<td width=50%> <b> Properties </b> </td> <td width=50%> <b> Values </b> </td>
+					</tr>
+
+					<tr>
+						<td width=50%> Node Type </td> <td width=50%> Simple </td>
+					</tr>
+					<tr>
+						<td width=50%> Path </td> <td width=50%> Destination/S4/Root/JDEOrder </td>
+					</tr>
+					<tr>
+						<td width=50%> Data Type </td> <td width=50%> Alpha </td>
+					</tr>
+					<tr>
+						<td width=50%> String Date </td> <td width=50%> No </td>
+					</tr>
+					<tr>
+						<td width=50%> Internal attribute </td> <td width=50%> Alpha </td>
+					</tr>
+										<tr>
+						<td width=50%> Picture </td> <td width=50%> 1000 </td>
+					</tr>
+					<tr>
+						<td width=50%> Calculated Value </td> <td width=50%>  </td>
+					</tr>
+					<tr>
+						<td width=50%> Condition </td> <td width=50%>  </td>
+					</tr>
+					<tr>
+						<td width=50%> Log Error : No </td> <td width=50%>  </td>
+					</tr>
+				
+				</table>
+			</td>
+						</div>
+			</tr>
+			</table>
+					<table border=0 width=100%>  
+			<tr align=top>
+			
+			<td valign=top align=center width=50%>
+				
+								<table width=100% border=1>
+				
+					<tr>
+						<td colspan=2 align=center><b> . </b></td>
+					</tr>
+
+					<tr class=head1>
+						<td width=50%> <b> Properties </b></td> <td width=50%><b> Values </b></td>
+					</tr>
+
+					<tr>
+						<td width=50%> Node Type </td> <td width=50%>  </td>
+					</tr>
+					<tr>
+						<td width=50%> Path </td> <td width=50%>  </td>
+					</tr>
+					<tr>
+						<td width=50%> Data Type </td> <td width=50%>  </td>
+					</tr>
+					<tr>
+						<td width=50%> String Date </td> <td width=50%> No </td>
+					</tr>
+					<tr>
+						<td width=50%> Internal attribute </td> <td width=50%>  </td>
+					</tr>
+										<tr>
+						<td width=50%> Picture </td> <td width=50%>  </td>
+					</tr>
+					<tr>
+						<td width=50%> Condition </td> <td width=50%>  </td>
+					</tr>
+
+				
+				</table>
+							</td>
+
+			<td>&nbsp;</td>
+
+			<td valign=top align=center width=50%>
+				
+								<table width=100% border=1>
+				
+					<tr>
+						<td colspan=2 align=center><b> D1.Time </b></td>
+					</tr>
+
+					<tr class=head1>
+						<td width=50%> <b> Properties </b> </td> <td width=50%> <b> Values </b> </td>
+					</tr>
+
+					<tr>
+						<td width=50%> Node Type </td> <td width=50%> Simple </td>
+					</tr>
+					<tr>
+						<td width=50%> Path </td> <td width=50%> Destination/S4/Root/Time </td>
+					</tr>
+					<tr>
+						<td width=50%> Data Type </td> <td width=50%> Alpha </td>
+					</tr>
+					<tr>
+						<td width=50%> String Date </td> <td width=50%> No </td>
+					</tr>
+					<tr>
+						<td width=50%> Internal attribute </td> <td width=50%> Alpha </td>
+					</tr>
+										<tr>
+						<td width=50%> Picture </td> <td width=50%> 1000 </td>
+					</tr>
+					<tr>
+						<td width=50%> Calculated Value </td> <td width=50%> TStr (Time (),'HHMMSS') </td>
+					</tr>
+					<tr>
+						<td width=50%> Condition </td> <td width=50%>  </td>
+					</tr>
+					<tr>
+						<td width=50%> Log Error : No </td> <td width=50%>  </td>
+					</tr>
+				
+				</table>
+			</td>
+						</div>
+			</tr>
+			</table>
+					<table border=0 width=100%>  
+			<tr align=top>
+			
+			<td valign=top align=center width=50%>
+				
+								<table width=100% border=1>
+				
+					<tr>
+						<td colspan=2 align=center><b> S1.C.Magento_sessionId </b></td>
+					</tr>
+
+					<tr class=head1>
+						<td width=50%> <b> Properties </b></td> <td width=50%><b> Values </b></td>
+					</tr>
+
+					<tr>
+						<td width=50%> Node Type </td> <td width=50%> Simple </td>
+					</tr>
+					<tr>
+						<td width=50%> Path </td> <td width=50%> Source/S3/Instance/C.Magento_sessionId </td>
+					</tr>
+					<tr>
+						<td width=50%> Data Type </td> <td width=50%> Alpha </td>
+					</tr>
+					<tr>
+						<td width=50%> String Date </td> <td width=50%> No </td>
+					</tr>
+					<tr>
+						<td width=50%> Internal attribute </td> <td width=50%> Alpha </td>
+					</tr>
+										<tr>
+						<td width=50%> Content encoding </td> <td width=50%> Unicode </td>
+					</tr>
+										<tr>
+						<td width=50%> Picture </td> <td width=50%> 40 </td>
+					</tr>
+					<tr>
+						<td width=50%> Condition </td> <td width=50%>  </td>
+					</tr>
+
+				
+				</table>
+							</td>
+
+			<td>&nbsp;</td>
+
+			<td valign=top align=center width=50%>
+				
+								<table width=100% border=1>
+				
+					<tr>
+						<td colspan=2 align=center><b> D1.Magento </b></td>
+					</tr>
+
+					<tr class=head1>
+						<td width=50%> <b> Properties </b> </td> <td width=50%> <b> Values </b> </td>
+					</tr>
+
+					<tr>
+						<td width=50%> Node Type </td> <td width=50%> Simple </td>
+					</tr>
+					<tr>
+						<td width=50%> Path </td> <td width=50%> Destination/S4/Root/Magento </td>
+					</tr>
+					<tr>
+						<td width=50%> Data Type </td> <td width=50%> Alpha </td>
+					</tr>
+					<tr>
+						<td width=50%> String Date </td> <td width=50%> No </td>
+					</tr>
+					<tr>
+						<td width=50%> Internal attribute </td> <td width=50%> Alpha </td>
+					</tr>
+										<tr>
+						<td width=50%> Picture </td> <td width=50%> 1000 </td>
+					</tr>
+					<tr>
+						<td width=50%> Calculated Value </td> <td width=50%> IF( Source/S3/Instance/C.Magento_sessionId &lt&gt '','OK','KO') </td>
+					</tr>
+					<tr>
+						<td width=50%> Condition </td> <td width=50%>  </td>
+					</tr>
+					<tr>
+						<td width=50%> Log Error : No </td> <td width=50%>  </td>
+					</tr>
+				
+				</table>
+			</td>
+						</div>
+			</tr>
+			</table>
+					<table border=0 width=100%>  
+			<tr align=top>
+			
+			<td valign=top align=center width=50%>
+				
+								<table width=100% border=1>
+				
+					<tr>
+						<td colspan=2 align=center><b> S1.F.GetAuditInfo_OUT </b></td>
+					</tr>
+
+					<tr class=head1>
+						<td width=50%> <b> Properties </b></td> <td width=50%><b> Values </b></td>
+					</tr>
+
+					<tr>
+						<td width=50%> Node Type </td> <td width=50%> Simple </td>
+					</tr>
+					<tr>
+						<td width=50%> Path </td> <td width=50%> Source/S3/Instance/F.GetAuditInfo_OUT </td>
+					</tr>
+					<tr>
+						<td width=50%> Data Type </td> <td width=50%> BLOB </td>
+					</tr>
+					<tr>
+						<td width=50%> String Date </td> <td width=50%> No </td>
+					</tr>
+					<tr>
+						<td width=50%> Internal attribute </td> <td width=50%> BLOB </td>
+					</tr>
+										<tr>
+						<td width=50%> Content encoding </td> <td width=50%> Binary </td>
+					</tr>
+										<tr>
+						<td width=50%> Picture </td> <td width=50%>  </td>
+					</tr>
+					<tr>
+						<td width=50%> Condition </td> <td width=50%>  </td>
+					</tr>
+
+				
+				</table>
+							</td>
+
+			<td>&nbsp;</td>
+
+			<td valign=top align=center width=50%>
+				
+								<table width=100% border=1>
+				
+					<tr>
+						<td colspan=2 align=center><b> D1.JDE </b></td>
+					</tr>
+
+					<tr class=head1>
+						<td width=50%> <b> Properties </b> </td> <td width=50%> <b> Values </b> </td>
+					</tr>
+
+					<tr>
+						<td width=50%> Node Type </td> <td width=50%> Simple </td>
+					</tr>
+					<tr>
+						<td width=50%> Path </td> <td width=50%> Destination/S4/Root/JDE </td>
+					</tr>
+					<tr>
+						<td width=50%> Data Type </td> <td width=50%> Alpha </td>
+					</tr>
+					<tr>
+						<td width=50%> String Date </td> <td width=50%> No </td>
+					</tr>
+					<tr>
+						<td width=50%> Internal attribute </td> <td width=50%> Alpha </td>
+					</tr>
+										<tr>
+						<td width=50%> Picture </td> <td width=50%> 1000 </td>
+					</tr>
+					<tr>
+						<td width=50%> Calculated Value </td> <td width=50%> IF(NOT(ISNULL( Source/S3/Instance/F.GetAuditInfo_OUT )),'OK','KO')
+ </td>
+					</tr>
+					<tr>
+						<td width=50%> Condition </td> <td width=50%>  </td>
+					</tr>
+					<tr>
+						<td width=50%> Log Error : No </td> <td width=50%>  </td>
+					</tr>
+				
+				</table>
+			</td>
+						</div>
+			</tr>
+			</table>
+					<table border=0 width=100%>  
+			<tr align=top>
+			
+			<td valign=top align=center width=50%>
+				
+								<table width=100% border=1>
+				
+					<tr>
+						<td colspan=2 align=center><b> S1.F.freeC </b></td>
+					</tr>
+
+					<tr class=head1>
+						<td width=50%> <b> Properties </b></td> <td width=50%><b> Values </b></td>
+					</tr>
+
+					<tr>
+						<td width=50%> Node Type </td> <td width=50%> Simple </td>
+					</tr>
+					<tr>
+						<td width=50%> Path </td> <td width=50%> Source/S3/Instance/F.freeC </td>
+					</tr>
+					<tr>
+						<td width=50%> Data Type </td> <td width=50%> Alpha </td>
+					</tr>
+					<tr>
+						<td width=50%> String Date </td> <td width=50%> No </td>
+					</tr>
+					<tr>
+						<td width=50%> Internal attribute </td> <td width=50%> Alpha </td>
+					</tr>
+										<tr>
+						<td width=50%> Content encoding </td> <td width=50%> Unicode </td>
+					</tr>
+										<tr>
+						<td width=50%> Picture </td> <td width=50%> 200 </td>
+					</tr>
+					<tr>
+						<td width=50%> Condition </td> <td width=50%>  </td>
+					</tr>
+
+				
+				</table>
+							</td>
+
+			<td>&nbsp;</td>
+
+			<td valign=top align=center width=50%>
+				
+								<table width=100% border=1>
+				
+					<tr>
+						<td colspan=2 align=center><b> D1.HDD_C </b></td>
+					</tr>
+
+					<tr class=head1>
+						<td width=50%> <b> Properties </b> </td> <td width=50%> <b> Values </b> </td>
+					</tr>
+
+					<tr>
+						<td width=50%> Node Type </td> <td width=50%> Simple </td>
+					</tr>
+					<tr>
+						<td width=50%> Path </td> <td width=50%> Destination/S4/Root/HDD_C </td>
+					</tr>
+					<tr>
+						<td width=50%> Data Type </td> <td width=50%> Alpha </td>
+					</tr>
+					<tr>
+						<td width=50%> String Date </td> <td width=50%> No </td>
+					</tr>
+					<tr>
+						<td width=50%> Internal attribute </td> <td width=50%> Alpha </td>
+					</tr>
+										<tr>
+						<td width=50%> Picture </td> <td width=50%> 1000 </td>
+					</tr>
+					<tr>
+						<td width=50%> Calculated Value </td> <td width=50%>  </td>
+					</tr>
+					<tr>
+						<td width=50%> Condition </td> <td width=50%>  </td>
+					</tr>
+					<tr>
+						<td width=50%> Log Error : No </td> <td width=50%>  </td>
+					</tr>
+				
+				</table>
+			</td>
+						</div>
+			</tr>
+			</table>
+					<table border=0 width=100%>  
+			<tr align=top>
+			
+			<td valign=top align=center width=50%>
+				
+								<table width=100% border=1>
+				
+					<tr>
+						<td colspan=2 align=center><b> S1.F.freeD </b></td>
+					</tr>
+
+					<tr class=head1>
+						<td width=50%> <b> Properties </b></td> <td width=50%><b> Values </b></td>
+					</tr>
+
+					<tr>
+						<td width=50%> Node Type </td> <td width=50%> Simple </td>
+					</tr>
+					<tr>
+						<td width=50%> Path </td> <td width=50%> Source/S3/Instance/F.freeD </td>
+					</tr>
+					<tr>
+						<td width=50%> Data Type </td> <td width=50%> Alpha </td>
+					</tr>
+					<tr>
+						<td width=50%> String Date </td> <td width=50%> No </td>
+					</tr>
+					<tr>
+						<td width=50%> Internal attribute </td> <td width=50%> Alpha </td>
+					</tr>
+										<tr>
+						<td width=50%> Content encoding </td> <td width=50%> Unicode </td>
+					</tr>
+										<tr>
+						<td width=50%> Picture </td> <td width=50%> 200 </td>
+					</tr>
+					<tr>
+						<td width=50%> Condition </td> <td width=50%>  </td>
+					</tr>
+
+				
+				</table>
+							</td>
+
+			<td>&nbsp;</td>
+
+			<td valign=top align=center width=50%>
+				
+								<table width=100% border=1>
+				
+					<tr>
+						<td colspan=2 align=center><b> D1.HDD_D </b></td>
+					</tr>
+
+					<tr class=head1>
+						<td width=50%> <b> Properties </b> </td> <td width=50%> <b> Values </b> </td>
+					</tr>
+
+					<tr>
+						<td width=50%> Node Type </td> <td width=50%> Simple </td>
+					</tr>
+					<tr>
+						<td width=50%> Path </td> <td width=50%> Destination/S4/Root/HDD_D </td>
+					</tr>
+					<tr>
+						<td width=50%> Data Type </td> <td width=50%> Alpha </td>
+					</tr>
+					<tr>
+						<td width=50%> String Date </td> <td width=50%> No </td>
+					</tr>
+					<tr>
+						<td width=50%> Internal attribute </td> <td width=50%> Alpha </td>
+					</tr>
+										<tr>
+						<td width=50%> Picture </td> <td width=50%> 1000 </td>
+					</tr>
+					<tr>
+						<td width=50%> Calculated Value </td> <td width=50%>  </td>
+					</tr>
+					<tr>
+						<td width=50%> Condition </td> <td width=50%>  </td>
+					</tr>
+					<tr>
+						<td width=50%> Log Error : No </td> <td width=50%>  </td>
+					</tr>
+				
+				</table>
+			</td>
+						</div>
+			</tr>
+			</table>
+					<table border=0 width=100%>  
+			<tr align=top>
+			
+			<td valign=top align=center width=50%>
+				
+								<table width=100% border=1>
+				
+					<tr>
+						<td colspan=2 align=center><b> S1.F.dbsize </b></td>
+					</tr>
+
+					<tr class=head1>
+						<td width=50%> <b> Properties </b></td> <td width=50%><b> Values </b></td>
+					</tr>
+
+					<tr>
+						<td width=50%> Node Type </td> <td width=50%> Simple </td>
+					</tr>
+					<tr>
+						<td width=50%> Path </td> <td width=50%> Source/S3/Instance/F.dbsize </td>
+					</tr>
+					<tr>
+						<td width=50%> Data Type </td> <td width=50%> Alpha </td>
+					</tr>
+					<tr>
+						<td width=50%> String Date </td> <td width=50%> No </td>
+					</tr>
+					<tr>
+						<td width=50%> Internal attribute </td> <td width=50%> Alpha </td>
+					</tr>
+										<tr>
+						<td width=50%> Content encoding </td> <td width=50%> Unicode </td>
+					</tr>
+										<tr>
+						<td width=50%> Picture </td> <td width=50%> 30 </td>
+					</tr>
+					<tr>
+						<td width=50%> Condition </td> <td width=50%>  </td>
+					</tr>
+
+				
+				</table>
+							</td>
+
+			<td>&nbsp;</td>
+
+			<td valign=top align=center width=50%>
+				
+								<table width=100% border=1>
+				
+					<tr>
+						<td colspan=2 align=center><b> D1.DB </b></td>
+					</tr>
+
+					<tr class=head1>
+						<td width=50%> <b> Properties </b> </td> <td width=50%> <b> Values </b> </td>
+					</tr>
+
+					<tr>
+						<td width=50%> Node Type </td> <td width=50%> Simple </td>
+					</tr>
+					<tr>
+						<td width=50%> Path </td> <td width=50%> Destination/S4/Root/DB </td>
+					</tr>
+					<tr>
+						<td width=50%> Data Type </td> <td width=50%> Alpha </td>
+					</tr>
+					<tr>
+						<td width=50%> String Date </td> <td width=50%> No </td>
+					</tr>
+					<tr>
+						<td width=50%> Internal attribute </td> <td width=50%> Alpha </td>
+					</tr>
+										<tr>
+						<td width=50%> Picture </td> <td width=50%> 1000 </td>
+					</tr>
+					<tr>
+						<td width=50%> Calculated Value </td> <td width=50%>  </td>
+					</tr>
+					<tr>
+						<td width=50%> Condition </td> <td width=50%>  </td>
+					</tr>
+					<tr>
+						<td width=50%> Log Error : No </td> <td width=50%>  </td>
+					</tr>
+				
+				</table>
+			</td>
+						</div>
+			</tr>
+			</table>
+					<table border=0 width=100%>  
+			<tr align=top>
+			
+			<td valign=top align=center width=50%>
+				
+								<table width=100% border=1>
+				
+					<tr>
+						<td colspan=2 align=center><b> S1.F.hostname </b></td>
+					</tr>
+
+					<tr class=head1>
+						<td width=50%> <b> Properties </b></td> <td width=50%><b> Values </b></td>
+					</tr>
+
+					<tr>
+						<td width=50%> Node Type </td> <td width=50%> Simple </td>
+					</tr>
+					<tr>
+						<td width=50%> Path </td> <td width=50%> Source/S3/Instance/F.hostname </td>
+					</tr>
+					<tr>
+						<td width=50%> Data Type </td> <td width=50%> Alpha </td>
+					</tr>
+					<tr>
+						<td width=50%> String Date </td> <td width=50%> No </td>
+					</tr>
+					<tr>
+						<td width=50%> Internal attribute </td> <td width=50%> Alpha </td>
+					</tr>
+										<tr>
+						<td width=50%> Content encoding </td> <td width=50%> Unicode </td>
+					</tr>
+										<tr>
+						<td width=50%> Picture </td> <td width=50%> 100 </td>
+					</tr>
+					<tr>
+						<td width=50%> Condition </td> <td width=50%>  </td>
+					</tr>
+
+								</table>
+							</td>
+
+			<td>&nbsp;</td>
+
+			<td valign=top align=center width=50%>
+				
+								<table width=100% border=1>
+				
+					<tr>
+						<td colspan=2 align=center><b> D1.hostname </b></td>
+					</tr>
+
+					<tr class=head1>
+						<td width=50%> <b> Properties </b> </td> <td width=50%> <b> Values </b> </td>
+					</tr>
+
+					<tr>
+						<td width=50%> Node Type </td> <td width=50%> Simple </td>
+					</tr>
+					<tr>
+						<td width=50%> Path </td> <td width=50%> Destination/S4/Root/hostname </td>
+					</tr>
+					<tr>
+						<td width=50%> Data Type </td> <td width=50%> Alpha </td>
+					</tr>
+					<tr>
+						<td width=50%> String Date </td> <td width=50%> No </td>
+					</tr>
+					<tr>
+						<td width=50%> Internal attribute </td> <td width=50%> Alpha </td>
+					</tr>
+										<tr>
+						<td width=50%> Picture </td> <td width=50%> 1000 </td>
+					</tr>
+					<tr>
+						<td width=50%> Calculated Value </td> <td width=50%>  </td>
+					</tr>
+					<tr>
+						<td width=50%> Condition </td> <td width=50%>  </td>
+					</tr>
+					<tr>
+						<td width=50%> Log Error : No </td> <td width=50%>  </td>
+					</tr>
+								</table>
+			</td>
+						</div>
+			</tr>
+			</table>
+			
+	<!--End Data Mapper Mappings Screen-->
+
+</body>
+</html>
+			<!--End of Data Mapper Schema Record Properties-->
+
+	<div align=right><a href="#top">Return to Top</a> &nbsp;|&nbsp; <a href="#" onclick="javascript:window.print()">Print</a></div>
+			<!-- ====================== Page Break!	=============================== -->
+		<p class="BreakPage"></p>		<!-- This command will make the printer breake a page -->
+		<p>
+			<img src="MagicxpiStrip.jpg" height=150></p>
+			<p align=left>Project: <font size=2><b>VWS_MAGENTO_2_JDE </b></font> <br>	<!-- Then (in the new page) output the page header -->
+			Topology - 1 > HealthCheck <br><br>
+			<span> <b><u> Steps </u></b> </span> <br><br>
+		</p>
+		<!-- ====================== Page Break!	=============================== -->
+	
+	<a name="write file9">
+		<img src="icons\fileifc.gif" width="32" height="32"> &nbsp;
+		<b> write file </b>
+	</a>
+
+	<table border=0 width=100%>
+		<tr class=head1> <th> General Properties </th> </tr>
+	</table>
+
+				<table border=0 width=100%>
+		<!-- Genral Tab -->
+		<tr> <td Class="Caption"> ID: </td> <td> 9 &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Magic xpi Server: </td> <td>    1 Magic xpi 4.1 &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Description: </td> <td>  &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Processing Mode: </td> <td> Linear &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Wait for Completion: </td> <td> No &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Interface: </td> <td> Method &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Condition: </td> <td>  &nbsp; </td> </tr>
+		</table>
+
+		<!-- Advanced Tab -->
+		<table border=0 width=100%>
+			<tr class=head1> <th> Advanced </th> </tr>
+		</table>
+
+		<table border=0 width=100%>
+		
+		<tr> <td Class="Caption"> Save Point: </td> <td> No &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Call Logic Flow: </td> <td> No &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Return XML Data: </td> <td> No &nbsp; </td> </tr>
+		</table>
+
+		<table border=0 width=100%>
+			<tr> <th colspan=2> Logging </th> </tr>
+		</table>
+
+		<table border=0 width=100%>
+		<tr> <td Class="Caption"> Logging Scope: </td> <td> No &nbsp; </td> </tr>
+				<tr> <td Class="Caption"> Step Logging Options: </td> <td> Before &nbsp; </td> </tr>
+				<tr> <td Class="Caption"> String Message: </td> <td>  &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> BLOB: </td> <td>  &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> File Extension: </td> <td>  &nbsp; </td> </tr>
+
+		<!-- Settings Tab -- All 2 new Tags -->
+		<table border=0 width=100%>
+			<tr> <th colspan=2> Settings </th> </tr>
+		</table>
+
+		<table border=0 width=100%>
+		<tr> <td Class="Caption"> Service / Resource Name: </td> <td>  &nbsp; </td>
+					<td> Name:  </td> </tr>
+
+		<tr> <td Class="Caption"> Service / Resource Description: </td> <td>  &nbsp; </td> </tr>
+		</table>
+
+		
+		
+		
+		
+		<!--If there are any Invoke Flow Arguments Defined-->
+				<!--End of Invoke Flow Aruments-->
+
+		
+		
+		
+		
+		
+		<!--Flow Data Service-->
+				<!--End of Flow Data Service-->
+
+		<!--Refresh Conversion Service-->
+				<!--End of Refresh Conversion Service-->
+
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+			<!--Trigger HTML Include Section-->
+				<!--End of Trigger HTML Include Section-->
+
+			<!--SAP Method Interface - Intermediate Screen-->
+				<!--End of SAP Method Interface - Intermediate Screen-->
+
+			<!--SAP XML Interface - Intermediate Screen-->
+				<!--End of SAP XML Interface - Intermediate Screen-->
+
+
+			<!--SalesForce XML Interface - Intermediate Screen-->
+			<!--End of SaleseFroce XML Interface - Intermediate Screen-->
+		
+			<!--SAPR3 XML Interface - Intermediate Screen-->
+			<!--End of SAPR3 XML Interface - Intermediate Screen-->
+		
+		<!--SugarCRM XML Interface - Intermediate Screen-->
+			<!--End of SugarCRM XML Interface - Intermediate Screen-->
+		
+			<!--Method Interface-->
+			<table border=0 width=100%>
+			<tr> <th> Configuration Details </th> </tr>
+		</table>
+		
+		<table border=1 width=100%>
+		<tr>
+			<td align="Center"> <b> Method Details </b> </td>
+		</tr>
+		<table>
+
+		<table border=1 width=100%>
+		<tr class=head1>
+			<td width=10%> Name </td>
+			<td width=7%> Condition </td>
+			<td width=23%> Parameter Name </td>
+			<td width=7%> Type </td>
+			<td width=9%> Picture </td>
+			<td width=6%> In/Out </td>
+			<td width=25%> Value </td>
+		</tr>
+		</table>
+			<!--> <Actual table Data in Multiple Rows>
+		<table border=1 width=100%>
+				<tr class="MG_Odd_Row">	
+			<td width=10%> Write File </td>
+			<td width=7%>  </td>
+			<td width=23%> Target File Name </td>
+			<td width=7%> Alpha </td>
+			<td width=9%> 260 </td>
+			<td width=6%> In </td>
+			<td width=25%> EnvVal ('aliasprojectdir')&'\document\healthCheck.html' </td>
+		</tr>
+				<tr class="MG_Even_Row">	
+			<td width=10%>  </td>
+			<td width=7%>  </td>
+			<td width=23%> Data </td>
+			<td width=7%> Blob </td>
+			<td width=9%>  </td>
+			<td width=6%> In </td>
+			<td width=25%> C.HTTP_Body </td>
+		</tr>
+				<tr class="MG_Odd_Row">	
+			<td width=10%>  </td>
+			<td width=7%>  </td>
+			<td width=23%> Error Code </td>
+			<td width=7%> Numeric </td>
+			<td width=9%> 12 </td>
+			<td width=6%> Out </td>
+			<td width=25%>  </td>
+		</tr>
+		
+		</table>
+	 		<!--Endif of MethodInterface-->
+		<!--End of Method Interface-->
+		
+		<!--Data Mapper Schema Record Properties-->
+			<!--End of Data Mapper Schema Record Properties-->
+
+	<div align=right><a href="#top">Return to Top</a> &nbsp;|&nbsp; <a href="#" onclick="javascript:window.print()">Print</a></div>
+			<!-- ====================== Page Break!	=============================== -->
+		<p class="BreakPage"></p>		<!-- This command will make the printer breake a page -->
+		<p>
+			<img src="MagicxpiStrip.jpg" height=150></p>
+			<p align=left>Project: <font size=2><b>VWS_MAGENTO_2_JDE </b></font> <br>	<!-- Then (in the new page) output the page header -->
+			Topology - 1 > HealthCheck <br><br>
+			<span> <b><u> Steps </u></b> </span> <br><br>
+		</p>
+		<!-- ====================== Page Break!	=============================== -->
+	
+	<a name="AWS get id10">
+		<img src="icons\HTTPifc.gif" width="32" height="32"> &nbsp;
+		<b> AWS get id </b>
+	</a>
+
+	<table border=0 width=100%>
+		<tr class=head1> <th> General Properties </th> </tr>
+	</table>
+
+				<table border=0 width=100%>
+		<!-- Genral Tab -->
+		<tr> <td Class="Caption"> ID: </td> <td> 10 &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Magic xpi Server: </td> <td>    1 Magic xpi 4.1 &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Description: </td> <td>  &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Processing Mode: </td> <td> Linear &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Wait for Completion: </td> <td> No &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Interface: </td> <td> Method &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Condition: </td> <td>  &nbsp; </td> </tr>
+		</table>
+
+		<!-- Advanced Tab -->
+		<table border=0 width=100%>
+			<tr class=head1> <th> Advanced </th> </tr>
+		</table>
+
+		<table border=0 width=100%>
+		
+		<tr> <td Class="Caption"> Save Point: </td> <td> No &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Call Logic Flow: </td> <td> No &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Return XML Data: </td> <td> No &nbsp; </td> </tr>
+		</table>
+
+		<table border=0 width=100%>
+			<tr> <th colspan=2> Logging </th> </tr>
+		</table>
+
+		<table border=0 width=100%>
+		<tr> <td Class="Caption"> Logging Scope: </td> <td> No &nbsp; </td> </tr>
+				<tr> <td Class="Caption"> Step Logging Options: </td> <td> Before &nbsp; </td> </tr>
+				<tr> <td Class="Caption"> String Message: </td> <td>  &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> BLOB: </td> <td>  &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> File Extension: </td> <td>  &nbsp; </td> </tr>
+
+		<!-- Settings Tab -- All 2 new Tags -->
+		<table border=0 width=100%>
+			<tr> <th colspan=2> Settings </th> </tr>
+		</table>
+
+		<table border=0 width=100%>
+		<tr> <td Class="Caption"> Service / Resource Name: </td> <td> AWS &nbsp; </td>
+					<td> Name:  </td> </tr>
+
+		<tr> <td Class="Caption"> Service / Resource Description: </td> <td>  &nbsp; </td> </tr>
+		</table>
+
+		
+		
+		
+		
+		<!--If there are any Invoke Flow Arguments Defined-->
+				<!--End of Invoke Flow Aruments-->
+
+		
+		
+		
+		
+		
+		<!--Flow Data Service-->
+				<!--End of Flow Data Service-->
+
+		<!--Refresh Conversion Service-->
+				<!--End of Refresh Conversion Service-->
+
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+			<!--Trigger HTML Include Section-->
+				<!--End of Trigger HTML Include Section-->
+
+			<!--SAP Method Interface - Intermediate Screen-->
+				<!--End of SAP Method Interface - Intermediate Screen-->
+
+			<!--SAP XML Interface - Intermediate Screen-->
+				<!--End of SAP XML Interface - Intermediate Screen-->
+
+
+			<!--SalesForce XML Interface - Intermediate Screen-->
+			<!--End of SaleseFroce XML Interface - Intermediate Screen-->
+		
+			<!--SAPR3 XML Interface - Intermediate Screen-->
+			<!--End of SAPR3 XML Interface - Intermediate Screen-->
+		
+		<!--SugarCRM XML Interface - Intermediate Screen-->
+			<!--End of SugarCRM XML Interface - Intermediate Screen-->
+		
+			<!--Method Interface-->
+			<table border=0 width=100%>
+			<tr> <th> Configuration Details </th> </tr>
+		</table>
+		
+		<table border=1 width=100%>
+		<tr>
+			<td align="Center"> <b> Method Details </b> </td>
+		</tr>
+		<table>
+
+		<table border=1 width=100%>
+		<tr class=head1>
+			<td width=10%> Name </td>
+			<td width=7%> Condition </td>
+			<td width=23%> Parameter Name </td>
+			<td width=7%> Type </td>
+			<td width=9%> Picture </td>
+			<td width=6%> In/Out </td>
+			<td width=25%> Value </td>
+		</tr>
+		</table>
+			<!--> <Actual table Data in Multiple Rows>
+		<table border=1 width=100%>
+		
+		<tr class="MG_Odd_Row">	
+			<td width=10%> REST </td>
+			<td width=7%>  </td>
+			<td width=23%> HTTP Verb </td>
+			<td width=7%> Numeric </td>
+			<td width=9%> 1 </td>
+			<td width=6%> In </td>
+			<td width=25%> GET </td>
+		</tr>
+				<tr class="MG_Even_Row">	
+			<td width=10%>  </td>
+			<td width=7%>  </td>
+			<td width=23%> URL Dynamic Addition </td>
+			<td width=7%> Alpha </td>
+			<td width=9%> 260 </td>
+			<td width=6%> In </td>
+			<td width=25%> 'hostname' </td>
+		</tr>
+				<tr class="MG_Odd_Row">	
+			<td width=10%>  </td>
+			<td width=7%>  </td>
+			<td width=23%> Header Information </td>
+			<td width=7%> Alpha </td>
+			<td width=9%> 1000 </td>
+			<td width=6%> In </td>
+			<td width=25%>  </td>
+		</tr>
+				<tr class="MG_Even_Row">	
+			<td width=10%>  </td>
+			<td width=7%>  </td>
+			<td width=23%> Header Set </td>
+			<td width=7%> Alpha </td>
+			<td width=9%> 1000 </td>
+			<td width=6%> In </td>
+			<td width=25%>  </td>
+		</tr>
+				<tr class="MG_Odd_Row">	
+			<td width=10%>  </td>
+			<td width=7%>  </td>
+			<td width=23%> Output BLOB </td>
+			<td width=7%> Blob </td>
+			<td width=9%>  </td>
+			<td width=6%> Out </td>
+			<td width=25%> C.UserBlob </td>
+		</tr>
+				<tr class="MG_Even_Row">	
+			<td width=10%>  </td>
+			<td width=7%>  </td>
+			<td width=23%> Output Header </td>
+			<td width=7%> Alpha </td>
+			<td width=9%> 1000 </td>
+			<td width=6%> Out </td>
+			<td width=25%>  </td>
+		</tr>
+				<tr class="MG_Odd_Row">	
+			<td width=10%>  </td>
+			<td width=7%>  </td>
+			<td width=23%> Error Code </td>
+			<td width=7%> Numeric </td>
+			<td width=9%> 12 </td>
+			<td width=6%> Out </td>
+			<td width=25%>  </td>
+		</tr>
+		
+		</table>
+	 		<!--Endif of MethodInterface-->
+		<!--End of Method Interface-->
+		
+		<!--Data Mapper Schema Record Properties-->
+			<!--End of Data Mapper Schema Record Properties-->
+
+	<div align=right><a href="#top">Return to Top</a> &nbsp;|&nbsp; <a href="#" onclick="javascript:window.print()">Print</a></div>
+			<!-- ====================== Page Break!	=============================== -->
+		<p class="BreakPage"></p>		<!-- This command will make the printer breake a page -->
+		<p>
+			<img src="MagicxpiStrip.jpg" height=150></p>
+			<p align=left>Project: <font size=2><b>VWS_MAGENTO_2_JDE </b></font> <br>	<!-- Then (in the new page) output the page header -->
+			Topology - 1 > HealthCheck <br><br>
+			<span> <b><u> Steps </u></b> </span> <br><br>
+		</p>
+		<!-- ====================== Page Break!	=============================== -->
+	
+	<a name="Flow Data Service11">
+		<img src="icons\Flow_Data.gif" width="32" height="32"> &nbsp;
+		<b> Flow Data Service </b>
+	</a>
+
+	<table border=0 width=100%>
+		<tr class=head1> <th> General Properties </th> </tr>
+	</table>
+
+		
+		
+		
+		
+		<!--If there are any Invoke Flow Arguments Defined-->
+				<!--End of Invoke Flow Aruments-->
+
+		
+		
+		
+		
+		
+		<!--Flow Data Service-->
+					<table border=0 width=100%>
+				<tr> <td Class="Caption"> Description:</td> <td>  </td> </tr>
+				<tr> <td Class="Caption"> Magic xpi Server: </td> <td>    1 Magic xpi 4.1 &nbsp; </td> </tr>
+				<tr> <td Class="Caption"> Processing Mode: </td> <td> Linear &nbsp; </td> </tr>
+				<tr> <td Class="Caption"> Wait for Completion: </td> <td> No &nbsp; </td> </tr>
+				<tr> <td Class="Caption"> Save Point: </td> <td> No &nbsp; </td> </tr>
+				<tr> <td Class="Caption"> Call Logic Flow: </td> <td> No &nbsp; </td> </tr>
+				<tr> <td Class="Caption"> Condition: </td> <td>  &nbsp; </td> </tr>
+			</table>
+
+			<table border=1 width=100%>
+			<tr class=head1>
+				<td width=10%> Action </td>
+				<td width=10%> Type </td>
+				<td width=9%> Dynamic </td>
+				<td width=10%> Name </td>
+				<td width=10%> Data Type </td>
+				<td width=15%> Encoding </td>
+				<td width=6%> Index </td>
+				<td width=15%> Update Expression </td>
+				<td width=15%> Condition </td>
+			</tr>
+
+						<tr class="MG_Odd_Row">	
+				<td width=10%> Update </td>
+				<td width=10%> Flow </td>
+				<td width=9%> No </td>
+				<td width=10%> F.hostname </td>
+				<td width=10%> Alpha </td>
+				<td width=10%> Ansi </td>
+				<td width=6%>    0 </td>
+				<td width=15%> C.UserBlob </td>
+				<td width=15%> &nbsp </td>
+			</tr>
+			
+			</table>
+				<!--End of Flow Data Service-->
+
+		<!--Refresh Conversion Service-->
+				<!--End of Refresh Conversion Service-->
+
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+			<!--Trigger HTML Include Section-->
+				<!--End of Trigger HTML Include Section-->
+
+			<!--SAP Method Interface - Intermediate Screen-->
+				<!--End of SAP Method Interface - Intermediate Screen-->
+
+			<!--SAP XML Interface - Intermediate Screen-->
+				<!--End of SAP XML Interface - Intermediate Screen-->
+
+
+			<!--SalesForce XML Interface - Intermediate Screen-->
+			<!--End of SaleseFroce XML Interface - Intermediate Screen-->
+		
+			<!--SAPR3 XML Interface - Intermediate Screen-->
+			<!--End of SAPR3 XML Interface - Intermediate Screen-->
+		
+		<!--SugarCRM XML Interface - Intermediate Screen-->
+			<!--End of SugarCRM XML Interface - Intermediate Screen-->
+		
+			<!--Method Interface-->
+	 		<!--Endif of MethodInterface-->
+		<!--End of Method Interface-->
+		
+		<!--Data Mapper Schema Record Properties-->
+			                             
+			<!--End of Data Mapper Schema Record Properties-->
+
+	<div align=right><a href="#top">Return to Top</a> &nbsp;|&nbsp; <a href="#" onclick="javascript:window.print()">Print</a></div>
+	
+	<a name="reponse AWS12">
+		<img src="icons\Save_Message.gif" width="32" height="32"> &nbsp;
+		<b> reponse AWS </b>
+	</a>
+
+	<table border=0 width=100%>
+		<tr class=head1> <th> General Properties </th> </tr>
+	</table>
+
+		
+		
+		
+		
+		<!--If there are any Invoke Flow Arguments Defined-->
+				<!--End of Invoke Flow Aruments-->
+
+		
+		
+		
+				<table border=0 width=100%>
+		<tr> <td Class="Caption"> ID: </td> <td> 12 &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Description: </td> <td>  &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Processing Mode: </td> <td> Linear &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Wait for Completion: </td> <td> No &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Condition: </td> <td>  &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Save Point: </td> <td> No &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Magic xpi Server: </td> <td>    1 Magic xpi 4.1 &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Call Logic Flow: </td> <td> No &nbsp; </td> </tr>
+
+		<tr> <td Class="Caption"> Message: </td> <td> 'reponse AWS' &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Blob: </td> <td> C.UserBlob &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> File Extension: </td> <td> txt &nbsp; </td> </tr>
+		</table>
+		
+		
+		<!--Flow Data Service-->
+				<!--End of Flow Data Service-->
+
+		<!--Refresh Conversion Service-->
+				<!--End of Refresh Conversion Service-->
+
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+			<!--Trigger HTML Include Section-->
+				<!--End of Trigger HTML Include Section-->
+
+			<!--SAP Method Interface - Intermediate Screen-->
+				<!--End of SAP Method Interface - Intermediate Screen-->
+
+			<!--SAP XML Interface - Intermediate Screen-->
+				<!--End of SAP XML Interface - Intermediate Screen-->
+
+
+			<!--SalesForce XML Interface - Intermediate Screen-->
+			<!--End of SaleseFroce XML Interface - Intermediate Screen-->
+		
+			<!--SAPR3 XML Interface - Intermediate Screen-->
+			<!--End of SAPR3 XML Interface - Intermediate Screen-->
+		
+		<!--SugarCRM XML Interface - Intermediate Screen-->
+			<!--End of SugarCRM XML Interface - Intermediate Screen-->
+		
+			<!--Method Interface-->
+	 		<!--Endif of MethodInterface-->
+		<!--End of Method Interface-->
+		
+		<!--Data Mapper Schema Record Properties-->
+			                             
+			<!--End of Data Mapper Schema Record Properties-->
+
+	<div align=right><a href="#top">Return to Top</a> &nbsp;|&nbsp; <a href="#" onclick="javascript:window.print()">Print</a></div>
+			<!-- ====================== Page Break!	=============================== -->
+		<p class="BreakPage"></p>		<!-- This command will make the printer breake a page -->
+		<p>
+			<img src="MagicxpiStrip.jpg" height=150></p>
+			<p align=left>Project: <font size=2><b>VWS_MAGENTO_2_JDE </b></font> <br>	<!-- Then (in the new page) output the page header -->
+			Topology - 1 > HealthCheck <br><br>
+			<span> <b><u> Steps </u></b> </span> <br><br>
+		</p>
+		<!-- ====================== Page Break!	=============================== -->
+	
+	<a name="file free c:13">
+		<img src="icons\fileifc.gif" width="32" height="32"> &nbsp;
+		<b> file free c: </b>
+	</a>
+
+	<table border=0 width=100%>
+		<tr class=head1> <th> General Properties </th> </tr>
+	</table>
+
+				<table border=0 width=100%>
+		<!-- Genral Tab -->
+		<tr> <td Class="Caption"> ID: </td> <td> 13 &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Magic xpi Server: </td> <td>    1 Magic xpi 4.1 &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Description: </td> <td>  &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Processing Mode: </td> <td> Linear &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Wait for Completion: </td> <td> No &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Interface: </td> <td> Method &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Condition: </td> <td>  &nbsp; </td> </tr>
+		</table>
+
+		<!-- Advanced Tab -->
+		<table border=0 width=100%>
+			<tr class=head1> <th> Advanced </th> </tr>
+		</table>
+
+		<table border=0 width=100%>
+		
+		<tr> <td Class="Caption"> Save Point: </td> <td> No &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Call Logic Flow: </td> <td> No &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Return XML Data: </td> <td> No &nbsp; </td> </tr>
+		</table>
+
+		<table border=0 width=100%>
+			<tr> <th colspan=2> Logging </th> </tr>
+		</table>
+
+		<table border=0 width=100%>
+		<tr> <td Class="Caption"> Logging Scope: </td> <td> No &nbsp; </td> </tr>
+				<tr> <td Class="Caption"> Step Logging Options: </td> <td> Before &nbsp; </td> </tr>
+				<tr> <td Class="Caption"> String Message: </td> <td>  &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> BLOB: </td> <td>  &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> File Extension: </td> <td>  &nbsp; </td> </tr>
+
+		<!-- Settings Tab -- All 2 new Tags -->
+		<table border=0 width=100%>
+			<tr> <th colspan=2> Settings </th> </tr>
+		</table>
+
+		<table border=0 width=100%>
+		<tr> <td Class="Caption"> Service / Resource Name: </td> <td>  &nbsp; </td>
+					<td> Name:  </td> </tr>
+
+		<tr> <td Class="Caption"> Service / Resource Description: </td> <td>  &nbsp; </td> </tr>
+		</table>
+
+		
+		
+		
+		
+		<!--If there are any Invoke Flow Arguments Defined-->
+				<!--End of Invoke Flow Aruments-->
+
+		
+		
+		
+		
+		
+		<!--Flow Data Service-->
+				<!--End of Flow Data Service-->
+
+		<!--Refresh Conversion Service-->
+				<!--End of Refresh Conversion Service-->
+
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+			<!--Trigger HTML Include Section-->
+				<!--End of Trigger HTML Include Section-->
+
+			<!--SAP Method Interface - Intermediate Screen-->
+				<!--End of SAP Method Interface - Intermediate Screen-->
+
+			<!--SAP XML Interface - Intermediate Screen-->
+				<!--End of SAP XML Interface - Intermediate Screen-->
+
+
+			<!--SalesForce XML Interface - Intermediate Screen-->
+			<!--End of SaleseFroce XML Interface - Intermediate Screen-->
+		
+			<!--SAPR3 XML Interface - Intermediate Screen-->
+			<!--End of SAPR3 XML Interface - Intermediate Screen-->
+		
+		<!--SugarCRM XML Interface - Intermediate Screen-->
+			<!--End of SugarCRM XML Interface - Intermediate Screen-->
+		
+			<!--Method Interface-->
+			<table border=0 width=100%>
+			<tr> <th> Configuration Details </th> </tr>
+		</table>
+		
+		<table border=1 width=100%>
+		<tr>
+			<td align="Center"> <b> Method Details </b> </td>
+		</tr>
+		<table>
+
+		<table border=1 width=100%>
+		<tr class=head1>
+			<td width=10%> Name </td>
+			<td width=7%> Condition </td>
+			<td width=23%> Parameter Name </td>
+			<td width=7%> Type </td>
+			<td width=9%> Picture </td>
+			<td width=6%> In/Out </td>
+			<td width=25%> Value </td>
+		</tr>
+		</table>
+			<!--> <Actual table Data in Multiple Rows>
+		<table border=1 width=100%>
+		
+		<tr class="MG_Odd_Row">	
+			<td width=10%> Command Line </td>
+			<td width=7%>  </td>
+			<td width=23%> Execute File Name </td>
+			<td width=7%> Alpha </td>
+			<td width=9%> 260 </td>
+			<td width=6%> In </td>
+			<td width=25%> 'DIR c:  | FIND "bytes free" &gt free' </td>
+		</tr>
+				<tr class="MG_Even_Row">	
+			<td width=10%>  </td>
+			<td width=7%>  </td>
+			<td width=23%> Command Line Parameters </td>
+			<td width=7%> Alpha </td>
+			<td width=9%> 1000 </td>
+			<td width=6%> In </td>
+			<td width=25%>  </td>
+		</tr>
+				<tr class="MG_Odd_Row">	
+			<td width=10%>  </td>
+			<td width=7%>  </td>
+			<td width=23%> Timeout </td>
+			<td width=7%> Numeric </td>
+			<td width=9%> 12 </td>
+			<td width=6%> In </td>
+			<td width=25%>  </td>
+		</tr>
+				<tr class="MG_Even_Row">	
+			<td width=10%>  </td>
+			<td width=7%>  </td>
+			<td width=23%> Log File Location </td>
+			<td width=7%> Alpha </td>
+			<td width=9%> 260 </td>
+			<td width=6%> In </td>
+			<td width=25%>  </td>
+		</tr>
+				<tr class="MG_Odd_Row">	
+			<td width=10%>  </td>
+			<td width=7%>  </td>
+			<td width=23%> Error Code </td>
+			<td width=7%> Numeric </td>
+			<td width=9%> 12 </td>
+			<td width=6%> Out </td>
+			<td width=25%>  </td>
+		</tr>
+				<tr class="MG_Odd_Row">	
+			<td width=10%> Read File </td>
+			<td width=7%>  </td>
+			<td width=23%> From File Name </td>
+			<td width=7%> Alpha </td>
+			<td width=9%> 260 </td>
+			<td width=6%> In </td>
+			<td width=25%> EnvVal ('magicxpi')&'\free' </td>
+		</tr>
+				<tr class="MG_Even_Row">	
+			<td width=10%>  </td>
+			<td width=7%>  </td>
+			<td width=23%> Data </td>
+			<td width=7%> Blob </td>
+			<td width=9%>  </td>
+			<td width=6%> Out </td>
+			<td width=25%> C.UserBlob </td>
+		</tr>
+				<tr class="MG_Odd_Row">	
+			<td width=10%>  </td>
+			<td width=7%>  </td>
+			<td width=23%> Error Code </td>
+			<td width=7%> Numeric </td>
+			<td width=9%> 12 </td>
+			<td width=6%> Out </td>
+			<td width=25%>  </td>
+		</tr>
+				<tr class="MG_Odd_Row">	
+			<td width=10%> Delete File </td>
+			<td width=7%> FileExist (EnvVal ('magicxpi')&'\free') </td>
+			<td width=23%> File Name </td>
+			<td width=7%> Alpha </td>
+			<td width=9%> 260 </td>
+			<td width=6%> In </td>
+			<td width=25%> EnvVal ('magicxpi')&'\free' </td>
+		</tr>
+				<tr class="MG_Even_Row">	
+			<td width=10%>  </td>
+			<td width=7%>  </td>
+			<td width=23%> Error Code </td>
+			<td width=7%> Numeric </td>
+			<td width=9%> 12 </td>
+			<td width=6%> Out </td>
+			<td width=25%>  </td>
+		</tr>
+		
+		</table>
+	 		<!--Endif of MethodInterface-->
+		<!--End of Method Interface-->
+		
+		<!--Data Mapper Schema Record Properties-->
+			<!--End of Data Mapper Schema Record Properties-->
+
+	<div align=right><a href="#top">Return to Top</a> &nbsp;|&nbsp; <a href="#" onclick="javascript:window.print()">Print</a></div>
+			<!-- ====================== Page Break!	=============================== -->
+		<p class="BreakPage"></p>		<!-- This command will make the printer breake a page -->
+		<p>
+			<img src="MagicxpiStrip.jpg" height=150></p>
+			<p align=left>Project: <font size=2><b>VWS_MAGENTO_2_JDE </b></font> <br>	<!-- Then (in the new page) output the page header -->
+			Topology - 1 > HealthCheck <br><br>
+			<span> <b><u> Steps </u></b> </span> <br><br>
+		</p>
+		<!-- ====================== Page Break!	=============================== -->
+	
+	<a name="reponse bytes free14">
+		<img src="icons\Save_Message.gif" width="32" height="32"> &nbsp;
+		<b> reponse bytes free </b>
+	</a>
+
+	<table border=0 width=100%>
+		<tr class=head1> <th> General Properties </th> </tr>
+	</table>
+
+		
+		
+		
+		
+		<!--If there are any Invoke Flow Arguments Defined-->
+				<!--End of Invoke Flow Aruments-->
+
+		
+		
+		
+				<table border=0 width=100%>
+		<tr> <td Class="Caption"> ID: </td> <td> 14 &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Description: </td> <td>  &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Processing Mode: </td> <td> Linear &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Wait for Completion: </td> <td> No &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Condition: </td> <td>  &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Save Point: </td> <td> No &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Magic xpi Server: </td> <td>    1 Magic xpi 4.1 &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Call Logic Flow: </td> <td> No &nbsp; </td> </tr>
+
+		<tr> <td Class="Caption"> Message: </td> <td> 'reponse bytes free' &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Blob: </td> <td> C.UserBlob &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> File Extension: </td> <td> txt &nbsp; </td> </tr>
+		</table>
+		
+		
+		<!--Flow Data Service-->
+				<!--End of Flow Data Service-->
+
+		<!--Refresh Conversion Service-->
+				<!--End of Refresh Conversion Service-->
+
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+			<!--Trigger HTML Include Section-->
+				<!--End of Trigger HTML Include Section-->
+
+			<!--SAP Method Interface - Intermediate Screen-->
+				<!--End of SAP Method Interface - Intermediate Screen-->
+
+			<!--SAP XML Interface - Intermediate Screen-->
+				<!--End of SAP XML Interface - Intermediate Screen-->
+
+
+			<!--SalesForce XML Interface - Intermediate Screen-->
+			<!--End of SaleseFroce XML Interface - Intermediate Screen-->
+		
+			<!--SAPR3 XML Interface - Intermediate Screen-->
+			<!--End of SAPR3 XML Interface - Intermediate Screen-->
+		
+		<!--SugarCRM XML Interface - Intermediate Screen-->
+			<!--End of SugarCRM XML Interface - Intermediate Screen-->
+		
+			<!--Method Interface-->
+	 		<!--Endif of MethodInterface-->
+		<!--End of Method Interface-->
+		
+		<!--Data Mapper Schema Record Properties-->
+			                             
+			<!--End of Data Mapper Schema Record Properties-->
+
+	<div align=right><a href="#top">Return to Top</a> &nbsp;|&nbsp; <a href="#" onclick="javascript:window.print()">Print</a></div>
+	
+	<a name="Flow Data Service15">
+		<img src="icons\Flow_Data.gif" width="32" height="32"> &nbsp;
+		<b> Flow Data Service </b>
+	</a>
+
+	<table border=0 width=100%>
+		<tr class=head1> <th> General Properties </th> </tr>
+	</table>
+
+		
+		
+		
+		
+		<!--If there are any Invoke Flow Arguments Defined-->
+				<!--End of Invoke Flow Aruments-->
+
+		
+		
+		
+		
+		
+		<!--Flow Data Service-->
+					<table border=0 width=100%>
+				<tr> <td Class="Caption"> Description:</td> <td>  </td> </tr>
+				<tr> <td Class="Caption"> Magic xpi Server: </td> <td>    1 Magic xpi 4.1 &nbsp; </td> </tr>
+				<tr> <td Class="Caption"> Processing Mode: </td> <td> Linear &nbsp; </td> </tr>
+				<tr> <td Class="Caption"> Wait for Completion: </td> <td> No &nbsp; </td> </tr>
+				<tr> <td Class="Caption"> Save Point: </td> <td> No &nbsp; </td> </tr>
+				<tr> <td Class="Caption"> Call Logic Flow: </td> <td> No &nbsp; </td> </tr>
+				<tr> <td Class="Caption"> Condition: </td> <td>  &nbsp; </td> </tr>
+			</table>
+
+			<table border=1 width=100%>
+			<tr class=head1>
+				<td width=10%> Action </td>
+				<td width=10%> Type </td>
+				<td width=9%> Dynamic </td>
+				<td width=10%> Name </td>
+				<td width=10%> Data Type </td>
+				<td width=15%> Encoding </td>
+				<td width=6%> Index </td>
+				<td width=15%> Update Expression </td>
+				<td width=15%> Condition </td>
+			</tr>
+
+			
+			<tr class="MG_Odd_Row">	
+				<td width=10%> Update </td>
+				<td width=10%> Flow </td>
+				<td width=9%> No </td>
+				<td width=10%> F.freeC </td>
+				<td width=10%> Alpha </td>
+				<td width=10%> Ansi </td>
+				<td width=6%>    0 </td>
+				<td width=15%> C.UserBlob </td>
+				<td width=15%> &nbsp </td>
+			</tr>
+			
+			</table>
+				<!--End of Flow Data Service-->
+
+		<!--Refresh Conversion Service-->
+				<!--End of Refresh Conversion Service-->
+
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+			<!--Trigger HTML Include Section-->
+				<!--End of Trigger HTML Include Section-->
+
+			<!--SAP Method Interface - Intermediate Screen-->
+				<!--End of SAP Method Interface - Intermediate Screen-->
+
+			<!--SAP XML Interface - Intermediate Screen-->
+				<!--End of SAP XML Interface - Intermediate Screen-->
+
+
+			<!--SalesForce XML Interface - Intermediate Screen-->
+			<!--End of SaleseFroce XML Interface - Intermediate Screen-->
+		
+			<!--SAPR3 XML Interface - Intermediate Screen-->
+			<!--End of SAPR3 XML Interface - Intermediate Screen-->
+		
+		<!--SugarCRM XML Interface - Intermediate Screen-->
+			<!--End of SugarCRM XML Interface - Intermediate Screen-->
+		
+			<!--Method Interface-->
+	 		<!--Endif of MethodInterface-->
+		<!--End of Method Interface-->
+		
+		<!--Data Mapper Schema Record Properties-->
+			                             
+			<!--End of Data Mapper Schema Record Properties-->
+
+	<div align=right><a href="#top">Return to Top</a> &nbsp;|&nbsp; <a href="#" onclick="javascript:window.print()">Print</a></div>
+			<!-- ====================== Page Break!	=============================== -->
+		<p class="BreakPage"></p>		<!-- This command will make the printer breake a page -->
+		<p>
+			<img src="MagicxpiStrip.jpg" height=150></p>
+			<p align=left>Project: <font size=2><b>VWS_MAGENTO_2_JDE </b></font> <br>	<!-- Then (in the new page) output the page header -->
+			Topology - 1 > HealthCheck <br><br>
+			<span> <b><u> Steps </u></b> </span> <br><br>
+		</p>
+		<!-- ====================== Page Break!	=============================== -->
+	
+	<a name="file free d:16">
+		<img src="icons\fileifc.gif" width="32" height="32"> &nbsp;
+		<b> file free d: </b>
+	</a>
+
+	<table border=0 width=100%>
+		<tr class=head1> <th> General Properties </th> </tr>
+	</table>
+
+				<table border=0 width=100%>
+		<!-- Genral Tab -->
+		<tr> <td Class="Caption"> ID: </td> <td> 16 &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Magic xpi Server: </td> <td>    1 Magic xpi 4.1 &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Description: </td> <td>  &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Processing Mode: </td> <td> Linear &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Wait for Completion: </td> <td> No &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Interface: </td> <td> Method &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Condition: </td> <td>  &nbsp; </td> </tr>
+		</table>
+
+		<!-- Advanced Tab -->
+		<table border=0 width=100%>
+			<tr class=head1> <th> Advanced </th> </tr>
+		</table>
+
+		<table border=0 width=100%>
+		
+		<tr> <td Class="Caption"> Save Point: </td> <td> No &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Call Logic Flow: </td> <td> No &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Return XML Data: </td> <td> No &nbsp; </td> </tr>
+		</table>
+
+		<table border=0 width=100%>
+			<tr> <th colspan=2> Logging </th> </tr>
+		</table>
+
+		<table border=0 width=100%>
+		<tr> <td Class="Caption"> Logging Scope: </td> <td> No &nbsp; </td> </tr>
+				<tr> <td Class="Caption"> Step Logging Options: </td> <td> Before &nbsp; </td> </tr>
+				<tr> <td Class="Caption"> String Message: </td> <td>  &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> BLOB: </td> <td>  &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> File Extension: </td> <td>  &nbsp; </td> </tr>
+
+		<!-- Settings Tab -- All 2 new Tags -->
+		<table border=0 width=100%>
+			<tr> <th colspan=2> Settings </th> </tr>
+		</table>
+
+		<table border=0 width=100%>
+		<tr> <td Class="Caption"> Service / Resource Name: </td> <td>  &nbsp; </td>
+					<td> Name:  </td> </tr>
+
+		<tr> <td Class="Caption"> Service / Resource Description: </td> <td>  &nbsp; </td> </tr>
+		</table>
+
+		
+		
+		
+		
+		<!--If there are any Invoke Flow Arguments Defined-->
+				<!--End of Invoke Flow Aruments-->
+
+		
+		
+		
+		
+		
+		<!--Flow Data Service-->
+				<!--End of Flow Data Service-->
+
+		<!--Refresh Conversion Service-->
+				<!--End of Refresh Conversion Service-->
+
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+			<!--Trigger HTML Include Section-->
+				<!--End of Trigger HTML Include Section-->
+
+			<!--SAP Method Interface - Intermediate Screen-->
+				<!--End of SAP Method Interface - Intermediate Screen-->
+
+			<!--SAP XML Interface - Intermediate Screen-->
+				<!--End of SAP XML Interface - Intermediate Screen-->
+
+
+			<!--SalesForce XML Interface - Intermediate Screen-->
+			<!--End of SaleseFroce XML Interface - Intermediate Screen-->
+		
+			<!--SAPR3 XML Interface - Intermediate Screen-->
+			<!--End of SAPR3 XML Interface - Intermediate Screen-->
+		
+		<!--SugarCRM XML Interface - Intermediate Screen-->
+			<!--End of SugarCRM XML Interface - Intermediate Screen-->
+		
+			<!--Method Interface-->
+			<table border=0 width=100%>
+			<tr> <th> Configuration Details </th> </tr>
+		</table>
+		
+		<table border=1 width=100%>
+		<tr>
+			<td align="Center"> <b> Method Details </b> </td>
+		</tr>
+		<table>
+
+		<table border=1 width=100%>
+		<tr class=head1>
+			<td width=10%> Name </td>
+			<td width=7%> Condition </td>
+			<td width=23%> Parameter Name </td>
+			<td width=7%> Type </td>
+			<td width=9%> Picture </td>
+			<td width=6%> In/Out </td>
+			<td width=25%> Value </td>
+		</tr>
+		</table>
+			<!--> <Actual table Data in Multiple Rows>
+		<table border=1 width=100%>
+		
+		<tr class="MG_Odd_Row">	
+			<td width=10%> Command Line </td>
+			<td width=7%>  </td>
+			<td width=23%> Execute File Name </td>
+			<td width=7%> Alpha </td>
+			<td width=9%> 260 </td>
+			<td width=6%> In </td>
+			<td width=25%> 'DIR d: | FIND "bytes free" &gt free' </td>
+		</tr>
+				<tr class="MG_Even_Row">	
+			<td width=10%>  </td>
+			<td width=7%>  </td>
+			<td width=23%> Command Line Parameters </td>
+			<td width=7%> Alpha </td>
+			<td width=9%> 1000 </td>
+			<td width=6%> In </td>
+			<td width=25%>  </td>
+		</tr>
+				<tr class="MG_Odd_Row">	
+			<td width=10%>  </td>
+			<td width=7%>  </td>
+			<td width=23%> Timeout </td>
+			<td width=7%> Numeric </td>
+			<td width=9%> 12 </td>
+			<td width=6%> In </td>
+			<td width=25%>  </td>
+		</tr>
+				<tr class="MG_Even_Row">	
+			<td width=10%>  </td>
+			<td width=7%>  </td>
+			<td width=23%> Log File Location </td>
+			<td width=7%> Alpha </td>
+			<td width=9%> 260 </td>
+			<td width=6%> In </td>
+			<td width=25%>  </td>
+		</tr>
+				<tr class="MG_Odd_Row">	
+			<td width=10%>  </td>
+			<td width=7%>  </td>
+			<td width=23%> Error Code </td>
+			<td width=7%> Numeric </td>
+			<td width=9%> 12 </td>
+			<td width=6%> Out </td>
+			<td width=25%>  </td>
+		</tr>
+				<tr class="MG_Odd_Row">	
+			<td width=10%> Read File </td>
+			<td width=7%>  </td>
+			<td width=23%> From File Name </td>
+			<td width=7%> Alpha </td>
+			<td width=9%> 260 </td>
+			<td width=6%> In </td>
+			<td width=25%> EnvVal ('magicxpi')&'\free' </td>
+		</tr>
+				<tr class="MG_Even_Row">	
+			<td width=10%>  </td>
+			<td width=7%>  </td>
+			<td width=23%> Data </td>
+			<td width=7%> Blob </td>
+			<td width=9%>  </td>
+			<td width=6%> Out </td>
+			<td width=25%> C.UserBlob </td>
+		</tr>
+				<tr class="MG_Odd_Row">	
+			<td width=10%>  </td>
+			<td width=7%>  </td>
+			<td width=23%> Error Code </td>
+			<td width=7%> Numeric </td>
+			<td width=9%> 12 </td>
+			<td width=6%> Out </td>
+			<td width=25%>  </td>
+		</tr>
+				<tr class="MG_Odd_Row">	
+			<td width=10%> Delete File </td>
+			<td width=7%> FileExist (EnvVal ('magicxpi')&'\free') </td>
+			<td width=23%> File Name </td>
+			<td width=7%> Alpha </td>
+			<td width=9%> 260 </td>
+			<td width=6%> In </td>
+			<td width=25%> EnvVal ('magicxpi')&'\free' </td>
+		</tr>
+				<tr class="MG_Even_Row">	
+			<td width=10%>  </td>
+			<td width=7%>  </td>
+			<td width=23%> Error Code </td>
+			<td width=7%> Numeric </td>
+			<td width=9%> 12 </td>
+			<td width=6%> Out </td>
+			<td width=25%>  </td>
+		</tr>
+				</table>
+	 		<!--Endif of MethodInterface-->
+		<!--End of Method Interface-->
+		
+		<!--Data Mapper Schema Record Properties-->
+			<!--End of Data Mapper Schema Record Properties-->
+
+	<div align=right><a href="#top">Return to Top</a> &nbsp;|&nbsp; <a href="#" onclick="javascript:window.print()">Print</a></div>
+			<!-- ====================== Page Break!	=============================== -->
+		<p class="BreakPage"></p>		<!-- This command will make the printer breake a page -->
+		<p>
+			<img src="MagicxpiStrip.jpg" height=150></p>
+			<p align=left>Project: <font size=2><b>VWS_MAGENTO_2_JDE </b></font> <br>	<!-- Then (in the new page) output the page header -->
+			Topology - 1 > HealthCheck <br><br>
+			<span> <b><u> Steps </u></b> </span> <br><br>
+		</p>
+		<!-- ====================== Page Break!	=============================== -->
+	
+	<a name="reponse bytes free17">
+		<img src="icons\Save_Message.gif" width="32" height="32"> &nbsp;
+		<b> reponse bytes free </b>
+	</a>
+
+	<table border=0 width=100%>
+		<tr class=head1> <th> General Properties </th> </tr>
+	</table>
+
+		
+		
+		
+		
+		<!--If there are any Invoke Flow Arguments Defined-->
+				<!--End of Invoke Flow Aruments-->
+
+		
+		
+		
+				<table border=0 width=100%>
+		<tr> <td Class="Caption"> ID: </td> <td> 17 &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Description: </td> <td>  &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Processing Mode: </td> <td> Linear &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Wait for Completion: </td> <td> No &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Condition: </td> <td>  &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Save Point: </td> <td> No &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Magic xpi Server: </td> <td>    1 Magic xpi 4.1 &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Call Logic Flow: </td> <td> No &nbsp; </td> </tr>
+
+		<tr> <td Class="Caption"> Message: </td> <td> 'reponse bytes free' &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Blob: </td> <td> C.UserBlob &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> File Extension: </td> <td> txt &nbsp; </td> </tr>
+		</table>
+		
+		
+		<!--Flow Data Service-->
+				<!--End of Flow Data Service-->
+
+		<!--Refresh Conversion Service-->
+				<!--End of Refresh Conversion Service-->
+
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+			<!--Trigger HTML Include Section-->
+				<!--End of Trigger HTML Include Section-->
+
+			<!--SAP Method Interface - Intermediate Screen-->
+				<!--End of SAP Method Interface - Intermediate Screen-->
+
+			<!--SAP XML Interface - Intermediate Screen-->
+				<!--End of SAP XML Interface - Intermediate Screen-->
+
+
+			<!--SalesForce XML Interface - Intermediate Screen-->
+			<!--End of SaleseFroce XML Interface - Intermediate Screen-->
+		
+			<!--SAPR3 XML Interface - Intermediate Screen-->
+			<!--End of SAPR3 XML Interface - Intermediate Screen-->
+		
+		<!--SugarCRM XML Interface - Intermediate Screen-->
+			<!--End of SugarCRM XML Interface - Intermediate Screen-->
+		
+			<!--Method Interface-->
+	 		<!--Endif of MethodInterface-->
+		<!--End of Method Interface-->
+		
+		<!--Data Mapper Schema Record Properties-->
+			                             
+			<!--End of Data Mapper Schema Record Properties-->
+
+	<div align=right><a href="#top">Return to Top</a> &nbsp;|&nbsp; <a href="#" onclick="javascript:window.print()">Print</a></div>
+	
+	<a name="Flow Data Service18">
+		<img src="icons\Flow_Data.gif" width="32" height="32"> &nbsp;
+		<b> Flow Data Service </b>
+	</a>
+
+	<table border=0 width=100%>
+		<tr class=head1> <th> General Properties </th> </tr>
+	</table>
+
+		
+		
+		
+		
+		<!--If there are any Invoke Flow Arguments Defined-->
+				<!--End of Invoke Flow Aruments-->
+
+		
+		
+		
+		
+		
+		<!--Flow Data Service-->
+					<table border=0 width=100%>
+				<tr> <td Class="Caption"> Description:</td> <td>  </td> </tr>
+				<tr> <td Class="Caption"> Magic xpi Server: </td> <td>    1 Magic xpi 4.1 &nbsp; </td> </tr>
+				<tr> <td Class="Caption"> Processing Mode: </td> <td> Linear &nbsp; </td> </tr>
+				<tr> <td Class="Caption"> Wait for Completion: </td> <td> No &nbsp; </td> </tr>
+				<tr> <td Class="Caption"> Save Point: </td> <td> No &nbsp; </td> </tr>
+				<tr> <td Class="Caption"> Call Logic Flow: </td> <td> No &nbsp; </td> </tr>
+				<tr> <td Class="Caption"> Condition: </td> <td>  &nbsp; </td> </tr>
+			</table>
+
+			<table border=1 width=100%>
+			<tr class=head1>
+				<td width=10%> Action </td>
+				<td width=10%> Type </td>
+				<td width=9%> Dynamic </td>
+				<td width=10%> Name </td>
+				<td width=10%> Data Type </td>
+				<td width=15%> Encoding </td>
+				<td width=6%> Index </td>
+				<td width=15%> Update Expression </td>
+				<td width=15%> Condition </td>
+			</tr>
+
+			
+			<tr class="MG_Odd_Row">	
+				<td width=10%> Update </td>
+				<td width=10%> Flow </td>
+				<td width=9%> No </td>
+				<td width=10%> F.freeD </td>
+				<td width=10%> Alpha </td>
+				<td width=10%> Ansi </td>
+				<td width=6%>    0 </td>
+				<td width=15%> C.UserBlob </td>
+				<td width=15%> &nbsp </td>
+			</tr>
+						</table>
+				<!--End of Flow Data Service-->
+
+		<!--Refresh Conversion Service-->
+				<!--End of Refresh Conversion Service-->
+
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+			<!--Trigger HTML Include Section-->
+				<!--End of Trigger HTML Include Section-->
+
+			<!--SAP Method Interface - Intermediate Screen-->
+				<!--End of SAP Method Interface - Intermediate Screen-->
+
+			<!--SAP XML Interface - Intermediate Screen-->
+				<!--End of SAP XML Interface - Intermediate Screen-->
+
+
+			<!--SalesForce XML Interface - Intermediate Screen-->
+			<!--End of SaleseFroce XML Interface - Intermediate Screen-->
+		
+			<!--SAPR3 XML Interface - Intermediate Screen-->
+			<!--End of SAPR3 XML Interface - Intermediate Screen-->
+		
+		<!--SugarCRM XML Interface - Intermediate Screen-->
+			<!--End of SugarCRM XML Interface - Intermediate Screen-->
+		
+			<!--Method Interface-->
+	 		<!--Endif of MethodInterface-->
+		<!--End of Method Interface-->
+		
+		<!--Data Mapper Schema Record Properties-->
+			                             
+			<!--End of Data Mapper Schema Record Properties-->
+
+	<div align=right><a href="#top">Return to Top</a> &nbsp;|&nbsp; <a href="#" onclick="javascript:window.print()">Print</a></div>
+	
+	<a name="query db size19">
+		<img src="icons\Data_Mapper.gif" width="32" height="32"> &nbsp;
+		<b> query db size </b>
+	</a>
+
+	<table border=0 width=100%>
+		<tr class=head1> <th> General Properties </th> </tr>
+	</table>
+
+		
+		
+		
+		
+		<!--If there are any Invoke Flow Arguments Defined-->
+				<!--End of Invoke Flow Aruments-->
+
+		
+		
+		
+		
+				<table border=0 width=100%>
+		<tr> <td Class="Caption"> ID: </td> <td> 19 &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Description: </td> <td>  &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Processing Mode: </td> <td> Linear &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Wait for Completion: </td> <td> No &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Condition: </td> <td>  &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Save Point: </td> <td> No &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Error Behavior: </td> <td> Continue &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> DB Transaction Level: </td> <td> Mapper &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Magic xpi Server: </td> <td>    1 Magic xpi 4.1 &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Call Logic Flow: </td> <td> No &nbsp; </td> </tr>
+		</table>
+		
+		<!--Flow Data Service-->
+				<!--End of Flow Data Service-->
+
+		<!--Refresh Conversion Service-->
+				<!--End of Refresh Conversion Service-->
+
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+			<!--Trigger HTML Include Section-->
+				<!--End of Trigger HTML Include Section-->
+
+			<!--SAP Method Interface - Intermediate Screen-->
+				<!--End of SAP Method Interface - Intermediate Screen-->
+
+			<!--SAP XML Interface - Intermediate Screen-->
+				<!--End of SAP XML Interface - Intermediate Screen-->
+
+
+			<!--SalesForce XML Interface - Intermediate Screen-->
+			<!--End of SaleseFroce XML Interface - Intermediate Screen-->
+		
+			<!--SAPR3 XML Interface - Intermediate Screen-->
+			<!--End of SAPR3 XML Interface - Intermediate Screen-->
+		
+		<!--SugarCRM XML Interface - Intermediate Screen-->
+			<!--End of SugarCRM XML Interface - Intermediate Screen-->
+		
+			<!--Method Interface-->
+	 		<!--Endif of MethodInterface-->
+		<!--End of Method Interface-->
+		
+		<!--Data Mapper Schema Record Properties-->
+			<HTML>
+<head>
+	<LINK rel="stylesheet" type="text/css" href="<!$MG_CSSPath>"
+</head>
+
+<body>
+		<!--XML Interface-->
+				<br>
+			<table border=0 width=100%>
+				<tr class=head1> <th> Source / Destination Management </th> </tr>
+			</table>
+			
+			<table border=0 width=100%>
+			<tr align=top>
+			
+			<td valign=top width=50%>
+				<table border=1>
+				<tr>
+					<td colspan=3 align=center><b> Source </b></td>
+				</tr>
+
+				<tr class=head1>
+					<td width=7%> ID </td> 
+					<td width=31%> Name </td> 
+					<td width=12%> Type </td>
+				</tr>
+
+									<tr>
+						<td width=7%>    1 </td>
+						<td width=31%> <a href="#S1193"> S1 </a> </td>
+						<td width=12%> Database </td>
+					</tr>
+								</table>
+			</td>
+			<td>&nbsp;</td>
+			<td valign=top width=50%>
+				<table border=1>
+				<tr>
+					<td colspan=3 align=center><b>Destination </b></td>
+				</tr>
+
+				<tr class=head1>
+					<td width=7%> ID </td> 
+					<td width=31%> Name </td> 
+					<td width=12%> Type </td>
+				</tr>
+									<tr>
+						<td width=7%>    1 </td>
+						<td width=31%> <a href="#D1194"> D1 </a> </td>
+						<td width=12%> Variables </td>
+					</tr>
+								</table>
+			</td>
+			</div>
+			</tr>
+			</table>
+			<div align=right><a href="#top">Return to Top</a> &nbsp;|&nbsp; <a href="#" onclick="javascript:window.print()">Print</a></div>
+			<br>
+		<!--End of XML Interface-->
+
+	<!--Display Schema Details of each schema(Source/Destination)-->
+				<!--Mapper - Database(1) Properties Section-->
+					<a name="S1193"> </a>
+			<table border=0 width=100%>
+				<tr class=head1> <th> S1 - Database - Properties </th> </tr>
+			</table>
+		
+			<table border=0 width=100%>
+			<tr>
+				<td Class="Caption"> Name: </td> <td> S1 </td>
+			</tr>
+			<tr>
+				<td Class="Caption"> Description: </td> <td>  </td>
+			</tr>
+			<tr>
+				<td Class="Caption"> DB Operation: </td> <td> Select </td>
+			</tr>
+			<tr>
+				<td Class="Caption"> Database Definition: </td> <td> Magicxpi </td>
+			</tr>
+			<tr>
+				<td Class="Caption"> DB Disconnect: </td> <td> No </td> 
+			</tr>
+			<tr>
+				<td Class="Caption"> Exception Handling Flow: </td> <td> <!$MG_DBExHandlFlow> </td> 
+			</tr>
+			<tr>
+				<td Class="Caption"> SQL Statement: </td> <td> SELECT table_schema "Data Base Name", sum( data_length + index_length ) / 1024 / 1024 "Data Base Size in MB"  FROM information_schema.TABLES  GROUP BY table_schema ; </td>
+			</tr>
+			</table>
+
+			<div align=right><a href="#top">Return to Top</a> &nbsp;|&nbsp; <a href="#" onclick="javascript:window.print()">Print</a></div>
+			<br>
+					<!--End - Database Properties Section-->
+
+			<!--Mapper - Flat File(2) Properties Section -->
+					<!--End - Flat File Properties Section-->
+
+
+			<!--Mapper - XML(3) Properties Section-->
+					<!--End - XML Properties Section-->
+
+
+			<!--Mapper - IFC Model(4) Properties Section-->
+					<!--End - IFC Model(4) Properties Section-->
+
+			<!--Mapper - Flow Variable(5) Properties Section-->
+					<!--End - Flow Variable Properties Section-->
+
+			<!--Mapper - ODS(6) Properties Section-->
+					<!--End - ODS Properties Section-->
+
+			<!--Mapper - Call Flow(7) Properties Section-->
+					<!--End - Call Flow Properties Section-->
+
+
+			<!--Mapper - Template(8) Properties Section -->
+					<!--End - Template Properties Section-->
+
+			<!--Mapper - UDS(9) Properties Section-->
+					<!--End - UDS Properties Section-->
+				<!--Mapper - Database(1) Properties Section-->
+					<!--End - Database Properties Section-->
+
+			<!--Mapper - Flat File(2) Properties Section -->
+					<!--End - Flat File Properties Section-->
+
+
+			<!--Mapper - XML(3) Properties Section-->
+					<!--End - XML Properties Section-->
+
+
+			<!--Mapper - IFC Model(4) Properties Section-->
+					<!--End - IFC Model(4) Properties Section-->
+
+			<!--Mapper - Flow Variable(5) Properties Section-->
+								<a name="D1194"> </a>
+			<table border=0 width=100%>
+				<tr> <th> D1 - Variables - Properties </th> </tr>
+			</table>
+			<table border=0 width=100%>
+				<tr> <td Class="Caption"> Name: </td> <td> D1 </td> </tr>
+			</table>
+							
+			
+			
+					<!--End - Flow Variable Properties Section-->
+
+			<!--Mapper - ODS(6) Properties Section-->
+					<!--End - ODS Properties Section-->
+
+			<!--Mapper - Call Flow(7) Properties Section-->
+					<!--End - Call Flow Properties Section-->
+
+
+			<!--Mapper - Template(8) Properties Section -->
+					<!--End - Template Properties Section-->
+
+			<!--Mapper - UDS(9) Properties Section-->
+					<!--End - UDS Properties Section-->
+				<!--Mapper - Database(1) Properties Section-->
+					<!--End - Database Properties Section-->
+
+			<!--Mapper - Flat File(2) Properties Section -->
+					<!--End - Flat File Properties Section-->
+
+
+			<!--Mapper - XML(3) Properties Section-->
+					<!--End - XML Properties Section-->
+
+
+			<!--Mapper - IFC Model(4) Properties Section-->
+					<!--End - IFC Model(4) Properties Section-->
+
+			<!--Mapper - Flow Variable(5) Properties Section-->
+									
+									<table border=0 width=100%>
+				<tr> <td Class="Caption"> Variable Name: </td> <td> F.dbsize </td></tr>
+			</table>
+						
+							<div align=right><a href="#top">Return to Top</a> &nbsp;|&nbsp; <a href="#" onclick="javascript:window.print()">Print</a></div>
+				<br>
+			
+					<!--End - Flow Variable Properties Section-->
+
+			<!--Mapper - ODS(6) Properties Section-->
+					<!--End - ODS Properties Section-->
+
+			<!--Mapper - Call Flow(7) Properties Section-->
+					<!--End - Call Flow Properties Section-->
+
+
+			<!--Mapper - Template(8) Properties Section -->
+					<!--End - Template Properties Section-->
+
+			<!--Mapper - UDS(9) Properties Section-->
+					<!--End - UDS Properties Section-->
+		<!--End of displaying Schema Details of each schema(Source/Destination)-->
+
+	<!--Data Mapper Actual Mappings Section-->
+
+			<table border=0 width=100%>
+			<tr> <th> Data Mappings </th> </tr>
+		</table>
+					<table border=0 width=100%>  
+			<tr align=top>
+			
+			<td valign=top align=center width=50%>
+								
+					<b> Source S1 </b>
+				
+				
+							</td>
+
+			<td>&nbsp;</td>
+
+			<td valign=top align=center width=50%>
+								
+					<b> Destination D1 </b>
+				
+				
+							</div>
+			</tr>
+			</table>
+					<table border=0 width=100%>  
+			<tr align=top>
+			
+			<td valign=top align=center width=50%>
+				
+								<table width=100% border=1>
+									<tr>
+						<td colspan=2 align=center><b> S1.Record </b></td>
+					</tr>
+
+					<tr class=head1>
+						<td width=50%> <b> Properties </b></td> <td width=50%><b> Values </b></td>
+					</tr>
+
+					<tr>
+						<td width=50%> Node Type </td> <td width=50%> Compound </td>
+					</tr>
+					<tr>
+						<td width=50%> Path </td> <td width=50%> Source/S3/Record </td>
+					</tr>
+					<tr>
+						<td width=50%> Data Type </td> <td width=50%>  </td>
+					</tr>
+					<tr>
+						<td width=50%> String Date </td> <td width=50%> No </td>
+					</tr>
+					<tr>
+						<td width=50%> Internal attribute </td> <td width=50%>  </td>
+					</tr>
+										<tr>
+						<td width=50%> Picture </td> <td width=50%>  </td>
+					</tr>
+					<tr>
+						<td width=50%> Condition </td> <td width=50%> Source/S3/Record/Data Base Name =  EnvVal('MysqlDBName') </td>
+					</tr>
+
+				
+				</table>
+							</td>
+
+			<td>&nbsp;</td>
+
+			<td valign=top align=center width=50%>
+				
+								<table width=100% border=1>
+									<tr>
+						<td colspan=2 align=center><b> D1.Instance </b></td>
+					</tr>
+
+					<tr class=head1>
+						<td width=50%> <b> Properties </b> </td> <td width=50%> <b> Values </b> </td>
+					</tr>
+
+					<tr>
+						<td width=50%> Node Type </td> <td width=50%> Compound </td>
+					</tr>
+					<tr>
+						<td width=50%> Path </td> <td width=50%> Destination/S4/Instance </td>
+					</tr>
+					<tr>
+						<td width=50%> Data Type </td> <td width=50%>  </td>
+					</tr>
+					<tr>
+						<td width=50%> String Date </td> <td width=50%> No </td>
+					</tr>
+					<tr>
+						<td width=50%> Internal attribute </td> <td width=50%>  </td>
+					</tr>
+										<tr>
+						<td width=50%> Content encoding </td> <td width=50%>  </td>
+					</tr>
+										<tr>
+						<td width=50%> Picture </td> <td width=50%>  </td>
+					</tr>
+					<tr>
+						<td width=50%> Calculated Value </td> <td width=50%>  </td>
+					</tr>
+					<tr>
+						<td width=50%> Condition </td> <td width=50%> Source/S3/Record/Data Base Name =  EnvVal('MysqlDBName') </td>
+					</tr>
+					<tr>
+						<td width=50%> Log Error : No </td> <td width=50%>  </td>
+					</tr>
+				
+				</table>
+			</td>
+						</div>
+			</tr>
+			</table>
+					<table border=0 width=100%>  
+			<tr align=top>
+			
+			<td valign=top align=center width=50%>
+				
+								<table width=100% border=1>
+				
+					<tr>
+						<td colspan=2 align=center><b> S1.Data Base Size in MB </b></td>
+					</tr>
+
+					<tr class=head1>
+						<td width=50%> <b> Properties </b></td> <td width=50%><b> Values </b></td>
+					</tr>
+
+					<tr>
+						<td width=50%> Node Type </td> <td width=50%> Simple </td>
+					</tr>
+					<tr>
+						<td width=50%> Path </td> <td width=50%> Source/S3/Record/Data Base Size in MB </td>
+					</tr>
+					<tr>
+						<td width=50%> Data Type </td> <td width=50%>  </td>
+					</tr>
+					<tr>
+						<td width=50%> String Date </td> <td width=50%> No </td>
+					</tr>
+					<tr>
+						<td width=50%> Internal attribute </td> <td width=50%> Numeric </td>
+					</tr>
+										<tr>
+						<td width=50%> Picture </td> <td width=50%> N44.8 </td>
+					</tr>
+					<tr>
+						<td width=50%> Condition </td> <td width=50%>  </td>
+					</tr>
+
+								</table>
+							</td>
+
+			<td>&nbsp;</td>
+
+			<td valign=top align=center width=50%>
+				
+								<table width=100% border=1>
+				
+					<tr>
+						<td colspan=2 align=center><b> D1.F.dbsize </b></td>
+					</tr>
+
+					<tr class=head1>
+						<td width=50%> <b> Properties </b> </td> <td width=50%> <b> Values </b> </td>
+					</tr>
+
+					<tr>
+						<td width=50%> Node Type </td> <td width=50%> Simple </td>
+					</tr>
+					<tr>
+						<td width=50%> Path </td> <td width=50%> Destination/S4/Instance/F.dbsize </td>
+					</tr>
+					<tr>
+						<td width=50%> Data Type </td> <td width=50%>  </td>
+					</tr>
+					<tr>
+						<td width=50%> String Date </td> <td width=50%> No </td>
+					</tr>
+					<tr>
+						<td width=50%> Internal attribute </td> <td width=50%> Alpha </td>
+					</tr>
+										<tr>
+						<td width=50%> Content encoding </td> <td width=50%> Unicode </td>
+					</tr>
+										<tr>
+						<td width=50%> Picture </td> <td width=50%> 30 </td>
+					</tr>
+					<tr>
+						<td width=50%> Calculated Value </td> <td width=50%> Str( Source/S3/Record/Data Base Size in MB ,'14.4') </td>
+					</tr>
+					<tr>
+						<td width=50%> Condition </td> <td width=50%>  </td>
+					</tr>
+					<tr>
+						<td width=50%> Log Error : No </td> <td width=50%>  </td>
+					</tr>
+								</table>
+			</td>
+						</div>
+			</tr>
+			</table>
+			
+	<!--End Data Mapper Mappings Screen-->
+
+</body>
+</html>
+			<!--End of Data Mapper Schema Record Properties-->
+
+	<div align=right><a href="#top">Return to Top</a> &nbsp;|&nbsp; <a href="#" onclick="javascript:window.print()">Print</a></div>
+			<!-- ====================== Page Break!	=============================== -->
+		<p class="BreakPage"></p>		<!-- This command will make the printer breake a page -->
+		<p>
+			<img src="MagicxpiStrip.jpg" height=150></p>
+			<p align=left>Project: <font size=2><b>VWS_MAGENTO_2_JDE </b></font> <br>	<!-- Then (in the new page) output the page header -->
+			Topology - 1 > HealthCheck <br><br>
+			<span> <b><u> Steps </u></b> </span> <br><br>
+		</p>
+		<!-- ====================== Page Break!	=============================== -->
+	
+	<a name="query order last info20">
+		<img src="icons\Data_Mapper.gif" width="32" height="32"> &nbsp;
+		<b> query order last info </b>
+	</a>
+
+	<table border=0 width=100%>
+		<tr class=head1> <th> General Properties </th> </tr>
+	</table>
+
+		
+		
+		
+		
+		<!--If there are any Invoke Flow Arguments Defined-->
+				<!--End of Invoke Flow Aruments-->
+
+		
+		
+		
+		
+				<table border=0 width=100%>
+		<tr> <td Class="Caption"> ID: </td> <td> 20 &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Description: </td> <td>  &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Processing Mode: </td> <td> Linear &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Wait for Completion: </td> <td> No &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Condition: </td> <td>  &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Save Point: </td> <td> No &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Error Behavior: </td> <td> Continue &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> DB Transaction Level: </td> <td> Mapper &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Magic xpi Server: </td> <td>    1 Magic xpi 4.1 &nbsp; </td> </tr>
+		<tr> <td Class="Caption"> Call Logic Flow: </td> <td> No &nbsp; </td> </tr>
+		</table>
+		
+		<!--Flow Data Service-->
+				<!--End of Flow Data Service-->
+
+		<!--Refresh Conversion Service-->
+				<!--End of Refresh Conversion Service-->
+
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+			<!--Trigger HTML Include Section-->
+				<!--End of Trigger HTML Include Section-->
+
+			<!--SAP Method Interface - Intermediate Screen-->
+				<!--End of SAP Method Interface - Intermediate Screen-->
+
+			<!--SAP XML Interface - Intermediate Screen-->
+				<!--End of SAP XML Interface - Intermediate Screen-->
+
+
+			<!--SalesForce XML Interface - Intermediate Screen-->
+			<!--End of SaleseFroce XML Interface - Intermediate Screen-->
+		
+			<!--SAPR3 XML Interface - Intermediate Screen-->
+			<!--End of SAPR3 XML Interface - Intermediate Screen-->
+		
+		<!--SugarCRM XML Interface - Intermediate Screen-->
+			<!--End of SugarCRM XML Interface - Intermediate Screen-->
+		
+			<!--Method Interface-->
+	 		<!--Endif of MethodInterface-->
+		<!--End of Method Interface-->
+		
+		<!--Data Mapper Schema Record Properties-->
+			<HTML>
+<head>
+	<LINK rel="stylesheet" type="text/css" href="<!$MG_CSSPath>"
+</head>
+
+<body>
+		<!--XML Interface-->
+				<br>
+			<table border=0 width=100%>
+				<tr class=head1> <th> Source / Destination Management </th> </tr>
+			</table>
+			
+			<table border=0 width=100%>
+			<tr align=top>
+			
+			<td valign=top width=50%>
+				<table border=1>
+				<tr>
+					<td colspan=3 align=center><b> Source </b></td>
+				</tr>
+
+				<tr class=head1>
+					<td width=7%> ID </td> 
+					<td width=31%> Name </td> 
+					<td width=12%> Type </td>
+				</tr>
+
+									<tr>
+						<td width=7%>    1 </td>
+						<td width=31%> <a href="#S1203"> S1 </a> </td>
+						<td width=12%> Database </td>
+					</tr>
+								</table>
+			</td>
+			<td>&nbsp;</td>
+			<td valign=top width=50%>
+				<table border=1>
+				<tr>
+					<td colspan=3 align=center><b>Destination </b></td>
+				</tr>
+
+				<tr class=head1>
+					<td width=7%> ID </td> 
+					<td width=31%> Name </td> 
+					<td width=12%> Type </td>
+				</tr>
+									<tr>
+						<td width=7%>    1 </td>
+						<td width=31%> <a href="#D1204"> D1 </a> </td>
+						<td width=12%> Variables </td>
+					</tr>
+								</table>
+			</td>
+			</div>
+			</tr>
+			</table>
+			<div align=right><a href="#top">Return to Top</a> &nbsp;|&nbsp; <a href="#" onclick="javascript:window.print()">Print</a></div>
+			<br>
+		<!--End of XML Interface-->
+
+	<!--Display Schema Details of each schema(Source/Destination)-->
+				<!--Mapper - Database(1) Properties Section-->
+					<a name="S1203"> </a>
+			<table border=0 width=100%>
+				<tr class=head1> <th> S1 - Database - Properties </th> </tr>
+			</table>
+		
+			<table border=0 width=100%>
+			<tr>
+				<td Class="Caption"> Name: </td> <td> S1 </td>
+			</tr>
+			<tr>
+				<td Class="Caption"> Description: </td> <td>  </td>
+			</tr>
+			<tr>
+				<td Class="Caption"> DB Operation: </td> <td> Select </td>
+			</tr>
+			<tr>
+				<td Class="Caption"> Database Definition: </td> <td> Magicxpi </td>
+			</tr>
+			<tr>
+				<td Class="Caption"> DB Disconnect: </td> <td> No </td> 
+			</tr>
+			<tr>
+				<td Class="Caption"> Exception Handling Flow: </td> <td> <!$MG_DBExHandlFlow> </td> 
+			</tr>
+			<tr>
+				<td Class="Caption"> SQL Statement: </td> <td> SELECT  * FROM magicXPIdb.ifs_actlog
+where flowid = 19 and bpid=1 and messagetypeid=5 order by createdate desc,createtime desc limit 1 </td>
+			</tr>
+			</table>
+
+			<div align=right><a href="#top">Return to Top</a> &nbsp;|&nbsp; <a href="#" onclick="javascript:window.print()">Print</a></div>
+			<br>
+					<!--End - Database Properties Section-->
+
+			<!--Mapper - Flat File(2) Properties Section -->
+					<!--End - Flat File Properties Section-->
+
+
+			<!--Mapper - XML(3) Properties Section-->
+					<!--End - XML Properties Section-->
+
+
+			<!--Mapper - IFC Model(4) Properties Section-->
+					<!--End - IFC Model(4) Properties Section-->
+
+			<!--Mapper - Flow Variable(5) Properties Section-->
+					<!--End - Flow Variable Properties Section-->
+
+			<!--Mapper - ODS(6) Properties Section-->
+					<!--End - ODS Properties Section-->
+
+			<!--Mapper - Call Flow(7) Properties Section-->
+					<!--End - Call Flow Properties Section-->
+
+
+			<!--Mapper - Template(8) Properties Section -->
+					<!--End - Template Properties Section-->
+
+			<!--Mapper - UDS(9) Properties Section-->
+					<!--End - UDS Properties Section-->
+				<!--Mapper - Database(1) Properties Section-->
+					<!--End - Database Properties Section-->
+
+			<!--Mapper - Flat File(2) Properties Section -->
+					<!--End - Flat File Properties Section-->
+
+
+			<!--Mapper - XML(3) Properties Section-->
+					<!--End - XML Properties Section-->
+
+
+			<!--Mapper - IFC Model(4) Properties Section-->
+					<!--End - IFC Model(4) Properties Section-->
+
+			<!--Mapper - Flow Variable(5) Properties Section-->
+								<a name="D1204"> </a>
+			<table border=0 width=100%>
+				<tr> <th> D1 - Variables - Properties </th> </tr>
+			</table>
+			<table border=0 width=100%>
+				<tr> <td Class="Caption"> Name: </td> <td> D1 </td> </tr>
+			</table>
+							
+			
+			
+					<!--End - Flow Variable Properties Section-->
+
+			<!--Mapper - ODS(6) Properties Section-->
+					<!--End - ODS Properties Section-->
+
+			<!--Mapper - Call Flow(7) Properties Section-->
+					<!--End - Call Flow Properties Section-->
+
+
+			<!--Mapper - Template(8) Properties Section -->
+					<!--End - Template Properties Section-->
+
+			<!--Mapper - UDS(9) Properties Section-->
+					<!--End - UDS Properties Section-->
+				<!--Mapper - Database(1) Properties Section-->
+					<!--End - Database Properties Section-->
+
+			<!--Mapper - Flat File(2) Properties Section -->
+					<!--End - Flat File Properties Section-->
+
+
+			<!--Mapper - XML(3) Properties Section-->
+					<!--End - XML Properties Section-->
+
+
+			<!--Mapper - IFC Model(4) Properties Section-->
+					<!--End - IFC Model(4) Properties Section-->
+
+			<!--Mapper - Flow Variable(5) Properties Section-->
+									
+									<table border=0 width=100%>
+				<tr> <td Class="Caption"> Variable Name: </td> <td> F.LastJDEOrderInfo </td></tr>
+			</table>
+						
+							<div align=right><a href="#top">Return to Top</a> &nbsp;|&nbsp; <a href="#" onclick="javascript:window.print()">Print</a></div>
+				<br>
+			
+					<!--End - Flow Variable Properties Section-->
+
+			<!--Mapper - ODS(6) Properties Section-->
+					<!--End - ODS Properties Section-->
+
+			<!--Mapper - Call Flow(7) Properties Section-->
+					<!--End - Call Flow Properties Section-->
+
+
+			<!--Mapper - Template(8) Properties Section -->
+					<!--End - Template Properties Section-->
+
+			<!--Mapper - UDS(9) Properties Section-->
+					<!--End - UDS Properties Section-->
+		<!--End of displaying Schema Details of each schema(Source/Destination)-->
+
+	<!--Data Mapper Actual Mappings Section-->
+
+			<table border=0 width=100%>
+			<tr> <th> Data Mappings </th> </tr>
+		</table>
+					<table border=0 width=100%>  
+			<tr align=top>
+			
+			<td valign=top align=center width=50%>
+								
+					<b> Source S1 </b>
+				
+				
+							</td>
+
+			<td>&nbsp;</td>
+
+			<td valign=top align=center width=50%>
+								
+					<b> Destination D1 </b>
+				
+				
+							</div>
+			</tr>
+			</table>
+					<table border=0 width=100%>  
+			<tr align=top>
+			
+			<td valign=top align=center width=50%>
+				
+								<table width=100% border=1>
+									<tr>
+						<td colspan=2 align=center><b> S1.Record </b></td>
+					</tr>
+
+					<tr class=head1>
+						<td width=50%> <b> Properties </b></td> <td width=50%><b> Values </b></td>
+					</tr>
+
+					<tr>
+						<td width=50%> Node Type </td> <td width=50%> Compound </td>
+					</tr>
+					<tr>
+						<td width=50%> Path </td> <td width=50%> Source/S3/Record </td>
+					</tr>
+					<tr>
+						<td width=50%> Data Type </td> <td width=50%>  </td>
+					</tr>
+					<tr>
+						<td width=50%> String Date </td> <td width=50%> No </td>
+					</tr>
+					<tr>
+						<td width=50%> Internal attribute </td> <td width=50%>  </td>
+					</tr>
+										<tr>
+						<td width=50%> Picture </td> <td width=50%>  </td>
+					</tr>
+					<tr>
+						<td width=50%> Condition </td> <td width=50%> Source/S3/Record/Data Base Name =  EnvVal('MysqlDBName') </td>
+					</tr>
+
+				
+				</table>
+							</td>
+
+			<td>&nbsp;</td>
+
+			<td valign=top align=center width=50%>
+				
+								<table width=100% border=1>
+									<tr>
+						<td colspan=2 align=center><b> D1.Instance </b></td>
+					</tr>
+
+					<tr class=head1>
+						<td width=50%> <b> Properties </b> </td> <td width=50%> <b> Values </b> </td>
+					</tr>
+
+					<tr>
+						<td width=50%> Node Type </td> <td width=50%> Compound </td>
+					</tr>
+					<tr>
+						<td width=50%> Path </td> <td width=50%> Destination/S4/Instance </td>
+					</tr>
+					<tr>
+						<td width=50%> Data Type </td> <td width=50%>  </td>
+					</tr>
+					<tr>
+						<td width=50%> String Date </td> <td width=50%> No </td>
+					</tr>
+					<tr>
+						<td width=50%> Internal attribute </td> <td width=50%>  </td>
+					</tr>
+										<tr>
+						<td width=50%> Content encoding </td> <td width=50%>  </td>
+					</tr>
+										<tr>
+						<td width=50%> Picture </td> <td width=50%>  </td>
+					</tr>
+					<tr>
+						<td width=50%> Calculated Value </td> <td width=50%>  </td>
+					</tr>
+					<tr>
+						<td width=50%> Condition </td> <td width=50%> Source/S3/Record/Data Base Name =  EnvVal('MysqlDBName') </td>
+					</tr>
+					<tr>
+						<td width=50%> Log Error : No </td> <td width=50%>  </td>
+					</tr>
+				
+				</table>
+			</td>
+						</div>
+			</tr>
+			</table>
+					<table border=0 width=100%>  
+			<tr align=top>
+			
+			<td valign=top align=center width=50%>
+				
+								<table width=100% border=1>
+				
+					<tr>
+						<td colspan=2 align=center><b> S1.createdate </b></td>
+					</tr>
+
+					<tr class=head1>
+						<td width=50%> <b> Properties </b></td> <td width=50%><b> Values </b></td>
+					</tr>
+
+					<tr>
+						<td width=50%> Node Type </td> <td width=50%> Simple </td>
+					</tr>
+					<tr>
+						<td width=50%> Path </td> <td width=50%> Source/S3/Record/createdate </td>
+					</tr>
+					<tr>
+						<td width=50%> Data Type </td> <td width=50%>  </td>
+					</tr>
+					<tr>
+						<td width=50%> String Date </td> <td width=50%> No </td>
+					</tr>
+					<tr>
+						<td width=50%> Internal attribute </td> <td width=50%> Date </td>
+					</tr>
+										<tr>
+						<td width=50%> Picture </td> <td width=50%> YYYY/MM/DD </td>
+					</tr>
+					<tr>
+						<td width=50%> Condition </td> <td width=50%>  </td>
+					</tr>
+
+				
+				</table>
+							</td>
+
+			<td>&nbsp;</td>
+
+			<td valign=top align=center width=50%>
+				
+								<table width=100% border=1>
+				
+					<tr>
+						<td colspan=2 align=center><b> D1.F.LastJDEOrderInfo </b></td>
+					</tr>
+
+					<tr class=head1>
+						<td width=50%> <b> Properties </b> </td> <td width=50%> <b> Values </b> </td>
+					</tr>
+
+					<tr>
+						<td width=50%> Node Type </td> <td width=50%> Simple </td>
+					</tr>
+					<tr>
+						<td width=50%> Path </td> <td width=50%> Destination/S4/Instance/F.LastJDEOrderInfo </td>
+					</tr>
+					<tr>
+						<td width=50%> Data Type </td> <td width=50%>  </td>
+					</tr>
+					<tr>
+						<td width=50%> String Date </td> <td width=50%> No </td>
+					</tr>
+					<tr>
+						<td width=50%> Internal attribute </td> <td width=50%> Alpha </td>
+					</tr>
+										<tr>
+						<td width=50%> Content encoding </td> <td width=50%> Unicode </td>
+					</tr>
+										<tr>
+						<td width=50%> Picture </td> <td width=50%> 300 </td>
+					</tr>
+					<tr>
+						<td width=50%> Calculated Value </td> <td width=50%> Source/S3/Record/messagestring &' '& Source/S3/Record/createtime & ' '& Source/S3/Record/createtime </td>
+					</tr>
+					<tr>
+						<td width=50%> Condition </td> <td width=50%>  </td>
+					</tr>
+					<tr>
+						<td width=50%> Log Error : No </td> <td width=50%>  </td>
+					</tr>
+				
+				</table>
+			</td>
+						</div>
+			</tr>
+			</table>
+					<table border=0 width=100%>  
+			<tr align=top>
+			
+			<td valign=top align=center width=50%>
+				
+								<table width=100% border=1>
+				
+					<tr>
+						<td colspan=2 align=center><b> S1.createtime </b></td>
+					</tr>
+
+					<tr class=head1>
+						<td width=50%> <b> Properties </b></td> <td width=50%><b> Values </b></td>
+					</tr>
+
+					<tr>
+						<td width=50%> Node Type </td> <td width=50%> Simple </td>
+					</tr>
+					<tr>
+						<td width=50%> Path </td> <td width=50%> Source/S3/Record/createtime </td>
+					</tr>
+					<tr>
+						<td width=50%> Data Type </td> <td width=50%>  </td>
+					</tr>
+					<tr>
+						<td width=50%> String Date </td> <td width=50%> No </td>
+					</tr>
+					<tr>
+						<td width=50%> Internal attribute </td> <td width=50%> Alpha </td>
+					</tr>
+										<tr>
+						<td width=50%> Picture </td> <td width=50%> 9 </td>
+					</tr>
+					<tr>
+						<td width=50%> Condition </td> <td width=50%>  </td>
+					</tr>
+
+				
+				</table>
+							</td>
+
+			<td>&nbsp;</td>
+
+			<td valign=top align=center width=50%>
+				
+							</div>
+			</tr>
+			</table>
+					<table border=0 width=100%>  
+			<tr align=top>
+			
+			<td valign=top align=center width=50%>
+				
+								<table width=100% border=1>
+				
+					<tr>
+						<td colspan=2 align=center><b> S1.messagestring </b></td>
+					</tr>
+
+					<tr class=head1>
+						<td width=50%> <b> Properties </b></td> <td width=50%><b> Values </b></td>
+					</tr>
+
+					<tr>
+						<td width=50%> Node Type </td> <td width=50%> Simple </td>
+					</tr>
+					<tr>
+						<td width=50%> Path </td> <td width=50%> Source/S3/Record/messagestring </td>
+					</tr>
+					<tr>
+						<td width=50%> Data Type </td> <td width=50%>  </td>
+					</tr>
+					<tr>
+						<td width=50%> String Date </td> <td width=50%> No </td>
+					</tr>
+					<tr>
+						<td width=50%> Internal attribute </td> <td width=50%> BLOB </td>
+					</tr>
+										<tr>
+						<td width=50%> Picture </td> <td width=50%>  </td>
+					</tr>
+					<tr>
+						<td width=50%> Condition </td> <td width=50%>  </td>
+					</tr>
+
+								</table>
+							</td>
+
+			<td>&nbsp;</td>
+
+			<td valign=top align=center width=50%>
+				
+							</div>
+			</tr>
+			</table>
+			
+	<!--End Data Mapper Mappings Screen-->
+
+</body>
+</html>
+			<!--End of Data Mapper Schema Record Properties-->
+
+	<div align=right><a href="#top">Return to Top</a> &nbsp;|&nbsp; <a href="#" onclick="javascript:window.print()">Print</a></div>
+ <!--End Repeat for Steps -->
+ <!--Endif of Steps-->
+
+
+</body>
+</html>

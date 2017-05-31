@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Flow>
+
+  <Properties>
+    <ID>6</ID>
+    <Order>3</Order>
+    <Name>Receive Using Filters</Name>
+    <isInactive>false</isInactive>
+    <isDisabled>false</isDisabled>
+    <isTwoPhase>false</isTwoPhase>
+    <isAutoStart>false</isAutoStart>
+    <MaxInstances>0</MaxInstances>
+    <isAutoRepeat>false</isAutoRepeat>
+    <TimeoutPolicy>6</TimeoutPolicy>
+    <TimeOutVal>0</TimeOutVal>
+    <RecoveryPolicy>6</RecoveryPolicy>
+  </Properties>
+
+  <DrawProperties>
+    <RootStepID>1</RootStepID>
+    <HasTrigger>true</HasTrigger>
+  </DrawProperties>
+
+  <Steps>
+    <row_Step>
+      <Properties>
+        <isGoTo>false</isGoTo>
+        <ParentStepID>0</ParentStepID>
+        <SortOrder>0</SortOrder>
+        <ID>1</ID>
+        <Name>Extract Mail Details</Name>
+        <IFCDefinition>11</IFCDefinition>
+        <ProcessMode>1</ProcessMode>
+        <isTwoPhase>false</isTwoPhase>
+        <isWait4Comp>false</isWait4Comp>
+        <isSavePoint>false</isSavePoint>
+        <CallLogicFlow>false</CallLogicFlow>
+        <isTrigger>false</isTrigger>
+      </Properties>
+      <LoggingInfo>
+        <Scope>0</Scope>
+      </LoggingInfo>
+      <MapperInfo>
+        <DBTransLevel>Mapper</DBTransLevel>
+        <ErrorHandling>Continue</ErrorHandling>
+      </MapperInfo>
+      <iBoltService/>
+    </row_Step>
+  </Steps>
+
+  <Triggers>
+    <row_Trigger>
+      <Properties>
+        <ID>1</ID>
+        <Name>Receive Email</Name>
+        <IFCDefinition>106</IFCDefinition>
+        <isTrigger>true</isTrigger>
+      </Properties>
+      <LoggingInfo>
+        <Scope>1</Scope>
+        <MSGDetails>
+          <MSGString>
+            <ExpressionVal>J1JlY2VpdmVkIG1haWwtZmlsdGVycyc=</ExpressionVal>
+            <ExpectedType>A</ExpectedType>
+            <Direction>I</Direction>
+          </MSGString>
+          <MSGBLOB>
+            <ExpressionVal>PCMhJUAkPmdldFZhck5hbWUoMiwnMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDA4JywwLDApPCMhJUAkPg==</ExpressionVal>
+            <ExpectedType>A</ExpectedType>
+            <Direction>I</Direction>
+          </MSGBLOB>
+          <BLOBExtn>xml</BLOBExtn>
+        </MSGDetails>
+      </LoggingInfo>
+      <ResourceInfo>
+        <isDynamic>false</isDynamic>
+        <ResSerName>Receive Mails</ResSerName>
+      </ResourceInfo>
+      <ConfigInfo>
+        <InvokeComp>%ifclib%email\emailifc.ecf</InvokeComp>
+        <ActivationBLOB>PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIiA/Pg0KPEVtYWlsc2V0dXA+DQoNCiAgPFRvRXhwPg0KICAgIDxFeHByZXNzaW9uVmFsPlJXNTJWbUZzSUNnblJXNTJYMVJ2UVdSa2NtVnpjeWNwPC9FeHByZXNzaW9uVmFsPg0KICAgIDxFeHBlY3RlZFR5cGU+QTwvRXhwZWN0ZWRUeXBlPg0KICAgIDxEaXJlY3Rpb24+STwvRGlyZWN0aW9uPg0KICA8L1RvRXhwPg0KDQogIDxSZXN1bHRYTUxFeHA+DQogICAgPEV4cHJlc3Npb25WYWw+UENNaEpVQWtQbWRsZEZaaGNrNWhiV1VvTWl3bk1EQXdNREF3TURBd01EQXdNREF3TURBd01EQXdNREF3TURBd01EQXdNREF3TURBd01EQTRKeXd3TERBcFBDTWhKVUFrUGc9PTwvRXhwcmVzc2lvblZhbD4NCiAgICA8RXhwZWN0ZWRUeXBlPkI8L0V4cGVjdGVkVHlwZT4NCiAgICA8RGlyZWN0aW9uPk88L0RpcmVjdGlvbj4NCiAgPC9SZXN1bHRYTUxFeHA+DQoNCiAgPExlYXZlT25TZXJ2ZXJFeHA+DQogICAgPEV4cHJlc3Npb25WYWw+TVE9PTwvRXhwcmVzc2lvblZhbD4NCiAgICA8RXhwZWN0ZWRUeXBlPk48L0V4cGVjdGVkVHlwZT4NCiAgICA8RGlyZWN0aW9uPkk8L0RpcmVjdGlvbj4NCiAgPC9MZWF2ZU9uU2VydmVyRXhwPg0KDQogIDxSZXRyeUludGVydmFsRXhwPg0KICAgIDxFeHByZXNzaW9uVmFsPk16QT08L0V4cHJlc3Npb25WYWw+DQogICAgPEV4cGVjdGVkVHlwZT5OPC9FeHBlY3RlZFR5cGU+DQogICAgPERpcmVjdGlvbj5JPC9EaXJlY3Rpb24+DQogIDwvUmV0cnlJbnRlcnZhbEV4cD4NCg0KICA8Tm9PZkF0dGVtcHRzRXhwPg0KICAgIDxFeHByZXNzaW9uVmFsPk1BPT08L0V4cHJlc3Npb25WYWw+DQogICAgPEV4cGVjdGVkVHlwZT5OPC9FeHBlY3RlZFR5cGU+DQogICAgPERpcmVjdGlvbj5JPC9EaXJlY3Rpb24+DQogIDwvTm9PZkF0dGVtcHRzRXhwPg0KDQo8L0VtYWlsc2V0dXA+DQo=</ActivationBLOB>
+      </ConfigInfo>
+    </row_Trigger>
+  </Triggers>
+
+  <TextElements>
+    <row_Element>
+      <ID>1</ID>
+      <Description>This Trigger shows how to use the 'From' filter. This filter shows who sent the email. When you use the 'From' filter, you will see emails from the specified sender only.</Description>
+      <TextLocation>Left</TextLocation>
+      <Font>1</Font>
+      <Color>12713983</Color>
+      <BorderStyle>1</BorderStyle>
+    </row_Element>
+    <row_Element>
+      <ID>2</ID>
+      <Description>You can set the other filters in the same way. The 'To' filter displays emails from specified recipients only. The 'Subject' filter displays emails containing a specified subject only.</Description>
+      <TextLocation>Left</TextLocation>
+      <Font>2</Font>
+      <Color>12713983</Color>
+      <BorderStyle>1</BorderStyle>
+    </row_Element>
+    <row_Element>
+      <ID>3</ID>
+      <Description>The 'Body' filter displays emails based on the content of the email's body.</Description>
+      <TextLocation>Left</TextLocation>
+      <Font>3</Font>
+      <Color>12713983</Color>
+      <BorderStyle>1</BorderStyle>
+    </row_Element>
+  </TextElements>
+
+</Flow>

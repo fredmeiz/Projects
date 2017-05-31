@@ -1,0 +1,19 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# XPIStudio Solution File, Format Version 11.00
+Project("{F4BA34EB-B102-4C5C-A20C-12EFF6C5A88B}") = "VWS_MAGENTO_2_JDE", "VWS_MAGENTO_2_JDE\VWS_MAGENTO_2_JDE.mgxpiproj", "{e0c5fe81-6570-434c-8d95-b3d56ffdef05}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{e0c5fe81-6570-434c-8d95-b3d56ffdef05}.Debug|x86.ActiveCfg = Debug|x86
+		{e0c5fe81-6570-434c-8d95-b3d56ffdef05}.Debug|x86.Build.0 = Debug|x86
+		{e0c5fe81-6570-434c-8d95-b3d56ffdef05}.Release|x86.ActiveCfg = Release|x86
+		{e0c5fe81-6570-434c-8d95-b3d56ffdef05}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

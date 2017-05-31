@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Application>
+
+  <_Project>
+    <ProjectName val="magicxpimapping"/>
+    <VCProjectID val="0"/>
+    <VCActive val="N"/>
+    <WorkOffline val="N"/>
+    <SourceDirectory val="Source"/>
+    <ExportsDirectory val="Exports"/>
+    <GUID val="{25797D22-D62E-4475-A175-61174B302233}"/>
+    <Version min="13010"/>
+    <SourceVersion val="13010.00"/>
+  </_Project>
+
+</Application>

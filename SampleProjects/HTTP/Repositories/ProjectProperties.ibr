@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProjectRepository>
+<Project >
+	<InternalVer>
+					<row>
+			<Ver>1.0</Ver>
+		</row>
+				</InternalVer>
+	
+	<Properties>
+		<iBoltVer>4.40000</iBoltVer>
+		<Name>HTTP</Name>
+		<Owner>Magic Software Enterprises Ltd</Owner>
+				<Last_Edited>12/08/2008 at 14:13:42</Last_Edited>
+					<ProjVer>d2NGVHZXVzl1MTdSOFlEWUI1K2FzQT09</ProjVer>
+				<Encoding>West European</Encoding>
+		<ResourceFile>resources.xml</ResourceFile>
+		<ServiceFile>services.xml</ServiceFile>
+	</Properties>
+
+	
+	<SecurityInfo>
+		<Type>0</Type>
+													</SecurityInfo>
+
+	<InterCompInfo>
+		<Type>0</Type>
+															</InterCompInfo>
+
+	    <FlowAndBpLastId>
+      <LastFlowId>4</LastFlowId>
+      <LastBpId>2</LastBpId>
+    </FlowAndBpLastId>
+	<ServerSettings>
+	<ClearModeInfo>
+		<ODS>1</ODS>
+		<MSG>1</MSG>
+		<PSS>1</PSS>
+		<LCK>1</LCK>
+	</ClearModeInfo>
+	</ServerSettings>
+</Project>
+</ProjectRepository>

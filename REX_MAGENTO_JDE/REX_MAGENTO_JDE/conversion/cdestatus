@@ -1,0 +1,14 @@
+520;submitted@Enter Sales Order
+530;pending@Print order acknowledgement
+532;processing@Order validation
+538;processing@Stock allocation
+539;processing@Backorder hold
+540;processing@Partial shipment check
+545;processing@Credit limit check
+550;processing@Print pick list
+555;processing@Pack Confirmation
+560;shipped@Shipment Confirmation
+565;shipped@Print Delivery Documents
+578;shipped@Cycle Billing
+580;shipped@Print Invoices
+holdcode;processing@OrderOnHold
