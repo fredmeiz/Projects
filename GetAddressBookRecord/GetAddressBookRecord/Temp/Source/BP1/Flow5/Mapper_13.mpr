@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Mapper>
+<Mapper xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <MapperOrigin>DataMapperService</MapperOrigin>
   <SourceSchemas>
-    <Schema d3p1:type="VariableSchema" xmlns:d3p1="http://www.w3.org/2001/XMLSchema-instance">
+    <Schema xsi:type="VariableSchema">
       <SchemaID>2</SchemaID>
       <Order>0</Order>
       <Name>Variable_2</Name>
@@ -10,7 +10,7 @@
       <SchemaLocation>Source</SchemaLocation>
       <SchemaType>Variable</SchemaType>
       <Fields>
-        <Field d3p1:type="ComplexField">
+        <Field xsi:type="ComplexField">
           <Identifier>2</Identifier>
           <FieldName>Instance</FieldName>
           <NodeType>Complex</NodeType>
@@ -24,7 +24,7 @@
           <MaxInstance>0</MaxInstance>
           <MultiUpdates />
         </Field>
-        <Field d3p1:type="FieldVariable">
+        <Field xsi:type="FieldVariable">
           <Identifier>a7cfbb1d-dc95-432a-8775-69599fb73828</Identifier>
           <FieldName>F.SKU</FieldName>
           <NodeType>Simple</NodeType>
@@ -54,7 +54,7 @@
     </Schema>
   </SourceSchemas>
   <DestinationSchemas>
-    <Schema d3p1:type="XSDSchema" xmlns:d3p1="http://www.w3.org/2001/XMLSchema-instance">
+    <Schema xsi:type="XSDSchema">
       <SchemaID>1</SchemaID>
       <Order>0</Order>
       <Name>XML_1</Name>
@@ -62,7 +62,7 @@
       <SchemaLocation>Destination</SchemaLocation>
       <SchemaType>XSD</SchemaType>
       <Fields>
-        <Field d3p1:type="XSDComplexField">
+        <Field xsi:type="XSDComplexField">
           <Identifier>sns0:getItemAvailability</Identifier>
           <FieldName>getItemAvailability</FieldName>
           <NodeType>Complex</NodeType>
@@ -74,7 +74,6 @@
           </Condition>
           <ReplicatedCount>0</ReplicatedCount>
           <MaxInstance>1</MaxInstance>
-          <MultiUpdates />
           <Filter>
             <ExpectedType>L</ExpectedType>
             <Direction>I</Direction>
@@ -85,7 +84,7 @@
           <MinInstance>1</MinInstance>
           <Document />
         </Field>
-        <Field d3p1:type="SimpleXSDField">
+        <Field xsi:type="SimpleXSDField">
           <Identifier>sns0:getItemAvailability/businessUnit</Identifier>
           <FieldName>businessUnit</FieldName>
           <NodeType>Simple</NodeType>
@@ -116,7 +115,7 @@
           <Document />
           <Enumeration />
         </Field>
-        <Field d3p1:type="XSDComplexField">
+        <Field xsi:type="XSDComplexField">
           <Identifier>sns0:getItemAvailability/item</Identifier>
           <FieldName>item</FieldName>
           <NodeType>Complex</NodeType>
@@ -128,7 +127,6 @@
           </Condition>
           <ReplicatedCount>0</ReplicatedCount>
           <MaxInstance>1</MaxInstance>
-          <MultiUpdates />
           <Filter>
             <ExpectedType>L</ExpectedType>
             <Direction>I</Direction>
@@ -138,7 +136,7 @@
           <MinInstance>0</MinInstance>
           <Document />
         </Field>
-        <Field d3p1:type="SimpleXSDField">
+        <Field xsi:type="SimpleXSDField">
           <Identifier>sns0:getItemAvailability/item/itemProduct</Identifier>
           <FieldName>itemProduct</FieldName>
           <NodeType>Simple</NodeType>
@@ -179,7 +177,6 @@
         <DataDestination>Variable</DataDestination>
         <DataExp>
           <ExpressionVal>PCMhJUAkPmdldFZhck5hbWUoMSwnYzM3ZWU5MjItNzg2Ni00Y2UwLWExMjUtZTIwMzc2NzQxZGUyJywwLDApPCMhJUAkPg==</ExpressionVal>
-          <RuntimeExpression>U2V0UGFyYW0gKCcwMDAwMDAwMDAwMDEwMDAwMDAwMDAwMDVGLkdldEl0ZW1BdmFpbGFiaWxpdHlfSU4nLDwkTUdfVkFMVUUkPik=</RuntimeExpression>
           <ExpectedType>A</ExpectedType>
           <Direction>O</Direction>
         </DataExp>

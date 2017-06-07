@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<B0101201.GetAddressBookData>
+<Data>
+<row>
+<mnAddressNumber2nd>5501</mnAddressNumber2nd>
+<mnAddressNumber3rd>5501</mnAddressNumber3rd>
+<szCity>Clichy</szCity>
+<mnAddressNumberParent>0</mnAddressNumberParent>
+<szAddressLine1>37 Rue de Neuilly</szAddressLine1>
+<mnAddressNumber1st>5501</mnAddressNumber1st>
+<mnGrowthRate>0</mnGrowthRate>
+<mnNumberOfEmployee>0</mnNumberOfEmployee>
+<mnAddressNumber4th>5501</mnAddressNumber4th>
+<szNameMailing>BWP - Frédéric MEIZEL</szNameMailing>
+<mnAddressNumber5th>5501</mnAddressNumber5th>
+<szTaxId>TAX0001</szTaxId>
+<cError>0</cError>
+<idF0101Ptr>1001</idF0101Ptr>
+<szAddressType>E</szAddressType>
+<szZipCodePostal>92110</szZipCodePostal>
+<szCountry>FR</szCountry>
+<mnAddressNumber6th>5501</mnAddressNumber6th>
+<szNameAlpha>BWP - Frédéric MEIZEL</szNameAlpha>
+<mnAddressNumber>5501</mnAddressNumber>
+</row>
+</Data>
+</B0101201.GetAddressBookData>
+<?xml version="1.0" encoding="UTF-8"?>
+<B0101201.GetAddressBookData>
+<Data>
+<row>
+<mnAddressNumber2nd>5533</mnAddressNumber2nd>
+<mnAddressNumber3rd>5533</mnAddressNumber3rd>
+<mnAddressNumberParent>0</mnAddressNumberParent>
+<mnAddressNumber1st>5533</mnAddressNumber1st>
+<mnGrowthRate>0</mnGrowthRate>
+<mnNumberOfEmployee>0</mnNumberOfEmployee>
+<mnAddressNumber4th>5533</mnAddressNumber4th>
+<szNameMailing>BWP - Abdelhamid Echaanani</szNameMailing>
+<mnAddressNumber5th>5533</mnAddressNumber5th>
+<cError>0</cError>
+<idF0101Ptr>1001</idF0101Ptr>
+<szAddressType>E</szAddressType>
+<mnAddressNumber6th>5533</mnAddressNumber6th>
+<szNameAlpha>BWP - Abdelhamid Echaanani</szNameAlpha>
+<mnAddressNumber>5533</mnAddressNumber>
+</row>
+</Data>
+</B0101201.GetAddressBookData>
+<?xml version="1.0" encoding="UTF-8"?>
+<B0101201.GetAddressBookData>
+<Data>
+<row>
+<mnAddressNumber2nd>5533</mnAddressNumber2nd>
+<mnAddressNumber3rd>5533</mnAddressNumber3rd>
+<mnAddressNumberParent>0</mnAddressNumberParent>
+<mnAddressNumber1st>5533</mnAddressNumber1st>
+<mnGrowthRate>0</mnGrowthRate>
+<mnNumberOfEmployee>0</mnNumberOfEmployee>
+<mnAddressNumber4th>5533</mnAddressNumber4th>
+<szNameMailing>BWP - Abdelhamid Echaanani</szNameMailing>
+<mnAddressNumber5th>5533</mnAddressNumber5th>
+<cError>0</cError>
+<idF0101Ptr>1001</idF0101Ptr>
+<szAddressType>E</szAddressType>
+<mnAddressNumber6th>5533</mnAddressNumber6th>
+<szNameAlpha>BWP - Abdelhamid Echaanani</szNameAlpha>
+<mnAddressNumber>5533</mnAddressNumber>
+</row>
+</Data>
+</B0101201.GetAddressBookData>
+<?xml version="1.0" encoding="UTF-8"?>
+<B0101201.GetAddressBookData>
+<Data>
+<row>
+<mnAddressNumber2nd>5533</mnAddressNumber2nd>
+<mnAddressNumber3rd>5533</mnAddressNumber3rd>
+<szCity>Asnières-sur-seine</szCity>
+<mnAddressNumberParent>0</mnAddressNumberParent>
+<szAddressLine2>boite n°4</szAddressLine2>
+<szAddressLine1>26, Avenue Saint-Joseph</szAddressLine1>
+<mnAddressNumber1st>5533</mnAddressNumber1st>
+<mnGrowthRate>0</mnGrowthRate>
+<mnNumberOfEmployee>0</mnNumberOfEmployee>
+<mnAddressNumber4th>5533</mnAddressNumber4th>
+<szNameMailing>BWP - Abdelhamid Echaanani</szNameMailing>
+<mnAddressNumber5th>5533</mnAddressNumber5th>
+<cError>0</cError>
+<idF0101Ptr>1002</idF0101Ptr>
+<szAddressType>E</szAddressType>
+<szZipCodePostal>92600</szZipCodePostal>
+<szCountry>FR</szCountry>
+<mnAddressNumber6th>5533</mnAddressNumber6th>
+<szNameAlpha>BWP - Abdelhamid Echaanani</szNameAlpha>
+<szCountyAddress>Ile-de-france</szCountyAddress>
+<mnAddressNumber>5533</mnAddressNumber>
+</row>
+</Data>
+</B0101201.GetAddressBookData>
+<?xml version="1.0" encoding="UTF-8"?>
+<B0101201.GetAddressBookData>
+<Data>
+<row>
+<mnAddressNumber2nd>5533</mnAddressNumber2nd>
+<mnAddressNumber3rd>5533</mnAddressNumber3rd>
+<szCity>Asnières-sur-seine</szCity>
+<mnAddressNumberParent>0</mnAddressNumberParent>
+<szAddressLine2>boite n°4</szAddressLine2>
+<szAddressLine1>26, Avenue Saint-Joseph</szAddressLine1>
+<mnAddressNumber1st>5533</mnAddressNumber1st>
+<mnGrowthRate>0</mnGrowthRate>
+<mnNumberOfEmployee>0</mnNumberOfEmployee>
+<mnAddressNumber4th>5533</mnAddressNumber4th>
+<szNameMailing>BWP - Abdelhamid Echaanani</szNameMailing>
+<mnAddressNumber5th>5533</mnAddressNumber5th>
+<cError>0</cError>
+<idF0101Ptr>1001</idF0101Ptr>
+<szAddressType>E</szAddressType>
+<szZipCodePostal>92600</szZipCodePostal>
+<szCountry>FR</szCountry>
+<mnAddressNumber6th>5533</mnAddressNumber6th>
+<szNameAlpha>BWP - Abdelhamid Echaanani</szNameAlpha>
+<szCountyAddress>Ile-de-france</szCountyAddress>
+<mnAddressNumber>5533</mnAddressNumber>
+</row>
+</Data>
+</B0101201.GetAddressBookData>
+<?xml version="1.0" encoding="UTF-8"?>
+<B0101201.GetAddressBookData>
+<Data>
+<row>
+<mnAddressNumber2nd>1001</mnAddressNumber2nd>
+<mnAddressNumber3rd>1001</mnAddressNumber3rd>
+<szState>CO</szState>
+<szCity>Denver</szCity>
+<mnAddressNumberParent>0</mnAddressNumberParent>
+<szAddressLine1>8055 Tufts Avenue, Suite 1331</szAddressLine1>
+<mnAddressNumber1st>1001</mnAddressNumber1st>
+<mnGrowthRate>0</mnGrowthRate>
+<mnNumberOfEmployee>0</mnNumberOfEmployee>
+<mnAddressNumber4th>1001</mnAddressNumber4th>
+<szNameMailing>J.D. Edwards &amp; Company</szNameMailing>
+<mnAddressNumber5th>1001</mnAddressNumber5th>
+<szTaxId>66595263000170</szTaxId>
+<szAdditionalTaxID>492.028.480.114</szAdditionalTaxID>
+<cError>0</cError>
+<idF0101Ptr>1002</idF0101Ptr>
+<szAddressType>E</szAddressType>
+<szZipCodePostal>80237</szZipCodePostal>
+<mnAddressNumber6th>1001</mnAddressNumber6th>
+<szNameAlpha>AB Common</szNameAlpha>
+<mnAddressNumber>1001</mnAddressNumber>
+</row>
+</Data>
+</B0101201.GetAddressBookData>

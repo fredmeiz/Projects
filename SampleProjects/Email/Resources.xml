@@ -11,7 +11,7 @@
     <Main_Resource_Defintion>
       <Resource_Type_ID>34</Resource_Type_ID>
       <Resource_Type_Name>Email Receive</Resource_Type_Name>
-      <Resource_Type_Description />
+      <Resource_Type_Description>%Env_Password%</Resource_Type_Description>
       <Resource_Type_Blob>TgB1AGwAbABCAGwAbwBiAA==</Resource_Type_Blob>
       <Resource_Properties>
         <ID>1</ID>
@@ -22,7 +22,7 @@
       <Resource_Properties>
         <ID>10</ID>
         <Name>Password</Name>
-        <ExpressionValue>ZFWSz6efwFeqstDQ5oLHRw==</ExpressionValue>
+        <ExpressionValue>qSL15/N97cM=</ExpressionValue>
         <ExpressionValueBlob />
       </Resource_Properties>
       <Resource_Properties>
@@ -34,13 +34,13 @@
       <Resource_Properties>
         <ID>3</ID>
         <Name>Incoming Port</Name>
-        <ExpressionValue />
+        <ExpressionValue>%Env_IncomingMailPort%</ExpressionValue>
         <ExpressionValueBlob />
       </Resource_Properties>
       <Resource_Properties>
         <ID>4</ID>
         <Name>Incoming Secure Connection</Name>
-        <ExpressionValue>0</ExpressionValue>
+        <ExpressionValue>1</ExpressionValue>
         <ExpressionValueBlob />
       </Resource_Properties>
       <Resource_Properties>
@@ -64,7 +64,7 @@
       <Resource_Properties>
         <ID>8</ID>
         <Name>From Address</Name>
-        <ExpressionValue />
+        <ExpressionValue>%Env_FromAddress%</ExpressionValue>
         <ExpressionValueBlob />
       </Resource_Properties>
       <Resource_Properties>
@@ -88,7 +88,7 @@
       <Resource_Properties>
         <ID>10</ID>
         <Name>Password</Name>
-        <ExpressionValue />
+        <ExpressionValue>qSL15/N97cM=</ExpressionValue>
         <ExpressionValueBlob />
       </Resource_Properties>
       <Resource_Properties>
@@ -118,13 +118,13 @@
       <Resource_Properties>
         <ID>6</ID>
         <Name>Outgoing Port</Name>
-        <ExpressionValue />
+        <ExpressionValue>%Env_OutgoingMailPort%</ExpressionValue>
         <ExpressionValueBlob />
       </Resource_Properties>
       <Resource_Properties>
         <ID>7</ID>
         <Name>Outgoing Secure Connection</Name>
-        <ExpressionValue>0</ExpressionValue>
+        <ExpressionValue>2</ExpressionValue>
         <ExpressionValueBlob />
       </Resource_Properties>
       <Resource_Properties>
@@ -136,7 +136,7 @@
       <Resource_Properties>
         <ID>9</ID>
         <Name>User</Name>
-        <ExpressionValue />
+        <ExpressionValue>%Env_User%</ExpressionValue>
         <ExpressionValueBlob />
       </Resource_Properties>
     </Main_Resource_Defintion>

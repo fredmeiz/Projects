@@ -55,10 +55,6 @@
       <SubType>BP-Flow Dependent</SubType>
       <DependentUpon>Source\BP1\Flow3\Flow.flw</DependentUpon>
     </Content>
-    <Content Include="Source\BP1\Flow3\Mapper_8.mpr">
-      <SubType>BP-Flow Dependent</SubType>
-      <DependentUpon>Source\BP1\Flow3\Flow.flw</DependentUpon>
-    </Content>
     <Content Include="Source\BP1\Flow3\Variables.flr">
       <DependentUpon>Source\BP1\Flow3\Flow.flw</DependentUpon>
       <SubType>BP-Flow Dependent</SubType>
@@ -101,6 +97,26 @@
     </Content>
     <Content Include="Source\BP1\Flow5\Variables.flr">
       <DependentUpon>Source\BP1\Flow5\Flow.flw</DependentUpon>
+      <SubType>BP-Flow Dependent</SubType>
+    </Content>
+    <Content Include="Source\BP1\Flow7\Errors.flr">
+      <DependentUpon>Source\BP1\Flow7\Flow.flw</DependentUpon>
+      <SubType>BP-Flow Dependent</SubType>
+    </Content>
+    <Content Include="Source\BP1\Flow7\Flow.flw">
+      <DependentUpon>Source\BP1\BP.bp</DependentUpon>
+      <SubType>BP-Flow Node</SubType>
+    </Content>
+    <Content Include="Source\BP1\Flow7\Mapper_16.mpr">
+      <SubType>BP-Flow Dependent</SubType>
+      <DependentUpon>Source\BP1\Flow7\Flow.flw</DependentUpon>
+    </Content>
+    <Content Include="Source\BP1\Flow7\Mapper_19.mpr">
+      <SubType>BP-Flow Dependent</SubType>
+      <DependentUpon>Source\BP1\Flow7\Flow.flw</DependentUpon>
+    </Content>
+    <Content Include="Source\BP1\Flow7\Variables.flr">
+      <DependentUpon>Source\BP1\Flow7\Flow.flw</DependentUpon>
       <SubType>BP-Flow Dependent</SubType>
     </Content>
     <!--<None  Include="Repositories\Encoding.xml">

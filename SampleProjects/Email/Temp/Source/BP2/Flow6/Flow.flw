@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Flow>
+  <Properties>
+    <ID>6</ID>
+    <Order>3</Order>
+    <Name>Receive Using Filters</Name>
+    <isInactive>false</isInactive>
+    <isDisabled>false</isDisabled>
+    <isTwoPhase>false</isTwoPhase>
+    <isAutoStart>false</isAutoStart>
+    <MaxInstances>0</MaxInstances>
+    <isAutoRepeat>false</isAutoRepeat>
+    <isPSSSubOnce>false</isPSSSubOnce>
+    <TimeoutPolicy>6</TimeoutPolicy>
+    <TimeOutVal>0</TimeOutVal>
+    <HasDBTransaction>false</HasDBTransaction>
+    <RecoveryPolicy>6</RecoveryPolicy>
+    <isSecuredCall>false</isSecuredCall>
+  </Properties>
+  <DrawProperties>
+    <RootStepID>1</RootStepID>
+    <HasTrigger>true</HasTrigger>
+  </DrawProperties>
+  <Steps>
+    <row_Step>
+      <Properties>
+        <isGoTo>false</isGoTo>
+        <ParentStepID>0</ParentStepID>
+        <SortOrder>0</SortOrder>
+        <ID>1</ID>
+        <Name>Extract Mail Details</Name>
+        <IFCDefinition>11</IFCDefinition>
+        <ProcessMode>1</ProcessMode>
+        <isTwoPhase>false</isTwoPhase>
+        <isWait4Comp>false</isWait4Comp>
+        <isSavePoint>false</isSavePoint>
+        <CallLogicFlow>false</CallLogicFlow>
+        <isReturnXML>false</isReturnXML>
+        <isTrigger>false</isTrigger>
+      </Properties>
+      <LoggingInfo>
+        <Scope>0</Scope>
+        <Option d5p1:nil="true" xmlns:d5p1="http://www.w3.org/2001/XMLSchema-instance" />
+        <MSGDetails>
+          <MSGString>
+            <ExpectedType>A</ExpectedType>
+            <Direction>I</Direction>
+          </MSGString>
+          <MSGBLOB>
+            <ExpectedType>B</ExpectedType>
+            <Direction>I</Direction>
+          </MSGBLOB>
+        </MSGDetails>
+      </LoggingInfo>
+      <MapperInfo>
+        <DBTransLevel>Mapper</DBTransLevel>
+        <DBTransString />
+        <ErrorHandling>Continue</ErrorHandling>
+      </MapperInfo>
+      <iBoltService />
+    </row_Step>
+  </Steps>
+  <Triggers>
+    <row_Trigger>
+      <Properties>
+        <isGoTo>false</isGoTo>
+        <ParentStepID>0</ParentStepID>
+        <SortOrder>0</SortOrder>
+        <ID>1</ID>
+        <Name>Receive Email</Name>
+        <IFCDefinition>106</IFCDefinition>
+        <ProcessMode>0</ProcessMode>
+        <isTwoPhase>false</isTwoPhase>
+        <isWait4Comp>false</isWait4Comp>
+        <isSavePoint>false</isSavePoint>
+        <CallLogicFlow>false</CallLogicFlow>
+        <isReturnXML>false</isReturnXML>
+        <isTrigger>true</isTrigger>
+      </Properties>
+      <LoggingInfo>
+        <Scope>1</Scope>
+        <Option d5p1:nil="true" xmlns:d5p1="http://www.w3.org/2001/XMLSchema-instance" />
+        <MSGDetails>
+          <MSGString>
+            <ExpressionVal>J1JlY2VpdmVkIG1haWwtZmlsdGVycyc=</ExpressionVal>
+            <RuntimeExpression>J1JlY2VpdmVkIG1haWwtZmlsdGVycyc=</RuntimeExpression>
+            <ExpectedType>A</ExpectedType>
+            <Direction>I</Direction>
+          </MSGString>
+          <MSGBLOB>
+            <ExpressionVal>PCMhJUAkPmdldFZhck5hbWUoMiwnMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDA4JywwLDApPCMhJUAkPg==</ExpressionVal>
+            <RuntimeExpression>R2V0UGFyYW0gKCdDLlVzZXJYTUwnKQ==</RuntimeExpression>
+            <ExpectedType>A</ExpectedType>
+            <Direction>I</Direction>
+          </MSGBLOB>
+          <BLOBExtn>xml</BLOBExtn>
+        </MSGDetails>
+      </LoggingInfo>
+      <ResourceInfo>
+        <isDynamic>false</isDynamic>
+        <ResSerName>Receive Mails</ResSerName>
+      </ResourceInfo>
+      <ConfigInfo>
+        <InvokeComp>%ifclib%email\emailifc.ecf</InvokeComp>
+        <ActivationBLOB>PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48RW1haWxzZXR1cCB4bWxuczp4c2k9Imh0dHA6Ly93d3cudzMub3JnLzIwMDEvWE1MU2NoZW1hLWluc3RhbmNlIiB4bWxuczp4c2Q9Imh0dHA6Ly93d3cudzMub3JnLzIwMDEvWE1MU2NoZW1hIj48RnJvbUV4cD48RXhwZWN0ZWRUeXBlPkE8L0V4cGVjdGVkVHlwZT48RGlyZWN0aW9uPkk8L0RpcmVjdGlvbj48L0Zyb21FeHA+PFRvRXhwPjxFeHByZXNzaW9uVmFsPlJXNTJWbUZzSUNnblJXNTJYMVJ2UVdSa2NtVnpjeWNwPC9FeHByZXNzaW9uVmFsPjxSdW50aW1lRXhwcmVzc2lvbj5SVzUyVm1Gc0lDZ25SVzUyWDFSdlFXUmtjbVZ6Y3ljcDwvUnVudGltZUV4cHJlc3Npb24+PEV4cGVjdGVkVHlwZT5BPC9FeHBlY3RlZFR5cGU+PERpcmVjdGlvbj5JPC9EaXJlY3Rpb24+PC9Ub0V4cD48Q2NFeHA+PEV4cGVjdGVkVHlwZT5BPC9FeHBlY3RlZFR5cGU+PERpcmVjdGlvbj5JPC9EaXJlY3Rpb24+PC9DY0V4cD48QmNjRXhwPjxFeHBlY3RlZFR5cGU+QTwvRXhwZWN0ZWRUeXBlPjxEaXJlY3Rpb24+STwvRGlyZWN0aW9uPjwvQmNjRXhwPjxTdWJqZWN0RXhwPjxFeHBlY3RlZFR5cGU+QTwvRXhwZWN0ZWRUeXBlPjxEaXJlY3Rpb24+STwvRGlyZWN0aW9uPjwvU3ViamVjdEV4cD48Qm9keUV4cD48RXhwZWN0ZWRUeXBlPkE8L0V4cGVjdGVkVHlwZT48RGlyZWN0aW9uPkk8L0RpcmVjdGlvbj48L0JvZHlFeHA+PFJlc3VsdFhNTEV4cD48RXhwcmVzc2lvblZhbD5QQ01oSlVBa1BtZGxkRlpoY2s1aGJXVW9NaXduTURBd01EQXdNREF3TURBd01EQXdNREF3TURBd01EQXdNREF3TURBd01EQXdNREF3TURBNEp5d3dMREFwUENNaEpVQWtQZz09PC9FeHByZXNzaW9uVmFsPjxSdW50aW1lRXhwcmVzc2lvbj5VMlYwVUdGeVlXMGdLQ2RETGxWelpYSllUVXduTER3a1RVZGZWa0ZNVlVVa1Bpaz08L1J1bnRpbWVFeHByZXNzaW9uPjxFeHBlY3RlZFR5cGU+QjwvRXhwZWN0ZWRUeXBlPjxEaXJlY3Rpb24+TzwvRGlyZWN0aW9uPjwvUmVzdWx0WE1MRXhwPjxMZWF2ZU9uU2VydmVyRXhwPjxFeHByZXNzaW9uVmFsPk1RPT08L0V4cHJlc3Npb25WYWw+PFJ1bnRpbWVFeHByZXNzaW9uPk1RPT08L1J1bnRpbWVFeHByZXNzaW9uPjxFeHBlY3RlZFR5cGU+TjwvRXhwZWN0ZWRUeXBlPjxEaXJlY3Rpb24+STwvRGlyZWN0aW9uPjwvTGVhdmVPblNlcnZlckV4cD48S2VlcEFsaXZlSW50ZXJ2YWxFeHA+PEV4cHJlc3Npb25WYWw+TUE9PTwvRXhwcmVzc2lvblZhbD48UnVudGltZUV4cHJlc3Npb24+TUE9PTwvUnVudGltZUV4cHJlc3Npb24+PEV4cGVjdGVkVHlwZT5OPC9FeHBlY3RlZFR5cGU+PERpcmVjdGlvbj5JPC9EaXJlY3Rpb24+PC9LZWVwQWxpdmVJbnRlcnZhbEV4cD48UmV0cnlJbnRlcnZhbEV4cD48RXhwcmVzc2lvblZhbD5NekE9PC9FeHByZXNzaW9uVmFsPjxSdW50aW1lRXhwcmVzc2lvbj5NekE9PC9SdW50aW1lRXhwcmVzc2lvbj48RXhwZWN0ZWRUeXBlPk48L0V4cGVjdGVkVHlwZT48RGlyZWN0aW9uPkk8L0RpcmVjdGlvbj48L1JldHJ5SW50ZXJ2YWxFeHA+PE5vT2ZBdHRlbXB0c0V4cD48RXhwcmVzc2lvblZhbD5NQT09PC9FeHByZXNzaW9uVmFsPjxSdW50aW1lRXhwcmVzc2lvbj5NQT09PC9SdW50aW1lRXhwcmVzc2lvbj48RXhwZWN0ZWRUeXBlPk48L0V4cGVjdGVkVHlwZT48RGlyZWN0aW9uPkk8L0RpcmVjdGlvbj48L05vT2ZBdHRlbXB0c0V4cD48L0VtYWlsc2V0dXA+</ActivationBLOB>
+      </ConfigInfo>
+    </row_Trigger>
+  </Triggers>
+  <TextElements>
+    <row_Element>
+      <ID>1</ID>
+      <AppID>0</AppID>
+      <Description>This Trigger shows how to use the 'From' filter. This filter shows who sent the email. When you use the 'From' filter, you will see emails from the specified sender only.</Description>
+      <TextLocation>Left</TextLocation>
+      <Font>1</Font>
+      <Color>12713983</Color>
+      <CallOutX>0</CallOutX>
+      <CallOutY>0</CallOutY>
+    </row_Element>
+    <row_Element>
+      <ID>2</ID>
+      <AppID>0</AppID>
+      <Description>You can set the other filters in the same way. The 'To' filter displays emails from specified recipients only. The 'Subject' filter displays emails containing a specified subject only.</Description>
+      <TextLocation>Left</TextLocation>
+      <Font>2</Font>
+      <Color>12713983</Color>
+      <CallOutX>0</CallOutX>
+      <CallOutY>0</CallOutY>
+    </row_Element>
+    <row_Element>
+      <ID>3</ID>
+      <AppID>0</AppID>
+      <Description>The 'Body' filter displays emails based on the content of the email's body.</Description>
+      <TextLocation>Left</TextLocation>
+      <Font>3</Font>
+      <Color>12713983</Color>
+      <CallOutX>0</CallOutX>
+      <CallOutY>0</CallOutY>
+    </row_Element>
+  </TextElements>
+  <Struct_Scheduler xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" />
+</Flow>

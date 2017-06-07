@@ -119,7 +119,6 @@
         <DataDestination>Variable</DataDestination>
         <DataExp>
           <ExpressionVal>PCMhJUAkPmdldFZhck5hbWUoMSwnMjM1NjE0OTYtZGY5Yy00YzgwLWE2NjAtZWVmYTY5YmJjZGM2JywwLDApPCMhJUAkPg==</ExpressionVal>
-          <RuntimeExpression>R2V0UGFyYW0gKCcwMDAwMDAwMDAwMDEwMDAwMDAwMDAwMDJGLkdldEFkZHJlc3NCb29rUmVjb3JkX09VVCcp</RuntimeExpression>
           <ExpectedType>A</ExpectedType>
           <Direction>I</Direction>
         </DataExp>

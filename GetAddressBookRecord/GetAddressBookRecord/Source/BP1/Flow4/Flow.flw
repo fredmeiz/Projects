@@ -4,7 +4,7 @@
     <ID>4</ID>
     <Order>4</Order>
     <Name>WebserviceTrigger_BSSV</Name>
-    <isInactive>false</isInactive>
+    <isInactive>true</isInactive>
     <isDisabled>false</isDisabled>
     <isTwoPhase>false</isTwoPhase>
     <isAutoStart>false</isAutoStart>

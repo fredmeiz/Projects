@@ -149,7 +149,6 @@
         <DataDestination>Variable</DataDestination>
         <DataExp>
           <ExpressionVal>PCMhJUAkPmdldFZhck5hbWUoMSwnNDY5NjZlMmUtNjY5Mi00ZWFiLWJjOTYtOWJhOThjNmQ4ZjE1JywwLDApPCMhJUAkPg==</ExpressionVal>
-          <RuntimeExpression>U2V0UGFyYW0gKCcwMDAwMDAwMDAwMDEwMDAwMDAwMDAwMDJGLkdldEFkZHJlc3NCb29rUmVjb3JkX0lOJyw8JE1HX1ZBTFVFJD4p</RuntimeExpression>
           <ExpectedType>A</ExpectedType>
           <Direction>O</Direction>
         </DataExp>

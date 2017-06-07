@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Flow>
+  <Properties>
+    <ID>5</ID>
+    <Order>2</Order>
+    <Name>Receive</Name>
+    <isInactive>false</isInactive>
+    <isDisabled>false</isDisabled>
+    <isTwoPhase>false</isTwoPhase>
+    <isAutoStart>false</isAutoStart>
+    <MaxInstances>0</MaxInstances>
+    <isAutoRepeat>false</isAutoRepeat>
+    <isPSSSubOnce>false</isPSSSubOnce>
+    <TimeoutPolicy>6</TimeoutPolicy>
+    <TimeOutVal>0</TimeOutVal>
+    <HasDBTransaction>false</HasDBTransaction>
+    <RecoveryPolicy>6</RecoveryPolicy>
+    <isSecuredCall>false</isSecuredCall>
+  </Properties>
+  <DrawProperties>
+    <RootStepID>1</RootStepID>
+    <HasTrigger>true</HasTrigger>
+  </DrawProperties>
+  <Steps>
+    <row_Step>
+      <Properties>
+        <isGoTo>false</isGoTo>
+        <ParentStepID>0</ParentStepID>
+        <SortOrder>0</SortOrder>
+        <ID>1</ID>
+        <Name>Retrive To/From address</Name>
+        <IFCDefinition>11</IFCDefinition>
+        <ProcessMode>1</ProcessMode>
+        <isTwoPhase>false</isTwoPhase>
+        <isWait4Comp>false</isWait4Comp>
+        <isSavePoint>false</isSavePoint>
+        <CallLogicFlow>false</CallLogicFlow>
+        <isReturnXML>false</isReturnXML>
+        <isTrigger>false</isTrigger>
+      </Properties>
+      <LoggingInfo>
+        <Scope>0</Scope>
+        <Option d5p1:nil="true" xmlns:d5p1="http://www.w3.org/2001/XMLSchema-instance" />
+        <MSGDetails>
+          <MSGString>
+            <ExpectedType>A</ExpectedType>
+            <Direction>I</Direction>
+          </MSGString>
+          <MSGBLOB>
+            <ExpectedType>B</ExpectedType>
+            <Direction>I</Direction>
+          </MSGBLOB>
+        </MSGDetails>
+      </LoggingInfo>
+      <MapperInfo>
+        <DBTransLevel>Mapper</DBTransLevel>
+        <DBTransString />
+        <ErrorHandling>Continue</ErrorHandling>
+      </MapperInfo>
+      <iBoltService />
+    </row_Step>
+  </Steps>
+  <Triggers>
+    <row_Trigger>
+      <Properties>
+        <isGoTo>false</isGoTo>
+        <ParentStepID>0</ParentStepID>
+        <SortOrder>0</SortOrder>
+        <ID>1</ID>
+        <Name>Receive Email</Name>
+        <IFCDefinition>106</IFCDefinition>
+        <ProcessMode>0</ProcessMode>
+        <isTwoPhase>false</isTwoPhase>
+        <isWait4Comp>false</isWait4Comp>
+        <isSavePoint>false</isSavePoint>
+        <CallLogicFlow>false</CallLogicFlow>
+        <isReturnXML>false</isReturnXML>
+        <isTrigger>true</isTrigger>
+      </Properties>
+      <LoggingInfo>
+        <Scope>1</Scope>
+        <Option d5p1:nil="true" xmlns:d5p1="http://www.w3.org/2001/XMLSchema-instance" />
+        <MSGDetails>
+          <MSGString>
+            <ExpressionVal>J1JlY2VpdmVkIE1haWwn</ExpressionVal>
+            <RuntimeExpression>J1JlY2VpdmVkIE1haWwn</RuntimeExpression>
+            <ExpectedType>A</ExpectedType>
+            <Direction>I</Direction>
+          </MSGString>
+          <MSGBLOB>
+            <ExpressionVal>PCMhJUAkPmdldFZhck5hbWUoMiwnMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDA4JywwLDApPCMhJUAkPg==</ExpressionVal>
+            <RuntimeExpression>R2V0UGFyYW0gKCdDLlVzZXJYTUwnKQ==</RuntimeExpression>
+            <ExpectedType>A</ExpectedType>
+            <Direction>I</Direction>
+          </MSGBLOB>
+          <BLOBExtn>xml</BLOBExtn>
+        </MSGDetails>
+      </LoggingInfo>
+      <ResourceInfo>
+        <isDynamic>false</isDynamic>
+        <ResSerName>Receive Mails</ResSerName>
+      </ResourceInfo>
+      <ConfigInfo>
+        <InvokeComp>%ifclib%email\emailifc.ecf</InvokeComp>
+        <ActivationBLOB>PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48RW1haWxzZXR1cCB4bWxuczp4c2k9Imh0dHA6Ly93d3cudzMub3JnLzIwMDEvWE1MU2NoZW1hLWluc3RhbmNlIiB4bWxuczp4c2Q9Imh0dHA6Ly93d3cudzMub3JnLzIwMDEvWE1MU2NoZW1hIj48RnJvbUV4cD48RXhwZWN0ZWRUeXBlPkE8L0V4cGVjdGVkVHlwZT48RGlyZWN0aW9uPkk8L0RpcmVjdGlvbj48L0Zyb21FeHA+PFRvRXhwPjxFeHBlY3RlZFR5cGU+QTwvRXhwZWN0ZWRUeXBlPjxEaXJlY3Rpb24+STwvRGlyZWN0aW9uPjwvVG9FeHA+PENjRXhwPjxFeHBlY3RlZFR5cGU+QTwvRXhwZWN0ZWRUeXBlPjxEaXJlY3Rpb24+STwvRGlyZWN0aW9uPjwvQ2NFeHA+PEJjY0V4cD48RXhwZWN0ZWRUeXBlPkE8L0V4cGVjdGVkVHlwZT48RGlyZWN0aW9uPkk8L0RpcmVjdGlvbj48L0JjY0V4cD48U3ViamVjdEV4cD48RXhwZWN0ZWRUeXBlPkE8L0V4cGVjdGVkVHlwZT48RGlyZWN0aW9uPkk8L0RpcmVjdGlvbj48L1N1YmplY3RFeHA+PEJvZHlFeHA+PEV4cGVjdGVkVHlwZT5BPC9FeHBlY3RlZFR5cGU+PERpcmVjdGlvbj5JPC9EaXJlY3Rpb24+PC9Cb2R5RXhwPjxSZXN1bHRYTUxFeHA+PEV4cHJlc3Npb25WYWw+UENNaEpVQWtQbWRsZEZaaGNrNWhiV1VvTWl3bk1EQXdNREF3TURBd01EQXdNREF3TURBd01EQXdNREF3TURBd01EQXdNREF3TURBd01EQTRKeXd3TERBcFBDTWhKVUFrUGc9PTwvRXhwcmVzc2lvblZhbD48UnVudGltZUV4cHJlc3Npb24+VTJWMFVHRnlZVzBnS0NkRExsVnpaWEpZVFV3bkxEd2tUVWRmVmtGTVZVVWtQaWs9PC9SdW50aW1lRXhwcmVzc2lvbj48RXhwZWN0ZWRUeXBlPkI8L0V4cGVjdGVkVHlwZT48RGlyZWN0aW9uPk88L0RpcmVjdGlvbj48L1Jlc3VsdFhNTEV4cD48TGVhdmVPblNlcnZlckV4cD48RXhwcmVzc2lvblZhbD5NUT09PC9FeHByZXNzaW9uVmFsPjxSdW50aW1lRXhwcmVzc2lvbj5NUT09PC9SdW50aW1lRXhwcmVzc2lvbj48RXhwZWN0ZWRUeXBlPk48L0V4cGVjdGVkVHlwZT48RGlyZWN0aW9uPkk8L0RpcmVjdGlvbj48L0xlYXZlT25TZXJ2ZXJFeHA+PEtlZXBBbGl2ZUludGVydmFsRXhwPjxFeHByZXNzaW9uVmFsPk1BPT08L0V4cHJlc3Npb25WYWw+PFJ1bnRpbWVFeHByZXNzaW9uPk1BPT08L1J1bnRpbWVFeHByZXNzaW9uPjxFeHBlY3RlZFR5cGU+TjwvRXhwZWN0ZWRUeXBlPjxEaXJlY3Rpb24+STwvRGlyZWN0aW9uPjwvS2VlcEFsaXZlSW50ZXJ2YWxFeHA+PFJldHJ5SW50ZXJ2YWxFeHA+PEV4cHJlc3Npb25WYWw+TXpBPTwvRXhwcmVzc2lvblZhbD48UnVudGltZUV4cHJlc3Npb24+TXpBPTwvUnVudGltZUV4cHJlc3Npb24+PEV4cGVjdGVkVHlwZT5OPC9FeHBlY3RlZFR5cGU+PERpcmVjdGlvbj5JPC9EaXJlY3Rpb24+PC9SZXRyeUludGVydmFsRXhwPjxOb09mQXR0ZW1wdHNFeHA+PEV4cHJlc3Npb25WYWw+TUE9PTwvRXhwcmVzc2lvblZhbD48UnVudGltZUV4cHJlc3Npb24+TUE9PTwvUnVudGltZUV4cHJlc3Npb24+PEV4cGVjdGVkVHlwZT5OPC9FeHBlY3RlZFR5cGU+PERpcmVjdGlvbj5JPC9EaXJlY3Rpb24+PC9Ob09mQXR0ZW1wdHNFeHA+PC9FbWFpbHNldHVwPg==</ActivationBLOB>
+      </ConfigInfo>
+    </row_Trigger>
+  </Triggers>
+  <TextElements>
+    <row_Element>
+      <ID>1</ID>
+      <AppID>0</AppID>
+      <Description>The Email component can be used as a Trigger with the Receive Method only. The Trigger in this flow listens for the POP3 Server address. This flow shows how to receive the emails in the UserXML without using any filters.</Description>
+      <TextLocation>Left</TextLocation>
+      <Font>1</Font>
+      <Color>12713983</Color>
+      <CallOutX>0</CallOutX>
+      <CallOutY>0</CallOutY>
+    </row_Element>
+    <row_Element>
+      <ID>2</ID>
+      <AppID>0</AppID>
+      <Description>Before configuring the Email component as a Trigger, you need to define an Email service in the Service Repository.
+</Description>
+      <TextLocation>Left</TextLocation>
+      <Font>2</Font>
+      <Color>12713983</Color>
+      <CallOutX>0</CallOutX>
+      <CallOutY>0</CallOutY>
+    </row_Element>
+    <row_Element>
+      <ID>3</ID>
+      <AppID>0</AppID>
+      <Description>The UserXML that is received from this Trigger can be used later on in the flow.</Description>
+      <TextLocation>Left</TextLocation>
+      <Font>3</Font>
+      <Color>12713983</Color>
+      <CallOutX>0</CallOutX>
+      <CallOutY>0</CallOutY>
+    </row_Element>
+  </TextElements>
+  <Struct_Scheduler xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" />
+</Flow>

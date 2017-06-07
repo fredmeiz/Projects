@@ -30,33 +30,21 @@
         <ID>22</ID>
         <Name>HTTP</Name>
       </Trigger>
+      <Trigger>
+        <ID>27</ID>
+        <Name>HTTP</Name>
+      </Trigger>
     </Flow>
     <Flow>
       <ID>3</ID>
-      <Name>BSFN+EMAIL</Name>
+      <Name>DirScan_CallFlow</Name>
       <Step>
         <ID>6</ID>
         <Name>BAM Utility</Name>
       </Step>
       <Step>
-        <ID>8</ID>
-        <Name>JD Edwards EnterpriseOne</Name>
-      </Step>
-      <Step>
-        <ID>9</ID>
-        <Name>File Management</Name>
-      </Step>
-      <Step>
-        <ID>11</ID>
-        <Name>Save Message</Name>
-      </Step>
-      <Step>
         <ID>14</ID>
         <Name>Data Mapper</Name>
-      </Step>
-      <Step>
-        <ID>15</ID>
-        <Name>Gmail</Name>
       </Step>
       <Trigger>
         <ID>5</ID>
@@ -66,62 +54,30 @@
     <Flow>
       <ID>4</ID>
       <Name>WebserviceTrigger_BSSV</Name>
-      <Step>
-        <ID>6</ID>
-        <Name>BAM Utility</Name>
-      </Step>
-      <Step>
-        <ID>12</ID>
-        <Name>Web Services</Name>
-      </Step>
-      <Step>
-        <ID>13</ID>
-        <Name>Data Mapper</Name>
-      </Step>
-      <Step>
-        <ID>16</ID>
-        <Name>File Management</Name>
-      </Step>
-      <Step>
-        <ID>24</ID>
-        <Name>Data Mapper</Name>
-      </Step>
-      <Trigger>
-        <ID>39</ID>
-        <Name>Web Services</Name>
-      </Trigger>
-      <Trigger>
-        <ID>40</ID>
-        <Name>Web Services</Name>
-      </Trigger>
     </Flow>
     <Flow>
       <ID>5</ID>
       <Name>GetAvailableQuantity</Name>
+    </Flow>
+    <Flow>
+      <ID>7</ID>
+      <Name>BSFN_EMAIL</Name>
       <Step>
-        <ID>6</ID>
-        <Name>BAM Utility</Name>
+        <ID>16</ID>
+        <Name>JD Edwards EnterpriseOne</Name>
       </Step>
       <Step>
-        <ID>13</ID>
+        <ID>17</ID>
+        <Name>File Management</Name>
+      </Step>
+      <Step>
+        <ID>18</ID>
+        <Name>Quick Send</Name>
+      </Step>
+      <Step>
+        <ID>19</ID>
         <Name>Data Mapper</Name>
       </Step>
-      <Step>
-        <ID>41</ID>
-        <Name>Web Services</Name>
-      </Step>
-      <Step>
-        <ID>42</ID>
-        <Name>Data Mapper</Name>
-      </Step>
-      <Trigger>
-        <ID>44</ID>
-        <Name>Web Services</Name>
-      </Trigger>
-      <Trigger>
-        <ID>47</ID>
-        <Name>Web Services</Name>
-      </Trigger>
     </Flow>
     <Flow>
       <ID>1</ID>

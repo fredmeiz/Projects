@@ -157,7 +157,7 @@
   <Resource_Element>
     <Main_Resource_ID>106</Main_Resource_ID>
     <Main_Resource_Name>Email</Main_Resource_Name>
-    <Default_Resource>GMAIL_SSL</Default_Resource>
+    <Default_Resource>Outlook</Default_Resource>
     <Main_Resource_Defintion>
       <Resource_Type_ID>3</Resource_Type_ID>
       <Resource_Type_Name>GMAIL_SSL</Resource_Type_Name>
@@ -323,6 +323,61 @@
         <ExpressionValue>workflow@MAGICXPI</ExpressionValue>
       </Resource_Properties>
     </Main_Resource_Defintion>
+    <Main_Resource_Defintion>
+      <Resource_Type_ID>10</Resource_Type_ID>
+      <Resource_Type_Name>Outlook</Resource_Type_Name>
+      <Resource_Type_Description />
+      <Resource_Properties>
+        <ID>1</ID>
+        <Name>Server Type</Name>
+        <ExpressionValue>2</ExpressionValue>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>10</ID>
+        <Name>Password</Name>
+        <ExpressionValue>qSL15/N97cM=</ExpressionValue>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>2</ID>
+        <Name>Incoming Mail Server</Name>
+        <ExpressionValue>%Mail_IncomingAddress%</ExpressionValue>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>3</ID>
+        <Name>Incoming Port</Name>
+        <ExpressionValue>%Mail_IncomingPort%</ExpressionValue>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>4</ID>
+        <Name>Incoming Secure Connection</Name>
+        <ExpressionValue>1</ExpressionValue>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>5</ID>
+        <Name>Outgoing Mail Server</Name>
+        <ExpressionValue>%Mail_OutgoingAddress%</ExpressionValue>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>6</ID>
+        <Name>Outgoing Port</Name>
+        <ExpressionValue>%Mail_OutgoingPort%</ExpressionValue>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>7</ID>
+        <Name>Outgoing Secure Connection</Name>
+        <ExpressionValue>2</ExpressionValue>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>8</ID>
+        <Name>From Address</Name>
+        <ExpressionValue>%Mail_FromAddress%</ExpressionValue>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>9</ID>
+        <Name>User</Name>
+        <ExpressionValue>%Mail_User%</ExpressionValue>
+      </Resource_Properties>
+    </Main_Resource_Defintion>
   </Resource_Element>
   <Resource_Element>
     <Main_Resource_ID>9000</Main_Resource_ID>
@@ -366,6 +421,96 @@
         <ID>3</ID>
         <Name>Password</Name>
         <ExpressionValue>xUUDhcC4lJk=</ExpressionValue>
+      </Resource_Properties>
+    </Main_Resource_Defintion>
+  </Resource_Element>
+  <Resource_Element>
+    <Main_Resource_ID>10000</Main_Resource_ID>
+    <Main_Resource_Name>Database</Main_Resource_Name>
+    <Default_Resource>JDE Database</Default_Resource>
+    <Main_Resource_Defintion>
+      <Resource_Type_ID>10</Resource_Type_ID>
+      <Resource_Type_Name>JDE Database</Resource_Type_Name>
+      <Resource_Type_Description />
+      <Resource_Properties>
+        <ID>1</ID>
+        <Name>DBMS</Name>
+        <ExpressionValue>14</ExpressionValue>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>10</ID>
+        <Name>Library/Schema Name</Name>
+        <ExpressionValue />
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>2</ID>
+        <Name>Database name</Name>
+        <ExpressionValue />
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>20</ID>
+        <Name>DataB name - sort (Lowercase)</Name>
+        <ExpressionValue />
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>22</ID>
+        <Name>Filter Owner</Name>
+        <ExpressionValue />
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>23</ID>
+        <Name>ODBC Driver Name</Name>
+        <ExpressionValue />
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>24</ID>
+        <Name>Filters data</Name>
+        <ExpressionValue />
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>25</ID>
+        <Name>Library Details</Name>
+        <ExpressionValue />
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>3</ID>
+        <Name>Server</Name>
+        <ExpressionValue />
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>4</ID>
+        <Name>Data Source name</Name>
+        <ExpressionValue />
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>5</ID>
+        <Name>Connect String</Name>
+        <ExpressionValue>JDEBWP</ExpressionValue>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>555</ID>
+        <Name>Offline</Name>
+        <ExpressionValue>False</ExpressionValue>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>6</ID>
+        <Name>Database alias</Name>
+        <ExpressionValue />
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>7</ID>
+        <Name>User</Name>
+        <ExpressionValue>CRPDTA</ExpressionValue>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>8</ID>
+        <Name>Password</Name>
+        <ExpressionValue>mKhMFOiH4hk=</ExpressionValue>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>9</ID>
+        <Name>Starting Owner</Name>
+        <ExpressionValue />
       </Resource_Properties>
     </Main_Resource_Defintion>
   </Resource_Element>

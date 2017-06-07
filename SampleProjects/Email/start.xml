@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Magicxpi_Startup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Projects>
+    <Project Name="Email" ProjectsDirPath="C:\Users\Administrator\Documents\Magic\Projects\SampleProjects\">
+      <Servers>
+        <Server host="MAGICXPI" alternateHosts="">
+          <ProjectsDirPath>
+          </ProjectsDirPath>
+          <NumberOfWorkers>10</NumberOfWorkers>
+          <NumberOfInstances>1</NumberOfInstances>
+          <Triggers load="true">
+          </Triggers>
+          <Scheduler load="true" />
+          <AutoStart load="true" />
+        </Server>
+      </Servers>
+    </Project>
+  </Projects>
+</Magicxpi_Startup>

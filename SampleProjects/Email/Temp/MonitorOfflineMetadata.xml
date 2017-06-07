@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProjectData projectKey="9d70d6af-e7b0-4c74-a9b3-aeaa1b52a7fe">
+  <BusinessProcess>
+    <ID>1</ID>
+    <Name>Working With Email IFC</Name>
+    <Flow>
+      <ID>1</ID>
+      <Name>Method</Name>
+      <Step>
+        <ID>2</ID>
+        <Name>Send Mail - QuickSend</Name>
+      </Step>
+      <Step>
+        <ID>10</ID>
+        <Name>Receive mail - Quick receive</Name>
+      </Step>
+      <Step>
+        <ID>12</ID>
+        <Name>Send Mail-Connect-Send-discon</Name>
+      </Step>
+      <Step>
+        <ID>13</ID>
+        <Name>Receive Mail-Connect Receive</Name>
+      </Step>
+      <Step>
+        <ID>14</ID>
+        <Name>NO Operations</Name>
+      </Step>
+      <Step>
+        <ID>15</ID>
+        <Name>Connect Receive output</Name>
+      </Step>
+    </Flow>
+    <Flow>
+      <ID>2</ID>
+      <Name>Main Flow</Name>
+      <Step>
+        <ID>1</ID>
+        <Name>Just For placeholder</Name>
+      </Step>
+      <Step>
+        <ID>4</ID>
+        <Name>Wait for 5 seconds</Name>
+      </Step>
+      <Step>
+        <ID>5</ID>
+        <Name>Invoke Method Interface</Name>
+      </Step>
+      <Step>
+        <ID>6</ID>
+        <Name>Invoke XML interface</Name>
+      </Step>
+    </Flow>
+    <Flow>
+      <ID>3</ID>
+      <Name>XML</Name>
+      <Step>
+        <ID>1</ID>
+        <Name>Using XML interface</Name>
+      </Step>
+      <Step>
+        <ID>2</ID>
+        <Name>Send Mail-Quick Send</Name>
+      </Step>
+      <Step>
+        <ID>8</ID>
+        <Name>Increase the counter</Name>
+      </Step>
+      <Step>
+        <ID>10</ID>
+        <Name>Retrive To/from address</Name>
+      </Step>
+      <Step>
+        <ID>11</ID>
+        <Name>Show Mail Details</Name>
+      </Step>
+      <Step>
+        <ID>12</ID>
+        <Name>Receive Mail - quick Receive</Name>
+      </Step>
+    </Flow>
+  </BusinessProcess>
+  <BusinessProcess>
+    <ID>2</ID>
+    <Name>Working with Email Trigger</Name>
+    <Flow>
+      <ID>4</ID>
+      <Name>Send Mail</Name>
+      <Step>
+        <ID>1</ID>
+        <Name>Check Number of iterations</Name>
+      </Step>
+      <Step>
+        <ID>2</ID>
+        <Name>Send Email</Name>
+      </Step>
+      <Step>
+        <ID>3</ID>
+        <Name>Delay</Name>
+      </Step>
+    </Flow>
+    <Flow>
+      <ID>5</ID>
+      <Name>Receive</Name>
+      <Step>
+        <ID>1</ID>
+        <Name>Retrive To/From address</Name>
+      </Step>
+      <Trigger>
+        <ID>1</ID>
+        <Name>Receive Email</Name>
+      </Trigger>
+    </Flow>
+    <Flow>
+      <ID>6</ID>
+      <Name>Receive Using Filters</Name>
+      <Step>
+        <ID>1</ID>
+        <Name>Extract Mail Details</Name>
+      </Step>
+      <Trigger>
+        <ID>1</ID>
+        <Name>Receive Email</Name>
+      </Trigger>
+    </Flow>
+  </BusinessProcess>
+</ProjectData>

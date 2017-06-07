@@ -2,7 +2,7 @@
 <BP>
   <ID>1</ID>
   <Name>Business Process-1</Name>
-  <FlowsSortOrder>1,2,3,4,5</FlowsSortOrder>
+  <FlowsSortOrder>1,2,3,4,5,7</FlowsSortOrder>
   <Properties>
     <ID>1</ID>
     <Order>0</Order>

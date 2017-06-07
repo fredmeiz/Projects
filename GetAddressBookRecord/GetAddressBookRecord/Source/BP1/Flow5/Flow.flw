@@ -4,7 +4,7 @@
     <ID>5</ID>
     <Order>5</Order>
     <Name>GetAvailableQuantity</Name>
-    <isInactive>false</isInactive>
+    <isInactive>true</isInactive>
     <isDisabled>false</isDisabled>
     <isTwoPhase>false</isTwoPhase>
     <isAutoStart>false</isAutoStart>
@@ -174,6 +174,7 @@
       </Properties>
       <MapperInfo>
         <DBTransLevel>Mapper</DBTransLevel>
+        <DBTransString />
         <ErrorHandling>Continue</ErrorHandling>
       </MapperInfo>
       <iBoltService />

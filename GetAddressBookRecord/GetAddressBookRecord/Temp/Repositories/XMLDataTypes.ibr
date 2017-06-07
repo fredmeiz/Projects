@@ -1,703 +1,803 @@
-﻿<?xml version="1.0" ?>
-<XMLDataTypeRepository xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <XMLDataType xsi:type="XMLDataTypesRepositoryItem">
+<?xml version="1.0" encoding="utf-8"?>
+<XMLDataTypeRepository>
+  <XMLDataType d2p1:type="XMLDataTypesRepositoryItem" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance">
+    <Description />
     <GUID>{E02443B2-8EB3-4CEF-BE5C-5499BE86F844}</GUID>
     <ID>0</ID>
-    <Order>1</Order>
     <Name>ENTITIES</Name>
-    <Description></Description>
-    <isInternal>1</isInternal>
+    <Order>1</Order>
+    <IsNameIncompatible>false</IsNameIncompatible>
     <Type>
       <Type>A</Type>
       <Picture>1000</Picture>
-      <isUnicode>0</isUnicode>
-      <isNillable>0</isNillable>
+      <isUnicode>false</isUnicode>
+      <isNillable>false</isNillable>
     </Type>
+    <isInternal>true</isInternal>
+    <FormatProxy>1000</FormatProxy>
   </XMLDataType>
-  <XMLDataType xsi:type="XMLDataTypesRepositoryItem">
+  <XMLDataType d2p1:type="XMLDataTypesRepositoryItem" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance">
+    <Description />
     <GUID>{0D6E9F54-FD28-4A39-910D-72CF0BD95B14}</GUID>
     <ID>0</ID>
-    <Order>2</Order>
     <Name>ENTITY</Name>
-    <Description></Description>
-    <isInternal>1</isInternal>
+    <Order>2</Order>
+    <IsNameIncompatible>false</IsNameIncompatible>
     <Type>
       <Type>A</Type>
       <Picture>1000</Picture>
-      <isUnicode>0</isUnicode>
-      <isNillable>0</isNillable>
+      <isUnicode>false</isUnicode>
+      <isNillable>false</isNillable>
     </Type>
+    <isInternal>true</isInternal>
+    <FormatProxy>1000</FormatProxy>
   </XMLDataType>
-  <XMLDataType xsi:type="XMLDataTypesRepositoryItem">
+  <XMLDataType d2p1:type="XMLDataTypesRepositoryItem" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance">
+    <Description />
     <GUID>{0E8B79AA-DAA6-474D-AD28-1B1FA026E3C6}</GUID>
     <ID>0</ID>
-    <Order>3</Order>
     <Name>ID</Name>
-    <Description></Description>
-    <isInternal>1</isInternal>
+    <Order>3</Order>
+    <IsNameIncompatible>false</IsNameIncompatible>
     <Type>
       <Type>A</Type>
       <Picture>100</Picture>
-      <isUnicode>0</isUnicode>
-      <isNillable>0</isNillable>
+      <isUnicode>false</isUnicode>
+      <isNillable>false</isNillable>
     </Type>
+    <isInternal>true</isInternal>
+    <FormatProxy>100</FormatProxy>
   </XMLDataType>
-  <XMLDataType xsi:type="XMLDataTypesRepositoryItem">
+  <XMLDataType d2p1:type="XMLDataTypesRepositoryItem" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance">
+    <Description />
     <GUID>{3C2E3F0C-2F1B-4003-BD1D-83EF81A0E726}</GUID>
     <ID>0</ID>
-    <Order>4</Order>
     <Name>IDREF</Name>
-    <Description></Description>
-    <isInternal>1</isInternal>
+    <Order>4</Order>
+    <IsNameIncompatible>false</IsNameIncompatible>
     <Type>
       <Type>A</Type>
       <Picture>100</Picture>
-      <isUnicode>0</isUnicode>
-      <isNillable>0</isNillable>
+      <isUnicode>false</isUnicode>
+      <isNillable>false</isNillable>
     </Type>
+    <isInternal>true</isInternal>
+    <FormatProxy>100</FormatProxy>
   </XMLDataType>
-  <XMLDataType xsi:type="XMLDataTypesRepositoryItem">
+  <XMLDataType d2p1:type="XMLDataTypesRepositoryItem" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance">
+    <Description />
     <GUID>{81063CE8-50FE-4488-8405-6D3A35997D2F}</GUID>
     <ID>0</ID>
-    <Order>5</Order>
     <Name>IDREFS</Name>
-    <Description></Description>
-    <isInternal>1</isInternal>
+    <Order>5</Order>
+    <IsNameIncompatible>false</IsNameIncompatible>
     <Type>
       <Type>A</Type>
       <Picture>100</Picture>
-      <isUnicode>0</isUnicode>
-      <isNillable>0</isNillable>
+      <isUnicode>false</isUnicode>
+      <isNillable>false</isNillable>
     </Type>
+    <isInternal>true</isInternal>
+    <FormatProxy>100</FormatProxy>
   </XMLDataType>
-  <XMLDataType xsi:type="XMLDataTypesRepositoryItem">
+  <XMLDataType d2p1:type="XMLDataTypesRepositoryItem" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance">
+    <Description />
     <GUID>{A1F90D7C-5A3F-4471-B699-B1EFD618D6E7}</GUID>
     <ID>0</ID>
-    <Order>6</Order>
     <Name>Language</Name>
-    <Description></Description>
-    <isInternal>1</isInternal>
+    <Order>6</Order>
+    <IsNameIncompatible>false</IsNameIncompatible>
     <Type>
       <Type>A</Type>
       <Picture>100</Picture>
-      <isUnicode>0</isUnicode>
-      <isNillable>0</isNillable>
+      <isUnicode>false</isUnicode>
+      <isNillable>false</isNillable>
     </Type>
+    <isInternal>true</isInternal>
+    <FormatProxy>100</FormatProxy>
   </XMLDataType>
-  <XMLDataType xsi:type="XMLDataTypesRepositoryItem">
+  <XMLDataType d2p1:type="XMLDataTypesRepositoryItem" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance">
+    <Description />
     <GUID>{EB68ED7B-A2F1-439C-AA06-E2E93C8B6CFB}</GUID>
     <ID>0</ID>
-    <Order>7</Order>
     <Name>NCNAME</Name>
-    <Description></Description>
-    <isInternal>1</isInternal>
+    <Order>7</Order>
+    <IsNameIncompatible>false</IsNameIncompatible>
     <Type>
       <Type>A</Type>
       <Picture>100</Picture>
-      <isUnicode>0</isUnicode>
-      <isNillable>0</isNillable>
+      <isUnicode>false</isUnicode>
+      <isNillable>false</isNillable>
     </Type>
+    <isInternal>true</isInternal>
+    <FormatProxy>100</FormatProxy>
   </XMLDataType>
-  <XMLDataType xsi:type="XMLDataTypesRepositoryItem">
+  <XMLDataType d2p1:type="XMLDataTypesRepositoryItem" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance">
+    <Description />
     <GUID>{45180216-72A8-4E0E-88D4-373FEAF7CE25}</GUID>
     <ID>0</ID>
-    <Order>8</Order>
     <Name>NMTOKEN</Name>
-    <Description></Description>
-    <isInternal>1</isInternal>
+    <Order>8</Order>
+    <IsNameIncompatible>false</IsNameIncompatible>
     <Type>
       <Type>A</Type>
       <Picture>100</Picture>
-      <isUnicode>0</isUnicode>
-      <isNillable>0</isNillable>
+      <isUnicode>false</isUnicode>
+      <isNillable>false</isNillable>
     </Type>
+    <isInternal>true</isInternal>
+    <FormatProxy>100</FormatProxy>
   </XMLDataType>
-  <XMLDataType xsi:type="XMLDataTypesRepositoryItem">
+  <XMLDataType d2p1:type="XMLDataTypesRepositoryItem" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance">
+    <Description />
     <GUID>{69D95224-26A6-4394-BE40-F8F1C304F36E}</GUID>
     <ID>0</ID>
-    <Order>9</Order>
     <Name>NOTATION</Name>
-    <Description></Description>
-    <isInternal>1</isInternal>
+    <Order>9</Order>
+    <IsNameIncompatible>false</IsNameIncompatible>
     <Type>
       <Type>A</Type>
       <Picture>1000</Picture>
-      <isUnicode>0</isUnicode>
-      <isNillable>0</isNillable>
+      <isUnicode>false</isUnicode>
+      <isNillable>false</isNillable>
     </Type>
+    <isInternal>true</isInternal>
+    <FormatProxy>1000</FormatProxy>
   </XMLDataType>
-  <XMLDataType xsi:type="XMLDataTypesRepositoryItem">
+  <XMLDataType d2p1:type="XMLDataTypesRepositoryItem" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance">
+    <Description />
     <GUID>{D43B93EC-F567-4BA9-ABDB-65CAF6FBF64D}</GUID>
     <ID>0</ID>
-    <Order>10</Order>
     <Name>Name</Name>
-    <Description></Description>
-    <isInternal>1</isInternal>
+    <Order>10</Order>
+    <IsNameIncompatible>false</IsNameIncompatible>
     <Type>
       <Type>A</Type>
       <Picture>100</Picture>
-      <isUnicode>0</isUnicode>
-      <isNillable>0</isNillable>
+      <isUnicode>false</isUnicode>
+      <isNillable>false</isNillable>
     </Type>
+    <isInternal>true</isInternal>
+    <FormatProxy>100</FormatProxy>
   </XMLDataType>
-  <XMLDataType xsi:type="XMLDataTypesRepositoryItem">
+  <XMLDataType d2p1:type="XMLDataTypesRepositoryItem" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance">
+    <Description />
     <GUID>{FCB2E61A-BCDB-49F3-B171-0D251D97EF0A}</GUID>
     <ID>0</ID>
-    <Order>11</Order>
     <Name>NegativeInteger</Name>
-    <Description></Description>
-    <isInternal>1</isInternal>
+    <Order>11</Order>
+    <IsNameIncompatible>false</IsNameIncompatible>
     <Type>
       <Type>N</Type>
       <Picture>10</Picture>
-      <isUnicode>0</isUnicode>
-      <isNillable>0</isNillable>
+      <isUnicode>false</isUnicode>
+      <isNillable>false</isNillable>
     </Type>
+    <isInternal>true</isInternal>
+    <FormatProxy>10</FormatProxy>
   </XMLDataType>
-  <XMLDataType xsi:type="XMLDataTypesRepositoryItem">
+  <XMLDataType d2p1:type="XMLDataTypesRepositoryItem" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance">
+    <Description />
     <GUID>{AD20C426-237B-4A8F-BF22-6AC548999F94}</GUID>
     <ID>0</ID>
-    <Order>12</Order>
     <Name>QName</Name>
-    <Description></Description>
-    <isInternal>1</isInternal>
+    <Order>12</Order>
+    <IsNameIncompatible>false</IsNameIncompatible>
     <Type>
       <Type>A</Type>
       <Picture>100</Picture>
-      <isUnicode>0</isUnicode>
-      <isNillable>0</isNillable>
+      <isUnicode>false</isUnicode>
+      <isNillable>false</isNillable>
     </Type>
+    <isInternal>true</isInternal>
+    <FormatProxy>100</FormatProxy>
   </XMLDataType>
-  <XMLDataType xsi:type="XMLDataTypesRepositoryItem">
+  <XMLDataType d2p1:type="XMLDataTypesRepositoryItem" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance">
+    <Description />
     <GUID>{241DA1FB-5A97-4A20-B7C7-2F89F0F15ACB}</GUID>
     <ID>0</ID>
-    <Order>13</Order>
     <Name>anyType</Name>
-    <Description></Description>
-    <isInternal>1</isInternal>
+    <Order>13</Order>
+    <IsNameIncompatible>false</IsNameIncompatible>
     <Type>
       <Type>A</Type>
       <Picture>1000</Picture>
-      <isUnicode>0</isUnicode>
-      <isNillable>0</isNillable>
+      <isUnicode>false</isUnicode>
+      <isNillable>false</isNillable>
     </Type>
+    <isInternal>true</isInternal>
+    <FormatProxy>1000</FormatProxy>
   </XMLDataType>
-  <XMLDataType xsi:type="XMLDataTypesRepositoryItem">
+  <XMLDataType d2p1:type="XMLDataTypesRepositoryItem" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance">
+    <Description />
     <GUID>{D0AB1C4D-56EE-4AB4-B436-2F90ADF57E33}</GUID>
     <ID>0</ID>
-    <Order>14</Order>
     <Name>anyURI</Name>
-    <Description></Description>
-    <isInternal>1</isInternal>
+    <Order>14</Order>
+    <IsNameIncompatible>false</IsNameIncompatible>
     <Type>
       <Type>A</Type>
       <Picture>100</Picture>
-      <isUnicode>0</isUnicode>
-      <isNillable>0</isNillable>
+      <isUnicode>false</isUnicode>
+      <isNillable>false</isNillable>
     </Type>
+    <isInternal>true</isInternal>
+    <FormatProxy>100</FormatProxy>
   </XMLDataType>
-  <XMLDataType xsi:type="XMLDataTypesRepositoryItem">
+  <XMLDataType d2p1:type="XMLDataTypesRepositoryItem" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance">
+    <Description />
     <GUID>{4DF27B04-E142-49A5-B8A7-14D258FF9051}</GUID>
     <ID>0</ID>
-    <Order>15</Order>
     <Name>base64Binary</Name>
-    <Description></Description>
-    <isInternal>1</isInternal>
+    <Order>15</Order>
+    <IsNameIncompatible>false</IsNameIncompatible>
     <Type>
       <Type>B</Type>
-      <Picture></Picture>
-      <isUnicode>0</isUnicode>
-      <isNillable>0</isNillable>
+      <Picture />
+      <isUnicode>false</isUnicode>
+      <isNillable>false</isNillable>
     </Type>
+    <isInternal>true</isInternal>
+    <FormatProxy />
   </XMLDataType>
-  <XMLDataType xsi:type="XMLDataTypesRepositoryItem">
+  <XMLDataType d2p1:type="XMLDataTypesRepositoryItem" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance">
+    <Description />
     <GUID>{FF210E1B-FBFD-4CD8-B4E7-37271DCFECFF}</GUID>
     <ID>0</ID>
-    <Order>16</Order>
     <Name>boolean</Name>
-    <Description></Description>
-    <isInternal>1</isInternal>
+    <Order>16</Order>
+    <IsNameIncompatible>false</IsNameIncompatible>
     <Type>
       <Type>L</Type>
       <Picture>5</Picture>
-      <isUnicode>0</isUnicode>
-      <isNillable>0</isNillable>
+      <isUnicode>false</isUnicode>
+      <isNillable>false</isNillable>
     </Type>
+    <isInternal>true</isInternal>
+    <FormatProxy>5</FormatProxy>
   </XMLDataType>
-  <XMLDataType xsi:type="XMLDataTypesRepositoryItem">
+  <XMLDataType d2p1:type="XMLDataTypesRepositoryItem" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance">
+    <Description />
     <GUID>{47C1615F-CB36-48A7-8232-05DB863EF444}</GUID>
     <ID>0</ID>
-    <Order>17</Order>
     <Name>byte</Name>
-    <Description></Description>
-    <isInternal>1</isInternal>
+    <Order>17</Order>
+    <IsNameIncompatible>false</IsNameIncompatible>
     <Type>
       <Type>N</Type>
       <Picture>4</Picture>
-      <isUnicode>0</isUnicode>
-      <isNillable>0</isNillable>
+      <isUnicode>false</isUnicode>
+      <isNillable>false</isNillable>
     </Type>
+    <isInternal>true</isInternal>
+    <FormatProxy>4</FormatProxy>
   </XMLDataType>
-  <XMLDataType xsi:type="XMLDataTypesRepositoryItem">
+  <XMLDataType d2p1:type="XMLDataTypesRepositoryItem" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance">
+    <Description />
     <GUID>{19B0170A-2236-4616-B390-8D3D1E45DA15}</GUID>
     <ID>0</ID>
-    <Order>18</Order>
     <Name>date</Name>
-    <Description></Description>
-    <isInternal>1</isInternal>
+    <Order>18</Order>
+    <IsNameIncompatible>false</IsNameIncompatible>
     <Type>
       <Type>D</Type>
       <Picture>YYYY-MM-DD</Picture>
-      <isUnicode>0</isUnicode>
-      <isNillable>0</isNillable>
+      <isUnicode>false</isUnicode>
+      <isNillable>false</isNillable>
     </Type>
+    <isInternal>true</isInternal>
+    <FormatProxy>YYYY-MM-DD</FormatProxy>
   </XMLDataType>
-  <XMLDataType xsi:type="XMLDataTypesRepositoryItem">
+  <XMLDataType d2p1:type="XMLDataTypesRepositoryItem" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance">
+    <Description />
     <GUID>{0EAA8F4A-8AFA-45E6-869D-B8D6F957D840}</GUID>
     <ID>0</ID>
-    <Order>19</Order>
     <Name>dateTime</Name>
-    <Description></Description>
-    <isInternal>1</isInternal>
+    <Order>19</Order>
+    <IsNameIncompatible>false</IsNameIncompatible>
     <Type>
       <Type>A</Type>
       <Picture>25</Picture>
-      <isUnicode>0</isUnicode>
-      <isNillable>0</isNillable>
+      <isUnicode>false</isUnicode>
+      <isNillable>false</isNillable>
     </Type>
+    <isInternal>true</isInternal>
+    <FormatProxy>25</FormatProxy>
   </XMLDataType>
-  <XMLDataType xsi:type="XMLDataTypesRepositoryItem">
+  <XMLDataType d2p1:type="XMLDataTypesRepositoryItem" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance">
+    <Description />
     <GUID>{2ADDB9FD-72C2-459B-987C-05D217A8DA7F}</GUID>
     <ID>0</ID>
-    <Order>20</Order>
     <Name>decimal</Name>
-    <Description></Description>
-    <isInternal>1</isInternal>
+    <Order>20</Order>
+    <IsNameIncompatible>false</IsNameIncompatible>
     <Type>
       <Type>N</Type>
       <Picture>10.2</Picture>
-      <isUnicode>0</isUnicode>
-      <isNillable>0</isNillable>
+      <isUnicode>false</isUnicode>
+      <isNillable>false</isNillable>
     </Type>
+    <isInternal>true</isInternal>
+    <FormatProxy>10.2</FormatProxy>
   </XMLDataType>
-  <XMLDataType xsi:type="XMLDataTypesRepositoryItem">
+  <XMLDataType d2p1:type="XMLDataTypesRepositoryItem" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance">
+    <Description />
     <GUID>{9BD2A766-6CFF-4880-92D2-FD3CD4F292EF}</GUID>
     <ID>0</ID>
-    <Order>21</Order>
     <Name>double</Name>
-    <Description></Description>
-    <isInternal>1</isInternal>
+    <Order>21</Order>
+    <IsNameIncompatible>false</IsNameIncompatible>
     <Type>
       <Type>N</Type>
       <Picture>10.2</Picture>
-      <isUnicode>0</isUnicode>
-      <isNillable>0</isNillable>
+      <isUnicode>false</isUnicode>
+      <isNillable>false</isNillable>
     </Type>
+    <isInternal>true</isInternal>
+    <FormatProxy>10.2</FormatProxy>
   </XMLDataType>
-  <XMLDataType xsi:type="XMLDataTypesRepositoryItem">
+  <XMLDataType d2p1:type="XMLDataTypesRepositoryItem" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance">
+    <Description />
     <GUID>{CF3BB03C-8B2E-4855-8901-1CD96F61E55D}</GUID>
     <ID>0</ID>
-    <Order>22</Order>
     <Name>duration</Name>
-    <Description></Description>
-    <isInternal>1</isInternal>
+    <Order>22</Order>
+    <IsNameIncompatible>false</IsNameIncompatible>
     <Type>
       <Type>A</Type>
       <Picture>100</Picture>
-      <isUnicode>0</isUnicode>
-      <isNillable>0</isNillable>
+      <isUnicode>false</isUnicode>
+      <isNillable>false</isNillable>
     </Type>
+    <isInternal>true</isInternal>
+    <FormatProxy>100</FormatProxy>
   </XMLDataType>
-  <XMLDataType xsi:type="XMLDataTypesRepositoryItem">
+  <XMLDataType d2p1:type="XMLDataTypesRepositoryItem" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance">
+    <Description />
     <GUID>{DE88EBF6-2358-4AA5-8A97-998837BD3973}</GUID>
     <ID>0</ID>
-    <Order>23</Order>
     <Name>float</Name>
-    <Description></Description>
-    <isInternal>1</isInternal>
+    <Order>23</Order>
+    <IsNameIncompatible>false</IsNameIncompatible>
     <Type>
       <Type>N</Type>
       <Picture>10.2</Picture>
-      <isUnicode>0</isUnicode>
-      <isNillable>0</isNillable>
+      <isUnicode>false</isUnicode>
+      <isNillable>false</isNillable>
     </Type>
+    <isInternal>true</isInternal>
+    <FormatProxy>10.2</FormatProxy>
   </XMLDataType>
-  <XMLDataType xsi:type="XMLDataTypesRepositoryItem">
+  <XMLDataType d2p1:type="XMLDataTypesRepositoryItem" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance">
+    <Description />
     <GUID>{FDD38A7B-7711-40C5-9D1E-56178D352F08}</GUID>
     <ID>0</ID>
-    <Order>24</Order>
     <Name>gDay</Name>
-    <Description></Description>
-    <isInternal>1</isInternal>
+    <Order>24</Order>
+    <IsNameIncompatible>false</IsNameIncompatible>
     <Type>
       <Type>A</Type>
       <Picture>100</Picture>
-      <isUnicode>0</isUnicode>
-      <isNillable>0</isNillable>
+      <isUnicode>false</isUnicode>
+      <isNillable>false</isNillable>
     </Type>
+    <isInternal>true</isInternal>
+    <FormatProxy>100</FormatProxy>
   </XMLDataType>
-  <XMLDataType xsi:type="XMLDataTypesRepositoryItem">
+  <XMLDataType d2p1:type="XMLDataTypesRepositoryItem" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance">
+    <Description />
     <GUID>{7B63991D-9A0C-48FD-A2B2-4060AC9B0621}</GUID>
     <ID>0</ID>
-    <Order>25</Order>
     <Name>gMonth</Name>
-    <Description></Description>
-    <isInternal>1</isInternal>
+    <Order>25</Order>
+    <IsNameIncompatible>false</IsNameIncompatible>
     <Type>
       <Type>A</Type>
       <Picture>100</Picture>
-      <isUnicode>0</isUnicode>
-      <isNillable>0</isNillable>
+      <isUnicode>false</isUnicode>
+      <isNillable>false</isNillable>
     </Type>
+    <isInternal>true</isInternal>
+    <FormatProxy>100</FormatProxy>
   </XMLDataType>
-  <XMLDataType xsi:type="XMLDataTypesRepositoryItem">
+  <XMLDataType d2p1:type="XMLDataTypesRepositoryItem" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance">
+    <Description />
     <GUID>{F41DC076-F4A6-46B5-8BFC-E99819D05CB5}</GUID>
     <ID>0</ID>
-    <Order>26</Order>
     <Name>gMonthDay</Name>
-    <Description></Description>
-    <isInternal>1</isInternal>
+    <Order>26</Order>
+    <IsNameIncompatible>false</IsNameIncompatible>
     <Type>
       <Type>A</Type>
       <Picture>100</Picture>
-      <isUnicode>0</isUnicode>
-      <isNillable>0</isNillable>
+      <isUnicode>false</isUnicode>
+      <isNillable>false</isNillable>
     </Type>
+    <isInternal>true</isInternal>
+    <FormatProxy>100</FormatProxy>
   </XMLDataType>
-  <XMLDataType xsi:type="XMLDataTypesRepositoryItem">
+  <XMLDataType d2p1:type="XMLDataTypesRepositoryItem" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance">
+    <Description />
     <GUID>{F4FD4368-03B2-4A50-8201-DE13085AF679}</GUID>
     <ID>0</ID>
-    <Order>27</Order>
     <Name>gYear</Name>
-    <Description></Description>
-    <isInternal>1</isInternal>
+    <Order>27</Order>
+    <IsNameIncompatible>false</IsNameIncompatible>
     <Type>
       <Type>A</Type>
       <Picture>100</Picture>
-      <isUnicode>0</isUnicode>
-      <isNillable>0</isNillable>
+      <isUnicode>false</isUnicode>
+      <isNillable>false</isNillable>
     </Type>
+    <isInternal>true</isInternal>
+    <FormatProxy>100</FormatProxy>
   </XMLDataType>
-  <XMLDataType xsi:type="XMLDataTypesRepositoryItem">
+  <XMLDataType d2p1:type="XMLDataTypesRepositoryItem" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance">
+    <Description />
     <GUID>{1C73EB49-2CE9-41DC-87AE-50E3AA9D7877}</GUID>
     <ID>0</ID>
-    <Order>28</Order>
     <Name>gYearMonth</Name>
-    <Description></Description>
-    <isInternal>1</isInternal>
+    <Order>28</Order>
+    <IsNameIncompatible>false</IsNameIncompatible>
     <Type>
       <Type>A</Type>
       <Picture>100</Picture>
-      <isUnicode>0</isUnicode>
-      <isNillable>0</isNillable>
+      <isUnicode>false</isUnicode>
+      <isNillable>false</isNillable>
     </Type>
+    <isInternal>true</isInternal>
+    <FormatProxy>100</FormatProxy>
   </XMLDataType>
-  <XMLDataType xsi:type="XMLDataTypesRepositoryItem">
+  <XMLDataType d2p1:type="XMLDataTypesRepositoryItem" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance">
+    <Description />
     <GUID>{FB78E1FA-E2EC-46A9-BF0E-03E9701540A4}</GUID>
     <ID>0</ID>
-    <Order>29</Order>
     <Name>hexBinary</Name>
-    <Description></Description>
-    <isInternal>1</isInternal>
+    <Order>29</Order>
+    <IsNameIncompatible>false</IsNameIncompatible>
     <Type>
       <Type>B</Type>
-      <Picture></Picture>
-      <isUnicode>0</isUnicode>
-      <isNillable>0</isNillable>
+      <Picture />
+      <isUnicode>false</isUnicode>
+      <isNillable>false</isNillable>
     </Type>
+    <isInternal>true</isInternal>
+    <FormatProxy />
   </XMLDataType>
-  <XMLDataType xsi:type="XMLDataTypesRepositoryItem">
+  <XMLDataType d2p1:type="XMLDataTypesRepositoryItem" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance">
+    <Description />
     <GUID>{2F1ABFB2-E043-45DB-A232-20A16DBEF120}</GUID>
     <ID>0</ID>
-    <Order>30</Order>
     <Name>int</Name>
-    <Description></Description>
-    <isInternal>1</isInternal>
+    <Order>30</Order>
+    <IsNameIncompatible>false</IsNameIncompatible>
     <Type>
       <Type>N</Type>
       <Picture>7</Picture>
-      <isUnicode>0</isUnicode>
-      <isNillable>0</isNillable>
+      <isUnicode>false</isUnicode>
+      <isNillable>false</isNillable>
     </Type>
+    <isInternal>true</isInternal>
+    <FormatProxy>7</FormatProxy>
   </XMLDataType>
-  <XMLDataType xsi:type="XMLDataTypesRepositoryItem">
+  <XMLDataType d2p1:type="XMLDataTypesRepositoryItem" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance">
+    <Description />
     <GUID>{3C4E64B6-B918-4F62-A257-19DE1FC201B0}</GUID>
     <ID>0</ID>
-    <Order>31</Order>
     <Name>integer</Name>
-    <Description></Description>
-    <isInternal>1</isInternal>
+    <Order>31</Order>
+    <IsNameIncompatible>false</IsNameIncompatible>
     <Type>
       <Type>N</Type>
       <Picture>9</Picture>
-      <isUnicode>0</isUnicode>
-      <isNillable>0</isNillable>
+      <isUnicode>false</isUnicode>
+      <isNillable>false</isNillable>
     </Type>
+    <isInternal>true</isInternal>
+    <FormatProxy>9</FormatProxy>
   </XMLDataType>
-  <XMLDataType xsi:type="XMLDataTypesRepositoryItem">
+  <XMLDataType d2p1:type="XMLDataTypesRepositoryItem" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance">
+    <Description />
     <GUID>{F77F3A6B-7858-4CEB-89C9-E18F399C1BF1}</GUID>
     <ID>0</ID>
-    <Order>32</Order>
     <Name>number</Name>
-    <Description></Description>
-    <isInternal>1</isInternal>
+    <Order>32</Order>
+    <IsNameIncompatible>false</IsNameIncompatible>
     <Type>
       <Type>N</Type>
       <Picture>10.2</Picture>
-      <isUnicode>0</isUnicode>
-      <isNillable>0</isNillable>
+      <isUnicode>false</isUnicode>
+      <isNillable>false</isNillable>
     </Type>
+    <isInternal>true</isInternal>
+    <FormatProxy>10.2</FormatProxy>
   </XMLDataType>
-<XMLDataType xsi:type="XMLDataTypesRepositoryItem">
+  <XMLDataType d2p1:type="XMLDataTypesRepositoryItem" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance">
+    <Description />
     <GUID>{45ABD160-AE46-4B1D-A7B9-AADE64524119}</GUID>
     <ID>0</ID>
-    <Order>33</Order>
     <Name>Null</Name>
-    <Description></Description>
-    <isInternal>1</isInternal>
+    <Order>33</Order>
+    <IsNameIncompatible>false</IsNameIncompatible>
     <Type>
       <Type>A</Type>
       <Picture>100</Picture>
-      <isUnicode>0</isUnicode>
-      <isNillable>0</isNillable>
+      <isUnicode>false</isUnicode>
+      <isNillable>false</isNillable>
     </Type>
+    <isInternal>true</isInternal>
+    <FormatProxy>100</FormatProxy>
   </XMLDataType>
-  <XMLDataType xsi:type="XMLDataTypesRepositoryItem">
+  <XMLDataType d2p1:type="XMLDataTypesRepositoryItem" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance">
+    <Description />
     <GUID>{571CA99C-A1C4-4497-AA0A-8E5D5AB7B851}</GUID>
     <ID>0</ID>
-    <Order>34</Order>
     <Name>long</Name>
-    <Description></Description>
-    <isInternal>1</isInternal>
+    <Order>34</Order>
+    <IsNameIncompatible>false</IsNameIncompatible>
     <Type>
       <Type>N</Type>
       <Picture>9</Picture>
-      <isUnicode>0</isUnicode>
-      <isNillable>0</isNillable>
+      <isUnicode>false</isUnicode>
+      <isNillable>false</isNillable>
     </Type>
+    <isInternal>true</isInternal>
+    <FormatProxy>9</FormatProxy>
   </XMLDataType>
-  <XMLDataType xsi:type="XMLDataTypesRepositoryItem">
+  <XMLDataType d2p1:type="XMLDataTypesRepositoryItem" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance">
+    <Description />
     <GUID>{D68DE200-94C0-4603-BB3D-0EE56E4C42B3}</GUID>
     <ID>0</ID>
-    <Order>35</Order>
     <Name>nonNegativeInteger</Name>
-    <Description></Description>
-    <isInternal>1</isInternal>
+    <Order>35</Order>
+    <IsNameIncompatible>false</IsNameIncompatible>
     <Type>
       <Type>N</Type>
       <Picture>9</Picture>
-      <isUnicode>0</isUnicode>
-      <isNillable>0</isNillable>
+      <isUnicode>false</isUnicode>
+      <isNillable>false</isNillable>
     </Type>
+    <isInternal>true</isInternal>
+    <FormatProxy>9</FormatProxy>
   </XMLDataType>
-  <XMLDataType xsi:type="XMLDataTypesRepositoryItem">
+  <XMLDataType d2p1:type="XMLDataTypesRepositoryItem" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance">
+    <Description />
     <GUID>{55A140C4-A63E-4A72-80FE-33618B534E7C}</GUID>
     <ID>0</ID>
-    <Order>36</Order>
     <Name>nonPositiveInteger</Name>
-    <Description></Description>
-    <isInternal>1</isInternal>
+    <Order>36</Order>
+    <IsNameIncompatible>false</IsNameIncompatible>
     <Type>
       <Type>N</Type>
       <Picture>9</Picture>
-      <isUnicode>0</isUnicode>
-      <isNillable>0</isNillable>
+      <isUnicode>false</isUnicode>
+      <isNillable>false</isNillable>
     </Type>
+    <isInternal>true</isInternal>
+    <FormatProxy>9</FormatProxy>
   </XMLDataType>
-  <XMLDataType xsi:type="XMLDataTypesRepositoryItem">
+  <XMLDataType d2p1:type="XMLDataTypesRepositoryItem" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance">
+    <Description />
     <GUID>{7AB3A791-DAF6-4BC4-A540-783372E6C9F2}</GUID>
     <ID>0</ID>
-    <Order>37</Order>
     <Name>normalizedString</Name>
-    <Description></Description>
-    <isInternal>1</isInternal>
+    <Order>37</Order>
+    <IsNameIncompatible>false</IsNameIncompatible>
     <Type>
       <Type>A</Type>
       <Picture>30</Picture>
-      <isUnicode>0</isUnicode>
-      <isNillable>0</isNillable>
+      <isUnicode>false</isUnicode>
+      <isNillable>false</isNillable>
     </Type>
+    <isInternal>true</isInternal>
+    <FormatProxy>30</FormatProxy>
   </XMLDataType>
-  <XMLDataType xsi:type="XMLDataTypesRepositoryItem">
+  <XMLDataType d2p1:type="XMLDataTypesRepositoryItem" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance">
+    <Description />
     <GUID>{389C5400-7A38-4E23-85D9-1D2E3E853103}</GUID>
     <ID>0</ID>
-    <Order>38</Order>
     <Name>positiveInteger</Name>
-    <Description></Description>
-    <isInternal>1</isInternal>
+    <Order>38</Order>
+    <IsNameIncompatible>false</IsNameIncompatible>
     <Type>
       <Type>N</Type>
       <Picture>9</Picture>
-      <isUnicode>0</isUnicode>
-      <isNillable>0</isNillable>
+      <isUnicode>false</isUnicode>
+      <isNillable>false</isNillable>
     </Type>
+    <isInternal>true</isInternal>
+    <FormatProxy>9</FormatProxy>
   </XMLDataType>
-  <XMLDataType xsi:type="XMLDataTypesRepositoryItem">
+  <XMLDataType d2p1:type="XMLDataTypesRepositoryItem" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance">
+    <Description />
     <GUID>{A0B0C748-9566-47AB-ACDE-D836DF735EF0}</GUID>
     <ID>0</ID>
-    <Order>39</Order>
     <Name>short</Name>
-    <Description></Description>
-    <isInternal>1</isInternal>
+    <Order>39</Order>
+    <IsNameIncompatible>false</IsNameIncompatible>
     <Type>
       <Type>N</Type>
       <Picture>9</Picture>
-      <isUnicode>0</isUnicode>
-      <isNillable>0</isNillable>
+      <isUnicode>false</isUnicode>
+      <isNillable>false</isNillable>
     </Type>
+    <isInternal>true</isInternal>
+    <FormatProxy>9</FormatProxy>
   </XMLDataType>
-  <XMLDataType xsi:type="XMLDataTypesRepositoryItem">
+  <XMLDataType d2p1:type="XMLDataTypesRepositoryItem" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance">
+    <Description />
     <GUID>{7B1A3D6E-8B88-427A-B4F0-9DAF625FAF87}</GUID>
     <ID>0</ID>
-    <Order>40</Order>
     <Name>string</Name>
-    <Description></Description>
-    <isInternal>1</isInternal>
+    <Order>40</Order>
+    <IsNameIncompatible>false</IsNameIncompatible>
     <Type>
       <Type>A</Type>
       <Picture>1000</Picture>
-      <isUnicode>0</isUnicode>
-      <isNillable>0</isNillable>
+      <isUnicode>false</isUnicode>
+      <isNillable>false</isNillable>
     </Type>
+    <isInternal>true</isInternal>
+    <FormatProxy>1000</FormatProxy>
   </XMLDataType>
-  <XMLDataType xsi:type="XMLDataTypesRepositoryItem">
+  <XMLDataType d2p1:type="XMLDataTypesRepositoryItem" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance">
+    <Description />
     <GUID>{E60BECC5-5ED5-4396-A57F-1166DFF90B72}</GUID>
     <ID>0</ID>
-    <Order>41</Order>
     <Name>time</Name>
-    <Description></Description>
-    <isInternal>1</isInternal>
+    <Order>41</Order>
+    <IsNameIncompatible>false</IsNameIncompatible>
     <Type>
       <Type>T</Type>
       <Picture>HH:MM:SS</Picture>
-      <isUnicode>0</isUnicode>
-      <isNillable>0</isNillable>
+      <isUnicode>false</isUnicode>
+      <isNillable>false</isNillable>
     </Type>
+    <isInternal>true</isInternal>
+    <FormatProxy>HH:MM:SS</FormatProxy>
   </XMLDataType>
-  <XMLDataType xsi:type="XMLDataTypesRepositoryItem">
+  <XMLDataType d2p1:type="XMLDataTypesRepositoryItem" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance">
+    <Description />
     <GUID>{14BAAEF3-0F1A-4F44-943B-8D26EFC6AA55}</GUID>
     <ID>0</ID>
-    <Order>42</Order>
     <Name>token</Name>
-    <Description></Description>
-    <isInternal>1</isInternal>
+    <Order>42</Order>
+    <IsNameIncompatible>false</IsNameIncompatible>
     <Type>
       <Type>A</Type>
       <Picture>100</Picture>
-      <isUnicode>0</isUnicode>
-      <isNillable>0</isNillable>
+      <isUnicode>false</isUnicode>
+      <isNillable>false</isNillable>
     </Type>
+    <isInternal>true</isInternal>
+    <FormatProxy>100</FormatProxy>
   </XMLDataType>
-  <XMLDataType xsi:type="XMLDataTypesRepositoryItem">
+  <XMLDataType d2p1:type="XMLDataTypesRepositoryItem" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance">
+    <Description />
     <GUID>{F0F0B6AC-E719-4B3C-AADA-CD47A9783361}</GUID>
     <ID>0</ID>
-    <Order>43</Order>
     <Name>unsignedByte</Name>
-    <Description></Description>
-    <isInternal>1</isInternal>
+    <Order>43</Order>
+    <IsNameIncompatible>false</IsNameIncompatible>
     <Type>
       <Type>N</Type>
       <Picture>9</Picture>
-      <isUnicode>0</isUnicode>
-      <isNillable>0</isNillable>
+      <isUnicode>false</isUnicode>
+      <isNillable>false</isNillable>
     </Type>
+    <isInternal>true</isInternal>
+    <FormatProxy>9</FormatProxy>
   </XMLDataType>
-  <XMLDataType xsi:type="XMLDataTypesRepositoryItem">
+  <XMLDataType d2p1:type="XMLDataTypesRepositoryItem" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance">
+    <Description />
     <GUID>{A40DAE30-761A-47C5-A9D3-12F2C6ADAC55}</GUID>
     <ID>0</ID>
-    <Order>44</Order>
     <Name>unsignedInt</Name>
-    <Description></Description>
-    <isInternal>1</isInternal>
+    <Order>44</Order>
+    <IsNameIncompatible>false</IsNameIncompatible>
     <Type>
       <Type>N</Type>
       <Picture>9</Picture>
-      <isUnicode>0</isUnicode>
-      <isNillable>0</isNillable>
+      <isUnicode>false</isUnicode>
+      <isNillable>false</isNillable>
     </Type>
+    <isInternal>true</isInternal>
+    <FormatProxy>9</FormatProxy>
   </XMLDataType>
-  <XMLDataType xsi:type="XMLDataTypesRepositoryItem">
+  <XMLDataType d2p1:type="XMLDataTypesRepositoryItem" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance">
+    <Description />
     <GUID>{4E9C734F-D17B-44FB-8873-31F6A3B2D056}</GUID>
     <ID>0</ID>
-    <Order>45</Order>
     <Name>unsignedLong</Name>
-    <Description></Description>
-    <isInternal>1</isInternal>
+    <Order>45</Order>
+    <IsNameIncompatible>false</IsNameIncompatible>
     <Type>
       <Type>N</Type>
       <Picture>9</Picture>
-      <isUnicode>0</isUnicode>
-      <isNillable>0</isNillable>
+      <isUnicode>false</isUnicode>
+      <isNillable>false</isNillable>
     </Type>
+    <isInternal>true</isInternal>
+    <FormatProxy>9</FormatProxy>
   </XMLDataType>
-  <XMLDataType xsi:type="XMLDataTypesRepositoryItem">
+  <XMLDataType d2p1:type="XMLDataTypesRepositoryItem" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance">
+    <Description />
     <GUID>{F07EDF28-9FEA-463F-B82A-1CE58EA8201D}</GUID>
     <ID>0</ID>
-    <Order>46</Order>
     <Name>unsignedShort</Name>
-    <Description></Description>
-    <isInternal>1</isInternal>
+    <Order>46</Order>
+    <IsNameIncompatible>false</IsNameIncompatible>
     <Type>
       <Type>N</Type>
       <Picture>9</Picture>
-      <isUnicode>0</isUnicode>
-      <isNillable>0</isNillable>
+      <isUnicode>false</isUnicode>
+      <isNillable>false</isNillable>
     </Type>
+    <isInternal>true</isInternal>
+    <FormatProxy>9</FormatProxy>
   </XMLDataType>
-  <XMLDataType xsi:type="XMLDataTypesRepositoryItem">
+  <XMLDataType d2p1:type="XMLDataTypesRepositoryItem" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance">
+    <Description />
     <GUID>{07AA766B-FC45-4E22-8F1A-9DE920DD8AD7}</GUID>
     <ID>0</ID>
-    <Order>47</Order>
     <Name>xs:any</Name>
-    <Description></Description>
-    <isInternal>1</isInternal>
+    <Order>47</Order>
+    <IsNameIncompatible>false</IsNameIncompatible>
     <Type>
       <Type>A</Type>
       <Picture>32000</Picture>
-      <isUnicode>0</isUnicode>
-      <isNillable>0</isNillable>
+      <isUnicode>false</isUnicode>
+      <isNillable>false</isNillable>
     </Type>
+    <isInternal>true</isInternal>
+    <FormatProxy>32000</FormatProxy>
   </XMLDataType>
-  <XMLDataType xsi:type="XMLDataTypesRepositoryItem">
+  <XMLDataType d2p1:type="XMLDataTypesRepositoryItem" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance">
+    <Description />
     <GUID>{7B80EAD7-2A34-46F6-A883-77041691D544}</GUID>
     <ID>0</ID>
-    <Order>48</Order>
     <Name>anySimple</Name>
-    <Description></Description>
-    <isInternal>1</isInternal>
+    <Order>48</Order>
+    <IsNameIncompatible>false</IsNameIncompatible>
     <Type>
       <Type>A</Type>
       <Picture>1000</Picture>
-      <isUnicode>0</isUnicode>
-      <isNillable>0</isNillable>
+      <isUnicode>false</isUnicode>
+      <isNillable>false</isNillable>
     </Type>
+    <isInternal>true</isInternal>
+    <FormatProxy>1000</FormatProxy>
   </XMLDataType>
-  <XMLDataType xsi:type="XMLDataTypesRepositoryItem">
+  <XMLDataType d2p1:type="XMLDataTypesRepositoryItem" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance">
+    <Description />
     <GUID>{7E223C9F-9577-4498-A429-01476BFECC5F}</GUID>
     <ID>0</ID>
-    <Order>49</Order>
     <Name>anySimpleType</Name>
-    <Description></Description>
-    <isInternal>1</isInternal>
+    <Order>49</Order>
+    <IsNameIncompatible>false</IsNameIncompatible>
     <Type>
       <Type>A</Type>
       <Picture>1000</Picture>
-      <isUnicode>0</isUnicode>
-      <isNillable>0</isNillable>
+      <isUnicode>false</isUnicode>
+      <isNillable>false</isNillable>
     </Type>
+    <isInternal>true</isInternal>
+    <FormatProxy>1000</FormatProxy>
   </XMLDataType>
-  <XMLDataType xsi:type="XMLDataTypesRepositoryItem">
+  <XMLDataType d2p1:type="XMLDataTypesRepositoryItem" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance">
+    <Description />
     <GUID>{6B4F81A5-6F3A-4AA7-BEBA-51B9C9A0B6F5}</GUID>
     <ID>0</ID>
-    <Order>50</Order>
     <Name>anyAtomicType</Name>
-    <Description></Description>
-    <isInternal>1</isInternal>
+    <Order>50</Order>
+    <IsNameIncompatible>false</IsNameIncompatible>
     <Type>
       <Type>A</Type>
       <Picture>1000</Picture>
-      <isUnicode>0</isUnicode>
-      <isNillable>0</isNillable>
+      <isUnicode>false</isUnicode>
+      <isNillable>false</isNillable>
     </Type>
+    <isInternal>true</isInternal>
+    <FormatProxy>1000</FormatProxy>
   </XMLDataType>
 </XMLDataTypeRepository>

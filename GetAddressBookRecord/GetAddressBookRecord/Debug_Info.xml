@@ -28,7 +28,42 @@
     </DebuggerInstruction>
     <DebuggerInstruction>
       <bpID>1</bpID>
-      <flowID>1</flowID>
+      <flowID>4</flowID>
+      <stepID>6</stepID>
+      <isGoToStep>false</isGoToStep>
+      <sourceStepID>0</sourceStepID>
+      <sortOrder>0</sortOrder>
+      <Type>Breakpoint</Type>
+      <BreakPointCondition>
+        <ExpectedType>L</ExpectedType>
+        <Direction>I</Direction>
+      </BreakPointCondition>
+    </DebuggerInstruction>
+    <DebuggerInstruction>
+      <bpID>1</bpID>
+      <flowID>7</flowID>
+      <stepID>17</stepID>
+      <isGoToStep>false</isGoToStep>
+      <sourceStepID>0</sourceStepID>
+      <sortOrder>1</sortOrder>
+      <Type>Breakpoint</Type>
+      <BreakPointCondition>
+        <ExpectedType>L</ExpectedType>
+        <Direction>I</Direction>
+      </BreakPointCondition>
+    </DebuggerInstruction>
+    <DebuggerInstruction>
+      <bpID>1</bpID>
+      <flowID>7</flowID>
+      <stepID>0</stepID>
+      <isGoToStep>false</isGoToStep>
+      <sourceStepID>0</sourceStepID>
+      <sortOrder>0</sortOrder>
+      <Type>SuspendFlow</Type>
+    </DebuggerInstruction>
+    <DebuggerInstruction>
+      <bpID>1</bpID>
+      <flowID>3</flowID>
       <stepID>0</stepID>
       <isGoToStep>false</isGoToStep>
       <sourceStepID>0</sourceStepID>
